@@ -5,7 +5,8 @@
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant none
 // 2024-05-17
-// https://violentmonkey.github.io/api/metadata-block#icon
+// 1) https://violentmonkey.github.io/api/metadata-block#icon
+// 2) https://github.com/violentmonkey/violentmonkey.github.io/blob/587d6569/content/api/metadata-block.md#icon
 // @icon https://www.redditstatic.com/shreddit/assets/favicon/192x192.png
 // 2024-05-17
 // 1.1) https://violentmonkey.github.io/api/metadata-block#match--exclude-match
