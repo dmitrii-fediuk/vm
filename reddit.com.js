@@ -16,6 +16,5 @@
 // 1) https://violentmonkey.github.io/api/metadata-block#name
 // 2) https://github.com/violentmonkey/violentmonkey.github.io/blob/587d6569/content/api/metadata-block.md#name
 // @name reddit.com
-// @version 0.0.1
 // ==/UserScript==
 console.log('TEST 2');
