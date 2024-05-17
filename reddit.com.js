@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        New script reddit.com
+// @name        reddit.com
 // @namespace   Violentmonkey Scripts
 // @match       https://www.reddit.com/r/Bedding/comments/xkmrtq/is_supima_cotton_all_hype_or_actually_a_real_thing/*
 // @grant       none
