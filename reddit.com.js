@@ -3,6 +3,8 @@
 // 2) https://github.com/violentmonkey/violentmonkey.github.io/blob/587d6569/content/api/metadata-block.md#repos-sticky-header
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
+// 2024-05-20
+// @grant GM_addStyle
 // 2024-05-17
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/reddit.com.js
 // 2024-05-17
@@ -21,4 +23,7 @@
 // 2) https://github.com/violentmonkey/violentmonkey.github.io/blob/587d6569/content/api/metadata-block.md#name
 // @name reddit.com
 // ==/UserScript==
-console.log('TEST 2');
+// 2024-05-20
+// 1) https://violentmonkey.github.io/api/gm#gm_addstyle
+// 2) https://github.com/violentmonkey/violentmonkey.github.io/blob/587d6569/content/api/gm.md#gm_addstyle
+GM_addStyle('main {max-width: 100% !important;}');
