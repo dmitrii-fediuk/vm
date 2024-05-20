@@ -4,6 +4,8 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // 2024-05-20
+// 1) https://violentmonkey.github.io/api/metadata-block#grant
+// 2) https://github.com/violentmonkey/violentmonkey.github.io/blob/587d6569/content/api/metadata-block.md#grant
 // @grant GM_addStyle
 // 2024-05-17
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/reddit.com.js
