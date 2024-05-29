@@ -13,3 +13,5 @@
 // 2) https://www.jetbrains.com/help/idea/using-language-injections.html#use-language-injection-comments
 // language=CSS
 GM_addStyle('.lia-quilt-column-atl-message-view-main {padding: 0 !important; width: 100% !important;}');
+// language=CSS
+GM_addStyle('.QandAQuestionPage .lia-message-body-content {max-width: none !important;}');
