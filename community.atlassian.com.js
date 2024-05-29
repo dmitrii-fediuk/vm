@@ -12,4 +12,4 @@
 // 1.2) https://github.com/violentmonkey/violentmonkey.github.io/blob/587d6569/content/api/gm.md#gm_addstyle
 // 2) https://www.jetbrains.com/help/idea/using-language-injections.html#use-language-injection-comments
 // language=CSS
-GM_addStyle('.lia-quilt-column-atl-message-view-main {width: 100% !important;}');
+GM_addStyle('.lia-quilt-column-atl-message-view-main {padding: 0; width: 100% !important;}');
