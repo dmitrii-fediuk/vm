@@ -2,7 +2,7 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/community.atlassian.com.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Stack_Exchange.js
 // @icon https://cdn.sstatic.net/Sites/stackexchange/Img/apple-touch-icon.png
 // @match *://*.stackexchange.com/*
 // @match *://askubuntu.com/*

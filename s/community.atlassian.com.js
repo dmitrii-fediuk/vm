@@ -2,7 +2,7 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/community.atlassian.com.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/community.atlassian.com.js
 // @icon https://community.atlassian.com/html/@0601DBABBD46E593B9DCC88D6227A033/assets/apple-touch-icon.svg
 // @match *://community.atlassian.com/*
 // @name community.atlassian.com
