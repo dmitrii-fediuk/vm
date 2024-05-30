@@ -7,10 +7,6 @@
 // @match *://community.atlassian.com/*
 // @name community.atlassian.com
 // ==/UserScript==
-// 2024-05-20
-// 1.1) https://violentmonkey.github.io/api/gm#gm_addstyle
-// 1.2) https://github.com/violentmonkey/violentmonkey.github.io/blob/587d6569/content/api/gm.md#gm_addstyle
-// 2) https://www.jetbrains.com/help/idea/using-language-injections.html#use-language-injection-comments
 // language=CSS
 GM_addStyle('.lia-quilt-column-atl-message-view-main {padding: 0 !important; width: 100% !important;}');
 // language=CSS
