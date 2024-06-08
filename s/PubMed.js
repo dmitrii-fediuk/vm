@@ -13,6 +13,8 @@ GM_addStyle('main#article-details {float: none !important; width: 100% !importan
 // language=CSS
 GM_addStyle('#article-page {width: auto !important;}');
 // language=CSS
+GM_addStyle('.article-page #heading {margin-bottom: 1rem !important;}');
+// language=CSS
 GM_addStyle('.article-page #abstract {margin: 0 !important;}');
 // language=CSS
 GM_addStyle('.article-page #abstract > h2.title {margin: 0 !important;}');
