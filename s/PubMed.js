@@ -19,6 +19,8 @@ GM_addStyle('.article-page #abstract {margin: 0 !important;}');
 // language=CSS
 GM_addStyle('.article-page #abstract > h2.title {margin: 0 !important;}');
 // language=CSS
+GM_addStyle('.article-page #abstract p:first-of-type {margin-top: 0 !important;}');
+// language=CSS
 GM_addStyle('@media screen and (min-width: 1020px) {.search-form > .inner-wrap {padding: 0;}}');
 // language=CSS
 GM_addStyle('.search-page > .inner-wrap {width: initial;}');
