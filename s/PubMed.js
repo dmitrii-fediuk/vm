@@ -9,8 +9,10 @@
 // 2024-06-08 "Hide the right sidebar from PubMed": https://github.com/dmitrii-fediuk/adblock/issues/48
 // language=CSS
 GM_addStyle('main#article-details {float: none !important; width: 100% !important;}');
-// 2024-06-08 "Improve PubMed articles appearance": https://github.com/dmitrii-fediuk/vm/issues/1
+// 2024-06-08 "Improve PubMed appearance": https://github.com/dmitrii-fediuk/vm/issues/1
 // language=CSS
 GM_addStyle('#article-page {width: auto !important;}');
 // language=CSS
 GM_addStyle('@media screen and (min-width: 1020px) {.search-form > .inner-wrap {padding: 0;}}');
+// language=CSS
+GM_addStyle('.search-page > .inner-wrap {width: initial;}');
