@@ -12,3 +12,5 @@ GM_addStyle('main#article-details {float: none !important; width: 100% !importan
 // 2024-06-08 "Improve PubMed articles appearance": https://github.com/dmitrii-fediuk/vm/issues/1
 // language=CSS
 GM_addStyle('#article-page {width: auto !important;}');
+// language=CSS
+GM_addStyle('@media screen and (min-width: 1020px) {.search-form > .inner-wrap {padding: 0;}}');
