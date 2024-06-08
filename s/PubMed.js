@@ -16,3 +16,5 @@ GM_addStyle('#article-page {width: auto !important;}');
 GM_addStyle('@media screen and (min-width: 1020px) {.search-form > .inner-wrap {padding: 0;}}');
 // language=CSS
 GM_addStyle('.search-page > .inner-wrap {width: initial;}');
+// language=CSS
+GM_addStyle('#search-results {width: calc(100% - 260px);}');
