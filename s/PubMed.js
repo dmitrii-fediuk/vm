@@ -30,5 +30,6 @@ GM_addStyle('#search-results {width: calc(100% - 260px);}');
 // 1) "Hide the search form from article pages on PubMed": https://github.com/dmitrii-fediuk/vm/issues/2
 // 2) https://stackoverflow.com/a/15503444
 // 3) `pubmed.ncbi.nlm.nih.gov#?#FORM:-abp-has(+ [id="article-page-header"])` does not work in AdBlock (for an unknown reason).
+// 2024-06-24 https://caniuse.com/css-has
 // language=CSS
 GM_addStyle('#search-form:has(+ #article-page-header) {display: none !important;}');
