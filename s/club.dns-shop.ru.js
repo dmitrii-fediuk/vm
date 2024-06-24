@@ -8,4 +8,4 @@
 // ==/UserScript==
 // 2024-06-24 "Improve `club.dns-shop.ru`": https://github.com/dmitrii-fediuk/vm/issues/6
 // language=CSS
-GM_addStyle('header, .bg-gradHeader {display: none;}');
+GM_addStyle('.post-page__content {max-width: initial;}');
