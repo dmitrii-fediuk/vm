@@ -35,4 +35,4 @@ GM_addStyle('main {max-width: 100% !important;}');
 // 1) "Hide the search form from Reddit": https://github.com/dmitrii-fediuk/vm/issues/7
 // 2) https://caniuse.com/css-has
 // language=CSS
-GM_addStyle('div.justify-stretch:has(> div > div > search-dynamic-id-cache-controller]) {display: none !important;}');
+GM_addStyle('div.justify-stretch:has(> div > div > search-dynamic-id-cache-controller) {display: none !important;}');
