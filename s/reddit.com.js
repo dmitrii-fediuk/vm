@@ -31,3 +31,6 @@
 // 2) https://www.jetbrains.com/help/idea/using-language-injections.html#use-language-injection-comments
 // language=CSS
 GM_addStyle('main {max-width: 100% !important;}');
+// 2024-06-24
+// "Hide the search form from Reddit": https://github.com/dmitrii-fediuk/vm/issues/7
+GM_addStyle('div.justify-stretch:has(> div > div > search-dynamic-id-cache-controller]) {display: none;}');
