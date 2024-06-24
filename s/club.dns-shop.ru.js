@@ -11,4 +11,5 @@
 GM_addStyle('.post-page__content {max-width: initial;}');
 // language=CSS
 GM_addStyle('.sidebar-space {display: none;}');
-
+// language=CSS
+GM_addStyle('.post-page {padding: 0;}');
