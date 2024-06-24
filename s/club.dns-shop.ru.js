@@ -2,7 +2,7 @@
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/club.dns-shop.ru.js
-// @icon https://data.tuik.gov.tr/img/favicon.ico
+// @icon https://club.dns-shop.ru/favicon.svg
 // @match *://club.dns-shop.ru/*
 // @name club.dns-shop.ru
 // ==/UserScript==
