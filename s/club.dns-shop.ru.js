@@ -12,6 +12,6 @@ GM_addStyle('.post-page {padding: 0;}');
 // language=CSS
 GM_addStyle('.post-page__content {max-width: initial;}');
 // language=CSS
-GM_addStyle('.post-page__cover {padding: 0;}');
+GM_addStyle('.post-page__cover {padding: 0 1em;}');
 // language=CSS
 GM_addStyle('.sidebar-space {display: none;}');
