@@ -8,4 +8,4 @@
 // ==/UserScript==
 // 2024-07-17 "Prevent the header from sticking on `digitalocean.com`": https://github.com/dmitrii-fediuk/vm/issues/10
 // language=CSS
-GM_addStyle('div[class*="HeaderStyles__StyledHeader"] {position: absolute !important;}');
+GM_addStyle('div[class^="HeaderStyles__StyledHeader"], div[class*="HeaderStyles__StyledHeader"] {position: absolute !important;}');
