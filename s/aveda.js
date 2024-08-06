@@ -7,7 +7,9 @@
 // @match *://www.aveda.com.tr/*
 // @name Aveda
 // ==/UserScript==
-// 2024-08-06 "Prevent the header from sticking on `aveda.com.tr`": https://github.com/dmitrii-fediuk/vm/issues/12
+// 2024-08-06
+// 1) "Prevent the header from sticking on `aveda.com.tr`": https://github.com/dmitrii-fediuk/vm/issues/12
+// 2) "Prevent the header from sticking on `aveda.com`": https://github.com/dmitrii-fediuk/vm/issues/14
 // language=CSS
 GM_addStyle('.site-header__main {position: initial !important;}');
 // 2024-08-06
