@@ -32,3 +32,5 @@ GM_addStyle('.product-full__image-wrapper--has-carousel {display: none !importan
 // "Improve the product pages appearance on `aveda.com` / `aveda.com.tr`": https://github.com/dmitrii-fediuk/vm/issues/19
 // language=CSS
 GM_addStyle('.product-full__details {margin-top: 0 !important; padding-top: 0 !important;}');
+// language=CSS
+GM_addStyle('.product-full__misc-flag {min-height: 0 !important;}');
