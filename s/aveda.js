@@ -1,7 +1,7 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/aveda.com.tr.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/aveda.js
 // @icon https://www.aveda.com.tr/sites/aveda/themes/aveda_base/favicon.ico
 // @match *://www.aveda.com/*
 // @match *://www.aveda.com.tr/*
