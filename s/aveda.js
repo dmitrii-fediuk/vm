@@ -24,3 +24,7 @@ GM_addStyle('body.page-product > header {display: none !important;}');
 GM_addStyle('.product-full {padding-top: 0 !important;}');
 // language=CSS
 GM_addStyle('.product-full__image-wrapper, .product-full__breadcrumb {margin-top: 0 !important;}');
+// 2024-08-06
+// "Hide the slideshow from product pages on `aveda.com` / `aveda.com.tr`": https://github.com/dmitrii-fediuk/vm/issues/18
+// language=CSS
+GM_addStyle('.product-full__image-wrapper--has-carousel {display: none !important;}');
