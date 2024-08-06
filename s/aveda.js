@@ -17,3 +17,6 @@ GM_addStyle('.is-sticky {position: initial !important;}');
 // 2) "Prevent the header from sticking on `aveda.com`": https://github.com/dmitrii-fediuk/vm/issues/14
 // language=CSS
 GM_addStyle('.site-header__main {position: initial !important;}');
+// 2024-08-06 "Hide the header from product pages on `aveda.com` / `aveda.com.tr`": https://github.com/dmitrii-fediuk/vm/issues/16
+// language=CSS
+GM_addStyle('body.page-product > header {display: none !important;}');
