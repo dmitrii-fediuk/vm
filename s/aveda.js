@@ -29,4 +29,4 @@ GM_addStyle('.product-full__image-wrapper, .product-full__breadcrumb {margin-top
 // language=CSS
 GM_addStyle('.product-full__image-wrapper--has-carousel {display: none !important;}');
 // language=CSS
-GM_addStyle('.product-full__details {margin-top: 0 !important;}');
+GM_addStyle('.product-full__details {margin-top: 0 !important; padding-top: 0 !important;}');
