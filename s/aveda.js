@@ -20,3 +20,5 @@ GM_addStyle('.site-header__main {position: initial !important;}');
 // 2024-08-06 "Hide the header from product pages on `aveda.com` / `aveda.com.tr`": https://github.com/dmitrii-fediuk/vm/issues/16
 // language=CSS
 GM_addStyle('body.page-product > header {display: none !important;}');
+// language=CSS
+GM_addStyle('.product-full {padding-top: 0 !important;}');
