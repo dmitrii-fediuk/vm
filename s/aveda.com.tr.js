@@ -5,7 +5,7 @@
 // @icon https://www.aveda.com.tr/sites/aveda/themes/aveda_base/favicon.ico
 // @match *://www.aveda.com/*
 // @match *://www.aveda.com.tr/*
-// @name aveda.com.tr
+// @name Aveda
 // ==/UserScript==
 // 2024-08-06 "Prevent the header from sticking on `aveda.com.tr`": https://github.com/dmitrii-fediuk/vm/issues/12
 // language=CSS
