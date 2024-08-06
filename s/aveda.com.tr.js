@@ -9,3 +9,6 @@
 // 2024-08-06 "Prevent the header from sticking on `aveda.com.tr`": https://github.com/dmitrii-fediuk/vm/issues/12
 // language=CSS
 GM_addStyle('.site-header__main {position: initial !important;}');
+// 2024-08-06 "Prevent the footer from sticking on `aveda.com.tr`": https://github.com/dmitrii-fediuk/vm/issues/13
+// language=CSS
+GM_addStyle('.footer--sticky.is-sticky {position: initial !important;}');
