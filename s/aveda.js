@@ -22,3 +22,5 @@ GM_addStyle('.site-header__main {position: initial !important;}');
 GM_addStyle('body.page-product > header {display: none !important;}');
 // language=CSS
 GM_addStyle('.product-full {padding-top: 0 !important;}');
+// language=CSS
+GM_addStyle('.product-full__image-wrapper {margin-top: 0 !important;}');
