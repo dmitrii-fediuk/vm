@@ -9,3 +9,6 @@
 // 2024-08-07 "Prevent the header from sticking on `trustpilot.com`": https://github.com/dmitrii-fediuk/vm/issues/20
 // language=CSS
 GM_addStyle('[class*="styles_wrapSticky"], [class*="styles_isFixed"] {position: initial !important;}');
+// 2024-08-07 "Hide the right sidebar from `trustpilot.com`": https://github.com/dmitrii-fediuk/vm/issues/21
+// language=CSS
+GM_addStyle('[class^="styles_mainContent"] > aside {display: none !important;}');
