@@ -8,4 +8,4 @@
 // ==/UserScript==
 // 2024-08-07 "Prevent the header from sticking on `trustpilot.com`": https://github.com/dmitrii-fediuk/vm/issues/20
 // language=CSS
-GM_addStyle('[class*="styles_wrapSticky"] {position: initial !important;}');
+GM_addStyle('[class*="styles_wrapSticky"], [class*="styles_isFixed"] {position: initial !important;}');
