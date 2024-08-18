@@ -11,6 +11,8 @@
 GM_addStyle('#article-header, .header-holder, #site-user-feedback-footer, section:has(> footer), #user-feedback {' +
 	'display: none !important;' +
 '}');
+// language=CSS
+GM_addStyle('.columns.has-large-gaps {margin: 0 !important;}');
 // 2024-08-18 "Hide the left sidebar from `learn.microsoft.com`: https://github.com/dmitrii-fediuk/adblock/issues/83
 // language=CSS
 GM_addStyle('#left-container {display: none !important;}');
