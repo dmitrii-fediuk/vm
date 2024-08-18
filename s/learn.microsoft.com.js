@@ -12,6 +12,10 @@ GM_addStyle('.header-holder {display: none !important;}');
 // 2024-08-18 "Hide the left sidebar from `learn.microsoft.com`: https://github.com/dmitrii-fediuk/adblock/issues/83
 // language=CSS
 GM_addStyle('#left-container {display: none !important;}');
+// 2023-10-19, 2024-08-18
+// "Hide the «Additional resources» column from learn.microsoft.com": https://github.com/dmitrii-fediuk/adblock/issues/83
+// language=CSS
+GM_addStyle('#ms--additional-resources {display: none !important;}');
 // 2024-08-18
 // 1) "Improve articles appearance on `learn.microsoft.com`": https://github.com/dmitrii-fediuk/vm/issues/23
 // 2) "Hide the left sidebar from `learn.microsoft.com`: https://github.com/dmitrii-fediuk/adblock/issues/83
