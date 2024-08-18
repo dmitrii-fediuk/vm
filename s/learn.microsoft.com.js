@@ -2,7 +2,7 @@
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/learn.microsoft.com.js
-// @icon https://learn.microsoft.com/en-us/media/open-graph-image.png
+// @icon https://www.microsoft.com/favicon.ico?v2
 // @match *://learn.microsoft.com/*
 // @name learn.microsoft.com
 // ==/UserScript==
