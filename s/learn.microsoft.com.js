@@ -25,4 +25,4 @@ GM_addStyle('#ms--additional-resources {display: none !important;}');
 // 2) "Hide the left sidebar from `learn.microsoft.com`: https://github.com/dmitrii-fediuk/adblock/issues/83
 // 3) "Hide the «Additional resources» column from learn.microsoft.com": https://github.com/dmitrii-fediuk/adblock/issues/8
 // language=CSS
-GM_addStyle('section.primary-holder {padding: 0 1em !important; width: 100% !important;}');
+GM_addStyle('section.primary-holder {padding: 0 !important; width: 100% !important;}');
