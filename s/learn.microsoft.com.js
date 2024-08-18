@@ -8,7 +8,7 @@
 // ==/UserScript==
 // 2024-08-18 "Improve articles appearance on `learn.microsoft.com`": https://github.com/dmitrii-fediuk/vm/issues/23
 // language=CSS
-GM_addStyle('.header-holder {display: none !important;}');
+GM_addStyle('.header-holder, #site-user-feedback-footer {display: none !important;}');
 // 2024-08-18 "Hide the left sidebar from `learn.microsoft.com`: https://github.com/dmitrii-fediuk/adblock/issues/83
 // language=CSS
 GM_addStyle('#left-container {display: none !important;}');
