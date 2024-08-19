@@ -36,3 +36,6 @@ GM_addStyle('main {max-width: 100% !important;}');
 // 2) https://caniuse.com/css-has
 // language=CSS
 GM_addStyle('div.justify-stretch:has(> div > div > search-dynamic-id-cache-controller) {display: none !important;}');
+// 2024-08-19 "Unstick everything on Reddit": https://github.com/dmitrii-fediuk/vm/issues/25
+// language=CSS
+GM_addStyle('.fixed {position: initial !important;}');
