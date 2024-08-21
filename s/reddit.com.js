@@ -66,4 +66,3 @@ GM_addStyle('search-dynamic-id-cache-controller {display: none !important;}');
 // 2024-08-21 "Hide the «Give award» button from Reddit topics": https://github.com/dmitrii-fediuk/vm/issues/43
 // language=CSS
 GM_addStyle('award-button {display: none !important;}');
-
