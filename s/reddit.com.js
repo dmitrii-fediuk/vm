@@ -63,6 +63,13 @@ GM_addStyle('[slot="post-archived-banner"] {display: none !important;}');
 // 2024-08-21 "Hide the «Search Comments» block from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/42
 // language=CSS
 GM_addStyle('search-dynamic-id-cache-controller {display: none !important;}');
-// 2024-08-21 "Hide the «Give award» button from Reddit topics": https://github.com/dmitrii-fediuk/vm/issues/43
-// language=CSS
-GM_addStyle('button[aria-label="Give award"] {display: none !important;}');
+// 2024-08-21
+// 1) "Hide the «Give award» button from Reddit topics": https://github.com/dmitrii-fediuk/vm/issues/43
+// 2) https://stackoverflow.com/a/75518992
+(function() {
+	'use strict';
+	const shadowRoot = document.querySelector('shreddit-post');
+	// language=CSS
+	const styles = `award-button {display: none !important}`;
+	GM_addElement(shadowRoot, 'style', {textContent: styles});
+})();
