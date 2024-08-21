@@ -42,3 +42,5 @@ GM_addStyle('.fixed {position: initial !important;}');
 // 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
 // language=CSS
 GM_addStyle('shreddit-app {padding: 0 !important;}');
+// language=CSS
+GM_addStyle('shreddit-status-icons {display: none !important;}');
