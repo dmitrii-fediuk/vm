@@ -49,6 +49,8 @@ GM_addStyle('shreddit-status-icons {display: none !important;}');
 GM_addStyle('#next-comment {display: none !important;}');
 // language=CSS
 GM_addStyle('shreddit-post {margin: 0 !important; padding: 0 !important;}');
+// language=CSS
+GM_addStyle('shreddit-comments-sort-dropdown {margin: 0 !important}');
 // 2024-05-17, 2024-08-21 "Hide the logo from Reddit": https://github.com/dmitrii-fediuk/vm/issues/38
 // language=CSS
 GM_addStyle('faceplate-tracker[noun="reddit_logo"] {display: none !important;}');
@@ -77,6 +79,3 @@ GM_addElement(postR, 'style', {textContent:
 	// 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
 	+ `div:has(> award-button) {margin: 0 !important}`
 });
-// 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
-// language=CSS
-GM_addStyle('shreddit-comments-sort-dropdown {margin: 0 !important}');
