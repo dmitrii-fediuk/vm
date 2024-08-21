@@ -75,3 +75,8 @@ GM_addElement(postR, 'style', {textContent:
 	// language=CSS
 	`award-button {display: none !important}`
 });
+// 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
+GM_addElement(postR, 'style', {textContent:
+	// language=CSS
+	`div:has(> award-button) {margin: 0 !important}`
+});
