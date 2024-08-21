@@ -11,7 +11,7 @@
 GM_addStyle('.main {float: none !important; padding: 0 !important; width: 100% !important;}');
 // 2024-08-21 "Improve the appearance of articles on `pikabu.ru`": https://github.com/dmitrii-fediuk/vm/issues/27
 // language=CSS
-GM_addStyle('main {margin: 0 !important;}');
+GM_addStyle('main, article {margin: 0 !important;}');
 // 2024-08-21
 // language=CSS
 GM_addStyle('.sidebar {display: none !important;}');
