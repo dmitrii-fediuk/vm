@@ -33,3 +33,7 @@ GM_addStyle('#comments ~ * {display: none !important;}');
 // 2024-08-21 "Hide extra articles below the primary one on `pikabu.ru`": https://github.com/dmitrii-fediuk/vm/issues/34
 // language=CSS
 GM_addStyle('.related-stories-feed {display: none !important;}');
+// 2024-08-21 "Hide the advertisements block below extra articles on `pikabu.ru`": https://github.com/dmitrii-fediuk/vm/issues/35
+// language=CSS
+GM_addStyle('.page-story_w-story {display: none !important;}');
+
