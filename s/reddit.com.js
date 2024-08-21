@@ -65,11 +65,11 @@ GM_addStyle('[slot="post-archived-banner"] {display: none !important;}');
 GM_addStyle('search-dynamic-id-cache-controller {display: none !important;}');
 // 2024-08-21
 // 1) "Hide the «Give award» button from Reddit topics": https://github.com/dmitrii-fediuk/vm/issues/43
-// 2) https://stackoverflow.com/a/75518992
+// 2.1) https://stackoverflow.com/a/75518992
+// 2.2) https://stackoverflow.com/a/75571912
 (function() {
-	'use strict';
-	const shadowRoot = document.querySelector('shreddit-post').shadowRoot;
-	// language=CSS
-	const styles = `award-button {display: none !important}`;
-	GM_addElement(shadowRoot, 'style', {textContent: styles});
+	GM_addElement(document.querySelector('shreddit-post').shadowRoot, 'style', {textContent:
+		// language=CSS
+		`award-button {display: none !important}`
+	});
 })();
