@@ -58,3 +58,6 @@ GM_addStyle('shreddit-comment[author="AutoModerator"] {display: none !important;
 // 2024-08-21 "Hide the «Archived post» warning from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/41
 // language=CSS
 GM_addStyle('[slot="post-archived-banner"] {display: none !important;}');
+// 2024-08-21 "Hide the «Search Comments» block from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/42
+// language=CSS
+GM_addStyle('search-dynamic-id-cache-controller {display: none !important;}');
