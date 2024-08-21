@@ -39,3 +39,6 @@ GM_addStyle('div.justify-stretch:has(> div > div > search-dynamic-id-cache-contr
 // 2024-08-19 "Unstick everything on Reddit": https://github.com/dmitrii-fediuk/vm/issues/25
 // language=CSS
 GM_addStyle('.fixed {position: initial !important;}');
+// 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
+// language=CSS
+GM_addStyle('shreddit-app {padding: 0 !important;}');
