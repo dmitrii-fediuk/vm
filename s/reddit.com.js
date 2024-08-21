@@ -70,7 +70,8 @@ GM_addStyle('search-dynamic-id-cache-controller {display: none !important;}');
 // 2.2) https://stackoverflow.com/a/75518992
 // 2.3) https://stackoverflow.com/a/75571912
 // 2.4) https://github.com/violentmonkey/violentmonkey/issues/1852
-GM_addElement(document.querySelector('shreddit-post').shadowRoot, 'style', {textContent:
+let postR = document.querySelector('shreddit-post').shadowRoot;
+GM_addElement(postR, 'style', {textContent:
 	// language=CSS
 	`award-button {display: none !important}`
 });
