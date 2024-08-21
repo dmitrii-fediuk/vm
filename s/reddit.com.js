@@ -65,18 +65,15 @@ GM_addStyle('[slot="post-archived-banner"] {display: none !important;}');
 // language=CSS
 GM_addStyle('search-dynamic-id-cache-controller {display: none !important;}');
 // 2024-08-21
-// 1) "Hide the «Give award» button from Reddit topics": https://github.com/dmitrii-fediuk/vm/issues/43
-// 2.1) "How do I hide a DOM element inside a shadow root using Violentmonkey?" https://df.tips/t/2326
-// 2.2) https://stackoverflow.com/a/75518992
-// 2.3) https://stackoverflow.com/a/75571912
-// 2.4) https://github.com/violentmonkey/violentmonkey/issues/1852
+// 1) "How do I hide a DOM element inside a shadow root using Violentmonkey?" https://df.tips/t/2326
+// 2) https://stackoverflow.com/a/75518992
+// 3) https://stackoverflow.com/a/75571912
+// 4) https://github.com/violentmonkey/violentmonkey/issues/1852
 let postR = document.querySelector('shreddit-post').shadowRoot;
 GM_addElement(postR, 'style', {textContent:
+	// 2024-08-21 "Hide the «Give award» button from Reddit topics": https://github.com/dmitrii-fediuk/vm/issues/43
 	// language=CSS
-	`award-button {display: none !important}`
-});
-// 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
-GM_addElement(postR, 'style', {textContent:
-	// language=CSS
-	`div:has(> award-button) {margin: 0 !important}`
+	`award-button {display: none !important} `
+	// 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
+	+ `div:has(> award-button) {margin: 0 !important}`
 });
