@@ -49,4 +49,4 @@ GM_addStyle('shreddit-status-icons {display: none !important;}');
 GM_addStyle('faceplate-tracker[noun="reddit_logo"] {display: none !important;}');
 // 2024-08-21 "Hide the page's header from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/39
 // language=CSS
-GM_addStyle('shreddit-app[noun="post_page"] reddit-header-large {display: none !important;}');
+GM_addStyle('shreddit-app[routename="post_page"] reddit-header-large {display: none !important;}');
