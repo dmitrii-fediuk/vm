@@ -12,3 +12,6 @@ GM_addStyle('.main {float: none !important; padding: 0 !important; width: 100% !
 // 2024-05-30 "Hide the left sidebar from pikabu.ru": https://github.com/dmitrii-fediuk/adblock/issues/32
 // language=CSS
 GM_addStyle('.app__inner {padding: 0 !important;}');
+// 2024-08-21 "Hide the header from `pikabu.ru`": https://github.com/dmitrii-fediuk/vm/issues/26
+// language=CSS
+GM_addStyle('header.header {display: none !important;}');
