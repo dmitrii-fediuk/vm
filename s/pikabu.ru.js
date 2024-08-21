@@ -36,4 +36,6 @@ GM_addStyle('.related-stories-feed {display: none !important;}');
 // 2024-08-21 "Hide the advertisements block below extra articles on `pikabu.ru`": https://github.com/dmitrii-fediuk/vm/issues/35
 // language=CSS
 GM_addStyle('.page-story_w-story {display: none !important;}');
-
+// 2024-08-21 "Hide the footer from `pikabu.ru`": https://github.com/dmitrii-fediuk/vm/issues/36
+// language=CSS
+GM_addStyle('footer {display: none !important;}');
