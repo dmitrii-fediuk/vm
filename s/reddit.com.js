@@ -44,3 +44,6 @@ GM_addStyle('.fixed {position: initial !important;}');
 GM_addStyle('shreddit-app {padding: 0 !important;}');
 // language=CSS
 GM_addStyle('shreddit-status-icons {display: none !important;}');
+// 2024-05-17, 2024-08-21 "Hide the logo from Reddit": https://github.com/dmitrii-fediuk/vm/issues/38
+// language=CSS
+GM_addStyle('faceplate-tracker {display: none !important;}');
