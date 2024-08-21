@@ -68,7 +68,7 @@ GM_addStyle('search-dynamic-id-cache-controller {display: none !important;}');
 // 2) https://stackoverflow.com/a/75518992
 (function() {
 	'use strict';
-	const shadowRoot = document.querySelector('shreddit-post');
+	const shadowRoot = document.querySelector('shreddit-post').shadowRoot;
 	// language=CSS
 	const styles = `award-button {display: none !important}`;
 	GM_addElement(shadowRoot, 'style', {textContent: styles});
