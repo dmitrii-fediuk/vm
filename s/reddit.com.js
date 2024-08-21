@@ -67,6 +67,7 @@ GM_addStyle('search-dynamic-id-cache-controller {display: none !important;}');
 // 1) "Hide the «Give award» button from Reddit topics": https://github.com/dmitrii-fediuk/vm/issues/43
 // 2.1) https://stackoverflow.com/a/75518992
 // 2.2) https://stackoverflow.com/a/75571912
+// 2.3) https://github.com/violentmonkey/violentmonkey/issues/1852
 (function() {
 	GM_addElement(document.querySelector('shreddit-post').shadowRoot, 'style', {textContent:
 		// language=CSS
