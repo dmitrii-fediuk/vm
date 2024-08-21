@@ -52,3 +52,6 @@ GM_addStyle('faceplate-tracker[noun="reddit_logo"] {display: none !important;}')
 // 2024-08-21 "Hide the page's header from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/39
 // language=CSS
 GM_addStyle('shreddit-app[routename="post_page"] reddit-header-large {display: none !important;}');
+// 2024-08-21 "Hide the `AutoModerator`'s comments from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/40
+// language=CSS
+GM_addStyle('shreddit-comment[author="AutoModerator"] {display: none !important;}');
