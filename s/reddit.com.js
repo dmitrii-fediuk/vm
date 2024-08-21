@@ -47,3 +47,6 @@ GM_addStyle('shreddit-status-icons {display: none !important;}');
 // 2024-05-17, 2024-08-21 "Hide the logo from Reddit": https://github.com/dmitrii-fediuk/vm/issues/38
 // language=CSS
 GM_addStyle('faceplate-tracker[noun="reddit_logo"] {display: none !important;}');
+// 2024-08-21 "Hide the page's header from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/39
+// language=CSS
+GM_addStyle('shreddit-app[noun="post_page"] reddit-header-large {display: none !important;}');
