@@ -66,9 +66,10 @@ GM_addStyle('[slot="post-archived-banner"] {display: none !important;}');
 GM_addStyle('search-dynamic-id-cache-controller {display: none !important;}');
 // 2024-08-21
 // 1) "Hide the «Give award» button from Reddit topics": https://github.com/dmitrii-fediuk/vm/issues/43
-// 2.1) https://stackoverflow.com/a/75518992
-// 2.2) https://stackoverflow.com/a/75571912
-// 2.3) https://github.com/violentmonkey/violentmonkey/issues/1852
+// 2.1) "How do I hide a DOM element inside a shadow root using Violentmonkey?" https://df.tips/t/2326
+// 2.2) https://stackoverflow.com/a/75518992
+// 2.3) https://stackoverflow.com/a/75571912
+// 2.4) https://github.com/violentmonkey/violentmonkey/issues/1852
 (function() {
 	GM_addElement(document.querySelector('shreddit-post').shadowRoot, 'style', {textContent:
 		// language=CSS
