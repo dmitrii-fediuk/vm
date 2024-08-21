@@ -77,15 +77,6 @@ GM_addElement(postR, 'style', {textContent:
 	// 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
 	+ `div:has(> award-button) {margin: 0 !important}`
 });
-GM_addElement(
-	document
-		.querySelector('shreddit-async-loader').shadowRoot
-		.querySelector('comment-body-header').shadowRoot
-		.querySelector('shreddit-async-loader').shadowRoot
-	,'style'
-	,{textContent:
-		// 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
-		// language=CSS
-		`shreddit-comments-sort-dropdown {margin: 0 !important}`
-	}
-);
+// 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
+// language=CSS
+GM_addStyle('shreddit-comments-sort-dropdown {margin: 0 !important}');
