@@ -72,4 +72,8 @@ GM_addStyle('search-dynamic-id-cache-controller {display: none !important;}');
 		// language=CSS
 		`award-button {display: none !important}`
 	});
+	GM_addElement(document.querySelector('shreddit-post').shadowRoot, 'script', {textContent:
+		// language=JavaScript
+		`shadowRootElement.shadowRoot.querySelector('award-button').style.display = 'none !important';`
+	});
 })();
