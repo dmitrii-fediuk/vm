@@ -21,3 +21,6 @@ GM_addStyle('.app__inner {padding: 0 !important;}');
 // 2024-08-21 "Hide the header from `pikabu.ru`": https://github.com/dmitrii-fediuk/vm/issues/26
 // language=CSS
 GM_addStyle('header.header {display: none !important;}');
+// 2024-08-21 "Hide the «Яндекс ID» popup from `pikabu.ru``": https://github.com/dmitrii-fediuk/vm/issues/31
+// language=CSS
+GM_addStyle('iframe {display: none !important;}');
