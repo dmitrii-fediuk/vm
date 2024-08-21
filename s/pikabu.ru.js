@@ -27,3 +27,6 @@ GM_addStyle('iframe {display: none !important;}');
 // 2024-08-21 "Hide the article's author popup from `pikabu.ru`": https://github.com/dmitrii-fediuk/vm/issues/32
 // language=CSS
 GM_addStyle('.overlay {display: none !important;}');
+// 2024-08-21 "Hide the advertisements block below articles on `pikabu.ru`": https://github.com/dmitrii-fediuk/vm/issues/33
+// language=CSS
+GM_addStyle('#comments + .story__user {display: none !important;}');
