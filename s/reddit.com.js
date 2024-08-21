@@ -55,3 +55,6 @@ GM_addStyle('shreddit-app[routename="post_page"] reddit-header-large {display: n
 // 2024-08-21 "Hide the `AutoModerator`'s comments from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/40
 // language=CSS
 GM_addStyle('shreddit-comment[author="AutoModerator"] {display: none !important;}');
+// 2024-08-21 "Hide the «Archived post» warning from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/41
+// language=CSS
+GM_addStyle('[slot="post-archived-banner"] {display: none !important;}');
