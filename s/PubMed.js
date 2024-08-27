@@ -29,7 +29,7 @@ GM_addStyle('#search-results {width: calc(100% - 260px);}');
 // 2024-08-28
 // language=CSS
 GM_addStyle(
-	'.pmc-alerts, .pmc-header, aside, [role="banner"], [role="complementary"], .usa-breadcrumb {' +
+	'.pmc-alerts, .pmc-header, aside, [role="banner"], [role="complementary"], .usa-breadcrumb, #mc {' +
 		'display: none !important;' +
 	'}'
 );
