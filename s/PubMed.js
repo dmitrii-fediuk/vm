@@ -38,7 +38,7 @@ GM_addStyle(
 GM_addStyle('article {width: 100% !important;}');
 // 2024-08-28
 // language=CSS
-GM_addStyle('#mc {background: none !important;}');
+GM_addStyle('#mc {background: none !important;, padding-left: 1em;}');
 // 2024-08-28
 // language=CSS
 GM_addStyle('#main-content {padding-left: 0 !important;}');
