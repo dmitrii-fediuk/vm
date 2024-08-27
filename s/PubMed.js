@@ -26,6 +26,9 @@ GM_addStyle('@media screen and (min-width: 1020px) {.search-form > .inner-wrap {
 GM_addStyle('.search-page > .inner-wrap {width: initial;}');
 // language=CSS
 GM_addStyle('#search-results {width: calc(100% - 260px);}');
+// 2024-08-28
+// language=CSS
+GM_addStyle('.pmc-alerts {display: none !important;}');
 // 2024-06-08
 // 1) "Hide the search form from article pages on PubMed": https://github.com/dmitrii-fediuk/vm/issues/2
 // 2) https://stackoverflow.com/a/15503444
