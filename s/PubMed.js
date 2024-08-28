@@ -38,10 +38,10 @@ GM_addStyle(
 GM_addStyle('article {width: 100% !important;}');
 // 2024-08-28
 // language=CSS
-GM_addStyle('#mc {background: none !important; padding-left: 1em !important;}');
+GM_addStyle('#mc {background: none !important; padding: 0 !important;}');
 // 2024-08-28
 // language=CSS
-GM_addStyle('#main-content {padding-left: 0 !important;}');
+GM_addStyle('#main-content {padding: 0 1em !important;}');
 // 2024-06-08
 // 1) "Hide the search form from article pages on PubMed": https://github.com/dmitrii-fediuk/vm/issues/2
 // 2) https://stackoverflow.com/a/15503444
