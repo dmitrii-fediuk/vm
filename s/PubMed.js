@@ -35,7 +35,7 @@ GM_addStyle(
 );
 // 2024-08-28
 // language=CSS
-GM_addStyle('article {width: 100% !important;}');
+GM_addStyle('article {margin: 0 !important; width: 100% !important;}');
 // 2024-08-28
 // language=CSS
 GM_addStyle('#mc {background: none !important; padding: 0 !important;}');
