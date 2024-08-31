@@ -10,6 +10,8 @@
 // 1) "Hide the left sidebar from `documentation.ubuntu.com`": https://github.com/dmitrii-fediuk/vm/issues/44
 // 2) "Improve the appearance of `documentation.ubuntu.com`": https://github.com/dmitrii-fediuk/vm/issues/45
 // language=CSS
-GM_addStyle('aside.sidebar-drawer, a.back-to-top, .github-issue-link-container, header {display: none !important;}');
+GM_addStyle('aside.sidebar-drawer, a.back-to-top, a.headerlink, .github-issue-link-container, header {' +
+	'display: none !important;' +
+'}');
 // language=CSS
 GM_addStyle('.content {width: initial !important;}');
