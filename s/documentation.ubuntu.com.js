@@ -11,3 +11,5 @@
 // 2) "Improve the appearance of `documentation.ubuntu.com`": https://github.com/dmitrii-fediuk/vm/issues/45
 // language=CSS
 GM_addStyle('aside.sidebar-drawer, a.back-to-top {display: none !important;}');
+// language=CSS
+GM_addStyle('.content {width: initial !important;}');
