@@ -11,3 +11,5 @@
 // https://github.com/dmitrii-fediuk/vm/issues/46
 // language=CSS
 GM_addStyle('header, .top-bar-fixed {position: initial !important;}');
+// language=CSS
+GM_addStyle('.layout-page {padding-top: 0 !important;}');
