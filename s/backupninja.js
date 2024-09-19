@@ -12,4 +12,4 @@
 // language=CSS
 GM_addStyle('header, .top-bar-fixed {position: initial !important;}');
 // language=CSS
-GM_addStyle('.content-wrapper, .layout-page {padding-top: 0 !important;}');
+GM_addStyle('.content-wrapper, .layout-page {padding: 0 !important;}');
