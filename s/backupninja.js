@@ -10,6 +10,6 @@
 // "Improve the appearance of the Backupninja's code repository (`0xacab.org/liberate/backupninja`)":
 // https://github.com/dmitrii-fediuk/vm/issues/46
 // language=CSS
-GM_addStyle('header, .top-bar-fixed {position: initial !important;}');
+GM_addStyle('.gl-fixed, header, .top-bar-fixed {position: initial !important;}');
 // language=CSS
 GM_addStyle('.content-wrapper, .layout-page {padding: 0 !important;}');
