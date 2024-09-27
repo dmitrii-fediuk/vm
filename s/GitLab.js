@@ -1,8 +1,8 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/backupninja.js
-// @icon https://0xacab.org/uploads/-/system/appearance/header_logo/1/0xacab_72x72.png
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/GitLab.js
+// @icon https://about.gitlab.com/nuxt-images/ico/favicon-160x160.png
 // @match *://0xacab.org/*
 // @match *://gitlab*.oneclickmedia.com.au/*
 // @name GitLab
