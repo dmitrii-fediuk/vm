@@ -8,4 +8,4 @@
 // ==/UserScript==
 // 2024-09-20 "Improve the appearance of GitHub": https://github.com/dmitrii-fediuk/vm/issues/47
 // language=CSS
-GM_addStyle('#repos-sticky-header {position: initial !important;}');
+GM_addStyle('#repos-sticky-header, .position-sticky {position: initial !important;}');
