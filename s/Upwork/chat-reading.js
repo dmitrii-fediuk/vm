@@ -8,6 +8,8 @@
 // ==/UserScript==
 // 2024-10-13 "Remove all visual garbage from the Upwork chat screen": https://github.com/dmitrii-fediuk/vm/issues/53
 // language=CSS
+GM_addStyle('#story-viewport {height: initial !important;}');
+// language=CSS
 GM_addStyle(
 	'.composer-container, .desktop-layout-header, .desktop-layout-index, .top-room-content, #user-top-navigation-container {' +
 		'display: none !important' +
