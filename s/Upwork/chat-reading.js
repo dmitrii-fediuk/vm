@@ -13,7 +13,7 @@ GM_addStyle('#story-viewport {height: initial !important;}');
 GM_addStyle('.desktop-room-layout {margin: 0 !important;}');
 // language=CSS
 GM_addStyle(
-	'.composer-container, .desktop-layout-header, .desktop-layout-index, .sidebar-layout, .top-room-content, #user-top-navigation-container {' +
+	'.composer-container, .desktop-layout-header, .desktop-layout-index, .sidebar-layout, .story-menu-section, .top-room-content, #user-top-navigation-container {' +
 		'display: none !important' +
 	';}'
 );
