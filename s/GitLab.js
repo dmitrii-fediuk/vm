@@ -17,6 +17,16 @@
 // 3.3) https://0xacab.org/illuusio/backupninja/-/issues
 // 2024-09-27 "Improve the GitLab appearance": https://github.com/dmitrii-fediuk/vm/issues/48
 // language=CSS
-GM_addStyle('.diff-file .file-title, .diff-file .file-title-flex-parent, .gl-fixed, header, .right-sidebar, .top-bar-fixed {position: initial !important;}');
+GM_addStyle(
+	[
+		'.diff-file .file-title'
+		,'.diff-file .file-title-flex-parent'
+		,'.gl-fixed, header'
+		,'.right-sidebar'
+		,'.top-bar-fixed'
+	]
+		 // language=Javascript
+		.join(',')
+	+ '{position: initial !important;}');
 // language=CSS
 GM_addStyle('.content-wrapper, .layout-page {padding: 0 !important;}');
