@@ -10,6 +10,8 @@
 // language=CSS
 GM_addStyle('#story-viewport {height: initial !important;}');
 // language=CSS
+GM_addStyle('.desktop-room-layout {margin: 0 !important;}');
+// language=CSS
 GM_addStyle(
 	'.composer-container, .desktop-layout-header, .desktop-layout-index, .top-room-content, #user-top-navigation-container {' +
 		'display: none !important' +
