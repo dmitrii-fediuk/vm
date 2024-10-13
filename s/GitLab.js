@@ -15,7 +15,7 @@
 // 3.1) "The `backupninja-systemd` fork of Backupninja": https://df.tips/t/2372
 // 3.2) https://0xacab.org/illuusio/backupninja
 // 3.3) https://0xacab.org/illuusio/backupninja/-/issues
-// 2024-09-27 "Improve the appearance of GitLab repositories": https://github.com/dmitrii-fediuk/vm/issues/48
+// 2024-09-27 "Improve the GitLab appearance": https://github.com/dmitrii-fediuk/vm/issues/48
 // language=CSS
 GM_addStyle('.gl-fixed, header, .right-sidebar, .top-bar-fixed {position: initial !important;}');
 // language=CSS
