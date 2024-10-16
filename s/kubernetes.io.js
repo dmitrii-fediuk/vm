@@ -12,5 +12,5 @@ GM_addStyle([
 	'nav'
 ]
 	 // language=Javascript
-	.join(',') + ' {position: initial !important;}')
+	.join(',') + '{position: initial !important;}')
 ;
