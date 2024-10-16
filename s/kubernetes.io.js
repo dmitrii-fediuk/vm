@@ -15,4 +15,4 @@ GM_addStyle([
 	.join(',') + '{display: none !important;}')
 ;
 // language=CSS
-GM_addStyle('#maindoc {padding: 0; width: 100% !important;}');
+GM_addStyle('#maindoc {padding: 0 !important; width: 100% !important;}');
