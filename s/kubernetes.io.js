@@ -15,6 +15,9 @@ GM_addStyle([
 	.join(',') + '{display: none !important;}')
 ;
 // language=CSS
-GM_addStyle('#maindoc {padding: 0 !important; width: 100% !important;}');
-// language=CSS
-GM_addStyle('main {padding: 0 !important; padding-top: 0 !important; max-width: 100% !important;}');
+GM_addStyle([
+	'#maindoc', 'main', '.td-main main'
+]
+	 // language=Javascript
+	.join(',') + '{max-width: 100% !important; padding: 0 !important; width: 100% !important;}')
+;
