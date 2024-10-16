@@ -16,3 +16,5 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle('#maindoc {padding: 0 !important; width: 100% !important;}');
+// language=CSS
+GM_addStyle('main {padding: 0 !important; max-width: 100% !important;}');
