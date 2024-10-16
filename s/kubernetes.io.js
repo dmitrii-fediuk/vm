@@ -9,7 +9,7 @@
 // 2024-10-16 "Improve `kubernetes.io`": https://github.com/dmitrii-fediuk/vm/issues/54
 // language=CSS
 GM_addStyle([
-	'nav'
+	'nav.td-navbar'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
