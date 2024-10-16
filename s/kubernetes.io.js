@@ -1,7 +1,7 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/openvpn.net.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/kubernetes.io.js
 // @icon https://kubernetes.io/icons/favicon-64.png
 // @match *://kubernetes.io/docs/*
 // @name kubernetes.io
