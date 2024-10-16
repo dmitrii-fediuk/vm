@@ -10,7 +10,7 @@
 // language=CSS
 // language=CSS
 GM_addStyle([
-	'.p-body-sidebarCol'
+	'.p-body-sidebar'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
