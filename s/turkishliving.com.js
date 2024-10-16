@@ -8,3 +8,10 @@
 // ==/UserScript==
 // 2024-10-16 "Improve `turkishliving.com`": https://github.com/dmitrii-fediuk/vm/issues/55
 // language=CSS
+// language=CSS
+GM_addStyle([
+	'.p-body-sidebarCol'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
