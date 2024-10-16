@@ -21,3 +21,10 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: initial !important; max-width: 100% !important; padding: 0 !important; width: 100% !important;}')
 ;
+// language=CSS
+GM_addStyle([
+	'.td-content > *'
+]
+	 // language=Javascript
+	.join(',') + '{max-width: 100% !important;}')
+;
