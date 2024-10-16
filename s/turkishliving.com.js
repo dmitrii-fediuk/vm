@@ -24,3 +24,10 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
+// language=CSS
+GM_addStyle([
+	'.p-body-content'
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
