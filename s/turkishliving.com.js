@@ -11,6 +11,7 @@
 // language=CSS
 GM_addStyle([
 	'.p-body-sidebar'
+	,'.p-body-sidebarCol'
 	,'.u-scrollButtons'
 ]
 	 // language=Javascript
