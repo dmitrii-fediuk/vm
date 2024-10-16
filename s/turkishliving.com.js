@@ -11,6 +11,7 @@
 // language=CSS
 GM_addStyle([
 	'.p-body-sidebar'
+	,'.u-scrollButtons'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
