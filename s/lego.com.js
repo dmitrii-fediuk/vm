@@ -33,9 +33,4 @@ GM_addStyle([
 	.join(',') + '{position: initial !important;}')
 ;
 // language=CSS
-GM_addStyle([
-	'section[class^=LayoutSectionstyles]'
-]
-	 // language=Javascript
-	.join(',') + '{margin: 0 !important; padding: 0 !important;}')
-;
+GM_addStyle('section[class^=LayoutSectionstyles] {margin: 0 !important; padding: 0 0.5rem !important;}');
