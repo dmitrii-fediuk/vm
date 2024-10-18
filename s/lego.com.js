@@ -11,9 +11,10 @@
 // language=CSS
 GM_addStyle([
 	'[data-contenttype=CustomProductCarouselSection]'
+	,'[data-contenttype=QuickLinkSection]'
 	,'[data-contenttype=RelatedArticleSection]'
-	,'[data-contenttype=section]'
 	,'[data-contenttype=TextBlock]'
+	,'[data-contenttype=section]'
 	,'[data-test=fixed-pos-wrapper]'
 ]
 	 // language=Javascript
