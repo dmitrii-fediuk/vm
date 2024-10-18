@@ -11,6 +11,7 @@
 // language=CSS
 GM_addStyle([
 	'[class^=ProductRecommendationsstyles]'
+	,'[class^=ShopMoreLikeThisstyles]'
 	,'[class^=UtilityBarstyles]'
 	,'[data-contenttype=CustomProductCarouselSection]'
 	,'[data-contenttype=QuickLinkSection]'
