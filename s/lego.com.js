@@ -45,3 +45,5 @@ GM_addStyle('section[class^=LayoutSectionstyles] {margin: 0 !important; padding:
 GM_addStyle('[data-test=listing-summary] {padding: 0 0 0.5rem 0 !important;}');
 // language=CSS
 GM_addStyle('[data-test=add-to-bag-sticky-container] {position: relative !important;}');
+// language=CSS
+GM_addStyle('[class^=TextBlock_innerWrapper] {max-width: initial !important; padding: 0 1em !important;}');
