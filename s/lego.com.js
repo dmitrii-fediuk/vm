@@ -11,13 +11,13 @@
 GM_addStyle('header {min-height: initial !important;}');
 // language=CSS
 GM_addStyle([
-	'[class^=ProductRecommendationsstyles]'
+	'[class^=DynamicContentPagestyles] > [data-contenttype=TextBlock]'
+	,'[class^=ProductRecommendationsstyles]'
 	,'[class^=ShopMoreLikeThisstyles]'
 	,'[class^=UtilityBarstyles]'
 	,'[data-contenttype=CustomProductCarouselSection]'
 	,'[data-contenttype=QuickLinkSection]'
 	,'[data-contenttype=RelatedArticleSection]'
-	//,'[data-contenttype=TextBlock]'
 	,'[data-contenttype=section]'
 	,'[data-test=article-text]'
 	,'[data-test=fixed-pos-wrapper]'
