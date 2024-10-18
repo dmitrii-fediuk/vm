@@ -10,7 +10,8 @@
 // language=CSS
 // language=CSS
 GM_addStyle([
-	'[data-test=fixed-pos-wrapper]'
+	'[data-contenttype=section]'
+	,'[data-test=fixed-pos-wrapper]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
