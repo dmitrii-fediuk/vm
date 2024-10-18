@@ -17,7 +17,7 @@ GM_addStyle([
 	,'[data-contenttype=CustomProductCarouselSection]'
 	,'[data-contenttype=QuickLinkSection]'
 	,'[data-contenttype=RelatedArticleSection]'
-	,'[data-contenttype=TextBlock]'
+	//,'[data-contenttype=TextBlock]'
 	,'[data-contenttype=section]'
 	,'[data-test=article-text]'
 	,'[data-test=fixed-pos-wrapper]'
