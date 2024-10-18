@@ -10,7 +10,7 @@
 // language=CSS
 // language=CSS
 GM_addStyle([
-	'[class^="UtilityBarstyles"]'
+	'[class^=UtilityBarstyles]'
 	,'[data-contenttype=CustomProductCarouselSection]'
 	,'[data-contenttype=QuickLinkSection]'
 	,'[data-contenttype=RelatedArticleSection]'
