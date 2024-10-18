@@ -13,6 +13,7 @@ GM_addStyle([
 	'[data-contenttype=CustomProductCarouselSection]'
 	,'[data-contenttype=RelatedArticleSection]'
 	,'[data-contenttype=section]'
+	,'[data-contenttype=TextBlock]'
 	,'[data-test=fixed-pos-wrapper]'
 ]
 	 // language=Javascript
