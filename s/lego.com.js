@@ -12,6 +12,7 @@ GM_addStyle('header {min-height: initial !important;}');
 // language=CSS
 GM_addStyle([
 	'[class^=DynamicContentPagestyles] > [data-contenttype=TextBlock]'
+	,'[class^=ProductFeaturesstyles__Cta]'
 	,'[class^=ProductRecommendationsstyles]'
 	,'[class^=ShopMoreLikeThisstyles]'
 	,'[class^=UtilityBarstyles]'
