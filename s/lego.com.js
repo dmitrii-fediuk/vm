@@ -10,7 +10,8 @@
 // language=CSS
 // language=CSS
 GM_addStyle([
-	'[data-contenttype=RelatedArticleSection]'
+	'[data-contenttype=CustomProductCarouselSection]'
+	,'[data-contenttype=RelatedArticleSection]'
 	,'[data-contenttype=section]'
 	,'[data-test=fixed-pos-wrapper]'
 ]
