@@ -34,3 +34,5 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle('section[class^=LayoutSectionstyles] {margin: 0 !important; padding: 0 0.5rem !important;}');
+// language=CSS
+GM_addStyle('[data-test=listing-summary] {padding: 0.5rem 0 !important;}');
