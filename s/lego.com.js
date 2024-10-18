@@ -57,4 +57,6 @@ GM_addStyle([
 	.join(',') + '{font-size: 1.5rem !important;}')
 ;
 // language=CSS
+GM_addStyle('[class^=ProductFeaturesstyles__Body] {display: initial !important;}');
+// language=CSS
 GM_addStyle('[class^=ProductFeaturesstyles__Copy] {width: 100% !important; padding: 0 !important;}');
