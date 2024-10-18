@@ -48,4 +48,10 @@ GM_addStyle('[data-test=add-to-bag-sticky-container] {position: relative !import
 // language=CSS
 GM_addStyle('[class^=TextBlock_innerWrapper] {max-width: initial !important; padding: 0 1em !important;}');
 // language=CSS
-GM_addStyle('[class^=TextBlock_innerWrapper] > * {font-size: 1.5rem !important;}');
+GM_addStyle([
+	'[class^=TextBlock_innerWrapper] > *'
+	,'#pdp-specifications-accordion-content'
+]
+	 // language=Javascript
+	.join(',') + '{font-size: 1.5rem !important;}')
+;
