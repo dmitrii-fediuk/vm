@@ -24,6 +24,7 @@ GM_addStyle([
 	,'[data-test=header-kids-link]'
 	,'[data-test=lego-logo]'
 	,'[data-test=pdp-gwp-accordion]'
+	,'[data-test=pdp-promo-section]'
 	,'[data-test=vip-link]'
 	,'footer'
 ]
