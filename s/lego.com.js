@@ -8,6 +8,7 @@
 // ==/UserScript==
 // 2024-10-19 "Improve `lego.com`": https://github.com/dmitrii-fediuk/vm/issues/56
 // language=CSS
+GM_addStyle('header {min-height: initial !important;}');
 // language=CSS
 GM_addStyle([
 	'[class^=ProductRecommendationsstyles]'
