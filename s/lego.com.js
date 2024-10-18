@@ -16,6 +16,7 @@ GM_addStyle([
 	,'[data-contenttype=TextBlock]'
 	,'[data-contenttype=section]'
 	,'[data-test=fixed-pos-wrapper]'
+	,'[data-test=global-banner]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
