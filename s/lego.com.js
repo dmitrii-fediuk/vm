@@ -17,6 +17,7 @@ GM_addStyle([
 	,'[data-contenttype=section]'
 	,'[data-test=fixed-pos-wrapper]'
 	,'[data-test=global-banner]'
+	,'[data-test=header-kids-link]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
