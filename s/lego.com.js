@@ -47,3 +47,5 @@ GM_addStyle('[data-test=listing-summary] {padding: 0 0 0.5rem 0 !important;}');
 GM_addStyle('[data-test=add-to-bag-sticky-container] {position: relative !important;}');
 // language=CSS
 GM_addStyle('[class^=TextBlock_innerWrapper] {max-width: initial !important; padding: 0 1em !important;}');
+// language=CSS
+GM_addStyle('[class^=TextBlock_innerWrapper] * {font-size: initial !important;}');
