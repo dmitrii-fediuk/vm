@@ -10,7 +10,8 @@
 // language=CSS
 // language=CSS
 GM_addStyle([
-	'[data-contenttype=CustomProductCarouselSection]'
+	,'[aria-label="Utility Bar"]'
+	,'[data-contenttype=CustomProductCarouselSection]'
 	,'[data-contenttype=QuickLinkSection]'
 	,'[data-contenttype=RelatedArticleSection]'
 	,'[data-contenttype=TextBlock]'
