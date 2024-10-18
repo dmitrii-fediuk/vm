@@ -20,6 +20,7 @@ GM_addStyle([
 	,'[data-contenttype=TextBlock]'
 	,'[data-contenttype=section]'
 	,'[data-test=add-to-bag-sticky-container]'
+	,'[data-test=article-text]'
 	,'[data-test=fixed-pos-wrapper]'
 	,'[data-test=global-banner]'
 	,'[data-test=header-kids-link]'
