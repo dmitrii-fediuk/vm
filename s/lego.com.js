@@ -19,7 +19,6 @@ GM_addStyle([
 	,'[data-contenttype=RelatedArticleSection]'
 	,'[data-contenttype=TextBlock]'
 	,'[data-contenttype=section]'
-	,'[data-test=add-to-bag-sticky-container]'
 	,'[data-test=article-text]'
 	,'[data-test=fixed-pos-wrapper]'
 	,'[data-test=global-banner]'
@@ -44,3 +43,5 @@ GM_addStyle([
 GM_addStyle('section[class^=LayoutSectionstyles] {margin: 0 !important; padding: 0 0.5rem !important;}');
 // language=CSS
 GM_addStyle('[data-test=listing-summary] {padding: 0 0 0.5rem 0 !important;}');
+// language=CSS
+GM_addStyle('[data-test=add-to-bag-sticky-container] {position: relative !important;}');
