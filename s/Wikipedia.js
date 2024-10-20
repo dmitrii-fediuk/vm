@@ -7,3 +7,9 @@
 // @name Wikipedia
 // ==/UserScript==
 // 2024-10-20 "Improve the appearance of Wikipedia articles": https://github.com/dmitrii-fediuk/vm/issues/57
+GM_addStyle([
+	'#vector-page-titlebar-toc'
+]
+	 // language=Javascript
+	.join(',') + '{position: initial !important;}')
+;
