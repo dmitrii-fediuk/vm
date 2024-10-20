@@ -12,6 +12,7 @@ GM_addStyle([
 	'#pre-footer'
 	,'#sidebarnav'
 	,'.gutter'
+	,'.text-muted'
 	,'.td-toc'
 	,'footer'
 	,'header'
