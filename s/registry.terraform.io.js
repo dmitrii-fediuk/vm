@@ -29,4 +29,4 @@ GM_addStyle([
 // language=CSS
 GM_addStyle('.section {margin: 0 0.5rem !important; padding: 0 !important;}');
 // language=CSS
-GM_addStyle('p {margin: 0 0 0 0.5rem !important; padding: 0 !important;}');
+GM_addStyle('p {margin: 0 0 0.5rem 0 !important; padding: 0 !important;}');
