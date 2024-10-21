@@ -21,7 +21,7 @@ GM_addStyle([
 GM_addStyle([
 	'.columns-provider-docs'
 	,'article'
-	,'h1'
+	,'h1', 'h2'
 ]
 	 // language=Javascript
 	.join(',') + '{display: initial !important; margin: 0 !important; padding: 0 !important; width: initial !important;}')
