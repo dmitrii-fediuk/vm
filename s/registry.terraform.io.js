@@ -20,9 +20,9 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.columns-provider-docs'
+	,'.section'
 	,'article'
 	,'h1'
-	,'.section'
 ]
 	 // language=Javascript
 	.join(',') + '{display: initial !important; margin: 0 !important; padding: 0 !important; width: initial !important;}')
