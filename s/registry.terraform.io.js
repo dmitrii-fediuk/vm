@@ -9,7 +9,8 @@
 // 2024-10-21 "Improve `registry.terraform.io`": https://github.com/dmitrii-fediuk/vm/issues/58
 // language=CSS
 GM_addStyle([
-	'.columns > .column'
+	'.column-provider-docs-menu'
+	,'article ~ .column'
 	,'footer'
 	,'header'
 ]
