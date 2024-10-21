@@ -17,3 +17,10 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// language=CSS
+GM_addStyle([
+	'article'
+]
+	 // language=Javascript
+	.join(',') + '{display: initial !important; width: initial !important;}')
+;
