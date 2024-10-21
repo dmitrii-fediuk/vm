@@ -20,11 +20,11 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.columns-provider-docs'
-	,'.section'
 	,'article'
+	,'h1'
 ]
 	 // language=Javascript
 	.join(',') + '{display: initial !important; margin: 0 !important; padding: 0 !important; width: initial !important;}')
 ;
 // language=CSS
-GM_addStyle('h1 {margin: 0 0.5rem !important; padding: 0 !important;}');
+GM_addStyle('.section {margin: 0 0.5rem !important; padding: 0 !important;}');
