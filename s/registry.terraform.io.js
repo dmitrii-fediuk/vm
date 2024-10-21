@@ -24,7 +24,7 @@ GM_addStyle([
 	,'h1', 'h2', 'h3', 'p'
 ]
 	 // language=Javascript
-	.join(',') + '{display: initial !important; margin: 0 !important; padding: 0 !important; width: initial !important;}')
+	.join(',') + '{display: block !important; margin: 0 !important; padding: 0 !important; width: initial !important;}')
 ;
 // language=CSS
 GM_addStyle('.section {margin: 0 0.5rem !important; padding: 0 !important;}');
