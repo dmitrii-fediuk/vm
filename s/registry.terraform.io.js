@@ -19,7 +19,8 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'article'
+	'.columns-provider-docs'
+	,'article'
 ]
 	 // language=Javascript
 	.join(',') + '{display: initial !important; width: initial !important;}')
