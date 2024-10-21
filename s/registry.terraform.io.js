@@ -23,5 +23,5 @@ GM_addStyle([
 	,'article'
 ]
 	 // language=Javascript
-	.join(',') + '{display: initial !important; width: initial !important;}')
+	.join(',') + '{display: initial !important; margin: 0 !important; padding: 0 !important; width: initial !important;}')
 ;
