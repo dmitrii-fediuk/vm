@@ -9,7 +9,8 @@
 // 2024-10-23 "Improve `gemini.google.com`": https://github.com/dmitrii-fediuk/vm/issues/60
 // language=CSS
 GM_addStyle([
-	'.capabilities-disclaimer'
+	'.bot-list-item:has(.bot-name:contains("Brainstormer"))'
+	,'.capabilities-disclaimer'
 	,'zero-state-v2'
 ]
 	 // language=Javascript
