@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.card-container'
+	,'.navbar-header'
 	,'.title-container'
 ]
 	 // language=Javascript
