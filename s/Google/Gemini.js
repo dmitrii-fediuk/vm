@@ -9,7 +9,8 @@
 // 2024-10-23 "Improve `gemini.google.com`": https://github.com/dmitrii-fediuk/vm/issues/60
 // language=CSS
 GM_addStyle([
-	'zero-state-v2'
+	'.capabilities-disclaimer'
+	,'zero-state-v2'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
