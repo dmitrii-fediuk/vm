@@ -12,6 +12,7 @@ GM_addStyle([
 	'bot-list-item:has(mat-icon[data-mat-icon-name="emoji_objects"])' // 2024-10-23 "Brainstormer"
 	,'bot-list-item:has(mat-icon[data-mat-icon-name="work"])' // 2024-10-23 "Career guide"
 	,'.capabilities-disclaimer'
+	,'location-footer'
 	,'zero-state-v2'
 ]
 	 // language=Javascript
