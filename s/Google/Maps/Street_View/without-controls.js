@@ -7,4 +7,10 @@
 // @name Google / Maps / Street View / without controls
 // ==/UserScript==
 // 2024-10-27 "Improve Google Maps": https://github.com/dmitrii-fediuk/vm/issues/61
-
+// language=CSS
+GM_addStyle([
+	'#titlecard'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
