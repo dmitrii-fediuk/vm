@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'#bottom-pane'
+	,'#layer'
 	,'#minimap'
 	,'#titlecard'
 ]
