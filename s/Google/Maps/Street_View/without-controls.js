@@ -12,6 +12,7 @@ GM_addStyle([
 	'#bottom-pane'
 	,'#layer'
 	,'#minimap'
+	,'#omnibox-container'
 	,'#titlecard'
 ]
 	 // language=Javascript
