@@ -6,5 +6,5 @@
 // @match https://www.google.com/maps/*
 // @name Google // Maps // Street View // without controls
 // ==/UserScript==
-// 2024-10-23 "Improve Google Maps": https://github.com/dmitrii-fediuk/vm/issues/61
+// 2024-10-27 "Improve Google Maps": https://github.com/dmitrii-fediuk/vm/issues/61
 
