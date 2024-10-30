@@ -15,6 +15,7 @@ GM_addStyle([
 	,'.fab-lexi-ai'
 	,'.global-search-container'
 	,'aside'
+	,'footer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
