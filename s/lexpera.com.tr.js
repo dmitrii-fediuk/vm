@@ -11,6 +11,7 @@
 GM_addStyle([
 	'#goToTopButton'
 	,'.fab-lexi-ai'
+	,'.global-search-container'
 	,'aside'
 ]
 	 // language=Javascript
