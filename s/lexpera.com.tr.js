@@ -11,6 +11,7 @@
 GM_addStyle([
 	'#goToTopButton'
 	,'.fab-lexi-ai'
+	,'aside'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
