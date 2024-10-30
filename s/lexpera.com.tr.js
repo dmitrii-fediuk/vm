@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'#goToTopButton'
+	,'.document-grid__toolbar--bottom'
 	,'.fab-lexi-ai'
 	,'.global-search-container'
 	,'aside'
