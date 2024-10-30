@@ -9,6 +9,7 @@
 // 2024-10-30 "Improve `lexpera.com.tr`": https://github.com/dmitrii-fediuk/vm/issues/62
 // language=CSS
 GM_addStyle([
+	'.fab-lexi-ai'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
