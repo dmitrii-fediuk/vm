@@ -21,7 +21,8 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'main'
+	'.document-grid'
+	,'main'
 ]
 	 // language=Javascript
 	.join(',') + '{display: initial !important; max-width: 100% !important; padding: 0 !important; width: 100% !important;}')
