@@ -22,6 +22,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.document-grid'
+	,'.row'
 	,'main'
 ]
 	 // language=Javascript
