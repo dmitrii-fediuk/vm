@@ -11,6 +11,7 @@
 GM_addStyle([
 	'#goToTopButton'
 	,'#UIDocumentToolbarContainer'
+	,'.articleIcons'
 	,'.document-grid__toolbar--bottom'
 	,'.fab-lexi-ai'
 	,'.global-search-container'
