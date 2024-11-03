@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'#collection-recommendation'
+	,'.related-categories'
 	,'.search-landings-container'
 	,'[data-fragment-name="TopBanner"]'
 	,'footer'
