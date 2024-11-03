@@ -16,6 +16,7 @@ GM_addStyle([
 	,'[data-fragment-name="TopBanner"]'
 	,'footer'
 	// 2024-11-03 https://chatgpt.com/c/6715bd95-bee4-8006-bf0f-5174d0c9dfba
+	,'ul.navigation-all-categories-enabled > li:has(> a[href="/flas-indirimler"])'
 	,'ul.navigation-all-categories-enabled > li:has(> a[href^="/cok-satanlar?"])'
 ]
 	 // language=Javascript
