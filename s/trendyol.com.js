@@ -14,3 +14,10 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// language=CSS
+GM_addStyle([
+	'.sticky-header'
+]
+	 // language=Javascript
+	.join(',') + '{position: initial !important;}')
+;
