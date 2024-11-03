@@ -8,3 +8,9 @@
 // ==/UserScript==
 // 2024-11-03 "Improve `trendyol.com`": https://github.com/dmitrii-fediuk/vm/issues/63
 // language=CSS
+GM_addStyle([
+	'[data-fragment-name="TopBanner"]'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
