@@ -13,6 +13,7 @@ GM_addStyle([
 	,'#headerMain > .wrapper'
 	,'.related-categories'
 	,'.search-landings-container'
+	,'.sticky-header'
 	,'[data-fragment-name="TopBanner"]'
 	,'footer'
 	// 2024-11-03 https://chatgpt.com/c/6715bd95-bee4-8006-bf0f-5174d0c9dfba
@@ -24,7 +25,6 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'.sticky-header'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
