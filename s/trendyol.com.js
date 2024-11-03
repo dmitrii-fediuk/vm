@@ -12,6 +12,7 @@ GM_addStyle([
 	'#collection-recommendation'
 	,'.search-landings-container'
 	,'[data-fragment-name="TopBanner"]'
+	,'footer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
