@@ -15,6 +15,7 @@ GM_addStyle([
 	,'.search-landings-container'
 	,'[data-fragment-name="TopBanner"]'
 	,'footer'
+	,'ul.navigation-all-categories-enabled > li:has(> a[href*="/cok-satanlar?"])'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
