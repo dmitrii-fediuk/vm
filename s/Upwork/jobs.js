@@ -16,7 +16,7 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'.jobs-grid-container > [data-test="FiltersActive"]'
+	//'.jobs-grid-container > [data-test="FiltersActive"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: initial !important;}')
