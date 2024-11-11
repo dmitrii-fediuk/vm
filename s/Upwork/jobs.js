@@ -11,7 +11,7 @@
 GM_addStyle([
 	'[data-test="JobsPage"] > [data-test="FiltersList"]'
 	,'[data-test="JobsPage"] > [data-test="FiltersActive"]'
-	,'header'
+	//,'header'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
