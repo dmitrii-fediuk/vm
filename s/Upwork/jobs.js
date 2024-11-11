@@ -26,3 +26,10 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: initial !important;}')
 ;
+// language=CSS
+GM_addStyle([
+	'#main > .container'
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
