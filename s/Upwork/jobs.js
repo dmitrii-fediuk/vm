@@ -13,7 +13,7 @@ GM_addStyle([
 	,'[data-test="Header"]'
 	,'[data-test="JobsPage"] > [data-test="FiltersActive"]'
 	,'[data-test="JobsPage"] > [data-test="FiltersList"]'
-	,'.nav-container > .nav-header[data-test="up-s-nav-header"]'
+	,'.nav-container > .nav-header[data-cy="header"][data-test="up-s-nav-header"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
