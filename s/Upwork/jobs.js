@@ -17,7 +17,8 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'[data-test="JobsPage"] > div:last-of-type'
+	'[data-test="JobsPage"]'
+	,'[data-test="JobsPage"] > div:last-of-type'
 ]
 	 // language=Javascript
 	.join(',') + '{display: initial !important;}')
