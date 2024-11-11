@@ -17,7 +17,7 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	//'.jobs-grid-container > [data-test="FiltersActive"]'
+	'[data-test="JobsPage"] > div:last-of-type'
 ]
 	 // language=Javascript
 	.join(',') + '{display: initial !important;}')
