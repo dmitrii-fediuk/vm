@@ -9,7 +9,7 @@
 // 2024-11-11 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 // language=CSS
 GM_addStyle([
-	'.filters-list'
+	'.filters-list[data-test="FiltersList"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
