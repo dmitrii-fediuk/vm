@@ -4,6 +4,6 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Upwork/jobs.js
 // @icon https://www.upwork.com/favicon.ico
 // @match *://www.upwork.com/nx/search/jobs/*
-// @name Upwork / Chat reading
+// @name Upwork / Jobs
 // ==/UserScript==
 // 2024-11-11 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
