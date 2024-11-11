@@ -12,6 +12,7 @@ GM_addStyle([
 	'[data-test="Header"]'
 	,'[data-test="JobsPage"] > [data-test="FiltersActive"]'
 	,'[data-test="JobsPage"] > [data-test="FiltersList"]'
+	,'[data-test$="JobsButtons"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
