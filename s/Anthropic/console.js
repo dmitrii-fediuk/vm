@@ -7,3 +7,20 @@
 // @name Anthropic / Console
 // ==/UserScript==
 // 2024-11-15 "Improve `console.anthropic.com`": https://github.com/dmitrii-fediuk/vm/issues/66
+GM_addStyle([
+	'.from-bg-100'
+	,'.to-bg-000'
+	,'.bg-gradient-to-b'
+]
+	 // language=Javascript
+	.join(',')
+	+ '{'
+	+ [
+		'--tw-gradient-from: none'
+		,'--tw-gradient-to: none'
+		,'background-image: none'
+	]
+		 // language=Javascript
+		.join(' !important; ')
+	+ '}'
+);
