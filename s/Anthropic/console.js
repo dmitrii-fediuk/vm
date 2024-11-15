@@ -74,6 +74,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'[class*="font-"]'
+	,'body'
 ]
 	// language=Javascript
 	.join(',') + '{' +
