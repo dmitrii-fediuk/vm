@@ -9,6 +9,13 @@
 // 2024-11-15 "Improve `console.anthropic.com`": https://github.com/dmitrii-fediuk/vm/issues/66
 // language=CSS
 GM_addStyle([
+	'header > div:has([aria-label="Anthropic logo"])'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
+// language=CSS
+GM_addStyle([
 	'.bg-gradient-to-b'
 	,'[class*="bg-bg-"]'
 	,'[class*="from-bg-"]'
