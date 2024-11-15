@@ -7,17 +7,34 @@
 // @name Anthropic / Console
 // ==/UserScript==
 // 2024-11-15 "Improve `console.anthropic.com`": https://github.com/dmitrii-fediuk/vm/issues/66
+// language=CSS
 GM_addStyle([
 	'.bg-bg-100'
 	,'.bg-gradient-to-b'
 	,'.from-bg-100'
 	,'.to-bg-000'
-].join(',') + '{' +
-	Object.entries({
-		'--tw-gradient-from': 'none'
-		,'--tw-gradient-to': 'none'
-		,'background-color': 'initial'
-		,'background-image': 'none'
-		,'color': 'black'
-	}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-'}');
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'--tw-gradient-from': 'none'
+			,'--tw-gradient-to': 'none'
+			,'background-color': 'initial'
+			,'background-image': 'none'
+			,'color': 'black'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// language=CSS
+GM_addStyle([
+	'.text-text-300'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'color': 'black'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
