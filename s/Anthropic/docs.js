@@ -26,5 +26,5 @@ GM_addStyle([
 	'#content-container > .flex'
 ]
 	 // language=Javascript
-	.join(',') + '{padding-top: 0 !important;}')
+	.join(',') + '{padding-top: 1rem !important;}')
 ;
