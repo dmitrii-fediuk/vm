@@ -12,6 +12,7 @@ GM_addStyle([
 	'.bg-gradient-to-b'
 	,'[class*="bg-bg-"]'
 	,'[class*="from-bg-"]'
+	,'[class*="text-oncolor-"]'
 	,'[class*="to-bg-"]'
 ]
 	// language=Javascript
