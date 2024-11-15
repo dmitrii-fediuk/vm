@@ -9,7 +9,7 @@
 // 2024-11-15 "Improve `www.anthropic.com`": https://github.com/dmitrii-fediuk/vm/issues/65
 // language=CSS
 GM_addStyle([
-	'#navbar'
+	'header'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
