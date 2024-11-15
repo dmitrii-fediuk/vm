@@ -8,3 +8,10 @@
 // ==/UserScript==
 // 2024-11-15 "Improve `docs.anthropic.com`": https://github.com/dmitrii-fediuk/vm/issues/64
 // language=CSS
+// language=CSS
+GM_addStyle([
+	'#navbar'
+]
+	 // language=Javascript
+	.join(',') + '{position: initial !important;}')
+;
