@@ -14,3 +14,10 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
+// language=CSS
+GM_addStyle([
+	'.post-text'
+]
+	 // language=Javascript
+	.join(',') + '{max-width: initial !important;}')
+;
