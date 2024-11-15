@@ -9,6 +9,13 @@
 // 2024-11-15 "Improve `www.anthropic.com`": https://github.com/dmitrii-fediuk/vm/issues/65
 // language=CSS
 GM_addStyle([
+	'a[class^="SiteHeader_core-logo-link"]'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
+// language=CSS
+GM_addStyle([
 	'header'
 ]
 	 // language=Javascript
