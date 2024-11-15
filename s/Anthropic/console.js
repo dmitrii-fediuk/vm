@@ -18,5 +18,6 @@ GM_addStyle([
 		,'--tw-gradient-to': 'none'
 		,'background-color': 'initial'
 		,'background-image': 'none'
+		,'color': 'black'
 	}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 '}');
