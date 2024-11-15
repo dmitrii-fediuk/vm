@@ -71,15 +71,3 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// language=CSS
-GM_addStyle([
-	'*'
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
-			'opacity': 1
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
