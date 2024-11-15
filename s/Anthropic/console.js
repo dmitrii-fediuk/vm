@@ -16,7 +16,7 @@ GM_addStyle([
 	Object.entries({
 		'--tw-gradient-from': 'none'
 		,'--tw-gradient-to': 'none'
-		,'background-color': 'none'
+		,'background-color': 'initial'
 		,'background-image': 'none'
 	}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 '}');
