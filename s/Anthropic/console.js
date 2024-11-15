@@ -28,7 +28,7 @@ GM_addStyle([
 );
 // language=CSS
 GM_addStyle([
-	'[class^="text-text-"]'
+	'[class*="text-text-"]'
 ]
 	// language=Javascript
 	.join(',') + '{' +
