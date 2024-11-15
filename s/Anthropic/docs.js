@@ -8,6 +8,12 @@
 // ==/UserScript==
 // 2024-11-15 "Improve `docs.anthropic.com`": https://github.com/dmitrii-fediuk/vm/issues/64
 // language=CSS
+GM_addStyle([
+	'#ikp-chat-button'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
 // language=CSS
 GM_addStyle([
 	'#navbar'
