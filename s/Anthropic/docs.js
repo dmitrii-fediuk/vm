@@ -1,0 +1,10 @@
+// ==UserScript==
+// @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
+// @grant GM_addStyle
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Anthropic/docs.js
+// @icon https://mintlify.s3-us-west-1.amazonaws.com/anthropic/_generated/favicon/apple-touch-icon.png?v=3
+// @match *://docs.anthropic.com/*
+// @name Anthropic / Docs
+// ==/UserScript==
+// 2024-11-15 "Improve `docs.anthropic.com`": https://github.com/dmitrii-fediuk/vm/issues/64
+// language=CSS
