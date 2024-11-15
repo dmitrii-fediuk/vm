@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'header > div:has([aria-label="Anthropic logo"])'
+	,'header button:has(> svg > path[d^="M228.54"])'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
