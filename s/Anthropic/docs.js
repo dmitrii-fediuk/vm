@@ -21,3 +21,10 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
+// language=CSS
+GM_addStyle([
+	'#content-container > .flex'
+]
+	 // language=Javascript
+	.join(',') + '{padding-top: 0 !important;}')
+;
