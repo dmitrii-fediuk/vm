@@ -13,6 +13,7 @@ GM_addStyle([
 	,'.fe-proposal-boost-proposal'
 	,'.microapp-slot-innova'
 	,'.nav-uma'
+	,'.profile-highlights'
 	,'footer'
 ]
 	 // language=Javascript
