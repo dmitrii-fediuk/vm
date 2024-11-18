@@ -14,7 +14,7 @@ GM_addStyle([
 	,'.microapp-slot-innova'
 	,'.nav-uma'
 	,'.profile-highlights'
-	,'footer'
+	,'footer.up-footer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
