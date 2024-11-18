@@ -8,3 +8,9 @@
 // ==/UserScript==
 // 2024-10-13 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 // language=CSS
+GM_addStyle([
+	'.microapp-slot-innova'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
