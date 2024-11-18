@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.air3-search'
+	,'.fe-proposal-boost-proposal'
 	,'.microapp-slot-innova'
 	,'.nav-uma'
 	,'footer'
