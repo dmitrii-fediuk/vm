@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.microapp-slot-innova'
+	,'.nav-uma'
 	,'footer'
 ]
 	 // language=Javascript
