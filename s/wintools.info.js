@@ -1,8 +1,8 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Upwork/jobs.js
-// @icon https://www.upwork.com/favicon.ico
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/wintools.info.js
+// @icon https://www.wintools.info/media/templates/site/cassiopeia/images/joomla-favicon.svg
 // @match *://www.wintools.info/*
 // @name wintools.info
 // ==/UserScript==
