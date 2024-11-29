@@ -8,9 +8,4 @@
 // ==/UserScript==
 // 2024-11-30 "Improve `claude.ai`": https://github.com/dmitrii-fediuk/vm/issues/68
 // language=CSS
-GM_addStyle([
-	'.max-w-3xl'
-]
-	 // language=Javascript
-	.join(',') + '{max-width: 60rem;}')
-;
+GM_addStyle('.max-w-3xl {max-width: 60rem !important;}');
