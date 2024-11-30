@@ -16,8 +16,8 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	//'header'
-	'[id^="H_bg_v"]'
+	,'header'
+	,'[id^="H_bg_v"]'
 	,'[id^="H_v"]'
 ]
 	 // language=Javascript
