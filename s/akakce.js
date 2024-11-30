@@ -16,6 +16,7 @@ GM_addStyle([
 	// «Kasım İndirimlerini Akakçe'den Takip Eden Kazanıyor» / «Those who follow November discounts on Akakçe win»
 	,'#ntf_w ~ [class$="_dis"]'
 	,'#Topper'
+	,'.LM_st' // 2024-11-30 «Tüm Fiyatlar (11)»
 	,'.topBanner'
 	,'[class^="pp_h_v"]' // 2024-11-30 «Piyasa fiyatları» / «Market prices»
 	// 2024-11-30
