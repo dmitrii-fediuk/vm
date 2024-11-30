@@ -35,6 +35,7 @@ GM_addStyle([
 	,'[title="Takip Listem"]'
 	,'footer'
 	,'header > div:has(> a[id^="H_l_v"])' // 2024-11-30 Logo
+	,'header > div:has(> form)'
 	,'nav[id^="BC_v"]'
 	,'section:has(a[href="/son-baktiklarim/"])' // 2024-11-30 «Son Baktıklarım» / «My Recent Views»
 ]
