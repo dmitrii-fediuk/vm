@@ -9,7 +9,7 @@
 // 2024-11-30 "Improve `akakce.com`": https://github.com/dmitrii-fediuk/vm/issues/69
 // language=CSS
 GM_addStyle([
-	,'#Topper'
+	'#Topper'
 	// 2024-11-30
 	// 1) «Ürüne puan ver» / «Rate the product»
 	// 2) «Hatalı içerik mi buldunuz?Bizimle paylaşın.» / «Did you find incorrect content? Share it with us.»
