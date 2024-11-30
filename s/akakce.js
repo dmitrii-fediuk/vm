@@ -29,6 +29,7 @@ GM_addStyle([
 	,'[title="Takip Listem"]'
 	,'footer'
 	,'header > div:has(> a[id^="H_l_v"])' // 2024-11-30 Logo
+	,'nav[id^="BC_v"]'
 	,'section:has(a[href="/son-baktiklarim/"])' // 2024-11-30 «Son Baktıklarım» / «My Recent Views»
 	//,'[class^="pl_v"]' // 2024-11-30 «Bu Ürüne Bakanlar Bunlara Da Baktı» / «People who viewed this product also viewed these»
 ]
@@ -45,11 +46,4 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
-;
-// language=CSS
-GM_addStyle([
-	'nav'
-]
-	 // language=Javascript
-	.join(',') + '{margin: 0 !important;}')
 ;
