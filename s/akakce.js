@@ -22,6 +22,7 @@ GM_addStyle([
 	// 1) «Ürüne puan ver» / «Rate the product»
 	// 2) «Hatalı içerik mi buldunuz? Bizimle paylaşın.» / «Did you find incorrect content? Share it with us.»
 	,'[class^="rw_v"]:has(> #RTG)'
+	,'[class^="rw_v"]:has(a[title^="En Popüler"])'
 	// 2024-11-30
 	// «11 satıcı içinde kargo dahil en ucuz fiyat seçeneği» / «The cheapest price option including shipping among 11 sellers»
 	,'[class^="spt_v"]'
@@ -33,7 +34,6 @@ GM_addStyle([
 	,'header > div:has(> a[id^="H_l_v"])' // 2024-11-30 Logo
 	,'nav[id^="BC_v"]'
 	,'section:has(a[href="/son-baktiklarim/"])' // 2024-11-30 «Son Baktıklarım» / «My Recent Views»
-	,'.rw_v8:has(a[title^="En Popüler"])'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
