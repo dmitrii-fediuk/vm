@@ -17,6 +17,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	//'header'
+	'div[id^="H_bg_v"]'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
