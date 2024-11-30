@@ -46,7 +46,7 @@ GM_addStyle([
 	,'[id^="H_bg_v"]'
 	,'[id^="H_v"]'
 	,'[id^="H_v"]::before'
-	,'header'
+	//,'header'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
@@ -55,3 +55,15 @@ GM_addStyle([
 GM_addStyle('nav[id^="BC_v"] {margin: 0 !important;}');
 // language=CSS
 GM_addStyle('[class^="rw_v"] {max-width: none !important;}');
+// language=CSS
+GM_addStyle([
+	'header#Marvin'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'position': 'absolute'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
