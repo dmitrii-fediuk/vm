@@ -11,6 +11,7 @@
 GM_addStyle([
 	'#Topper'
 	,'.topBanner'
+	,'[class^="ahl_v"]'
 	,'footer'
 ]
 	 // language=Javascript
