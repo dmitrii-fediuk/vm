@@ -12,6 +12,9 @@ GM_addStyle([
 	// 2024-11-30
 	// «Takip et, tüm satıcılardaki indirimlerden haberdar ol.» / «Follow to stay informed about discounts from all sellers.»
 	'#ntf_w'
+	// 2024-11-30
+	// «Kasım İndirimlerini Akakçe'den Takip Eden Kazanıyor» / «Those who follow November discounts on Akakçe win»
+	,'#ntf_w ~ [class$="_dis"]'
 	,'#Topper'
 	// 2024-11-30
 	// 1) «Ürüne puan ver» / «Rate the product»
