@@ -12,6 +12,7 @@ GM_addStyle([
 	'#Topper'
 	,'.topBanner'
 	,'[class^="ahl_v"]' // 2024-11-30 «Son Baktıklarım» / «My Recent Views»
+	,'[class^="pl_v"]' // 2024-11-30 «Bu Ürüne Bakanlar Bunlara Da Baktı» / «People who viewed this product also viewed these»
 	,'footer'
 ]
 	 // language=Javascript
