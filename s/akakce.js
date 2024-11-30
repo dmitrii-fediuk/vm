@@ -21,6 +21,7 @@ GM_addStyle([
 	// 2) «Hatalı içerik mi buldunuz? Bizimle paylaşın.» / «Did you find incorrect content? Share it with us.»
 	,'.rw_v8:has(> #RTG)'
 	,'.topBanner'
+	,'[class^="pp_h_v"]' // 2024-11-30 «Piyasa fiyatları» / «Market prices»
 	// 2024-11-30
 	// «11 satıcı içinde kargo dahil en ucuz fiyat seçeneği» / «The cheapest price option including shipping among 11 sellers»
 	,'[class^="spt_v"]'
