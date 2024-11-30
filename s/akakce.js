@@ -15,8 +15,8 @@ GM_addStyle([
 	// 2) «Hatalı içerik mi buldunuz?Bizimle paylaşın.» / «Did you find incorrect content? Share it with us.»
 	,'.rw_v8:has(> #RTG)'
 	,'.topBanner'
-	,'[class^="ahl_v"]' // 2024-11-30 «Son Baktıklarım» / «My Recent Views»
-	,'[class^="pl_v"]' // 2024-11-30 «Bu Ürüne Bakanlar Bunlara Da Baktı» / «People who viewed this product also viewed these»
+	,'section:has(a[href="/son-baktiklarim/"])' // 2024-11-30 «Son Baktıklarım» / «My Recent Views»
+	//,'[class^="pl_v"]' // 2024-11-30 «Bu Ürüne Bakanlar Bunlara Da Baktı» / «People who viewed this product also viewed these»
 	,'footer'
 ]
 	 // language=Javascript
