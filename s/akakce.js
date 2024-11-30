@@ -11,7 +11,7 @@
 GM_addStyle([
 	'#Topper'
 	,'.topBanner'
-	,'[class^="ahl_v"]'
+	,'[class^="ahl_v"]' // 2024-11-30 «Son Baktıklarım» / «My Recent Views»
 	,'footer'
 ]
 	 // language=Javascript
