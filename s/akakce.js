@@ -9,7 +9,8 @@
 // 2024-11-30 "Improve `akakce.com`": https://github.com/dmitrii-fediuk/vm/issues/69
 // language=CSS
 GM_addStyle([
-	'#Topper'
+	'#RTG' // 2024-11-30 «Ürüne puan ver» / «Rate the product»
+	,'#Topper'
 	,'.topBanner'
 	,'[class^="ahl_v"]' // 2024-11-30 «Son Baktıklarım» / «My Recent Views»
 	,'[class^="pl_v"]' // 2024-11-30 «Bu Ürüne Bakanlar Bunlara Da Baktı» / «People who viewed this product also viewed these»
