@@ -26,6 +26,7 @@ GM_addStyle([
 	,'[class^="spt_v"]'
 	// 2024-11-30 «Daha düşük bir fiyat mı buldunuz? Bizimle paylaşın.» / «Did you find a lower price? Share it with us.
 	,'[id^="RCP_v"]'
+	,'header > div:has(> a[id^="H_l_v"])' // 2024-11-30 Logo
 	,'footer'
 	,'section:has(a[href="/son-baktiklarim/"])' // 2024-11-30 «Son Baktıklarım» / «My Recent Views»
 	//,'[class^="pl_v"]' // 2024-11-30 «Bu Ürüne Bakanlar Bunlara Da Baktı» / «People who viewed this product also viewed these»
