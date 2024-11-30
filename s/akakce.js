@@ -34,7 +34,6 @@ GM_addStyle([
 	,'nav[id^="BC_v"]'
 	,'section:has(a[href="/son-baktiklarim/"])' // 2024-11-30 «Son Baktıklarım» / «My Recent Views»
 	,'.rw_v8:has(a[title^="En Popüler"])'
-	//,'[class^="pl_v"]' // 2024-11-30 «Bu Ürüne Bakanlar Bunlara Da Baktı» / «People who viewed this product also viewed these»
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -51,16 +50,6 @@ GM_addStyle([
 	.join(',') + '{position: initial !important;}')
 ;
 // language=CSS
-GM_addStyle([
-	'nav[id^="BC_v"]'
-]
-	 // language=Javascript
-	.join(',') + '{margin: 0 !important;}')
-;
+GM_addStyle('nav[id^="BC_v"] {margin: 0 !important;}');
 // language=CSS
-GM_addStyle([
-	'[class^="rw_v"]'
-]
-	 // language=Javascript
-	.join(',') + '{max-width: none !important;}')
-;
+GM_addStyle('[class^="rw_v"] {max-width: none !important;}');
