@@ -11,6 +11,7 @@
 GM_addStyle([
 	'#Topper'
 	,'.topBanner'
+	,'footer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
