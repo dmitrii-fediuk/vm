@@ -9,7 +9,14 @@
 // 2024-11-30 "Improve `akakce.com`": https://github.com/dmitrii-fediuk/vm/issues/69
 // language=CSS
 GM_addStyle([
-	'header'
+	'.topBanner'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
+// language=CSS
+GM_addStyle([
+	//'header'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
