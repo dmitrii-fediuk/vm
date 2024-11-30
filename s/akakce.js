@@ -16,12 +16,12 @@ GM_addStyle([
 	// «Kasım İndirimlerini Akakçe'den Takip Eden Kazanıyor» / «Those who follow November discounts on Akakçe win»
 	,'#ntf_w ~ [class$="_dis"]'
 	,'#Topper'
+	,'.topBanner'
+	,'[class^="pp_h_v"]' // 2024-11-30 «Piyasa fiyatları» / «Market prices»
 	// 2024-11-30
 	// 1) «Ürüne puan ver» / «Rate the product»
 	// 2) «Hatalı içerik mi buldunuz? Bizimle paylaşın.» / «Did you find incorrect content? Share it with us.»
-	,'.rw_v8:has(> #RTG)'
-	,'.topBanner'
-	,'[class^="pp_h_v"]' // 2024-11-30 «Piyasa fiyatları» / «Market prices»
+	,'[class^="rw_v"]:has(> #RTG)'
 	// 2024-11-30
 	// «11 satıcı içinde kargo dahil en ucuz fiyat seçeneği» / «The cheapest price option including shipping among 11 sellers»
 	,'[class^="spt_v"]'
@@ -56,4 +56,11 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
+;
+// language=CSS
+GM_addStyle([
+	'[class^="rw_v"]'
+]
+	 // language=Javascript
+	.join(',') + '{max-width: none !important;}')
 ;
