@@ -64,6 +64,7 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			'position': 'absolute'
+			,'top': 0
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
