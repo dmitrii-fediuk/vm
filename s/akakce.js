@@ -16,9 +16,10 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'header'
+	'#LM_s'
 	,'[id^="H_bg_v"]'
 	,'[id^="H_v"]'
+	,'header'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
