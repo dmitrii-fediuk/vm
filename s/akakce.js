@@ -52,6 +52,8 @@ GM_addStyle([
 	.join(',') + '{position: initial !important;}')
 ;
 // language=CSS
+GM_addStyle('[id^="H_v"] {min-height: 0 !important;}');
+// language=CSS
 GM_addStyle('nav[id^="BC_v"] {margin: 0 !important;}');
 // language=CSS
 GM_addStyle('[class^="rw_v"] {max-width: none !important;}');
