@@ -47,3 +47,10 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
+// language=CSS
+GM_addStyle([
+	'nav[id^="BC_v"]'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
