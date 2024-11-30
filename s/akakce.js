@@ -16,7 +16,7 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	,'header'
+	'header'
 	,'[id^="H_bg_v"]'
 	,'[id^="H_v"]'
 ]
