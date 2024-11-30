@@ -28,6 +28,7 @@ GM_addStyle([
 	// «11 satıcı içinde kargo dahil en ucuz fiyat seçeneği» / «The cheapest price option including shipping among 11 sellers»
 	,'[class^="spt_v"]'
 	,'[class^="spt_v"] ~ [class^="bd_v"]' // 2024-11-30 «Son güncelleme: Bugün 16:08»
+	,'[class^="spt_v"] ~ [class^="v_v"]' // 2024-11-30 «Satıcı: »
 	,'[id^="H_bg_v"]'
 	// 2024-11-30 «Daha düşük bir fiyat mı buldunuz? Bizimle paylaşın.» / «Did you find a lower price? Share it with us.
 	,'[id^="pd_v"] ~ section > h2' // 2024-11-30 «En Ucuz <…> Fiyatları»
