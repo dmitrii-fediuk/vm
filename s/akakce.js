@@ -23,6 +23,7 @@ GM_addStyle([
 	// 2) «Hatalı içerik mi buldunuz? Bizimle paylaşın.» / «Did you find incorrect content? Share it with us.»
 	,'[class^="rw_v"]:has(> #RTG)'
 	,'[class^="rw_v"]:has(a[title^="En Popüler"])'
+	,'[class^="w_v"]:has(> [class^="stock_v"])' // 2024-11-30 «Stokta 10+ adet»
 	// 2024-11-30
 	// «11 satıcı içinde kargo dahil en ucuz fiyat seçeneği» / «The cheapest price option including shipping among 11 sellers»
 	,'[class^="spt_v"]'
