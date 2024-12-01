@@ -19,6 +19,7 @@ GM_addStyle([
 	,'.mnm-main-message'
 	,'.nav-sections'
 	,'.page-products .product-item-actions'
+	,'footer'
 	,'header.short-header'
 ]
 	 // language=Javascript
