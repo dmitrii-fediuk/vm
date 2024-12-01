@@ -9,8 +9,8 @@
 // 2024-12-01 "Improve `rossmann.com.tr`": https://github.com/dmitrii-fediuk/vm/issues/70
 // language=CSS
 GM_addStyle([
-	//'[class*="custom-countdown-wrapper"]'
-	'[class*="preview-wrapper-notification-center"]'
+	'[class*="preview-wrapper"]:has([class*="notification-content"])'
+	,'[class*="preview-wrapper-notification-center"]'
 	,'[id$="back-to-top"]'
 	,'.category-view'
 	,'.column.main > .block-static-block'
