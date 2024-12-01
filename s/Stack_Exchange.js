@@ -49,7 +49,7 @@ GM_addStyle([
 			// https://github.com/dmitrii-fediuk/vm/issues/8
 			,'position': 'absolute'
 			// language=Javascript
-			,'top': '100'
+			,'top': '100px'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
