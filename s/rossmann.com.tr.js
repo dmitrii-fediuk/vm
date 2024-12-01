@@ -43,7 +43,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle('.catalog-product-view main#maincontent {order: initial !important;}');
 // language=CSS
-GM_addStyle('.column.main {padding: 0 !important;}');
+GM_addStyle('.column.main {min-height: initial !important; padding: 0 !important;}');
 // language=CSS
 GM_addStyle('.page-wrapper .breadcrumbs {margin: 0.5rem 0 !important;}');
 // language=CSS
