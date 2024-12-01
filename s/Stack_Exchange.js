@@ -18,6 +18,7 @@ GM_addStyle([
 	,'.s-navigation'
 	,'.s-topbar--logo'
 	,'.s-topbar--menu-btn'
+	,'li:has(> .js-help-button)'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
