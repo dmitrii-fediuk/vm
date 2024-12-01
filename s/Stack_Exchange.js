@@ -32,6 +32,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#post-editor'
+	,'#wmd-preview'
 	,'#your-answer-header'
 ]
 	 // language=Javascript
