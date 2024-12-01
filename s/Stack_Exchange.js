@@ -32,7 +32,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.form-submit'
-	'.post-layout--right'
+	,'.post-layout--right'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
