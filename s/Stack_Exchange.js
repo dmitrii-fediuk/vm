@@ -48,6 +48,7 @@ GM_addStyle([
 			// Prevent the header on StackExchange websites from sticking at the top on scrolling the page":
 			// https://github.com/dmitrii-fediuk/vm/issues/8
 			,'position': 'absolute'
+			,'top': 200
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
