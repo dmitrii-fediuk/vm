@@ -16,7 +16,7 @@ GM_addStyle([
 	,'.mnm-header-catalogue'
 	,'.mnm-header-stores'
 	,'.mnm-main-message'
-	,'.nav-sections'
+	//,'.nav-sections'
 	,'.page-products .product-item-actions'
 	,'header.short-header'
 ]
