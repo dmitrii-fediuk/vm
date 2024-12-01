@@ -31,4 +31,4 @@ GM_addStyle([
 	.join(',') + '{margin: 0 !important;}')
 ;
 // language=CSS
-GM_addStyle('.page-wrapper {padding: 0 !important;}');
+GM_addStyle('.page-wrapper {padding-top: 0 !important;}');
