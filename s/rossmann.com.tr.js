@@ -25,7 +25,7 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'.nav-sections'
+	//'.nav-sections'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
