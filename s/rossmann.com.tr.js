@@ -16,12 +16,19 @@ GM_addStyle([
 	,'.mnm-header-catalogue'
 	,'.mnm-header-stores'
 	,'.mnm-main-message'
-	//,'.nav-sections'
+	,'.nav-sections'
 	,'.page-products .product-item-actions'
 	,'header.short-header'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
+;
+// language=CSS
+GM_addStyle([
+	'header.page-header'
+]
+	 // language=Javascript
+	.join(',') + '{position: initial !important;}')
 ;
 // language=CSS
 GM_addStyle([
