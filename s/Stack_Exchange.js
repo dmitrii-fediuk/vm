@@ -1,4 +1,3 @@
-// 2024-05-30 "Hide sidebars on Stack Exchange": https://github.com/dmitrii-fediuk/adblock/issues/31
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
@@ -12,6 +11,8 @@
 // @match *://superuser.com/*
 // @name Stack Exchange
 // ==/UserScript==
+// 2024-12-01 "Improve Stack Exchange": https://github.com/dmitrii-fediuk/vm/issues/71
+// 2024-05-30 "Hide sidebars on Stack Exchange": https://github.com/dmitrii-fediuk/adblock/issues/31
 // language=CSS
 GM_addStyle('#mainbar {width: 100% !important;}');
 // 2024-07-16
