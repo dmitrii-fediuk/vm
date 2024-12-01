@@ -68,8 +68,8 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'background': 'pink'
-			,'max-width': 'initial'
+			//'background': 'pink'
+			'max-width': 'initial'
 			,'width': 'initial'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
