@@ -12,6 +12,13 @@
 // @name Stack Exchange
 // ==/UserScript==
 // 2024-12-01 "Improve Stack Exchange": https://github.com/dmitrii-fediuk/vm/issues/71
+// language=CSS
+GM_addStyle([
+	'.js-left-sidebar-toggle'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
 // 2024-05-30 "Hide sidebars on Stack Exchange": https://github.com/dmitrii-fediuk/adblock/issues/31
 // language=CSS
 GM_addStyle('#mainbar {width: 100% !important;}');
