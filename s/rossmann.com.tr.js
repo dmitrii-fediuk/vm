@@ -38,4 +38,6 @@ GM_addStyle([
 	.join(',') + '{margin: 0 !important;}')
 ;
 // language=CSS
+GM_addStyle('.breadcrumbs {margin: 0.5rem 0 !important;}');
+// language=CSS
 GM_addStyle('.page-wrapper, body.has-mnm-top-banner .page-wrapper {padding-top: 0 !important;}');
