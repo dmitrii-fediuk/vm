@@ -34,6 +34,8 @@ GM_addStyle('#content {padding: 0 0.5rem !important;}');
 // language=CSS
 GM_addStyle('#mainbar {width: 100% !important;}');
 // language=CSS
+GM_addStyle('.post-layout--right {padding: 0 !important;}');
+// language=CSS
 GM_addStyle([
 	'header.ps-fixed'
 ]
