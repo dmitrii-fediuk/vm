@@ -30,3 +30,5 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
+// language=CSS
+GM_addStyle('.page-wrapper {padding: 0 !important;}');
