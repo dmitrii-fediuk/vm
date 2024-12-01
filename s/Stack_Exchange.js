@@ -49,6 +49,7 @@ GM_addStyle([
 			'background': 'yellow'
 			,'border': 0
 			,'display': 'initial'
+			,'left': 'initial'
 			// 2024-07-16
 			// Prevent the header on StackExchange websites from sticking at the top on scrolling the page":
 			// https://github.com/dmitrii-fediuk/vm/issues/8
