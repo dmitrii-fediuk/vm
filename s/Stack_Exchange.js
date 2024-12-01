@@ -46,8 +46,7 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'background': 'yellow'
-			,'border': 0
+			'border': 0
 			,'display': 'initial'
 			,'left': 'initial'
 			// 2024-07-16
@@ -69,9 +68,7 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			//'background': 'pink'
-			'max-width': 'initial'
-			,'width': 'initial'
+			'max-width': 'initial', 'width': 'initial'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
