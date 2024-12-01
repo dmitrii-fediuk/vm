@@ -56,8 +56,7 @@ GM_addStyle([
 			,'right': 0
 			// language=Javascript
 			,'top': '100px'
-			// language=CSS
-			,'width': 'initial'
+			,'width': '18em'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
