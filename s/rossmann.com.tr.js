@@ -41,6 +41,8 @@ GM_addStyle([
 	.join(',') + '{margin: 0 !important;}')
 ;
 // language=CSS
+GM_addStyle('body {padding-bottom: 1rem;}');
+// language=CSS
 GM_addStyle('.catalog-product-view main#maincontent {order: initial !important;}');
 // language=CSS
 GM_addStyle('.column.main {min-height: initial !important; padding: 0 !important;}');
