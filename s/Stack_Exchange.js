@@ -64,7 +64,7 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'background': 'white'
+			'background': 'transparent'
 			,'border': 0
 			,'display': 'initial'
 			,'left': 'initial'
