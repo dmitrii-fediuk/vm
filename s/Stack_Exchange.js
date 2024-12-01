@@ -21,6 +21,7 @@ GM_addStyle([
 	,'.s-navigation'
 	,'.s-topbar--logo'
 	,'.s-topbar--menu-btn'
+	,'.s-topbar--skip-link'
 	,'footer'
 	,'li:has(> .js-help-button)'
 	,'li:has(> .js-site-switcher-button)'
