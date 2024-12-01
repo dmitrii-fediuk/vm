@@ -14,7 +14,8 @@
 // 2024-12-01 "Improve Stack Exchange": https://github.com/dmitrii-fediuk/vm/issues/71
 // language=CSS
 GM_addStyle([
-	'.js-left-sidebar-toggle'
+	'.s-topbar--logo'
+	,'.s-topbar--menu-btn'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
