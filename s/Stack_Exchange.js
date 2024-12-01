@@ -37,6 +37,8 @@ GM_addStyle('#content {padding: 0 1rem !important;}');
 // language=CSS
 GM_addStyle('#mainbar {width: 100% !important;}');
 // language=CSS
+GM_addStyle('#post-editor {margin: 0 !important;}');
+// language=CSS
 GM_addStyle('.post-layout--right {padding: 0 !important;}');
 // language=CSS
 GM_addStyle([
