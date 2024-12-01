@@ -48,6 +48,6 @@ GM_addStyle('.page-wrapper .breadcrumbs {margin: 0.5rem 0 !important;}');
 // language=CSS
 GM_addStyle('.page-wrapper, body.has-mnm-top-banner .page-wrapper {padding-top: 0 !important;}');
 // language=CSS
-GM_addStyle('.product-info-main-area {padding: 0 !important;}');
+GM_addStyle('.product-info-main-area {order: initial !important; padding: 0 !important;}');
 
 
