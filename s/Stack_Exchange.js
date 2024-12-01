@@ -16,6 +16,7 @@
 GM_addStyle([
 	'#search'
 	,'.aside-cta:has(a[href="/questions/ask"])'
+	,'.bottom-notice'
 	,'.s-navigation'
 	,'.s-topbar--logo'
 	,'.s-topbar--menu-btn'
