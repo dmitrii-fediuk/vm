@@ -73,8 +73,8 @@ GM_addStyle([
 			,'position': 'absolute'
 			,'right': 0
 			// language=Javascript
-			,'top': '6em'
-			,'width': '18em'
+			,'top': '6rem'
+			,'width': '18rem'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
