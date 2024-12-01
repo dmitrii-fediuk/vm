@@ -31,8 +31,19 @@ GM_addStyle([
 // 2024-05-30 "Hide sidebars on Stack Exchange": https://github.com/dmitrii-fediuk/adblock/issues/31
 // language=CSS
 GM_addStyle('#mainbar {width: 100% !important;}');
-// 2024-07-16
-// Prevent the header on StackExchange websites from sticking at the top on scrolling the page":
-// https://github.com/dmitrii-fediuk/vm/issues/8
 // language=CSS
-GM_addStyle('header.ps-fixed {position: absolute !important;}');
+GM_addStyle([
+	'header.ps-fixed'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'border': 0
+			// 2024-07-16
+			// Prevent the header on StackExchange websites from sticking at the top on scrolling the page":
+			// https://github.com/dmitrii-fediuk/vm/issues/8
+			,'position': 'absolute'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
