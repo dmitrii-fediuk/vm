@@ -38,7 +38,7 @@ GM_addStyle([
 	.join(',') + '{padding: 0 !important;}')
 ;
 // language=CSS
-GM_addStyle('#body {padding: 0 0 1rem 0;}');
+GM_addStyle('body {padding: 0 0 1rem 0;}');
 // language=CSS
 GM_addStyle('#content {padding: 0 1rem !important;}');
 // 2024-05-30 "Hide sidebars on Stack Exchange": https://github.com/dmitrii-fediuk/adblock/issues/31
