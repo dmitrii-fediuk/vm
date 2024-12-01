@@ -15,6 +15,7 @@
 // language=CSS
 GM_addStyle([
 	'#search'
+	,'.aside-cta:has(a[href="/questions/ask"])'
 	,'.s-navigation'
 	,'.s-topbar--logo'
 	,'.s-topbar--menu-btn'
