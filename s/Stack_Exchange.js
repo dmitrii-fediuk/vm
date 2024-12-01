@@ -62,7 +62,8 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'border': 0
+			'background': 'white'
+			,'border': 0
 			,'display': 'initial'
 			,'left': 'initial'
 			// 2024-07-16
