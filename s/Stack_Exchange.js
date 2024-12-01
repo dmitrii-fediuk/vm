@@ -31,6 +31,14 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
+	'#post-editor'
+	,'#your-answer-header'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
+// language=CSS
+GM_addStyle([
 	'.form-submit'
 	,'.post-layout--right'
 ]
@@ -44,8 +52,6 @@ GM_addStyle('#content {padding: 0 1rem !important;}');
 // 2024-05-30 "Hide sidebars on Stack Exchange": https://github.com/dmitrii-fediuk/adblock/issues/31
 // language=CSS
 GM_addStyle('#mainbar {width: 100% !important;}');
-// language=CSS
-GM_addStyle('#post-editor {margin: 0 !important;}');
 // language=CSS
 GM_addStyle([
 	'header.ps-fixed'
