@@ -36,6 +36,7 @@ GM_addStyle([
 	'#post-editor'
 	,'#wmd-preview'
 	,'#your-answer-header'
+	,'.s-topbar--container > nav'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
