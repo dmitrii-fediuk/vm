@@ -87,7 +87,10 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'max-width': 'initial', 'width': 'initial'
+			'display': 'initial'
+			,'float': 'right'
+			,'max-width': 'initial'
+			,'width': 'initial'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
