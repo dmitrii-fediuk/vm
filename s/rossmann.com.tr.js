@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'[class*="custom-countdown-wrapper"]'
+	,'[class*="preview-wrapper-notification-center"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
