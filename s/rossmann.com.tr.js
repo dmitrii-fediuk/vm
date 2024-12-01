@@ -42,4 +42,6 @@ GM_addStyle([
 // language=CSS
 GM_addStyle('.page-wrapper .breadcrumbs {margin: 0.5rem 0 !important;}');
 // language=CSS
+GM_addStyle('.column.main {padding: 0 !important;}');
+// language=CSS
 GM_addStyle('.page-wrapper, body.has-mnm-top-banner .page-wrapper {padding-top: 0 !important;}');
