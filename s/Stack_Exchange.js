@@ -30,7 +30,13 @@ GM_addStyle([
 	.join(',') + '{display: none !important;}')
 ;
 // language=CSS
-GM_addStyle('body {padding: 0 !important;}');
+GM_addStyle([
+	'.post-layout--right'
+	,'body'
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
 // language=CSS
 GM_addStyle('#content {padding: 0 1rem !important;}');
 // 2024-05-30 "Hide sidebars on Stack Exchange": https://github.com/dmitrii-fediuk/adblock/issues/31
@@ -38,8 +44,6 @@ GM_addStyle('#content {padding: 0 1rem !important;}');
 GM_addStyle('#mainbar {width: 100% !important;}');
 // language=CSS
 GM_addStyle('#post-editor {margin: 0 !important;}');
-// language=CSS
-GM_addStyle('.post-layout--right {padding: 0 !important;}');
 // language=CSS
 GM_addStyle([
 	'header.ps-fixed'
