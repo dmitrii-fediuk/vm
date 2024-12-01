@@ -19,6 +19,7 @@ GM_addStyle([
 	,'.s-topbar--logo'
 	,'.s-topbar--menu-btn'
 	,'li:has(> .js-help-button)'
+	,'li:has(> .js-site-switcher-button)'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
