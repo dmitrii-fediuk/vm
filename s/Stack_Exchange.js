@@ -54,6 +54,8 @@ GM_addStyle([
 			,'position': 'absolute'
 			// language=Javascript
 			,'top': '100px'
+			// language=CSS
+			,'width': 'initial'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
