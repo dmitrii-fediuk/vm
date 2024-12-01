@@ -55,7 +55,7 @@ GM_addStyle([
 			,'position': 'absolute'
 			,'right': 0
 			// language=Javascript
-			,'top': '100px'
+			,'top': '6em'
 			,'width': '18em'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
