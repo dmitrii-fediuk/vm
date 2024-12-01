@@ -40,8 +40,10 @@ GM_addStyle([
 	.join(',') + '{margin: 0 !important;}')
 ;
 // language=CSS
-GM_addStyle('.page-wrapper .breadcrumbs {margin: 0.5rem 0 !important;}');
+GM_addStyle('.catalog-product-view main#maincontent {order: initial !important;}');
 // language=CSS
 GM_addStyle('.column.main {padding: 0 !important;}');
+// language=CSS
+GM_addStyle('.page-wrapper .breadcrumbs {margin: 0.5rem 0 !important;}');
 // language=CSS
 GM_addStyle('.page-wrapper, body.has-mnm-top-banner .page-wrapper {padding-top: 0 !important;}');
