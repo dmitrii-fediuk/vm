@@ -11,6 +11,7 @@
 GM_addStyle([
 	//'[class*="custom-countdown-wrapper"]'
 	'[class*="preview-wrapper-notification-center"]'
+	,'[id$="back-to-top"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
