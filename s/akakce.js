@@ -49,7 +49,6 @@ GM_addStyle([
 	'#LM_s'
 	,'[id^="H_v"]'
 	,'[id^="H_v"]::before'
-	//,'header'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
