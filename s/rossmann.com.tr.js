@@ -8,3 +8,9 @@
 // ==/UserScript==
 // 2024-12-01 "Improve `rossmann.com.tr`": https://github.com/dmitrii-fediuk/vm/issues/70
 // language=CSS
+GM_addStyle([
+	'[class*="custom-countdown-wrapper"]'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
