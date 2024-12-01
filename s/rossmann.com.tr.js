@@ -13,6 +13,7 @@ GM_addStyle([
 	'[class*="preview-wrapper-notification-center"]'
 	,'[id$="back-to-top"]'
 	,'.category-view'
+	,'.mnm-main-message'
 	,'.page-products .product-item-actions'
 	,'header.short-header'
 ]
