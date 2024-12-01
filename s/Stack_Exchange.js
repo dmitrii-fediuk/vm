@@ -14,7 +14,8 @@
 // 2024-12-01 "Improve Stack Exchange": https://github.com/dmitrii-fediuk/vm/issues/71
 // language=CSS
 GM_addStyle([
-	'#search'
+	'#post-editor fieldset:has(label[for="communitymode"])'
+	,'#search'
 	,'#sidebar'
 	,'.aside-cta:has(a[href="/questions/ask"])'
 	,'.bottom-notice'
