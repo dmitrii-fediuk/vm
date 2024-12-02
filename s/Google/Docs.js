@@ -56,3 +56,15 @@ GM_addStyle([
 //GM_addStyle('.docs-ui-hit-region-surface {left: 0 !important;}');
 // language=CSS
 GM_addStyle('.left-sidebar-container {width: 0 !important;}');
+// language=CSS
+GM_addStyle([
+	'div:has(> .docs-header-container)'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'float': 'left'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
