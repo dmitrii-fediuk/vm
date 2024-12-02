@@ -10,8 +10,10 @@
 // language=CSS
 GM_addStyle([
 	'#docs-omnibox-toolbar'
+	,'#formatPainterButton'
 	,'#printButton'
 	,'#redoButton'
+	,'#spellGrammarCheckButton'
 	,'#undoButton'
 	,'.docs-companion-app-switcher-container'
 	,'.docs-titlebar-buttons'
