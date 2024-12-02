@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'#docs-sidekick-gen-ai-promo-button-container'
+	,'#docs-titlebar-share-client-button'
 	,'.docs-meet-in-editors-entrypoint-container'
 	,'.left-sidebar-container'
 ]
