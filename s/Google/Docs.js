@@ -16,3 +16,6 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle('.left-sidebar-container {width: 0 !important;}');
+// language=CSS
+GM_addStyle('.kix-rotatingtilemanager {left: 0 !important;}');
+
