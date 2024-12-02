@@ -15,6 +15,7 @@ GM_addStyle([
 	,'[jscontroller]:has(> span > button[aria-label="Add reaction"])'
 	,'[role="navigation"]:has([aria-label="Meet"])' // 2024-12-02 The left sidebar with a crapware like «Chat» and «Meet»
 	,'div:has(> .l2[style])' // 2024-12-02 An empty space at the bottom
+	,'div:has(> [jsaction] > [jsaction] > [aria-label="Side panel"])' // 2024-12-02 The right sidebar with a crapware
 	,'div:has(> div > #itamenu)' // 2024-12-02 Screen keyboard
 	,'td [aria-label="Add reaction"]'
 	,'td [aria-label="Not starred"]'
