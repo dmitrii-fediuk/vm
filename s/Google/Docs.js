@@ -14,3 +14,5 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// language=CSS
+GM_addStyle('.left-sidebar-container {width: 0 !important;}');
