@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'#docs-omnibox-toolbar'
+	,'#docs-toolbar-mode-switcher'
 	,'#formatPainterButton'
 	,'#printButton'
 	,'#redoButton'
