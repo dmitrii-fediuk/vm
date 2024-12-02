@@ -66,27 +66,11 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// language=CSS
-//GM_addStyle('.docs-ui-hit-region-surface {left: 0 !important;}');
-(function() {
-    'use strict';
-    function scrollEditor() {
-        const editorContainer = document.querySelector('.kix-appview-editor');
-        if (editorContainer) {
-            editorContainer.scrollLeft = 89;
-        }
-    }
-    // Запускаем прокрутку после загрузки страницы
-    setTimeout(scrollEditor, 1000);
-    // Наблюдаем за изменениями в DOM
-    const observer = new MutationObserver(() => {
-        setTimeout(scrollEditor, 100);
-    });
-    // Начинаем наблюдение после загрузки страницы
-    window.addEventListener('load', () => {
-        observer.observe(document.body, {
-            childList: true,
-            subtree: true
-        });
-    });
+// 2024-12-02 https://claude.ai/chat/a99b0b68-32ff-479b-8674-140b2275c0a5
+(() => {
+    const f = () => document.querySelector('.kix-appview-editor')?.scrollLeft = 89;
+    setTimeout(f, 1000);
+    addEventListener('load', () =>
+		new MutationObserver(() => setTimeout(f, 100)).observe(document.body, {childList: 1, subtree: 1})
+	);
 })();
