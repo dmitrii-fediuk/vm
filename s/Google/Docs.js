@@ -8,3 +8,9 @@
 // ==/UserScript==
 // 2024-12-02 "Improve Google Docs": https://github.com/dmitrii-fediuk/vm/issues/72
 // language=CSS
+GM_addStyle([
+	'.left-sidebar-container'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
