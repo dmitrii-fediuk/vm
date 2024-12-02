@@ -48,4 +48,6 @@ GM_addStyle([
 //GM_addStyle('.docs-ui-hit-region-surface {left: 0 !important;}');
 // language=CSS
 GM_addStyle('.left-sidebar-container {width: 0 !important;}');
+// language=CSS
+GM_addStyle('#docs-titlebar-container {margin: 0 !important;}');
 
