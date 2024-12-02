@@ -10,14 +10,14 @@
 // language=CSS
 GM_addStyle([
 	'.docs-titlebar-buttons'
-	,'.left-sidebar-container'
-	,'.miniChapterSwitcherContainerView'
+	//,'.left-sidebar-container'
+	//,'.miniChapterSwitcherContainerView'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
 // language=CSS
-GM_addStyle('.docs-ui-hit-region-surface {left: 0 !important;}');
+//GM_addStyle('.docs-ui-hit-region-surface {left: 0 !important;}');
 // language=CSS
-GM_addStyle('.left-sidebar-container {width: 0 !important;}');
+//GM_addStyle('.left-sidebar-container {width: 0 !important;}');
 
