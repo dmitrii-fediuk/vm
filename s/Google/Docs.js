@@ -66,7 +66,9 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// 2024-12-02 https://claude.ai/chat/a99b0b68-32ff-479b-8674-140b2275c0a5
+// 2024-12-02
+// https://claude.ai/chat/a99b0b68-32ff-479b-8674-140b2275c0a5
+// https://chatgpt.com/c/674d3213-1118-8006-943f-4402618425e4
 (() => {
 	const f = () => {
 		const e = document.querySelector('.kix-appview-editor');
