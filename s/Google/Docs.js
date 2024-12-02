@@ -16,6 +16,7 @@ GM_addStyle([
 	,'#bulletedListPresetMenuButton'
 	,'#checklistPresetMenuButton'
 	,'#clearFormattingButton'
+	,'#commentSeparator'
 	,'#docs-omnibox-toolbar'
 	,'#docs-toolbar-mode-switcher'
 	,'#formatPainterButton'
