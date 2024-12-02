@@ -53,8 +53,6 @@ GM_addStyle([
 	.join(',') + '{margin: 0 !important;}')
 ;
 // language=CSS
-GM_addStyle('.docs-ui-hit-region-surface {left: 0 !important;}');
-// language=CSS
 GM_addStyle('.left-sidebar-container {width: 0 !important;}');
 // language=CSS
 GM_addStyle([
@@ -68,3 +66,30 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+(function() {
+    'use strict';
+    // Function to remove left offset
+    function removeLeftOffset() {
+        // Get all elements with the specified class
+        const elements = document.querySelectorAll('.docs-ui-hit-region-surface');
+        // Iterate through elements and modify their style
+        elements.forEach(element => {
+            const currentStyle = element.getAttribute('style');
+            if (currentStyle) {
+                // Remove 'left: 89px;' from the style string
+                const newStyle = currentStyle.replace(/left:\s*89px;\s*/g, '');
+                element.setAttribute('style', newStyle);
+            }
+        });
+    }
+    // Run initially
+    removeLeftOffset();
+    // Observe DOM changes to handle dynamically added elements
+    const observer = new MutationObserver(removeLeftOffset);
+    observer.observe(document.body, {
+        childList: true,
+        subtree: true
+    });
+})();
+// language=CSS
+//GM_addStyle('.docs-ui-hit-region-surface {left: 0 !important;}');
