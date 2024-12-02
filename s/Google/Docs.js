@@ -9,9 +9,17 @@
 // 2024-12-02 "Improve Google Docs": https://github.com/dmitrii-fediuk/vm/issues/72
 // language=CSS
 GM_addStyle([
-	'#docs-omnibox-toolbar'
+	'#addBulletButton'
+	,'#addNumberedBulletButton'
+	,'#bulletedListPresetMenuButton'
+	,'#checklistPresetMenuButton'
+	,'#clearFormattingButton'
+	,'#docs-omnibox-toolbar'
 	,'#docs-toolbar-mode-switcher'
 	,'#formatPainterButton'
+	,'#indentButton'
+	,'#numberedListPresetMenuButton'
+	,'#outdentButton'
 	,'#printButton'
 	,'#redoButton'
 	,'#spellGrammarCheckButton'
