@@ -33,6 +33,7 @@ GM_addStyle([
 	,'#spellGrammarCheckButton'
 	,'#undoButton'
 	,'.docs-companion-app-switcher-container'
+	,'.docs-save-indicator-container'
 	,'.docs-titlebar-buttons'
 	,'.left-sidebar-container'
 	,'.miniChapterSwitcherContainerView'
