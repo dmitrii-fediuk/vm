@@ -10,9 +10,8 @@
 // language=CSS
 GM_addStyle([
 	'[aria-label="Main menu"] ~ div:has(a[title="Gmail"])' // 2024-12-02 Logo
-	//,'*:has(> [aria-label^="Status:"]) > *:not([data-tooltip="Settings"])'
-	,'*:has(> [data-tooltip="Settings"]) > :not([data-tooltip="Settings"])'
-	//,'[data-tooltip="Settings"] ~ *'
+	// 2024-12-02 Gemini, Chat, Status, etc.
+	,'header[role="banner"] :has(> [data-tooltip="Settings"]) > :not([data-tooltip="Settings"])'
 	,'[role="navigation"]:has([aria-label="Meet"])' // 2024-12-02 The left sidebar with a crapware like «Chat» and «Meet»
 ]
 	 // language=Javascript
