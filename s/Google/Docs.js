@@ -11,6 +11,7 @@
 GM_addStyle([
 	'.docs-titlebar-buttons'
 	,'.left-sidebar-container'
+	,'.miniChapterSwitcherContainerView'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
