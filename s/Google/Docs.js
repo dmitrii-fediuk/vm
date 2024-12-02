@@ -9,7 +9,8 @@
 // 2024-12-02 "Improve Google Docs": https://github.com/dmitrii-fediuk/vm/issues/72
 // language=CSS
 GM_addStyle([
-	'.docs-companion-app-switcher-container'
+	'#docs-omnibox-toolbar'
+	,'.docs-companion-app-switcher-container'
 	,'.docs-titlebar-buttons'
 	,'.left-sidebar-container'
 	,'.miniChapterSwitcherContainerView'
