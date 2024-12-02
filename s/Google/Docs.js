@@ -58,7 +58,7 @@ GM_addStyle([
 GM_addStyle('.left-sidebar-container {width: 0 !important;}');
 // language=CSS
 GM_addStyle([
-	'div:has(> .docs-header-container)'
+	'div:has(> #docs-header-container)'
 ]
 	// language=Javascript
 	.join(',') + '{' +
