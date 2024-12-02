@@ -9,7 +9,8 @@
 // 2024-12-02 "Improve Gmail": https://github.com/dmitrii-fediuk/vm/issues/73
 // language=CSS
 GM_addStyle([
-	'[role="navigation"]:has([aria-label="Meet"])'
+	'[aria-label="Main menu"] ~ div:has(a[title="Gmail"])' // 2024-12-02 Logo
+	,'[role="navigation"]:has([aria-label="Meet"])' // 2024-12-02 The left sidebar with a crapware like «Chat» and «Meet»
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
