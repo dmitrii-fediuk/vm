@@ -9,6 +9,7 @@
 // 2024-12-02 "Improve Gmail": https://github.com/dmitrii-fediuk/vm/issues/73
 // language=CSS
 GM_addStyle([
+	'div:has(> div[aria-label^="Chat,"])'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
