@@ -13,6 +13,7 @@ GM_addStyle([
 	,'#addChecklistButton'
 	,'#addNumberedBulletButton'
 	,'#alignButton'
+	,'#bgColorButton'
 	,'#bulletedListPresetMenuButton'
 	,'#checklistPresetMenuButton'
 	,'#clearFormattingButton'
