@@ -18,6 +18,7 @@ GM_addStyle([
 	,'[aria-label="New Message"] [command="locker"]' // 2024-12-03 «Toggle confidential mode»
 	,'[aria-label="New Message"] [command="signature"]' // 2024-12-03 «Insert signature»
 	,'[aria-label="New Message"] div:has(> div > div > [aria-label="Formatting options"])'
+	,'[aria-label="New Message"] td:has(> [aria-label="Formatting options"])'
 	// 2024-12-02 The screen keyboard button on the mail list screen
 	//,'div:has(> [aria-label="Select input tool"])'
 	,'[data-ogsr-up]' // Google Apps, Google Account
