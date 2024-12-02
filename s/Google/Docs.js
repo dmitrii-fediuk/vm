@@ -10,7 +10,9 @@
 // language=CSS
 GM_addStyle([
 	'#addBulletButton'
+	,'#addChecklistButton'
 	,'#addNumberedBulletButton'
+	,'#alignButton'
 	,'#bulletedListPresetMenuButton'
 	,'#checklistPresetMenuButton'
 	,'#clearFormattingButton'
@@ -18,6 +20,10 @@ GM_addStyle([
 	,'#docs-toolbar-mode-switcher'
 	,'#formatPainterButton'
 	,'#indentButton'
+	,'#insertCommentButton'
+	,'#insertImageButton'
+	,'#insertLinkButton'
+	,'#lineSpacingMenuButton'
 	,'#numberedListPresetMenuButton'
 	,'#outdentButton'
 	,'#printButton'
