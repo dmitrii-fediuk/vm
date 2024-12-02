@@ -18,6 +18,7 @@ GM_addStyle([
 	,'#checklistPresetMenuButton'
 	,'#clearFormattingButton'
 	,'#commentSeparator'
+	,'#docs-branding-container'
 	,'#docs-omnibox-toolbar'
 	,'#docs-toolbar-mode-switcher'
 	,'#formatPainterButton'
