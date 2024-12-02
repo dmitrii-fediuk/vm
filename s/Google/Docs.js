@@ -66,33 +66,5 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-(function() {
-    'use strict';
-    function adjustEditorLayout() {
-        const elements = document.querySelectorAll('.docs-ui-hit-region-surface');
-        const editor = document.querySelector('.kix-appview-editor');
-        elements.forEach(element => {
-            // Вместо удаления left:89px добавляем transform
-            const currentStyle = element.getAttribute('style');
-            if (currentStyle && currentStyle.includes('left: 89px')) {
-                element.style.transform = 'translateX(-89px)';
-            }
-        });
-        // Компенсируем смещение контейнера редактора
-        if (editor) {
-            editor.style.marginLeft = '89px';
-        }
-    }
-    // Запускаем изначально
-    setTimeout(adjustEditorLayout, 1000);
-    // Наблюдаем за изменениями DOM
-    const observer = new MutationObserver(() => {
-        setTimeout(adjustEditorLayout, 100);
-    });
-    observer.observe(document.body, {
-        childList: true,
-        subtree: true
-    });
-})();
 // language=CSS
 //GM_addStyle('.docs-ui-hit-region-surface {left: 0 !important;}');
