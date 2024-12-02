@@ -10,9 +10,10 @@
 // language=CSS
 GM_addStyle([
 	'[aria-label="Main menu"] ~ div:has(a[title="Gmail"])' // 2024-12-02 Logo
+	,'[data-ogsr-up]' // Google Apps, Google Account
+	,'[role="navigation"]:has([aria-label="Meet"])' // 2024-12-02 The left sidebar with a crapware like «Chat» and «Meet»
 	// 2024-12-02 Gemini, Chat, Status, etc.
 	,'header[role="banner"] :has(> [data-tooltip="Settings"]) > :not([data-tooltip="Settings"])'
-	,'[role="navigation"]:has([aria-label="Meet"])' // 2024-12-02 The left sidebar with a crapware like «Chat» and «Meet»
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
