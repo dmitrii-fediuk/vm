@@ -21,6 +21,7 @@ GM_addStyle([
 	,'[aria-label="New Message"] td:has(> [aria-label="Formatting options"])'
 	// 2024-12-02 The screen keyboard button on the mail list screen
 	//,'div:has(> [aria-label="Select input tool"])'
+	,'div:has(> div > span > div > [aria-label^="Input tools"])'
 	,'[data-ogsr-up]' // Google Apps, Google Account
 	,'[jscontroller]:has(> span > button[aria-label="Add reaction"])'
 	,'[role="navigation"]:has([aria-label="Meet"])' // 2024-12-02 The left sidebar with a crapware like «Chat» and «Meet»
