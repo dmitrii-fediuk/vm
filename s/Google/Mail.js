@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'[aria-label="Add all to Drive"]'
+	,'[aria-label^="Input tools"]'	// 2024-12-03 The screen keyboard button on the list of sent mails
 	,'[aria-label="Main menu"] ~ div:has(a[title="Gmail"])' // 2024-12-02 Logo
 	,'[aria-label="New Message"] [command="docs"]' // 2024-12-03 «Insert files using Drive»
 	,'[aria-label="New Message"] [command="+emoticon"]' // 2024-12-03 «Insert emoji»
@@ -20,8 +21,7 @@ GM_addStyle([
 	,'[aria-label="New Message"] div:has(> div > div > [aria-label="Formatting options"])'
 	,'[aria-label="New Message"] td:has(> [aria-label="Formatting options"])'
 	// 2024-12-02 The screen keyboard button on the mail list screen
-	//,'div:has(> [aria-label="Select input tool"])'
-	,'div:has(> div > span > div > [aria-label^="Input tools"])'
+	,'[aria-label="Select input tool"]'
 	,'[data-ogsr-up]' // Google Apps, Google Account
 	,'[jscontroller]:has(> span > button[aria-label="Add reaction"])'
 	,'[role="navigation"]:has([aria-label="Meet"])' // 2024-12-02 The left sidebar with a crapware like «Chat» and «Meet»
