@@ -9,10 +9,7 @@
 // 2024-12-02 "Improve Google Docs": https://github.com/dmitrii-fediuk/vm/issues/72
 // language=CSS
 GM_addStyle([
-	'#docs-sidekick-gen-ai-promo-button-container'
-	,'#docs-titlebar-share-client-button'
-	,'.docs-meet-in-editors-entrypoint-container'
-	,'.docs-titlebar-buttons'
+	'.docs-titlebar-buttons'
 	,'.left-sidebar-container'
 ]
 	 // language=Javascript
