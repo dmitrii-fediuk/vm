@@ -11,13 +11,14 @@
 GM_addStyle([
 	'[aria-label="Add all to Drive"]'
 	,'[aria-label="Main menu"] ~ div:has(a[title="Gmail"])' // 2024-12-02 Logo
+	,'div:has(> div > span > div > [aria-label="Select input tool"])' // 2024-12-02 The screen keyboard button
 	,'[data-ogsr-up]' // Google Apps, Google Account
 	,'[jscontroller]:has(> span > button[aria-label="Add reaction"])'
 	,'[role="navigation"]:has([aria-label="Meet"])' // 2024-12-02 The left sidebar with a crapware like «Chat» and «Meet»
 	,'.hp + .ho > span > *:not(:first-child)' // 2024-12-02 «Scanned by Gmail»
 	,'div:has(> .l2[style])' // 2024-12-02 An empty space at the bottom
 	,'div:has(> [jsaction] > [jsaction] > [aria-label="Side panel"])' // 2024-12-02 The right sidebar with a crapware
-	,'div:has(> div > #itamenu)' // 2024-12-02 Screen keyboard
+	,'div:has(> div > #itamenu)' // 2024-12-02 The screen keyboard button
 	,'td [aria-label="Add reaction"]'
 	,'td [aria-label="Not starred"]'
 	// 2024-12-02 Gemini, Chat, Status, etc.
