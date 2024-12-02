@@ -26,6 +26,7 @@ GM_addStyle([
 	,'[role="navigation"]:has([aria-label="Meet"])' // 2024-12-02 The left sidebar with a crapware like «Chat» and «Meet»
 	,'.hp + .ho > span > *:not(:first-child)' // 2024-12-02 «Scanned by Gmail»
 	,'div:has(> .l2[style])' // 2024-12-02 An empty space at the bottom
+	,'div:has(> [aria-live="assertive"][role="alert"])'
 	,'div:has(> [jsaction] > [jsaction] > [aria-label="Side panel"])' // 2024-12-02 The right sidebar with a crapware
 	,'div:has(> div > #itamenu)' // 2024-12-02 The screen keyboard button on the mail screen
 	,'td [aria-label="Add reaction"]'
