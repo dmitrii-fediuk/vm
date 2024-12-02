@@ -41,3 +41,5 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle('.hx .gs {padding: 0 !important;}');
+// language=CSS
+GM_addStyle('div:has(> [aria-label="search refinement"][role="toolbar"]) {height: 2rem !important;;}');
