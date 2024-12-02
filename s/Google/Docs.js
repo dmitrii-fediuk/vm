@@ -12,6 +12,7 @@ GM_addStyle([
 	'#docs-sidekick-gen-ai-promo-button-container'
 	,'#docs-titlebar-share-client-button'
 	,'.docs-meet-in-editors-entrypoint-container'
+	,'.docs-titlebar-buttons'
 	,'.left-sidebar-container'
 ]
 	 // language=Javascript
