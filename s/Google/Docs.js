@@ -68,7 +68,10 @@ GM_addStyle([
 );
 // 2024-12-02 https://claude.ai/chat/a99b0b68-32ff-479b-8674-140b2275c0a5
 (() => {
-    const f = () => document.querySelector('.kix-appview-editor')?.scrollLeft = 89;
+    const f = () => {
+        const e = document.querySelector('.kix-appview-editor');
+        e?.scrollLeft == 89 || (e && (e.scrollLeft = 89));
+    };
     setTimeout(f, 1000);
     addEventListener('load', () =>
 		new MutationObserver(() => setTimeout(f, 100)).observe(document.body, {childList: 1, subtree: 1})
