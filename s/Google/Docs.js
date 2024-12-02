@@ -68,3 +68,25 @@ GM_addStyle([
 );
 // language=CSS
 //GM_addStyle('.docs-ui-hit-region-surface {left: 0 !important;}');
+(function() {
+    'use strict';
+    function scrollEditor() {
+        const editorContainer = document.querySelector('.kix-appview-editor');
+        if (editorContainer) {
+            editorContainer.scrollLeft = 89;
+        }
+    }
+    // Запускаем прокрутку после загрузки страницы
+    setTimeout(scrollEditor, 1000);
+    // Наблюдаем за изменениями в DOM
+    const observer = new MutationObserver(() => {
+        setTimeout(scrollEditor, 100);
+    });
+    // Начинаем наблюдение после загрузки страницы
+    window.addEventListener('load', () => {
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+    });
+})();
