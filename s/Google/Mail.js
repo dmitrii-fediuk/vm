@@ -11,6 +11,7 @@
 GM_addStyle([
 	'[aria-label="Add all to Drive"]'
 	,'[aria-label="Main menu"] ~ div:has(a[title="Gmail"])' // 2024-12-02 Logo
+	,'[aria-label="New Message"] div:has(> div > div > [aria-label="Formatting options"])'
 	// 2024-12-02 The screen keyboard button on the mail list screen
 	//,'div:has(> [aria-label="Select input tool"])'
 	,'[data-ogsr-up]' // Google Apps, Google Account
