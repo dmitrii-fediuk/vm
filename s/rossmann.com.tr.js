@@ -1,7 +1,7 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Anthropic/rossmann.com.tr.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/rossmann.com.tr.js
 // @icon https://cdn.rossmann.com.tr/media/favicon/stores/1/favicon.png
 // @match *://www.rossmann.com.tr/*
 // @name rossmann.com.tr
