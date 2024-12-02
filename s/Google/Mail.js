@@ -11,6 +11,12 @@
 GM_addStyle([
 	'[aria-label="Add all to Drive"]'
 	,'[aria-label="Main menu"] ~ div:has(a[title="Gmail"])' // 2024-12-02 Logo
+	,'[aria-label="New Message"] [command="docs"]' // 2024-12-03 «Insert files using Drive»
+	,'[aria-label="New Message"] [command="+emoticon"]' // 2024-12-03 «Insert emoji»
+	,'[aria-label="New Message"] [command="image"]' // 2024-12-03 «Insert photo»
+	,'[aria-label="New Message"] [command="+link"]' // 2024-12-03 «Insert link»
+	,'[aria-label="New Message"] [command="locker"]' // 2024-12-03 «Toggle confidential mode»
+	,'[aria-label="New Message"] [command="signature"]' // 2024-12-03 «Insert signature»
 	,'[aria-label="New Message"] div:has(> div > div > [aria-label="Formatting options"])'
 	// 2024-12-02 The screen keyboard button on the mail list screen
 	//,'div:has(> [aria-label="Select input tool"])'
