@@ -53,7 +53,7 @@ GM_addStyle([
 	.join(',') + '{margin: 0 !important;}')
 ;
 // language=CSS
-GM_addStyle('.left-sidebar-container {width: 0 !important;}');
+//GM_addStyle('.left-sidebar-container {width: 0 !important;}');
 // language=CSS
 GM_addStyle([
 	'div:has(> #docs-header-container)'
@@ -67,11 +67,11 @@ GM_addStyle([
 	'}'
 );
 // 2024-12-02 https://claude.ai/chat/a99b0b68-32ff-479b-8674-140b2275c0a5
-
 (() => {
 	const f = () => {
 		const e = document.querySelector('.kix-appview-editor');
-		if (e && e.scrollLeft !== 89) {e.scrollLeft = 89;}
+		const v = 89;
+		if (e && v !== e.scrollLeft) {e.scrollLeft = v;}
 	};
 	setTimeout(f, 1000);
 	const o = new MutationObserver(() => setTimeout(f, 100));
