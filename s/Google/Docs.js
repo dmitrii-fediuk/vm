@@ -68,24 +68,27 @@ GM_addStyle([
 );
 (function() {
     'use strict';
-    // Function to remove left offset
-    function removeLeftOffset() {
-        // Get all elements with the specified class
+    function adjustEditorLayout() {
         const elements = document.querySelectorAll('.docs-ui-hit-region-surface');
-        // Iterate through elements and modify their style
+        const editor = document.querySelector('.kix-appview-editor');
         elements.forEach(element => {
+            // Вместо удаления left:89px добавляем transform
             const currentStyle = element.getAttribute('style');
-            if (currentStyle) {
-                // Remove 'left: 89px;' from the style string
-                const newStyle = currentStyle.replace(/left:\s*89px;\s*/g, '');
-                element.setAttribute('style', newStyle);
+            if (currentStyle && currentStyle.includes('left: 89px')) {
+                element.style.transform = 'translateX(-89px)';
             }
         });
+        // Компенсируем смещение контейнера редактора
+        if (editor) {
+            editor.style.marginLeft = '89px';
+        }
     }
-    // Run initially
-    removeLeftOffset();
-    // Observe DOM changes to handle dynamically added elements
-    const observer = new MutationObserver(removeLeftOffset);
+    // Запускаем изначально
+    setTimeout(adjustEditorLayout, 1000);
+    // Наблюдаем за изменениями DOM
+    const observer = new MutationObserver(() => {
+        setTimeout(adjustEditorLayout, 100);
+    });
     observer.observe(document.body, {
         childList: true,
         subtree: true
