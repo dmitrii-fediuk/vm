@@ -53,8 +53,6 @@ GM_addStyle([
 	.join(',') + '{margin: 0 !important;}')
 ;
 // language=CSS
-//GM_addStyle('.left-sidebar-container {width: 0 !important;}');
-// language=CSS
 GM_addStyle([
 	'div:has(> #docs-header-container)'
 ]
