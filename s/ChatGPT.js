@@ -10,14 +10,13 @@
 // language=CSS
 GM_addStyle([
 	'.composer-parent ~ .absolute' // The «?» sticky button
-	,'.cursor-pointer'
 	// 2024-12-03
 	// 1) «What can I help with?»
 	// 2) «<…> workspace chats aren't used to train our models. ChatGPT can make mistakes.»
 	,'.text-base:has(form #composer-background) > .text-center'
 	// 2024-12-03 «<…> workspace chats aren't used to train our models. ChatGPT can make mistakes.»
 	,'.text-base:has(form #composer-background) + .text-center'
-	//,'article + button.cursor-pointer.absolute'
+	,'article + .cursor-pointer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
