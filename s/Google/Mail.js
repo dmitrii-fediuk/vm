@@ -43,3 +43,15 @@ GM_addStyle([
 GM_addStyle('.hx .gs {padding: 0 !important;}');
 // language=CSS
 //GM_addStyle('div:has(> [aria-label="search refinement"][role="toolbar"]) {height: 3rem !important;;}');
+// language=CSS
+GM_addStyle([
+	'[aria-label="search refinement"][role="toolbar"]'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'margin': 0
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
