@@ -42,7 +42,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle('.hx .gs {padding: 0 !important;}');
 // language=CSS
-GM_addStyle('div:has(> [aria-label="search refinement"][role="toolbar"]) {height: auto !important;;}');
+GM_addStyle('div:has(> [aria-label="search refinement"][role="toolbar"]) {height: auto !important;}');
 // language=CSS
 GM_addStyle([
 	'[aria-label="search refinement"][role="toolbar"]'
@@ -51,7 +51,24 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'margin': 0
+			'background': 'yellow'
+			,'margin': 0
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// language=CSS
+GM_addStyle([
+	'[aria-label="search refinement"][role="toolbar"] + div'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'background': 'pink'
+			// language=Javascript
+			,'margin-top': '-1rem'
+			,'position': 'relative'
+			,'z-index': 100
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
