@@ -9,10 +9,11 @@
 // 2024-10-08 "Improve the appearance of ChatGPT": https://github.com/dmitrii-fediuk/vm/issues/51
 // language=CSS
 GM_addStyle([
+	'.composer-parent ~ .absolute' // The «?» sticky button
 	// 2024-12-03
 	// 1) «What can I help with?»
 	// 2) «<…> workspace chats aren't used to train our models. ChatGPT can make mistakes.»
-	'.text-base:has(form #composer-background) > .text-center'
+	,'.text-base:has(form #composer-background) > .text-center'
 	// 2024-12-03 «<…> workspace chats aren't used to train our models. ChatGPT can make mistakes.»
 	,'.text-base:has(form #composer-background) + .text-center'
 ]
