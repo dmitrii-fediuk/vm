@@ -25,3 +25,6 @@ GM_addStyle([
 // "Hide follow-up question bubbles after ChatGPT responses": https://github.com/dmitrii-fediuk/vm/issues/50
 // language=CSS
 GM_addStyle('form[type="button"] div.absolute {display: none !important;}');
+// 2024-12-03
+// language=CSS
+GM_addStyle('.md\:max-w-3xl {max-width: initial !important;}');
