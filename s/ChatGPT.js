@@ -16,6 +16,7 @@ GM_addStyle([
 	,'.text-base:has(form #composer-background) > .text-center'
 	// 2024-12-03 «<…> workspace chats aren't used to train our models. ChatGPT can make mistakes.»
 	,'.text-base:has(form #composer-background) + .text-center'
+	,'article + button.cursor-pointer.absolute'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
