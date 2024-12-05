@@ -18,6 +18,7 @@ GM_addStyle([
 	// 2024-12-03 «<…> workspace chats aren't used to train our models. ChatGPT can make mistakes.»
 	,'.text-base:has(form #composer-background) + .text-center'
 	,'article + .cursor-pointer'
+	,'div:has(> h1.result-streaming) > h1' // 2024-12-06 «What can I help with?»
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
