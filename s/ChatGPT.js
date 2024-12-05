@@ -11,6 +11,9 @@
 GM_addStyle([
 	'#composer-background .min-w-8:has([data-testid="composer-speech-button"])'
 	,'.composer-parent ~ .absolute' // The «?» sticky button
+	// 2024-10-08
+	// "Hide follow-up question bubbles after ChatGPT responses": https://github.com/dmitrii-fediuk/vm/issues/50
+	,'.composer-parent div:has(> div > ul > li > button > svg)'
 	// 2024-12-03
 	// 1) «What can I help with?»
 	// 2) «<…> workspace chats aren't used to train our models. ChatGPT can make mistakes.»
