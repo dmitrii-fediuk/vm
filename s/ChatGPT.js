@@ -19,14 +19,13 @@ GM_addStyle([
 	,'.text-base:has(form #composer-background) + .text-center'
 	,'article + .cursor-pointer'
 	,'div:has(> h1.result-streaming) > h1' // 2024-12-06 «What can I help with?»
+	// 2024-10-08
+	// "Hide follow-up question bubbles after ChatGPT responses": https://github.com/dmitrii-fediuk/vm/issues/50
+	,'form[type="button"] div.absolute'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
-// 2024-10-08
-// "Hide follow-up question bubbles after ChatGPT responses": https://github.com/dmitrii-fediuk/vm/issues/50
-// language=CSS
-GM_addStyle('form[type="button"] div.absolute {display: none !important;}');
 // 2024-12-03
 // language=CSS
 GM_addStyle('.md\\:max-w-3xl {max-width: initial !important;}');
