@@ -2,7 +2,7 @@
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/ikea.com.tr.js
-// @icon https://cdn.oaistatic.com/assets/apple-touch-icon-mz9nytnj.webp
+// @icon https://image-ikea.mncdn.com/_assets/img/ikea-app-logo.png
 // @match *://www.ikea.com.tr/*
 // @name Ikea Turkey
 // ==/UserScript==
