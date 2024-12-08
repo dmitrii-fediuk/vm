@@ -15,7 +15,8 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'.header-parent'
+	'.filter--fixed'
+	,'.header-parent'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
