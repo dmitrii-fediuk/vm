@@ -8,3 +8,15 @@
 // ==/UserScript==
 // 2024-12-08 "Improve `ikea.com.tr`": https://github.com/dmitrii-fediuk/vm/issues/74
 // language=CSS
+GM_addStyle([
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
+// language=CSS
+GM_addStyle([
+	'.header-parent'
+]
+	 // language=Javascript
+	.join(',') + '{position: initial !important;}')
+;
