@@ -35,6 +35,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.brand-summary-box'
+	,'.company-detail-fixed-header'
 	,'#main-header'
 ]
 	 // language=Javascript
