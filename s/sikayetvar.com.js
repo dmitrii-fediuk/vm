@@ -33,6 +33,14 @@ GM_addStyle([
 	'.box-brand-profile'
 ]
 	 // language=Javascript
-	.join(',') + '{margin: 0 !important; padding: 0 !important;}')
+	.join(',') + '{margin: 0 !important;}')
 ;
+// language=CSS
+GM_addStyle([
+	'.brand-detail-grid__main'
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
+
 
