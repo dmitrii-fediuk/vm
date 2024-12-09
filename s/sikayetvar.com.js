@@ -11,6 +11,7 @@
 GM_addStyle([
 	'#announcement'
 	,'.advertisement'
+	,'.complaint-detail-actions-write-complaint'
 	,'.header-related-searches'
 	,'.show-rating'
 	,'.model-comparison'
