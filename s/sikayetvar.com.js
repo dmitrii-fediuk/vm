@@ -18,6 +18,8 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
+	'.brand-summary-box'
+	,'header'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
