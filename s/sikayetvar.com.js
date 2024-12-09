@@ -10,13 +10,13 @@
 // language=CSS
 GM_addStyle([
 	'#announcement'
+	,'.advertisement'
 	,'.header-related-searches'
 	,'.show-rating'
 	,'.model-comparison'
 	,'.model-specs'
 	,'.section-company-collection-list'
 	,'[data-ga-element="Header_Logo"]'
-	,'.feed-banners advertisement'
 	,'footer ~ .brand-summary-box'
 	,'footer'
 	,'form:has(> [data-ga-element="Complaint_Search"])'
