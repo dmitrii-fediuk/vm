@@ -21,6 +21,7 @@ GM_addStyle([
 	,'.section-company-collection-list'
 	,'.show-rating'
 	,'.similar-complaint'
+	,'.sv-logo'
 	,'[data-ga-element="Header_Logo"]'
 	,'[data-ga-element="Model_Name_Button"]'
 	,'footer ~ .brand-summary-box'
