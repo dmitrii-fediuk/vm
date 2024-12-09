@@ -28,3 +28,11 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
+// language=CSS
+GM_addStyle([
+	'.box-brand-profile'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
+
