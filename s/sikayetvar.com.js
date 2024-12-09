@@ -15,6 +15,7 @@ GM_addStyle([
 	,'.show-rating'
 	,'.model-comparison'
 	,'.model-specs'
+	,'.promo-banner'
 	,'.section-company-collection-list'
 	,'[data-ga-element="Header_Logo"]'
 	,'footer ~ .brand-summary-box'
