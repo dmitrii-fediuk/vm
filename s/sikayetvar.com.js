@@ -21,6 +21,7 @@ GM_addStyle([
 	,'footer ~ .brand-summary-box'
 	,'footer'
 	,'form:has(> [data-ga-element="Complaint_Search"])'
+	,'body:has(main[data-page-type="Complaint Page"]) header'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
