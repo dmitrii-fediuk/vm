@@ -11,6 +11,7 @@
 GM_addStyle([
 	'#announcement'
 	,'.advertisement'
+	,'.company-detail-fixed-header'
 	,'.complaint-detail-actions-write-complaint'
 	,'.header-related-searches'
 	,'.keyword-container'
@@ -35,7 +36,6 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.brand-summary-box'
-	,'.company-detail-fixed-header'
 	,'#main-header'
 ]
 	 // language=Javascript
