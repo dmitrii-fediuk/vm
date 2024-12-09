@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'#announcement'
+	,'.model-comparison'
 	,'[data-ga-element="Header_Logo"]'
 	,'footer'
 ]
