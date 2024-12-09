@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'#announcement'
+	,'.header-related-searches'
 	,'.model-comparison'
 	,'.model-specs'
 	,'.section-company-collection-list'
