@@ -63,7 +63,7 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			// language=Javascript
-			'margin': '0 0.5rem'
+			'margin': '0 1rem'
 			// language=CSS
 			,'max-width': 'initial'
 			,'padding': 0
