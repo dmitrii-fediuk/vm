@@ -15,6 +15,7 @@ GM_addStyle([
 	,'.section-company-collection-list'
 	,'[data-ga-element="Header_Logo"]'
 	,'footer'
+	,'footer ~ .brand-summary-box'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
