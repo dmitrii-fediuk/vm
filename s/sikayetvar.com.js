@@ -32,7 +32,7 @@ GM_addStyle([
 	.join(',') + '{position: initial !important;}')
 ;
 // language=CSS
-GM_addStyle('.brand-detail-complaint-list {margin-top: 0.5rem !important;}');
+GM_addStyle('.brand-detail-complaint-list {padding-top: 0.5rem !important;}');
 // language=CSS
 GM_addStyle('.box-brand-profile {margin: 0 !important;}');
 // language=CSS
