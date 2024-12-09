@@ -11,6 +11,7 @@
 GM_addStyle([
 	'#announcement'
 	,'.model-comparison'
+	,'.section-company-collection-list'
 	,'[data-ga-element="Header_Logo"]'
 	,'footer'
 ]
