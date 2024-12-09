@@ -49,10 +49,24 @@ GM_addStyle('.brand-detail-grid__main {padding: 0 !important;}');
 // language=CSS
 GM_addStyle('.complaint-detail-description {margin-top: 0.5rem !important;}');
 // language=CSS
-GM_addStyle('.container-md {max-width: initial !important; padding: 0 !important;}');
-// language=CSS
 GM_addStyle('.model-analysis {margin-bottom: 0.5rem !important;}');
 // language=CSS
 GM_addStyle('.page-grid {padding: 0 !important;}');
 // language=CSS
 GM_addStyle('.profile-details {margin-top: 0.5rem !important;}');
+// language=CSS
+GM_addStyle([
+	'.container-md'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			// language=Javascript
+			'margin': '0 0.5rem'
+			// language=CSS
+			,'max-width': 'initial'
+			,'padding': 0
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
