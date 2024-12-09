@@ -11,6 +11,7 @@
 GM_addStyle([
 	'#announcement'
 	,'[data-ga-element="Header_Logo"]'
+	,'footer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
