@@ -14,6 +14,7 @@ GM_addStyle([
 	,'.model-specs'
 	,'.section-company-collection-list'
 	,'[data-ga-element="Header_Logo"]'
+	,'[data-ga-element="Tab_Menu_Title"]'
 	,'footer'
 	,'footer ~ .brand-summary-box'
 ]
