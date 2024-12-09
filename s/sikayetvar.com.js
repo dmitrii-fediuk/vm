@@ -26,7 +26,7 @@ GM_addStyle([
 	,'footer ~ .brand-summary-box'
 	,'footer'
 	,'form:has(> [data-ga-element="Complaint_Search"])'
-	,'body:has(main[data-page-type="Complaint Page"]) header'
+	,'body:has(main[data-page-type="Complaint Page"]) header#main-header'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -34,7 +34,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.brand-summary-box'
-	,'header'
+	,'header#main-header'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
