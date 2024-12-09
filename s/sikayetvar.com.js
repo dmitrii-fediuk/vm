@@ -35,13 +35,10 @@ GM_addStyle([
 // language=CSS
 GM_addStyle('.brand-detail-complaint-list {padding-top: 0.5rem !important;}');
 // language=CSS
+GM_addStyle('.brand-detail-grid__main {padding: 0 !important;}');
+// language=CSS
+GM_addStyle('.container-md {padding: 0 !important;}');
+// language=CSS
 GM_addStyle('.box-brand-profile {margin: 0 !important;}');
 // language=CSS
 GM_addStyle('.model-analysis {margin-bottom: 0.5rem !important;}');
-// language=CSS
-GM_addStyle([
-	'.brand-detail-grid__main'
-]
-	 // language=Javascript
-	.join(',') + '{padding: 0 !important;}')
-;
