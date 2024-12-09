@@ -9,6 +9,7 @@
 // 2024-12-09 "Improve `sikayetvar.com`": https://github.com/dmitrii-fediuk/vm/issues/75
 // language=CSS
 GM_addStyle([
+	'#announcement'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
