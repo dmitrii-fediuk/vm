@@ -4,7 +4,7 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/sikayetvar.com.js
 // @icon https://cdn.sikayetvar.com/public/images/favicon/apple-touch-icon.png
 // @match *://www.sikayetvar.com/*
-// @name Ikea Turkey
+// @name sikayetvar.com
 // ==/UserScript==
 // 2024-12-09 "Improve `sikayetvar.com`": https://github.com/dmitrii-fediuk/vm/issues/75
 // language=CSS
