@@ -16,6 +16,7 @@ GM_addStyle([
 	,'.model-specs'
 	,'.section-company-collection-list'
 	,'[data-ga-element="Header_Logo"]'
+	,'.feed-banners advertisement'
 	,'footer ~ .brand-summary-box'
 	,'footer'
 	,'form:has(> [data-ga-element="Complaint_Search"])'
