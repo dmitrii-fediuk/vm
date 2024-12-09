@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'#announcement'
+	,'[data-ga-element="Header_Logo"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
