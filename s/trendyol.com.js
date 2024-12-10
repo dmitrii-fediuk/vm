@@ -13,6 +13,7 @@ GM_addStyle([
 	,'#headerMain > .wrapper'
 	,'.related-categories'
 	,'.search-landings-container'
+	,'.search-store-ads-container'
 	,'.sticky-header'
 	,'[data-fragment-name="TopBanner"]'
 	,'footer'
