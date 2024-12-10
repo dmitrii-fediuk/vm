@@ -14,6 +14,7 @@ GM_addStyle([
 	,'.related-categories'
 	,'.search-landings-container'
 	,'.search-store-ads-container'
+	,'.srch-rslt-title ~ div:has(> .quick-filters > .carousel)'
 	,'.sticky-header'
 	,'[data-fragment-name="TopBanner"]'
 	,'footer'
