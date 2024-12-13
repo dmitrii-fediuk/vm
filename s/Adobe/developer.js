@@ -9,7 +9,8 @@
 // 2024-12-13 "Improve `developer.adobe.com`": https://github.com/dmitrii-fediuk/vm/issues/77
 // language=CSS
 GM_addStyle([
-	'.css-donbax'
+	'#adobeIcon > div:has(> svg)'
+	,'.css-donbax'
 	,'main > section[class^="spectrum--"]'
 ]
 	 // language=Javascript
