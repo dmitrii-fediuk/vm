@@ -36,7 +36,6 @@ customElements.whenDefined('exl-header').then(() => {
 		let result = false;
 		const header = document.querySelector('exl-header');
 		if (header && header.shadowRoot) {
-			const brand = header.shadowRoot.querySelector('.brand');
 			const style = document.createElement('style');
 			style.textContent = `.brand {display: none !important}`;
 			header.shadowRoot.appendChild(style);
