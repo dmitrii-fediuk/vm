@@ -33,9 +33,34 @@ GM_addStyle('main {padding: 0 1rem !important;}');
 // 2) https://stackoverflow.com/a/75518992
 // 3) https://stackoverflow.com/a/75571912
 // 4) https://github.com/violentmonkey/violentmonkey/issues/1852
-setTimeout(() => {
-	let header = document.querySelector('exl-header').shadowRoot;
-	let style = document.createElement('style');
-	style.textContent = `.brand {display: none !important}`;
-	header.appendChild(style);
-}, 2000);
+
+customElements.whenDefined('exl-header').then(() => {
+  // Функция для попытки применения стиля
+  function applyStyle() {
+    const header = document.querySelector('exl-header');
+    if (header && header.shadowRoot) {
+      const brand = header.shadowRoot.querySelector('.brand');
+      if (brand) {
+        // Создаём и вставляем стиль
+        const style = document.createElement('style');
+        style.textContent = `.brand {display: none !important}`;
+        header.shadowRoot.appendChild(style);
+        return true;
+      }
+    }
+    return false;
+  }
+
+  // Пытаемся применить стили сразу после определения элемента
+  if (!applyStyle()) {
+    // Если не удалось (нет элемента или .brand), наблюдаем за появлением
+    const observer = new MutationObserver(() => {
+      if (applyStyle()) {
+        observer.disconnect(); // как только стиль успешно применён, останавливаем наблюдение
+      }
+    });
+
+    // Наблюдаем изменения по всему документу, пока не появится нужный узел
+    observer.observe(document.documentElement, { childList: true, subtree: true });
+  }
+});
