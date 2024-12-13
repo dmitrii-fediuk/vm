@@ -30,37 +30,26 @@ GM_addStyle([
 GM_addStyle('main {padding: 0 1rem !important;}');
 // 2024-12-13
 // 1) "How do I hide a DOM element inside a shadow root using Violentmonkey?" https://df.tips/t/2326
-// 2) https://stackoverflow.com/a/75518992
-// 3) https://stackoverflow.com/a/75571912
-// 4) https://github.com/violentmonkey/violentmonkey/issues/1852
-
+// 2) https://chatgpt.com/c/675bf7f8-a3d0-800c-be9b-8175c41b1c2b
 customElements.whenDefined('exl-header').then(() => {
-  // Функция для попытки применения стиля
-  function applyStyle() {
-    const header = document.querySelector('exl-header');
-    if (header && header.shadowRoot) {
-      const brand = header.shadowRoot.querySelector('.brand');
-      if (brand) {
-        // Создаём и вставляем стиль
-        const style = document.createElement('style');
-        style.textContent = `.brand {display: none !important}`;
-        header.shadowRoot.appendChild(style);
-        return true;
-      }
-    }
-    return false;
-  }
-
-  // Пытаемся применить стили сразу после определения элемента
-  if (!applyStyle()) {
-    // Если не удалось (нет элемента или .brand), наблюдаем за появлением
-    const observer = new MutationObserver(() => {
-      if (applyStyle()) {
-        observer.disconnect(); // как только стиль успешно применён, останавливаем наблюдение
-      }
-    });
-
-    // Наблюдаем изменения по всему документу, пока не появится нужный узел
-    observer.observe(document.documentElement, { childList: true, subtree: true });
-  }
+	function applyStyle() {
+		let result = false;
+		const header = document.querySelector('exl-header');
+		if (header && header.shadowRoot) {
+			const brand = header.shadowRoot.querySelector('.brand');
+			const style = document.createElement('style');
+			style.textContent = `.brand {display: none !important}`;
+			header.shadowRoot.appendChild(style);
+			result = true;
+		}
+		return result;
+	}
+	if (!applyStyle()) {
+		const observer = new MutationObserver(() => {
+			if (applyStyle()) {
+				observer.disconnect();
+			}
+		});
+		observer.observe(document.documentElement, { childList: true, subtree: true });
+	}
 });
