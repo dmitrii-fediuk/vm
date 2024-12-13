@@ -11,7 +11,7 @@
 GM_addStyle([
 	'.doc-pagination'
 	,'.feedback-ui'
-	,'main > .rail-right.mini-toc-container'
+	,'.docs main > .rail-right.mini-toc-container'
 	,'footer'
 ]
 	 // language=Javascript
