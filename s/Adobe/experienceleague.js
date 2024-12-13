@@ -42,6 +42,7 @@ customElements.whenDefined(h).then(() => {
 		c?.appendChild(Object.assign(document.createElement('style'), {textContent: [
 				'.adobe-logo'
 				,'.brand'
+				,'.language-selector'
 				,'.search'
 			]
 				// language=Javascript
