@@ -38,9 +38,13 @@ const h = 'exl-header';
 customElements.whenDefined(h).then(() => {
 	const applyStyle = () => {
 		const c = document.querySelector(h)?.shadowRoot;
-		c?.appendChild(Object.assign(document.createElement('style'), {textContent:
-			// language=CSS
-			`.brand {display: none !important}`
+		// language=CSS
+		c?.appendChild(Object.assign(document.createElement('style'), {textContent: [
+				'.adobe-logo'
+				, '.brand'
+			]
+				// language=Javascript
+				.join(',') + `{display: none !important;}`
 		}));
 		return !!c;
 	};
