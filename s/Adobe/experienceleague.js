@@ -11,6 +11,7 @@
 GM_addStyle([
 	'.doc-pagination'
 	,'.feedback-ui'
+	,'.rail-right'
 	,'footer'
 ]
 	 // language=Javascript
