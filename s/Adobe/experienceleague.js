@@ -22,3 +22,5 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
+// language=CSS
+GM_addStyle('main {padding: 0 1rem !important;}');
