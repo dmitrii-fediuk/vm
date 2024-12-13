@@ -43,6 +43,7 @@ customElements.whenDefined(h).then(() => {
 				'.adobe-logo'
 				,'.brand'
 				,'.language-selector'
+				,'.nav'
 				,'.product-toggle'
 				,'.search'
 			]
