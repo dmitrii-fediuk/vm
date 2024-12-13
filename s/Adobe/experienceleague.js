@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.feedback-ui'
+	,'footer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
