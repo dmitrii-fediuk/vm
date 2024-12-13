@@ -23,19 +23,12 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'main'
-]
-	 // language=Javascript
-	.join(',') + '{display: initial !important;}')
-;
-// language=CSS
-GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
 // language=CSS
-GM_addStyle('main {margin: 0 !important; padding: 0 !important;}');
+GM_addStyle('main {display: block !important; margin: 0 !important; padding: 0 !important;}');
 // language=CSS
 GM_addStyle('main .section {padding: 0 !important;}');
 // 2024-12-13
