@@ -35,10 +35,10 @@ const h = 'exl-header';
 customElements.whenDefined(h).then(() => {
 	const applyStyle = () => {
 		const c = document.querySelector(h)?.shadowRoot;
-		c?.appendChild(Object.assign(
-			document.createElement('style')
-			,{textContent: '.brand {display: none !important}'}
-		));
+		c?.appendChild(Object.assign(document.createElement('style'), {textContent:
+				// language=CSS
+				`.brand {display: none !important}`
+		}));
 		return !!c;
 	};
 	if(!applyStyle()) {
