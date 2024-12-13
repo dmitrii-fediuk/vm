@@ -13,7 +13,7 @@ GM_addStyle([
 	,'.article-metadata-topics-wrapper'
 	,'.doc-actions-mobile'
 	,'.doc-pagination'
-	,'.docs main > .rail-right.mini-toc-container'
+	,'.docs main > .rail.rail-right'
 	,'.feedback-ui'
 	,'.docs main > .rail.rail-left'
 	,'footer'
