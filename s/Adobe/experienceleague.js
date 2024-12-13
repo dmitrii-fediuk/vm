@@ -35,7 +35,7 @@ GM_addStyle([
 	.join(',') + '{position: initial !important;}')
 ;
 // language=CSS
-GM_addStyle('main {padding: 0 1rem !important;}');
+GM_addStyle('main {margin: 0 1rem !important; padding: 0 !important;}');
 // language=CSS
 GM_addStyle('main .section {padding: 0 !important;}');
 // 2024-12-13
