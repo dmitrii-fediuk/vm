@@ -11,7 +11,6 @@
 GM_addStyle([
 	'.article-metadata-createdby-wrapper'
 	,'.article-metadata-topics-wrapper'
-	,'.header .brand'
 	,'.doc-actions-mobile'
 	,'.doc-pagination'
 	,'.docs main > .rail-right.mini-toc-container'
@@ -29,3 +28,13 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle('main {padding: 0 1rem !important;}');
+// 2024-12-13
+// 1) "How do I hide a DOM element inside a shadow root using Violentmonkey?" https://df.tips/t/2326
+// 2) https://stackoverflow.com/a/75518992
+// 3) https://stackoverflow.com/a/75571912
+// 4) https://github.com/violentmonkey/violentmonkey/issues/1852
+let header = document.querySelector('exl-header').shadowRoot;
+GM_addElement(header, 'style', {textContent:
+	// language=CSS
+	`.brand {display: none !important} `
+});
