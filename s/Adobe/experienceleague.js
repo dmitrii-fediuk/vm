@@ -33,9 +33,9 @@ GM_addStyle('main {padding: 0 1rem !important;}');
 // 2) https://stackoverflow.com/a/75518992
 // 3) https://stackoverflow.com/a/75571912
 // 4) https://github.com/violentmonkey/violentmonkey/issues/1852
-customElements.whenDefined('exl-header').then(() => {
-  let header = document.querySelector('exl-header').shadowRoot;
-  let style = document.createElement('style');
-  style.textContent = `.brand {display: none !important}`;
-  header.appendChild(style);
-});
+setTimeout(() => {
+	let header = document.querySelector('exl-header').shadowRoot;
+	let style = document.createElement('style');
+	style.textContent = `.brand {display: none !important}`;
+	header.appendChild(style);
+}, 2000);
