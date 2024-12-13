@@ -11,8 +11,8 @@
 GM_addStyle([
 	'#adobeIcon > div:has(> svg)'
 	,'.css-donbax'
+	,'button[aria-label="Search"]'
 	,'main > section[class^="spectrum--"]'
-	,'nav > div > div > div:has([aria-label="Search"])'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
