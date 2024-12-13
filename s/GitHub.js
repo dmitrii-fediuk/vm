@@ -11,6 +11,7 @@
 // language=CSS
 GM_addStyle([
 	'#repos-sticky-header'
+	,'gh-header-shadow'
 	,'.js-sticky'
 	,'.position-sticky'
 ]
