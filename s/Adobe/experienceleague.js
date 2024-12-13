@@ -50,6 +50,6 @@ customElements.whenDefined('exl-header').then(() => {
 				observer.disconnect();
 			}
 		});
-		observer.observe(document.documentElement, { childList: true, subtree: true });
+		observer.observe(document.documentElement, {childList: true, subtree: true});
 	}
 });
