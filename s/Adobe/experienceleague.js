@@ -11,7 +11,7 @@
 GM_addStyle([
 	'.article-metadata-createdby-wrapper'
 	,'.article-metadata-topics-wrapper'
-	,'.brand'
+	,'.header .brand'
 	,'.doc-actions-mobile'
 	,'.doc-pagination'
 	,'.docs main > .rail-right.mini-toc-container'
