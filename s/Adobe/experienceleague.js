@@ -9,7 +9,8 @@
 // 2024-12-13 "Improve `experienceleague.adobe.com`": https://github.com/dmitrii-fediuk/vm/issues/76
 // language=CSS
 GM_addStyle([
-	'.article-metadata-topics-wrapper'
+	'.article-metadata-createdby-wrapper'
+	,'.article-metadata-topics-wrapper'
 	,'.doc-actions-mobile'
 	,'.doc-pagination'
 	,'.docs main > .rail-right.mini-toc-container'
