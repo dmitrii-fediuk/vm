@@ -8,3 +8,9 @@
 // ==/UserScript==
 // 2024-12-13 "Improve `developer.adobe.com`": https://github.com/dmitrii-fediuk/vm/issues/77
 // language=CSS
+GM_addStyle([
+	'.css-donbax'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
