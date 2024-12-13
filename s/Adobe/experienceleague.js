@@ -36,6 +36,8 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle('main {padding: 0 1rem !important;}');
+// language=CSS
+GM_addStyle('main .section {padding: 0 !important;}');
 // 2024-12-13
 // 1) "How do I hide a DOM element inside a shadow root using Violentmonkey?" https://df.tips/t/2326
 // 2) https://chatgpt.com/c/675bf7f8-a3d0-800c-be9b-8175c41b1c2b
