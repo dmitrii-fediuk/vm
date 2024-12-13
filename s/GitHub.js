@@ -10,6 +10,13 @@
 // 2024-09-20 "Improve the GitHub appearance": https://github.com/dmitrii-fediuk/vm/issues/47
 // language=CSS
 GM_addStyle([
+	'#new_comment_form ~ div:has(a[href$="github-community-guidelines"])'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
+// language=CSS
+GM_addStyle([
 	'#repos-sticky-header'
 	,'.gh-header-shadow'
 	,'.js-sticky'
