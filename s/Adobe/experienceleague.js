@@ -43,6 +43,7 @@ customElements.whenDefined(h).then(() => {
 				'.adobe-logo'
 				,'.brand'
 				,'.language-selector'
+				,'.product-toggle'
 				,'.search'
 			]
 				// language=Javascript
