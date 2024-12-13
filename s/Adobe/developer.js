@@ -12,7 +12,7 @@ GM_addStyle([
 	'#adobeIcon > div:has(> svg)'
 	,'.css-donbax'
 	,'main > section[class^="spectrum--"]'
-	,'nav > div > div:has([aria-label="Search"])'
+	,'nav > div > div > div:has([aria-label="Search"])'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
