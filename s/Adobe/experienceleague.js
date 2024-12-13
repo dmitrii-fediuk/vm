@@ -42,9 +42,7 @@ customElements.whenDefined('exl-header').then(() => {
 		return !!c;
 	}
 	if (!applyStyle()) {
-		const o = new MutationObserver(() => {
-			if (applyStyle()) o.disconnect();
-		});
+		const o = new MutationObserver(() => {applyStyle() && o.disconnect();});
 		o.observe(document.documentElement, {childList: true, subtree: true});
 	}
 });
