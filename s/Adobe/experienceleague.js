@@ -36,8 +36,8 @@ customElements.whenDefined(h).then(() => {
 	const applyStyle = () => {
 		const c = document.querySelector(h)?.shadowRoot;
 		c?.appendChild(Object.assign(document.createElement('style'), {textContent:
-				// language=CSS
-				`.brand {display: none !important}`
+			// language=CSS
+			`.brand {display: none !important}`
 		}));
 		return !!c;
 	};
