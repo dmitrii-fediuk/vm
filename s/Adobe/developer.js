@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.css-donbax'
+	,'main > section[class^="spectrum--"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
