@@ -33,22 +33,18 @@ GM_addStyle('main {padding: 0 1rem !important;}');
 // 2) https://chatgpt.com/c/675bf7f8-a3d0-800c-be9b-8175c41b1c2b
 customElements.whenDefined('exl-header').then(() => {
 	function applyStyle() {
-		let result = false;
-		const header = document.querySelector('exl-header');
-		if (header && header.shadowRoot) {
-			const style = document.createElement('style');
-			style.textContent = `.brand {display: none !important}`;
-			header.shadowRoot.appendChild(style);
-			result = true;
+		const h = document.querySelector('exl-header'), c = h && h.shadowRoot;
+		if (c) {
+			const s = document.createElement('style');
+			s.textContent = '.brand {display: none !important}';
+			h.shadowRoot.appendChild(s);
 		}
-		return result;
+		return !!c;
 	}
 	if (!applyStyle()) {
-		const observer = new MutationObserver(() => {
-			if (applyStyle()) {
-				observer.disconnect();
-			}
+		const o = new MutationObserver(() => {
+			if (applyStyle()) o.disconnect();
 		});
-		observer.observe(document.documentElement, {childList: true, subtree: true});
+		o.observe(document.documentElement, {childList: true, subtree: true});
 	}
 });
