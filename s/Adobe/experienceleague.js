@@ -9,9 +9,10 @@
 // 2024-12-13 "Improve `experienceleague.adobe.com`": https://github.com/dmitrii-fediuk/vm/issues/76
 // language=CSS
 GM_addStyle([
-	'.doc-pagination'
-	,'.feedback-ui'
+	'.doc-actions-mobile'
+	,'.doc-pagination'
 	,'.docs main > .rail-right.mini-toc-container'
+	,'.feedback-ui'
 	,'footer'
 ]
 	 // language=Javascript
