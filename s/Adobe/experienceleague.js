@@ -31,18 +31,18 @@ GM_addStyle('main {padding: 0 1rem !important;}');
 // 2024-12-13
 // 1) "How do I hide a DOM element inside a shadow root using Violentmonkey?" https://df.tips/t/2326
 // 2) https://chatgpt.com/c/675bf7f8-a3d0-800c-be9b-8175c41b1c2b
-customElements.whenDefined('exl-header').then(() => {
-	function applyStyle() {
-		const h = document.querySelector('exl-header'), c = h && h.shadowRoot;
-		if (c) {
-			const s = document.createElement('style');
-			s.textContent = '.brand {display: none !important}';
-			h.shadowRoot.appendChild(s);
-		}
+const h = 'exl-header';
+customElements.whenDefined(h).then(() => {
+	const applyStyle = () => {
+		const c = document.querySelector(h)?.shadowRoot;
+		c?.appendChild(Object.assign(
+			document.createElement('style')
+			,{textContent: '.brand {display: none !important}'}
+		));
 		return !!c;
-	}
-	if (!applyStyle()) {
-		const o = new MutationObserver(() => {applyStyle() && o.disconnect();});
-		o.observe(document.documentElement, {childList: true, subtree: true});
+	};
+	if(!applyStyle()) {
+		const o = new MutationObserver(() => applyStyle() && o.disconnect());
+		o.observe(document.documentElement, {childList:true, subtree:true});
 	}
 });
