@@ -11,6 +11,7 @@
 GM_addStyle([
 	'.banner'
 	,'.tm-article-sticky-panel'
+	,'.tm-comment-navigation'
 	,'.tm-feature'
 	,'.tm-footer'
 	,'.tm-header__logo-wrap'
@@ -18,7 +19,7 @@ GM_addStyle([
 	,'.tm-project-block'
 	,'[data-test-id="search-button"]'
 	,'[data-test-id="tracker-link"]'
-	,'button.tm-comment-navigation__button_refresh'
+	//,'button.tm-comment-navigation__button_refresh'
 	,'div:has(> .tm-project-block_variant-salary)'
 	,'header'
 	,'section.tm-block:has(.tm-tabs)'
