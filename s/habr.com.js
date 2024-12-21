@@ -22,6 +22,7 @@ GM_addStyle([
 	,'.tm-header__logo-wrap'
 	,'.tm-notice_negative.tm-comments__comment-notice'
 	,'.tm-project-block'
+	,'.tm-votes-lever__button'
 	,'[data-test-id="search-button"]'
 	,'[data-test-id="tracker-link"]'
 	//,'button.tm-comment-navigation__button_refresh'
