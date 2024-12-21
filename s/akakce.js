@@ -1,7 +1,7 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Anthropic/akakce.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/akakce.js
 // @icon https://cdn.akakce.com/favicon.ico
 // @match *://*.akakce.com/*
 // @name Akakce

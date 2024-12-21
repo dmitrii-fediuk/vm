@@ -1,0 +1,16 @@
+// ==UserScript==
+// @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
+// @grant GM_addStyle
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/habr.com.js
+// @icon https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-256.png
+// @match *://habr.com/*
+// @name habr.com
+// ==/UserScript==
+// 2024-12-21 "Improve `habr.com`": https://github.com/dmitrii-fediuk/vm/issues/78
+// language=CSS
+GM_addStyle([
+	,'.tm-article-sticky-panel'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
