@@ -43,4 +43,6 @@ GM_addStyle('.tm-article-blocks__comments {margin: 0 !important;}');
 // language=CSS
 GM_addStyle('.tm-article-presenter__body {margin: 0 !important;}');
 // language=CSS
+GM_addStyle('.tm-comment-thread__children {padding-top: 0 !important;}');
+// language=CSS
 GM_addStyle('.tm-page {padding: 0 !important;}');
