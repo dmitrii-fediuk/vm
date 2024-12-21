@@ -16,6 +16,7 @@ GM_addStyle([
 	,'.tm-header__logo-wrap'
 	,'[data-test-id="search-button"]'
 	,'[data-test-id="tracker-link"]'
+	,'div:has(> .tm-project-block)'
 	,'header'
 	,'section.tm-block:has(.tm-tabs)'
 ]
