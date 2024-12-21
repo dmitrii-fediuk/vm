@@ -23,7 +23,7 @@ GM_addStyle([
 	,'[data-test-id="tracker-link"]'
 	//,'button.tm-comment-navigation__button_refresh'
 	,'div:has(> .tm-project-block_variant-salary)'
-	,'header'
+	,'header.tm-header'
 	,'section.tm-block:has(.tm-article-author)'
 	,'section.tm-block:has(.tm-tabs)'
 	,'section.tm-events-block'
