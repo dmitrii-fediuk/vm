@@ -16,7 +16,7 @@ GM_addStyle([
 	,'.tm-header__logo-wrap'
 	,'[data-test-id="search-button"]'
 	,'[data-test-id="tracker-link"]'
-	,'div:has(> .tm-project-block)'
+	,'div:has(> .tm-project-block_variant-salary)'
 	,'header'
 	,'section.tm-block:has(.tm-tabs)'
 	,'section.tm-events-block'
