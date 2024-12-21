@@ -12,6 +12,7 @@ GM_addStyle([
 	'.banner'
 	,'.tm-article-sticky-panel'
 	,'.tm-feature'
+	,'[data-test-id="search-button"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
