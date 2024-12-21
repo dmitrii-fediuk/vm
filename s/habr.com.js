@@ -15,6 +15,7 @@ GM_addStyle([
 	,'.tm-header__logo-wrap'
 	,'[data-test-id="search-button"]'
 	,'[data-test-id="tracker-link"]'
+	,'header'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
