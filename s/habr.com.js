@@ -13,6 +13,7 @@ GM_addStyle([
 	,'.tm-article-sticky-panel'
 	,'.tm-feature'
 	,'[data-test-id="search-button"]'
+	,'[data-test-id="tracker-link"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
