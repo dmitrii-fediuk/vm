@@ -12,6 +12,7 @@ GM_addStyle([
 	'.banner'
 	,'.tm-article-sticky-panel'
 	,'.tm-feature'
+	,'.tm-header__logo-wrap'
 	,'[data-test-id="search-button"]'
 	,'[data-test-id="tracker-link"]'
 ]
