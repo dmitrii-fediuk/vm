@@ -17,6 +17,7 @@ GM_addStyle([
 	,'[data-test-id="search-button"]'
 	,'[data-test-id="tracker-link"]'
 	,'header'
+	,'section.tm-block:has(.tm-tabs)'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
