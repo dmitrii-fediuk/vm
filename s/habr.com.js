@@ -11,7 +11,8 @@
 GM_addStyle([
 	'.banner'
 	,'.bookmarks-button'
-	,'.tm-article-blocks__comments ~ div:has(.tm-promo-block__content-wrapper)'
+	//,'.tm-article-blocks__comments ~ div:has(.tm-promo-block__content-wrapper)'
+	,'.tm-article-blocks__comments ~ *'
 	,'.tm-article-complexity'
 	,'.tm-article-poll-container'
 	,'.tm-article-presenter__meta'
