@@ -11,6 +11,7 @@
 GM_addStyle([
 	'.banner'
 	,'.tm-article-blocks__comments ~ div:has(.tm-promo-block__content-wrapper)'
+	,'.tm-article-poll-container'
 	,'.tm-article-sticky-panel'
 	,'.tm-comment-navigation'
 	,'.tm-feature'
