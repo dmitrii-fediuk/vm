@@ -23,6 +23,7 @@ GM_addStyle([
 	//,'button.tm-comment-navigation__button_refresh'
 	,'div:has(> .tm-project-block_variant-salary)'
 	,'header'
+	,'section.tm-block:has(.tm-article-author)'
 	,'section.tm-block:has(.tm-tabs)'
 	,'section.tm-events-block'
 ]
