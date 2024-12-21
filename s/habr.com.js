@@ -14,6 +14,7 @@ GM_addStyle([
 	,'.tm-feature'
 	,'.tm-footer'
 	,'.tm-header__logo-wrap'
+	,'.tm-notice_negative.tm-comments__comment-notice'
 	,'.tm-project-block'
 	,'[data-test-id="search-button"]'
 	,'[data-test-id="tracker-link"]'
