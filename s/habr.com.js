@@ -11,6 +11,7 @@
 GM_addStyle([
 	'.banner'
 	,'.tm-article-sticky-panel'
+	,'.tm-feature'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
