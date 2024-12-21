@@ -19,6 +19,7 @@ GM_addStyle([
 	,'div:has(> .tm-project-block)'
 	,'header'
 	,'section.tm-block:has(.tm-tabs)'
+	,'section.tm-block:has(.tm-events-widget)'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
