@@ -30,4 +30,6 @@ GM_addStyle([
 	.join(',') + '{display: none !important;}')
 ;
 // language=CSS
+GM_addStyle('.tm-article-blocks__comments {margin: 0 !important;}');
+// language=CSS
 GM_addStyle('.tm-page {padding: 0 !important;}');
