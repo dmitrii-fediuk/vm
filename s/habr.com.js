@@ -9,6 +9,7 @@
 // 2024-12-21 "Improve `habr.com`": https://github.com/dmitrii-fediuk/vm/issues/78
 // language=CSS
 GM_addStyle([
+	'.banner'
 	,'.tm-article-sticky-panel'
 ]
 	 // language=Javascript
