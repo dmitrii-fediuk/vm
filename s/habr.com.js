@@ -15,6 +15,7 @@ GM_addStyle([
 	,'.tm-article-presenter__meta'
 	,'.tm-article-sticky-panel'
 	,'.tm-comment-navigation'
+	,'.tm-comments-wrapper__header-aside'
 	,'.tm-feature'
 	,'.tm-footer'
 	,'.tm-header__logo-wrap'
