@@ -14,6 +14,7 @@ GM_addStyle([
 	,'.tm-feature'
 	,'.tm-footer'
 	,'.tm-header__logo-wrap'
+	,'.tm-project-block'
 	,'[data-test-id="search-button"]'
 	,'[data-test-id="tracker-link"]'
 	,'div:has(> .tm-project-block_variant-salary)'
