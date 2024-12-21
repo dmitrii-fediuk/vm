@@ -26,3 +26,5 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// language=CSS
+GM_addStyle('.tm-page {padding: 0 !important;}');
