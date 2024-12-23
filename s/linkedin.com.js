@@ -18,6 +18,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#global-nav'
+	,'.scaffold-layout-toolbar'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
