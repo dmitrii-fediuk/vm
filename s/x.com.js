@@ -6,7 +6,7 @@
 // @match *://x.com/*
 // @name x.com
 // ==/UserScript==
-// 2024-12-21 "Improve `x.com`": https://github.com/dmitrii-fediuk/vm/issues/79
+// 2024-12-23 "Improve `x.com`": https://github.com/dmitrii-fediuk/vm/issues/79
 // language=CSS
 GM_addStyle([
 	'[data-testid="sidebarColumn"]'
