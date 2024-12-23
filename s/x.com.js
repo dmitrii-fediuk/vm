@@ -18,6 +18,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'[aria-label="Home timeline"] > div'
+	,'header[role="banner"] > div:first-of-type > div:first-of-type'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
