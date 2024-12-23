@@ -11,6 +11,7 @@
 GM_addStyle([
 	'[data-testid="DMDrawer"]'
 	,'[data-testid="sidebarColumn"]'
+	,'div:has(> nav[aria-label="Profile timelines"]) > div:first-of-type > a:has(img)'
 	,'div:has(> nav[aria-label="Profile timelines"]) > div:first-of-type > div:first-of-type'
 ]
 	 // language=Javascript
