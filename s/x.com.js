@@ -12,7 +12,7 @@ GM_addStyle([
 	'[data-testid="DMDrawer"]'
 	,'[data-testid="placementTracking"]'
 	,'[data-testid="sidebarColumn"]'
-	,'div:has(> div > div > div > button[data-testid$="-follow"])'
+	,'div:has(> div > div > button[data-testid$="-follow"])'
 	,'div:has(> nav[aria-label="Profile timelines"]) > div:first-of-type > a:has(img)'
 	,'div:has(> nav[aria-label="Profile timelines"]) > div:first-of-type > div:first-of-type'
 ]
