@@ -38,11 +38,11 @@ if (location.href.includes('/posts/')) {
 		 // language=Javascript
 		.join(',') + '{max-width: initial !important;}')
 	;
+	// language=CSS
+	GM_addStyle([
+		'.scaffold-layout__content'
+	]
+		 // language=Javascript
+		.join(',') + '{display: initial !important;}')
+	;
 }
-
-// language=CSS
-GM_addStyle([
-]
-	 // language=Javascript
-	.join(',') + '{display: initial !important;}')
-;
