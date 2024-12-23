@@ -13,6 +13,7 @@ GM_addStyle([
 	,'.discover-recommendations-drawer'
 	,'.top-card-background-hero-image'
 	,'button.follow'
+	,'footer.global-footer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
