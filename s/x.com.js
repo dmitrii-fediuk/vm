@@ -11,9 +11,10 @@
 GM_addStyle([
 	'[aria-label="Home timeline"] > div:has([data-testid="app-bar-back"])'
 	,'[data-testid="DMDrawer"]'
+	,'[data-testid="UserName"] ~ div:last-of-type'
 	,'[data-testid="placementTracking"]'
 	,'[data-testid="sidebarColumn"]'
-	,'[data-testid="UserName"] ~ div:last-of-type'
+	,'[data-testid^="UserAvatar-Container-"]'
 	,'div:has(> div > button[data-testid$="-follow"])'
 	,'div:has(> nav[aria-label="Profile timelines"]) > div:first-of-type > a:has(img)'
 	,'div:has(> nav[aria-label="Profile timelines"]) > div:first-of-type > div:first-of-type'
