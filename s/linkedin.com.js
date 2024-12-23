@@ -25,6 +25,7 @@ if (location.href.includes('/posts/')) {
 	// language=CSS
 	GM_addStyle([
 		'#global-nav'
+		,'.scaffold-layout__sidebar'
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
