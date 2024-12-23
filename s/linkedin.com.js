@@ -46,5 +46,12 @@ if (location.href.includes('/posts/')) {
 		.join(',') + '{display: initial !important;}')
 	;
 	// language=CSS
-	GM_addStyle('.scaffold-layout__content {margin: 0 0.5rem !important;}');
+	GM_addStyle([
+		'.scaffold-layout__content'
+	]
+		 // language=Javascript
+		.join(',') + '{margin: 0 !important;}')
+	;
+	// language=CSS
+	GM_addStyle('.scaffold-layout-container {margin: 0 0.5rem !important;}');
 }
