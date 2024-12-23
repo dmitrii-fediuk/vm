@@ -14,11 +14,10 @@ GM_addStyle([
 	,'[data-testid="UserName"] ~ div:last-of-type'
 	,'[data-testid="placementTracking"]'
 	,'[data-testid="sidebarColumn"]'
-	//,'[data-testid^="UserAvatar-Container-"]'
 	,'div:has(> button[data-testid$="-follow"])'
-	,'div:has(> nav[aria-label="Profile timelines"]) > div:first-of-type [data-testid^="UserAvatar-Container-"]'
 	,'div:has(> nav[aria-label="Profile timelines"]) > div:first-of-type > a:has(img)'
 	,'div:has(> nav[aria-label="Profile timelines"]) > div:first-of-type > div:has(> div[style^="background-color: rgb("])'
+	,'div:has(> nav[aria-label="Profile timelines"]) > div:first-of-type [data-testid^="UserAvatar-Container-"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
