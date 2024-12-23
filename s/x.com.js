@@ -15,3 +15,10 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// language=CSS
+GM_addStyle([
+	'[aria-label="Home timeline"] > div'
+]
+	 // language=Javascript
+	.join(',') + '{position: initial !important;}')
+;
