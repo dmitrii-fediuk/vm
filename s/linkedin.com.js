@@ -11,6 +11,7 @@
 GM_addStyle([
 	'.application-outlet__overlay-container'
 	,'.discover-recommendations-drawer'
+	,'.top-card-background-hero-image'
 	,'button.follow'
 ]
 	 // language=Javascript
