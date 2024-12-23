@@ -47,7 +47,8 @@ if (location.href.includes('/posts/')) {
 	;
 	// language=CSS
 	GM_addStyle([
-		'.scaffold-layout__content'
+		'.scaffold-layout'
+		,'.scaffold-layout__content'
 	]
 		 // language=Javascript
 		.join(',') + '{margin: 0 !important;}')
