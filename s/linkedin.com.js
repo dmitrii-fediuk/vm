@@ -21,6 +21,15 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
+if (location.href.includes('/posts/')) {
+	// language=CSS
+	GM_addStyle([
+		'#global-nav'
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
+}
 // language=CSS
 GM_addStyle([
 ]
