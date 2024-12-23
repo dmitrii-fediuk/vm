@@ -45,4 +45,6 @@ if (location.href.includes('/posts/')) {
 		 // language=Javascript
 		.join(',') + '{display: initial !important;}')
 	;
+	// language=CSS
+	GM_addStyle('.scaffold-layout__content {margin: 0 0.5rem !important;}');
 }
