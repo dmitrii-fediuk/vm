@@ -30,13 +30,15 @@ if (location.href.includes('/posts/')) {
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
 	;
+	// language=CSS
+	GM_addStyle([
+		'main'
+	]
+		 // language=Javascript
+		.join(',') + '{max-width: initial !important;}')
+	;
 }
-// language=CSS
-GM_addStyle([
-]
-	 // language=Javascript
-	.join(',') + '{max-width: initial !important;}')
-;
+
 // language=CSS
 GM_addStyle([
 ]
