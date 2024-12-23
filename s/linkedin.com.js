@@ -15,6 +15,7 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
+	'#global-nav'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
