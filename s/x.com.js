@@ -31,3 +31,5 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{max-width: initial !important;}')
 ;
+// language=CSS
+GM_addStyle('main[role="main"] > div {width: initial !important;}');
