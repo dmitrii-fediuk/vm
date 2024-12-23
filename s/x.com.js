@@ -9,6 +9,7 @@
 // 2024-12-21 "Improve `x.com`": https://github.com/dmitrii-fediuk/vm/issues/79
 // language=CSS
 GM_addStyle([
+	'[data-testid="sidebarColumn"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
