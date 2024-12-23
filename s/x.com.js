@@ -34,9 +34,10 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'main[role="main"]'
+	,'main[role="main"] > div'
 ]
 	 // language=Javascript
 	.join(',') + '{display: initial !important;}')
 ;
 // language=CSS
-GM_addStyle('main[role="main"] > div {width: 100% !important;}');
+GM_addStyle('main[role="main"] > div {width: initial !important;}');
