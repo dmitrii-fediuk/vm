@@ -9,7 +9,8 @@
 // 2024-12-23 "Improve `x.com`": https://github.com/dmitrii-fediuk/vm/issues/79
 // language=CSS
 GM_addStyle([
-	'[data-testid="DMDrawer"]'
+	'[aria-label="Home timeline"] > div:has([data-testid="app-bar-back"])'
+	,'[data-testid="DMDrawer"]'
 	,'[data-testid="placementTracking"]'
 	,'[data-testid="sidebarColumn"]'
 	,'div:has(> div > button[data-testid$="-follow"])'
