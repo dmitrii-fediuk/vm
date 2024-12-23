@@ -49,9 +49,18 @@ if (location.href.includes('/posts/')) {
 	GM_addStyle([
 		'.scaffold-layout'
 		,'.scaffold-layout__content'
+		,'#voyager-feed'
 	]
 		 // language=Javascript
 		.join(',') + '{margin: 0 !important;}')
+	;
+	// language=CSS
+	GM_addStyle([
+		'.authentication-outlet'
+		,'#voyager-feed'
+	]
+		 // language=Javascript
+		.join(',') + '{padding: 0 !important;}')
 	;
 	// language=CSS
 	GM_addStyle([
