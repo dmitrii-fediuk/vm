@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.application-outlet__overlay-container'
+	,'button.follow'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
