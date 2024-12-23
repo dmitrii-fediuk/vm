@@ -41,3 +41,5 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle('main[role="main"] > div {width: initial !important;}');
+// language=CSS
+GM_addStyle('header[role="banner"] {max-width: 5rem !important;}');
