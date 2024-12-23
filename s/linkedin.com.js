@@ -24,7 +24,8 @@ GM_addStyle([
 if (location.href.includes('/posts/')) {
 	// language=CSS
 	GM_addStyle([
-		'#global-nav'
+		'aside'
+		,'#global-nav'
 		,'.scaffold-layout__sidebar'
 	]
 		 // language=Javascript
