@@ -24,4 +24,10 @@ GM_addStyle([
 	.join(',') + '{position: initial !important;}')
 ;
 // language=CSS
-GM_addStyle('[data-testid="primaryColumn"] {max-width: initial !important;}');
+GM_addStyle([
+	'[data-testid="primaryColumn"]'
+	,'div:has(> nav[aria-label="Profile timelines"])'
+]
+	 // language=Javascript
+	.join(',') + '{max-width: initial !important;}')
+;
