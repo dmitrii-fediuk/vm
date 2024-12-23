@@ -15,7 +15,7 @@ GM_addStyle([
 	,'[data-testid="placementTracking"]'
 	,'[data-testid="sidebarColumn"]'
 	,'[data-testid^="UserAvatar-Container-"]'
-	,'div:has(> div > button[data-testid$="-follow"])'
+	,'div:has(> button[data-testid$="-follow"])'
 	,'div:has(> nav[aria-label="Profile timelines"]) > div:first-of-type > a:has(img)'
 	,'div:has(> nav[aria-label="Profile timelines"]) > div:first-of-type > div:has(> div[style^="background-color: rgb("])'
 ]
