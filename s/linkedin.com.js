@@ -9,6 +9,7 @@
 // 2024-12-23 "Improve `linkedin.com`": https://github.com/dmitrii-fediuk/vm/issues/80
 // language=CSS
 GM_addStyle([
+	'.application-outlet__overlay-container'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
