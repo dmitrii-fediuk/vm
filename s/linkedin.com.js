@@ -23,7 +23,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
-if (location.href.includes('/posts/')) {
+if (location.href.includes('/posts/') || location.href.includes('/in/')) {
 	// language=CSS
 	GM_addStyle([
 		'aside'
@@ -73,4 +73,7 @@ if (location.href.includes('/posts/')) {
 	;
 	// language=CSS
 	GM_addStyle('.scaffold-layout-container {margin: 0 0.5rem !important;}');
+}
+if (location.href.includes('/in/')) {
+
 }
