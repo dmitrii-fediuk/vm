@@ -32,4 +32,4 @@ GM_addStyle([
 	.join(',') + '{max-width: initial !important;}')
 ;
 // language=CSS
-GM_addStyle('main[role="main"] > div {width: initial !important;}');
+GM_addStyle('main[role="main"] > div {width: auto !important;}');
