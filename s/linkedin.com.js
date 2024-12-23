@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.application-outlet__overlay-container'
+	,'.discover-recommendations-drawer'
 	,'button.follow'
 ]
 	 // language=Javascript
@@ -73,7 +74,4 @@ if (location.href.includes('/posts/') || location.href.includes('/in/')) {
 	;
 	// language=CSS
 	GM_addStyle('.scaffold-layout-container {margin: 0 0.5rem !important;}');
-}
-if (location.href.includes('/in/')) {
-
 }
