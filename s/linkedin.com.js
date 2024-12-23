@@ -53,5 +53,12 @@ if (location.href.includes('/posts/')) {
 		.join(',') + '{margin: 0 !important;}')
 	;
 	// language=CSS
+	GM_addStyle([
+		'.scaffold-layout-container'
+	]
+		 // language=Javascript
+		.join(',') + '{width: initial !important;}')
+	;
+	// language=CSS
 	GM_addStyle('.scaffold-layout-container {margin: 0 0.5rem !important;}');
 }
