@@ -26,6 +26,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	// language=CSS
 	GM_addStyle([
 		'.nav-parent-wrapper'
+		,'[data-test="AboutClientUser"] div:has([data-testid="head-title"])'
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
