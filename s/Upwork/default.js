@@ -147,7 +147,8 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 if (location.pathname.startsWith('/nx/proposals')) {
 	// language=CSS
 	GM_addStyle([
-		'[class*="scam-education-promo"]'
+		'.d-none-mobile-app:has(> h1)'
+		,'[class*="scam-education-promo"]'
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
