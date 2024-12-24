@@ -77,7 +77,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	// language=CSS
 	GM_addStyle('.air3-card-section {padding: 0.5rem !important;}');
 }
-if (location.pathname.startsWith('/nx/search/jobs/')) {
+if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
 	GM_addStyle([
 		'.nav-container > .nav-header[data-cy="header"][data-test="up-s-nav-header"]'
