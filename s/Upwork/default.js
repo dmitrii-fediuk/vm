@@ -9,10 +9,10 @@
 // 2024-10-13 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 // language=CSS
 GM_addStyle([
-	'.air3-search'
+	'#user-top-navigation-container .nav-container > [data-cy="header"]'
+	,'.air3-search'
 	,'.fe-proposal-boost-proposal'
 	,'.microapp-slot-innova'
-	,'#user-top-navigation-container .nav-container > [data-cy="header"]'
 	,'.nav-uma'
 	,'.profile-highlights'
 	,'[data-test="SaveJob"]'
