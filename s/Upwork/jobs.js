@@ -12,6 +12,7 @@ GM_addStyle([
 	'.nav-container > .nav-header[data-cy="header"][data-test="up-s-nav-header"]'
 	,'[data-test$="JobsButtons"]'
 	,'[data-test="Header"]'
+	,'[data-test="JobActionSave"]'
 	,'[data-test="JobsPage"] > [data-test="FiltersActive"]'
 	,'[data-test="JobsPage"] > [data-test="FiltersList"]'
 ]
