@@ -20,6 +20,13 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// language=CSS
+GM_addStyle([
+	'main > .container'
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
 // 2024-12-25
 // language=CSS
 GM_addStyle([
@@ -63,13 +70,6 @@ if (location.pathname.startsWith('/jobs/')) {
 	]
 		 // language=Javascript
 		.join(',') + '{margin: 0 !important;}')
-	;
-	// language=CSS
-	GM_addStyle([
-		'main > .container'
-	]
-		 // language=Javascript
-		.join(',') + '{padding: 0 !important;}')
 	;
 	// 2024-12-24 https://chatgpt.com/c/676b1c1b-79a0-800c-a2ca-88de2346828f
 	// language=CSS
