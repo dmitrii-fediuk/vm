@@ -21,10 +21,17 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'footer'
+	//'footer'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
 if (location.pathname.startsWith('/jobs/')) {
+	// language=CSS
+	GM_addStyle([
+		'.nav-parent-wrapper'
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
 }
