@@ -26,7 +26,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
-if (location.href.includes('/posts/') || location.href.includes('/in/')) {
+if (location.pathname.startsWith('/posts/') || location.pathname.startsWith('/in/')) {
 	// language=CSS
 	GM_addStyle([
 		'aside'

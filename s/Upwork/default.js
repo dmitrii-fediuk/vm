@@ -26,3 +26,5 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
+if (location.pathname.startsWith('/jobs/')) {
+}
