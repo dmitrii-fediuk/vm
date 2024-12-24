@@ -142,7 +142,7 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 		'[data-test="proposals-tier"]'
 	]
 		 // language=Javascript
-		.join(',') + '{padding: 0 !important;}')
+		.join(',') + '{padding: 0.5rem 0 0 0 !important;}')
 	;
 	// 2024-12-25
 	// language=CSS
