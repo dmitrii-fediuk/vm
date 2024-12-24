@@ -129,8 +129,8 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
 	GM_addStyle([
 		'[data-test="JobInfoClient"]'
-		,'[data-test="JobInfoClientMore"]'
-		,'[data-test="JobTileHeader"][class*="mt-"]'
+		,'[data-test="JobInfoClientMore"][class*="mt-"]'
+		,'[data-test="JobTileHeader"]'
 	]
 		// language=Javascript
 		.join(',') + '{' +
