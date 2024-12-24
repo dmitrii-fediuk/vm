@@ -125,4 +125,14 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('[data-test="JobsList"] > article {padding: 0.5rem !important;}');
+	// language=CSS
+	GM_addStyle([
+		'[data-test="JobTileDetails"] > [data-test="JobInfoClient"]'
+	]
+		 // language=Javascript
+		.join(',') + '{margin: 0 !important;}')
+	;
+	// 2024-12-25
+	// language=CSS
+	//GM_addStyle('[data-test="JobTileDetails"] > [data-test="JobInfoClient"] {padding: 0.5rem !important;}');
 }
