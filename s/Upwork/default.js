@@ -19,14 +19,16 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
-// language=CSS
-GM_addStyle([
-	//'footer'
-]
-	 // language=Javascript
-	.join(',') + '{position: initial !important;}')
-;
+// 2024-12-24 A job post, e.g.:
+// «https://www.upwork.com/jobs/Developer-for-Backend-Development-with-high-Stripe-API-Experience_~021871538070777433492»
 if (location.pathname.startsWith('/jobs/')) {
+	// language=CSS
+	GM_addStyle([
+		'.job-details-content footer'
+	]
+		 // language=Javascript
+		.join(',') + '{position: initial !important;}')
+	;
 	// language=CSS
 	GM_addStyle([
 		'.nav-parent-wrapper'
