@@ -97,7 +97,8 @@ if (location.pathname.startsWith('/jobs/')) {
 if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
 	GM_addStyle([
-		'.nav-container > .nav-header[data-cy="header"][data-test="up-s-nav-header"]'
+		//'.nav-container > .nav-header[data-cy="header"][data-test="up-s-nav-header"]'
+		'.nav-parent-wrapper'
 		,'[data-test$="JobsButtons"]'
 		,'[data-test="Header"]'
 		,'[data-test="JobActionSave"]'
