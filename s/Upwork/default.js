@@ -25,6 +25,13 @@ GM_addStyle([
 if (location.pathname.startsWith('/jobs/')) {
 	// language=CSS
 	GM_addStyle([
+		'.nav-parent-wrapper'
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
+	// language=CSS
+	GM_addStyle([
 		'.job-details-content footer'
 	]
 		 // language=Javascript
@@ -32,9 +39,9 @@ if (location.pathname.startsWith('/jobs/')) {
 	;
 	// language=CSS
 	GM_addStyle([
-		'.nav-parent-wrapper'
+		'main > .container'
 	]
 		 // language=Javascript
-		.join(',') + '{display: none !important;}')
+		.join(',') + '{padding: 0 !important;}')
 	;
 }
