@@ -16,7 +16,6 @@ GM_addStyle([
 	,'.profile-highlights'
 	,'[data-test="SaveJob"]'
 	,'footer.up-footer'
-	,'[data-test="JobActionSave"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
