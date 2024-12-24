@@ -160,6 +160,7 @@ if (location.pathname.startsWith('/nx/proposals')) {
 	GM_addStyle([
 		'.d-none-mobile-app:has(> h1)'
 		,'[class*="scam-education-promo"]'
+		,'button[title="Referrals"]'
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
