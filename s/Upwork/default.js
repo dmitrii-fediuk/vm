@@ -39,6 +39,13 @@ if (location.pathname.startsWith('/jobs/')) {
 	;
 	// language=CSS
 	GM_addStyle([
+		'.job-details-content footer'
+	]
+		 // language=Javascript
+		.join(',') + '{margin: 0 !important;}')
+	;		
+	// language=CSS
+	GM_addStyle([
 		'main > .container'
 	]
 		 // language=Javascript
