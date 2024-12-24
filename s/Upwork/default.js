@@ -16,6 +16,7 @@ GM_addStyle([
 	,'.profile-highlights'
 	,'[data-test="SaveJob"]'
 	,'footer.up-footer'
+	,'[data-test="JobActionSave"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -76,4 +77,33 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle('[data-test="AboutClientUser"] ul.features {flex-direction: row !important; gap: 1.5rem !important;}');
 	// language=CSS
 	GM_addStyle('.air3-card-section {padding: 0.5rem !important;}');
+}
+if (location.pathname.startsWith('/nx/search/jobs/')) {
+	// language=CSS
+	GM_addStyle([
+		'.nav-container > .nav-header[data-cy="header"][data-test="up-s-nav-header"]'
+		,'[data-test$="JobsButtons"]'
+		,'[data-test="Header"]'
+		,'[data-test="JobActionSave"]'
+		,'[data-test="JobsPage"] > [data-test="FiltersActive"]'
+		,'[data-test="JobsPage"] > [data-test="FiltersList"]'
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
+	// language=CSS
+	GM_addStyle([
+		'[data-test="JobsPage"]'
+		,'[data-test="JobsPage"] > div:last-of-type'
+	]
+		 // language=Javascript
+		.join(',') + '{display: initial !important;}')
+	;
+	// language=CSS
+	GM_addStyle([
+		'#main > .container'
+	]
+		 // language=Javascript
+		.join(',') + '{padding: 0 !important;}')
+	;
 }
