@@ -43,7 +43,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	]
 		 // language=Javascript
 		.join(',') + '{margin: 0 !important;}')
-	;		
+	;
 	// language=CSS
 	GM_addStyle([
 		'main > .container'
@@ -51,6 +51,23 @@ if (location.pathname.startsWith('/jobs/')) {
 		 // language=Javascript
 		.join(',') + '{padding: 0 !important;}')
 	;
+	// 2024-12-24 https://chatgpt.com/c/676b1c1b-79a0-800c-a2ca-88de2346828f
+	// language=CSS
+	GM_addStyle([
+		'.air3-card-sections'
+	]
+		// language=Javascript
+		.join(',') + '{' +
+			// language=CSS
+			Object.entries({
+				'display': 'flex'
+				,'flex-direction': 'column'
+			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+		'}'
+	);
+	// 2024-12-24 https://chatgpt.com/c/676b1c1b-79a0-800c-a2ca-88de2346828f
+	// language=CSS
+	GM_addStyle('[data-test="AboutClientUser"] {order: -1 !important;}');
 	// language=CSS
 	GM_addStyle('.air3-card-section {padding: 0.5rem !important;}');
 }
