@@ -44,4 +44,6 @@ if (location.pathname.startsWith('/jobs/')) {
 		 // language=Javascript
 		.join(',') + '{padding: 0 !important;}')
 	;
+	// language=CSS
+	GM_addStyle('.air3-card-section {padding: 0.5rem !important;}');
 }
