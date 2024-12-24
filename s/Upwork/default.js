@@ -127,7 +127,8 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 	GM_addStyle('[data-test="JobsList"] > article {padding: 0.5rem !important;}');
 	// language=CSS
 	GM_addStyle([
-		'[data-test="JobTileDetails"] > [data-test="JobInfoClient"]'
+		'[data-test="JobInfoClient"]'
+		,'[data-test="JobInfoClientMore"]'
 	]
 		 // language=Javascript
 		.join(',') + '{margin: 0 !important;}')
