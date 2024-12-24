@@ -128,18 +128,17 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle([
-		'article [data-test="JobInfoClient"]'
+		'article [data-test="JobInfo"]'
+		,'article [data-test="JobInfoClient"]'
 		,'article [data-test="JobInfoClientMore"]'
-		,'article [data-test="UpCLineClamp JobDescription"]'
 		,'article [data-test="JobTileHeader"]'
+		,'article [data-test="UpCLineClamp JobDescription"]'
 	]
 		// language=Javascript
 		.join(',') + '{' +
 			// language=CSS
 			Object.entries({
 				'margin': 0
-				//,'margin-bottom': 0
-				//,'margin-top': 0
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
