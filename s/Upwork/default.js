@@ -20,6 +20,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// 2024-12-25
 // language=CSS
 GM_addStyle([
 	'header .nav-container'
@@ -121,4 +122,7 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 		 // language=Javascript
 		.join(',') + '{padding: 0 !important;}')
 	;
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle('[data-test="JobsList"] > article {padding: 0.5rem !important;}');
 }
