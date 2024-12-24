@@ -12,7 +12,7 @@ GM_addStyle([
 	'.air3-search'
 	,'.fe-proposal-boost-proposal'
 	,'.microapp-slot-innova'
-	,'#user-top-navigation-container .nav-container > .nav-d-flex[data-cy="header"]'
+	,'#user-top-navigation-container .nav-container > [data-cy="header"]'
 	,'.nav-uma'
 	,'.profile-highlights'
 	,'[data-test="SaveJob"]'
