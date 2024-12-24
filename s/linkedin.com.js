@@ -26,7 +26,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
-if (location.pathname.startsWith('/posts/') || location.pathname.startsWith('/in/')) {
+if (/^\/(posts|in)\//.test(location.pathname)) {
 	// language=CSS
 	GM_addStyle([
 		'aside'
