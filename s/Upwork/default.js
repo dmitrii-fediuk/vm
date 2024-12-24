@@ -14,6 +14,7 @@ GM_addStyle([
 	,'.microapp-slot-innova'
 	,'.nav-uma'
 	,'.profile-highlights'
+	,'[data-test="SaveJob"]'
 	,'footer.up-footer'
 ]
 	 // language=Javascript
