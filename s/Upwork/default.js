@@ -132,7 +132,7 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 		,'article [data-test="JobInfoClient"]'
 		,'article [data-test="JobInfoClientMore"]'
 		,'article [data-test="JobTileHeader"]'
-		,'article [data-test="UpCLineClamp JobDescription"]'
+		//,'article [data-test$="JobDescription"]'
 	]
 		// language=Javascript
 		.join(',') + '{' +
@@ -142,6 +142,9 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle('article [data-test$="JobDescription"] {margin: 0.5rem 0 !important;}');
 	// 2024-12-25
 	// language=CSS
 	//GM_addStyle('[data-test="JobTileDetails"] > [data-test="JobInfoClient"] {padding: 0.5rem !important;}');
