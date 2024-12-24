@@ -143,3 +143,13 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
 	//GM_addStyle('[data-test="JobTileDetails"] > [data-test="JobInfoClient"] {padding: 0.5rem !important;}');
 }
+// 2024-12-25
+if (location.pathname.startsWith('/nx/proposals')) {
+	// language=CSS
+	GM_addStyle([
+		'[class*="scam-education-promo"]'
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
+}
