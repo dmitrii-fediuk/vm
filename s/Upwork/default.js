@@ -137,8 +137,8 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 			// language=CSS
 			Object.entries({
 				'margin': 0
-				,'margin-bottom': 0
-				,'margin-top': 0
+				//,'margin-bottom': 0
+				//,'margin-top': 0
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
