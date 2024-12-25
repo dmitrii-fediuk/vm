@@ -163,7 +163,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle('[data-test="Features"] .features {row-gap: 0 !important;}');
 	// 2024-12-25
 	// language=CSS
-	GM_addStyle('[data-test="Questions"] {margin-bottom: 0.5rem !important;}');
+	GM_addStyle('[data-test="Questions"] {background: #ffffe6; margin-bottom: 0.5rem !important;}');
 }
 if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
@@ -221,9 +221,6 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('article [data-test$="JobDescription"] {margin: 0.5rem 0 !important;}');
-	// 2024-12-25
-	// language=CSS
-	//GM_addStyle('[data-test="JobTileDetails"] > [data-test="JobInfoClient"] {padding: 0.5rem !important;}');
 }
 // 2024-12-25
 if (location.pathname.startsWith('/nx/proposals')) {
