@@ -59,9 +59,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{height: 1.5rem !important;}')
 ;
-// 2024-12-25
-// language=CSS
-GM_addStyle('.air3-tabs {margin-bottom: 0 !important; margin-top: 0 !important;}');
 // 2024-12-24 A job post, e.g.:
 // «https://www.upwork.com/jobs/Developer-for-Backend-Development-with-high-Stripe-API-Experience_~021871538070777433492»
 if (location.pathname.startsWith('/jobs/')) {
@@ -183,4 +180,10 @@ if (location.pathname.startsWith('/nx/proposals')) {
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
 	;
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle('.air3-tabs {margin-bottom: 0 !important; margin-top: 0 !important;}');
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle('.air3-tabs [role="tab"] {padding-top: 0 !important;}');
 }
