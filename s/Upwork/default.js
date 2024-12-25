@@ -65,6 +65,7 @@ if (location.pathname.startsWith('/jobs/')) {
 		,'[data-test="AboutClientUser"] div:has([data-testid="head-title"])'
 		// 2024-12-25 The title: «Activity on this job»
 		,'[data-test="ClientActivity"] h5'
+		,'[data-test="Features"] .description'
 		,'[data-test="Features"] [data-test="UpCIcon"]'
 		,'[data-test="Qualifications"] [data-cy="english"]'
 		// 2024-12-25 The title: «Preferred qualifications»
