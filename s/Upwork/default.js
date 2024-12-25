@@ -190,6 +190,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	// language=CSS
 	GM_addStyle([
 		'.air3-card-section:has(> [data-test="Qualifications"])'
+		,'[data-test="Features"] > ul'
 	]
 		// language=Javascript
 		.join(',') + '{' +
