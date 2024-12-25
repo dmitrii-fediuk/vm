@@ -62,6 +62,8 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle([
 		'.nav-parent-wrapper'
 		,'[data-test="AboutClientUser"] div:has([data-testid="head-title"])'
+		// 2024-12-25 The title: «You will be asked to answer the following questions when submitting a proposal:»
+		,'[data-test="Questions"] > p'
 		,'[data-test="SpecializedProfilePrompt"]'
 	]
 		 // language=Javascript
@@ -157,6 +159,9 @@ if (location.pathname.startsWith('/jobs/')) {
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('[data-test="Features"] .features {row-gap: 0 !important;}');
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle('[data-test="Questions"]  > p {order: 4 !important;}');
 }
 if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
