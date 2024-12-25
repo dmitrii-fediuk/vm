@@ -61,6 +61,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	// language=CSS
 	GM_addStyle([
 		'.client-activity-items .help-icon'
+		,'.extra-jobs-cards > [class*="card"]:has([data-test="SimilarJobs"])'
 		,'.nav-parent-wrapper'
 		,'[data-test="AboutClientUser"] div:has([data-testid="head-title"])'
 		// 2024-12-25 The title: «Attachment»
