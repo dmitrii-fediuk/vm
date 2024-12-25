@@ -106,6 +106,9 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle('[data-test="AboutClientUser"] ul.features {flex-direction: row !important; gap: 1.5rem !important;}');
 	// language=CSS
 	GM_addStyle('.air3-card-section {padding: 0 0.5rem !important;}');
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle('[data-test="ConnectsAuction"] {display: flex !important;}');
 }
 if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
