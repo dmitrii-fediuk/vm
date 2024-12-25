@@ -201,6 +201,7 @@ if (location.pathname.startsWith('/jobs/')) {
 		,'.air3-card-section:has(> [data-test="Qualifications"])'
 		,'[data-test="AboutClientUser"]'
 		,'[data-test="AboutClientUser"] ul.features'
+		,'[data-test="Expertise"] > [class*="grid-container"]'
 		,'[data-test="Features"] .features'
 	]
 		 // language=Javascript
