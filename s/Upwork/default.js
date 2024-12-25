@@ -172,6 +172,9 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle('[data-test="Questions"] {font-weight: bold; margin-bottom: 0.5rem !important;}');
 	// 2024-12-25
 	// language=CSS
+	GM_addStyle('[data-test="Expertise"] .icons {vertical-align: middle !important;}');
+	// 2024-12-25
+	// language=CSS
 	GM_addStyle('.air3-card-section:has(> [data-test="Qualifications"]) {row-gap: 0 !important;}');
 }
 if (location.pathname.startsWith('/nx/search/jobs')) {
