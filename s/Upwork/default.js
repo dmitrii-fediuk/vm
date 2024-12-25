@@ -73,6 +73,7 @@ if (location.pathname.startsWith('/jobs/')) {
 		,'[data-test="Qualifications"] h5'
 		// 2024-12-25 The title: «You will be asked to answer the following questions when submitting a proposal:»
 		,'[data-test="Questions"] > p'
+		,'[data-test="Segmentations"] li > :first-child'
 		,'[data-test="SpecializedProfilePrompt"]'
 	]
 		 // language=Javascript
