@@ -144,6 +144,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	// language=CSS
 	GM_addStyle([
 		'[data-test="Description"] p'
+		,'[data-test="Questions"] ol'
 	]
 		// language=Javascript
 		.join(',') + '{' +
