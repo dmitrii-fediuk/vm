@@ -186,6 +186,14 @@ if (location.pathname.startsWith('/nx/proposals')) {
 	;
 	// 2024-12-25
 	// language=CSS
+	GM_addStyle([
+		'.air3-card header'
+	]
+		 // language=Javascript
+		.join(',') + '{padding: 0 !important;}')
+	;
+	// 2024-12-25
+	// language=CSS
 	GM_addStyle('.air3-tabs {margin-bottom: 0 !important; margin-top: 0 !important;}');
 	// 2024-12-25
 	// language=CSS
