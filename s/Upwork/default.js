@@ -98,12 +98,21 @@ if (location.pathname.startsWith('/jobs/')) {
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
-	// 2024-12-24 https://chatgpt.com/c/676b1c1b-79a0-800c-a2ca-88de2346828f
-	// language=CSS
-	GM_addStyle('[data-test="AboutClientUser"] {order: -1 !important;}');
 	// 2024-12-25
 	// language=CSS
-	GM_addStyle('[data-test="Questions"] {order: 3 !important;}');
+	GM_addStyle('.air3-card-sections > * {order: 5;}');
+	// 2024-12-24 https://chatgpt.com/c/676b1c1b-79a0-800c-a2ca-88de2346828f
+	// language=CSS
+	GM_addStyle('[data-test="AboutClientUser"] {order: 1 !important;}');
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle('.air3-card-section:has(> h4) {order: 2 !important;}');
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle('.air3-card-section:has(> [data-test="Description"]) {order: 3 !important;}');
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle('[data-test="Questions"] {order: 4 !important;}');
 	// 2024-12-24 https://chatgpt.com/c/676b1c1b-79a0-800c-a2ca-88de2346828f
 	// language=CSS
 	GM_addStyle('[data-test="AboutClientUser"] ul.features {flex-direction: row !important; gap: 1.5rem !important;}');
