@@ -87,6 +87,7 @@ if (location.pathname.startsWith('/jobs/')) {
 		'.air3-card-section h4'
 		,'.job-details-content footer'
 		,'[data-test="AboutClientUser"] div:has(> [data-test="UpCPopover"])'
+		,'[data-test="AboutClientUser"] ul.features'
 		,'[data-test="ConnectsAuction"]'
 		,'[data-test="Questions"] li'
 	]
