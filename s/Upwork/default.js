@@ -181,7 +181,10 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle('.qualification-items .icons {vertical-align: middle !important;}');
 	// 2024-12-25
 	// language=CSS
-	GM_addStyle('.qualification-items li:has(.icons:has(.text-danger)) > * {background: red !important;}');
+	GM_addStyle('.qualification-items > li:has(> .icons:has(.text-danger)) > * {background: red !important;}');
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle('.qualification-items > li:has(> .icons:has(.text-danger)) {background: red !important;}');
 }
 if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
