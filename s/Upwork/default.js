@@ -10,13 +10,14 @@
 // language=CSS
 GM_addStyle([
 	'#user-top-navigation-container .nav-container > [data-cy="header"]'
-	,'#user-top-navigation-container [data-cy="help-menu"]'
 	,'.air3-search'
 	,'.fe-proposal-boost-proposal'
 	,'.microapp-slot-innova'
+	,'.nav-notifications .nav-dot'
 	,'.nav-uma'
 	,'.profile-highlights'
 	,'.up-skip-nav'
+	,'[data-cy="help-menu"]'
 	,'[data-test="SaveJob"]'
 	,'footer.up-footer'
 ]
