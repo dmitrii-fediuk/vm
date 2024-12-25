@@ -170,6 +170,7 @@ if (location.pathname.startsWith('/nx/proposals')) {
 	// language=CSS
 	GM_addStyle([
 		'.d-none-mobile-app:has(> h1)'
+		,'.invitations-card-view .header-aux'
 		,'[class*="scam-education-promo"]'
 		,'button[title="Referrals"]'
 	]
