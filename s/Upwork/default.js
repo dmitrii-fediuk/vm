@@ -68,6 +68,7 @@ if (location.pathname.startsWith('/jobs/')) {
 		,'[data-test="Attachments"] h5'
 		// 2024-12-25 The title: «Activity on this job»
 		,'[data-test="ClientActivity"] h5'
+		,'[data-test="ContractToHireBanner"] .illustration'
 		// 2024-12-25 The title: «Skills and Expertise»
 		,'[data-test="Expertise"] h5'
 		,'[data-test="Features"] .description'
