@@ -62,6 +62,8 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle([
 		'.nav-parent-wrapper'
 		,'[data-test="AboutClientUser"] div:has([data-testid="head-title"])'
+		// 2024-12-25 The title: «Activity on this job»
+		,'[data-test="ClientActivity"] h5'
 		,'[data-test="Qualifications"] [data-cy="english"]'
 		// 2024-12-25 The title: «Preferred qualifications»
 		,'[data-test="Qualifications"] h5'
