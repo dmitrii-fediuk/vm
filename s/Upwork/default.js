@@ -72,6 +72,7 @@ if (location.pathname.startsWith('/jobs/')) {
 		,'[data-test="Features"] .description'
 		,'[data-test="Features"] > ul.features > li::after'
 		,'[data-test="Features"] [data-test="UpCIcon"]'
+		,'[data-test="FlagButton"]'
 		,'[data-test="Qualifications"] [data-cy="english"]'
 		// 2024-12-25 The title: «Preferred qualifications»
 		,'[data-test="Qualifications"] h5'
