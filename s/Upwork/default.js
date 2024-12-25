@@ -204,6 +204,9 @@ if (location.pathname.startsWith('/jobs/')) {
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('[data-test="Qualifications"] {max-width: 12rem !important;}');
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle('[data-test="Features"] {margin: 0.5rem 0 !important;}');
 }
 if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
