@@ -60,7 +60,8 @@ GM_addStyle('#user-top-navigation-container .nav-item-label {padding-bottom: 0 !
 if (location.pathname.startsWith('/jobs/')) {
 	// language=CSS
 	GM_addStyle([
-		'.nav-parent-wrapper'
+		'.client-activity-items .help-icon'
+		,'.nav-parent-wrapper'
 		,'[data-test="AboutClientUser"] div:has([data-testid="head-title"])'
 		// 2024-12-25 The title: «Activity on this job»
 		,'[data-test="ClientActivity"] h5'
