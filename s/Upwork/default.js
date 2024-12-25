@@ -82,6 +82,7 @@ if (location.pathname.startsWith('/jobs/')) {
 		,'.job-details-content footer'
 		,'[data-test="AboutClientUser"] div:has(> [data-test="UpCPopover"])'
 		,'[data-test="ConnectsAuction"]'
+		,'[data-test="Questions"] li'
 	]
 		 // language=Javascript
 		.join(',') + '{margin: 0 !important;}')
