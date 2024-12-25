@@ -114,7 +114,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle('.air3-card-section:first-of-type > div {margin-top: 0 !important;}');
 	// 2024-12-25
 	// language=CSS
-	GM_addStyle('.air3-card-section:has(> [data-test="Description"]) {margin-bottom: 1rem !important;}');
+	GM_addStyle('.air3-card-section:has(> [data-test="Description"]) {margin-bottom: 0.66rem !important;}');
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('[data-test="ConnectsAuction"] {display: flex !important; gap: 1rem !important;}');
