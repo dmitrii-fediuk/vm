@@ -48,6 +48,9 @@ GM_addStyle([
 );
 // 2024-12-25
 // language=CSS
+GM_addStyle('#nav-main {height: 1.5rem !important;}');
+// 2024-12-25
+// language=CSS
 GM_addStyle('.nav-right {height: 1.5rem !important;}');
 // 2024-12-24 A job post, e.g.:
 // «https://www.upwork.com/jobs/Developer-for-Backend-Development-with-high-Stripe-API-Experience_~021871538070777433492»
