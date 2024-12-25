@@ -186,7 +186,18 @@ if (location.pathname.startsWith('/nx/proposals')) {
 	;
 	// 2024-12-25
 	// language=CSS
-	GM_addStyle('.air3-card {border: 0 !important;}');
+	GM_addStyle([
+		'.air3-card'
+	]
+		// language=Javascript
+		.join(',') + '{' +
+			// language=CSS
+			Object.entries({
+				'border': 0
+				,'padding': 0
+			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+		'}'
+	);
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('.air3-card header {padding: 0.5rem 0 !important;}');
