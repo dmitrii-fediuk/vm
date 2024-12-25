@@ -136,9 +136,6 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle('.air3-card-section {border: 0 !important; padding: 0 0.5rem !important;}');
 	// 2024-12-25
 	// language=CSS
-	GM_addStyle('[data-test="AboutClientUser"] {display: flex !important; gap: 0.5rem !important;}');
-	// 2024-12-25
-	// language=CSS
 	GM_addStyle('.air3-card-section:first-of-type > div {margin-top: 0 !important;}');
 	// 2024-12-25
 	// language=CSS
@@ -179,7 +176,25 @@ if (location.pathname.startsWith('/jobs/')) {
 		,'[data-test="Features"] .features'
 	]
 		 // language=Javascript
-		.join(',') + '{row-gap: 0 !important;}')
+		.join(',') + '{gap: 0 !important;}')
+	;
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle([
+		'.air3-card-section:has(> [data-test="Qualifications"])'
+		,'[data-test="Features"] > ul'
+	]
+		 // language=Javascript
+		.join(',') + '{display: flex !important; gap: 0 !important;}')
+	;
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle([
+		'.air3-card-section:has(> [data-test="ConnectsAuction"])'
+		,'[data-test="AboutClientUser"]'
+	]
+		 // language=Javascript
+		.join(',') + '{display: flex !important; gap: 0.5rem !important;}')
 	;
 	// 2024-12-25
 	// language=CSS
@@ -190,22 +205,6 @@ if (location.pathname.startsWith('/jobs/')) {
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('.qualification-items > li:has(.text-danger) {background: #ffebe6 !important;}');
-	// 2024-12-25
-	// language=CSS
-	GM_addStyle([
-		'.air3-card-section:has(> [data-test="ConnectsAuction"])'
-		,'.air3-card-section:has(> [data-test="Qualifications"])'
-		,'[data-test="Features"] > ul'
-	]
-		// language=Javascript
-		.join(',') + '{' +
-			// language=CSS
-			Object.entries({
-				'display': 'flex'
-				,'row-gap': 0
-			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-		'}'
-	);
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('[data-test="Qualifications"] {max-width: 12rem !important;}');
