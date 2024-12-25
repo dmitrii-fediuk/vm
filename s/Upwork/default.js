@@ -190,4 +190,18 @@ if (location.pathname.startsWith('/nx/proposals')) {
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('.air3-tabs [role="tab"] {padding-top: 0 !important;}');
+	// 2024-12-25 https://chatgpt.com/c/676b1c1b-79a0-800c-a2ca-88de2346828f
+	// language=CSS
+	GM_addStyle([
+		'div:has(> .active-offers-card-view)'
+	]
+		// language=Javascript
+		.join(',') + '{' +
+			// language=CSS
+			Object.entries({
+				'display': 'flex'
+				,'flex-direction': 'column'
+			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+		'}'
+	);
 }
