@@ -50,8 +50,9 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#nav-main'
-	,'header .nav-container'
 	,'.nav-right'
+	,'#user-top-navigation-container .nav-container'
+	,'#user-top-navigation-container header'
 ]
 	 // language=Javascript
 	.join(',') + '{height: 1.5rem !important;}')
