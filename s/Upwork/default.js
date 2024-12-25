@@ -130,7 +130,8 @@ if (location.pathname.startsWith('/jobs/')) {
 			// language=CSS
 			Object.entries({
 				'font-family': 'Segoie UI'
-				,'font-size': 1.25
+				// language=Javascript
+				,'font-size': '125%'
 				,'line-height': 1.2
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
