@@ -120,25 +120,10 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle('[data-test="ConnectsAuction"] > div {margin-top: 0 !important;}');
 	// 2024-12-25
 	// language=CSS
-	//GM_addStyle('[data-test="Description"] br {font-size: 75% !important; line-height: 75% !important;}');
-	// 2024-12-25 https://chatgpt.com/c/676b6efc-9be8-800c-ad43-94a3b8c4d449
-	// language=CSS
-	GM_addStyle([
-		'[data-test="Description"] br'
-	]
-		// language=Javascript
-		.join(',') + '{' +
-			// language=CSS
-			Object.entries({
-				'display': 'block'
-				// language=Javascript
-				,'height': '1px'
-			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-		'}'
-	);
+	GM_addStyle('[data-test="Description"] br {display: block !important; content: ""; height: 1px !important;}');
 	// 2024-12-25
 	// language=CSS
-	GM_addStyle('[data-test="Description"] br {content: "";}');
+	GM_addStyle('[data-test="Description"] p {line-height: 1.2 !important;}');
 }
 if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
