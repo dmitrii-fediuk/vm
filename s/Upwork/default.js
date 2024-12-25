@@ -49,7 +49,7 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	,'#nav-main'
+	'#nav-main'
 	,'.nav-container'
 	,'.nav-right'
 ]
