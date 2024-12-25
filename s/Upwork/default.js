@@ -105,7 +105,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	// language=CSS
 	GM_addStyle('[data-test="AboutClientUser"] ul.features {flex-direction: row !important; gap: 1.5rem !important;}');
 	// language=CSS
-	GM_addStyle('.air3-card-section {padding: 0 0.5rem !important;}');
+	GM_addStyle('.air3-card-section {margin: 0.5rem 0 !important; padding: 0 0.5rem !important;}');
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('.air3-card-section:first-of-type {display: flex !important; gap: 1rem !important;}');
