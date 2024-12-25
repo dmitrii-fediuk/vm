@@ -171,6 +171,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	// language=CSS
 	GM_addStyle([
 		'.client-activity-items'
+		,'.qualification-items'
 		,'[data-test="Features"] .features'
 	]
 		 // language=Javascript
