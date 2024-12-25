@@ -217,7 +217,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle('[data-test="Features"] {margin: 0.5rem 0 0 0 !important;}');
 	// 2024-12-25
 	// language=CSS
-	GM_addStyle('[data-test="Bids"] h5 {font-size: 80% !important;}');
+	GM_addStyle('[data-test="Bids"] h5 {font-size: 90% !important;}');
 }
 if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
