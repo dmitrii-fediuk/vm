@@ -105,6 +105,7 @@ if (location.pathname.startsWith('/jobs/')) {
 		,'[data-test="AboutClientUser"] div:has(> [data-test="UpCPopover"])'
 		,'[data-test="AboutClientUser"] ul.features'
 		,'[data-test="ConnectsAuction"]'
+		,'[data-test="Expertise"] .skills-list'
 		,'[data-test="Questions"] li'
 	]
 		 // language=Javascript
