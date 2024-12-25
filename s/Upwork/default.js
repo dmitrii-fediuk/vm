@@ -180,14 +180,6 @@ if (location.pathname.startsWith('/jobs/')) {
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle([
-		'[data-test="Features"] > ul'
-	]
-		 // language=Javascript
-		.join(',') + '{display: flex !important; gap: 0 !important;}')
-	;
-	// 2024-12-25
-	// language=CSS
-	GM_addStyle([
 		'.air3-card-section:has(> [data-test="ConnectsAuction"])'
 		,'.air3-card-section:has(> [data-test="Qualifications"])'
 		,'[data-test="Features"] .features'
