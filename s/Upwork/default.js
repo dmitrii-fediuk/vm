@@ -169,7 +169,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle('[data-test="Features"] .features {row-gap: 0 !important;}');
 	// 2024-12-25
 	// language=CSS
-	GM_addStyle('[data-test="Questions"] {background: #ffffe6; margin-bottom: 0.5rem !important;}');
+	GM_addStyle('[data-test="Questions"] {font-weight: bold; margin-bottom: 0.5rem !important;}');
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('.air3-card-section:has(> [data-test="Qualifications"]) {row-gap: 0 !important;}');
