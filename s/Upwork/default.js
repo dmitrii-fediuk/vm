@@ -131,6 +131,7 @@ if (location.pathname.startsWith('/jobs/')) {
 			// language=CSS
 			Object.entries({
 				'display': 'block'
+				,'line-height': 0
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
