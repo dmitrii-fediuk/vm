@@ -194,7 +194,8 @@ if (location.pathname.startsWith('/nx/proposals')) {
 			// language=CSS
 			Object.entries({
 				'border': 0
-				,'padding': 0
+				// language=Javascript
+				,'padding': '0 0.5rem'
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
