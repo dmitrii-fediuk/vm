@@ -169,7 +169,13 @@ if (location.pathname.startsWith('/jobs/')) {
 	);
 	// 2024-12-25
 	// language=CSS
-	GM_addStyle('[data-test="Features"] .features {row-gap: 0 !important;}');
+	GM_addStyle([
+		'.client-activity-items'
+		,'[data-test="Features"] .features'
+	]
+		 // language=Javascript
+		.join(',') + '{row-gap: 0 !important;}')
+	;
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('[data-test="Questions"] {font-weight: bold; margin-bottom: 0.5rem !important;}');
