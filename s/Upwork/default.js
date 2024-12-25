@@ -63,6 +63,8 @@ if (location.pathname.startsWith('/jobs/')) {
 		'.client-activity-items .help-icon'
 		,'.nav-parent-wrapper'
 		,'[data-test="AboutClientUser"] div:has([data-testid="head-title"])'
+		// 2024-12-25 The title: «Attachment»
+		,'[data-test="Attachments"] h5'
 		// 2024-12-25 The title: «Activity on this job»
 		,'[data-test="ClientActivity"] h5'
 		,'[data-test="Features"] .description'
