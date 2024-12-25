@@ -135,6 +135,18 @@ if (location.pathname.startsWith('/jobs/')) {
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
+	// language=CSS
+	GM_addStyle([
+		'[data-test="Description"] br + br'
+	]
+		// language=Javascript
+		.join(',') + '{' +
+			// language=CSS
+			Object.entries({
+				'display': 'none'
+			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+		'}'
+	);
 }
 if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
