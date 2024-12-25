@@ -59,6 +59,9 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{height: 1.5rem !important;}')
 ;
+// 2024-12-25
+// language=CSS
+GM_addStyle('#user-top-navigation-container .nav-item-label {padding-bottom: 0 !important; padding-top: 0 !important;}');
 // 2024-12-24 A job post, e.g.:
 // «https://www.upwork.com/jobs/Developer-for-Backend-Development-with-high-Stripe-API-Experience_~021871538070777433492»
 if (location.pathname.startsWith('/jobs/')) {
