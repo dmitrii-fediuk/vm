@@ -129,6 +129,9 @@ if (location.pathname.startsWith('/jobs/')) {
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('.air3-card-section:has(> [data-test="Qualifications"]) {order: 5 !important;}');
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle('[data-test="AboutClientUser"] {gap: 0 !important;}');
 	// 2024-12-24 https://chatgpt.com/c/676b1c1b-79a0-800c-a2ca-88de2346828f
 	// language=CSS
 	GM_addStyle('[data-test="AboutClientUser"] ul.features {flex-direction: row !important; gap: 0 !important;}');
