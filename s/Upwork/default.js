@@ -130,15 +130,10 @@ if (location.pathname.startsWith('/jobs/')) {
 		.join(',') + '{' +
 			// language=CSS
 			Object.entries({
-				// language=Javascript
-				'border': '2px solid red'
-				,'background': 'yellow'
+				'background': 'yellow'
 				,'display': 'block'
-				//,'line-height': 0
 				// language=Javascript
-				,'height': '100px'
-				,'width': '100px'
-				,'margin': '10px 0'
+				,'height': '0.2rem'
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
