@@ -188,6 +188,9 @@ if (location.pathname.startsWith('/jobs/')) {
 	;
 	// 2024-12-25
 	// language=CSS
+	GM_addStyle('[data-test="AboutClientUser"] ul.features {flex-direction: row !important;}');
+	// 2024-12-25
+	// language=CSS
 	GM_addStyle('[data-test="Questions"] {font-weight: bold; margin-bottom: 0.5rem !important;}');
 	// 2024-12-25
 	// language=CSS
