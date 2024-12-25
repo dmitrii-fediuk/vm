@@ -52,10 +52,6 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	/*'#nav-main'
-	,'.nav-right'
-	,'#user-top-navigation-container .nav-container'
-	,'#user-top-navigation-container header'*/
 	'#user-top-navigation-container header > [class^="nav-v"]'
 ]
 	 // language=Javascript
