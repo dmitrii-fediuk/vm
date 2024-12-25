@@ -175,13 +175,27 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle('[data-test="Questions"] {font-weight: bold; margin-bottom: 0.5rem !important;}');
 	// 2024-12-25
 	// language=CSS
-	GM_addStyle('.air3-card-section:has(> [data-test="Qualifications"]) {row-gap: 0 !important;}');
-	// 2024-12-25
-	// language=CSS
 	GM_addStyle('.qualification-items .icons {vertical-align: middle !important;}');
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('.qualification-items > li:has(.text-danger) {background: #ffebe6 !important;}');
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle([
+		'.air3-card-section:has(> [data-test="Qualifications"])'
+	]
+		// language=Javascript
+		.join(',') + '{' +
+			// language=CSS
+			Object.entries({
+				'display': 'flex'
+				,'row-gap': 0
+			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+		'}'
+	);
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle('[data-test="Qualifications"] {max-width: 12rem !important;}');
 }
 if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
