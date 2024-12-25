@@ -130,15 +130,21 @@ if (location.pathname.startsWith('/jobs/')) {
 		.join(',') + '{' +
 			// language=CSS
 			Object.entries({
-				'background': 'yellow'
+				// language=Javascript
+				'border': '2px solid red'
+				,'background': 'yellow'
 				,'display': 'block'
 				//,'line-height': 0
 				// language=Javascript
-				,'height': '0.2rem'
-				,'width': '100%'
+				,'height': '100px'
+				,'width': '100px'
+				,'margin': '10px 0'
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle('[data-test="Description"] br {content: "";}');
 	// language=CSS
 	GM_addStyle([
 		'[data-test="Description"] br + br'
