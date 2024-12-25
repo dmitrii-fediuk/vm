@@ -180,7 +180,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle([
-		//'[data-test="Features"] > ul'
+		'[data-test="Features"] > ul'
 	]
 		 // language=Javascript
 		.join(',') + '{display: flex !important; gap: 0 !important;}')
