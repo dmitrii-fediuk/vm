@@ -123,7 +123,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle('[data-test="Description"] br {display: block !important; content: ""; height: 1px !important;}');
 	// 2024-12-25
 	// language=CSS
-	GM_addStyle('[data-test="Description"] p {font-family: Consolas !important; line-height: 1.2 !important;}');
+	GM_addStyle('[data-test="Description"] p {font-family: "Segoie UI" !important; line-height: 1.2 !important;}');
 }
 if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
