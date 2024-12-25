@@ -62,6 +62,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle([
 		'.nav-parent-wrapper'
 		,'[data-test="AboutClientUser"] div:has([data-testid="head-title"])'
+		,'[data-test="Qualifications"] [data-cy="english"]'
 		// 2024-12-25 The title: «You will be asked to answer the following questions when submitting a proposal:»
 		,'[data-test="Questions"] > p'
 		,'[data-test="SpecializedProfilePrompt"]'
