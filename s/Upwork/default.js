@@ -218,6 +218,9 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle('.qualification-items > li:has(.text-danger) {background: #ffebe6 !important;}');
 	// 2024-12-25
 	// language=CSS
+	GM_addStyle(':has(> [data-test="BudgetAmount"]) {background: #ffebe6 !important;}');
+	// 2024-12-25
+	// language=CSS
 	GM_addStyle('[data-test="Features"] {margin: 0.5rem 0 0 0 !important;}');
 	// 2024-12-25
 	// language=CSS
