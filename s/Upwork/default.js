@@ -212,4 +212,7 @@ if (location.pathname.startsWith('/nx/proposals')) {
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('.air3-tabs [role="tab"] {padding-top: 0 !important;}');
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle('div:has(> .active-offers-card-view) {margin-top: 0.5rem !important;}');
 }
