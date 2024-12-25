@@ -51,12 +51,7 @@ GM_addStyle([
 );
 // 2024-12-25
 // language=CSS
-GM_addStyle([
-	'#user-top-navigation-container header > [class^="nav-v"]'
-]
-	 // language=Javascript
-	.join(',') + '{height: 1.5rem !important;}')
-;
+GM_addStyle('#user-top-navigation-container header > [class^="nav-v"] {height: auto !important;}');
 // 2024-12-25
 // language=CSS
 GM_addStyle('#user-top-navigation-container .nav-item-label {padding-bottom: 0 !important; padding-top: 0 !important;}');
