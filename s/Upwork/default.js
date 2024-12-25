@@ -223,6 +223,9 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle('[data-test="Bids"] h5 {font-size: 100% !important;}');
 	// 2024-12-25
 	// language=CSS
+	GM_addStyle('.extra-jobs-cards {padding: 0 0.5rem !important;}');
+	// 2024-12-25
+	// language=CSS
 	GM_addStyle('[data-test="WorkHistory"] {border: 0 !important; margin-top: 0.5rem !important;}');
 }
 if (location.pathname.startsWith('/nx/search/jobs')) {
