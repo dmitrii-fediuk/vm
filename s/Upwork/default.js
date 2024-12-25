@@ -118,6 +118,9 @@ if (location.pathname.startsWith('/jobs/')) {
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('[data-test="ConnectsAuction"] > div {margin-top: 0 !important;}');
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle('[data-test="Description"] br {font-size: 75% !important;}');
 }
 if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
