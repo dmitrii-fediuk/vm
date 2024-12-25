@@ -71,6 +71,8 @@ if (location.pathname.startsWith('/jobs/')) {
 		,'[data-test="ContractToHireBanner"] .illustration'
 		// 2024-12-25 The title: «Skills and Expertise»
 		,'[data-test="Expertise"] h5'
+		// 2024-12-25 Titles like: «Full Stack Development Deliverables»
+		,'[data-test="Expertise"] > [class*="grid-container"] > div:has(> .skills-list) > strong'
 		,'[data-test="Features"] .description'
 		,'[data-test="Features"] > ul.features > li::after'
 		,'[data-test="Features"] [data-test="UpCIcon"]'
