@@ -173,7 +173,6 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle([
 		'.client-activity-items'
 		,'.qualification-items'
-		,'[data-test="Features"] .features'
 	]
 		 // language=Javascript
 		.join(',') + '{gap: 0 !important;}')
@@ -191,8 +190,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle([
 		'.air3-card-section:has(> [data-test="ConnectsAuction"])'
 		,'.air3-card-section:has(> [data-test="Qualifications"])'
-		,'[data-test="AboutClientUser"]'
-		,'[data-test="Features"] > ul'
+		,'[data-test="Features"] .features'
 	]
 		 // language=Javascript
 		.join(',') + '{display: flex !important; gap: 0.5rem !important;}')
