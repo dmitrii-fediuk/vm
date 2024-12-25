@@ -53,6 +53,7 @@ GM_addStyle([
 	,'.nav-right'
 	,'#user-top-navigation-container .nav-container'
 	,'#user-top-navigation-container header'
+	,'#user-top-navigation-container header > [class^="nav-v"]'
 ]
 	 // language=Javascript
 	.join(',') + '{height: 1.5rem !important;}')
