@@ -108,7 +108,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	GM_addStyle('.air3-card-section {padding: 0 0.5rem !important;}');
 	// 2024-12-25
 	// language=CSS
-	GM_addStyle('[data-test="ConnectsAuction"] {display: flex !important;}');
+	GM_addStyle('[data-test="ConnectsAuction"] {display: flex !important; gap: 1rem !important;}');
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('[data-test="ConnectsAuction"] > div {margin-top: 0 !important;}');
