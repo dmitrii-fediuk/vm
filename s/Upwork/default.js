@@ -139,6 +139,9 @@ if (location.pathname.startsWith('/jobs/')) {
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
+	// 2024-12-25
+	// language=CSS
+	GM_addStyle('[data-test="Features"] .features {row-gap: 0 !important;}');
 }
 if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
