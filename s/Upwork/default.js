@@ -50,7 +50,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#nav-main'
-	,'.nav-container'
+	,'header .nav-container'
 	,'.nav-right'
 ]
 	 // language=Javascript
