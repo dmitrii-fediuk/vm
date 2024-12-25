@@ -103,7 +103,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	// language=CSS
 	GM_addStyle('[data-test="AboutClientUser"] ul.features {flex-direction: row !important; gap: 1.5rem !important;}');
 	// language=CSS
-	GM_addStyle('.air3-card-section {padding: 0.5rem !important;}');
+	GM_addStyle('.air3-card-section {padding: 0 0.5rem !important;}');
 }
 if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
