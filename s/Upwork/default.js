@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'#user-top-navigation-container .nav-container > [data-cy="header"]'
+	,'#user-top-navigation-container [data-cy="help-menu"]'
 	,'.air3-search'
 	,'.fe-proposal-boost-proposal'
 	,'.microapp-slot-innova'
