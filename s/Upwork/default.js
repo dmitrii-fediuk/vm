@@ -297,18 +297,23 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 	(function() {
 		'use strict';
 
-		// Ждём, пока вся страница загрузится
-		window.addEventListener('load', function() {
-			// Находим все ссылки на заголовки вакансий
-			const jobLinks = document.querySelectorAll('a[data-test="job-tile-title-link UpLink"]');
+		document.addEventListener('click', function(e) {
+			// Ищем элемент <a data-test="job-tile-title-link UpLink">, на котором или внутри которого кликнули
+			const link = e.target.closest('a[data-test="job-tile-title-link UpLink"]');
 
-			// Каждой ссылке добавляем target="_blank"
-			jobLinks.forEach(function(link) {
-				link.setAttribute('target', '_blank');
-				// Можно добавить и rel="noopener noreferrer" — хорошая практика для безопасности
-				link.setAttribute('rel', 'noopener noreferrer');
-			});
-		});
+			if (link) {
+				// Останавливаем действия по умолчанию и дальнейшее всплытие
+				e.preventDefault();
+				e.stopPropagation();
+				e.stopImmediatePropagation();
+
+				// Открываем ссылку в новой вкладке (или окне)
+				window.open(link.href, '_blank');
+			}
+
+		// Третий параметр (true) — чтобы обработка шла в режиме "capture" (до штатных слушателей Upwork).
+		}, true);
+
 	})();
 }
 // 2024-12-25
