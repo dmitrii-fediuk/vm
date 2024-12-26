@@ -293,6 +293,23 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('article [data-test$="JobDescription"] {margin: 0.5rem 0 !important;}');
+	// 2024-12-27 https://chatgpt.com/c/676dea1b-e38c-800c-89f0-181acbde2011
+	(function() {
+		'use strict';
+
+		// Ждём, пока вся страница загрузится
+		window.addEventListener('load', function() {
+			// Находим все ссылки на заголовки вакансий
+			const jobLinks = document.querySelectorAll('a[data-test="job-tile-title-link UpLink"]');
+
+			// Каждой ссылке добавляем target="_blank"
+			jobLinks.forEach(function(link) {
+				link.setAttribute('target', '_blank');
+				// Можно добавить и rel="noopener noreferrer" — хорошая практика для безопасности
+				link.setAttribute('rel', 'noopener noreferrer');
+			});
+		});
+	})();
 }
 // 2024-12-25
 if (location.pathname.startsWith('/nx/proposals')) {
