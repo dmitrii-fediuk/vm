@@ -294,26 +294,16 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
 	GM_addStyle('article [data-test$="JobDescription"] {margin: 0.5rem 0 !important;}');
 	// 2024-12-27 https://chatgpt.com/c/676dea1b-e38c-800c-89f0-181acbde2011
-	(function() {
-		'use strict';
-
-		document.addEventListener('click', function(e) {
-			// Ищем элемент <a data-test="job-tile-title-link UpLink">, на котором или внутри которого кликнули
-			const link = e.target.closest('a[data-test="job-tile-title-link UpLink"]');
-
-			if (link) {
-				// Останавливаем действия по умолчанию и дальнейшее всплытие
+	(() => {
+		document.addEventListener('click', (e) => {
+			const l = e.target.closest('a[data-test="job-tile-title-link UpLink"]');
+			if (l) {
 				e.preventDefault();
 				e.stopPropagation();
 				e.stopImmediatePropagation();
-
-				// Открываем ссылку в новой вкладке (или окне)
-				window.open(link.href, '_blank');
+				window.open(l.href, '_blank');
 			}
-
-		// Третий параметр (true) — чтобы обработка шла в режиме "capture" (до штатных слушателей Upwork).
 		}, true);
-
 	})();
 }
 // 2024-12-25
