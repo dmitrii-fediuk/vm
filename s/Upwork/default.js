@@ -305,6 +305,18 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 			}
 		}, true);
 	})();
+	(() => {
+		'use strict';
+		document.addEventListener('click', (e) => {
+			const feedbackBtn = e.target.closest('[data-test="JobActionFeedback"] button');
+			if (feedbackBtn) {
+				setTimeout(() => {
+					const firstItem = document.querySelector('li[role="menuitemradio"]');
+					if(firstItem) firstItem.click();
+				}, 200);
+			}
+		}, true);
+	})();
 }
 // 2024-12-25
 if (location.pathname.startsWith('/nx/proposals')) {
