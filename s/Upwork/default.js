@@ -329,14 +329,7 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 		}, true);
 	})();
 	(() => {
-		document.addEventListener('click',e => {
-			const l = e.target.closest('a[data-test="job-tile-title-link UpLink"]');
-			if (l) {
-				e.preventDefault();
-				e.stopPropagation();
-				e.stopImmediatePropagation();
-				window.open(l.href,'_blank');
-			}
+		document.addEventListener('click', e => {
 			const downBtn = e.target.closest('button[data-ev-label="dropdown_secondary_toggle"]');
 			if (downBtn) {
 				setTimeout(() => {
