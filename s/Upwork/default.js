@@ -391,4 +391,16 @@ if (location.pathname.startsWith('/nx/proposals')) {
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('div:has(> .active-offers-card-view) {margin-top: 0.5rem !important;}');
+	// 2024-12-28
+	(() => {
+		document.addEventListener('click', (e) => {
+			const l = e.target.closest('a[data-ev-label="jpn_list_details_link"]');
+			if (l) {
+				e.preventDefault();
+				e.stopPropagation();
+				e.stopImmediatePropagation();
+				window.open(l.href, '_blank');
+			}
+		}, true);
+	})();
 }
