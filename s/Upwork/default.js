@@ -246,6 +246,10 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 		,'[data-test="JobActionSave"]'
 		,'[data-test="JobsPage"] > [data-test="FiltersActive"]'
 		,'[data-test="JobsPage"] > [data-test="FiltersList"]'
+		// 2024-12-27
+		// I hide it because my JavaScript automatically clicks the «Just not interested» option from this menu
+		// when the `JobActionFeedback` button is clicked, so there's no need for the menu to appear.
+		,'[data-test="JobActionFeedback"] [data-test="UpCPopover"]'
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
@@ -302,25 +306,6 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 				e.stopPropagation();
 				e.stopImmediatePropagation();
 				window.open(l.href, '_blank');
-			}
-		}, true);
-	})();
-	(() => {
-		document.addEventListener('click',e => {
-			const l = e.target.closest('a[data-test="job-tile-title-link UpLink"]');
-			if (l) {
-				e.preventDefault();
-				e.stopPropagation();
-				e.stopImmediatePropagation();
-				window.open(l.href,'_blank');
-			}
-			const downBtn = e.target.closest('button[data-ev-label="dropdown_secondary_toggle"]');
-			if (downBtn) {
-				setTimeout(() => {
-					const allItems = document.querySelectorAll('.air3-menu-list .air3-menu-item');
-					const i = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
-					i ? i.click() : null;
-				}, 50);
 			}
 		}, true);
 	})();
