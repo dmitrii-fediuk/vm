@@ -307,14 +307,18 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 	})();
 	(() => {
 		'use strict';
-		document.addEventListener('click', (e) => {
+		document.addEventListener('click', e => {
 			const feedbackBtn = e.target.closest('[data-test="JobActionFeedback"] button');
-			if (feedbackBtn) {
-				setTimeout(() => {
-					const firstItem = document.querySelector('li[role="menuitemradio"]');
-					if(firstItem) firstItem.click();
-				}, 200);
-			}
+			if (!feedbackBtn) return;
+			const observer = new MutationObserver(() => {
+				const item = [...document.querySelectorAll('li[role="menuitemradio"]')]
+					.find(el => el.textContent.trim() === 'Just not interested');
+				if (item) {
+					item.click();
+					observer.disconnect();
+				}
+			});
+			observer.observe(document.body, {childList: true, subtree: true});
 		}, true);
 	})();
 }
