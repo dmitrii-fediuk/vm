@@ -309,6 +309,25 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 			}
 		}, true);
 	})();
+	(() => {
+		document.addEventListener('click',e => {
+			const l = e.target.closest('a[data-test="job-tile-title-link UpLink"]');
+			if (l) {
+				e.preventDefault();
+				e.stopPropagation();
+				e.stopImmediatePropagation();
+				window.open(l.href,'_blank');
+			}
+			const downBtn = e.target.closest('button[data-ev-label="dropdown_secondary_toggle"]');
+			if (downBtn) {
+				setTimeout(() => {
+					const allItems = document.querySelectorAll('.air3-menu-list .air3-menu-item');
+					const i = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
+					i ? i.click() : null;
+				}, 50);
+			}
+		}, true);
+	})();
 }
 // 2024-12-25
 if (location.pathname.startsWith('/nx/proposals')) {
