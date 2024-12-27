@@ -247,7 +247,7 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 		,'[data-test="JobsPage"] > [data-test="FiltersActive"]'
 		,'[data-test="JobsPage"] > [data-test="FiltersList"]'
 		// 2024-12-27
-		// I hide it because my JavaScript automatically clicks the «Just not interested» option from this menu
+		// I hide it because my JavaScript below automatically clicks the «Just not interested» option from this menu
 		// when the `JobActionFeedback` button is clicked, so there's no need for the menu to appear.
 		,'[data-test="JobActionFeedback"] [data-test="UpCPopover"]'
 	]
