@@ -315,16 +315,14 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 				window.open(l.href,'_blank');
 			}
 			const downBtn = e.target.closest('button[data-ev-label="dropdown_secondary_toggle"]');
-			if (downBtn){
+			if (downBtn) {
 				setTimeout(() => {
 					const allItems = document.querySelectorAll('.air3-menu-list .air3-menu-item');
-					const justNotInterested = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
-					if (justNotInterested) {
-						justNotInterested.click();
-					}
-				},300);
+					const i = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
+					i ? i.click() : null;
+				}, 50);
 			}
-		},true);
+		}, true);
 	})();
 }
 // 2024-12-25
