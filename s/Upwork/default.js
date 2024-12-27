@@ -306,34 +306,25 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 		}, true);
 	})();
 	(() => {
-		'use strict';
-		document.addEventListener('click', e => {
-			console.log('Clicked on something');
-			let r = false;
-			const feedbackBtn = e.target.closest('[data-test="JobActionFeedback"] button');
-			if(!feedbackBtn) {
-				console.log('Feedback button not found, skipping.');
-			} else {
-				console.log('Detected click on feedback button, starting observer...');
-				const observer = new MutationObserver(() => {
-					console.log('Mutation observed, searching for menu items...');
-					const items = [...document.querySelectorAll('li[role="menuitemradio"], li[role="menuitem"]')];
-					items.forEach(i => console.log('Menu item text:', i.innerText.trim()));
-					const item = items.find(i => i.innerText.trim().toLowerCase() === 'just not interested');
-					if(item) {
-						console.log('Found item, clicking on it...');
-						item.click();
-						observer.disconnect();
-						console.log('Disconnected observer');
-					} else {
-						console.log('Item not found yet');
-					}
-				});
-				observer.observe(document.body, {childList:true, subtree:true});
-				r = true;
+		document.addEventListener('click',e => {
+			const l = e.target.closest('a[data-test="job-tile-title-link UpLink"]');
+			if (l) {
+				e.preventDefault();
+				e.stopPropagation();
+				e.stopImmediatePropagation();
+				window.open(l.href,'_blank');
 			}
-			return r;
-		}, true);
+			const downBtn = e.target.closest('button[data-ev-label="dropdown_secondary_toggle"]');
+			if (downBtn){
+				setTimeout(() => {
+					const allItems = document.querySelectorAll('.air3-menu-list .air3-menu-item');
+					const justNotInterested = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
+					if (justNotInterested) {
+						justNotInterested.click();
+					}
+				},300);
+			}
+		},true);
 	})();
 }
 // 2024-12-25
