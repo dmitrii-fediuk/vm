@@ -308,17 +308,31 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 	(() => {
 		'use strict';
 		document.addEventListener('click', e => {
+			console.log('Clicked on something');
+			let r = false;
 			const feedbackBtn = e.target.closest('[data-test="JobActionFeedback"] button');
-			if (!feedbackBtn) return;
-			const observer = new MutationObserver(() => {
-				const item = [...document.querySelectorAll('li[role="menuitemradio"]')]
-					.find(el => el.textContent.trim() === 'Just not interested');
-				if (item) {
-					item.click();
-					observer.disconnect();
-				}
-			});
-			observer.observe(document.body, {childList: true, subtree: true});
+			if(!feedbackBtn) {
+				console.log('Feedback button not found, skipping.');
+			} else {
+				console.log('Detected click on feedback button, starting observer...');
+				const observer = new MutationObserver(() => {
+					console.log('Mutation observed, searching for menu items...');
+					const items = [...document.querySelectorAll('li[role="menuitemradio"], li[role="menuitem"]')];
+					items.forEach(i => console.log('Menu item text:', i.innerText.trim()));
+					const item = items.find(i => i.innerText.trim().toLowerCase() === 'just not interested');
+					if(item) {
+						console.log('Found item, clicking on it...');
+						item.click();
+						observer.disconnect();
+						console.log('Disconnected observer');
+					} else {
+						console.log('Item not found yet');
+					}
+				});
+				observer.observe(document.body, {childList:true, subtree:true});
+				r = true;
+			}
+			return r;
 		}, true);
 	})();
 }
