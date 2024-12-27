@@ -320,7 +320,7 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 					const allItems = document.querySelectorAll('.air3-menu-list .air3-menu-item');
 					const i = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
 					i ? i.click() : null;
-				}, 1);
+				}, 50);
 			}
 		}, true);
 	})();
