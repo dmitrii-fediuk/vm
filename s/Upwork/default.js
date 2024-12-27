@@ -297,6 +297,25 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 	// 2024-12-25
 	// language=CSS
 	GM_addStyle('article [data-test$="JobDescription"] {margin: 0.5rem 0 !important;}');
+	// 2024-12-28
+	// language=CSS
+	GM_addStyle([
+		'.job-tile-actions'
+	]
+		// language=Javascript
+		.join(',') + '{' +
+			// language=CSS
+			Object.entries({
+				'display': 'block'
+				// language=Javascript
+				,'left': '50%'
+				,'margin-top': '0.5rem'
+				// language=CSS
+				,'position': 'absolute'
+				,'z-index': 1
+			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+		'}'
+	);
 	// 2024-12-27 https://chatgpt.com/c/676dea1b-e38c-800c-89f0-181acbde2011
 	(() => {
 		document.addEventListener('click', (e) => {
