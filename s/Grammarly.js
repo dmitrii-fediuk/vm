@@ -63,7 +63,7 @@ else if (location.hostname.startsWith(('app.'))) {
 	// language=CSS
 	GM_addStyle([
 		'aside nav[id$="-additionalActions"]'
-		,'aside [class*="footerWrapper"]'
+		,'aside[class*="footerWrapper"]'
 		,'[class^="toolbar-headerWrapperSqueezed_"]'
 	]
 		 // language=Javascript
