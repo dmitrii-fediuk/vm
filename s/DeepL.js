@@ -7,6 +7,7 @@
 // @name DeepL
 // ==/UserScript==
 // 2024-09-27 "Improve the appearance of DeepL": https://github.com/dmitrii-fediuk/vm/issues/49
+// 2024-12-30
 // language=CSS
 GM_addStyle([
 	'div:has(> button[data-testid="floating-button-ui"])'
@@ -22,3 +23,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
+// 2024-12-30
+// language=CSS
+GM_addStyle('#personalized-navi-products-flyout {z-index: 3 !important;}');
