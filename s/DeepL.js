@@ -9,6 +9,7 @@
 // 2024-09-27 "Improve the appearance of DeepL": https://github.com/dmitrii-fediuk/vm/issues/49
 // language=CSS
 GM_addStyle([
+	'div:has(> button[data-testid="floating-button-ui"])'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
