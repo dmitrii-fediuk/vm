@@ -86,4 +86,7 @@ else if (location.hostname.startsWith(('app.'))) {
 		 // language=Javascript
 		.join(',') + '{margin: 0 !important;}')
 	;
+	// 2024-12-30
+	// language=CSS
+	GM_addStyle('[class*="toolbarTitleContainer"] {max-width: 2rem !important;}');
 }
