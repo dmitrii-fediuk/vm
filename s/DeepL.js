@@ -27,4 +27,12 @@ GM_addStyle([
 ;
 // 2024-12-30
 // language=CSS
+GM_addStyle([
+	'div:has(> main)'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
+// 2024-12-30
+// language=CSS
 GM_addStyle('#personalized-navi-products-flyout {z-index: 3 !important;}');
