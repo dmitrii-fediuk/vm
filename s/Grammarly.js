@@ -74,6 +74,7 @@ else if (location.hostname.startsWith(('app.'))) {
 	GM_addStyle([
 		'[class$="-editorContent"]'
 		,'[class$="-editorContentWrap"]'
+		,'[class*="-editorContainer"]'
 	]
 		 // language=Javascript
 		.join(',') + '{padding: 0 !important;}')
