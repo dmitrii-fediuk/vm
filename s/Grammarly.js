@@ -67,7 +67,7 @@ else if (location.hostname.startsWith(('app.'))) {
 	// 2024-12-30
 	// language=CSS
 	GM_addStyle([
-		'[class$="document-settings-toolbarExpanded_"]'
+		'[class^="document-settings-toolbarExpanded_"]'
 	]
 		 // language=Javascript
 		.join(',') + '{position: initial !important;}')
