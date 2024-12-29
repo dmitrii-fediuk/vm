@@ -95,7 +95,7 @@ else if (location.hostname.startsWith(('app.'))) {
 	GM_addStyle('[class*="toolbarTitleContainer"] {max-width: 2rem !important;}');
 	// 2024-12-30
 	// language=CSS
-	GM_addStyle('[class*="-editorContainer"] {padding-bottom: 0.5rem 0 0 0.5rem !important;}');
+	GM_addStyle('[class*="-editorContainer"] {padding: 0.5rem 0 0 0.5rem !important;}');
 	// 2024-12-30
 	// language=CSS
 	GM_addStyle('[class$="-editorContent"] {max-width: initial !important;}');
