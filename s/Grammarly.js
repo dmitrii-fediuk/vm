@@ -32,7 +32,7 @@ if (location.hostname.startsWith(('account.'))) {
 	// 2024-12-30
 	// language=CSS
 	GM_addStyle([
-		'header[aria-label="Account Hub"]'
+		'header[aria-label="Account Hub"] img[alt="Grammarly Logo"]'
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
