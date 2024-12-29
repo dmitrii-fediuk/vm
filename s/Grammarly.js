@@ -30,13 +30,18 @@ GM_addStyle([
 // 2024-12-30
 if (location.hostname.startsWith(('account.'))) {
 	// 2024-12-30
-	// language=CSS
-	GM_addStyle([
-		'main > [class*="description"]'
-	]
-		 // language=Javascript
-		.join(',') + '{display: none !important;}')
-	;
+	if (location.pathname.startsWith('/customize/')) {
+		// 2024-12-30
+		// language=CSS
+		GM_addStyle([
+			'main > [class*="description"]'
+			,'main > [class*="spacer"]'
+			,'main > h1'
+		]
+			 // language=Javascript
+			.join(',') + '{display: none !important;}')
+		;
+	}
 }
 // 2024-12-30
 else if (location.hostname.startsWith(('app.'))) {
