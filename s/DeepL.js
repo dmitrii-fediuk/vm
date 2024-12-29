@@ -46,7 +46,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{z-index: 3  !important;}')
 ;
-// 2024-12-25
+// 2024-12-30
 if (location.pathname.endsWith('/write')) {
 	// 2024-12-30
 	// language=CSS
