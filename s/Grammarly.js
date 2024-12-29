@@ -14,12 +14,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
-// language=CSS
-GM_addStyle([
-]
-	 // language=Javascript
-	.join(',') + '{position: initial !important;}')
-;
 // 2024-12-30
 // language=CSS
 GM_addStyle([
@@ -69,6 +63,14 @@ else if (location.hostname.startsWith(('app.'))) {
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
+	;
+	// 2024-12-30
+	// language=CSS
+	GM_addStyle([
+		'[class$="document-settings-toolbarExpanded_"]'
+	]
+		 // language=Javascript
+		.join(',') + '{position: initial !important;}')
 	;
 	// 2024-12-30
 	// language=CSS
