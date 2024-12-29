@@ -63,6 +63,7 @@ else if (location.hostname.startsWith(('app.'))) {
 	// language=CSS
 	GM_addStyle([
 		'[class^="toolbar-headerWrapperSqueezed_"]'
+		,'[data-testid="assistant"] footer'
 		,'aside nav[id$="-additionalActions"]'
 		,'aside[class*="footerWrapper"]'
 	]
