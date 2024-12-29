@@ -11,6 +11,7 @@
 // language=CSS
 GM_addStyle([
 	'[data-testid="product-navigation-sidebar-container"]'
+	,'#textareasContainer .sticky[class*="-bottom"]'
 	,'div:has(> button[data-testid="floating-button-ui"])'
 	,'div:has(> main) ~ *'
 	,'footer'
