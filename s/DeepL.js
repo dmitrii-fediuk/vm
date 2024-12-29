@@ -36,4 +36,4 @@ GM_addStyle([
 ;
 // 2024-12-30
 // language=CSS
-GM_addStyle('#personalized-navi-products-flyout {z-index: 3 !important;}');
+GM_addStyle('[data-testid$="-flyout-panel"] {z-index: 3 !important;}');
