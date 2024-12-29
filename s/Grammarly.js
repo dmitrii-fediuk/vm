@@ -41,6 +41,9 @@ if (location.hostname.startsWith(('account.'))) {
 	// language=CSS
 	GM_addStyle('div:has([class*="slideoutOverlay"]) {z-index: 5 !important;}');
 	// 2024-12-30
+	// language=CSS
+	GM_addStyle('main[class*="visibleSlideout"] {padding-left: 10.5rem !important;}');
+	// 2024-12-30
 	if (location.pathname.startsWith('/customize/')) {
 		// 2024-12-30
 		// language=CSS
