@@ -12,6 +12,7 @@
 GM_addStyle([
 	'[data-testid="product-navigation-sidebar-container"]'
 	,'div:has(> button[data-testid="floating-button-ui"])'
+	,'div:has(> main) ~ *'
 	,'footer'
 	,'span:has(> [data-testid="downloadButtonHeader"])'
 ]
