@@ -77,4 +77,12 @@ else if (location.hostname.startsWith(('app.'))) {
 		 // language=Javascript
 		.join(',') + '{padding: 0 !important;}')
 	;
+	// 2024-12-30
+	// language=CSS
+	GM_addStyle([
+		'[class$="-editorContentWrap"]'
+	]
+		 // language=Javascript
+		.join(',') + '{margin: 0 !important;}')
+	;
 }
