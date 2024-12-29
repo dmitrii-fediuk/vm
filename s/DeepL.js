@@ -10,8 +10,8 @@
 // 2024-12-30
 // language=CSS
 GM_addStyle([
-	'[data-testid="product-navigation-sidebar-container"]'
-	,'#textareasContainer .sticky[class*="-bottom"]'
+	'#textareasContainer .sticky'
+	,'[data-testid="product-navigation-sidebar-container"]'
 	,'div:has(> button[data-testid="floating-button-ui"])'
 	,'div:has(> main) ~ *'
 	,'footer'
@@ -37,4 +37,12 @@ GM_addStyle([
 ;
 // 2024-12-30
 // language=CSS
-GM_addStyle('[data-testid$="-flyout-panel"] {z-index: 3 !important;}');
+// 2024-12-30
+// language=CSS
+GM_addStyle([
+	'[data-testid$="-flyout-panel"]'
+	,'[id*="-popover-panel-"]'
+]
+	 // language=Javascript
+	.join(',') + '{z-index: 3  !important;}')
+;
