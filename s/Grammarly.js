@@ -9,6 +9,7 @@
 // 2024-12-30 "Improve Grammarly": https://github.com/dmitrii-fediuk/vm/issues/81
 // language=CSS
 GM_addStyle([
+	'.gds-popover'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
