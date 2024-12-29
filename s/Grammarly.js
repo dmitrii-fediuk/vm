@@ -62,9 +62,9 @@ else if (location.hostname.startsWith(('app.'))) {
 	// 2024-12-30
 	// language=CSS
 	GM_addStyle([
-		'aside nav[id$="-additionalActions"]'
+		'[class^="toolbar-headerWrapperSqueezed_"]'
+		,'aside nav[id$="-additionalActions"]'
 		,'aside[class*="footerWrapper"]'
-		,'[class^="toolbar-headerWrapperSqueezed_"]'
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
