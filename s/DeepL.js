@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'div:has(> button[data-testid="floating-button-ui"])'
+	,'*:has(> [data-testid="downloadButtonHeader"])'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
