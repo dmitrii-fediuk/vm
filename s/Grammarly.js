@@ -30,6 +30,14 @@ GM_addStyle([
 // 2024-12-30
 if (location.hostname.startsWith(('account.'))) {
 	// 2024-12-30
+	// language=CSS
+	GM_addStyle([
+		'header[aria-label="Account Hub"]'
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
+	// 2024-12-30
 	if (location.pathname.startsWith('/customize/')) {
 		// 2024-12-30
 		// language=CSS
