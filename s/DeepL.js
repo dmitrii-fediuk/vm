@@ -6,7 +6,7 @@
 // @match *://www.deepl.com/*
 // @name DeepL
 // ==/UserScript==
-// 2024-09-27 "Improve the appearance of DeepL": https://github.com/dmitrii-fediuk/vm/issues/49
+// 2024-09-27 "Improve DeepL": https://github.com/dmitrii-fediuk/vm/issues/49
 // 2024-12-30
 // language=CSS
 GM_addStyle([
