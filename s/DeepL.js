@@ -10,7 +10,8 @@
 // 2024-12-30
 // language=CSS
 GM_addStyle([
-	'div:has(> button[data-testid="floating-button-ui"])'
+	'[data-testid="product-navigation-sidebar-container"]'
+	,'div:has(> button[data-testid="floating-button-ui"])'
 	,'span:has(> [data-testid="downloadButtonHeader"])'
 ]
 	 // language=Javascript
