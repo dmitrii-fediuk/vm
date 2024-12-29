@@ -59,5 +59,12 @@ if (location.hostname.startsWith(('account.'))) {
 }
 // 2024-12-30
 else if (location.hostname.startsWith(('app.'))) {
-
+	// 2024-12-30
+	// language=CSS
+	GM_addStyle([
+		'aside nav[id$="-additionalActions"]'
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
 }
