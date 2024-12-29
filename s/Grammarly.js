@@ -68,6 +68,7 @@ else if (location.hostname.startsWith(('app.'))) {
 	// language=CSS
 	GM_addStyle([
 		'[class^="document-settings-toolbarExpanded_"]'
+		,'aside[class$="-document_settings-leftSidebar"]'
 	]
 		 // language=Javascript
 		.join(',') + '{position: initial !important;}')
