@@ -56,7 +56,8 @@ else if (location.hostname.startsWith(('app.'))) {
 	// 2024-12-30
 	// language=CSS
 	GM_addStyle([
-		'[class^="toolbar-headerWrapper_"]'
+		'[class^="oggy-toggler-counters_"]'
+		,'[class^="toolbar-headerWrapper_"]'
 		,'[class^="toolbar-headerWrapperSqueezed_"]'
 		,'[data-testid="assistant"] footer'
 		,'aside nav[id$="-additionalActions"]'
