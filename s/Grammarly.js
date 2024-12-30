@@ -70,6 +70,7 @@ else if (location.hostname.startsWith(('app.'))) {
 	GM_addStyle([
 		'[class^="assistant-toggleWrapper_"]'
 		,'[class^="document-settings-toolbarExpanded_"]'
+		,'[class^="focusLeaveTracker_"]'
 		,'aside[class$="-document_settings-leftSidebar"]'
 	]
 		 // language=Javascript
