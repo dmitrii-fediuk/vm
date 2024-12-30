@@ -72,18 +72,9 @@ else if (location.hostname.startsWith(('app.'))) {
 		'[class^="assistant-toggleWrapper_"]'
 		,'[class^="document-settings-toolbarExpanded_"]'
 		,'[class^="focusLeaveTracker_"]'
-		//,'aside[class$="-document_settings-leftSidebar"]'
 	]
 		 // language=Javascript
 		.join(',') + '{position: initial !important;}')
-	;
-	// 2024-12-30
-	// language=CSS
-	GM_addStyle([
-		//'[class$="-document-view-withPlaceForScrollbar"]'
-	]
-		 // language=Javascript
-		.join(',') + '{display: initial !important;}')
 	;
 	// 2024-12-30
 	// language=CSS
