@@ -79,6 +79,14 @@ else if (location.hostname.startsWith(('app.'))) {
 	// 2024-12-30
 	// language=CSS
 	GM_addStyle([
+		'[class$="-document-view-withPlaceForScrollbar"]'
+	]
+		 // language=Javascript
+		.join(',') + '{display: initial !important;}')
+	;
+	// 2024-12-30
+	// language=CSS
+	GM_addStyle([
 		'[class$="-editorContent"]'
 		,'[class$="-editorContentWrap"]'
 	]
