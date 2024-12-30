@@ -103,4 +103,8 @@ else if (location.hostname.startsWith(('app.'))) {
 	// 2024-12-30
 	// language=CSS
 	GM_addStyle('[class$="-editorContent"] {max-width: initial !important;}');
+	// 2024-12-30
+	// language=CSS
+	GM_addStyle('[data-name="checking-complete"] {top: 10rem !important;}');
+
 }
