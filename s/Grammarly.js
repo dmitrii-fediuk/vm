@@ -68,7 +68,8 @@ else if (location.hostname.startsWith(('app.'))) {
 	// 2024-12-30
 	// language=CSS
 	GM_addStyle([
-		'[class^="document-settings-toolbarExpanded_"]'
+		'[class^="assistant-toggleWrapper_"]'
+		,'[class^="document-settings-toolbarExpanded_"]'
 		,'aside[class$="-document_settings-leftSidebar"]'
 	]
 		 // language=Javascript
