@@ -11,11 +11,9 @@
 GM_addStyle([
 	'#user-top-navigation-container .nav-container > [data-cy="header"]'
 	,'.air3-search'
-	//,'.fe-proposal-boost-proposal'
 	,'.microapp-slot-innova'
 	,'.nav-notifications .nav-dot'
 	,'.nav-uma'
-	//,'.profile-highlights'
 	,'.up-skip-nav'
 	,'[data-cy="help-menu"]'
 	,'[data-test="SaveJob"]'
@@ -347,6 +345,7 @@ else if (location.pathname.startsWith('/nx/proposals/job/')) {
 	GM_addStyle([
 		'.d-none-mobile-app:has(> h1)'
 		,'.invitations-card-view .header-aux'
+		,'.profile-highlights .multimedia-portfolio-hero'
 		,'[class*="scam-education-promo"]'
 		,'button[title="Referrals"]'
 	]
