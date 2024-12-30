@@ -60,6 +60,7 @@ else if (location.hostname.startsWith(('app.'))) {
 		,'[class^="toolbar-headerWrapperSqueezed_"]'
 		,'[data-testid="assistant"] footer'
 		,'aside nav[id$="-additionalActions"]'
+		,'aside[class$="-document_settings-leftSidebar"]'
 		,'aside[class*="footerWrapper"]'
 	]
 		 // language=Javascript
@@ -79,7 +80,7 @@ else if (location.hostname.startsWith(('app.'))) {
 	// 2024-12-30
 	// language=CSS
 	GM_addStyle([
-		'[class$="-document-view-withPlaceForScrollbar"]'
+		//'[class$="-document-view-withPlaceForScrollbar"]'
 	]
 		 // language=Javascript
 		.join(',') + '{display: initial !important;}')
