@@ -105,6 +105,6 @@ else if (location.hostname.startsWith(('app.'))) {
 	GM_addStyle('[class$="-editorContent"] {max-width: initial !important;}');
 	// 2024-12-30
 	// language=CSS
-	GM_addStyle('[data-name="checking-complete"] {opacity: 0.25 !important; top: 10rem !important;}');
+	GM_addStyle('[data-name="checking-complete"] {opacity: 0.1 !important; top: 10rem !important;}');
 
 }
