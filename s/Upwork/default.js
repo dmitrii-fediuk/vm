@@ -237,7 +237,7 @@ if (location.pathname.startsWith('/jobs/')) {
 	// language=CSS
 	GM_addStyle('[data-test="WorkHistory"][class*="mt-"] {border: 0 !important; margin-top: 0.5rem !important;}');
 }
-if (location.pathname.startsWith('/nx/search/jobs')) {
+else if (location.pathname.startsWith('/nx/search/jobs')) {
 	// language=CSS
 	GM_addStyle([
 		'.nav-parent-wrapper'
@@ -342,7 +342,7 @@ if (location.pathname.startsWith('/nx/search/jobs')) {
 	})();
 }
 // 2024-12-25
-if (location.pathname.startsWith('/nx/proposals')) {
+else if (location.pathname.startsWith('/nx/proposals/job/')) {
 	// language=CSS
 	GM_addStyle([
 		'.d-none-mobile-app:has(> h1)'
