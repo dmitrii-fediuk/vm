@@ -11,7 +11,7 @@
 GM_addStyle([
 	'#user-top-navigation-container .nav-container > [data-cy="header"]'
 	,'.air3-search'
-	,'.fe-proposal-boost-proposal'
+	//,'.fe-proposal-boost-proposal'
 	,'.microapp-slot-innova'
 	,'.nav-notifications .nav-dot'
 	,'.nav-uma'
