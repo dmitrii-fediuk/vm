@@ -340,7 +340,8 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 	})();
 }
 // 2024-12-25
-else if (location.pathname.startsWith('/nx/proposals/job/')) {
+// 2024-12-30 It is applied to both `/nx/proposals/` and `/nx/proposals/job/`
+else if (location.pathname.startsWith('/nx/proposals/')) {
 	// language=CSS
 	GM_addStyle([
 		'.d-none-mobile-app:has(> h1)'
