@@ -15,7 +15,7 @@ GM_addStyle([
 	,'.microapp-slot-innova'
 	,'.nav-notifications .nav-dot'
 	,'.nav-uma'
-	,'.profile-highlights'
+	//,'.profile-highlights'
 	,'.up-skip-nav'
 	,'[data-cy="help-menu"]'
 	,'[data-test="SaveJob"]'
