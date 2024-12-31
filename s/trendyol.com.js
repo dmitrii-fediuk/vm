@@ -40,9 +40,11 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// 2024-12-31
 	// language=CSS
 	GM_addStyle([
-		'.featured-information .content-descriptions'
+		'#header'
+		,'.featured-information .content-descriptions'
 		,'.featured-information-header'
 		,'.payment-options-wrapper'
+		,'[data-fragment-name="Navigation"]'
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
