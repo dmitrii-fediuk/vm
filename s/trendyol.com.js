@@ -99,10 +99,6 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// 2024-12-31
 	// language=CSS
 	GM_addStyle([
-		// 2025-01-01
-		// I hid all items above, and now I show back items after `li.return-info`.
-		// https://chatgpt.com/c/677375b3-335c-800c-8985-a81446d9a8b5
-		'.detail-desc-list > li.return-info ~ li'
 	]
 		 // language=Javascript
 		.join(',') + '{display: initial !important;}')
@@ -171,6 +167,11 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// 2025-01-01
 	// language=CSS
 	GM_addStyle('.detail-desc-list > li {font-size: 1.5rem !important;}');
+	// 2025-01-01
+	// I hid all items above, and now I show back items after `li.return-info`.
+	// https://chatgpt.com/c/677375b3-335c-800c-8985-a81446d9a8b5
+	// language=CSS
+	GM_addStyle('.detail-desc-list > li.return-info ~ li {display: list-item !important;}');
 	// 2024-12-31 https://chatgpt.com/c/67735dbf-bda8-800c-a506-c35441efaa30
 	// language=CSS
 	GM_addStyle('.size-variant-wrapper [data-testid="sliderList"] {' +
