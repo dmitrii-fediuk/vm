@@ -55,8 +55,8 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		,'.report-container'
 		,'[data-fragment-name="MarketingProductDetail"]'
 		,'[data-fragment-name="Navigation"]'
-		,'[data-partial-fragment-name="MarketingProductDetail"][data-drroot="breadcrumb-without-gender"]'
-		,'[data-partial-fragment-name="MarketingProductDetail"][data-drroot="seo-content"]'
+		,'[data-partial-fragment-name="MarketingProductDetail"][data-partial-fragment-part="breadcrumb-without-gender"]'
+		,'[data-partial-fragment-name="MarketingProductDetail"][data-partial-fragment-part="seo-content"]'
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
