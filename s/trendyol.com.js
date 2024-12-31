@@ -45,5 +45,5 @@ if (location.pathname.startsWith(('/hesabim/siparislerim'))) {
 	;
 	// 2024-12-31
 	// language=CSS
-	GM_addStyle('.account-layout-container > .right {float: none !important; width: auto !important;}');
+	GM_addStyle('.account-layout-container > .right {float: none !important;}');
 }
