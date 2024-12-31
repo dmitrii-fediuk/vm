@@ -98,8 +98,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// 2024-12-31
 	// language=CSS
 	GM_addStyle([
-		'#other-merchants-dr' // 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block's title
-		,'.pr-omc' // 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block
+		'.pr-omc' // 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block
 		,'.product-container'
 		,'.product-detail-breadcrumb'
 		,'.product-detail-container'
@@ -117,6 +116,9 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	GM_addStyle('.size-variant-wrapper [data-testid="sliderList"] .sp-itm {' +
 		'padding: 0 0.2rem !important;' +
 	'}');
+	// 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block's title
+	// language=CSS
+	GM_addStyle('#other-merchants-dr {margin: 0 0 0.3rem 0 !important;}');
 	// 2024-12-31
 	// language=CSS
 	GM_addStyle('div:has(> .gallery-container) {width: 20rem !important;}');
