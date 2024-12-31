@@ -36,6 +36,22 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
+// 2025-01-01
+// language=CSS
+GM_addStyle([
+	'body'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'font-family': 'Segoie UI'
+			// language=Javascript
+			//,'font-size': '140%'
+			//,'line-height': 1.2
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 // 2024-12-31 https://chatgpt.com/c/67735822-2ec8-800c-a18d-d3c5383c1c74
 if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) {
 	// 2024-12-31
