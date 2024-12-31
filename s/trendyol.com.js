@@ -159,6 +159,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// language=CSS
 	GM_addStyle([
 		'.detail-border'
+		,'.pr-in-w'
 	]
 		 // language=Javascript
 		.join(',') + '{padding: 0 !important;}')
