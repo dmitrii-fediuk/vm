@@ -116,6 +116,11 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	GM_addStyle('.size-variant-wrapper [data-testid="sliderList"] .sp-itm {' +
 		'padding: 0 0.2rem !important;' +
 	'}');
+	// 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block's items
+	// language=CSS
+	GM_addStyle('.omc-cntr {' +
+		'display: grid !important; gap: 0.3rem; grid-template-columns: repeat(3, 1fr);' +
+	'}');
 	// 2024-12-31
 	// language=CSS
 	GM_addStyle('.product-detail-container .title {margin: 0 0 0.3rem 0 !important;}');
