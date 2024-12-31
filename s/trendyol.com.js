@@ -57,6 +57,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		,'[data-fragment-name="Navigation"]'
 		,'[data-partial-fragment-name="MarketingProductDetail"][data-partial-fragment-part="breadcrumb-without-gender"]'
 		,'[data-partial-fragment-name="MarketingProductDetail"][data-partial-fragment-part="seo-content"]'
+		,'article.questions-wrapper'
 		,'article[data-drroot="product-reviews"]'
 	]
 		 // language=Javascript
