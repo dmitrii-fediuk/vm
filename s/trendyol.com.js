@@ -108,6 +108,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// language=CSS
 	GM_addStyle([
 		'.omc-cntr > *' // 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block's items
+		,'.pr-in-ratings'
 		,'.pr-in-w'
 		,'.pr-omc' // 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block
 		,'.product-container'
