@@ -168,6 +168,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	GM_addStyle([
 		'.detail-border'
 		,'.pr-in-w'
+		,'[data-testid="sliderList"]'
 	]
 		 // language=Javascript
 		.join(',') + '{padding: 0 !important;}')
