@@ -176,6 +176,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 				'column-count': 'initial'
 				//,'list-style-position': 'inside'
 				,'list-style-type': 'decimal'
+				// language=Javascript
 				,'padding-left': '2rem'
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
