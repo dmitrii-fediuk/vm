@@ -137,6 +137,9 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block's items
 	// language=CSS
 	GM_addStyle('.omc-cntr > * {padding: 0.3rem !important;}');
+	// 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block's items
+	// language=CSS
+	GM_addStyle('.omc-cntr .seller-name-text {font-size: 125% !important;}');
 	// 2024-12-31
 	// language=CSS
 	GM_addStyle('.product-detail-container .title {margin: 0 0 0.3rem 0 !important;}');
