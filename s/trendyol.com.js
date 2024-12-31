@@ -55,7 +55,8 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// 2024-12-31
 	// language=CSS
 	GM_addStyle([
-		'.gallery-container'
+		'.favorite-button'
+		,'.gallery-container'
 		,'.product-container'
 		,'.product-detail-container'
 		,'.product-detail-wrapper'
