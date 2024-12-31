@@ -163,10 +163,11 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// 2025-01-01
 	// language=CSS
 	GM_addStyle([
-		'.detail-border'
+		'.base-product-image img'
+		,'.detail-border'
 	]
 		 // language=Javascript
-		.join(',') + '{border: none !important;}')
+		.join(',') + '{border: 0 !important;}')
 	;
 	// 2025-01-01
 	// language=CSS
