@@ -176,7 +176,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	;
 	// 2025-01-01 https://chatgpt.com/c/67747760-5eb0-800c-a45f-2d60ce9a8cc8
 	// language=CSS
-	GM_addStyle('.pr-in-cn {flex-direction: row !important; flex-wrap: wrap !important;}');
+	GM_addStyle('.pr-in-cn {column-gap: 1rem !important; flex-direction: row !important; flex-wrap: wrap !important;}');
 	// 2025-01-01 https://chatgpt.com/c/67747760-5eb0-800c-a45f-2d60ce9a8cc8
 	// language=CSS
 	GM_addStyle([
