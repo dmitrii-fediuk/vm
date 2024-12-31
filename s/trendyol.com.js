@@ -37,8 +37,13 @@ GM_addStyle([
 if (location.pathname.startsWith(('/hesabim/siparislerim'))) {
 	// 2024-12-31
 	// language=CSS
-	GM_addStyle('.account-layout-container {display: flex !important; flex-direction: column;}');
+	GM_addStyle([
+		'.account-layout-container > .left'
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
 	// 2024-12-31
 	// language=CSS
-	GM_addStyle('.account-layout-container > * {float: none !important; width: auto !important;}');
+	GM_addStyle('.account-layout-container > .right {float: none !important; width: auto !important;}');
 }
