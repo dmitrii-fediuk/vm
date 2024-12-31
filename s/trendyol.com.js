@@ -70,6 +70,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		// I hide all items, and then I will show back items after `li.return-info`.
 		// https://chatgpt.com/c/677375b3-335c-800c-8985-a81446d9a8b5
 		,'.detail-desc-list > li'
+		,'.detail-desc-list > li::before'
 		,'.detail-name-container'
 		,'.detail-section-img'
 		,'.details-section > .title'
