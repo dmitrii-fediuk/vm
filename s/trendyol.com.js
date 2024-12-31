@@ -37,7 +37,8 @@ GM_addStyle([
 // 2024-12-31
 // language=CSS
 GM_addStyle([
-	'.product-container'
+	'.gallery-container'
+	,'.product-container'
 	,'.product-detail-wrapper'
 	,'.product-widget-list'
 ]
