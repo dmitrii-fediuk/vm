@@ -74,6 +74,9 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		 // language=Javascript
 		.join(',') + '{margin: 0 !important;}')
 	;
+	// 2024-12-31 https://chatgpt.com/c/67735dbf-bda8-800c-a506-c35441efaa30
+	// language=CSS
+	GM_addStyle('[data-testid="sliderList"] {display: grid !important; grid-template-columns: repeat(4, 1fr);}');
 }
 // 2024-12-31
 else if (location.pathname.startsWith(('/hesabim/siparislerim'))) {
