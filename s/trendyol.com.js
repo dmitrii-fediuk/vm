@@ -79,6 +79,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		,'.favorite-button'
 		,'.featured-information'
 		,'.gallery-icon-container'
+		,'.installment-badge'
 		,'.markerInfo'
 		,'.markerOverlay'
 		,'.omc-cntr .pr-mb-pr:has(.corporate-invoice)'
