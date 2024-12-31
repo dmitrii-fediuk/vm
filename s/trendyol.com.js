@@ -38,9 +38,11 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.product-container'
+	,'.product-detail-wrapper'
+	,'.product-widget-list'
 ]
 	 // language=Javascript
-	.join(',') + '{width: initial !important;}')
+	.join(',') + '{min-width: initial !important; width: initial !important;}')
 ;
 // 2024-12-31
 if (location.pathname.startsWith(('/hesabim/siparislerim'))) {
