@@ -13,6 +13,7 @@ GM_addStyle([
 	,'#headerMain > .wrapper'
 	,'#logo'
 	,'.cobranded-card-offer-information'
+	,'.installment-banner-image'
 	,'.related-categories'
 	,'.search-landings-container'
 	,'.search-store-ads-container'
