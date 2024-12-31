@@ -50,6 +50,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		,'.markerOverlay'
 		,'.payment-options-wrapper'
 		,'.product-stamps-container'
+		,'[data-fragment-name="MarketingProductDetail"]'
 		,'[data-fragment-name="Navigation"]'
 	]
 		 // language=Javascript
