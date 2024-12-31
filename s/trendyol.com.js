@@ -35,7 +35,7 @@ GM_addStyle([
 ;
 // 2024-12-31
 if (location.pathname.startsWith(('/hesabim/siparislerim'))) {
-	// 2024-12-30
+	// 2024-12-31
 	// language=CSS
 	GM_addStyle('.account-layout-container {display: flex !important; flex-direction: row;}');
 }
