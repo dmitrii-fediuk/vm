@@ -166,6 +166,9 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	;
 	// 2025-01-01
 	// language=CSS
+	GM_addStyle('.detail-desc-list {column-count: initial !important;}');
+	// 2025-01-01
+	// language=CSS
 	GM_addStyle('.detail-desc-list > li {font-size: 1.5rem !important;}');
 	// 2025-01-01
 	// I hid all items above, and now I show back items after `li.return-info`.
