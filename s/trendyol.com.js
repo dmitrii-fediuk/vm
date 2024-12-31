@@ -81,7 +81,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		'.product-container > *'
 	]
 		 // language=Javascript
-		.join(',') + '{justify-content: initial; !important;')
+		.join(',') + '{justify-content: initial !important;')
 	;
 	// 2024-12-31
 	// language=CSS
