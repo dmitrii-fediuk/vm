@@ -33,3 +33,9 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
+// 2024-12-31
+if (location.pathname.startsWith(('/hesabim/siparislerim'))) {
+	// 2024-12-30
+	// language=CSS
+	GM_addStyle('.account-layout-container {display: flex !important; flex-direction: row;}');
+}
