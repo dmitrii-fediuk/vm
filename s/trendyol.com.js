@@ -125,7 +125,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	GM_addStyle('.product-detail-container > [data-drroot="similar-products"] {order: 3;}');
 	// 2024-12-31
 	// language=CSS
-	GM_addStyle('.product-detail-container > [data-drroot="cross-recommendations"] {order: 3;}');
+	GM_addStyle('.product-detail-container > [data-drroot="cross-recommendations"] {order: 4;}');
 }
 // 2024-12-31
 else if (location.pathname.startsWith(('/hesabim/siparislerim'))) {
