@@ -177,6 +177,20 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// 2025-01-01
 	// language=CSS
 	GM_addStyle('.pr-in-cn {gap: 0.2rem !important;}');
+	// 2025-01-01 https://chatgpt.com/c/67747760-5eb0-800c-a45f-2d60ce9a8cc8
+	// language=CSS
+	GM_addStyle([
+		'.pr-in-cn .product-info-badges'
+		,'.pr-in-cn .product-price-container'
+	]
+		// language=Javascript
+		.join(',') + '{' +
+			// language=CSS
+			Object.entries({
+				'display': 'inline-block'
+			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+		'}'
+	);
 	// 2025-01-01
 	// language=CSS
 	GM_addStyle([
