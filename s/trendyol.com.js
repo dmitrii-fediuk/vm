@@ -120,6 +120,9 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// 2024-12-31
 	// language=CSS
 	GM_addStyle('.product-detail-container > :has(.product-container) {order: 0;}');
+	// 2024-12-31
+	// language=CSS
+	GM_addStyle('.product-detail-container > aside {order: 3;}');
 }
 // 2024-12-31
 else if (location.pathname.startsWith(('/hesabim/siparislerim'))) {
