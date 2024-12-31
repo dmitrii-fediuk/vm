@@ -174,8 +174,9 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 			// language=CSS
 			Object.entries({
 				'column-count': 'initial'
-				,'list-style-position': 'inside'
+				//,'list-style-position': 'inside'
 				,'list-style-type': 'decimal'
+				,'padding-left': '1rem'
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
