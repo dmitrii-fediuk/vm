@@ -182,7 +182,10 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	);
 	// 2025-01-01
 	// language=CSS
-	GM_addStyle('.detail-desc-list > li {font-size: 1.5rem !important; margin: 0.3rem 0;}');
+	GM_addStyle('.detail-desc-list > li {font-size: 1.5rem !important; margin: 0.3rem 0 !important;}');
+	// 2025-01-01
+	// language=CSS
+	GM_addStyle('.detail-desc-list > li::marker {font-weight: bold !important;}');
 	// 2025-01-01
 	// I hid all items above, and now I show back items after `li.return-info`.
 	// https://chatgpt.com/c/677375b3-335c-800c-8985-a81446d9a8b5
