@@ -65,6 +65,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		,'.ProductDetail-First-Slider' // 2024-12-31 «Sana Özel Giyim Ürünleri» / «Clothing Products Special For You»
 		,'.add-to-collections-wrapper'
 		,'.campaigns-widget .widget-row:has([title*="Kargo Bedava"])'
+		,'.detail-attributes-title'
 		,'.detail-desc-list > li:has(.productDetailSupplierPopup)'
 		,'.detail-name-container'
 		,'.detail-section-img'
