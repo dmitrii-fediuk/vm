@@ -174,9 +174,9 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		 // language=Javascript
 		.join(',') + '{border: 0 !important;}')
 	;
-	// 2025-01-01
+	// 2025-01-01 https://chatgpt.com/c/67747760-5eb0-800c-a45f-2d60ce9a8cc8
 	// language=CSS
-	GM_addStyle('.pr-in-cn {flex-direction: row !important; gap: 0.2rem !important;}');
+	GM_addStyle('.pr-in-cn {flex-direction: row !important; flex-wrap: wrap !important; gap: 0.2rem !important;}');
 	// 2025-01-01 https://chatgpt.com/c/67747760-5eb0-800c-a45f-2d60ce9a8cc8
 	// language=CSS
 	GM_addStyle([
