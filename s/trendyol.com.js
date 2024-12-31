@@ -52,6 +52,9 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-01-01
+// language=CSS
+GM_addStyle('body {padding-left: 0.3rem !important;}');
 // 2024-12-31 https://chatgpt.com/c/67735822-2ec8-800c-a18d-d3c5383c1c74
 if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) {
 	// 2024-12-31
