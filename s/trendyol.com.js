@@ -169,6 +169,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	GM_addStyle([
 		'.base-product-image img'
 		,'.detail-border'
+		,'.pr-in-w'
 	]
 		 // language=Javascript
 		.join(',') + '{border: 0 !important;}')
