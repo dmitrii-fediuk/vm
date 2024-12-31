@@ -52,6 +52,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	GM_addStyle([
 		'.gallery-container'
 		,'.product-container'
+		,'.product-detail-container'
 		,'.product-detail-wrapper'
 		,'.product-widget-list'
 	]
