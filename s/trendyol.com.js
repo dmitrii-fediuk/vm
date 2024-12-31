@@ -149,6 +149,9 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		 // language=Javascript
 		.join(',') + '{padding: 0 !important;}')
 	;
+	// 2025-01-01
+	// language=CSS
+	GM_addStyle('.detail-desc-list > li {font-size: 1.5rem !important;}');
 	// 2024-12-31 https://chatgpt.com/c/67735dbf-bda8-800c-a506-c35441efaa30
 	// language=CSS
 	GM_addStyle('.size-variant-wrapper [data-testid="sliderList"] {' +
