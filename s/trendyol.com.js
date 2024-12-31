@@ -165,7 +165,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	;
 	// 2025-01-01
 	// language=CSS
-	GM_addStyle('.detail-desc-list {column-count: initial !important;}');
+	GM_addStyle('.detail-desc-list {column-count: initial !important; list-style-type: decimal;}');
 	// 2025-01-01
 	// language=CSS
 	GM_addStyle('.detail-desc-list > li {font-size: 1.5rem !important; margin: 0.3rem 0;}');
