@@ -44,6 +44,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		'#combinations-recommendation'
 		,'#header'
 		,'.ProductDetail-First-Slider' // 2024-12-31 «Sana Özel Giyim Ürünleri» / «Clothing Products Special For You»
+		,'.add-to-collections-wrapper'
 		,'.favorite-button'
 		,'.featured-information .content-descriptions'
 		,'.featured-information-header'
@@ -51,6 +52,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		,'.markerInfo'
 		,'.markerOverlay'
 		,'.payment-options-wrapper'
+		,'.product-review-widget'
 		,'.product-stamps-container'
 		,'.report-container'
 		,'[data-fragment-name="MarketingProductDetail"]'
