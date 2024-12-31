@@ -102,7 +102,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		// 2025-01-01
 		// I hid all items above, and now I show back items after `li.return-info`.
 		// https://chatgpt.com/c/677375b3-335c-800c-8985-a81446d9a8b5
-		'.detail-desc-list li.return-info ~ li'
+		'.detail-desc-list > li.return-info ~ li'
 	]
 		 // language=Javascript
 		.join(',') + '{display: initial !important;}')
