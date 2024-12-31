@@ -42,6 +42,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// language=CSS
 	GM_addStyle([
 		'#header'
+		,'.ProductDetail-First-Slider' // 2024-12-31 «Sana Özel Giyim Ürünleri» / «Clothing Products Special For You»
 		,'.favorite-button'
 		,'.featured-information .content-descriptions'
 		,'.featured-information-header'
