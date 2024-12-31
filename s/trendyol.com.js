@@ -56,6 +56,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		,'.omc-cntr .pr-mb-pr:has(.crg)'
 		,'.other-merchants-list-item .promotions .invoice-corporate-stamp'
 		,'.payment-options-wrapper'
+		,'.report-abuse-container'
 		,'.product-review-widget'
 		,'.product-stamps-container'
 		,'.report-container'
