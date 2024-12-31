@@ -80,6 +80,10 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	GM_addStyle('.size-variant-wrapper [data-testid="sliderList"] {' +
 		'display: grid !important; gap: 0.3rem; grid-template-columns: repeat(5, 1fr);' +
 	'}');
+	// language=CSS
+	GM_addStyle('.size-variant-wrapper [data-testid="sliderList"] .sp-itm {' +
+		'padding: 0 0.2rem !important;' +
+	'}');
 }
 // 2024-12-31
 else if (location.pathname.startsWith(('/hesabim/siparislerim'))) {
