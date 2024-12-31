@@ -46,6 +46,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		,'.markerInfo'
 		,'.markerOverlay'
 		,'.payment-options-wrapper'
+		,'.product-stamps-container'
 		,'[data-fragment-name="Navigation"]'
 	]
 		 // language=Javascript
