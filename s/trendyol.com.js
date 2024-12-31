@@ -175,6 +175,9 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	;
 	// 2025-01-01
 	// language=CSS
+	GM_addStyle('.pr-in-cn {gap: 0.2rem !important;}');
+	// 2025-01-01
+	// language=CSS
 	GM_addStyle([
 		'.detail-desc-list'
 	]
