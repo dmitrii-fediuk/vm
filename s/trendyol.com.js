@@ -162,7 +162,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		'.detail-border'
 	]
 		 // language=Javascript
-		.join(',') + '{border: 0 !important;}')
+		.join(',') + '{border: none !important;}')
 	;
 	// 2025-01-01
 	// language=CSS
