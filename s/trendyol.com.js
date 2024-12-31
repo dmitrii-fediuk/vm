@@ -13,6 +13,7 @@ GM_addStyle([
 	,'#headerMain > .wrapper'
 	,'#logo'
 	,'.cobranded-card-offer-information'
+	,'.container-banners'
 	,'.installment-banner-image'
 	,'.related-categories'
 	,'.search-landings-container'
@@ -104,7 +105,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	'}');
 	// 2024-12-31
 	// language=CSS
-	GM_addStyle('div:has(> .gallery-container) {width: 18rem !important;}');
+	GM_addStyle('div:has(> .gallery-container) {width: 20rem !important;}');
 }
 // 2024-12-31
 else if (location.pathname.startsWith(('/hesabim/siparislerim'))) {
