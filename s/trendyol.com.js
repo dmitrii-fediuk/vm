@@ -34,19 +34,22 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
+// 2024-12-31 https://chatgpt.com/c/67735822-2ec8-800c-a18d-d3c5383c1c74
+if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) {
+	// 2024-12-31
+	// language=CSS
+	GM_addStyle([
+		'.gallery-container'
+		,'.product-container'
+		,'.product-detail-wrapper'
+		,'.product-widget-list'
+	]
+		 // language=Javascript
+		.join(',') + '{min-width: initial !important; width: initial !important;}')
+	;
+}
 // 2024-12-31
-// language=CSS
-GM_addStyle([
-	'.gallery-container'
-	,'.product-container'
-	,'.product-detail-wrapper'
-	,'.product-widget-list'
-]
-	 // language=Javascript
-	.join(',') + '{min-width: initial !important; width: initial !important;}')
-;
-// 2024-12-31
-if (location.pathname.startsWith(('/hesabim/siparislerim'))) {
+else if (location.pathname.startsWith(('/hesabim/siparislerim'))) {
 	// 2024-12-31
 	// language=CSS
 	GM_addStyle([
