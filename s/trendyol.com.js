@@ -43,6 +43,8 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		'#header'
 		,'.featured-information .content-descriptions'
 		,'.featured-information-header'
+		,'.markerInfo'
+		,'.markerOverlay'
 		,'.payment-options-wrapper'
 		,'[data-fragment-name="Navigation"]'
 	]
