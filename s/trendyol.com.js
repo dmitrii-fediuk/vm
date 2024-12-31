@@ -40,5 +40,5 @@ if (location.pathname.startsWith(('/hesabim/siparislerim'))) {
 	GM_addStyle('.account-layout-container {display: flex !important; flex-direction: row;}');
 	// 2024-12-31
 	// language=CSS
-	GM_addStyle('.account-layout-container > * {float: none !important; width: auto !important;}');
+	GM_addStyle('.account-layout-container > * {float: none !important; width: 100% !important;}');
 }
