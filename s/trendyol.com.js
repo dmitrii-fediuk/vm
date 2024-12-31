@@ -176,18 +176,20 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	;
 	// 2025-01-01 https://chatgpt.com/c/67747760-5eb0-800c-a45f-2d60ce9a8cc8
 	// language=CSS
-	GM_addStyle('.pr-in-cn {column-gap: 1rem !important; flex-direction: row !important; flex-wrap: wrap !important;}');
-	// 2025-01-01 https://chatgpt.com/c/67747760-5eb0-800c-a45f-2d60ce9a8cc8
-	// language=CSS
 	GM_addStyle([
-		//'.pr-in-cn > .product-info-badges'
-		//,'.pr-in-cn > .product-price-container'
+		'.pr-in-cn'
 	]
 		// language=Javascript
 		.join(',') + '{' +
 			// language=CSS
 			Object.entries({
-				'display': 'inline-block'
+				// language=Javascript
+				'column-gap': '1rem'
+				// language=CSS
+				,'flex-direction': 'row'
+				,'flex-wrap': 'wrap'
+				// language=Javascript
+				,'row-gap': '0.25rem'
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
