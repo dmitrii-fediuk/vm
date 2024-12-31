@@ -121,6 +121,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		,'.pr-in-ratings'
 		,'.pr-in-w'
 		,'.pr-omc' // 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block
+		,'.product-button-container'
 		,'.product-container'
 		,'.product-detail-breadcrumb'
 		,'.product-detail-container'
