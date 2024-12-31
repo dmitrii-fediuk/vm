@@ -94,6 +94,9 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	GM_addStyle('.size-variant-wrapper [data-testid="sliderList"] .sp-itm {' +
 		'padding: 0 0.2rem !important;' +
 	'}');
+	// 2024-12-31
+	// language=CSS
+	GM_addStyle('div:has(> .gallery-container) {width: 18rem !important;}');
 }
 // 2024-12-31
 else if (location.pathname.startsWith(('/hesabim/siparislerim'))) {
