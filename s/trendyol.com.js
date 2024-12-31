@@ -137,8 +137,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// 2024-12-31
 	// language=CSS
 	GM_addStyle([
-		'.detail-desc-list > li'
-		,'.omc-cntr > *' // 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block's items
+		'.omc-cntr > *' // 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block's items
 		,'.pr-omc' // 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block
 		,'.product-container'
 		,'.product-detail-breadcrumb'
@@ -169,7 +168,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	GM_addStyle('.detail-desc-list {column-count: initial !important;}');
 	// 2025-01-01
 	// language=CSS
-	GM_addStyle('.detail-desc-list > li {font-size: 1.5rem !important;}');
+	GM_addStyle('.detail-desc-list > li {font-size: 1.5rem !important; margin: 0.3rem 0;}');
 	// 2025-01-01
 	// I hid all items above, and now I show back items after `li.return-info`.
 	// https://chatgpt.com/c/677375b3-335c-800c-8985-a81446d9a8b5
