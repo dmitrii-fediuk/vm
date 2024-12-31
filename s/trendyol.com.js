@@ -184,7 +184,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	;
 	// 2025-01-01
 	// language=CSS
-	GM_addStyle('.product-detail-wrapper {flex-direction: column !important;}');
+	GM_addStyle('.product-detail-wrapper {flex-direction: column !important; gap: 0.25rem !important;}');
 	// 2025-01-01 https://chatgpt.com/c/67747760-5eb0-800c-a45f-2d60ce9a8cc8
 	// language=CSS
 	GM_addStyle([
