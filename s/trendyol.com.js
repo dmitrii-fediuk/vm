@@ -80,6 +80,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	GM_addStyle('.size-variant-wrapper [data-testid="sliderList"] {' +
 		'display: grid !important; grid-template-columns: repeat(5, 1fr);' +
 	'}');
+}
 // 2024-12-31
 else if (location.pathname.startsWith(('/hesabim/siparislerim'))) {
 	// 2024-12-31
