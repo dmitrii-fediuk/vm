@@ -87,6 +87,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		,'.product-stamps-container'
 		,'.report-abuse-container'
 		,'.report-container'
+		,'.slicing-attribute-color-tooltip'
 		,'.social-proof-wrapper'
 		,'[data-fragment-name="MarketingProductDetail"]'
 		,'[data-fragment-name="Navigation"]'
