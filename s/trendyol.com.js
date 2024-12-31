@@ -49,7 +49,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		,'.detail-section-img'
 		,'.details-section > .title'
 		,'.favorite-button'
-		,'.featured-information .content-descriptions'
+		,'.featured-information'
 		,'.featured-information-header'
 		,'.gallery-icon-container'
 		,'.markerInfo'
