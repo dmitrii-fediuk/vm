@@ -69,7 +69,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// 2024-12-31
 	// language=CSS
 	GM_addStyle([
-		//'.omc-cntr > *' // 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block's items
+		//
 	]
 		 // language=Javascript
 		.join(',') + '{display: initial !important;}')
@@ -78,6 +78,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// language=CSS
 	GM_addStyle([
 		'.gallery-container'
+		,'.omc-cntr > *' // 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block's items
 		,'.product-container'
 		,'.product-detail-container'
 		,'.product-detail-wrapper'
