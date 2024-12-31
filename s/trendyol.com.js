@@ -172,6 +172,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	GM_addStyle([
 		'.detail-border'
 		,'.pr-in-w'
+		,'.product-button-container'
 		,'[data-testid="sliderList"]'
 	]
 		 // language=Javascript
