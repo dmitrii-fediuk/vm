@@ -11,6 +11,7 @@
 GM_addStyle([
 	'#collection-recommendation'
 	,'#headerMain > .wrapper'
+	,'#logo'
 	,'.cobranded-card-offer-information'
 	,'.related-categories'
 	,'.search-landings-container'
