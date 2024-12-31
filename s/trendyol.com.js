@@ -66,7 +66,10 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		,'.add-to-collections-wrapper'
 		,'.campaigns-widget .widget-row:has([title*="Kargo Bedava"])'
 		,'.detail-attributes-title'
-		,'.detail-desc-list > li:has(.productDetailSupplierPopup)'
+		// 2025-01-01
+		// I hide all items, and then I will show back items after `li.return-info`.
+		// https://chatgpt.com/c/677375b3-335c-800c-8985-a81446d9a8b5
+		,'.detail-desc-list > li'
 		,'.detail-name-container'
 		,'.detail-section-img'
 		,'.details-section > .title'
@@ -96,7 +99,10 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// 2024-12-31
 	// language=CSS
 	GM_addStyle([
-		//
+		// 2025-01-01
+		// I hid all items above, and now I show back items after `li.return-info`.
+		// https://chatgpt.com/c/677375b3-335c-800c-8985-a81446d9a8b5
+		'.detail-desc-list li.return-info ~ li'
 	]
 		 // language=Javascript
 		.join(',') + '{display: initial !important;}')
