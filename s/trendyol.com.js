@@ -70,6 +70,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// language=CSS
 	GM_addStyle([
 		'.base-product-image'
+		,'.product-image-container'
 	]
 		 // language=Javascript
 		.join(',') + '{height: initial !important; min-height: initial !important;}')
