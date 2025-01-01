@@ -172,6 +172,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		,'.omc-cntr > *' // 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block's items
 		,'.product-button-container'
 		,'.product-button-container button'
+		,'.product-button-container button > *'
 		,'.product-image-container'
 	]
 		 // language=Javascript
