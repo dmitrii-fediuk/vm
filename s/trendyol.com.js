@@ -148,6 +148,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		,'.product-button-container'
 		,'.product-container'
 		,'.size-variant-wrapper'
+		,'.sticker-container'
 		,'[data-testid="sliderList"]'
 	]
 		 // language=Javascript
