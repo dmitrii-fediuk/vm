@@ -194,6 +194,14 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	;
 	// 2025-01-01
 	// language=CSS
+	GM_addStyle([
+		'.detail-border'
+	]
+		 // language=Javascript
+		.join(',') + '{box-shadow: 0 !important;}')
+	;
+	// 2025-01-01
+	// language=CSS
 	GM_addStyle('.product-widget-list {margin: 0 0 0 0.25rem !important;}');
 	// 2025-01-01
 	// language=CSS
