@@ -188,6 +188,14 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// 2025-01-01
 	// language=CSS
 	GM_addStyle([
+		'.product-button-container button'
+	]
+		 // language=Javascript
+		.join(',') + '{font-size: initial !important;}')
+	;
+	// 2025-01-01
+	// language=CSS
+	GM_addStyle([
 		'.base-product-image img'
 		,'.detail-border'
 		,'.pr-in-w'
