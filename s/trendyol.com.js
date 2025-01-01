@@ -130,7 +130,6 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		,'.product-detail-breadcrumb'
 		,'.product-detail-container'
 		,'.product-detail-wrapper'
-		,'.product-widget-list'
 		,'.size-variant-wrapper [data-testid="sliderList"] .sp-itm'
 		,'.slicing-attributes'
 		,'.stock-warning-badge'
@@ -190,6 +189,9 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		 // language=Javascript
 		.join(',') + '{border: 0 !important;}')
 	;
+	// 2025-01-01
+	// language=CSS
+	GM_addStyle('.product-widget-list {margin: 0 0 0 0.25rem !important;}');
 	// 2025-01-01
 	// language=CSS
 	GM_addStyle('.product-detail-wrapper {flex-direction: column !important; gap: 0.25rem !important;}');
