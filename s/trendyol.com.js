@@ -141,6 +141,19 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// 2024-12-31
 	// language=CSS
 	GM_addStyle([
+		'.detail-border'
+		,'.pr-in-w'
+		,'.product-button-container'
+		,'.product-container'
+		,'.size-variant-wrapper'
+		,'[data-testid="sliderList"]'
+	]
+		 // language=Javascript
+		.join(',') + '{padding: 0 !important;}')
+	;
+	// 2024-12-31
+	// language=CSS
+	GM_addStyle([
 		'.gallery-container'
 		,'.omc-cntr > *' // 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block's items
 		,'.product-container'
@@ -168,18 +181,6 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	]
 		 // language=Javascript
 		.join(',') + '{justify-content: initial !important;')
-	;
-	// 2024-12-31
-	// language=CSS
-	GM_addStyle([
-		'.detail-border'
-		,'.pr-in-w'
-		,'.product-button-container'
-		,'.size-variant-wrapper'
-		,'[data-testid="sliderList"]'
-	]
-		 // language=Javascript
-		.join(',') + '{padding: 0 !important;}')
 	;
 	// 2025-01-01
 	// language=CSS
