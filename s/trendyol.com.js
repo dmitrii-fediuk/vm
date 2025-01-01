@@ -167,7 +167,8 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	// 2024-12-31
 	// language=CSS
 	GM_addStyle([
-		'.base-product-image'
+		'.add-to-basket'
+		,'.base-product-image'
 		,'.omc-cntr > *' // 2024-12-31 The «Ürünün Diğer Satıcıları» / «Other Sellers of the Product» block's items
 		,'.product-button-container'
 		,'.product-image-container'
