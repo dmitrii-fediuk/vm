@@ -130,6 +130,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		,'.product-detail-breadcrumb'
 		,'.product-detail-container'
 		,'.product-detail-wrapper'
+		,'.product-widget-list'
 		,'.size-variant-wrapper [data-testid="sliderList"] .sp-itm'
 		,'.slicing-attributes'
 		,'.stock-warning-badge'
