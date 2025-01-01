@@ -174,6 +174,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		'.detail-border'
 		,'.pr-in-w'
 		,'.product-button-container'
+		,'.size-variant-wrapper'
 		,'[data-testid="sliderList"]'
 	]
 		 // language=Javascript
