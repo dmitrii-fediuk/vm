@@ -288,7 +288,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 	GM_addStyle('.product-detail-container .title {margin: 0 0 0.3rem 0 !important;}');
 	// 2024-12-31
 	// language=CSS
-	GM_addStyle('.gallery-container, div:has(> .gallery-container) {width: 20rem !important;}');
+	GM_addStyle('.gallery-container {width: 20rem !important;}');
 	// 2024-12-31
 	// language=CSS
 	GM_addStyle('.product-detail-container {display: flex !important; flex-direction: column;}');
