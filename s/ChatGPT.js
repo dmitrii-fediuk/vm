@@ -28,6 +28,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// 2025-01-04
 // language=CSS
 GM_addStyle([
 	'.sticky:has(~ article)'
@@ -35,8 +36,15 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
+// 2025-01-04
+// language=CSS
+GM_addStyle([
+	'.md\\:pb-9'
+	,'article > .lg\\:px-4'
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
 // 2024-12-03
 // language=CSS
 GM_addStyle('.md\\:max-w-3xl {max-width: initial !important;}');
-// language=CSS
-GM_addStyle('.md\\:pb-9 {padding: 0 !important;}');
