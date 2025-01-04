@@ -21,6 +21,9 @@ GM_addStyle([
 	,'div.justify-stretch:has(> div > div > search-dynamic-id-cache-controller)'
 	// 2024-05-17, 2024-08-21 "Hide the logo from Reddit": https://github.com/dmitrii-fediuk/vm/issues/38
 	,'faceplate-tracker[noun="reddit_logo"]'
+	// 2024-08-21
+	// "Hide the «Search Comments» block from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/42
+	,'search-dynamic-id-cache-controller'
 	// 2024-08-21 "Hide the page's header from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/39
 	,'shreddit-app[routename="post_page"] reddit-header-large'
 	// 2024-08-21
@@ -31,9 +34,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
-// 2024-08-21 "Hide the «Search Comments» block from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/42
-// language=CSS
-GM_addStyle('search-dynamic-id-cache-controller {display: none !important;}');
 // 2024-05-20
 // language=CSS
 GM_addStyle('main {max-width: 100% !important;}');
