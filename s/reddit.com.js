@@ -13,6 +13,8 @@
 GM_addStyle([
 	'.\\@container:has(> .community-banner)'
 	,'community-highlight-carousel'
+	// 2024-06-24 "Hide the search form from Reddit": https://github.com/dmitrii-fediuk/vm/issues/7
+	,'div.justify-stretch:has(> div > div > search-dynamic-id-cache-controller)'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -20,11 +22,6 @@ GM_addStyle([
 // 2024-05-20
 // language=CSS
 GM_addStyle('main {max-width: 100% !important;}');
-// 2024-06-24
-// 1) "Hide the search form from Reddit": https://github.com/dmitrii-fediuk/vm/issues/7
-// 2) https://caniuse.com/css-has
-// language=CSS
-GM_addStyle('div.justify-stretch:has(> div > div > search-dynamic-id-cache-controller) {display: none !important;}');
 // 2024-08-19 "Unstick everything on Reddit": https://github.com/dmitrii-fediuk/vm/issues/25
 // language=CSS
 GM_addStyle('.fixed {position: initial !important;}');
