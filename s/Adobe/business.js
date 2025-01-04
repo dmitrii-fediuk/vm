@@ -9,11 +9,14 @@
 // 2024-12-13 "Improve `business.adobe.com`": https://github.com/dmitrii-fediuk/vm/issues/82
 // language=CSS
 GM_addStyle([
-	'#adobeIcon > div:has(> svg)'
-	,'.css-donbax'
-	,'button[aria-label="Search"]'
-	,'main > section[class^="spectrum--"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
+;
+// language=CSS
+GM_addStyle([
+	'header.global-navigation'
+]
+	 // language=Javascript
+	.join(',') + '{position: initial !important;}')
 ;
