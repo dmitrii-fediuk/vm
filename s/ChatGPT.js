@@ -56,4 +56,4 @@ GM_addStyle('.composer-parent:has(article) {height: auto !important;}');
 GM_addStyle('.markdown h2 {margin: 1rem 0 0.5rem 0 !important;}');
 // 2025-01-04
 // language=CSS
-GM_addStyle('prose :where(hr):not(:where([class~=not-prose] *)) {margin: 0.5rem 0 !important;}');
+GM_addStyle('.prose :where(hr):not(:where([class~=not-prose] *)) {margin: 0.5rem 0 !important;}');
