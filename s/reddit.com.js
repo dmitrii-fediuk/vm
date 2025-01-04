@@ -15,6 +15,7 @@ GM_addStyle([
 	,'community-highlight-carousel'
 	// 2024-06-24 "Hide the search form from Reddit": https://github.com/dmitrii-fediuk/vm/issues/7
 	,'div.justify-stretch:has(> div > div > search-dynamic-id-cache-controller)'
+	,'shreddit-status-icons'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -28,8 +29,6 @@ GM_addStyle('.fixed {position: initial !important;}');
 // 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
 // language=CSS
 GM_addStyle('shreddit-app {padding: 0 !important;}');
-// language=CSS
-GM_addStyle('shreddit-status-icons {display: none !important;}');
 // language=CSS
 GM_addStyle('#next-comment {display: none !important;}');
 // language=CSS
