@@ -70,20 +70,9 @@ GM_addStyle('.prose :where(ul):not(:where([class~=not-prose] *)) {margin: 0 0 0.
 (() => {
 	window.addEventListener('load', () => {
 		setTimeout(() => {
-			const candidates = document.querySelectorAll('[class*="react-scroll-to-bottom--css-"]');
-			let scrollable = null;
-			let maxHeight = 0;
-			candidates.forEach(el => {
-				if (el.scrollHeight > el.clientHeight) {
-					if (el.scrollHeight > maxHeight) {
-						maxHeight = el.scrollHeight;
-						scrollable = el;
-					}
-				}
-			});
-			if (scrollable) {
-				scrollable.scrollTop = scrollable.scrollHeight;
-			}
-		}, 1000);
+			// 2025-01-04 https://chatgpt.com/c/67795045-1588-800c-81ec-19b9c9585ac5
+			const m = document.querySelector('main');
+			m.scrollTop = m.scrollHeight;
+		}, 3000);
 	});
 })();
