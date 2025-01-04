@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'footer.global-footer'
+	,'.notification'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
