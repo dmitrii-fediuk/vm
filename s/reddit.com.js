@@ -11,7 +11,8 @@
 // 2025-01-04 "Improve Reddit": https://github.com/dmitrii-fediuk/vm/issues/83
 // language=CSS
 GM_addStyle([
-	'.\\@container:has(> .community-banner)'
+	'#next-comment'
+	,'.\\@container:has(> .community-banner)'
 	,'community-highlight-carousel'
 	// 2024-06-24 "Hide the search form from Reddit": https://github.com/dmitrii-fediuk/vm/issues/7
 	,'div.justify-stretch:has(> div > div > search-dynamic-id-cache-controller)'
