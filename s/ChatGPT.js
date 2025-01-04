@@ -67,27 +67,23 @@ GM_addStyle('.prose :where(ol):not(:where([class~=not-prose] *)) {margin: 0 0 0.
 // language=CSS
 GM_addStyle('.prose :where(ul):not(:where([class~=not-prose] *)) {margin: 0 0 0.5rem 0 !important;}');
 // 2025-01-04 https://chatgpt.com/c/67793f60-6464-800c-8dcb-67a8a5b1735c
-(() => {window.addEventListener('DOMContentLoaded', () => {
-	console.log('1');
-	debugger;
-	setTimeout(() => {
-		const allCandidates = [
-			...document.querySelectorAll('.composer-parent [class*="react-scroll-to-bottom--css-"]')
-		];
-		const realScrollContainer = allCandidates.find(el => {
-			const style = window.getComputedStyle(el);
-			return (
-				(style.overflowY === 'auto' || style.overflowY === 'scroll') &&
-				el.scrollHeight > el.clientHeight
-			);
-		});
-		debugger;
-		if (realScrollContainer) {
-			realScrollContainer.scrollTop = realScrollContainer.scrollHeight;
-			console.log('Прокрутили вниз:', realScrollContainer.scrollTop);
-		}
-		else {
-			console.warn('Не нашли реальный прокручиваемый контейнер react-scroll-to-bottom');
-		}
-	}, 1000);
-});})();
+(() => {
+	window.addEventListener('load', () => {
+		setTimeout(() => {
+			const candidates = document.querySelectorAll('[class*="react-scroll-to-bottom--css-"]');
+			let scrollable = null;
+			let maxHeight = 0;
+			candidates.forEach(el => {
+				if (el.scrollHeight > el.clientHeight) {
+					if (el.scrollHeight > maxHeight) {
+						maxHeight = el.scrollHeight;
+						scrollable = el;
+					}
+				}
+			});
+			if (scrollable) {
+				scrollable.scrollTop = scrollable.scrollHeight;
+			}
+		}, 1000);
+	});
+})();
