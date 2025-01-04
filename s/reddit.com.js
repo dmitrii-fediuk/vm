@@ -88,3 +88,15 @@ GM_addElement(postR, 'style', {textContent:
 	// 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
 	+ `div:has(> award-button) {margin: 0 !important}`
 });
+// 2025-01-04
+(() => {
+	document.addEventListener('click', (e) => {
+		const l = e.target.closest('a[slot="full-post-link"]');
+		if (l) {
+			e.preventDefault();
+			e.stopPropagation();
+			e.stopImmediatePropagation();
+			window.open(l.href, '_blank');
+		}
+	}, true);
+})();
