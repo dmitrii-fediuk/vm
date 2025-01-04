@@ -44,7 +44,8 @@ GM_addStyle([
 // 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
 // language=CSS
 GM_addStyle([
-	'shreddit-post'
+	'shreddit-comments-sort-dropdown, shreddit-comments-sort-dropdown > div'
+	,'shreddit-post'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -61,8 +62,6 @@ GM_addStyle([
 // 2024-05-20
 // language=CSS
 GM_addStyle('main {max-width: 100% !important;}');
-// language=CSS
-GM_addStyle('shreddit-comments-sort-dropdown, shreddit-comments-sort-dropdown > div {margin: 0 !important}');
 // 2024-08-21
 // 1) "How do I hide a DOM element inside a shadow root using Violentmonkey?" https://df.tips/t/2326
 // 2) https://stackoverflow.com/a/75518992
