@@ -16,6 +16,8 @@ GM_addStyle([
 	,'community-highlight-carousel'
 	// 2024-06-24 "Hide the search form from Reddit": https://github.com/dmitrii-fediuk/vm/issues/7
 	,'div.justify-stretch:has(> div > div > search-dynamic-id-cache-controller)'
+	// 2024-05-17, 2024-08-21 "Hide the logo from Reddit": https://github.com/dmitrii-fediuk/vm/issues/38
+	,'faceplate-tracker[noun="reddit_logo"]'
 	,'shreddit-status-icons'
 ]
 	 // language=Javascript
@@ -31,14 +33,9 @@ GM_addStyle('.fixed {position: initial !important;}');
 // language=CSS
 GM_addStyle('shreddit-app {padding: 0 !important;}');
 // language=CSS
-GM_addStyle('#next-comment {display: none !important;}');
-// language=CSS
 GM_addStyle('shreddit-post {margin: 0 !important; padding: 0 !important;}');
 // language=CSS
 GM_addStyle('shreddit-comments-sort-dropdown, shreddit-comments-sort-dropdown > div {margin: 0 !important}');
-// 2024-05-17, 2024-08-21 "Hide the logo from Reddit": https://github.com/dmitrii-fediuk/vm/issues/38
-// language=CSS
-GM_addStyle('faceplate-tracker[noun="reddit_logo"] {display: none !important;}');
 // 2024-08-21 "Hide the page's header from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/39
 // language=CSS
 GM_addStyle('shreddit-app[routename="post_page"] reddit-header-large {display: none !important;}');
