@@ -9,6 +9,7 @@
 // 2024-12-13 "Improve `business.adobe.com`": https://github.com/dmitrii-fediuk/vm/issues/82
 // language=CSS
 GM_addStyle([
+	'footer.global-footer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
