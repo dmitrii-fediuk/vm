@@ -68,22 +68,25 @@ GM_addStyle('.prose :where(ol):not(:where([class~=not-prose] *)) {margin: 0 0 0.
 GM_addStyle('.prose :where(ul):not(:where([class~=not-prose] *)) {margin: 0 0 0.5rem 0 !important;}');
 // 2025-01-04 https://chatgpt.com/c/67793f60-6464-800c-8dcb-67a8a5b1735c
 (() => {window.addEventListener('DOMContentLoaded', () => {
+	console.log('1');
 	setTimeout(() => {
-      const allCandidates = [
-        ...document.querySelectorAll('.composer-parent [class*="react-scroll-to-bottom--css-"]')
-      ];
-      const realScrollContainer = allCandidates.find(el => {
-        const style = window.getComputedStyle(el);
-        const isScrollable =
-          (style.overflowY === 'auto' || style.overflowY === 'scroll') &&
-          el.scrollHeight > el.clientHeight;
-        return isScrollable;
-      });
-      if (realScrollContainer) {
-        realScrollContainer.scrollTop = realScrollContainer.scrollHeight;
-        console.log('Прокрутили вниз:', realScrollContainer.scrollTop);
-      } else {
-        console.warn('Не нашли реальный прокручиваемый контейнер react-scroll-to-bottom');
-      }
+		const allCandidates = [
+			...document.querySelectorAll('.composer-parent [class*="react-scroll-to-bottom--css-"]')
+		];
+		const realScrollContainer = allCandidates.find(el => {
+			const style = window.getComputedStyle(el);
+			return (
+				(style.overflowY === 'auto' || style.overflowY === 'scroll') &&
+				el.scrollHeight > el.clientHeight
+			);
+		});
+		debugger;
+		if (realScrollContainer) {
+			realScrollContainer.scrollTop = realScrollContainer.scrollHeight;
+			console.log('Прокрутили вниз:', realScrollContainer.scrollTop);
+		}
+		else {
+			console.warn('Не нашли реальный прокручиваемый контейнер react-scroll-to-bottom');
+		}
 	}, 1000);
 });})();
