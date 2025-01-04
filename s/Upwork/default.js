@@ -322,7 +322,12 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 				e.preventDefault();
 				e.stopPropagation();
 				e.stopImmediatePropagation();
-				window.open(l.href, '_blank');
+				// 2025-01-04
+				// 1) «https://www.upwork.com/jobs/Assisted-Enhancements-for-Lightweight-App_~021875527601805661470/?referrer_url_path=%2Fnx%2Fsearch%2Fjobs» → «https://www.upwork.com/jobs/~021875527601805661470»
+				// 2) https://chatgpt.com/c/677937a6-61bc-800c-8f0e-6f2ce50fb149
+				const u = new URL(l.href);
+				const m = u.pathname.match(/_~(\d+)(?=\/|$)/);
+				window.open(`${u.origin}/jobs/~${m[1]}`, '_blank');
 			}
 		}, true);
 	})();
