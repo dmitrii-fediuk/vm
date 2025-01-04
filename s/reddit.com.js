@@ -41,17 +41,19 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
+// 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
 // language=CSS
 GM_addStyle([
-
+	'shreddit-post'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
+// 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
 // language=CSS
 GM_addStyle([
-	// 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
 	'shreddit-app'
+	,'shreddit-post'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -59,8 +61,6 @@ GM_addStyle([
 // 2024-05-20
 // language=CSS
 GM_addStyle('main {max-width: 100% !important;}');
-// language=CSS
-GM_addStyle('shreddit-post {margin: 0 !important; padding: 0 !important;}');
 // language=CSS
 GM_addStyle('shreddit-comments-sort-dropdown, shreddit-comments-sort-dropdown > div {margin: 0 !important}');
 // 2024-08-21
