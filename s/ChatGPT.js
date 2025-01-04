@@ -48,3 +48,6 @@ GM_addStyle([
 // 2024-12-03
 // language=CSS
 GM_addStyle('.md\\:max-w-3xl {max-width: initial !important;}');
+// 2025-01-04 https://chatgpt.com/c/67792143-94dc-800c-a793-809f8e8488e6
+// language=CSS
+GM_addStyle('.composer-parent {height: auto !important;}');
