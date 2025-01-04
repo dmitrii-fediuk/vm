@@ -13,6 +13,9 @@
 GM_addStyle([
 	'#next-comment'
 	,'.\\@container:has(> .community-banner)'
+	// 2024-08-21
+	// "Hide the «Archived post» warning from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/41
+	,'[slot="post-archived-banner"]'
 	,'community-highlight-carousel'
 	// 2024-06-24 "Hide the search form from Reddit": https://github.com/dmitrii-fediuk/vm/issues/7
 	,'div.justify-stretch:has(> div > div > search-dynamic-id-cache-controller)'
@@ -28,6 +31,9 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// 2024-08-21 "Hide the «Search Comments» block from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/42
+// language=CSS
+GM_addStyle('search-dynamic-id-cache-controller {display: none !important;}');
 // 2024-05-20
 // language=CSS
 GM_addStyle('main {max-width: 100% !important;}');
@@ -41,12 +47,6 @@ GM_addStyle('shreddit-app {padding: 0 !important;}');
 GM_addStyle('shreddit-post {margin: 0 !important; padding: 0 !important;}');
 // language=CSS
 GM_addStyle('shreddit-comments-sort-dropdown, shreddit-comments-sort-dropdown > div {margin: 0 !important}');
-// 2024-08-21 "Hide the «Archived post» warning from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/41
-// language=CSS
-GM_addStyle('[slot="post-archived-banner"] {display: none !important;}');
-// 2024-08-21 "Hide the «Search Comments» block from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/42
-// language=CSS
-GM_addStyle('search-dynamic-id-cache-controller {display: none !important;}');
 // 2024-08-21
 // 1) "How do I hide a DOM element inside a shadow root using Violentmonkey?" https://df.tips/t/2326
 // 2) https://stackoverflow.com/a/75518992
