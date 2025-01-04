@@ -66,3 +66,7 @@ GM_addStyle('.prose :where(ol):not(:where([class~=not-prose] *)) {margin: 0 0 0.
 // 2025-01-04
 // language=CSS
 GM_addStyle('.prose :where(ul):not(:where([class~=not-prose] *)) {margin: 0 0 0.5rem 0 !important;}');
+// 2025-01-04 https://chatgpt.com/c/67793f60-6464-800c-8dcb-67a8a5b1735c
+(() => {window.addEventListener('load', () => {
+	setTimeout(() => {window.scrollTo(0, document.body.scrollHeight);}, 100);
+});})();
