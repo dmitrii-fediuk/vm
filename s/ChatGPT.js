@@ -68,11 +68,14 @@ GM_addStyle('.prose :where(ol):not(:where([class~=not-prose] *)) {margin: 0 0 0.
 GM_addStyle('.prose :where(ul):not(:where([class~=not-prose] *)) {margin: 0 0 0.5rem 0 !important;}');
 // 2025-01-04 https://chatgpt.com/c/67793f60-6464-800c-8dcb-67a8a5b1735c
 (() => {
-	window.addEventListener('load', () => {
-		setTimeout(() => {
-			// 2025-01-04 https://chatgpt.com/c/67795045-1588-800c-81ec-19b9c9585ac5
-			const m = document.querySelector('main');
-			m.scrollTop = m.scrollHeight;
-		}, 3000);
-	});
+    const s = () => {
+        const m = document.querySelector('main');
+        m && m.scrollHeight && (m.scrollTop = m.scrollHeight);
+    };
+    window.addEventListener('load', () => {
+        const m = document.querySelector('main');
+        m && new MutationObserver(m => m.forEach(m =>
+            (m.addedNodes.length || m.removedNodes.length) && s())
+        ).observe(m, {childList: true, subtree: true}) && s();
+    });
 })();
