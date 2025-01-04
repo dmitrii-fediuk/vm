@@ -20,6 +20,9 @@ GM_addStyle([
 	,'faceplate-tracker[noun="reddit_logo"]'
 	// 2024-08-21 "Hide the page's header from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/39
 	,'shreddit-app[routename="post_page"] reddit-header-large'
+	// 2024-08-21
+	// "Hide the `AutoModerator`'s comments from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/40
+	,'shreddit-comment[author="AutoModerator"]'
 	,'shreddit-status-icons'
 ]
 	 // language=Javascript
@@ -38,9 +41,6 @@ GM_addStyle('shreddit-app {padding: 0 !important;}');
 GM_addStyle('shreddit-post {margin: 0 !important; padding: 0 !important;}');
 // language=CSS
 GM_addStyle('shreddit-comments-sort-dropdown, shreddit-comments-sort-dropdown > div {margin: 0 !important}');
-// 2024-08-21 "Hide the `AutoModerator`'s comments from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/40
-// language=CSS
-GM_addStyle('shreddit-comment[author="AutoModerator"] {display: none !important;}');
 // 2024-08-21 "Hide the «Archived post» warning from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/41
 // language=CSS
 GM_addStyle('[slot="post-archived-banner"] {display: none !important;}');
