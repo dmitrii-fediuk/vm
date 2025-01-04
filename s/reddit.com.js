@@ -18,9 +18,6 @@ GM_addStyle([
 	.join(',') + '{display: none !important;}')
 ;
 // 2024-05-20
-// 1.1) https://violentmonkey.github.io/api/gm#gm_addstyle
-// 1.2) https://github.com/violentmonkey/violentmonkey.github.io/blob/587d6569/content/api/gm.md#gm_addstyle
-// 2) https://www.jetbrains.com/help/idea/using-language-injections.html#use-language-injection-comments
 // language=CSS
 GM_addStyle('main {max-width: 100% !important;}');
 // 2024-06-24
