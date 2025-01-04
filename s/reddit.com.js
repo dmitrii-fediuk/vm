@@ -1,32 +1,14 @@
 // 2024-05-17
-// 1) https://violentmonkey.github.io/api/metadata-block
-// 2) https://github.com/violentmonkey/violentmonkey.github.io/blob/587d6569/content/api/metadata-block.md#repos-sticky-header
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
-// 2024-05-20
-// 1) https://violentmonkey.github.io/api/metadata-block#grant
-// 2) https://github.com/violentmonkey/violentmonkey.github.io/blob/587d6569/content/api/metadata-block.md#grant
 // @grant GM_addElement
 // @grant GM_addStyle
-// 2024-05-17
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/reddit.com.js
-// 2024-05-17
-// 1) https://violentmonkey.github.io/api/metadata-block#icon
-// 2) https://github.com/violentmonkey/violentmonkey.github.io/blob/587d6569/content/api/metadata-block.md#icon
 // @icon https://www.redditstatic.com/shreddit/assets/favicon/192x192.png
-// 2024-05-17
-// 1.1) https://violentmonkey.github.io/api/metadata-block#match--exclude-match
-// 1.2) https://github.com/violentmonkey/violentmonkey.github.io/blob/587d6569/content/api/metadata-block.md#match--exclude-match
-// 2.1) https://violentmonkey.github.io/api/matching
-// 2.2) https://github.com/violentmonkey/violentmonkey.github.io/blob/587d6569/content/api/matching.md#repos-sticky-header
-// 3) https://developer.chrome.com/docs/extensions/develop/concepts/match-patterns#gc-wrapper
 // @match *://*.reddit.com/*
-// 2024-05-17
-// 1) https://violentmonkey.github.io/api/metadata-block#name
-// 2) https://github.com/violentmonkey/violentmonkey.github.io/blob/587d6569/content/api/metadata-block.md#name
-// @name reddit.com
+// @name Reddit
 // ==/UserScript==
-// 2025-01-04
+// 2025-01-04 "Improve Reddit": https://github.com/dmitrii-fediuk/vm/issues/83
 // language=CSS
 GM_addStyle([
 	'.\\@container:has(> .community-banner)'
