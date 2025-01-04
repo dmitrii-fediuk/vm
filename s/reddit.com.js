@@ -67,14 +67,16 @@ GM_addStyle('main {max-width: 100% !important;}');
 // 2) https://stackoverflow.com/a/75518992
 // 3) https://stackoverflow.com/a/75571912
 // 4) https://github.com/violentmonkey/violentmonkey/issues/1852
-let postR = document.querySelector('shreddit-post').shadowRoot;
-GM_addElement(postR, 'style', {textContent:
-	// 2024-08-21 "Hide the «Give award» button from Reddit topics": https://github.com/dmitrii-fediuk/vm/issues/43
-	// language=CSS
-	`award-button {display: none !important} `
-	// 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
-	+ `div:has(> award-button) {margin: 0 !important}`
-});
+(() => {
+	let e = document.querySelector('shreddit-post').shadowRoot;
+	GM_addElement(e, 'style', {textContent:
+		// 2024-08-21 "Hide the «Give award» button from Reddit topics": https://github.com/dmitrii-fediuk/vm/issues/43
+		// language=CSS
+		`award-button {display: none !important} `
+		// 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
+		+ `div:has(> award-button) {margin: 0 !important}`
+	});
+})();
 // 2025-01-04
 (() => {
 	document.addEventListener('click', (e) => {
