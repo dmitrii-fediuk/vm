@@ -34,15 +34,31 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// language=CSS
+GM_addStyle([
+	'.fixed' // 2024-08-19 "Unstick everything on Reddit": https://github.com/dmitrii-fediuk/vm/issues/25
+]
+	 // language=Javascript
+	.join(',') + '{position: initial !important;}')
+;
+// language=CSS
+GM_addStyle([
+
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
+// language=CSS
+GM_addStyle([
+	// 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
+	'shreddit-app'
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
 // 2024-05-20
 // language=CSS
 GM_addStyle('main {max-width: 100% !important;}');
-// 2024-08-19 "Unstick everything on Reddit": https://github.com/dmitrii-fediuk/vm/issues/25
-// language=CSS
-GM_addStyle('.fixed {position: initial !important;}');
-// 2024-08-21 "Improve the appearance of Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/37
-// language=CSS
-GM_addStyle('shreddit-app {padding: 0 !important;}');
 // language=CSS
 GM_addStyle('shreddit-post {margin: 0 !important; padding: 0 !important;}');
 // language=CSS
