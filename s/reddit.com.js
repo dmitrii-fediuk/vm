@@ -26,6 +26,14 @@
 // 2) https://github.com/violentmonkey/violentmonkey.github.io/blob/587d6569/content/api/metadata-block.md#name
 // @name reddit.com
 // ==/UserScript==
+// 2025-01-04
+// language=CSS
+GM_addStyle([
+	'community-highlight-carousel'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
 // 2024-05-20
 // 1.1) https://violentmonkey.github.io/api/gm#gm_addstyle
 // 1.2) https://github.com/violentmonkey/violentmonkey.github.io/blob/587d6569/content/api/gm.md#gm_addstyle
