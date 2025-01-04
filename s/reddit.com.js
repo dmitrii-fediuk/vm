@@ -29,7 +29,8 @@
 // 2025-01-04
 // language=CSS
 GM_addStyle([
-	'community-highlight-carousel'
+	'.\\@container:has(> .community-banner)'
+	,'community-highlight-carousel'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
