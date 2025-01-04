@@ -69,6 +69,7 @@ GM_addStyle('.prose :where(ul):not(:where([class~=not-prose] *)) {margin: 0 0 0.
 // 2025-01-04 https://chatgpt.com/c/67793f60-6464-800c-8dcb-67a8a5b1735c
 (() => {window.addEventListener('DOMContentLoaded', () => {
 	console.log('1');
+	debugger;
 	setTimeout(() => {
 		const allCandidates = [
 			...document.querySelectorAll('.composer-parent [class*="react-scroll-to-bottom--css-"]')
