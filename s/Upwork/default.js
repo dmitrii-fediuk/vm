@@ -333,6 +333,16 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 				}
 			}
 		};
+		(() => {
+			let x = 0, y = 0;
+			document.addEventListener('mousemove', e => {x = e.clientX; y = e.clientY;}, true);
+			document.addEventListener('keydown', e => {
+				if ('Enter' === e.key) {
+					stopEvent(e);
+					openArticle(document.elementFromPoint(x, y)?.closest('article[data-test="JobTile"]'));
+				}
+			}, true);
+		})();
 		document.addEventListener('click', e => {
 			const i = e.target;
 			const menuItemClass = 'air3-menu-item';
