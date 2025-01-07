@@ -343,6 +343,7 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 			}
 		}, true);
 	})();
+	// 2025-01-07 https://chatgpt.com/c/677cfa25-b810-800c-9154-db57b53806dc
 	(() => {
 		let x = 0, y = 0;
 		document.addEventListener('mousemove', e => {
