@@ -327,6 +327,7 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 		}, true);
 	})();*/
 	(() => {
+		// 2025-01-07 https://chatgpt.com/c/677d2ca8-ccd8-800c-a96f-08549879377f
 		document.querySelectorAll('button[data-ev-label="dropdown_secondary_toggle"]').forEach(i => {
 			i.addEventListener('click', () => {
 				setTimeout(() => {
@@ -337,7 +338,6 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 			}, true);
 		});
 	})();
-	// 2025-01-07 https://chatgpt.com/c/677cfa25-b810-800c-9154-db57b53806dc
 	(() => {
 		const openArticle = (e, a) => {
 			e.preventDefault();
@@ -354,6 +354,7 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 			}
 		};
 		// 2024-12-27 https://chatgpt.com/c/676dea1b-e38c-800c-89f0-181acbde2011
+		// 2025-01-07 https://chatgpt.com/c/677cfa25-b810-800c-9154-db57b53806dc
 		/*document.addEventListener(
 			'click', e => openArticle(e, e.target.closest('article[data-test="JobTile"]')), true
 		);*/
