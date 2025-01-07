@@ -314,6 +314,18 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
+	(() => {
+		document.addEventListener('click', e => {
+			const downBtn = e.target.closest('button[data-ev-label="dropdown_secondary_toggle"]');
+			if (downBtn) {
+				setTimeout(() => {
+					const allItems = document.querySelectorAll('.air3-menu-list .air3-menu-item');
+					const i = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
+					i ? i.click() : null;
+				}, 50);
+			}
+		}, true);
+	})();
 	// 2024-12-27 https://chatgpt.com/c/676dea1b-e38c-800c-89f0-181acbde2011
 	(() => {
 		document.addEventListener('click', (e) => {
@@ -332,14 +344,25 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 		}, true);
 	})();
 	(() => {
-		document.addEventListener('click', e => {
-			const downBtn = e.target.closest('button[data-ev-label="dropdown_secondary_toggle"]');
-			if (downBtn) {
-				setTimeout(() => {
-					const allItems = document.querySelectorAll('.air3-menu-list .air3-menu-item');
-					const i = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
-					i ? i.click() : null;
-				}, 50);
+		let x = 0, y = 0;
+		document.addEventListener('mousemove', (e) => {
+			x = e.clientX;
+			y = e.clientY;
+		}, true);
+		document.addEventListener('keydown', (e) => {
+			if (e.key === 'Enter') {
+				const a = document.elementFromPoint(x, y)?.closest('article[data-test="JobTile"]');
+				if (a) {
+					const l = a.querySelector('a[data-test="job-tile-title-link UpLink"]');
+					if (l) {
+						e.preventDefault();
+						e.stopPropagation();
+						e.stopImmediatePropagation();
+						const u = new URL(l.href);
+						const m = u.pathname.match(/_~(\d+)(?=\/|$)/);
+						window.open(`${u.origin}/jobs/~${m[1]}`, '_blank');
+					}
+				}
 			}
 		}, true);
 	})();
