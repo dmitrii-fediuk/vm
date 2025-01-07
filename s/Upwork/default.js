@@ -334,17 +334,15 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 			}
 		};
 		(() => {
-			let x = 0, y = 0, article = null;
-			const updateCurrentArticle = () => {
+			let x = 0, y = 0, article;
+			const updateArticle = () => {
 				article = document.elementFromPoint(x, y)?.closest('article[data-test="JobTile"]');
 			};
 			document.addEventListener('mousemove', e => {
 				x = e.clientX; y = e.clientY;
-				updateCurrentArticle();
+				updateArticle();
 			}, true);
-			document.addEventListener('scroll', () => {
-				updateCurrentArticle();
-			}, true);
+			document.addEventListener('scroll', updateArticle, true);
 			document.addEventListener('keydown', e => {
 				if ('Enter' === e.key) {
 					stopEvent(e);
