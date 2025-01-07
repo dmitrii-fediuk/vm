@@ -314,7 +314,7 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
-	(() => {
+	/*(() => {
 		document.addEventListener('click', e => {
 			const downBtn = e.target.closest('button[data-ev-label="dropdown_secondary_toggle"]');
 			if (downBtn) {
@@ -325,6 +325,17 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 				}, 50);
 			}
 		}, true);
+	})();*/
+	(() => {
+		document.querySelectorAll('button[data-ev-label="dropdown_secondary_toggle"]').forEach(i => {
+			i.addEventListener('click', () => {
+				setTimeout(() => {
+					const allItems = document.querySelectorAll('.air3-menu-list .air3-menu-item');
+					const i = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
+					i ? i.click() : null;
+				}, 50);
+			}, true);
+		});
 	})();
 	// 2025-01-07 https://chatgpt.com/c/677cfa25-b810-800c-9154-db57b53806dc
 	(() => {
@@ -343,9 +354,12 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 			}
 		};
 		// 2024-12-27 https://chatgpt.com/c/676dea1b-e38c-800c-89f0-181acbde2011
-		document.addEventListener(
+		/*document.addEventListener(
 			'click', e => openArticle(e, e.target.closest('article[data-test="JobTile"]')), true
-		);
+		);*/
+		document.querySelectorAll('a[data-test="job-tile-title-link UpLink"]').forEach(i => {
+			i.addEventListener('click', e => openArticle(e, e.target.closest('article[data-test="JobTile"]')), true);
+		});
 		(() => {
 			let x = 0, y = 0;
 			document.addEventListener('mousemove', e => {x = e.clientX; y = e.clientY;}, true);
