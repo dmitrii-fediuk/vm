@@ -334,9 +334,9 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 			}
 		};
 		(() => {
-			let x = 0, y = 0, currentArticle = null;
+			let x = 0, y = 0, article = null;
 			const updateCurrentArticle = () => {
-				currentArticle = document.elementFromPoint(x, y)?.closest('article[data-test="JobTile"]');
+				article = document.elementFromPoint(x, y)?.closest('article[data-test="JobTile"]');
 			};
 			document.addEventListener('mousemove', e => {
 				x = e.clientX; y = e.clientY;
@@ -348,7 +348,7 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 			document.addEventListener('keydown', e => {
 				if ('Enter' === e.key) {
 					stopEvent(e);
-					openArticle(currentArticle);
+					openArticle(article);
 				}
 			}, true);
 		})();
