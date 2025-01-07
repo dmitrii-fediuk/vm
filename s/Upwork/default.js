@@ -314,10 +314,42 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
-	/*(() => {
+	(() => {
+		const stopEvent = e => {
+			e.preventDefault();
+			e.stopPropagation();
+			e.stopImmediatePropagation();
+		};
+		const openArticle = b => {
+			const article = b.closest('article[data-test="JobTile"]');
+			if (article) {
+				const l = article.querySelector('a[data-test="job-tile-title-link UpLink"]');
+				if (l) {
+					// 2025-01-04
+					// «https://www.upwork.com/jobs/Assisted-Enhancements-for-Lightweight-App_~021875527601805661470/?referrer_url_path=%2Fnx%2Fsearch%2Fjobs» → «https://www.upwork.com/jobs/~021875527601805661470»
+					const u = new URL(l.href);
+					const m = u.pathname.match(/_~(\d+)(?=\/|$)/);
+					window.open(`${u.origin}/jobs/~${m[1]}`, '_blank');
+				}
+			}
+		};
+		(() => {
+			let x = 0, y = 0;
+			document.addEventListener('mousemove', e => {x = e.clientX; y = e.clientY;}, true);
+			document.addEventListener('keydown', e => {
+				if ('Enter' === e.key) {
+					stopEvent(e);
+					openArticle(document.elementFromPoint(x, y)?.closest('article[data-test="JobTile"]'));
+				}
+			}, true);
+		})();			
 		document.addEventListener('click', e => {
 			const downBtn = e.target.closest('button[data-ev-label="dropdown_secondary_toggle"]');
-			if (downBtn) {
+			if (!downBtn) {
+				stopEvent(e);
+				openArticle(e.target);
+			}
+			else {
 				setTimeout(() => {
 					const allItems = document.querySelectorAll('.air3-menu-list .air3-menu-item');
 					const i = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
@@ -325,51 +357,6 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 				}, 50);
 			}
 		}, true);
-	})();*/
-	(() => {
-		// 2025-01-07 https://chatgpt.com/c/677d2ca8-ccd8-800c-a96f-08549879377f
-		document.querySelectorAll('button[data-ev-label="dropdown_secondary_toggle"]').forEach(i => {
-			i.addEventListener('click', () => {
-				setTimeout(() => {
-					const allItems = document.querySelectorAll('.air3-menu-list .air3-menu-item');
-					const i = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
-					i ? i.click() : null;
-				}, 50);
-			}, true);
-		});
-	})();
-	(() => {
-		const openArticle = (e, a) => {
-			e.preventDefault();
-			e.stopPropagation();
-			e.stopImmediatePropagation();
-			const l = a.querySelector('a[data-test="job-tile-title-link UpLink"]');
-			if (l) {
-				// 2025-01-04
-				// 1) «https://www.upwork.com/jobs/Assisted-Enhancements-for-Lightweight-App_~021875527601805661470/?referrer_url_path=%2Fnx%2Fsearch%2Fjobs» → «https://www.upwork.com/jobs/~021875527601805661470»
-				// 2) https://chatgpt.com/c/677937a6-61bc-800c-8f0e-6f2ce50fb149
-				const u = new URL(l.href);
-				const m = u.pathname.match(/_~(\d+)(?=\/|$)/);
-				window.open(`${u.origin}/jobs/~${m[1]}`, '_blank');
-			}
-		};
-		// 2024-12-27 https://chatgpt.com/c/676dea1b-e38c-800c-89f0-181acbde2011
-		// 2025-01-07 https://chatgpt.com/c/677cfa25-b810-800c-9154-db57b53806dc
-		/*document.addEventListener(
-			'click', e => openArticle(e, e.target.closest('article[data-test="JobTile"]')), true
-		);*/
-		document.querySelectorAll('a[data-test="job-tile-title-link UpLink"]').forEach(i => {
-			i.addEventListener('click', e => openArticle(e, e.target.closest('article[data-test="JobTile"]')), true);
-		});
-		(() => {
-			let x = 0, y = 0;
-			document.addEventListener('mousemove', e => {x = e.clientX; y = e.clientY;}, true);
-			document.addEventListener('keydown', e => {
-				if ('Enter' === e.key) {
-					openArticle(e, document.elementFromPoint(x, y)?.closest('article[data-test="JobTile"]'));
-				}
-			}, true);
-		})();
 	})();
 }
 // 2024-12-25
