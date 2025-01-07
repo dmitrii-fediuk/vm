@@ -314,6 +314,23 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
+	// 2024-12-27 https://chatgpt.com/c/676dea1b-e38c-800c-89f0-181acbde2011
+	(() => {
+		document.addEventListener('click', e => {
+			const l = e.target.closest('a[data-test="job-tile-title-link UpLink"]');
+			if (l) {
+				e.preventDefault();
+				e.stopPropagation();
+				e.stopImmediatePropagation();
+				// 2025-01-04
+				// 1) «https://www.upwork.com/jobs/Assisted-Enhancements-for-Lightweight-App_~021875527601805661470/?referrer_url_path=%2Fnx%2Fsearch%2Fjobs» → «https://www.upwork.com/jobs/~021875527601805661470»
+				// 2) https://chatgpt.com/c/677937a6-61bc-800c-8f0e-6f2ce50fb149
+				const u = new URL(l.href);
+				const m = u.pathname.match(/_~(\d+)(?=\/|$)/);
+				window.open(`${u.origin}/jobs/~${m[1]}`, '_blank');
+			}
+		}, true);
+	})();
 	(() => {
 		const stopEvent = e => {
 			e.preventDefault();
@@ -333,28 +350,23 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 				}
 			}
 		};
-		(() => {
-			let x = 0, y = 0;
-			document.addEventListener('mousemove', e => {x = e.clientX; y = e.clientY;}, true);
-			document.addEventListener('keydown', e => {
-				if ('Enter' === e.key) {
-					stopEvent(e);
-					openArticle(document.elementFromPoint(x, y)?.closest('article[data-test="JobTile"]'));
-				}
-			}, true);
-		})();			
 		document.addEventListener('click', e => {
-			const downBtn = e.target.closest('button[data-ev-label="dropdown_secondary_toggle"]');
-			if (!downBtn) {
-				stopEvent(e);
-				openArticle(e.target);
-			}
-			else {
-				setTimeout(() => {
-					const allItems = document.querySelectorAll('.air3-menu-list .air3-menu-item');
-					const i = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
-					i ? i.click() : null;
-				}, 50);
+			const i = e.target;
+			const menuItemClass = 'air3-menu-item';
+			if (!i.classList.contains(menuItemClass) && e.target.closest('article')) {
+				const downBtn = i.closest('button[data-ev-label="dropdown_secondary_toggle"]');
+				if (!downBtn) {
+					debugger;
+					stopEvent(e);
+					openArticle(e.target);
+				}
+				else {
+					setTimeout(() => {
+						const allItems = document.querySelectorAll('.' + menuItemClass);
+						const i = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
+						i ? i.click() : null;
+					}, 50);
+				}
 			}
 		}, true);
 	})();
@@ -413,7 +425,7 @@ else if (location.pathname.startsWith('/nx/proposals/')) {
 	GM_addStyle('div:has(> .active-offers-card-view) {margin-top: 0.5rem !important;}');
 	// 2024-12-28
 	(() => {
-		document.addEventListener('click', (e) => {
+		document.addEventListener('click', e => {
 			const l = e.target.closest('a[data-ev-label="jpn_list_details_link"]');
 			if (l) {
 				e.preventDefault();
