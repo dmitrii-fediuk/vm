@@ -328,7 +328,7 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 	})();
 	// 2025-01-07 https://chatgpt.com/c/677cfa25-b810-800c-9154-db57b53806dc
 	(() => {
-		const openArticle = a => {
+		const openArticle = (e, a) => {
 			e.preventDefault();
 			e.stopPropagation();
 			e.stopImmediatePropagation();
@@ -343,13 +343,15 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 			}
 		};
 		// 2024-12-27 https://chatgpt.com/c/676dea1b-e38c-800c-89f0-181acbde2011
-		document.addEventListener('click', e => openArticle(e.target.closest('article[data-test="JobTile"]')), true);
+		document.addEventListener(
+			'click', e => openArticle(e, e.target.closest('article[data-test="JobTile"]')), true
+		);
 		(() => {
 			let x = 0, y = 0;
 			document.addEventListener('mousemove', e => {x = e.clientX; y = e.clientY;}, true);
 			document.addEventListener('keydown', e => {
 				if ('Enter' === e.key) {
-					openArticle(document.elementFromPoint(x, y)?.closest('article[data-test="JobTile"]'));
+					openArticle(e, document.elementFromPoint(x, y)?.closest('article[data-test="JobTile"]'));
 				}
 			}, true);
 		})();
