@@ -314,23 +314,6 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
-	// 2024-12-27 https://chatgpt.com/c/676dea1b-e38c-800c-89f0-181acbde2011
-	(() => {
-		document.addEventListener('click', e => {
-			const l = e.target.closest('a[data-test="job-tile-title-link UpLink"]');
-			if (l) {
-				e.preventDefault();
-				e.stopPropagation();
-				e.stopImmediatePropagation();
-				// 2025-01-04
-				// 1) «https://www.upwork.com/jobs/Assisted-Enhancements-for-Lightweight-App_~021875527601805661470/?referrer_url_path=%2Fnx%2Fsearch%2Fjobs» → «https://www.upwork.com/jobs/~021875527601805661470»
-				// 2) https://chatgpt.com/c/677937a6-61bc-800c-8f0e-6f2ce50fb149
-				const u = new URL(l.href);
-				const m = u.pathname.match(/_~(\d+)(?=\/|$)/);
-				window.open(`${u.origin}/jobs/~${m[1]}`, '_blank');
-			}
-		}, true);
-	})();
 	(() => {
 		const stopEvent = e => {
 			e.preventDefault();
@@ -356,7 +339,6 @@ else if (location.pathname.startsWith('/nx/search/jobs')) {
 			if (!i.classList.contains(menuItemClass) && e.target.closest('article')) {
 				const downBtn = i.closest('button[data-ev-label="dropdown_secondary_toggle"]');
 				if (!downBtn) {
-					debugger;
 					stopEvent(e);
 					openArticle(e.target);
 				}
