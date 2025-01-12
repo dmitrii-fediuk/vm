@@ -9,7 +9,8 @@
 // 2025-01-12 "Improve `jetbrains.com`": https://github.com/dmitrii-fediuk/vm/issues/84
 // language=CSS
 GM_addStyle([
-	'.app__header'
+	'app__footer'
+	,'.app__header'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
