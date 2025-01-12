@@ -11,6 +11,7 @@
 GM_addStyle([
 	'app__footer'
 	,'.app__header'
+	,'div:has(> .app__sub-header)'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
