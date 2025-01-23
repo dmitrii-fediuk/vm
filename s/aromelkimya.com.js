@@ -27,6 +27,7 @@ if (/^\/(kategori|urun)\//.test(location.pathname)) {
 	GM_addStyle([
 		'#ideasoft'
 		,'footer'
+		,'header'
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
