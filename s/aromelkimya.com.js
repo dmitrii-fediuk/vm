@@ -37,6 +37,7 @@ if (location.pathname.startsWith('/urun/')) {
 	// language=CSS
 	GM_addStyle([
 		'.product-detail-tab-header'
+		,'.product-lowest-price'
 		,'.similar-products'
 	]
 		 // language=Javascript
