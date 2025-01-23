@@ -22,13 +22,13 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
-if (location.pathname.startsWith('/kategori/')) {
-// language=CSS
-GM_addStyle([
-	'#ideasoft'
-	,'footer'
-]
-	 // language=Javascript
-	.join(',') + '{display: none !important;}')
-;
+if (/^\/(kategori|urun)\//.test(location.pathname)) {
+	// language=CSS
+	GM_addStyle([
+		'#ideasoft'
+		,'footer'
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
 }
