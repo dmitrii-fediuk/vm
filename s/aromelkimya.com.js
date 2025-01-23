@@ -23,5 +23,11 @@ GM_addStyle([
 	.join(',') + '{position: initial !important;}')
 ;
 if (location.pathname.startsWith('/kategori/')) {
-
+// language=CSS
+GM_addStyle([
+	'footer'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
 }
