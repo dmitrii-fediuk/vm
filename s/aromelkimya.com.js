@@ -16,8 +16,7 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'header > .header-bottom'
-	,'header > .header-top'
+	'header > *'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
