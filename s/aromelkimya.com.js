@@ -6,7 +6,7 @@
 // @match *://www.aromelkimya.com/*
 // @name aromelkimya.com
 // ==/UserScript==
-// 2025-01-23 "Improve `aromelkimya.com`": https://github.com/dmitrii-fediuk/vm/issues/78
+// 2025-01-23 "Improve `aromelkimya.com`": https://github.com/dmitrii-fediuk/vm/issues/85
 // language=CSS
 GM_addStyle([
 ]
