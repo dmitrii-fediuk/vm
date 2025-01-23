@@ -25,7 +25,8 @@ GM_addStyle([
 if (location.pathname.startsWith('/kategori/')) {
 // language=CSS
 GM_addStyle([
-	'footer'
+	'#ideasoft'
+	,'footer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
