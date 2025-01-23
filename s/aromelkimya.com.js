@@ -41,4 +41,11 @@ if (location.pathname.startsWith('/urun/')) {
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
 	;
+	// language=CSS
+	GM_addStyle([
+		'.product-detail-tab'
+	]
+		 // language=Javascript
+		.join(',') + '{margin: 0 !important;}')
+	;
 }
