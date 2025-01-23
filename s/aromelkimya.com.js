@@ -9,6 +9,7 @@
 // 2025-01-23 "Improve `aromelkimya.com`": https://github.com/dmitrii-fediuk/vm/issues/85
 // language=CSS
 GM_addStyle([
+	'.banner'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
