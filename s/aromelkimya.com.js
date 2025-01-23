@@ -36,7 +36,8 @@ if (/^\/(kategori|urun)\//.test(location.pathname)) {
 if (location.pathname.startsWith('/urun/')) {
 	// language=CSS
 	GM_addStyle([
-		'.similar-products'
+		'.product-detail-tab-header'
+		,'.similar-products'
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
