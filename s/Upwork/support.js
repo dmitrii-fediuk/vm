@@ -52,6 +52,13 @@ GM_addStyle([
 	.join(',') + '{padding: 0 !important;}')
 ;
 // language=CSS
+GM_addStyle([
+	'.accordion-item'
+]
+	 // language=Javascript
+	.join(',') + '{border: none !important;}')
+;
+// language=CSS
 GM_addStyle('.accordion-item-content h4 {margin: 0.5rem 0 !important;}');
 // language=CSS
 GM_addStyle('.accordion-item-title {padding: 0.5rem 0 !important;}');
