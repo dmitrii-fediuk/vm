@@ -85,7 +85,7 @@ GM_addStyle('.article-body p {margin: 0.5rem 0 !important;}');
 // language=CSS
 GM_addStyle('.article-body p:first-of-type {margin-top: 0 !important;}');
 // language=CSS
-GM_addStyle('#page-header > .container {padding: 0 0.5rem !important;}');
+GM_addStyle('#page-header > .container {padding-bottom: 0 !important;}');
 // language=CSS
 GM_addStyle([
 	'.main.article-page > .container'
