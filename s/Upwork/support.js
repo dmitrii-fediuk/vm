@@ -31,7 +31,7 @@ GM_addStyle([
 	'.article-page > .container'
 ]
 	 // language=Javascript
-	.join(',') + '{max-width: auto !important;}')
+	.join(',') + '{max-width: none !important;}')
 ;
 // language=CSS
 GM_addStyle([
