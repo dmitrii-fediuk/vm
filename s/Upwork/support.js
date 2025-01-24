@@ -59,9 +59,9 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			// language=Javascript
-			'max-width': '1344px'
+			'max-width': 'none'
 			,'padding': '0 0.5rem 0.5rem 0.5rem'
-			,'width': '100%'
+			,'width': 'calc(100% - 1rem)'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
