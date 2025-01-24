@@ -65,11 +65,17 @@ GM_addStyle([
 	.join(',') + '{border: none !important;}')
 ;
 // language=CSS
+GM_addStyle([
+	'#article-body > h3'
+	,'.accordion-item-title h3'
+]
+	 // language=Javascript
+	.join(',') + '{font-size: 1.25rem !important;}')
+;
+// language=CSS
 GM_addStyle('.accordion-item-content h4 {margin: 0.5rem 0 !important;}');
 // language=CSS
 GM_addStyle('.accordion-item-title {padding: 0.5rem 0 0 0 !important;}');
-// language=CSS
-GM_addStyle('.accordion-item-title h3 {font-size: 1.25rem !important;}');
 // language=CSS
 GM_addStyle('.article-body p {margin: 0.5rem 0 !important;}');
 // language=CSS
