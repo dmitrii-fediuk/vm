@@ -20,15 +20,15 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'.article-page > .container'
-	,'div:has(> #article-body)'
+	//'.article-page > .container'
+	'div:has(> #article-body)'
 ]
 	 // language=Javascript
 	.join(',') + '{width: auto !important;}')
 ;
 // language=CSS
 GM_addStyle([
-	'.article-page > .container'
+	//'.article-page > .container'
 ]
 	 // language=Javascript
 	.join(',') + '{max-width: none !important;}')
@@ -51,4 +51,17 @@ GM_addStyle([
 	.join(',') + '{padding: 0 !important;}')
 ;
 // language=CSS
-GM_addStyle('.article-page > .container {padding: 0 0.5rem 0.5rem 0.5rem !important;}');
+GM_addStyle([
+	'.article-page > .container'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			// language=Javascript
+			'max-width': '1344px'
+			,'padding': '0 0.5rem 0.5rem 0.5rem'
+			,'width': '100%'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
