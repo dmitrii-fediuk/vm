@@ -20,7 +20,6 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	//'.article-page > .container'
 	'div:has(> #article-body)'
 ]
 	 // language=Javascript
@@ -28,7 +27,7 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	//'.article-page > .container'
+	'.article-page > .container'
 ]
 	 // language=Javascript
 	.join(',') + '{max-width: none !important;}')
@@ -59,8 +58,7 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			// language=Javascript
-			'max-width': 'none'
-			,'padding': '0 0.5rem 0.5rem 0.5rem'
+			'padding': '0 0.5rem 0.5rem 0.5rem'
 			,'width': 'calc(100% - 1rem)'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
