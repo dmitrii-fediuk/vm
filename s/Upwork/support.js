@@ -14,6 +14,7 @@ GM_addStyle([
 	,'#navbar'
 	,'#section-banner-contact'
 	,'.navbar-container:has(> footer)'
+	,'.row:has(.breadcrumb)'
 	,'div:has(> #article-sidebar)'
 ]
 	 // language=Javascript
