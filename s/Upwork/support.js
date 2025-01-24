@@ -20,7 +20,8 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'div:has(> #article-body)'
+	'.article-page > .container'
+	,'div:has(> #article-body)'
 ]
 	 // language=Javascript
 	.join(',') + '{width: auto !important;}')
