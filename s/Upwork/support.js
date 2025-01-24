@@ -37,6 +37,7 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
+	'.article-page > .container'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
