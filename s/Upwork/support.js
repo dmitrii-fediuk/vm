@@ -75,6 +75,8 @@ GM_addStyle([
 	.join(',') + '{font-size: 1.25rem !important;}')
 ;
 // language=CSS
+GM_addStyle('h1 {font-size: 1.5rem !important;}');
+// language=CSS
 GM_addStyle('.accordion-item-content h4 {margin: 0.5rem 0 !important;}');
 // language=CSS
 GM_addStyle('.accordion-item-title {padding: 0.5rem 0 0 0 !important;}');
