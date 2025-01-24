@@ -54,6 +54,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.accordion-item'
+	,'.accordion-item-content'
 ]
 	 // language=Javascript
 	.join(',') + '{border: none !important;}')
