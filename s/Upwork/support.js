@@ -46,7 +46,6 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'.accordion-item-title'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -55,6 +54,8 @@ GM_addStyle([
 GM_addStyle('.accordion-item-content p {margin: 0.5rem 0 !important;}');
 // language=CSS
 GM_addStyle('.accordion-item-content h4 {margin: 0.5rem 0 !important;}');
+// language=CSS
+GM_addStyle('.accordion-item-title {padding: 0.5rem 0 !important;}');
 // language=CSS
 GM_addStyle([
 	'.article-page > .container'
