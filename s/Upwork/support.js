@@ -62,7 +62,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle('.accordion-item-content h4 {margin: 0.5rem 0 !important;}');
 // language=CSS
-GM_addStyle('.accordion-item-title {padding: 0.5rem 0 !important;}');
+GM_addStyle('.accordion-item-title {padding: 0.5rem 0 0 0 !important;}');
 // language=CSS
 GM_addStyle('.accordion-item-title h3 {font-size: 1.25rem !important;}');
 // language=CSS
