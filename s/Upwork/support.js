@@ -9,8 +9,10 @@
 // 2025-01-24 "Improve `support.upwork.com`": https://github.com/dmitrii-fediuk/vm/issues/86
 // language=CSS
 GM_addStyle([
-	'.navbar-container:has(> footer)'
-	,'header#navbar'
+	'#article-vote-container'
+	,'#navbar'
+	,'#section-banner-contact'
+	,'.navbar-container:has(> footer)'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
