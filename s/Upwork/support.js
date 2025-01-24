@@ -85,10 +85,8 @@ GM_addStyle('.article-body p {margin: 0.5rem 0 !important;}');
 // language=CSS
 GM_addStyle('.article-body p:first-of-type {margin-top: 0 !important;}');
 // language=CSS
-GM_addStyle('#page-header > .container {padding-bottom: 0 !important;}');
-// language=CSS
 GM_addStyle([
-	'.main.article-page > .container'
+	'.article-page > .container'
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -100,3 +98,5 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// language=CSS
+GM_addStyle('#page-header > .container {padding-bottom: 0 !important;}');
