@@ -53,8 +53,7 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'#page-header > .container'
-	,'.accordion-item-content'
+	'.accordion-item-content'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -85,6 +84,8 @@ GM_addStyle('.accordion-item-title {padding: 0.5rem 0 0 0 !important;}');
 GM_addStyle('.article-body p {margin: 0.5rem 0 !important;}');
 // language=CSS
 GM_addStyle('.article-body p:first-of-type {margin-top: 0 !important;}');
+// language=CSS
+GM_addStyle('#page-header > .container {padding: 0 0.5rem !important;}');
 // language=CSS
 GM_addStyle([
 	'.main.article-page > .container'
