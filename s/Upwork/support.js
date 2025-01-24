@@ -20,6 +20,13 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
+	'div:has(> #article-body)'
+]
+	 // language=Javascript
+	.join(',') + '{width: auto !important;}')
+;
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
