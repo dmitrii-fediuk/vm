@@ -27,7 +27,8 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'#page-header'
+	'#article-body'
+	,'#page-header'
 	,'.article-page'
 	,'h1'
 ]
