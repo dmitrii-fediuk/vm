@@ -35,6 +35,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#article-body'
+	,'#article-body > h3'
 	,'#page-header'
 	,'.accordion'
 	,'.accordion-item-content img'
