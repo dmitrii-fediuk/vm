@@ -38,6 +38,7 @@ GM_addStyle([
 	,'#page-header'
 	,'.accordion'
 	,'.accordion-item-content h4'
+	,'.accordion-item-content p'
 	,'.accordion-item-title > h3'
 	,'.article-page'
 	,'h1'
