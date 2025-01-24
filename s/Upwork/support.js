@@ -81,6 +81,8 @@ GM_addStyle('.accordion-item-title {padding: 0.5rem 0 0 0 !important;}');
 // language=CSS
 GM_addStyle('.article-body p {margin: 0.5rem 0 !important;}');
 // language=CSS
+GM_addStyle('.article-body p:first-of-type {margin-top: 0 !important;}');
+// language=CSS
 GM_addStyle([
 	'.article-page > .container'
 ]
