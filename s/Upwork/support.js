@@ -27,6 +27,13 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
+	'#page-header'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
