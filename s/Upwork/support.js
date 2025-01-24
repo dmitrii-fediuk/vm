@@ -28,6 +28,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#page-header'
+	,'.article-page'
 	,'h1'
 ]
 	 // language=Javascript
