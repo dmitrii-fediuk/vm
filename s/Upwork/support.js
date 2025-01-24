@@ -37,8 +37,6 @@ GM_addStyle([
 	'#article-body'
 	,'#page-header'
 	,'.accordion'
-	,'.accordion-item-content h4'
-	,'.accordion-item-content p'
 	,'.accordion-item-title > h3'
 	,'.article-page'
 	,'h1'
@@ -52,6 +50,10 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// language=CSS
+GM_addStyle('.accordion-item-content p {margin: 0.5rem 0 !important;}');
+// language=CSS
+GM_addStyle('.accordion-item-content h4 {margin: 0.5rem 0 !important;}');
 // language=CSS
 GM_addStyle([
 	'.article-page > .container'
