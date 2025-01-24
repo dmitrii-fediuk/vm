@@ -28,6 +28,13 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
+	'.article-page > .container'
+]
+	 // language=Javascript
+	.join(',') + '{max-width: initial !important;}')
+;
+// language=CSS
+GM_addStyle([
 	'#article-body'
 	,'#page-header'
 	,'.accordion'
