@@ -29,6 +29,7 @@ GM_addStyle([
 GM_addStyle([
 	'#article-body'
 	,'#page-header'
+	,'.accordion'
 	,'.article-page'
 	,'h1'
 ]
