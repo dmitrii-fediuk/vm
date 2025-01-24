@@ -28,6 +28,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#page-header'
+	,'h1'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
