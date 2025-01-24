@@ -13,6 +13,7 @@ GM_addStyle([
 	,'#navbar'
 	,'#section-banner-contact'
 	,'.navbar-container:has(> footer)'
+	,'div:has (> #article-sidebar)'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
