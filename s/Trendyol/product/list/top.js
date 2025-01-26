@@ -42,7 +42,8 @@ GM_addStyle([
 // 2025-01-26
 // language=CSS
 GM_addStyle([
-	productCard
+	'.category-top-ranking-header-items'
+	,productCard
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
