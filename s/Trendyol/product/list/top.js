@@ -63,10 +63,11 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.pr-bx-w'
+	,'.rating-container'
 	,productCard
 ]
 	 // language=Javascript
-	.join(',') + '{height: initial !important; min-height: initial !important;}')
+	.join(',') + '{height: initial !important; max-height: initial !important; min-height: initial !important;}')
 ;
 // 2025-01-26
 // language=CSS
