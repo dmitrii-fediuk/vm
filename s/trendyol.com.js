@@ -377,11 +377,15 @@ else if (location.pathname.startsWith(('/sr/'))) {
 		.join(',') + '{' +
 			// language=CSS
 			Object.entries({
+				'background': 'yellow'
 				// language=Javascript
-				'flex': '0 0 25%'
+				,'border': '1px solid red'
+				,'flex': '0 0 25%'
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
+	// language=CSS
+	GM_addStyle('.p-card-wrppr > * {display: none !important;}');
 	// 2025-01-26 https://chatgpt.com/c/679588e5-6c4c-800c-93b6-d95e92876f7b
 	if ((new URL(location.href)).searchParams.has('pi')) {
 		// language=CSS
