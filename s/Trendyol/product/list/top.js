@@ -25,3 +25,10 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
+// 2025-01-26
+GM_addStyle([
+	'.product-listing-container'
+]
+	 // language=Javascript
+	.join(',') + '{min-width: initial !important; width: initial !important;}')
+;
