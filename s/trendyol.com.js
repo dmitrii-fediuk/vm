@@ -346,6 +346,7 @@ else if (location.pathname.startsWith(('/sr/'))) {
 	// language=CSS
 	GM_addStyle([
 		'.p-card-wrppr' // 2025-01-26 https://chatgpt.com/c/67959338-9f94-800c-a07a-1d6ae0a28ec8
+		,'.search-app-container'
 		,'.srch-rslt-cntnt' // 2025-01-26 https://chatgpt.com/c/67959338-9f94-800c-a07a-1d6ae0a28ec8
 	]
 		 // language=Javascript
