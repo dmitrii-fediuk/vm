@@ -40,8 +40,7 @@ GM_addStyle([
 // 2025-01-26
 // language=CSS
 GM_addStyle([
-	'#category-top-ranking .category-top-ranking-container .product-listing-container > ' +
-		'.product-listing-container > .product-card'
+	'#category-top-ranking > .category-top-ranking-container .product-listing-container > .product-card'
 ]
 	 // language=Javascript
 	.join(',') + '{height: initial !important; min-height: initial !important;}')
