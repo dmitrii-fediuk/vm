@@ -345,6 +345,14 @@ else if (location.pathname.startsWith(('/sr/'))) {
 	// 2025-01-26
 	// language=CSS
 	GM_addStyle([
+		'.p-card-wrppr' // 2025-01-26 https://chatgpt.com/c/67959338-9f94-800c-a07a-1d6ae0a28ec8
+	]
+		 // language=Javascript
+		.join(',') + '{width: auto !important;}')
+	;
+	// 2025-01-26
+	// language=CSS
+	GM_addStyle([
 		'.price-promotion-container'
 		,'.product-down'
 	]
@@ -360,6 +368,20 @@ else if (location.pathname.startsWith(('/sr/'))) {
 		 // language=Javascript
 		.join(',') + '{border: 0 !important;}')
 	;
+	// 2025-01-26 https://chatgpt.com/c/67959338-9f94-800c-a07a-1d6ae0a28ec8
+	// language=CSS
+	GM_addStyle([
+		'.p-card-wrppr'
+	]
+		// language=Javascript
+		.join(',') + '{' +
+			// language=CSS
+			Object.entries({
+				// language=Javascript
+				'flex': '0 0 25%'
+			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+		'}'
+	);
 	// 2025-01-26 https://chatgpt.com/c/679588e5-6c4c-800c-93b6-d95e92876f7b
 	if ((new URL(location.href)).searchParams.has('pi')) {
 		// language=CSS
