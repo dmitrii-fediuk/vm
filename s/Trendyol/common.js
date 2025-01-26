@@ -32,6 +32,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.status-quick-filters-wrapper .scrolled'
+	,'.sticky'
 	,'.sticky-ready'
 ]
 	 // language=Javascript
