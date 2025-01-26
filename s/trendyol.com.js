@@ -354,7 +354,8 @@ else if (location.pathname.startsWith(('/sr/'))) {
 	// 2025-01-26
 	// language=CSS
 	GM_addStyle([
-		'.p-card-img-wr'
+		'.card-border'
+		,'.p-card-img-wr'
 	]
 		 // language=Javascript
 		.join(',') + '{border: 0 !important;}')
