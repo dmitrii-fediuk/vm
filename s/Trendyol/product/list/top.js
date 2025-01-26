@@ -22,6 +22,13 @@ GM_addStyle([
 	.join(',') + '{display: none !important;}')
 ;
 // 2025-01-26
+const productCard = [
+	// language=CSS
+	'#category-top-ranking > .category-top-ranking-container > .infinite-scroll'
+	// language=CSS
+	,'.product-listing-container > .product-card'
+].join(' ');
+// 2025-01-26
 // language=CSS
 GM_addStyle([
 	'.category-top-ranking-header-wrapper'
@@ -32,17 +39,19 @@ GM_addStyle([
 // 2025-01-26
 // language=CSS
 GM_addStyle([
+	productCard
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
+// 2025-01-26
+// language=CSS
+GM_addStyle([
 	'.product-listing-container'
 ]
 	 // language=Javascript
 	.join(',') + '{min-width: initial !important; width: initial !important;}')
 ;
-// 2025-01-26
-const productCard = [
-	// language=CSS
-	'#category-top-ranking > .category-top-ranking-container > .infinite-scroll'
-	,'.product-listing-container > .product-card'
-].join(' ');
 // language=CSS
 GM_addStyle([
 	productCard
