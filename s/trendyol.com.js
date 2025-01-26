@@ -334,7 +334,8 @@ else if (location.pathname.startsWith(('/sr/'))) {
 	// 2025-01-26
 	// language=CSS
 	GM_addStyle([
-		'.product-down'
+		'.price-promotion-container'
+		,'.product-down'
 	]
 		 // language=Javascript
 		.join(',') + '{min-height: auto !important;}')
