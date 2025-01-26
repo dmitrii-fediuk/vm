@@ -319,6 +319,14 @@ else if (location.pathname.startsWith(('/hesabim/siparislerim'))) {
 }
 // 2025-01-26
 else if (location.pathname.startsWith(('/sr/'))) {
+	// language=CSS
+	GM_addStyle([
+		'.fvrt-btn-wrppr'
+		,'.image-overlay-header'
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
 	// 2025-01-26 https://chatgpt.com/c/679588e5-6c4c-800c-93b6-d95e92876f7b
 	if ((new URL(location.href)).searchParams.has('pi')) {
 		// language=CSS
