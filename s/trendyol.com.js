@@ -346,6 +346,7 @@ else if (location.pathname.startsWith(('/sr/'))) {
 	// language=CSS
 	GM_addStyle([
 		'.p-card-wrppr' // 2025-01-26 https://chatgpt.com/c/67959338-9f94-800c-a07a-1d6ae0a28ec8
+		,'.srch-rslt-cntnt' // 2025-01-26 https://chatgpt.com/c/67959338-9f94-800c-a07a-1d6ae0a28ec8
 	]
 		 // language=Javascript
 		.join(',') + '{width: auto !important;}')
@@ -380,7 +381,7 @@ else if (location.pathname.startsWith(('/sr/'))) {
 				'background': 'yellow'
 				// language=Javascript
 				,'border': '1px solid red'
-				,'flex': '0 0 calc(25% - 0.5rem)'
+				,'flex': '0 0 calc(20% - 0.5rem)'
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
