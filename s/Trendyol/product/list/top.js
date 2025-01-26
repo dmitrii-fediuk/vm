@@ -70,6 +70,19 @@ GM_addStyle([
 // 2025-01-26
 // language=CSS
 GM_addStyle([
+	'.product-listing-container'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'gap': 0
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-01-26
+// language=CSS
+GM_addStyle([
 	productCard
 ]
 	// language=Javascript
