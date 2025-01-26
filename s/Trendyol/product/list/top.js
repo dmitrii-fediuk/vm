@@ -67,11 +67,17 @@ GM_addStyle([
 // 2025-01-26
 // language=CSS
 GM_addStyle([
-	'.product-listing-container'
+	'.product-description'
+	,'.product-listing-container'
 ]
-	 // language=Javascript
-	.join(',') + '{min-width: initial !important; width: initial !important;}')
-;
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['width', 'max-width',' min-width']
+			// language=Javascript
+			.map(k => `${k}: initial !important;`).join(' ') +
+	'}'
+);
 // 2025-01-26
 // language=CSS
 GM_addStyle([
