@@ -30,9 +30,18 @@ GM_addStyle([
 	.join(',') + '{margin: 0 !important;}')
 ;
 // 2025-01-26
+// language=CSS
 GM_addStyle([
 	'.product-listing-container'
 ]
 	 // language=Javascript
 	.join(',') + '{min-width: initial !important; width: initial !important;}')
+;
+// 2025-01-26
+// language=CSS
+GM_addStyle([
+	'.product-card'
+]
+	 // language=Javascript
+	.join(',') + '{height: initial !important; min-height: initial !important;}')
 ;
