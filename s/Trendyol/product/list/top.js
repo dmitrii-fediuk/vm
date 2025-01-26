@@ -28,6 +28,7 @@ GM_addStyle([
 // 2025-01-26
 GM_addStyle([
 	'.fvrt-btn-wrppr'
+	,'.image-badge-wrapper'
 	,'.product-listing-container'
 	,'.social-proof-container'
 ]
