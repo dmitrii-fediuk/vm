@@ -332,6 +332,7 @@ else if (location.pathname.startsWith(('/sr/'))) {
 		// language=CSS
 		GM_addStyle([
 			'#header'
+			,'.srch-rslt-title'
 			,'#sticky-aggregations'
 			,'[data-fragment-name="Navigation"]'
 		]
