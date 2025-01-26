@@ -62,7 +62,8 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	productCard
+	'.pr-bx-w'
+	,productCard
 ]
 	 // language=Javascript
 	.join(',') + '{height: initial !important; min-height: initial !important;}')
