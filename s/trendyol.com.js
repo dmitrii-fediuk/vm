@@ -325,6 +325,7 @@ else if (location.pathname.startsWith(('/sr/'))) {
 		,'.image-overlay-header'
 		,'.price-promotion-container > :not(.prc-cntnr)'
 		,'.prvs-pg-bttn-wrppr'
+		,'.quick-look-container'
 		,'.rating-wrapper'
 		,'.social-proof-wrapper'
 		,'.variant-options-wrapper'
