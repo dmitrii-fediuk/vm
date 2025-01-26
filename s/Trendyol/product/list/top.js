@@ -77,6 +77,7 @@ GM_addStyle([
 	'.pr-bx-w'
 	,'.product-card-header'
 	,'.rating-container'
+	,'.ratings'
 	,productCard
 ]
 	// language=Javascript
