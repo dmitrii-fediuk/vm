@@ -17,3 +17,11 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// 2025-01-26
+// language=CSS
+GM_addStyle([
+	'.category-top-ranking-header-wrapper'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
