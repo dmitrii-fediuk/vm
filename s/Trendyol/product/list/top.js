@@ -140,9 +140,7 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			//'background': 'yellow'
 			// language=Javascript
-			//,'border': '1px solid red'
 			'flex': '0 0 20%'
 			,'width': '20%'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
