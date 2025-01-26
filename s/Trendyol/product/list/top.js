@@ -108,7 +108,8 @@ GM_addStyle([
 // 2025-01-26
 // language=CSS
 GM_addStyle([
-	'.product-card-information-list'
+	'.category-top-ranking-header-items'
+	,'.product-card-information-list'
 	,'.product-listing-container'
 ]
 	 // language=Javascript
