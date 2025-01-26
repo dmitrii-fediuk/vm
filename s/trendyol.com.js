@@ -333,6 +333,7 @@ else if (location.pathname.startsWith(('/sr/'))) {
 		GM_addStyle([
 			'#header'
 			,'#sticky-aggregations'
+			,'.prvs-pg-bttn-wrppr'
 			,'.srch-rslt-title'
 			,'[data-fragment-name="Navigation"]'
 		]
