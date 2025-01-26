@@ -60,15 +60,23 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{min-width: initial !important; width: initial !important;}')
 ;
+// 2025-01-26
 // language=CSS
 GM_addStyle([
 	'.pr-bx-w'
 	,'.rating-container'
 	,productCard
 ]
-	 // language=Javascript
-	.join(',') + '{height: initial !important; max-height: initial !important; min-height: initial !important;}')
-;
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'height': 'initial'
+			,'max-height': 'initial'
+			,'min-height': 'initial'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 // 2025-01-26
 // language=CSS
 GM_addStyle([
