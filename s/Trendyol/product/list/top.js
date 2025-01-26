@@ -99,9 +99,18 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.product-card-information-list'
+	,'.product-listing-container'
 ]
 	 // language=Javascript
 	.join(',') + '{gap: 0 !important;}')
+;
+// 2025-01-26
+// language=CSS
+GM_addStyle([
+	'.product-listing-container'
+]
+	 // language=Javascript
+	.join(',') + '{align-items: initial !important;}')
 ;
 // 2025-01-26
 // language=CSS
@@ -111,19 +120,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{white-space: initial !important;}')
 ;
-// 2025-01-26
-// language=CSS
-GM_addStyle([
-	'.product-listing-container'
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
-			'gap': 0
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
 // 2025-01-26
 // language=CSS
 GM_addStyle([
