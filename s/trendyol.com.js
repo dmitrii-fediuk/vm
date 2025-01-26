@@ -337,6 +337,14 @@ else if (location.pathname.startsWith(('/sr/'))) {
 	// 2025-01-26
 	// language=CSS
 	GM_addStyle([
+		'.p-card-wrppr'
+	]
+		 // language=Javascript
+		.join(',') + '{margin: 0 !important;}')
+	;
+	// 2025-01-26
+	// language=CSS
+	GM_addStyle([
 		'.price-promotion-container'
 		,'.product-down'
 	]
