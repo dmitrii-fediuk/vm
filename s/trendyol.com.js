@@ -380,7 +380,7 @@ else if (location.pathname.startsWith(('/sr/'))) {
 				'background': 'yellow'
 				// language=Javascript
 				,'border': '1px solid red'
-				,'flex': '0 0 25%'
+				,'flex': '0 0 calc(25% - 0.5rem)'
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
