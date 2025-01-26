@@ -15,6 +15,7 @@ GM_addStyle([
 	,'.fvrt-btn-wrppr'
 	,'.image-badge-wrapper'
 	,'.social-proof-container'
+	,':has(> .ctr-stmp-box-wrppr)'
 	,'[data-fragment-name="Navigation"]'
 ]
 	 // language=Javascript
