@@ -78,9 +78,6 @@ GM_addStyle([
 			.map(k => `${k}: initial !important;`).join(' ') +
 	'}'
 );
-// 2025-01-01
-// language=CSS
-GM_addStyle('.product-description {padding-right: 0.25rem;}');
 // 2025-01-26
 // language=CSS
 GM_addStyle([
@@ -140,6 +137,9 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{white-space: initial !important;}')
 ;
+// 2025-01-01
+// language=CSS
+GM_addStyle('.product-description {padding-right: 0.5rem;}');
 // 2025-01-26
 // language=CSS
 GM_addStyle([
