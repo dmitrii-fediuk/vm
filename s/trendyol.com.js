@@ -331,7 +331,9 @@ else if (location.pathname.startsWith(('/sr/'))) {
 	if ((new URL(location.href)).searchParams.has('pi')) {
 		// language=CSS
 		GM_addStyle([
-			'#sticky-aggregations'
+			'#header'
+			,'#sticky-aggregations'
+			,'[data-fragment-name="Navigation"]'
 		]
 			 // language=Javascript
 			.join(',') + '{display: none !important;}')
