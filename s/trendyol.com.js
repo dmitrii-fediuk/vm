@@ -336,6 +336,7 @@ else if (location.pathname.startsWith(('/sr/'))) {
 			,'.price-promotion-container > :not(.prc-cntnr)'
 			,'.prvs-pg-bttn-wrppr'
 			,'.srch-rslt-title'
+			,'.variant-options-wrapper'
 			,'[data-fragment-name="Navigation"]'
 		]
 			 // language=Javascript
