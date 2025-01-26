@@ -392,6 +392,7 @@ else if (location.pathname.startsWith(('/sr/'))) {
 				// language=Javascript
 				,'border': '1px solid red'
 				,'flex': '0 0 calc(20% - 0.5rem)'
+				,'width': 'calc(20% - 0.5rem)'
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
