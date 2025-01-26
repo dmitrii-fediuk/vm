@@ -328,6 +328,7 @@ else if (location.pathname.startsWith(('/sr/'))) {
 		,'.rating-wrapper'
 		,'.social-proof-wrapper'
 		,'.variant-options-wrapper'
+		,':has(> .product-card-images-indicator)'
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
