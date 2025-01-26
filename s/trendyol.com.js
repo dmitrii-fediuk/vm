@@ -323,9 +323,20 @@ else if (location.pathname.startsWith(('/sr/'))) {
 	GM_addStyle([
 		'.fvrt-btn-wrppr'
 		,'.image-overlay-header'
+		,'.price-promotion-container > :not(.prc-cntnr)'
+		,'.prvs-pg-bttn-wrppr'
+		,'.variant-options-wrapper'
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
+	;
+	// 2025-01-26
+	// language=CSS
+	GM_addStyle([
+		'.product-down'
+	]
+		 // language=Javascript
+		.join(',') + '{min-height: auto !important;}')
 	;
 	// 2025-01-26 https://chatgpt.com/c/679588e5-6c4c-800c-93b6-d95e92876f7b
 	if ((new URL(location.href)).searchParams.has('pi')) {
@@ -333,10 +344,7 @@ else if (location.pathname.startsWith(('/sr/'))) {
 		GM_addStyle([
 			'#header'
 			,'#sticky-aggregations'
-			,'.price-promotion-container > :not(.prc-cntnr)'
-			,'.prvs-pg-bttn-wrppr'
 			,'.srch-rslt-title'
-			,'.variant-options-wrapper'
 			,'[data-fragment-name="Navigation"]'
 		]
 			 // language=Javascript
