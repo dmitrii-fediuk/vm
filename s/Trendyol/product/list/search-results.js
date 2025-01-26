@@ -69,6 +69,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
 ;
+// 2025-01-26
+// language=CSS
+GM_addStyle([
+	'.p-card-chldrn-cntnr'
+]
+	 // language=Javascript
+	.join(',') + '{box-shadow: none !important;}')
+;
 // 2025-01-26 https://chatgpt.com/c/67959338-9f94-800c-a07a-1d6ae0a28ec8
 // language=CSS
 GM_addStyle([
