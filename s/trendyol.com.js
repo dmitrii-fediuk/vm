@@ -374,6 +374,14 @@ else if (location.pathname.startsWith(('/sr/'))) {
 	// 2025-01-26 https://chatgpt.com/c/67959338-9f94-800c-a07a-1d6ae0a28ec8
 	// language=CSS
 	GM_addStyle([
+		'.product-desc-sub-text'
+	]
+		 // language=Javascript
+		.join(',') + '{white-space: initial !important;}')
+	;
+	// 2025-01-26 https://chatgpt.com/c/67959338-9f94-800c-a07a-1d6ae0a28ec8
+	// language=CSS
+	GM_addStyle([
 		'.p-card-wrppr'
 	]
 		// language=Javascript
