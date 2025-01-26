@@ -12,6 +12,9 @@
 GM_addStyle([
 	'#header'
 	,'.category-top-ranking-image'
+	,'.fvrt-btn-wrppr'
+	,'.image-badge-wrapper'
+	,'.social-proof-container'
 	,'[data-fragment-name="Navigation"]'
 ]
 	 // language=Javascript
@@ -21,9 +24,6 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.category-top-ranking-header-wrapper'
-	,'.fvrt-btn-wrppr'
-	,'.image-badge-wrapper'
-	,'.social-proof-container'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
