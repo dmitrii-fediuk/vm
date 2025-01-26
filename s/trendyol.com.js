@@ -322,7 +322,7 @@ else if (location.pathname.startsWith(('/sr/'))) {
 	// language=CSS
 	GM_addStyle([
 		'.fvrt-btn-wrppr'
-		,'.image-overlay-header'
+		,'.image-overlay'
 		,'.price-promotion-container > :not(.prc-cntnr)'
 		,'.prvs-pg-bttn-wrppr'
 		,'.quick-look-container'
