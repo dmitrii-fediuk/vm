@@ -34,6 +34,14 @@ GM_addStyle([
 // 2025-01-26
 // language=CSS
 GM_addStyle([
+	'.product-down'
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
+// 2025-01-26
+// language=CSS
+GM_addStyle([
 	'.p-card-img'
 	,'.p-card-wrppr' // 2025-01-26 https://chatgpt.com/c/67959338-9f94-800c-a07a-1d6ae0a28ec8
 	,'.search-app-container'
