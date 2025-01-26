@@ -34,7 +34,8 @@ GM_addStyle([
 // 2025-01-26
 // language=CSS
 GM_addStyle([
-	'.p-card-wrppr' // 2025-01-26 https://chatgpt.com/c/67959338-9f94-800c-a07a-1d6ae0a28ec8
+	'.p-card-img'
+	,'.p-card-wrppr' // 2025-01-26 https://chatgpt.com/c/67959338-9f94-800c-a07a-1d6ae0a28ec8
 	,'.search-app-container'
 	,'.srch-prdcts-cntnr'
 	,'.srch-rslt-cntnt' // 2025-01-26 https://chatgpt.com/c/67959338-9f94-800c-a07a-1d6ae0a28ec8
@@ -90,6 +91,20 @@ GM_addStyle([
 			//,'border': '1px solid red'
 			'flex': '0 0 calc(20% - 0.5rem)'
 			,'width': 'calc(20% - 0.5rem)'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-01-26
+// language=CSS
+GM_addStyle([
+	'.p-card-img'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			// language=Javascript
+			'height': '184px'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
