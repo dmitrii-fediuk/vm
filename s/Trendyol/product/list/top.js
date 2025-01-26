@@ -65,6 +65,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.pr-bx-w'
+	,'.product-card-header'
 	,'.rating-container'
 	,productCard
 ]
