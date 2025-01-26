@@ -16,6 +16,7 @@ GM_addStyle([
 	,'.image-badge-wrapper'
 	,'.lowest-price'
 	,'.social-proof-container'
+	,'.star-w'
 	,':has(> .ctr-stmp-box-wrppr)'
 	,'[data-fragment-name="Navigation"]'
 ]
