@@ -70,6 +70,14 @@ GM_addStyle([
 // 2025-01-26
 // language=CSS
 GM_addStyle([
+	'.category-top-ranking-header-wrapper'
+]
+	 // language=Javascript
+	.join(',') + '{background: none !important;}')
+;
+// 2025-01-26
+// language=CSS
+GM_addStyle([
 	'.product-listing-container'
 ]
 	// language=Javascript
