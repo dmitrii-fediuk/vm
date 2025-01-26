@@ -32,6 +32,7 @@ const productCard = [
 // language=CSS
 GM_addStyle([
 	'.category-top-ranking-header-wrapper'
+	,'.image-container'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
