@@ -70,7 +70,7 @@ GM_addStyle([
 // 2025-01-26
 // language=CSS
 GM_addStyle([
-	'.product-card'
+	productCard
 ]
 	// language=Javascript
 	.join(',') + '{' +
