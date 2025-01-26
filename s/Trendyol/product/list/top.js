@@ -21,16 +21,16 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.category-top-ranking-header-wrapper'
+	,'.fvrt-btn-wrppr'
+	,'.image-badge-wrapper'
+	,'.social-proof-container'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
 // 2025-01-26
 GM_addStyle([
-	'.fvrt-btn-wrppr'
-	,'.image-badge-wrapper'
-	,'.product-listing-container'
-	,'.social-proof-container'
+	'.product-listing-container'
 ]
 	 // language=Javascript
 	.join(',') + '{min-width: initial !important; width: initial !important;}')
