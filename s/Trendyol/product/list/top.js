@@ -38,9 +38,14 @@ GM_addStyle([
 	.join(',') + '{min-width: initial !important; width: initial !important;}')
 ;
 // 2025-01-26
+const productCard = [
+	// language=CSS
+	'#category-top-ranking > .category-top-ranking-container > .infinite-scroll'
+	,'.product-listing-container > .product-card'
+].join(' ');
 // language=CSS
 GM_addStyle([
-	'#category-top-ranking > .category-top-ranking-container > .infinite-scroll .product-listing-container > .product-card'
+	productCard
 ]
 	 // language=Javascript
 	.join(',') + '{height: initial !important; min-height: initial !important;}')
