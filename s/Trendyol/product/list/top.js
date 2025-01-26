@@ -83,11 +83,9 @@ GM_addStyle([
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
-		Object.entries({
-			'height': 'initial'
-			,'max-height': 'initial'
-			,'min-height': 'initial'
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+		['height', 'max-height',' min-height']
+			// language=Javascript
+			.map(k => `${k}: initial !important;`).join(' ') +
 	'}'
 );
 // 2025-01-26
