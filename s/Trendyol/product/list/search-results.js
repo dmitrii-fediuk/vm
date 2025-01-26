@@ -45,12 +45,20 @@ GM_addStyle([
 // 2025-01-26
 // language=CSS
 GM_addStyle([
-	'.price-promotion-container'
+	'.image-container'
+	,'.price-promotion-container'
 	,'.product-down'
 ]
-	 // language=Javascript
-	.join(',') + '{min-height: auto !important;}')
-;
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'height': 'initial'
+			,'max-height': 'initial'
+			,'min-height': 'initial'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 // 2025-01-26
 // language=CSS
 GM_addStyle([
