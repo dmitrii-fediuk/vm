@@ -27,7 +27,8 @@ GM_addStyle([
 ;
 // 2025-01-26
 GM_addStyle([
-	'.product-listing-container'
+	'.fvrt-btn-wrppr'
+	,'.product-listing-container'
 	,'.social-proof-container'
 ]
 	 // language=Javascript
