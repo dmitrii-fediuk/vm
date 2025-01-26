@@ -14,6 +14,7 @@ GM_addStyle([
 	,'.category-top-ranking-image'
 	,'.fvrt-btn-wrppr'
 	,'.image-badge-wrapper'
+	,'.lowest-price'
 	,'.social-proof-container'
 	,':has(> .ctr-stmp-box-wrppr)'
 	,'[data-fragment-name="Navigation"]'
