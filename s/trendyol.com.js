@@ -388,10 +388,10 @@ else if (location.pathname.startsWith(('/sr/'))) {
 		.join(',') + '{' +
 			// language=CSS
 			Object.entries({
-				'background': 'yellow'
+				//'background': 'yellow'
 				// language=Javascript
-				,'border': '1px solid red'
-				,'flex': '0 0 calc(20% - 0.5rem)'
+				//,'border': '1px solid red'
+				'flex': '0 0 calc(20% - 0.5rem)'
 				,'width': 'calc(20% - 0.5rem)'
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
