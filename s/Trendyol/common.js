@@ -56,17 +56,3 @@ GM_addStyle([
 // 2025-01-01
 // language=CSS
 GM_addStyle('body {padding-left: 1rem !important;}');
-// 2024-12-31
-if (location.pathname.startsWith(('/hesabim/siparislerim'))) {
-	// 2024-12-31
-	// language=CSS
-	GM_addStyle([
-		'.account-layout-container > .left'
-	]
-		 // language=Javascript
-		.join(',') + '{display: none !important;}')
-	;
-	// 2024-12-31
-	// language=CSS
-	GM_addStyle('.account-layout-container > .right {float: none !important;}');
-}
