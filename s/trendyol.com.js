@@ -395,7 +395,7 @@ else if (location.pathname.startsWith(('/sr/'))) {
 		GM_addStyle([
 			'#header'
 			,'#sticky-aggregations'
-			,'.srch-rslt-title'
+			,'.srch-prdcts-cntnr > :not(.infinite-scroll)'
 			,'[data-fragment-name="Navigation"]'
 		]
 			 // language=Javascript
