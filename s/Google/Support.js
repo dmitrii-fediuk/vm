@@ -13,7 +13,7 @@ GM_addStyle([
 	,'.side-container'
 	,'.sub-article-container'
 	,'[id^=notification-overflow-]'
-	,':has( > sc-client-feedback-inline-feedback-link)'
+	,'div:has(> sc-client-feedback-inline-feedback-link)'
 	,'footer'
 	,'header[role="none"]'
 ]
