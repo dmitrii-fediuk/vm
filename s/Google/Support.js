@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'#notification-overflow-panel-container'
+	,'header[role="banner"] + div'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
