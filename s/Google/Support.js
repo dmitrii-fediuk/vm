@@ -11,6 +11,7 @@
 GM_addStyle([
 	'.side-container'
 	,'[id^=notification-overflow-]'
+	,'footer'
 	,'header[role="none"]'
 ]
 	 // language=Javascript
