@@ -13,10 +13,11 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
-// 2024-12-31
+// 2025-02-04
 // language=CSS
 GM_addStyle([
+	'header'
 ]
 	 // language=Javascript
-	.join(',') + '{display: initial !important;}')
+	.join(',') + '{position: initial !important;}')
 ;
