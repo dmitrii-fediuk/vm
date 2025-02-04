@@ -10,7 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'[id^=notification-overflow-]'
-	,'header[role="banner"] + div'
+	,'header[role="none"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -18,7 +18,7 @@ GM_addStyle([
 // 2025-02-04
 // language=CSS
 GM_addStyle([
-	'header'
+	//'header'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
