@@ -9,7 +9,8 @@
 // 2025-02-04 "Improve `support.google.com`": https://github.com/dmitrii-fediuk/vm/issues/87
 // language=CSS
 GM_addStyle([
-	'[id^=notification-overflow-]'
+	'.side-container'
+	,'[id^=notification-overflow-]'
 	,'header[role="none"]'
 ]
 	 // language=Javascript
