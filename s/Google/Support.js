@@ -8,3 +8,15 @@
 // ==/UserScript==
 // 2025-02-04 "Improve `support.google.com`": https://github.com/dmitrii-fediuk/vm/issues/87
 // language=CSS
+GM_addStyle([
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
+// 2024-12-31
+// language=CSS
+GM_addStyle([
+]
+	 // language=Javascript
+	.join(',') + '{display: initial !important;}')
+;
