@@ -13,6 +13,7 @@ GM_addStyle([
 	,'[id^=notification-overflow-]'
 	,'footer'
 	,'header[role="none"]'
+	,'.main-content > :not(article)'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -20,7 +21,6 @@ GM_addStyle([
 // 2025-02-04
 // language=CSS
 GM_addStyle([
-	//'header'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
