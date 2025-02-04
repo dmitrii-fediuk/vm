@@ -23,7 +23,24 @@ GM_addStyle([
 // 2025-02-04
 // language=CSS
 GM_addStyle([
+	'article'
 ]
 	 // language=Javascript
-	.join(',') + '{position: initial !important;}')
+	.join(',') + '{margin: 0 !important;}')
+;
+// 2025-02-04
+// language=CSS
+GM_addStyle([
+	'article'
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
+// 2025-02-04
+// language=CSS
+GM_addStyle([
+	'article'
+]
+	 // language=Javascript
+	.join(',') + '{border: 0 !important;}')
 ;
