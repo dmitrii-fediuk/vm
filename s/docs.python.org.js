@@ -18,7 +18,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.mobile-nav'
-	,'.nav-content'
+	//,'.nav-content'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
