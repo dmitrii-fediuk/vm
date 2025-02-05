@@ -17,11 +17,17 @@ GM_addStyle([
 // 2025-02-05
 // language=CSS
 GM_addStyle([
-	'.mobile-nav'
-	//,'.nav-content'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
+;
+// 2025-02-05
+// language=CSS
+GM_addStyle([
+	'.mobile-nav'
+]
+	 // language=Javascript
+	.join(',') + '{position: absolute !important;}')
 ;
 // 2025-02-05
 // language=CSS
