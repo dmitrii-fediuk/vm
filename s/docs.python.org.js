@@ -9,6 +9,7 @@
 // 2025-02-05 "Improve `docs.python.org`": https://github.com/dmitrii-fediuk/vm/issues/88
 // language=CSS
 GM_addStyle([
+	'.footer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
