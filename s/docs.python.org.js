@@ -16,6 +16,7 @@ GM_addStyle([
 // 2025-02-05
 // language=CSS
 GM_addStyle([
+	'.mobile-nav'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
