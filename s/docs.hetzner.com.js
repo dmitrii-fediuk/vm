@@ -34,9 +34,6 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.container'
-	,'h2'
-	,'h3'
-	,'p'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -72,3 +69,14 @@ GM_addStyle([
 // 2025-02-08
 // language=CSS
 GM_addStyle('body {padding: 0 0.5rem !important;}');
+// 2025-02-08
+// language=CSS
+GM_addStyle([
+	'h2'
+	,'h3'
+	,'p'
+	,'pre'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0.25rem 0 !important;}')
+;
