@@ -66,3 +66,6 @@ GM_addStyle([
 			.map(k => `${k}: initial !important;`).join(' ') +
 	'}'
 );
+// 2025-02-08
+// language=CSS
+GM_addStyle('body {padding: 0 0.5rem !important;}');
