@@ -72,7 +72,8 @@ GM_addStyle('body {padding: 0 0.5rem !important;}');
 // 2025-02-08
 // language=CSS
 GM_addStyle([
-	'h2'
+	'.mb-5'
+	,'h2'
 	,'h3'
 	,'p'
 	,'pre'
