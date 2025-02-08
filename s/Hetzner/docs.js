@@ -1,10 +1,10 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/docs.hetzner.com.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Hetzner/docs.js
 // @icon https://docs.hetzner.com/favicon-32x32.png
 // @match *://docs.hetzner.com/*
-// @name docs.hetzner.com
+// @name Hetzner / Docs
 // ==/UserScript==
 // 2025-02-08 "Improve `docs.hetzner.com`": https://github.com/dmitrii-fediuk/vm/issues/89
 // language=CSS
