@@ -9,6 +9,7 @@
 // 2025-02-08 "Improve `docs.hetzner.com`": https://github.com/dmitrii-fediuk/vm/issues/89
 // language=CSS
 GM_addStyle([
+	'footer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
