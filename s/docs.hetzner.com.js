@@ -34,6 +34,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.container'
+	,'h2'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
