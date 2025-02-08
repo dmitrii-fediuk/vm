@@ -76,6 +76,7 @@ GM_addStyle([
 	,'h3'
 	,'p'
 	,'pre'
+	,'small'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0.25rem 0 !important;}')
