@@ -15,7 +15,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
-// 2025-02-05
+// 2025-02-08
 // language=CSS
 GM_addStyle([
 	'nav'
@@ -23,31 +23,46 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
-// 2025-02-05
+// 2025-02-08
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{position: absolute !important;}')
 ;
-// 2025-02-05
+// 2025-02-08
 // language=CSS
 GM_addStyle([
+	'.container'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
-// 2025-02-05
+// 2025-02-08
 // language=CSS
 GM_addStyle([
+	'.container'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
-// 2025-02-05
+// 2025-02-08
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
 ;
+// 2025-02-08
+// language=CSS
+GM_addStyle([
+	'.container'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['width', 'max-width',' min-width']
+			// language=Javascript
+			.map(k => `${k}: initial !important;`).join(' ') +
+	'}'
+);
