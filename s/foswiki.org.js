@@ -9,6 +9,7 @@
 // 2025-02-11 "Improve `foswiki.org`": https://github.com/dmitrii-fediuk/vm/issues/91
 // language=CSS
 GM_addStyle([
+	'.natScrollTop'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
