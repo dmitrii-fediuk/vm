@@ -18,7 +18,8 @@ GM_addStyle([
 // 2025-02-11
 // language=CSS
 GM_addStyle([
-	'.natTopBar'
+	'natNavToggle'
+	,'.natTopBar'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
