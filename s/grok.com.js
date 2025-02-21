@@ -18,8 +18,8 @@ GM_addStyle([
 // 2025-02-21
 // language=CSS
 GM_addStyle([
-	//'.top-0'
-	//'.bottom-0'
+	'.bottom-0'
+	,'.top-0'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
@@ -67,6 +67,20 @@ GM_addStyle([
 		['width', 'max-width',' min-width']
 			// language=Javascript
 			.map(k => `${k}: initial !important;`).join(' ') +
+	'}'
+);
+// 2025-02-22
+// language=CSS
+GM_addStyle([
+	'.bottom-0'
+	,'.top-0'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['bottom', 'left',' right', 'top']
+			// language=Javascript
+			.map(k => `${k}: auto !important;`).join(' ') +
 	'}'
 );
 // 2025-02-22
