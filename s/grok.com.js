@@ -69,7 +69,7 @@ GM_addStyle([
 			.map(k => `${k}: initial !important;`).join(' ') +
 	'}'
 );
-// 2025-02-22
+// 2025-02-22 https://chatgpt.com/c/67b8f0dc-df0c-800c-84ed-6b8a8d71d710
 // language=CSS
 GM_addStyle([
 	'.bottom-0'
