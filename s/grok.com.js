@@ -22,7 +22,7 @@ GM_addStyle([
 	,'.top-0'
 ]
 	 // language=Javascript
-	.join(',') + '{position: initial !important;}')
+	.join(',') + '{position: static !important;}')
 ;
 // 2025-02-21
 // language=CSS
