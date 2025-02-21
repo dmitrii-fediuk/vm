@@ -11,6 +11,7 @@
 GM_addStyle([
 	'.\\@container\\/main div[style^="padding-bottom"]'
 	//,'.\\@container\\/nav'
+	,':has( > h1.text-primary)'
 	,'button:has(> svg.lucide-chevron-down)'
 ]
 	 // language=Javascript
