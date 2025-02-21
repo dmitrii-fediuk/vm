@@ -9,7 +9,8 @@
 // 2025-02-21 "Improve `grok.com`": https://github.com/dmitrii-fediuk/vm/issues/92
 // language=CSS
 GM_addStyle([
-	'.\\@container\\/nav'
+	'.\\@container\\/main div[style^="padding-bottom"]'
+	,'.\\@container\\/nav'
 	,'button:has(> svg.lucide-chevron-down)'
 ]
 	 // language=Javascript
@@ -33,13 +34,6 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
-;
-// 2025-02-21
-// language=CSS
-GM_addStyle([
-]
-	 // language=Javascript
-	.join(',') + '{border: 0 !important;}')
 ;
 // 2025-02-21
 // language=CSS
@@ -77,10 +71,7 @@ GM_addStyle('.max-w-\\[50rem\\] {max-width: initial !important;}');
 // 2025-02-22
 // language=CSS
 GM_addStyle(':has(> form.bottom-0) {padding-bottom: 0.25rem !important;}');
-// 2025-02-22 https://grok.com/chat/16a85b97-a902-4aba-a531-fdb131572c0c
-// language=CSS
-//GM_addStyle('.bottom-0 {margin: 0 auto; !important;}');
-// 2025-02-22 https://grok.com/chat/16a85b97-a902-4aba-a531-fdb131572c0c
+// 2025-02-22 https://chatgpt.com/c/67b8fea1-5c7c-800c-acb7-7be0480d93dd
 // language=CSS
 GM_addStyle('.\\@container\\/main > .h-full {height: auto !important; overflow: visible !important;}');
 // language=CSS
