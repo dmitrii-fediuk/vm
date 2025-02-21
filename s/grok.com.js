@@ -86,3 +86,6 @@ GM_addStyle(':has(> form.bottom-0) {padding-bottom: 0.25rem !important;}');
 GM_addStyle('.h-full {height: auto !important; overflow: visible !important;}');
 // language=CSS
 GM_addStyle('.\\@container\\/main > .bottom-0 {width: 100% !important;}');
+// 2025-02-22
+// language=CSS
+GM_addStyle('.\\@container\\/input {padding-bottom: 0 !important;}');
