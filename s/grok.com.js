@@ -70,7 +70,7 @@ GM_addStyle([
 GM_addStyle('.\\@container\\/main > div {padding: 0.25rem !important;}');
 // 2025-02-22
 // language=CSS
-GM_addStyle('.message-bubble {padding: 0.5rem !important;}');
+GM_addStyle('.message-bubble {padding: 0.5rem 0 !important;}');
 // 2025-02-22
 // language=CSS
 GM_addStyle('.message-row {padding: 0 0.5rem !important;}');
