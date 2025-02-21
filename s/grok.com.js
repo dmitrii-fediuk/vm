@@ -73,6 +73,9 @@ GM_addStyle('.\\@container\\/main > div {padding: 0.25rem !important;}');
 GM_addStyle('.message-bubble {padding: 0.5rem !important;}');
 // 2025-02-22
 // language=CSS
+GM_addStyle('.message-row {padding: 0 0.5rem !important;}');
+// 2025-02-22
+// language=CSS
 GM_addStyle('.max-w-\\[50rem\\] {max-width: initial !important;}');
 // 2025-02-22
 // language=CSS
