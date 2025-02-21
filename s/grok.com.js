@@ -27,20 +27,6 @@ GM_addStyle([
 // 2025-02-21
 // language=CSS
 GM_addStyle([
-]
-	 // language=Javascript
-	.join(',') + '{position: absolute !important;}')
-;
-// 2025-02-21
-// language=CSS
-GM_addStyle([
-]
-	 // language=Javascript
-	.join(',') + '{margin: 0 !important;}')
-;
-// 2025-02-21
-// language=CSS
-GM_addStyle([
 	'.message-row'
 	,'.pt-20'
 	,'form.bottom-0 textarea'
@@ -96,6 +82,6 @@ GM_addStyle(':has(> form.bottom-0) {padding-bottom: 0.25rem !important;}');
 //GM_addStyle('.bottom-0 {margin: 0 auto; !important;}');
 // 2025-02-22 https://grok.com/chat/16a85b97-a902-4aba-a531-fdb131572c0c
 // language=CSS
-GM_addStyle('.\\@container\\/main > .h-full {height: auto !important;}');
+//GM_addStyle('.\\@container\\/main > .h-full {height: auto !important;}');
 // language=CSS
 GM_addStyle('.\\@container\\/main > .bottom-0 {width: 100% !important;}');
