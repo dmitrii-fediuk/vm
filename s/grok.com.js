@@ -10,7 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.\\@container\\/main div[style^="padding-bottom"]'
-	,'.\\@container\\/nav'
+	//,'.\\@container\\/nav'
 	,'button:has(> svg.lucide-chevron-down)'
 ]
 	 // language=Javascript
