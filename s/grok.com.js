@@ -42,6 +42,7 @@ GM_addStyle([
 GM_addStyle([
 	//'.message-bubble'
 	'.message-row'
+	,'.pt-20'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
