@@ -9,6 +9,7 @@
 // 2025-02-11 "Improve `grok.com`": https://github.com/dmitrii-fediuk/vm/issues/92
 // language=CSS
 GM_addStyle([
+	'.\\@container\\/nav'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -16,8 +17,7 @@ GM_addStyle([
 // 2025-02-11
 // language=CSS
 GM_addStyle([
-	'.top-0'
-	,'.\\@container\\/nav'
+	//'.top-0'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
