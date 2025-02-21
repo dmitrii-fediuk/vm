@@ -41,6 +41,7 @@ GM_addStyle([
 GM_addStyle([
 	'.max-w-3xl'
 	,'.sm\\:max-w-\\[90\\%\\]'
+	,'main  > *'
 ]
 	// language=Javascript
 	.join(',') + '{' +
