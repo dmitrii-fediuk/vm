@@ -68,3 +68,6 @@ GM_addStyle([
 			.map(k => `${k}: initial !important;`).join(' ') +
 	'}'
 );
+// 2025-02-22
+// language=CSS
+GM_addStyle('.\\@container\\/nav > div {padding: 0 0.25rem !important;}');
