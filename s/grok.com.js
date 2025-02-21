@@ -70,4 +70,4 @@ GM_addStyle([
 );
 // 2025-02-22
 // language=CSS
-GM_addStyle('.\\@container\\/nav > div {padding: 0 0.25rem !important;}');
+GM_addStyle('.\\@container\\/main > div {padding: 0 0.25rem !important;}');
