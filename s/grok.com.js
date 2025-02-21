@@ -18,7 +18,7 @@ GM_addStyle([
 // 2025-02-21
 // language=CSS
 GM_addStyle([
-	'.bottom-0'
+	'form.bottom-0'
 	,'.top-0'
 ]
 	 // language=Javascript
