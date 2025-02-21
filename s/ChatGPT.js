@@ -9,7 +9,7 @@
 // 2024-10-08 "Improve the appearance of ChatGPT": https://github.com/dmitrii-fediuk/vm/issues/51
 // language=CSS
 GM_addStyle([
-	'#composer-background .min-w-8:has([data-testid="composer-speech-button"])'
+	'[data-testid="composer-speech-button"]'
 	,'.composer-parent ~ .absolute' // The «?» sticky button
 	,'.composer-parent div:has(> div > ul > li > button > svg)'
 	// 2024-12-03
