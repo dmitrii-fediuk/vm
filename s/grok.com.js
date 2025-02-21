@@ -42,7 +42,8 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	//'.message-bubble'
-	'.message-row'
+	'.bottom-0 textarea'
+	,'.message-row'
 	,'.pt-20'
 ]
 	 // language=Javascript
