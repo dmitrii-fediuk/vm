@@ -16,6 +16,7 @@ GM_addStyle([
 // 2025-02-11
 // language=CSS
 GM_addStyle([
+	'.top-0'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
