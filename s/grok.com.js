@@ -40,6 +40,7 @@ GM_addStyle([
 // 2025-02-21
 // language=CSS
 GM_addStyle([
+	'.message-row'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
