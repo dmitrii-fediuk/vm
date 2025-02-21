@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.\\@container\\/main div[style^="padding-bottom"]'
+	,'.\\@container\\/nav .start-1'
 	,'form.bottom-0 + div:has(.lucide-file-text)'
 	,':has( > h1.text-primary)'
 	,'button:has(> svg.lucide-chevron-down)'
