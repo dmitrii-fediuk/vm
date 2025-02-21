@@ -19,7 +19,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	//'.top-0'
-	'.bottom-0'
+	//'.bottom-0'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
