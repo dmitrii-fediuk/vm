@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.\\@container\\/nav'
+	,'button:has(> svg.lucide-chevron-down)'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
