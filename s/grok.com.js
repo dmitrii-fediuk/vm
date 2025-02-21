@@ -93,7 +93,7 @@ GM_addStyle('.max-w-\\[50rem\\] {max-width: initial !important;}');
 GM_addStyle(':has(> form.bottom-0) {padding-bottom: 0.25rem !important;}');
 // 2025-02-22 https://grok.com/chat/16a85b97-a902-4aba-a531-fdb131572c0c
 // language=CSS
-GM_addStyle('.bottom-0 {margin: 0 auto; !important;}');
+//GM_addStyle('.bottom-0 {margin: 0 auto; !important;}');
 // 2025-02-22 https://grok.com/chat/16a85b97-a902-4aba-a531-fdb131572c0c
 // language=CSS
 //GM_addStyle('.\\@container\\/main > .h-full {height: calc(100% - 96px);}');
