@@ -30,7 +30,7 @@ GM_addStyle([
 // 2025-03-01
 // language=CSS
 GM_addStyle([
-	'#breadcrumb'
+	'#breadcrumb', 'h1'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
