@@ -56,4 +56,4 @@ GM_addStyle([
 );
 // 2025-03-01
 // language=CSS
-GM_addStyle('body {padding: 0 0.5rem !important;}');
+GM_addStyle('body {padding: 0 0.75rem !important;}');
