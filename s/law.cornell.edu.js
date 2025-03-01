@@ -40,6 +40,8 @@ GM_addStyle([
 // 2025-03-01
 // language=CSS
 GM_addStyle([
+	'#main'
+	,'.row'
 ]
 	// language=Javascript
 	.join(',') + '{' +
