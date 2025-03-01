@@ -17,10 +17,17 @@ GM_addStyle([
 // 2025-03-01
 // language=CSS
 GM_addStyle([
-	//'.navbar-fixed-top'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
+;
+// 2025-03-01
+// language=CSS
+GM_addStyle([
+	'#breadcrumb'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
 ;
 // 2025-03-01
 // language=CSS
