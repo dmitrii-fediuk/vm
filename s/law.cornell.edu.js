@@ -38,7 +38,7 @@ GM_addStyle([
 // 2025-03-01
 // language=CSS
 GM_addStyle([
-	'.breadcrumb', '.section', '.tab-content'
+	'.breadcrumb', '.section', '.tab-content', '.tabbable-panel'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
