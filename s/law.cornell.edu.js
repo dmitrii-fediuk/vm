@@ -13,6 +13,7 @@ GM_addStyle([
 	,'#prevnext'
 	,'.nav-tabs'
 	,'aside'
+	,'body > br'
 	,'footer'
 	,'header'
 ]
