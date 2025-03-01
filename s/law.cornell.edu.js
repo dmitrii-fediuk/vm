@@ -9,7 +9,12 @@
 // 2025-03-01 "Improve `law.cornell.edu`": https://github.com/dmitrii-fediuk/vm/issues/93
 // language=CSS
 GM_addStyle([
-	'#page-bottom', '#prevnext', 'aside', 'footer', 'header'
+	'#page-bottom'
+	,'#prevnext'
+	,'.nav-tabs'
+	,'aside'
+	,'footer'
+	,'header'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
