@@ -4,7 +4,7 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/law.cornell.edu.js
 // @icon https://www.law.cornell.edu/sites/www.law.cornell.edu/files/favicon_0.ico
 // @match *://www.law.cornell.edu/*
-// @name grok.com
+// @name law.cornell.edu
 // ==/UserScript==
 // 2025-03-01 "Improve `law.cornell.edu`": https://github.com/dmitrii-fediuk/vm/issues/93
 // language=CSS
