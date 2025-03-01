@@ -32,7 +32,7 @@ GM_addStyle([
 // 2025-03-01
 // language=CSS
 GM_addStyle([
-	'.breadcrumb'
+	'.breadcrumb', '.section'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
