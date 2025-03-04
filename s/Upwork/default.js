@@ -21,8 +21,8 @@ GM_addStyle([
 	//  1) «Our records indicate that one or more of your payment methods on file
 	//  is associated with Russia or Belarus».
 	// 1) https://support.upwork.com/hc/en-us/requests/51272840
-	//,'div:has(> .up-smf:has([data-test="UpCAlert"]:has(a[href="https://www.upwork.com/nx/payments/deposit-methods"])))'
-	,'[data-test="UpCAlert"]:has(a[href="https://www.upwork.com/nx/payments/deposit-methods"])'
+	,'div:has(> .up-smf [data-test="UpCAlert"] a[href="https://www.upwork.com/nx/payments/deposit-methods"])'
+	//,'[data-test="UpCAlert"]:has(a[href="https://www.upwork.com/nx/payments/deposit-methods"])'
 	,'footer.up-footer'
 ]
 	 // language=Javascript
