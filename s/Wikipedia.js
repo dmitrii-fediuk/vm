@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.mw-footer-container'
+	,'.vector-header-start'
 	,'.vector-sitenotice-container' // 2025-03-05
 ]
 	 // language=Javascript
