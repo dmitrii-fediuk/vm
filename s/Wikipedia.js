@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.mw-footer-container'
+	,'.sistersitebox'
 	,'.vector-header-start'
 	,'.vector-sitenotice-container'
 ]
