@@ -31,7 +31,8 @@ GM_addStyle([
 // 2025-01-04
 // language=CSS
 GM_addStyle([
-	'.sticky:has(~ article)'
+	'.sticky' // 2025-03-05
+	,'.sticky:has(~ article)'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
