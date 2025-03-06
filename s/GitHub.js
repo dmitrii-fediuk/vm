@@ -22,6 +22,7 @@ GM_addStyle([
 	,'.gh-header-shadow'
 	,'.js-sticky'
 	,'.position-sticky'
+	,':has(> nav)'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
