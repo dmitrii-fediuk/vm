@@ -16,6 +16,7 @@ GM_addStyle([
 // 2025-03-07
 // language=CSS
 GM_addStyle([
+	'.pup-header-main'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
