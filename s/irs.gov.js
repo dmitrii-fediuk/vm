@@ -18,6 +18,13 @@ GM_addStyle([
 GM_addStyle([
 ]
 	 // language=Javascript
+	.join(',') + '{position: initial !important;}')
+;
+// 2025-03-07
+// language=CSS
+GM_addStyle([
+]
+	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
 // 2025-03-07
