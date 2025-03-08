@@ -11,7 +11,7 @@
 // language=CSS
 GM_addStyle([
 	'#new_comment_form ~ div:has(a[href$="github-community-guidelines"])'
-	'footer.footer'
+	,'footer.footer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
