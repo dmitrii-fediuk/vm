@@ -61,4 +61,4 @@ GM_addStyle([
 );
 // 2025-02-22 https://chatgpt.com/c/67b8fea1-5c7c-800c-acb7-7be0480d93dd
 // language=CSS
-GM_addStyle('.height-full {height: auto !important; overflow: visible !important;}');
+//GM_addStyle('.height-full {height: auto !important; overflow: visible !important;}');
