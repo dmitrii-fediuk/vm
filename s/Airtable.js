@@ -46,3 +46,6 @@ GM_addStyle([
 			.map(k => `${k}: initial !important;`).join(' ') +
 	'}'
 );
+// 2025-02-22 https://chatgpt.com/c/67b8fea1-5c7c-800c-acb7-7be0480d93dd
+// language=CSS
+GM_addStyle('header {height: auto !important; overflow: visible !important;}');
