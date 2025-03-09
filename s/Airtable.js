@@ -46,6 +46,19 @@ GM_addStyle([
 			.map(k => `${k}: initial !important;`).join(' ') +
 	'}'
 );
+// 2025-02-22 https://chatgpt.com/c/67b8f0dc-df0c-800c-84ed-6b8a8d71d710
+// language=CSS
+GM_addStyle([
+	'header ~ .flex'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['bottom', 'left',' right', 'top']
+			// language=Javascript
+			.map(k => `${k}: auto !important;`).join(' ') +
+	'}'
+);
 // 2025-02-22 https://chatgpt.com/c/67b8fea1-5c7c-800c-acb7-7be0480d93dd
 // language=CSS
 GM_addStyle('header {height: auto !important; overflow: visible !important;}');
