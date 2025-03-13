@@ -28,7 +28,8 @@ GM_addStyle([
 // 2025-03-13
 // language=CSS
 GM_addStyle([
-	'.mw-body'
+	'#footer'
+	,'.mw-body'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
