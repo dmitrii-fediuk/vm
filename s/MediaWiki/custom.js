@@ -62,3 +62,6 @@ GM_addStyle('h1 {margin: 0.5rem 0 !important;}');
 // 2025-03-13
 // language=CSS
 GM_addStyle('h2 {margin: 0.3rem 0 !important;}');
+// 2025-03-13
+// language=CSS
+GM_addStyle('h3 {margin: 0.2rem 0 !important;}');
