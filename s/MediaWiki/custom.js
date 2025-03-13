@@ -28,13 +28,6 @@ GM_addStyle([
 // 2025-03-13
 // language=CSS
 GM_addStyle([
-]
-	 // language=Javascript
-	.join(',') + '{position: initial !important;}')
-;
-// 2025-03-13
-// language=CSS
-GM_addStyle([
 	'.mw-body'
 ]
 	 // language=Javascript
@@ -42,32 +35,4 @@ GM_addStyle([
 ;
 // 2025-03-13
 // language=CSS
-GM_addStyle([
-]
-	 // language=Javascript
-	.join(',') + '{padding: 0 !important;}')
-;
-// 2025-03-13
-// language=CSS
-GM_addStyle([
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		['width', 'max-width',' min-width']
-			// language=Javascript
-			.map(k => `${k}: initial !important;`).join(' ') +
-	'}'
-);
-// 2025-02-22 https://chatgpt.com/c/67b8f0dc-df0c-800c-84ed-6b8a8d71d710
-// language=CSS
-GM_addStyle([
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		['bottom', 'left',' right', 'top']
-			// language=Javascript
-			.map(k => `${k}: auto !important;`).join(' ') +
-	'}'
-);
+GM_addStyle('.mw-body {padding: 0 1rem !important;}');
