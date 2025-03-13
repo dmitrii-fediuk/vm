@@ -53,3 +53,6 @@ GM_addStyle([
 // 2025-03-13
 // language=CSS
 GM_addStyle('.mw-body {padding: 0 1rem !important;}');
+// 2025-03-13
+// language=CSS
+GM_addStyle('.footer-info-lastmod {text-align: center !important;}');
