@@ -15,7 +15,8 @@ if (
 }
 // language=CSS
 GM_addStyle([
-	'#mw-head-base'
+	'#footer-info-copyright'
+	,'#mw-head-base'
 	,'#mw-navigation'
 	,'#mw-page-base'
 ]
