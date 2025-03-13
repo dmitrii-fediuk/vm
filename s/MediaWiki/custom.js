@@ -15,6 +15,7 @@ if (
 }
 // language=CSS
 GM_addStyle([
+	'#mw-page-base'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
