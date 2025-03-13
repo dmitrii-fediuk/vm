@@ -9,8 +9,7 @@
 // 2025-03-13 "Improve MediaWiki-based websites": https://github.com/dmitrii-fediuk/vm/issues/96
 if (
 	!document.querySelector('meta[name="generator"]')?.content?.startsWith('MediaWiki')
-	|| location.hostname.endsWith('wikipedia.org')
-	|| location.hostname.endsWith('wikimedia.org')
+	|| ['wikipedia.org', 'wikimedia.org'].some(v => location.hostname.endsWith(v))
 ) {
 	return;
 }
