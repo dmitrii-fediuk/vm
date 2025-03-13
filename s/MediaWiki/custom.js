@@ -15,7 +15,7 @@ if (
 }
 // language=CSS
 GM_addStyle([
-	'mw-head-base'
+	'#mw-head-base'
 	,'#mw-page-base'
 ]
 	 // language=Javascript
