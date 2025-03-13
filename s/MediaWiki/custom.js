@@ -3,7 +3,7 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/MediaWiki/custom.js
 // @icon https://www.mediawiki.org/static/apple-touch/mediawiki.png
-// @match *
+// @match *://*
 // @name MediaWiki / Custom
 // ==/UserScript==
 // 2025-03-13 "Improve MediaWiki-based websites": https://github.com/dmitrii-fediuk/vm/issues/96
