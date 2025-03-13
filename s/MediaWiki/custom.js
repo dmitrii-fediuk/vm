@@ -37,6 +37,14 @@ GM_addStyle([
 // 2025-03-13
 // language=CSS
 GM_addStyle([
+	'#footer'
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
+// 2025-03-13
+// language=CSS
+GM_addStyle([
 	'.mw-body'
 ]
 	 // language=Javascript
