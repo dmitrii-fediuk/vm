@@ -73,8 +73,8 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 		,'.o-productDetail ~ *'
 		,'footer'
 		,'header'
-		//,'nav'
-		,'.row:has(#breadcrumb)'
+		,'nav'
+		//,'.row:has(#breadcrumb)'
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
