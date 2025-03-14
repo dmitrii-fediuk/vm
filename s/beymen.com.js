@@ -78,4 +78,12 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
 	;
+	// 2025-03-15
+	// language=CSS
+	GM_addStyle([
+		'.o-productDetail'
+	]
+		 // language=Javascript
+		.join(',') + '{padding: 0 !important;}')
+	;
 }
