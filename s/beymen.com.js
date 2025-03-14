@@ -66,5 +66,15 @@ GM_addStyle([
 // 2.2) https://claude.ai/chat/a1ec8c21-cc1b-43b4-a336-b6f62f9bff00
 // 2.3) https://grok.com/chat/381ff6c1-7e42-4d95-a1fd-9b8c16bb7894
 if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
-	console.log('a product');
+	// language=CSS
+	GM_addStyle([
+		'.o-headerTop'
+		,'footer'
+		,'header'
+		,'nav'
+		,'.row:has(#breadcrumb)'
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
 }
