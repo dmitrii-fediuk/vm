@@ -11,6 +11,7 @@
 // language=CSS
 GM_addStyle([
 	'.btn-basket' // 2025-03-15
+	,'.color-options' // 2025-03-15
 	,'.fvrt-btn-wrppr'
 	,'.image-overlay'
 	,'.price-promotion-container > :not(.prc-cntnr)'
