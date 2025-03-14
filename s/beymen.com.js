@@ -60,3 +60,9 @@ GM_addStyle([
 			.map(k => `${k}: auto !important;`).join(' ') +
 	'}'
 );
+if ((new URL(url).pathname.split('/')[2])?.startsWith('p_')) {
+	console.log('a product');
+}
+else {
+	console.log('not a product');
+}
