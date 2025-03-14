@@ -9,6 +9,7 @@
 // 2025-03-15 "Improve `beymen.com`": https://github.com/dmitrii-fediuk/vm/issues/97
 // language=CSS
 GM_addStyle([
+	'#scrollToTop'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
