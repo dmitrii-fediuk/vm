@@ -61,12 +61,10 @@ GM_addStyle([
 	'}'
 );
 // 2025-03-15
-// 1) https://chatgpt.com/c/67d4bd43-dc54-8003-847b-ca9df75fe2b3
-// 2) https://claude.ai/chat/a1ec8c21-cc1b-43b4-a336-b6f62f9bff00
-// 3) https://grok.com/chat/381ff6c1-7e42-4d95-a1fd-9b8c16bb7894
+// 1) E.g.: «https://www.beymen.com/tr/p_jacadi-paris-kirik-beyaz-unisex-bebek-orta-boy-seyahat-cantasi_1654889»
+// 2.1) https://chatgpt.com/c/67d4bd43-dc54-8003-847b-ca9df75fe2b3
+// 2.2) https://claude.ai/chat/a1ec8c21-cc1b-43b4-a336-b6f62f9bff00
+// 2.3) https://grok.com/chat/381ff6c1-7e42-4d95-a1fd-9b8c16bb7894
 if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 	console.log('a product');
-}
-else {
-	console.log('not a product');
 }
