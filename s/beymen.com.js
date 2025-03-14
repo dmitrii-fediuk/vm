@@ -16,6 +16,7 @@ GM_addStyle([
 // 2025-03-15
 // language=CSS
 GM_addStyle([
+	'[data-sticky-header]'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
