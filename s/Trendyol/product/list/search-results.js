@@ -57,6 +57,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.image-container'
+	,'.price-label-wrapper' // 2025-03-15
 	,'.price-promotion-container'
 	,'.product-down'
 ]
