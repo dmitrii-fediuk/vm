@@ -101,8 +101,8 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			// language=Javascript
-			'flex': '0 0 20%'
-			,'width': '20%'
+			'flex': '0 0 25%'
+			,'width': '25%'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
