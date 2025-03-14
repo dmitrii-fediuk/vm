@@ -68,7 +68,8 @@ GM_addStyle([
 if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 	// language=CSS
 	GM_addStyle([
-		'.o-headerTop'
+		'.-deliveryTime ~ *'
+		,'.o-headerTop'
 		,'.o-productDetail ~ *'
 		,'footer'
 		,'header'
