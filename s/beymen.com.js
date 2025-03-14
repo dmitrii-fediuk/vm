@@ -74,7 +74,6 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 		,'footer'
 		,'header'
 		,'nav'
-		//,'.row:has(#breadcrumb)'
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
@@ -90,7 +89,8 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 	// 2025-03-15
 	// language=CSS
 	GM_addStyle([
-		'.o-productDetail'
+		'#breadcrumb > ol'
+		,'.o-productDetail'
 	]
 		 // language=Javascript
 		.join(',') + '{padding: 0 !important;}')
