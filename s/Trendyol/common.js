@@ -12,6 +12,7 @@ GM_addStyle([
 	'#collection-recommendation'
 	,'#headerMain > .wrapper'
 	,'#logo'
+	,'.banner' // 2025-03-15
 	,'.cobranded-card-offer-information'
 	,'.container-banners'
 	,'.installment-banner-image'
