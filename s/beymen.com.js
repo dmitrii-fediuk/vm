@@ -69,6 +69,8 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 	// language=CSS
 	GM_addStyle([
 		'.-deliveryTime ~ *'
+		,'.m-productInfo:has(.m-productInfo__show_more)'
+		,'.m-productInfo:has(.-oneCard)'
 		,'.o-headerTop'
 		,'.o-productDetail ~ *'
 		,'footer'
