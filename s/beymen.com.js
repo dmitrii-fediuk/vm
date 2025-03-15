@@ -129,5 +129,18 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 	'}');
 	// 2025-03-15
 	// language=CSS
-	GM_addStyle('.m-productDescription__infoWrapper * {font-size: 2rem !important;}');
+	GM_addStyle([
+		'.m-productDescription__infoWrapper *'
+	]
+		// language=Javascript
+		.join(',') + '{' +
+			// language=CSS
+			Object.entries({
+				'font-family': 'Segoie UI'
+				// language=Javascript
+				,'font-size': '2rem'
+				,'line-height': 1.2
+			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+		'}'
+	);
 }
