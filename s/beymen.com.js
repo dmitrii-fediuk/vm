@@ -85,6 +85,7 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 	// language=CSS
 	GM_addStyle([
 		'.m-productDescription'
+		,'.m-productDescription > .container'
 	]
 		 // language=Javascript
 		.join(',') + '{margin: 0 !important;}')
