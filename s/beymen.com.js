@@ -125,12 +125,12 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 	// 2025-03-15
 	// language=CSS
 	GM_addStyle('.m-productDescription__infoDesc br {' +
-		'content: ""; display: block !important; height: 1px !important;' +
+		'content: ""; display: block !important; height: 0.2rem !important;' +
 	'}');
 	// 2025-03-15
 	// language=CSS
 	GM_addStyle([
-		'.m-productDescription__infoWrapper *'
+		'.m-productDescription__infoWrapper'
 	]
 		// language=Javascript
 		.join(',') + '{' +
