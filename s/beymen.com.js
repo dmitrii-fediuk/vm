@@ -86,8 +86,7 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 	// 2025-03-15
 	// language=CSS
 	GM_addStyle([
-		'.m-colorsSlider'
-		,'.m-productDescription'
+		'.m-productDescription'
 		,'.m-productDescription > .container'
 	]
 		 // language=Javascript
@@ -129,6 +128,9 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 	GM_addStyle('.m-productDescription__infoDesc br {' +
 		'content: ""; display: block !important; height: 0.2rem !important;' +
 	'}');
+	// 2025-03-15
+	// language=CSS
+	GM_addStyle('.-detailWrapper > div {margin: 0.25rem 0 !important;}');
 	// 2025-03-15
 	// language=CSS
 	GM_addStyle('.m-productDescription__infoList > div {padding: 0.25rem 0 !important;}');
