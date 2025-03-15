@@ -86,7 +86,8 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 	// 2025-03-15
 	// language=CSS
 	GM_addStyle([
-		'.m-productDescription'
+		'.m-colorsSlider'
+		,'.m-productDescription'
 		,'.m-productDescription > .container'
 	]
 		 // language=Javascript
