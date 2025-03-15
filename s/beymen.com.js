@@ -73,6 +73,7 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 		,'.m-productInfo:has(.-oneCard)'
 		,'.o-headerTop'
 		,'.o-productDetail ~ *'
+		,':has(> .m-productDescription__titleWrapper)'
 		,'footer'
 		,'header'
 		,'nav'
