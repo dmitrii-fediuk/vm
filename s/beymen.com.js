@@ -71,7 +71,7 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 		'.-detailWrapper > .m-productDesc'
 		,'.m-accordion > :not(.-deliveryTime)'
 		,'.m-productDescription__infoImage'
-		,'.m-productDescription__infoItem:has(use[xlink\\:href="#icon-giftbox"])'
+		,'.m-productDescription__infoItem:has(svg)'
 		,'.m-productInfo:has(.m-productInfo__show_more)'
 		,'.m-productInfo:has(.-oneCard)'
 		,'.o-headerTop'
