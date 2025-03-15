@@ -93,6 +93,7 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 	// language=CSS
 	GM_addStyle([
 		'#breadcrumb > ol'
+		,'.m-productDescription > .container'
 		,'.m-productDescription__infoWrapper'
 		,'.o-productDetail'
 	]
