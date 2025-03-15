@@ -96,6 +96,7 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 	GM_addStyle([
 		'#breadcrumb > ol'
 		,'.m-productDescription > .container'
+		,'.m-productDescription__infoItem'
 		,'.m-productDescription__infoWrapper'
 		,'.o-productDetail'
 	]
