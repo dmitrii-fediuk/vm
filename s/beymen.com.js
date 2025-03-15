@@ -130,7 +130,7 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 	// 2025-03-15
 	// language=CSS
 	GM_addStyle([
-		'.m-productDescription__infoWrapper'
+		'.m-productDescription__infoWrapper *'
 	]
 		// language=Javascript
 		.join(',') + '{' +
