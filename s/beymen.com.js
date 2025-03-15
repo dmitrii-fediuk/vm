@@ -129,6 +129,9 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 	'}');
 	// 2025-03-15
 	// language=CSS
+	GM_addStyle('.m-productDescription__infoList > div {padding: 0.25rem 0 !important;}');
+	// 2025-03-15
+	// language=CSS
 	GM_addStyle([
 		'.m-productDescription__infoWrapper *'
 	]
