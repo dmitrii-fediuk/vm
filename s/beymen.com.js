@@ -122,4 +122,18 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
+	// 2025-03-15
+	// language=CSS
+	GM_addStyle(['.m-productDescription__infoDesc br']
+		// language=Javascript
+		.join(',') + '{' +
+			// language=CSS
+			Object.entries({
+				'content': ''
+				,'display': 'block'
+				// language=Javascript
+				,'height': '1px'
+			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+		'}'
+	);
 }
