@@ -108,6 +108,14 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 	// 2025-03-15
 	// language=CSS
 	GM_addStyle([
+		'.o-productDetail__description'
+	]
+		 // language=Javascript
+		.join(',') + '{line-height: 1.2 !important;}')
+	;
+	// 2025-03-15
+	// language=CSS
+	GM_addStyle([
 		'.m-productDescription__infoList'
 	]
 		// language=Javascript
