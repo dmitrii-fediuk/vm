@@ -127,4 +127,7 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 	GM_addStyle('.m-productDescription__infoDesc br {' +
 		'content: ""; display: block !important; height: 1px !important;' +
 	'}');
+	// 2025-03-15
+	// language=CSS
+	GM_addStyle('.m-productDescription__infoWrapper {font-size: 2rem !important;}');
 }
