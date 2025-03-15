@@ -16,6 +16,8 @@ GM_addStyle([
 // 2025-03-15
 // language=CSS
 GM_addStyle([
+	'#catalog-actions'
+	,'header'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
