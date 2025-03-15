@@ -115,8 +115,9 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 				.map(k => `${k}: initial !important;`).join(' ') +
 			// language=CSS
 			Object.entries({
+				'flex': 'initial'
 				// language=Javascript
-				'max-width': '100%'
+				,'max-width': '100%'
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
