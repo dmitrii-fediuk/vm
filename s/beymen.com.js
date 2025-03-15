@@ -124,16 +124,7 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 	);
 	// 2025-03-15
 	// language=CSS
-	GM_addStyle(['.m-productDescription__infoDesc br']
-		// language=Javascript
-		.join(',') + '{' +
-			// language=CSS
-			Object.entries({
-				'content': ''
-				,'display': 'block'
-				// language=Javascript
-				,'height': '1px'
-			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-		'}'
-	);
+	GM_addStyle('.m-productDescription__infoDesc br {' +
+		'content: ""; display: block !important; height: 1px !important;' +
+	'}');
 }
