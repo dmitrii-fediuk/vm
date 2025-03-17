@@ -84,6 +84,19 @@ GM_addStyle([
 );
 // language=CSS
 GM_addStyle('div:has(> [aria-label="search refinement"][role="toolbar"]) {height: 2rem !important;}');
+// language=CSS
+GM_addStyle([
+	'[aria-label="search refinement"][role="toolbar"]'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			// language=Javascript
+			'background': 'red'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 if (false) {
 	// language=CSS
 	GM_addStyle([
