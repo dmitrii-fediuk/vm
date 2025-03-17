@@ -82,7 +82,7 @@ if (true) {
 				//,'position': 'relative'
 				,'position': 'fixed'
 				,'top': 0
-				,'left': '2rem'
+				,'margin-left': '2rem'
 				//,'width': '10rem'
 				//,'height': '2rem'
 				,'z-index': 9999
