@@ -95,21 +95,3 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-if (false) {
-	// language=CSS
-	GM_addStyle([
-		'[aria-label="search refinement"][role="toolbar"]'
-	]
-		// language=Javascript
-		.join(',') + '{' +
-			// language=CSS
-			Object.entries({
-				// language=Javascript
-				'background': 'red'
-				,'margin-top': '-1rem'
-				,'position': 'relative'
-				,'z-index': 9999
-			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-		'}'
-	);
-}
