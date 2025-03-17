@@ -56,7 +56,9 @@ if (true) {
 			Object.entries({
 				// language=Javascript
 				'background': 'red'
-				,'z-index': 1000 
+				,'margin-top': '-1rem'
+				,'position': 'relative'
+				,'z-index': 1000
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
