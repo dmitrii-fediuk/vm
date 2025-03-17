@@ -58,7 +58,7 @@ if (true) {
 				'background': 'red'
 				,'margin-top': '-1rem'
 				,'position': 'relative'
-				,'z-index': 1000
+				,'z-index': 9999
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
@@ -78,7 +78,7 @@ if (true) {
 				'background': 'yellow'
 				,'margin-top': '-1rem'
 				,'position': 'relative'
-				,'z-index': 1000
+				,'z-index': 9999
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
