@@ -94,6 +94,7 @@ GM_addStyle([
 		Object.entries({
 			// language=Javascript
 			'background': 'red'
+			,'border': '1px solid green'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
