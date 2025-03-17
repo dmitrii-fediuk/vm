@@ -83,6 +83,7 @@ if (true) {
 				,'position': 'absolute'
 				,'top': 0
 				,'width': '10rem'
+				,'height': '2rem'
 				,'z-index': 9999
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
