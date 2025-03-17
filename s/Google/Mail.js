@@ -20,7 +20,7 @@ GM_addStyle([
 	,'[aria-label="New Message"] [command="signature"]' // 2024-12-03 «Insert signature»
 	,'[aria-label="New Message"] div:has(> div > div > [aria-label="Formatting options"])'
 	,'[aria-label="New Message"] td:has(> [aria-label="Formatting options"])'
-	,'[aria-label="search refinement"][role="toolbar"] + div :has([aria-label="Refresh"])' // 2025-03-17
+	,':has([aria-label="Refresh"])' // 2025-03-17
 	,'[aria-label="search refinement"][role="toolbar"] > *'
 	// 2024-12-02 The screen keyboard button on the mail list screen
 	,'[aria-label="Select input tool"]'
