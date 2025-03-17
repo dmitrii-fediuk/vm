@@ -95,6 +95,7 @@ GM_addStyle([
 			// language=Javascript
 			'background': 'red'
 			,'border': '3px solid green'
+			,'left': '4rem'
 			,'position': 'fixed'
 			,'top': 0
 			,'z-index': '999'
