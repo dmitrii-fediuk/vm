@@ -86,7 +86,7 @@ GM_addStyle([
 GM_addStyle('div:has(> [aria-label="search refinement"][role="toolbar"]) {height: 2rem !important;}');
 // language=CSS
 GM_addStyle([
-	'[aria-label="search refinement"][role="toolbar"]'
+	'div:has(> [aria-label="search refinement"][role="toolbar"])'
 ]
 	// language=Javascript
 	.join(',') + '{' +
