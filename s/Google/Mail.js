@@ -45,7 +45,7 @@ GM_addStyle('.hx .gs {padding: 0 !important;}');
 GM_addStyle('div:has(> [aria-label="search refinement"][role="toolbar"]) {height: auto !important;}');
 // language=CSS
 GM_addStyle('[aria-label="search refinement"][role="toolbar"] {margin: 0 !important;}');
-if (false) {
+if (true) {
 	// 2024-12-02
 	// 2025-03-17
 	// This is the toolbar with the «Report Spam» button above the inbox.
