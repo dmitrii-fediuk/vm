@@ -84,7 +84,7 @@ if (true) {
 				,'top': 0
 				,'margin-left': '2rem'
 				//,'width': '10rem'
-				//,'height': '2rem'
+				,'height': '2rem'
 				,'z-index': 9999
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
