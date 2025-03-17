@@ -57,6 +57,26 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// language=CSS
+//GM_addStyle('div:has(> [aria-label="search refinement"][role="toolbar"]) {height: 2rem !important;}');
+// language=CSS
+GM_addStyle([
+	'div:has(> [aria-label="search refinement"][role="toolbar"])'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			// language=Javascript
+			'background': 'red'
+			,'border': '3px solid green'
+			,'left': '4rem'
+			,'position': 'fixed'
+			,'top': 0
+			,'z-index': '999'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 // 2024-12-02
 // 2025-03-17
 // This is the toolbar with the «Report Spam» button above the inbox.
@@ -79,26 +99,6 @@ GM_addStyle([
 			//,'width': '10rem'
 			//,'height': '2rem'
 			,'z-index': 9999
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
-// language=CSS
-//GM_addStyle('div:has(> [aria-label="search refinement"][role="toolbar"]) {height: 2rem !important;}');
-// language=CSS
-GM_addStyle([
-	'div:has(> [aria-label="search refinement"][role="toolbar"])'
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
-			// language=Javascript
-			'background': 'red'
-			,'border': '3px solid green'
-			,'left': '4rem'
-			,'position': 'fixed'
-			,'top': 0
-			,'z-index': '999'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
