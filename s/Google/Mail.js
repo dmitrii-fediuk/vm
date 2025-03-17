@@ -95,6 +95,9 @@ GM_addStyle([
 			// language=Javascript
 			'background': 'red'
 			,'border': '3px solid green'
+			,'z-index': '999'
+			,'position': 'fixed'
+			,'top': 0
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
