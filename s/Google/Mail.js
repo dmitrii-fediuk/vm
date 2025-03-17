@@ -42,11 +42,12 @@ GM_addStyle([
 if (true) {
 		// language=CSS
 		GM_addStyle('.hx .gs {padding: 0 !important;}');
+		// language=CSS
+		GM_addStyle('[aria-label="search refinement"][role="toolbar"] {margin: 0 !important;}');
 	if (false) {
 		// language=CSS
 		GM_addStyle('div:has(> [aria-label="search refinement"][role="toolbar"]) {height: auto !important;}');
-		// language=CSS
-		GM_addStyle('[aria-label="search refinement"][role="toolbar"] {margin: 0 !important;}');
+
 		// language=CSS
 		GM_addStyle([
 			'[aria-label="search refinement"][role="toolbar"]'
