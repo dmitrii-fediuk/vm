@@ -71,8 +71,8 @@ GM_addStyle([
 		Object.entries({
 			// language=Javascript
 			'background': 'yellow'
-			//,'margin-top': '-1rem'
-			//,'position': 'relative'
+			,'margin-top': '-1rem'
+			,'position': 'relative'
 			//,'position': 'fixed'
 			//,'top': 0
 			//,'margin-left': '2rem'
