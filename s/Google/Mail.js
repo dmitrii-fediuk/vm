@@ -91,6 +91,7 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			'background': 'yellow'
+			,'height': 'initial'
 			//,'z-index': 9999
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
