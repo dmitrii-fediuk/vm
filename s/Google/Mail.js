@@ -80,7 +80,7 @@ if (true) {
 				'background': 'yellow'
 				//,'margin-top': '-1rem'
 				//,'position': 'relative'
-				,'position': 'absolute'
+				,'position': 'fixed'
 				,'top': 0
 				,'width': '10rem'
 				,'height': '2rem'
