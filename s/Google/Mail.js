@@ -40,53 +40,63 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
-if (true) {
+// 2025-03-17
+// language=CSS
+GM_addStyle([
+	'[aria-label="search refinement"][role="toolbar"]' // 2024-12-02
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
+// 2025-03-17
+// language=CSS
+GM_addStyle([
+	'.hx .gs' // 2024-12-02
+	,'div:has(> [aria-label="search refinement"][role="toolbar"])' // 2025-03-17
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
+// 2024-12-02
+// 2025-03-17
+// This is the toolbar with the «Report Spam» button above the inbox.
+// It is only displayed when some inbox items are selected.
+// language=CSS
+GM_addStyle([
+	'[aria-label="search refinement"][role="toolbar"] + div'
+]
+	// language=Javascript
+	.join(',') + '{' +
 		// language=CSS
-		GM_addStyle('.hx .gs {padding: 0 !important;}');
-		// language=CSS
-		GM_addStyle('[aria-label="search refinement"][role="toolbar"] {margin: 0 !important;}');
-	if (false) {
-		// language=CSS
-		GM_addStyle('div:has(> [aria-label="search refinement"][role="toolbar"]) {height: auto !important;}');
-
-		// language=CSS
-		GM_addStyle([
-			'[aria-label="search refinement"][role="toolbar"]'
-		]
+		Object.entries({
 			// language=Javascript
-			.join(',') + '{' +
-				// language=CSS
-				Object.entries({
-					// language=Javascript
-					'background': 'red'
-					,'margin-top': '-1rem'
-					,'position': 'relative'
-					,'z-index': 9999
-				}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-			'}'
-		);
-	}
-	// 2024-12-02
-	// 2025-03-17
-	// This is the toolbar with the «Report Spam» button above the inbox.
-	// It is only displayed when some inbox items are selected.
+			'background': 'yellow'
+			,'margin-top': '-1rem'
+			,'position': 'relative'
+			//,'position': 'fixed'
+			//,'top': 0
+			//,'margin-left': '2rem'
+			//,'width': '10rem'
+			//,'height': '2rem'
+			,'z-index': 9999
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+if (false) {
+	// language=CSS
+	GM_addStyle('div:has(> [aria-label="search refinement"][role="toolbar"]) {height: auto !important;}');
 	// language=CSS
 	GM_addStyle([
-		'[aria-label="search refinement"][role="toolbar"] + div'
+		'[aria-label="search refinement"][role="toolbar"]'
 	]
 		// language=Javascript
 		.join(',') + '{' +
 			// language=CSS
 			Object.entries({
 				// language=Javascript
-				'background': 'yellow'
+				'background': 'red'
 				,'margin-top': '-1rem'
 				,'position': 'relative'
-				//,'position': 'fixed'
-				//,'top': 0
-				//,'margin-left': '2rem'
-				//,'width': '10rem'
-				//,'height': '2rem'
 				,'z-index': 9999
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
