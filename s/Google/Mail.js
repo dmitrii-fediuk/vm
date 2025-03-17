@@ -72,8 +72,7 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			// language=Javascript
-			'border': '3px solid green'
-			,'left': '4rem'
+			'left': '4rem'
 			// language=CSS
 			,'position': 'fixed'
 			,'top': 0
