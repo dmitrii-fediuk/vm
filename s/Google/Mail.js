@@ -80,12 +80,12 @@ if (true) {
 				'background': 'yellow'
 				//,'margin-top': '-1rem'
 				//,'position': 'relative'
-				,'position': 'fixed'
-				,'top': 0
-				,'margin-left': '2rem'
+				//,'position': 'fixed'
+				//,'top': 0
+				//,'margin-left': '2rem'
 				//,'width': '10rem'
-				,'height': '2rem'
-				,'z-index': 9999
+				//,'height': '2rem'
+				//,'z-index': 9999
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
