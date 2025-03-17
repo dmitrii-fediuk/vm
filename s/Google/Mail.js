@@ -73,7 +73,7 @@ GM_addStyle([
 			,'left': '4rem'
 			,'position': 'fixed'
 			,'top': 0
-			,'z-index': '999'
+			,'z-index': 999
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
