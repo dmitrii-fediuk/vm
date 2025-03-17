@@ -23,7 +23,7 @@ GM_addStyle([
 	,'[aria-label="search refinement"][role="toolbar"] + div :has(> [data-tooltip="More"])' // 2025-03-17
 	,'[aria-label="search refinement"][role="toolbar"] + div :has(> [data-tooltip="Refresh"])' // 2025-03-17
 	// 2025-03-17
-	,'[aria-label="search refinement"][role="toolbar"] + div :has(> div > [data-tooltip="Report spam"]) + div'
+	,'[aria-label="search refinement"][role="toolbar"] + div :has(> [data-tooltip="Report spam"]) + div'
 	,'[aria-label="search refinement"][role="toolbar"] > *'
 	// 2024-12-02 The screen keyboard button on the mail list screen
 	,'[aria-label="Select input tool"]'
