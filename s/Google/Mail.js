@@ -67,10 +67,11 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			// language=Javascript
 			'background': 'red'
+			// language=Javascript
 			,'border': '3px solid green'
 			,'left': '4rem'
+			// language=CSS
 			,'position': 'fixed'
 			,'top': 0
 			,'z-index': 999
@@ -89,15 +90,7 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			// language=Javascript
 			'background': 'yellow'
-			//,'margin-top': '-1rem'
-			//,'position': 'relative'
-			//,'position': 'fixed'
-			//,'top': 0
-			//,'margin-left': '2rem'
-			//,'width': '10rem'
-			//,'height': '2rem'
 			,'z-index': 9999
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
