@@ -59,7 +59,8 @@ if (true) {
 			// language=CSS
 			Object.entries({
 				// language=Javascript
-				'margin-top': '-1rem'
+				'background': 'yellow'
+				,'margin-top': '-1rem'
 				,'position': 'relative'
 				,'z-index': 1000
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
