@@ -80,6 +80,9 @@ if (true) {
 				'background': 'yellow'
 				//,'margin-top': '-1rem'
 				//,'position': 'relative'
+				,'position': 'absolute'
+				,'top': 0
+				,'width': '10rem'
 				,'z-index': 9999
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
