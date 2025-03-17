@@ -71,8 +71,8 @@ GM_addStyle([
 		Object.entries({
 			// language=Javascript
 			'background': 'yellow'
-			,'margin-top': '-1rem'
-			,'position': 'relative'
+			//,'margin-top': '-1rem'
+			//,'position': 'relative'
 			//,'position': 'fixed'
 			//,'top': 0
 			//,'margin-left': '2rem'
@@ -95,9 +95,9 @@ GM_addStyle([
 			// language=Javascript
 			'background': 'red'
 			,'border': '3px solid green'
-			,'z-index': '999'
 			,'position': 'fixed'
 			,'top': 0
+			,'z-index': '999'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
