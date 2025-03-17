@@ -82,9 +82,9 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// language=CSS
+GM_addStyle('div:has(> [aria-label="search refinement"][role="toolbar"]) {height: auto !important;}');
 if (false) {
-	// language=CSS
-	GM_addStyle('div:has(> [aria-label="search refinement"][role="toolbar"]) {height: auto !important;}');
 	// language=CSS
 	GM_addStyle([
 		'[aria-label="search refinement"][role="toolbar"]'
