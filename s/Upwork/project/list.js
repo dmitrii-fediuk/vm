@@ -21,6 +21,7 @@ GM_addStyle([
 	// I hide it because my JavaScript below automatically clicks the «Just not interested» option from this menu
 	// when the `JobActionFeedback` button is clicked, so there's no need for the menu to appear.
 	,'[data-test="JobActionFeedback"] [data-test="UpCPopover"]'
+	,'[data-test="jobs-buttons-component"]' // 2025-03-18 «Save search», «Saved jobs»
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
