@@ -175,6 +175,7 @@ GM_addStyle([
 				,'Key Responsibilities'
 				,'Mission'
 				,'NDA'
+				,'Our client'
 				,'PPC'
 				,'PR Specialist'
 				,'Project Manager'
