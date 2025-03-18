@@ -42,6 +42,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#main > .container'
+	,'[data-test="location"]'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
