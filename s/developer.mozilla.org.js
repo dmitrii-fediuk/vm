@@ -54,6 +54,7 @@ GM_addStyle([
 	'.main-wrapper'
 	,'.table-container-inner'
 	,'main'
+	,'pre'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
