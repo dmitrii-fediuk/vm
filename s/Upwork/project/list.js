@@ -202,8 +202,8 @@ GM_addStyle([
 			if ('SECTION' === m.target.nodeName) {
 				//debugger;
 			}
-			if ('DIV' === m.target.nodeName) {
-				console.log(m.target.className);
+			if ('DIV' === m.target.nodeName && 'span-12 span-lg-9' === m.target.className) {
+				debugger;
 			}
 		});
 	})).observe(document.querySelector('.jobs-grid-container'), {
