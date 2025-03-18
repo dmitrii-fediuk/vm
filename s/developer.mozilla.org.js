@@ -41,6 +41,7 @@ GM_addStyle([
 	,'dt'
 	,'h1'
 	,'h2'
+	,'pre'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
