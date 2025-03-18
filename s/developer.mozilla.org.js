@@ -18,6 +18,14 @@ GM_addStyle([
 // 2025-03-18
 // language=CSS
 GM_addStyle([
+	'.main-wrapper'
+]
+	 // language=Javascript
+	.join(',') + '{display: initial !important;}')
+;
+// 2025-03-18
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
