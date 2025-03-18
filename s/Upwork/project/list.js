@@ -66,9 +66,9 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle('[data-test="proposals-tier"] {padding: 0.5rem 0 0 0 !important;}');
-// 2024-12-25
+// 2024-12-25, 2025-03-18
 // language=CSS
-GM_addStyle('article [data-test$="JobDescription"] {margin: 0.5rem 0 !important;}');
+GM_addStyle('article {margin: 0.5rem 0 !important;}');
 // 2024-12-28
 // language=CSS
 GM_addStyle([
