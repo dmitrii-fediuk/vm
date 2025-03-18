@@ -176,6 +176,7 @@ GM_addStyle([
 				,'Mission'
 				,'NDA'
 				,'PPC'
+				,'PR Specialist'
 				,'Project Manager'
 				,'Recruiting'
 				,'SEO consultant'
