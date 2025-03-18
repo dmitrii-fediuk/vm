@@ -194,15 +194,10 @@ GM_addStyle([
 	filter();
 	// 2025-03-18 https://chatgpt.com/c/67d98719-3eec-8003-9df4-844aa046c43b
 	(new MutationObserver(mm => {
-		debugger;
 		// 2025-03-18 https://grok.com/chat/293ac71e-03ab-475a-ab7e-0030d1035357
 		mm.forEach(m => {
-			if ('childList' === m.type && m.addedNodes.length) {
-				m.addedNodes.forEach(n => {
-					if (Node.ELEMENT_NODE === n.nodeType) {
-						//filter();
-					}
-				});
+			if ('ARTICLE' === m.target.nodeName) {
+				debugger;
 			}
 		});
 	})).observe(document.querySelector('.jobs-grid-container'), {
