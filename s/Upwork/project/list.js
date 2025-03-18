@@ -162,6 +162,7 @@ GM_addStyle([
 		].map(s => s.toUpperCase());
 		return a => !enable || ['h2', '[data-test*="JobDescription"]'].some(s => {
 			const t = a.querySelector(s).textContent.toUpperCase();
+			debugger;
 			return banned.some(b => t.includes(b));
 		});
 	})();
