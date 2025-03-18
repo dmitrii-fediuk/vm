@@ -51,7 +51,7 @@ GM_addStyle([
 	,'article [data-test="JobInfoClient"]'
 	,'article [data-test="JobInfoClientMore"]'
 	,'article [data-test="JobTileHeader"]'
-	'section > article' // 2025-03-18
+	,'section > article' // 2025-03-18
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
