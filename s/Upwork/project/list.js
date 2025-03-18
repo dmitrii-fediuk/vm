@@ -212,6 +212,9 @@ GM_addStyle([
 				if (p.textContent !== s1) {
 					debugger;
 				}
+				else {
+					debugger;
+				}
 			}
 		};
 		// 2025-03-18
