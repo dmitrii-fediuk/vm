@@ -12,6 +12,7 @@ GM_addStyle([
 	'.jobs-grid-container > :has([data-test="filter-active-item"])' // 2025-03-18 Filters at the header
 	,'.nav-parent-wrapper'
 	,':has(> .main-header)' // 2025-03-18 The header
+	,':has(> button[data-ev-label="save"])' // 2025-03-18 «Save job»
 	,'[data-test$="JobsButtons"]'
 	,'[data-test="Header"]'
 	,'[data-test="JobActionSave"]'
