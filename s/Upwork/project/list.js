@@ -92,7 +92,7 @@ GM_addStyle('[data-test="proposals-tier"] {padding: 0.5rem 0 0 0 !important;}');
 GM_addStyle('[data-test="JobTileDetails"] {display: flex; flex-direction: row; flex-wrap: wrap;}');
 // language=CSS
 GM_addStyle([
-	'p'
+	'#main p'
 ]
 	// language=Javascript
 	.join(',') + '{' +
