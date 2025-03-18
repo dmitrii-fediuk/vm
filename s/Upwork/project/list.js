@@ -159,11 +159,20 @@ GM_addStyle([
 			,'TikTok'
 			,'Trading'
 			,'Web3'
-		].map(s => s.toUpperCase());
+		].map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
 		return a => !enable || ['h2', '[data-test*="JobDescription"]'].some(s => {
 			const t = a.querySelector(s).textContent.toUpperCase();
-			debugger;
-			return banned.some(b => t.includes(b));
+			const ta = t.split(' ').map(v => v.trim());
+			//const r = banned.some(b => t.includes(b));
+			const r = banned.some(b => {
+				const r = b.m ? t.includes(b.s) : ta.includes(b.s);
+				if (r) {
+					debugger;
+					console.log(b);
+				}
+				return r;
+			});
+			return r;
 		});
 	})();
 	// 2025-03-18 https://chatgpt.com/c/67d98719-3eec-8003-9df4-844aa046c43b
