@@ -205,11 +205,11 @@ GM_addStyle([
 				});
 			}
 		});
-	})).observe(document.querySelector('.jobs-grid-container'), {
+	})).observe(document.querySelector('section.card-list-container'), {
 		// 2025-03-18 https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe#attributes
 		attributes: false
+		// 2025-03-18 https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe#childlist
 		,childList: true
-		,subtree: true
 	});
 })();
 (() => {
