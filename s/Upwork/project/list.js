@@ -192,7 +192,6 @@ GM_addStyle([
 			}
 		});
 	})();
-	debugger;
 	filter(document.querySelector('.card-list-container'));
 	// 2025-03-18 https://chatgpt.com/c/67d98719-3eec-8003-9df4-844aa046c43b
 	(new MutationObserver(mm => {
