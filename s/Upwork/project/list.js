@@ -68,7 +68,7 @@ GM_addStyle([
 		// language=CSS
 		['padding', 'padding-bottom',' padding-left', 'padding-right', 'padding-top']
 			// language=Javascript
-			.map(k => `${k}: initial !important;`).join(' ') +
+			.map(k => `${k}: 0 !important;`).join(' ') +
 	'}'
 );
 // 2025-03-18
