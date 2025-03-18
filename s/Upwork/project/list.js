@@ -205,7 +205,12 @@ GM_addStyle([
 				});
 			}
 		});
-	})).observe(document.querySelector('.jobs-grid-container'), {childList: true, subtree: true});
+	})).observe(document.querySelector('.jobs-grid-container'), {
+		// 2025-03-18 https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe#attributes
+		attributes: false
+		,childList: true
+		,subtree: true
+	});
 })();
 (() => {
 	const stopEvent = e => {
