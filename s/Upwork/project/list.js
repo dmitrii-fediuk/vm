@@ -90,6 +90,7 @@ GM_addStyle([
 // 2) https://claude.ai/chat/a79fe12b-9d97-4a6b-87fb-304eb27c0807
 // 3) https://grok.com/chat/1f2223eb-d192-4d35-a49a-9bcc8729e1b4
 (() => {
+	debugger;
 	const articles = document.querySelectorAll('article[data-test="JobTile"]');
 	articles.forEach(a => {
 		const rateE = a.querySelector('li[data-test="job-type-label"] > strong');
