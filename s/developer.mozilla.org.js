@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.article-footer'
+	,'.baseline-indicator'
 	,'.sidebar-container'
 	,'.sticky-header-container'
 	,'footer'
@@ -35,8 +36,7 @@ GM_addStyle([
 // 2025-03-18
 // language=CSS
 GM_addStyle([
-	'.baseline-indicator'
-	,'h1'
+	'h1'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -62,5 +62,3 @@ GM_addStyle([
 			.map(k => `${k}: initial !important;`).join(' ') +
 	'}'
 );
-// language=CSS
-GM_addStyle('.baseline-indicator > summary {padding-bottom: 0 !important; padding-top: 0 !important;}');
