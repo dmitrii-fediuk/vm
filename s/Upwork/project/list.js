@@ -114,7 +114,7 @@ GM_addStyle([
 					const lowerBound = parseInt(m[1]);
 					console.log(`The lower bound: ${lowerBound}`);
 					if (40 > lowerBound) {
-						a.remove();
+						//a.remove();
 					}
 				}
 			}
