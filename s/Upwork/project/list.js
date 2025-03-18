@@ -199,7 +199,7 @@ GM_addStyle([
 			if ('childList' === m.type && m.addedNodes.length) {
 				m.addedNodes.forEach(n => {
 					if (Node.ELEMENT_NODE === n.nodeType) {
-						filter();
+						//filter();
 					}
 				});
 			}
