@@ -26,7 +26,7 @@ GM_addStyle([
 	// when the `JobActionFeedback` button is clicked, so there's no need for the menu to appear.
 	,'[data-test="JobActionFeedback"] [data-test="UpCPopover"]'
 	,'[data-test="jobs-buttons-component"]' // 2025-03-18 «Save search», «Saved jobs»
-	//,'[data-test="payment-verified"]' // 2025-03-18
+	,'[data-test="location"] [data-test="UpCIcon"]' // 2025-03-18
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
