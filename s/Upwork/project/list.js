@@ -110,13 +110,9 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// 2025-03-18 https://chatgpt.com/c/67d98719-3eec-8003-9df4-844aa046c43b
-(new MutationObserver(() => {
-	// 2025-03-18
-	// 1) https://chatgpt.com/c/67d953fa-c3e8-8003-858a-d60b7a270c03
-	// 2) https://claude.ai/chat/a79fe12b-9d97-4a6b-87fb-304eb27c0807
-	// 3) https://grok.com/chat/1f2223eb-d192-4d35-a49a-9bcc8729e1b4
-	document.querySelectorAll('#main section > article').forEach(a => {
+// 2025-03-18 https://grok.com/chat/293ac71e-03ab-475a-ab7e-0030d1035357
+(() => {
+	const pArticle = a => {
 		const rateE = a.querySelector('li[data-test="job-type-label"] > strong');
 		if (rateE) {
 			const rateS = rateE.textContent.trim();
@@ -132,8 +128,22 @@ GM_addStyle([
 				}
 			}
 		}
+	};
+	document.querySelectorAll('#main section > article').forEach(pArticle);
+	const o = new MutationObserver(mm => {
+		debugger;
+		mm.forEach(m => {
+			if ('childList' === m.type && m.addedNodes.length) {
+				m.addedNodes.forEach(n => {
+					if (Node.ELEMENT_NODE === n.nodeType && n.matches('article')) {
+						pArticle(n);
+					}
+				});
+			}
+		});
 	});
-})).observe(document.querySelector('#main section'), {childList: true, subtree: true});
+	o.observe(document.querySelector('.jobs-grid-container'), {childList: true, subtree: true});
+})();
 (() => {
 	const stopEvent = e => {
 		e.preventDefault();
