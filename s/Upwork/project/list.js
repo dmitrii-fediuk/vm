@@ -118,8 +118,8 @@ GM_addStyle([
 	 * @return {boolean}
 	 */
 	const fRate = a => {
-		let r = !minRate;
-		if (r) {
+		let r = true;
+		if (minRate) {
 			const rateE = a.querySelector('li[data-test="job-type-label"] > strong');
 			if (rateE) {
 				const rateS = rateE.textContent.trim();
