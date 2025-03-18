@@ -90,6 +90,7 @@ GM_addStyle('[data-test="proposals-tier"] {padding: 0.5rem 0 0 0 !important;}');
 // 2025-03-18
 // language=CSS
 GM_addStyle('[data-test="JobTileDetails"] {display: flex; flex-direction: row; flex-wrap: wrap;}');
+// 2025-03-19
 // language=CSS
 GM_addStyle([
 	'#main p'
@@ -101,7 +102,9 @@ GM_addStyle([
 			'font-family': 'Segoie UI'
 			// language=Javascript
 			,'font-size': '110%'
+			// language=CSS
 			,'line-height': 1.2
+			,'white-space': 'pre'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
@@ -127,7 +130,7 @@ GM_addStyle([
 );
 // 2025-03-18
 (() => {
-	const filter = (() => {
+	const process = (() => {
 		/**
 		 * 2025-03-18
 		 * @return {boolean}
@@ -204,9 +207,12 @@ GM_addStyle([
 				// 2025-03-18 https://chatgpt.com/c/67d984ba-4f08-8003-a6dc-e3d70688ceab
 				a.style.display = 'none';
 			}
+			else {
+				format(a);
+			}
 		});
 	})();
-	filter(document.querySelector('.card-list-container'));
+	process(document.querySelector('.card-list-container'));
 	// 2025-03-18 https://chatgpt.com/c/67d98719-3eec-8003-9df4-844aa046c43b
 	(new MutationObserver(mm => {
 		// 2025-03-18 https://grok.com/chat/293ac71e-03ab-475a-ab7e-0030d1035357
@@ -219,7 +225,7 @@ GM_addStyle([
 				&& n.children.length
 				&& 'ARTICLE' === n.firstChild.tagName
 			) {
-				filter(n);
+				process(n);
 			}
 		});
 	})).observe(document.querySelector('.jobs-grid-container'), {
