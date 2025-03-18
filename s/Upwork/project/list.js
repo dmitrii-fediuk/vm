@@ -161,13 +161,14 @@ GM_addStyle([
 				,'Trading'
 				,'Web3'
 			].map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
-			return a => !enable || !(['h2', '[data-test*="JobDescription"]'].some(s => {
+			return a => !enable || !(['h2', 'p'].some(s => {
 				const e = a.querySelector(s);
 				// 2025-03-18 `e` is `null` if the project is already hidden via the UI («Just not interested»).
 				let r = !!e;
 				if (r) {
 					const t = e.textContent.toUpperCase();
 					const ta = t.split(/[\s\W]+/).map(v => v.trim());
+					debugger;
 					//return banned.some(b => b.m ? t.includes(b.s) : ta.includes(b.s));
 					r = banned.some(b => {
 						const r = b.m ? t.includes(b.s) : ta.includes(b.s);
