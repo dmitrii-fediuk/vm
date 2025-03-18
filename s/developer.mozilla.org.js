@@ -11,6 +11,7 @@
 GM_addStyle([
 	'.sidebar-container'
 	,'.sticky-header-container'
+	,'footer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
