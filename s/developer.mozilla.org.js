@@ -36,7 +36,7 @@ GM_addStyle([
 // 2025-03-18
 // language=CSS
 GM_addStyle([
-	.code-example
+	'.code-example'
 	,'.main-wrapper'
 	,'.table-container'
 	,'dd'
