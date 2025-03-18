@@ -18,6 +18,7 @@ GM_addStyle([
 	,'[data-test="JobActionSave"]'
 	,'[data-test="JobInfo"] > :not([data-test="job-type-label"])' // 2025-03-18
 	,'[data-test="JobInfoClient"] > :not([data-test="location"])' // 2025-03-18
+	,'[data-test="JobInfoClientMore"]' // 2025-03-18
 	,'[data-test="JobsPage"] > [data-test="FiltersActive"]'
 	,'[data-test="JobsPage"] > [data-test="FiltersList"]'
 	// 2024-12-27
