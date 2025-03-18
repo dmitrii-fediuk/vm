@@ -163,6 +163,7 @@ GM_addStyle([
 			const banned = [
 				'Betting'
 				,'CRO'
+				,'Cold Calling'
 				,'Consultation'
 				,'Copywriter'
 				,'Facebook'
