@@ -104,7 +104,7 @@ GM_addStyle([
 			,'font-size': '110%'
 			// language=CSS
 			,'line-height': 1.2
-			,'white-space': 'pre-wrap'
+			//,'white-space': 'pre-wrap'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
@@ -198,6 +198,15 @@ GM_addStyle([
 				return r;
 			}));
 		})();
+		// 2025-03-19
+		const format = a => {
+			const p = a.querySelector('p');
+			// 2025-03-18 `p` is `null` if the project is already hidden via the UI («Just not interested»).
+			if (p) {
+				// 2025-03-19 https://stackoverflow.com/a/784547
+				p.textContent = p.textContent.replace(/(?:\r\n|\r|\n)/g, '<br>')
+			}
+		};
 		// 2025-03-18
 		// 1) https://chatgpt.com/c/67d953fa-c3e8-8003-858a-d60b7a270c03
 		// 2) https://claude.ai/chat/a79fe12b-9d97-4a6b-87fb-304eb27c0807
