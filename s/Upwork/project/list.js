@@ -168,7 +168,6 @@ GM_addStyle([
 				if (r) {
 					const t = e.textContent.toUpperCase();
 					const ta = t.split(/[\s\W]+/).map(v => v.trim());
-					debugger;
 					//return banned.some(b => b.m ? t.includes(b.s) : ta.includes(b.s));
 					r = banned.some(b => {
 						const r = b.m ? t.includes(b.s) : ta.includes(b.s);
