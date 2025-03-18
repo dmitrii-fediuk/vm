@@ -196,13 +196,7 @@ GM_addStyle([
 	(new MutationObserver(mm => {
 		// 2025-03-18 https://grok.com/chat/293ac71e-03ab-475a-ab7e-0030d1035357
 		mm.forEach(m => {
-			if ('ARTICLE' === m.target.nodeName) {
-				//debugger;
-			}
-			if ('SECTION' === m.target.nodeName) {
-				//debugger;
-			}
-			if ('DIV' === m.target.nodeName && 'span-12 span-lg-9' === m.target.className) {
+			if (m.target.parentNode.classList.contains('jobs-grid-container')) {
 				debugger;
 			}
 		});
@@ -211,7 +205,7 @@ GM_addStyle([
 		attributes: false
 		// 2025-03-18 https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe#childlist
 		,childList: true
-		,subtree: true
+		//,subtree: true
 	});
 })();
 (() => {
