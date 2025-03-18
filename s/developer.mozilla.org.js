@@ -40,6 +40,7 @@ GM_addStyle([
 	,'.main-wrapper'
 	,'.table-container'
 	,'dd'
+	,'dl'
 	,'dt'
 	,'h1'
 	,'h2'
