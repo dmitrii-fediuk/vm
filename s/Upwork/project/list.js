@@ -39,14 +39,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: initial !important;}')
 ;
-// language=CSS
-GM_addStyle([
-	'#main > .container'
-	,'[data-test="location"]'
-]
-	 // language=Javascript
-	.join(',') + '{padding: 0 !important;}')
-;
 // 2024-12-25
 // language=CSS
 GM_addStyle([
@@ -63,7 +55,8 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	'[data-test="LazyHydrate"]'
+	'#main > .container'
+	,'[data-test="LazyHydrate"]'
 	,'[data-test="proposals-tier"]'
 ]
 	 // language=Javascript
@@ -83,6 +76,9 @@ GM_addStyle('body {padding: 0.5rem !important;}');
 // 2025-03-18
 // language=CSS
 GM_addStyle('#main article {padding: 0.25rem 0 !important;}');
+// 2025-03-18
+// language=CSS
+GM_addStyle('[data-test="location"] {padding: 0 0.25rem 0 0 !important;}');
 // 2024-12-25
 // language=CSS
 GM_addStyle('[data-test="proposals-tier"] {padding: 0.5rem 0 0 0 !important;}');
