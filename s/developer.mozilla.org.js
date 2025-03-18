@@ -44,7 +44,8 @@ GM_addStyle([
 // 2025-03-18
 // language=CSS
 GM_addStyle([
-	'.main-wrapper'
+	'.baseline-indicator > summary'
+	,'.main-wrapper'
 	,'main'
 ]
 	 // language=Javascript
