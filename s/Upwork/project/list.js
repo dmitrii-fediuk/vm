@@ -226,7 +226,7 @@ GM_addStyle([
 			}
 		});
 	})();
-	setTimeout(() => {process(document.querySelector('.card-list-container'));}, 1000);
+	setTimeout(() => {process(document.querySelector('.card-list-container'));}, 50);
 	// 2025-03-18 https://chatgpt.com/c/67d98719-3eec-8003-9df4-844aa046c43b
 	(new MutationObserver(mm => {
 		// 2025-03-18 https://grok.com/chat/293ac71e-03ab-475a-ab7e-0030d1035357
