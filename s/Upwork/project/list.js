@@ -43,6 +43,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#main article' // 2025-03-18
+	,'[data-test="job-pubilshed-date"]' // 2025-03-18
 	,'article [data-test*="JobDescription"]'
 	,'article [data-test="JobInfo"]'
 	,'article [data-test="JobInfoClient"]'
