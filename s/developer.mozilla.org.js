@@ -63,6 +63,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.main-wrapper'
+	,'.table-container'
 ]
 	// language=Javascript
 	.join(',') + '{' +
