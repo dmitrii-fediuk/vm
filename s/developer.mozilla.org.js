@@ -60,9 +60,14 @@ GM_addStyle([
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
-		['width', 'max-width',' min-width']
+		['width', 'min-width']
 			// language=Javascript
 			.map(k => `${k}: initial !important;`).join(' ') +
+		// language=CSS
+		Object.entries({
+			// language=Javascript
+			'max-width': '100%'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
 // 2025-03-18
