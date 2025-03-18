@@ -93,7 +93,7 @@ GM_addStyle([
 		Object.entries({
 			'display': 'block'
 			// language=Javascript
-			,'left': '50%'
+			,'left': '65%'
 			,'margin-top': '0.5rem'
 			// language=CSS
 			,'opacity': 0.5 // 2025-03-18
