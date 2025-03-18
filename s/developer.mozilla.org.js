@@ -37,6 +37,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.main-wrapper'
+	,'dd'
 	,'dt'
 	,'h1'
 	,'h2'
