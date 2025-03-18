@@ -196,11 +196,12 @@ GM_addStyle([
 	(new MutationObserver(mm => {
 		// 2025-03-18 https://grok.com/chat/293ac71e-03ab-475a-ab7e-0030d1035357
 		mm.forEach(m => {
+			console.log(m.target.nodeName);
 			if ('ARTICLE' === m.target.nodeName) {
 				//debugger;
 			}
 			if ('SECTION' === m.target.nodeName) {
-				debugger;
+				//debugger;
 			}
 		});
 	})).observe(document.querySelector('.jobs-grid-container'), {
