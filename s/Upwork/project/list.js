@@ -112,91 +112,94 @@ GM_addStyle([
 );
 // 2025-03-18
 (() => {
-	/**
-	 * 2025-03-18
-	 * @return {boolean}
-	 */
-	const fRate = (() => {
-		const minRate = parseInt(new URL(location.href).searchParams.get('df-rate-min'));
-		return a => {
-			let r = true;
-			if (minRate) {
-				const rateE = a.querySelector('li[data-test="job-type-label"] > strong');
-				if (rateE) {
-					const rateS = rateE.textContent.trim();
-					if (rateS.startsWith('Hourly:')) {
-						const m = rateS.match(/\$(\d+)\.00/);
-						r = !m || minRate <= parseInt(m[1]);
+	const filter = (() => {
+		/**
+		 * 2025-03-18
+		 * @return {boolean}
+		 */
+		const fRate = (() => {
+			const minRate = parseInt(new URL(location.href).searchParams.get('df-rate-min'));
+			return a => {
+				let r = true;
+				if (minRate) {
+					const rateE = a.querySelector('li[data-test="job-type-label"] > strong');
+					if (rateE) {
+						const rateS = rateE.textContent.trim();
+						if (rateS.startsWith('Hourly:')) {
+							const m = rateS.match(/\$(\d+)\.00/);
+							r = !m || minRate <= parseInt(m[1]);
+						}
 					}
 				}
+				return r;
+			};
+		})();
+		/**
+		 * 2025-03-18
+		 * @return {boolean}
+		 */
+		const fPhrases = (() => {
+			const enable = new URL(location.href).searchParams.has('df-phrases');
+			const banned = [
+				'Betting'
+				,'CRO'
+				,'Consultation'
+				,'Copywriter'
+				,'Facebook'
+				,'Hiring'
+				,'How to Apply'
+				,'Hubspot'
+				,'Ideal candidate'
+				,'Instagram'
+				,'Key Responsibilities'
+				,'Mission'
+				,'NDA'
+				,'PPC'
+				,'Project Manager'
+				,'Recruiting'
+				,'TikTok'
+				,'Trading'
+				,'Web3'
+			].map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
+			return a => !enable || !(['h2', '[data-test*="JobDescription"]'].some(s => {
+				const e = a.querySelector(s);
+				// 2025-03-18 `e` is `null` if the project is already hidden via the UI («Just not interested»).
+				let r = !!e;
+				if (r) {
+					const t = e.textContent.toUpperCase();
+					const ta = t.split(' ').map(v => v.trim());
+					//return banned.some(b => b.m ? t.includes(b.s) : ta.includes(b.s));
+					r = banned.some(b => {
+						const r = b.m ? t.includes(b.s) : ta.includes(b.s);
+						if (r) {
+							console.log(b.s);
+						}
+						return r;
+					});
+				}
+				return r;
+			}));
+		})();
+		// 2025-03-18
+		// 1) https://chatgpt.com/c/67d953fa-c3e8-8003-858a-d60b7a270c03
+		// 2) https://claude.ai/chat/a79fe12b-9d97-4a6b-87fb-304eb27c0807
+		// 3) https://grok.com/chat/1f2223eb-d192-4d35-a49a-9bcc8729e1b4
+		return () => document.querySelectorAll('#main section > article').forEach(a => {
+			if (!fRate(a) || !fPhrases(a)) {
+				// 2025-03-18 https://chatgpt.com/c/67d984ba-4f08-8003-a6dc-e3d70688ceab
+				a.style.display = 'none';
 			}
-			return r;
-		};
+		});
 	})();
-	/**
-	 * 2025-03-18
-	 * @return {boolean}
-	 */
-	const fPhrases = (() => {
-		const enable = new URL(location.href).searchParams.has('df-phrases');
-		const banned = [
-			'Betting'
-			,'CRO'
-			,'Consultation'
-			,'Copywriter'
-			,'Facebook'
-			,'Hiring'
-			,'How to Apply'
-			,'Hubspot'
-			,'Ideal candidate'
-			,'Instagram'
-			,'Key Responsibilities'
-			,'Mission'
-			,'NDA'
-			,'PPC'
-			,'Project Manager'
-			,'Recruiting'
-			,'TikTok'
-			,'Trading'
-			,'Web3'
-		].map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
-		return a => !enable || !(['h2', '[data-test*="JobDescription"]'].some(s => {
-			const e = a.querySelector(s);
-			// 2025-03-18 `e` is `null` if the project is already hidden via the UI («Just not interested»).
-			let r = !!e;
-			if (r) {
-				const t = e.textContent.toUpperCase();
-				const ta = t.split(' ').map(v => v.trim());
-				//return banned.some(b => b.m ? t.includes(b.s) : ta.includes(b.s));
-				r = banned.some(b => {
-					const r = b.m ? t.includes(b.s) : ta.includes(b.s);
-					if (r) {
-						console.log(b.s);
-					}
-					return r;
-				});
-			}
-			return r;
-		}));
-	})();
+	filter();
 	// 2025-03-18 https://chatgpt.com/c/67d98719-3eec-8003-9df4-844aa046c43b
 	(new MutationObserver(mm => {
 		// 2025-03-18 https://grok.com/chat/293ac71e-03ab-475a-ab7e-0030d1035357
 		mm.forEach(m => {
-			debugger;
 			if ('childList' === m.type && m.addedNodes.length) {
 				m.addedNodes.forEach(n => {
 					if (Node.ELEMENT_NODE === n.nodeType) {
-						// 2025-03-18
-						// 1) https://chatgpt.com/c/67d953fa-c3e8-8003-858a-d60b7a270c03
-						// 2) https://claude.ai/chat/a79fe12b-9d97-4a6b-87fb-304eb27c0807
-						// 3) https://grok.com/chat/1f2223eb-d192-4d35-a49a-9bcc8729e1b4
-						document.querySelectorAll('#main section > article').forEach(a => {
-							if (!fRate(a) || !fPhrases(a)) {
-								// 2025-03-18 https://chatgpt.com/c/67d984ba-4f08-8003-a6dc-e3d70688ceab
-								a.style.display = 'none';
-							}
-						});
+						filter();
 					}
 				});
 			}
