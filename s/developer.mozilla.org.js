@@ -88,3 +88,6 @@ GM_addStyle('body {margin: 0 1rem !important;}');
 // 2025-03-18
 // language=CSS
 GM_addStyle('p {margin: 0.25rem 0 !important;}');
+// 2025-03-18
+// language=CSS
+GM_addStyle('.bc-legend-items-container {row-gap: 0 !important;}');
