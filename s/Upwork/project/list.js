@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.nav-parent-wrapper'
+	,':has(> .main-header)'
 	,'[data-test$="JobsButtons"]'
 	,'[data-test="Header"]'
 	,'[data-test="JobActionSave"]'
