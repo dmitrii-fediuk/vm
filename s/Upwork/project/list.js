@@ -185,6 +185,7 @@ GM_addStyle([
 				,'Teach me'
 				,'TikTok'
 				,'Trading'
+				,'Video Content Creator'
 				,'Web3'
 			].map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
 			return a => !enable || !(['h2', 'p.text-body-sm'].some(s => {
