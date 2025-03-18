@@ -53,6 +53,7 @@ GM_addStyle([
 // 2025-03-18
 // language=CSS
 GM_addStyle([
+	'.main-wrapper'
 ]
 	// language=Javascript
 	.join(',') + '{' +
