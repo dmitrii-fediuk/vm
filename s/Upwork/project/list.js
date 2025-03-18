@@ -200,6 +200,8 @@ GM_addStyle([
 				m.target.parentNode.classList.contains('jobs-grid-container')
 				&& 1 === m.addedNodes.length
 				&& m.addedNodes[0].classList.contains('card-list-container')
+				&& m.addedNodes[0].children.length
+				&& 'ARTICLE' === m.addedNodes[0].firstChild.tagName
 			) {
 				debugger;
 				filter(m.addedNodes[0]);
