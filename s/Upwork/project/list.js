@@ -108,6 +108,9 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-03-19
+// language=CSS
+GM_addStyle('p br {display: block !important; content: ""; height: 1px !important;}');
 // 2024-12-28
 // language=CSS
 GM_addStyle([
