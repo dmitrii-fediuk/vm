@@ -142,27 +142,28 @@ GM_addStyle([
 		const banned = [
 			'Betting'
 			,'CRO'
+			,'Consultation'
 			,'Copywriter'
 			,'Facebook'
 			,'Hiring'
+			,'How to Apply'
+			,'Hubspot'
 			,'Ideal candidate'
 			,'Instagram'
 			,'Key Responsibilities'
 			,'Mission'
 			,'NDA'
 			,'PPC'
+			,'Project Manager'
 			,'Recruiting'
 			,'TikTok'
 			,'Trading'
 			,'Web3'
-		];
-		return a => {
-			let r = true;
-			if (enable) {
-
-			}
-			return r;
-		};
+		].map(s => s.toUpperCase());
+		return a => !enable || ['h2', '[data-test*="JobDescription"]'].some(s => {
+			const t = a.querySelector(s).textContent.toUpperCase();
+			return banned.some(b => t.includes(b));
+		});
 	})();
 	// 2025-03-18 https://chatgpt.com/c/67d98719-3eec-8003-9df4-844aa046c43b
 	(new MutationObserver(() => {
