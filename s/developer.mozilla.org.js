@@ -43,6 +43,7 @@ GM_addStyle([
 	,'h1'
 	,'h2'
 	,'pre'
+	,'table'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
