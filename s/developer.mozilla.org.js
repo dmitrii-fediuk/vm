@@ -44,8 +44,7 @@ GM_addStyle([
 // 2025-03-18
 // language=CSS
 GM_addStyle([
-	'.baseline-indicator > summary'
-	,'.main-wrapper'
+	'.main-wrapper'
 	,'main'
 ]
 	 // language=Javascript
@@ -63,3 +62,5 @@ GM_addStyle([
 			.map(k => `${k}: initial !important;`).join(' ') +
 	'}'
 );
+// language=CSS
+GM_addStyle('.baseline-indicator > summary {padding-bottom: 0 !important; padding-top: 0 !important;}');
