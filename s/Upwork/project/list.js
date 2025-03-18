@@ -172,6 +172,7 @@ GM_addStyle([
 				,'Ideal candidate'
 				,'Instagram'
 				,'Key Responsibilities'
+				,'Klaviyo'
 				,'Mission'
 				,'N8n'
 				,'NDA'
