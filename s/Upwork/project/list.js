@@ -203,7 +203,9 @@ GM_addStyle([
 			const p = a.querySelector('p');
 			// 2025-03-18 `p` is `null` if the project is already hidden via the UI («Just not interested»).
 			if (p) {
-				// 2025-03-19 https://stackoverflow.com/a/784547
+				// 2025-03-19
+				// 1) https://stackoverflow.com/a/784547
+				// 2) https://claude.ai/chat/5d359891-1f1d-400f-bc3b-e8b30fa92867
 				p.innerHTML = p.textContent.replace(/(?:\r\n|\r|\n)/g, '<br>');
 			}
 		};
