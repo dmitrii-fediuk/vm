@@ -47,7 +47,8 @@ GM_addStyle('[data-test="JobsList"] > article {padding: 0.5rem !important;}');
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	'article [data-test="JobInfo"]'
+	'article'
+	,'article [data-test="JobInfo"]'
 	,'article [data-test="JobInfoClient"]'
 	,'article [data-test="JobInfoClientMore"]'
 	,'article [data-test="JobTileHeader"]'
@@ -59,6 +60,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'[data-test="LazyHydrate"]'
+	,'article'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -68,7 +70,7 @@ GM_addStyle([
 GM_addStyle('[data-test="proposals-tier"] {padding: 0.5rem 0 0 0 !important;}');
 // 2024-12-25, 2025-03-18
 // language=CSS
-GM_addStyle('article {margin: 0.5rem 0 !important;}');
+//GM_addStyle('article {margin: 0.5rem 0 !important;}');
 // 2024-12-28
 // language=CSS
 GM_addStyle([
