@@ -36,7 +36,9 @@ GM_addStyle([
 // 2025-03-18
 // language=CSS
 GM_addStyle([
-	'h1', 'h2'
+	'.main-wrapper'
+	,'h1'
+	,'h2'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
