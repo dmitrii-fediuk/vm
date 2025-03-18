@@ -104,7 +104,7 @@ GM_addStyle([
 			,'font-size': '110%'
 			// language=CSS
 			,'line-height': 1.2
-			,'white-space': 'pre'
+			,'white-space': 'pre-wrap'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
