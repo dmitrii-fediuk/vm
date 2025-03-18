@@ -44,6 +44,7 @@ GM_addStyle([
 	,'dt'
 	,'h1'
 	,'h2'
+	,'li'
 	,'pre'
 	,'table'
 	,'ul'
