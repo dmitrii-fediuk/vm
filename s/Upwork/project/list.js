@@ -47,7 +47,7 @@ GM_addStyle('[data-test="JobsList"] > article {padding: 0.5rem !important;}');
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	'article'
+	'section > article' // 2025-03-18
 	,'article [data-test="JobInfo"]'
 	,'article [data-test="JobInfoClient"]'
 	,'article [data-test="JobInfoClientMore"]'
@@ -60,7 +60,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'[data-test="LazyHydrate"]'
-	,'article'
+	,'section > article' // 2025-03-18
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
