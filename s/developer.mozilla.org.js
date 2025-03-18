@@ -83,4 +83,7 @@ GM_addStyle([
 );
 // 2025-03-18
 // language=CSS
+GM_addStyle('body {margin: 0 0.5rem !important;}');
+// 2025-03-18
+// language=CSS
 GM_addStyle('p {margin: 0.25rem 0 !important;}');
