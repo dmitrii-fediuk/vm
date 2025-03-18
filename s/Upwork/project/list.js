@@ -97,7 +97,11 @@ GM_addStyle([
 			const rateS = rateE.textContent.trim();
 			if (rateS.startsWith('Hourly:')) {
 				const m = rateS.match(/\$(\d+)\.00/);
-				if (m && parseInt(m[1]) < 40) {
+				if (m) {
+					const c = parseInt(m[1]);
+					console.log(`The lower bound: ${lowerBound}`);
+				}
+				if (40 > lowerBound) {
 					a.remove();
 				}
 			}
