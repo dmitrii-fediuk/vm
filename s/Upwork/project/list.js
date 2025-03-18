@@ -60,6 +60,7 @@ GM_addStyle([
 GM_addStyle([
 	'#main article' // 2025-03-18
 	,'[data-test="LazyHydrate"]'
+	,'[data-test="proposals-tier"]'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
