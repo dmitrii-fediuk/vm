@@ -33,8 +33,12 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'[data-test="JobsPage"]'
+	// 2025-03-18
+	// 1) https://chatgpt.com/c/67d96e8a-21f0-8003-989e-3b8092908b16
+	// 2) https://chatgpt.com/c/67d96f52-f018-8003-9e88-db94cbe22861
+	'.is-clamped'
 	,'[data-test="JobsPage"] > div:last-of-type'
+	,'[data-test="JobsPage"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: initial !important;}')
