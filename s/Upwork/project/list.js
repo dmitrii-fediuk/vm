@@ -9,8 +9,9 @@
 // 2024-10-13, 2024-12-24 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 // language=CSS
 GM_addStyle([
-	'.nav-parent-wrapper'
-	,':has(> .main-header)'
+	'.jobs-grid-container > :has([data-test="filter-active-item"])' // 2025-03-18 Filters at the header
+	,'.nav-parent-wrapper'
+	,':has(> .main-header)' // 2025-03-18 The header
 	,'[data-test$="JobsButtons"]'
 	,'[data-test="Header"]'
 	,'[data-test="JobActionSave"]'
