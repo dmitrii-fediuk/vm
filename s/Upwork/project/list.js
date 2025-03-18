@@ -177,6 +177,7 @@ GM_addStyle([
 				,'PPC'
 				,'Project Manager'
 				,'Recruiting'
+				,'SEO consultant'
 				,'TikTok'
 				,'Trading'
 				,'Web3'
