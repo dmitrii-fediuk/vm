@@ -44,7 +44,6 @@ GM_addStyle([
 	,'dt'
 	,'h1'
 	,'h2'
-	,'h4'
 	,'h5'
 	,'h6'
 	,'li'
@@ -90,7 +89,10 @@ GM_addStyle([
 GM_addStyle('body {margin: 0 1rem !important;}');
 // 2025-03-18
 // language=CSS
-GM_addStyle('h3 {margin: 0.25rem 0 0 0 !important;}');
+GM_addStyle('h3 {margin: 0.25rem 0 !important;}');
+// 2025-03-18
+// language=CSS
+GM_addStyle('h4 {margin: 0.2rem 0 !important;}');
 // 2025-03-18
 // language=CSS
 GM_addStyle('p {margin: 0.25rem 0 !important;}');
