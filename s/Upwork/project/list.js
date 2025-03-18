@@ -96,6 +96,7 @@ GM_addStyle([
 			,'left': '50%'
 			,'margin-top': '0.5rem'
 			// language=CSS
+			,'opacity': 0.5 // 2025-03-18
 			,'position': 'absolute'
 			,'z-index': 1
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
