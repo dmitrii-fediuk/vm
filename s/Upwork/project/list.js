@@ -173,6 +173,7 @@ GM_addStyle([
 				,'Instagram'
 				,'Key Responsibilities'
 				,'Klaviyo'
+				,'Mechanical Engineer'
 				,'Mission'
 				,'N8n'
 				,'NDA'
