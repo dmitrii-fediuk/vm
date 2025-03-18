@@ -9,7 +9,8 @@
 // 2025-03-18 "Improve `developer.mozilla.org`": https://github.com/dmitrii-fediuk/vm/issues/99
 // language=CSS
 GM_addStyle([
-	'.sticky-header-container'
+	'.sidebar-container'
+	,'.sticky-header-container'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
