@@ -203,7 +203,7 @@ GM_addStyle([
 				//debugger;
 			}
 			if ('DIV' === m.target.nodeName) {
-				debugger;
+				console.log(m.target.className);
 			}
 		});
 	})).observe(document.querySelector('.jobs-grid-container'), {
