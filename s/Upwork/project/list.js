@@ -163,16 +163,7 @@ GM_addStyle([
 		return a => !enable || ['h2', '[data-test*="JobDescription"]'].some(s => {
 			const t = a.querySelector(s).textContent.toUpperCase();
 			const ta = t.split(' ').map(v => v.trim());
-			//const r = banned.some(b => t.includes(b));
-			const r = banned.some(b => {
-				const r = b.m ? t.includes(b.s) : ta.includes(b.s);
-				if (r) {
-					debugger;
-					console.log(b);
-				}
-				return r;
-			});
-			return r;
+			return banned.some(b => b.m ? t.includes(b.s) : ta.includes(b.s));
 		});
 	})();
 	// 2025-03-18 https://chatgpt.com/c/67d98719-3eec-8003-9df4-844aa046c43b
