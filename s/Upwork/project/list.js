@@ -167,7 +167,7 @@ GM_addStyle([
 				,'Consultation'
 				,'Copywriter'
 				,'Facebook'
-				,'Hiring'
+				//,'Hiring'
 				,'How to Apply'
 				,'Hubspot'
 				,'Ideal candidate'
