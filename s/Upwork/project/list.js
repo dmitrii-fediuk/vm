@@ -47,7 +47,7 @@ GM_addStyle('[data-test="JobsList"] > article {padding: 0.5rem !important;}');
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	,'article [data-test="JobInfo"]'
+	'article [data-test="JobInfo"]'
 	,'article [data-test="JobInfoClient"]'
 	,'article [data-test="JobInfoClientMore"]'
 	,'article [data-test="JobTileHeader"]'
