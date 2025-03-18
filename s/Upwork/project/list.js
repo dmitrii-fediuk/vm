@@ -85,6 +85,25 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-03-18
+// 1) https://chatgpt.com/c/67d953fa-c3e8-8003-858a-d60b7a270c03
+// 2) https://claude.ai/chat/a79fe12b-9d97-4a6b-87fb-304eb27c0807
+// 3) https://grok.com/chat/1f2223eb-d192-4d35-a49a-9bcc8729e1b4
+(() => {
+	const articles = document.querySelectorAll('article[data-test="JobTile"]');
+	articles.forEach(a => {
+		const rateE = a.querySelector('li[data-test="job-type-label"] > strong');
+		if (rateE) {
+			const rateS = rateE.textContent.trim();
+			if (rateS.startsWith('Hourly:')) {
+				const m = rateS.match(/\$(\d+)\.00/);
+				if (m && parseInt(m[1]) < 40) {
+					a.remove();
+				}
+			}
+		}
+	});
+})();
 (() => {
 	const stopEvent = e => {
 		e.preventDefault();
