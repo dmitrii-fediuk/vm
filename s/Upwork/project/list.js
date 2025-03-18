@@ -167,7 +167,7 @@ GM_addStyle([
 				let r = !!e;
 				if (r) {
 					const t = e.textContent.toUpperCase();
-					const ta = t.split(' ').map(v => v.trim());
+					const ta = t.split(/[\s\W]+/).map(v => v.trim());
 					//return banned.some(b => b.m ? t.includes(b.s) : ta.includes(b.s));
 					r = banned.some(b => {
 						const r = b.m ? t.includes(b.s) : ta.includes(b.s);
@@ -191,6 +191,7 @@ GM_addStyle([
 			}
 		});
 	})();
+	debugger;
 	filter(document.querySelector('.card-list-container'));
 	// 2025-03-18 https://chatgpt.com/c/67d98719-3eec-8003-9df4-844aa046c43b
 	(new MutationObserver(mm => {
