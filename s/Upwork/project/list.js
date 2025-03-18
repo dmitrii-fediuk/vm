@@ -204,7 +204,7 @@ GM_addStyle([
 			// 2025-03-18 `p` is `null` if the project is already hidden via the UI («Just not interested»).
 			if (p) {
 				// 2025-03-19 https://stackoverflow.com/a/784547
-				p.textContent = p.textContent.replace(/(?:\r\n|\r|\n)/g, '<br>')
+				p.textContent = p.textContent.replace(/(?:\r\n|\r|\n)/g, '<br>');
 			}
 		};
 		// 2025-03-18
