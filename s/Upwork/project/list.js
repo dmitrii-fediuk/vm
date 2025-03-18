@@ -93,7 +93,7 @@ GM_addStyle('[data-test="JobTileDetails"] {display: flex; flex-direction: row; f
 // 2025-03-19
 // language=CSS
 GM_addStyle([
-	'#main p'
+	'#main p.text-body-sm'
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -109,7 +109,7 @@ GM_addStyle([
 );
 // 2025-03-19
 // language=CSS
-GM_addStyle('p br {display: block !important; content: ""; height: 1px !important;}');
+GM_addStyle('p.text-body-sm br {display: block !important; content: ""; height: 1px !important;}');
 // 2024-12-28
 // language=CSS
 GM_addStyle([
@@ -181,7 +181,7 @@ GM_addStyle([
 				,'Trading'
 				,'Web3'
 			].map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
-			return a => !enable || !(['h2', 'p'].some(s => {
+			return a => !enable || !(['h2', 'p.text-body-sm'].some(s => {
 				const e = a.querySelector(s);
 				// 2025-03-18 `e` is `null` if the project is already hidden via the UI («Just not interested»).
 				let r = !!e;
@@ -202,7 +202,7 @@ GM_addStyle([
 		})();
 		// 2025-03-19
 		const format = a => {
-			const p = a.querySelector('p');
+			const p = a.querySelector('p.text-body-sm');
 			// 2025-03-18 `p` is `null` if the project is already hidden via the UI («Just not interested»).
 			if (p) {
 				// 2025-03-19
