@@ -112,7 +112,7 @@ GM_addStyle([
 );
 // 2025-03-18 https://chatgpt.com/c/67d98719-3eec-8003-9df4-844aa046c43b
 (new MutationObserver(() => {
-// 2025-03-18
+	// 2025-03-18
 	// 1) https://chatgpt.com/c/67d953fa-c3e8-8003-858a-d60b7a270c03
 	// 2) https://claude.ai/chat/a79fe12b-9d97-4a6b-87fb-304eb27c0807
 	// 3) https://grok.com/chat/1f2223eb-d192-4d35-a49a-9bcc8729e1b4
