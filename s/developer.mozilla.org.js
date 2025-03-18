@@ -37,6 +37,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.main-wrapper'
+	,'.table-container'
 	,'dd'
 	,'dt'
 	,'h1'
