@@ -184,20 +184,25 @@ GM_addStyle([
 		// 1) https://chatgpt.com/c/67d953fa-c3e8-8003-858a-d60b7a270c03
 		// 2) https://claude.ai/chat/a79fe12b-9d97-4a6b-87fb-304eb27c0807
 		// 3) https://grok.com/chat/1f2223eb-d192-4d35-a49a-9bcc8729e1b4
-		return () => document.querySelectorAll('#main section > article').forEach(a => {
+		return c => c.querySelectorAll('article').forEach(a => {
 			if (!fRate(a) || !fPhrases(a)) {
 				// 2025-03-18 https://chatgpt.com/c/67d984ba-4f08-8003-a6dc-e3d70688ceab
 				a.style.display = 'none';
 			}
 		});
 	})();
-	filter();
+	filter(document.querySelector('.card-list-container'));
 	// 2025-03-18 https://chatgpt.com/c/67d98719-3eec-8003-9df4-844aa046c43b
 	(new MutationObserver(mm => {
 		// 2025-03-18 https://grok.com/chat/293ac71e-03ab-475a-ab7e-0030d1035357
 		mm.forEach(m => {
-			if (m.target.parentNode.classList.contains('jobs-grid-container')) {
+			if (
+				m.target.parentNode.classList.contains('jobs-grid-container')
+				&& 1 === m.addedNodes.length
+				&& m.addedNodes[0].classList.contains('card-list-container')
+			) {
 				debugger;
+				filter(m.addedNodes[0]);
 			}
 		});
 	})).observe(document.querySelector('.jobs-grid-container'), {
