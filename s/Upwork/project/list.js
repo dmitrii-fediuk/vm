@@ -63,9 +63,14 @@ GM_addStyle([
 	'[data-test="LazyHydrate"]'
 	,'section > article' // 2025-03-18
 ]
-	 // language=Javascript
-	.join(',') + '{padding: 0 !important;}')
-;
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['padding', 'padding-bottom',' padding-left', 'padding-right', 'padding-top']
+			// language=Javascript
+			.map(k => `${k}: initial !important;`).join(' ') +
+	'}'
+);
 // 2025-03-18
 // language=CSS
 GM_addStyle([
