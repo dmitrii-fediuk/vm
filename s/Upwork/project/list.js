@@ -112,25 +112,27 @@ GM_addStyle([
 );
 // 2025-03-18
 (() => {
-	const minRate = parseInt(new URL(location.href).searchParams.get('df-rate-min'));
 	/**
 	 * 2025-03-18
 	 * @return {boolean}
 	 */
-	const fRate = a => {
-		let r = true;
-		if (minRate) {
-			const rateE = a.querySelector('li[data-test="job-type-label"] > strong');
-			if (rateE) {
-				const rateS = rateE.textContent.trim();
-				if (rateS.startsWith('Hourly:')) {
-					const m = rateS.match(/\$(\d+)\.00/);
-					r = !m || minRate <= parseInt(m[1]);
+	const fRate = (() => {
+		const minRate = parseInt(new URL(location.href).searchParams.get('df-rate-min'));
+		return a => {
+			let r = true;
+			if (minRate) {
+				const rateE = a.querySelector('li[data-test="job-type-label"] > strong');
+				if (rateE) {
+					const rateS = rateE.textContent.trim();
+					if (rateS.startsWith('Hourly:')) {
+						const m = rateS.match(/\$(\d+)\.00/);
+						r = !m || minRate <= parseInt(m[1]);
+					}
 				}
 			}
-		}
-		return r;
-	};
+			return r;
+		};
+	})();
 	// 2025-03-18 https://chatgpt.com/c/67d98719-3eec-8003-9df4-844aa046c43b
 	(new MutationObserver(() => {
 		// 2025-03-18
