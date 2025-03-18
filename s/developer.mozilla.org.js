@@ -24,7 +24,7 @@ GM_addStyle([
 	'.main-wrapper'
 ]
 	 // language=Javascript
-	.join(',') + '{display: initial !important;}')
+	.join(',') + '{display: block !important;}')
 ;
 // 2025-03-18
 // language=CSS
