@@ -44,9 +44,6 @@ GM_addStyle([
 ;
 // 2024-12-25
 // language=CSS
-GM_addStyle('[data-test="JobsList"] > article {padding: 0.5rem !important;}');
-// 2024-12-25
-// language=CSS
 GM_addStyle([
 	'#main article' // 2025-03-18
 	,'article [data-test*="JobDescription"]'
@@ -75,6 +72,9 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
 ;
+// 2024-12-25, 2025-03-18
+// language=CSS
+GM_addStyle('body {padding: 0.5rem !important;}');
 // 2024-12-25
 // language=CSS
 GM_addStyle('[data-test="proposals-tier"] {padding: 0.5rem 0 0 0 !important;}');
