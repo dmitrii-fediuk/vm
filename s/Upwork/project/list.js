@@ -90,6 +90,21 @@ GM_addStyle('[data-test="proposals-tier"] {padding: 0.5rem 0 0 0 !important;}');
 // 2025-03-18
 // language=CSS
 GM_addStyle('[data-test="JobTileDetails"] {display: flex; flex-direction: row; flex-wrap: wrap;}');
+// language=CSS
+GM_addStyle([
+	'p'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'font-family': 'Segoie UI'
+			// language=Javascript
+			//,'font-size': '140%'
+			,'line-height': 1.2
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 // 2024-12-28
 // language=CSS
 GM_addStyle([
