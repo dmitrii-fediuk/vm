@@ -77,7 +77,7 @@ GM_addStyle([
 GM_addStyle('body {padding: 0.5rem !important;}');
 // 2025-03-18
 // language=CSS
-GM_addStyle('#main article {padding: 0.5rem 0 !important;}');
+GM_addStyle('#main article {padding: 0.25rem 0 !important;}');
 // 2024-12-25
 // language=CSS
 GM_addStyle('[data-test="proposals-tier"] {padding: 0.5rem 0 0 0 !important;}');
