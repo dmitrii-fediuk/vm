@@ -62,3 +62,6 @@ GM_addStyle([
 			.map(k => `${k}: initial !important;`).join(' ') +
 	'}'
 );
+// 2025-03-18
+// language=CSS
+GM_addStyle('p {margin: 0.25rem 0 !important;}');
