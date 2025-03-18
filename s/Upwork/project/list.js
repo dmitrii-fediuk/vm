@@ -61,7 +61,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'[data-test="LazyHydrate"]'
-	,'#main section > article' // 2025-03-18
+	,'#main article' // 2025-03-18
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
