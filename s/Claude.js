@@ -102,4 +102,14 @@ GM_addStyle('.h-screen {height: auto !important; overflow: visible !important;}'
 // 2025-03-20
 // language=CSS
 GM_addStyle('nav[data-testid="menu-sidebar"] {width: 2rem !important;}');
-
+// 2025-03-20
+if (location.pathname.startsWith('/new')) {
+	// 2025-03-20
+	// language=CSS
+	GM_addStyle([
+		'main > .mx-auto > .font-copernicus:has(.text-accent-brand)' // 2025-03-20 «Good morning»
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
+}
