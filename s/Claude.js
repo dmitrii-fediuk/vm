@@ -20,7 +20,8 @@ GM_addStyle([
 // 2025-03-20
 // language=CSS
 GM_addStyle([
-	':has(> .bottom-0) > :first-child' // 2025-03-20 The content
+	'.bottom-0'
+	,':has(> .bottom-0) > :first-child' // 2025-03-20 The content
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
