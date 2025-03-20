@@ -47,7 +47,8 @@ GM_addStyle([
 // 2025-03-20
 // language=CSS
 GM_addStyle([
-	':has(> .bottom-0) > :first-child' // 2025-03-20 The content
+	'.gap-7'
+	,':has(> .bottom-0) > :first-child' // 2025-03-20 The content
 ]
 	 // language=Javascript
 	.join(',') + '{gap: 0 !important;}')
