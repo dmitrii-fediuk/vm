@@ -112,4 +112,12 @@ if (location.pathname.startsWith('/new')) {
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
 	;
+	// 2025-03-20
+	// language=CSS
+	GM_addStyle([
+		'main'
+	]
+		 // language=Javascript
+		.join(',') + '{padding: 0 !important;}')
+	;
 }
