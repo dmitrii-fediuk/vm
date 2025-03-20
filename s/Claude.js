@@ -23,6 +23,14 @@ GM_addStyle([
 // 2025-03-20
 // language=CSS
 GM_addStyle([
+	':has(> .group > .-bottom-0)'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
+// 2025-03-20
+// language=CSS
+GM_addStyle([
 	'.bottom-0'
 	,':has(> .bottom-0)'
 	,':has(> .bottom-0) > :first-child' // 2025-03-20 The content
