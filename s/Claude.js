@@ -37,6 +37,7 @@ GM_addStyle([
 	,':has(> .bottom-0) > :first-child' // 2025-03-20 The content
 	,':has(> .bottom-0) > :first-child .group'
 	,'header.sticky + div'
+	,'header.sticky > div'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
