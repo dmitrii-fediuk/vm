@@ -124,7 +124,7 @@ if (location.pathname.startsWith('/new')) {
 
 	// language=CSS
 	GM_addStyle([
-		'main > *'
+		'main > .max-w-2xl'
 	]
 		// language=Javascript
 		.join(',') + '{' +
