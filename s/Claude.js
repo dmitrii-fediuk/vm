@@ -82,6 +82,3 @@ GM_addStyle([
 // https://github.com/dmitrii-fediuk/vm/blob/2025-03-20/s/ChatGPT.js#L52-L54
 // language=CSS
 GM_addStyle('.h-screen {height: auto !important; overflow: visible !important;}');
-// 2024-11-30
-// language=CSS
-//GM_addStyle('.max-w-3xl {max-width: 60rem !important;}');
