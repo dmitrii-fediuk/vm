@@ -9,3 +9,11 @@
 // 2024-11-30 "Improve `claude.ai`": https://github.com/dmitrii-fediuk/vm/issues/68
 // language=CSS
 GM_addStyle('.max-w-3xl {max-width: 60rem !important;}');
+// 2025-03-21
+// language=CSS
+GM_addStyle([
+	'.sticky'
+]
+	 // language=Javascript
+	.join(',') + '{position: initial !important;}')
+;
