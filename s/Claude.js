@@ -26,6 +26,7 @@ GM_addStyle([
 GM_addStyle([
 	':has(> .group > .-bottom-0)'
 	,'header.sticky'
+	,'.max-w-2xl'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
