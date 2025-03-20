@@ -15,7 +15,7 @@ GM_addStyle([
 	,':has( > h1.text-primary)'
 	,'button:has(> svg.lucide-chevron-down)'
 	,'form.bottom-0 ~ :has(.lucide-file-text)'
-	,'form.bottom-0 ~ :has(.text-muted-foreground)'
+	,'form.bottom-0 ~ :has(.text-muted-foreground)' // 2025-03-20
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
