@@ -62,7 +62,8 @@ GM_addStyle([
 // 2025-03-20
 // language=CSS
 GM_addStyle([
-	'.max-w-3xl'
+	'.max-w-2xl'
+	,'.max-w-3xl'
 	,':has(> .-bottom-0)' // 2025-03-20 The last prompt
 	,':has(> .bottom-0) > :first-child' // 2025-03-20 The content
 ]
