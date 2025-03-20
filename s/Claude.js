@@ -24,7 +24,10 @@ GM_addStyle([
 	.join(',') + '{position: initial !important;}')
 ;
 // 2025-01-04 https://chatgpt.com/c/67792143-94dc-800c-a793-809f8e8488e6
-// 2025-02-22 https://chatgpt.com/c/67b8fea1-5c7c-800c-acb7-7be0480d93dd
+// 2025-03-20
+// Similar to:
+// https://github.com/dmitrii-fediuk/vm/blob/2025-03-20/s/grok.com.js#L89-L91
+// https://github.com/dmitrii-fediuk/vm/blob/2025-03-20/s/ChatGPT.js#L52-L54
 // language=CSS
 GM_addStyle('.h-screen {height: auto !important; overflow: visible !important;}');
 // 2024-11-30
