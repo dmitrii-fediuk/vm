@@ -10,7 +10,8 @@
 // 2025-03-20
 // language=CSS
 GM_addStyle([
-	':has(> a[href^="https://support.anthropic.com/en/articles/8525154"])'
+	':has(> [data-testid="user-message"]) > .shrink-0'
+	,':has(> a[href^="https://support.anthropic.com/en/articles/8525154"])'
 	,'button:has(svg[data-testid="action-bar-copy"]) ~ *'
 	,'button[data-testid="conversation-star-button"]'
 	// 2025-03-20 Claude does not allow sharing chats with everyone, so the «Share» button is useless for me.
