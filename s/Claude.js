@@ -24,6 +24,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	':has(> .group > .-bottom-0)'
+	,'header.sticky'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
