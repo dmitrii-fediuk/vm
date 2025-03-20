@@ -11,6 +11,7 @@
 // language=CSS
 GM_addStyle([
 	':has(> [data-testid="user-message"]) > .shrink-0'
+	,':has(> a > svg[aria-label="Claude"])'
 	,':has(> a[href^="https://support.anthropic.com/en/articles/8525154"])'
 	,'button:has(svg[data-testid="action-bar-copy"]) ~ *'
 	,'button[data-testid="conversation-star-button"]'
