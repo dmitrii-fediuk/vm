@@ -19,7 +19,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.sticky'
-	,'button[data-testid="action-bar-copy"] ~ *'
+	,'button:has(svg[data-testid="action-bar-copy"]) ~ *'
 	,'button[data-testid="conversation-star-button"]'
 ]
 	 // language=Javascript
