@@ -22,6 +22,7 @@ GM_addStyle([
 GM_addStyle([
 	'.bottom-0'
 	,':has(> .bottom-0) > :first-child' // 2025-03-20 The content
+	,':has(> .bottom-0) > :first-child .group'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
