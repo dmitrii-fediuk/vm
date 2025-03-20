@@ -58,7 +58,8 @@ GM_addStyle([
 // 2025-03-20
 // language=CSS
 GM_addStyle([
-	':has(> .-bottom-0)' // 2025-03-20 The last prompt
+	'.max-w-3xl'
+	,':has(> .-bottom-0)' // 2025-03-20 The last prompt
 	,':has(> .bottom-0) > :first-child' // 2025-03-20 The content
 ]
 	// language=Javascript
@@ -83,4 +84,4 @@ GM_addStyle([
 GM_addStyle('.h-screen {height: auto !important; overflow: visible !important;}');
 // 2024-11-30
 // language=CSS
-GM_addStyle('.max-w-3xl {max-width: 60rem !important;}');
+//GM_addStyle('.max-w-3xl {max-width: 60rem !important;}');
