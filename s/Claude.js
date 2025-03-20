@@ -20,6 +20,14 @@ GM_addStyle([
 // 2025-03-20
 // language=CSS
 GM_addStyle([
+	':has(> .bottom-0) > :first-child'
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
+// 2025-03-20
+// language=CSS
+GM_addStyle([
 	'.sticky'
 ]
 	 // language=Javascript
