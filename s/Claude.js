@@ -48,6 +48,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.gap-7'
+	,'.gap-8'
 	,':has(> .bottom-0) > :first-child' // 2025-03-20 The content
 ]
 	 // language=Javascript
