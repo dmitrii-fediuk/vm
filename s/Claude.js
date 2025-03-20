@@ -78,6 +78,14 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-03-20
+// language=CSS
+GM_addStyle([
+	'header.sticky'
+]
+	 // language=Javascript
+	.join(',') + '{height: auto !important;}')
+;
 // 2025-01-04 https://chatgpt.com/c/67792143-94dc-800c-a793-809f8e8488e6
 // 2025-03-20
 // Similar to:
