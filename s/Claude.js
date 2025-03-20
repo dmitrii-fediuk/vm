@@ -19,6 +19,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.sticky'
+	,'button[data-testid="conversation-star-button"]'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
