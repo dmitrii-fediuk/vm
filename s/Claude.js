@@ -94,3 +94,7 @@ GM_addStyle([
 // https://github.com/dmitrii-fediuk/vm/blob/2025-03-20/s/ChatGPT.js#L52-L54
 // language=CSS
 GM_addStyle('.h-screen {height: auto !important; overflow: visible !important;}');
+// 2025-03-20
+// language=CSS
+GM_addStyle('nav[data-testid="menu-sidebar"] {width: 2rem !important;}');
+
