@@ -121,4 +121,17 @@ if (location.pathname.startsWith('/new')) {
 		 // language=Javascript
 		.join(',') + '{padding: 0 !important;}')
 	;
+
+	// language=CSS
+	GM_addStyle([
+		'main > *'
+	]
+		// language=Javascript
+		.join(',') + '{' +
+			// language=CSS
+			['width', 'max-width', 'min-width']
+				// language=Javascript
+				.map(k => `${k}: 100% !important;`).join(' ') +
+		'}'
+	);
 }
