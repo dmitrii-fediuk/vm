@@ -116,6 +116,7 @@ if (location.pathname.startsWith('/new')) {
 	// language=CSS
 	GM_addStyle([
 		'main'
+		,'main > div'
 	]
 		 // language=Javascript
 		.join(',') + '{padding: 0 !important;}')
