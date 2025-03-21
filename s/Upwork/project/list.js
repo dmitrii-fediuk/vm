@@ -214,6 +214,7 @@ GM_addStyle([
 				,'Klaviyo'
 				,'Lead Generation'
 				,'Market Analysis'
+				,'Marketer'
 				,'Marketing Agency'
 				,'Marketing Expert'
 				,'Mechanical Engineer'
