@@ -189,6 +189,7 @@ GM_addStyle([
 				,'Key Responsibilities'
 				,'Klaviyo'
 				,'Mechanical Engineer'
+				,'Medical Device'
 				,'Meta Ads'
 				,'Mission'
 				,'N8n'
