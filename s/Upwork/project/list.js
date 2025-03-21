@@ -161,7 +161,8 @@ GM_addStyle([
 		const fPhrases = (() => {
 			const enable = new URL(location.href).searchParams.has('df-phrases');
 			const banned = [
-				'Artist'
+				'30 year old speaker'
+				,'Artist'
 				,'Betting'
 				,'CRO'
 				,'Cold Calling'
