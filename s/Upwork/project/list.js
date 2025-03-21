@@ -191,6 +191,7 @@ GM_addStyle([
 				,'Facebook'
 				,'Figma'
 				,'Financial Model'
+				,'Financial Plan'
 				,'Fractional COO'
 				,'Fractional CTO'
 				,'Fundraising'
