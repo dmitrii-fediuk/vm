@@ -236,6 +236,7 @@ GM_addStyle([
 				,'Telecom'
 				,'TikTok'
 				,'Trading'
+				,'Trainer'
 				,'Transgender'
 				,'YouTube Thumbnail'
 				,'Venture Researcher'
@@ -243,6 +244,7 @@ GM_addStyle([
 				,'Voiceover'
 				,'Web3'
 				,'Whatsapp'
+				,'Workshop'
 			].map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
 			return a => !enable || !(['h2', 'p.text-body-sm'].some(s => {
 				const e = a.querySelector(s);
