@@ -231,6 +231,7 @@ GM_addStyle([
 				,'Trading'
 				,'Transgender'
 				,'YouTube Thumbnail'
+				,'Venture Researcher'
 				,'Video Content Creator'
 				,'Voiceover'
 				,'Web3'
