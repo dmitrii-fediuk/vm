@@ -180,6 +180,8 @@ GM_addStyle([
 				,'CPA'
 				,'CRO'
 				,'Design Expert'
+				,'Development Agency'
+				,'Digital Marketing'
 				,'Dispute Resolution'
 				,'Dynamic team'
 				,'Facebook'
