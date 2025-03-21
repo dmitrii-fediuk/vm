@@ -192,6 +192,7 @@ GM_addStyle([
 				,'PR Specialist'
 				,'Project Manager'
 				,'Recruiting'
+				,'Residential Contractor'
 				,'SEO consultant'
 				,'Teach me'
 				,'TikTok'
