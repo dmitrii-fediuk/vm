@@ -191,6 +191,7 @@ GM_addStyle([
 				,'Dynamic team'
 				,'Facebook'
 				,'Figma'
+				,'FinOps'
 				,'Financial Model'
 				,'Financial Plan'
 				,'Fractional COO'
