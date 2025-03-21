@@ -197,6 +197,7 @@ GM_addStyle([
 				,'Medical Device'
 				,'Meta Ads'
 				,'Mission'
+				,'Moderator'
 				,'N8n'
 				,'NDA'
 				,'Our client'
