@@ -167,6 +167,7 @@ GM_addStyle([
 				,'Animation Expert'
 				,'Artist'
 				,'Betting'
+				,'Campaign'
 				,'Chemist'
 				,'Circuit'
 				,'Cold Calling'
