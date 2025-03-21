@@ -179,6 +179,7 @@ GM_addStyle([
 				,'Copywriter'
 				,'CPA'
 				,'CRO'
+				,'Deadline'
 				,'Design Expert'
 				,'Development Agency'
 				,'Digital Marketing'
