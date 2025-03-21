@@ -209,6 +209,7 @@ GM_addStyle([
 				,'iOS application'
 				,'Key Responsibilities'
 				,'Klaviyo'
+				,'Lead Generation'
 				,'Market Analysis'
 				,'Marketing Agency'
 				,'Marketing Expert'
