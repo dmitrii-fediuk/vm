@@ -181,6 +181,7 @@ GM_addStyle([
 				,'Cost-effective'
 				,'CPA'
 				,'CRO'
+				,'Cybersecurity strategy'
 				,'Deadline'
 				,'Design Expert'
 				,'Development Agency'
