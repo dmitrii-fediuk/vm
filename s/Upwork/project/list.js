@@ -194,6 +194,7 @@ GM_addStyle([
 				,'Recruiting'
 				,'Residential Contractor'
 				,'SEO consultant'
+				,'Slide presentation'
 				,'Teach me'
 				,'TikTok'
 				,'Trading'
