@@ -186,6 +186,7 @@ GM_addStyle([
 				,'Figma'
 				,'Financial Model'
 				,'Fractional COO'
+				,'Fractional CTO'
 				,'Fundraising'
 				,'Google Ads'
 				,'Google Tag Manager'
