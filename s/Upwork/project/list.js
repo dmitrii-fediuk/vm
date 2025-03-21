@@ -216,6 +216,7 @@ GM_addStyle([
 				,'Our customers'
 				,'Our team'
 				,'Patent Attorney'
+				,'Pitchbook'
 				,'PPC'
 				,'PR Specialist'
 				,'Project Manager'
