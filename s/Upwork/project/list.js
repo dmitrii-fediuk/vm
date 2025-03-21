@@ -202,6 +202,7 @@ GM_addStyle([
 				,'YouTube Thumbnail'
 				,'Video Content Creator'
 				,'Web3'
+				,'Wordpress Expert'
 			].map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
 			return a => !enable || !(['h2', 'p.text-body-sm'].some(s => {
 				const e = a.querySelector(s);
