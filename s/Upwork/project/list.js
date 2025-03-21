@@ -162,6 +162,7 @@ GM_addStyle([
 			const enable = new URL(location.href).searchParams.has('df-phrases');
 			const banned = [
 				'30 year old speaker'
+				,'Agile'
 				,'Android'
 				,'Animation Expert'
 				,'Artist'
@@ -169,6 +170,7 @@ GM_addStyle([
 				,'Circuit'
 				,'Cold Calling'
 				,'Cold Calls'
+				,'Confluence'
 				,'Consultation'
 				,'Copywriter'
 				,'CPA'
@@ -191,6 +193,7 @@ GM_addStyle([
 				,'Instagram'
 				,'Ideal candidate'
 				,'Instagram'
+				,'Jira'
 				,'Join our'
 				,'iOS application'
 				,'Key Responsibilities'
@@ -205,6 +208,8 @@ GM_addStyle([
 				,'N8n'
 				,'NDA'
 				,'Our client'
+				,'Our customers'
+				,'Our team'
 				,'Patent Attorney'
 				,'PPC'
 				,'PR Specialist'
