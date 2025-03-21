@@ -217,6 +217,7 @@ GM_addStyle([
 				,'Moderator'
 				,'N8n'
 				,'NDA'
+				,'Online courses'
 				,'Our client'
 				,'Our customers'
 				,'Our team'
