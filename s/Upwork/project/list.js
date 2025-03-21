@@ -171,6 +171,7 @@ GM_addStyle([
 				,'Dispute Resolution'
 				,'Dynamic team'
 				,'Facebook'
+				,'Fractional COO'
 				,'Google Ads'
 				,'Google Tag Manager'
 				,'How to Apply'
