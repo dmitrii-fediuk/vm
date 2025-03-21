@@ -161,7 +161,8 @@ GM_addStyle([
 		const fPhrases = (() => {
 			const enable = new URL(location.href).searchParams.has('df-phrases');
 			const banned = [
-				'Betting'
+				'Artist'
+				,'Betting'
 				,'CRO'
 				,'Cold Calling'
 				,'Cold Calls'
@@ -202,6 +203,7 @@ GM_addStyle([
 				,'Trading'
 				,'YouTube Thumbnail'
 				,'Video Content Creator'
+				,'Voiceover'
 				,'Web3'
 			].map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
 			return a => !enable || !(['h2', 'p.text-body-sm'].some(s => {
