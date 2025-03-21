@@ -201,6 +201,7 @@ GM_addStyle([
 				,'iOS application'
 				,'Key Responsibilities'
 				,'Klaviyo'
+				,'Marketing Expert'
 				,'Mechanical Engineer'
 				,'Media Buyer'
 				,'Media Expert'
