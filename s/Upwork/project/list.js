@@ -243,13 +243,14 @@ GM_addStyle([
 				,'Trading'
 				,'Trainer'
 				,'Transgender'
-				,'YouTube Thumbnail'
+				,'U.S.-based lawyer'
 				,'Venture Researcher'
 				,'Video Content Creator'
 				,'Voiceover'
 				,'Web3'
 				,'Whatsapp'
 				,'Workshop'
+				,'YouTube Thumbnail'
 			].map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
 			return a => !enable || !(['h2', 'p.text-body-sm'].some(s => {
 				const e = a.querySelector(s);
