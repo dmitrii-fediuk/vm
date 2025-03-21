@@ -230,6 +230,7 @@ GM_addStyle([
 				,'Video Content Creator'
 				,'Voiceover'
 				,'Web3'
+				,'Whatsapp'
 			].map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
 			return a => !enable || !(['h2', 'p.text-body-sm'].some(s => {
 				const e = a.querySelector(s);
