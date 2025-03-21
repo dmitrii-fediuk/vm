@@ -202,6 +202,7 @@ GM_addStyle([
 				,'Teach me'
 				,'TikTok'
 				,'Trading'
+				,'Transgender'
 				,'YouTube Thumbnail'
 				,'Video Content Creator'
 				,'Voiceover'
