@@ -209,6 +209,7 @@ GM_addStyle([
 				,'iOS application'
 				,'Key Responsibilities'
 				,'Klaviyo'
+				,'Market Analysis'
 				,'Marketing Agency'
 				,'Marketing Expert'
 				,'Mechanical Engineer'
