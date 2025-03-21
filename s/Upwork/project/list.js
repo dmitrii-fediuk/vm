@@ -177,6 +177,7 @@ GM_addStyle([
 				,'Confluence'
 				,'Consultation'
 				,'Copywriter'
+				,'Cost optimization'
 				,'CPA'
 				,'CRO'
 				,'Deadline'
