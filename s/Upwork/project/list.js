@@ -173,6 +173,7 @@ GM_addStyle([
 				,'Circuit'
 				,'Cold Calling'
 				,'Cold Calls'
+				,'Cold Email'
 				,'Confluence'
 				,'Consultation'
 				,'Copywriter'
