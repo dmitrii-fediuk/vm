@@ -169,6 +169,7 @@ GM_addStyle([
 				,'Betting'
 				,'Business Development'
 				,'Campaign'
+				,'Career advice'
 				,'Chemist'
 				,'Circuit'
 				,'Cold Calling'
