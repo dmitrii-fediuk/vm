@@ -173,6 +173,7 @@ GM_addStyle([
 				,'Dispute Resolution'
 				,'Dynamic team'
 				,'Facebook'
+				,'Financial Model'
 				,'Fractional COO'
 				,'Google Ads'
 				,'Google Tag Manager'
