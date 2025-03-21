@@ -228,6 +228,7 @@ GM_addStyle([
 				,'Pitchbook'
 				,'PPC'
 				,'PR Specialist'
+				,'Product Research'
 				,'Project Manager'
 				,'Recruiting'
 				,'Relationship Manager'
