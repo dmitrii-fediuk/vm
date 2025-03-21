@@ -174,6 +174,7 @@ GM_addStyle([
 				,'Dispute Resolution'
 				,'Dynamic team'
 				,'Facebook'
+				,'Figma'
 				,'Financial Model'
 				,'Fractional COO'
 				,'Fundraising'
