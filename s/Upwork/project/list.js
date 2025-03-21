@@ -178,6 +178,7 @@ GM_addStyle([
 				,'Consultation'
 				,'Copywriter'
 				,'Cost optimization'
+				,'Cost-effective'
 				,'CPA'
 				,'CRO'
 				,'Deadline'
