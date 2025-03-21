@@ -175,6 +175,7 @@ GM_addStyle([
 				,'Facebook'
 				,'Financial Model'
 				,'Fractional COO'
+				,'Fundraising'
 				,'Google Ads'
 				,'Google Tag Manager'
 				,'How to Apply'
