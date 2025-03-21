@@ -193,6 +193,7 @@ GM_addStyle([
 				,'Key Responsibilities'
 				,'Klaviyo'
 				,'Mechanical Engineer'
+				,'Media Buyer'
 				,'Media Expert'
 				,'Medical Device'
 				,'Meta Ads'
