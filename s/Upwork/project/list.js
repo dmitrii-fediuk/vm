@@ -199,6 +199,7 @@ GM_addStyle([
 				,'Grant Research'
 				,'Grant Writer'
 				,'Grant Writing'
+				,'High Ticket Closer'
 				,'How to Apply'
 				,'Hubspot'
 				,'Instagram'
