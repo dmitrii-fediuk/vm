@@ -210,6 +210,7 @@ GM_addStyle([
 				,'SEO consultant'
 				,'Slide presentation'
 				,'Teach me'
+				,'Telecom'
 				,'TikTok'
 				,'Trading'
 				,'Transgender'
