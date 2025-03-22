@@ -266,6 +266,7 @@ GM_addStyle([
 				,'U.S.-based lawyer'
 				,'Venture Researcher'
 				,'Video Content Creator'
+				,'Videographer'
 				,'Voiceover'
 				,'Web3'
 				,'Web Designer'
