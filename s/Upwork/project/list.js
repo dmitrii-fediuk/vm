@@ -275,6 +275,7 @@ GM_addStyle([
 				,'Mentor'
 				,'Mentorship'
 				,'Meta Ads'
+				,'minutes calls'
 				,'Mission'
 				,'Mobile Platform'
 				,'Moderator'
