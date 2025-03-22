@@ -296,6 +296,7 @@ GM_addStyle([
 				,'SEM'
 				,'SEO Expert'
 				,'SEO consultant'
+				,'Shopify Customizations'
 				,'Should not take longer than'
 				,'Slack'
 				,'Slide presentation'
