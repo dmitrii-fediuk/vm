@@ -294,6 +294,7 @@ GM_addStyle([
 				,'Standup'
 				,'Stock options'
 				,'Structural Engineer'
+				,'Supplement Manufacturer'
 				,'T-Shirt Design'
 				,'Tax Optimization'
 				,'Teach me'
