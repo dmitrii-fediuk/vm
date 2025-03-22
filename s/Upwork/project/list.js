@@ -170,6 +170,7 @@ GM_addStyle([
 				,'Artist'
 				,'Become part of our'
 				,'Betting'
+				,'Brand Communication'
 				,'Brand identity specialist'
 				,'Brand Partnership'
 				,'Business Development'
