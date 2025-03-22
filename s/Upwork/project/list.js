@@ -265,6 +265,7 @@ GM_addStyle([
 				,'Our client'
 				,'Our customers'
 				,'Our team'
+				,'Paid media'
 				,'Patent Attorney'
 				,'Patent Search'
 				,'Photographer'
