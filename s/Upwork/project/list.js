@@ -243,7 +243,6 @@ GM_addStyle([
 				,'Immediate Start'
 				,'Innovative'
 				,'Instagram'
-				,'Instagram'
 				,'Interior Design'
 				,'Interior Designer'
 				,'Interview'
