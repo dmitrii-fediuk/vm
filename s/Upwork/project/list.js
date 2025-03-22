@@ -249,6 +249,7 @@ GM_addStyle([
 				,'PR Specialist'
 				,'Product Research'
 				,'Project Manager'
+				,'Quick Job'
 				,'Recruiting'
 				,'Relationship Manager'
 				,'Residential Contractor'
