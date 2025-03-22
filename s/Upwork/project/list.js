@@ -246,6 +246,7 @@ GM_addStyle([
 				,'Investment Banker'
 				,'iOS Devices'
 				,'I’m developing'
+				,'Japanese'
 				,'Jira'
 				,'Jobseeker'
 				,'Join our'
