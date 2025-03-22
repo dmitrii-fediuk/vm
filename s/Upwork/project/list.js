@@ -297,6 +297,7 @@ GM_addStyle([
 				,'Venture Researcher'
 				,'Video Content Creator'
 				,'Videographer'
+				,'Visual Identity'
 				,'Voiceover'
 				,'We only hire'
 				,'Web Designer'
