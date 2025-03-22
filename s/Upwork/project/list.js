@@ -234,6 +234,7 @@ GM_addStyle([
 				,'High Ticket Closer'
 				,'How to Apply'
 				,'Hubspot'
+				,'iCloud'
 				,'Ideal candidate'
 				,'Immediate Start'
 				,'Innovative'
