@@ -309,6 +309,7 @@ GM_addStyle([
 				,'Press Release'
 				,'Product Research'
 				,'Product Testing'
+				,'Profit Percentage'
 				,'Project Manager'
 				,'Proposal Write'
 				,'Quick Job'
