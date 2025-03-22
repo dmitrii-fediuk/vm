@@ -171,6 +171,7 @@ GM_addStyle([
 				,'Become part of our'
 				,'Betting'
 				,'Brand identity specialist'
+				,'Brand Partnership'
 				,'Business Development'
 				,'Campaign'
 				,'Career advice'
