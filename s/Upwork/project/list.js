@@ -194,6 +194,7 @@ GM_addStyle([
 				,'CRO'
 				,'Cybersecurity strategy'
 				,'Deadline'
+				,'Dermatologist'
 				,'Design Expert'
 				,'Development Agency'
 				,'Digital Course'
