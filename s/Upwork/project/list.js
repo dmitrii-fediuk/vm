@@ -178,7 +178,7 @@ GM_addStyle([
 				,'Cold Calling'
 				,'Cold Calls'
 				,'Cold Email'
-				,'Comic book'
+				,'Comic Book'
 				,'Company Logo'
 				,'Competitive salary'
 				,'Confluence'
