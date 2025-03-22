@@ -252,6 +252,7 @@ GM_addStyle([
 				,'Marketer'
 				,'Marketing Agency'
 				,'Marketing Expert'
+				,'Marketing Powerhouse'
 				,'Mechanical Engineer'
 				,'Media Buyer'
 				,'Media Coverage'
