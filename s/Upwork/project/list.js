@@ -291,6 +291,7 @@ GM_addStyle([
 				,'Revenue Split'
 				,'Residential Contractor'
 				,'Resume Builder'
+				,'Resume Site'
 				,'SEM'
 				,'SEO Expert'
 				,'SEO consultant'
