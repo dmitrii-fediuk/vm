@@ -271,6 +271,7 @@ GM_addStyle([
 				,'Slack'
 				,'Slide presentation'
 				,'Software consultancy'
+				,'Standup'
 				,'Stock options'
 				,'Structural Engineer'
 				,'T-Shirt Design'
