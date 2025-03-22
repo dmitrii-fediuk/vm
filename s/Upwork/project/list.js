@@ -249,6 +249,7 @@ GM_addStyle([
 				,'I’m developing'
 				,'Japanese'
 				,'Jira'
+				,'Job Responsibilities'
 				,'Jobseeker'
 				,'Join our'
 				,'Join us'
