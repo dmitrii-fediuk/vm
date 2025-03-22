@@ -260,6 +260,7 @@ GM_addStyle([
 				,'Video Content Creator'
 				,'Voiceover'
 				,'Web3'
+				,'Web Designer'
 				,'Whatsapp'
 				,'Workshop'
 				,'YouTube Thumbnail'
