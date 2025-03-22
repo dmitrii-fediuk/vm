@@ -244,6 +244,7 @@ GM_addStyle([
 				,'Interior Designer'
 				,'Interview'
 				,'Investment Banker'
+				,'iOS Devices'
 				,'I’m developing'
 				,'Jira'
 				,'Jobseeker'
