@@ -245,6 +245,8 @@ GM_addStyle([
 				,'Media Coverage'
 				,'Media Expert'
 				,'Medical Device'
+				,'Mentor'
+				,'Mentorship'
 				,'Meta Ads'
 				,'Mission'
 				,'Mobile Platform'
