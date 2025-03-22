@@ -326,6 +326,7 @@ GM_addStyle([
 				,'Video Content Creator'
 				,'Videographer'
 				,'Visual Identity'
+				,'Voice'
 				,'Voiceover'
 				,'We have developed'
 				,'We only hire'
