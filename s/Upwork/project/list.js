@@ -162,7 +162,7 @@ GM_addStyle([
 			const enable = new URL(location.href).searchParams.has('df-phrases');
 			const banned = [
 				'🚀'
-				,'30 minute interview'
+				,'30 minute'
 				,'30 year old speaker'
 				,'3D Renderer'
 				,'Agile'
@@ -229,6 +229,7 @@ GM_addStyle([
 				,'Instagram'
 				,'Interior Design'
 				,'Interior Designer'
+				,'Interview'
 				,'Investment Banker'
 				,'Jira'
 				,'Jobseeker'
