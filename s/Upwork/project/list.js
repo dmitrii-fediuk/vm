@@ -227,6 +227,7 @@ GM_addStyle([
 				,'How to Apply'
 				,'Hubspot'
 				,'Ideal candidate'
+				,'Immediate Start'
 				,'Innovative'
 				,'Instagram'
 				,'Instagram'
