@@ -188,6 +188,7 @@ GM_addStyle([
 				,'Copywriter'
 				,'Cost optimization'
 				,'Cost-effective'
+				,'CFO'
 				,'CPA'
 				,'CRO'
 				,'Cybersecurity strategy'
