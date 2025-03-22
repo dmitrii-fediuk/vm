@@ -352,8 +352,8 @@ GM_addStyle([
 				,'Whatsapp'
 				,'Work with a team'
 				,'Workshop'
-				,'YouTube Thumbnail'
 				,'Your expertise will help us'
+				,'YouTube Thumbnail'
 				,'Zoom'
 			].map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
 			return a => !enable || !(['h2', 'p.text-body-sm'].some(s => {
