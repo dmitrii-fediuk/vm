@@ -278,6 +278,7 @@ GM_addStyle([
 				,'My name is'
 				,'N8n'
 				,'NDA'
+				,'Norwegian'
 				,'Online courses'
 				,'Our client'
 				,'Our customers'
