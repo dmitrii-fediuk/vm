@@ -256,6 +256,7 @@ GM_addStyle([
 				,'Slide presentation'
 				,'Software consultancy'
 				,'Stock options'
+				,'Structural Engineer'
 				,'Teach me'
 				,'Telecom'
 				,'TikTok'
