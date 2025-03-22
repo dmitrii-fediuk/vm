@@ -301,6 +301,7 @@ GM_addStyle([
 				,'SEM'
 				,'SEO Expert'
 				,'SEO consultant'
+				,'Shooting Content'
 				,'Shopify Customizations'
 				,'Should not take longer than'
 				,'Slack'
