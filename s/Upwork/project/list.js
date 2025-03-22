@@ -278,6 +278,7 @@ GM_addStyle([
 				,'Quick Job'
 				,'Recruiting'
 				,'Redesign a website'
+				,'Referral Partnership'
 				,'Relationship Manager'
 				,'Revenue Split'
 				,'Residential Contractor'
