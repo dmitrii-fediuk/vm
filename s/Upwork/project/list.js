@@ -176,6 +176,7 @@ GM_addStyle([
 				,'Career advice'
 				,'Chemist'
 				,'Circuit'
+				,'CISO'
 				,'Cold Calling'
 				,'Cold Calls'
 				,'Cold Email'
