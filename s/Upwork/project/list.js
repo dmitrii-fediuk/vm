@@ -262,6 +262,7 @@ GM_addStyle([
 				,'Klaviyo'
 				,'Landing Page Designer'
 				,'Lead Generation'
+				,'Licensed Therapist'
 				,'Market Analysis'
 				,'Marketer'
 				,'Marketing Agency'
