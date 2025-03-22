@@ -290,6 +290,7 @@ GM_addStyle([
 				,'Photographer'
 				,'Pitch deck'
 				,'Pitchbook'
+				,'Post Production'
 				,'Potential for equity'
 				,'Promotional Materials'
 				,'Promotional Videos'
