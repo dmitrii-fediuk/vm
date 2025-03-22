@@ -177,6 +177,7 @@ GM_addStyle([
 				,'Cold Email'
 				,'Confluence'
 				,'Consultation'
+				,'Content Writer'
 				,'Copywriter'
 				,'Cost optimization'
 				,'Cost-effective'
