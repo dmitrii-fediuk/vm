@@ -329,6 +329,7 @@ GM_addStyle([
 				,'Slide presentation'
 				,'Social Media'
 				,'Software consultancy'
+				,'Sourcing Specialist'
 				,'Standup'
 				,'Stock options'
 				,'Structural Engineer'
