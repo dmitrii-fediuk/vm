@@ -332,6 +332,7 @@ GM_addStyle([
 				,'We only hire'
 				,'Web Designer'
 				,'Web3'
+				,'Well funded'
 				,'Whatsapp'
 				,'Work with a team'
 				,'Workshop'
