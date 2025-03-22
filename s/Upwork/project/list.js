@@ -269,6 +269,7 @@ GM_addStyle([
 				,'Software consultancy'
 				,'Stock options'
 				,'Structural Engineer'
+				,'Tax Optimization'
 				,'Teach me'
 				,'Telecom'
 				,'TikTok'
