@@ -267,6 +267,7 @@ GM_addStyle([
 				,'Trainer'
 				,'Transgender'
 				,'U.S.-based lawyer'
+				,'Urgent work'
 				,'Venture Researcher'
 				,'Video Content Creator'
 				,'Videographer'
