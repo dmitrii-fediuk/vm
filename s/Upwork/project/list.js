@@ -194,6 +194,7 @@ GM_addStyle([
 				,'Co-owner'
 				,'Confluence'
 				,'Consultation'
+				,'Content Creation'
 				,'Content Writer'
 				,'Copywriter'
 				,'Cost optimization'
