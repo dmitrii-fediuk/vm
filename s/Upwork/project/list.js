@@ -229,6 +229,7 @@ GM_addStyle([
 				,'Jobseeker'
 				,'Join our'
 				,'Join us'
+				,'Jump on a call'
 				,'iOS application'
 				,'Key Responsibilities'
 				,'Klaviyo'
