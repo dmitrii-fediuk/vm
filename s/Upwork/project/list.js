@@ -163,6 +163,7 @@ GM_addStyle([
 			const banned = [
 				'🚀'
 				,'30 year old speaker'
+				,'3D Renderer'
 				,'Agile'
 				,'Android'
 				,'Animation Expert'
