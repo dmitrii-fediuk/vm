@@ -224,6 +224,7 @@ GM_addStyle([
 				,'Instagram'
 				,'Interior Design'
 				,'Interior Designer'
+				,'Investment Banker'
 				,'Jira'
 				,'Join our'
 				,'Join us'
