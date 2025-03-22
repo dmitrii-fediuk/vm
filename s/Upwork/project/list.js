@@ -301,6 +301,7 @@ GM_addStyle([
 				,'Supplement Manufacturer'
 				,'T-Shirt Design'
 				,'Tax Optimization'
+				,'Tax Structures'
 				,'Teach me'
 				,'Team meeting'
 				,'Telecom'
