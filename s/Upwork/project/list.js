@@ -242,6 +242,7 @@ GM_addStyle([
 				,'Relationship Manager'
 				,'Residential Contractor'
 				,'SEO consultant'
+				,'SEO Expert'
 				,'Slide presentation'
 				,'Software consultancy'
 				,'Teach me'
