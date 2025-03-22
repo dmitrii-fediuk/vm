@@ -195,6 +195,7 @@ GM_addStyle([
 				,'FinOps'
 				,'Financial Model'
 				,'Financial Plan'
+				,'Food Formulator'
 				,'Fractional COO'
 				,'Fractional CTO'
 				,'Fundraising'
