@@ -182,6 +182,7 @@ GM_addStyle([
 				,'Cold Calls'
 				,'Cold Email'
 				,'Comic Book'
+				,'Communications Specialist'
 				,'Company Logo'
 				,'Competitive salary'
 				,'Confluence'
