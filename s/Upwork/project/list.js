@@ -298,6 +298,7 @@ GM_addStyle([
 				,'Team meeting'
 				,'Telecom'
 				,'TikTok'
+				,'to partner with'
 				,'Trading'
 				,'Trainer'
 				,'Transgender'
