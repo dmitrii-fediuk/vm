@@ -237,6 +237,7 @@ GM_addStyle([
 				,'Medical Device'
 				,'Meta Ads'
 				,'Mission'
+				,'Mobile Platform'
 				,'Moderator'
 				,'N8n'
 				,'NDA'
