@@ -255,6 +255,7 @@ GM_addStyle([
 				,'iOS application'
 				,'Key Responsibilities'
 				,'Klaviyo'
+				,'Landing Page Designer'
 				,'Lead Generation'
 				,'Market Analysis'
 				,'Marketer'
