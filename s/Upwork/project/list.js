@@ -217,6 +217,8 @@ GM_addStyle([
 				,'Instagram'
 				,'Ideal candidate'
 				,'Instagram'
+				,'Interior Design'
+				,'Interior Designer'
 				,'Jira'
 				,'Join our'
 				,'Join us'
