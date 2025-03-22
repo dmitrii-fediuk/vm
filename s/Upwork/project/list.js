@@ -238,6 +238,7 @@ GM_addStyle([
 				,'Marketing Expert'
 				,'Mechanical Engineer'
 				,'Media Buyer'
+				,'Media Coverage'
 				,'Media Expert'
 				,'Medical Device'
 				,'Meta Ads'
