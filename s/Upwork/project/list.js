@@ -201,6 +201,7 @@ GM_addStyle([
 				,'CPA'
 				,'CRO'
 				,'Cybersecurity strategy'
+				,'Dating App'
 				,'Deadline'
 				,'Dermatologist'
 				,'Design Expert'
