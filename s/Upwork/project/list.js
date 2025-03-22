@@ -227,7 +227,7 @@ GM_addStyle([
 				,'How to Apply'
 				,'Hubspot'
 				,'Ideal candidate'
-				,'Innovative team'
+				,'Innovative'
 				,'Instagram'
 				,'Instagram'
 				,'Interior Design'
