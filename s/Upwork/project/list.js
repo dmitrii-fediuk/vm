@@ -262,6 +262,7 @@ GM_addStyle([
 				,'PR Specialist'
 				,'Press Release'
 				,'Product Research'
+				,'Product Testing'
 				,'Project Manager'
 				,'Quick Job'
 				,'Recruiting'
