@@ -210,6 +210,7 @@ GM_addStyle([
 				,'Digital Advertising'
 				,'Digital Course'
 				,'Digital Marketing'
+				,'Digital Transformation'
 				,'Dispute Resolution'
 				,'Dynamic team'
 				,'Entwickler'
