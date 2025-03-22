@@ -202,6 +202,7 @@ GM_addStyle([
 				,'Dermatologist'
 				,'Design Expert'
 				,'Development Agency'
+				,'Digital Advertising'
 				,'Digital Course'
 				,'Digital Marketing'
 				,'Dispute Resolution'
