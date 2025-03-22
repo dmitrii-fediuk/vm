@@ -268,6 +268,7 @@ GM_addStyle([
 				,'Residential Contractor'
 				,'SEO consultant'
 				,'SEO Expert'
+				,'Slack'
 				,'Slide presentation'
 				,'Software consultancy'
 				,'Stock options'
