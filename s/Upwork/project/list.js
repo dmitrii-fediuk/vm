@@ -219,6 +219,7 @@ GM_addStyle([
 				,'FinOps'
 				,'Financial Model'
 				,'Financial Plan'
+				,'Financial Report'
 				,'Food Formulator'
 				,'Footage'
 				,'Founder'
