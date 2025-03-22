@@ -193,6 +193,7 @@ GM_addStyle([
 				,'Deadline'
 				,'Design Expert'
 				,'Development Agency'
+				,'Digital Course'
 				,'Digital Marketing'
 				,'Dispute Resolution'
 				,'Dynamic team'
