@@ -208,6 +208,7 @@ GM_addStyle([
 				,'Digital Marketing'
 				,'Dispute Resolution'
 				,'Dynamic team'
+				,'Entwickler'
 				,'Facebook'
 				,'Figma'
 				,'FinOps'
