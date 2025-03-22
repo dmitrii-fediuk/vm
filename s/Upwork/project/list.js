@@ -330,6 +330,8 @@ GM_addStyle([
 				,'Teach me'
 				,'Team meeting'
 				,'Telecom'
+				,'The candidate should provide'
+				,'The ideal freelancer'
 				,'TikTok'
 				,'to partner with'
 				,'Trading'
