@@ -285,6 +285,7 @@ GM_addStyle([
 				,'Pitchbook'
 				,'Potential for equity'
 				,'Promotional Materials'
+				,'Promotional Videos'
 				,'PPC'
 				,'PR Specialist'
 				,'Press Release'
