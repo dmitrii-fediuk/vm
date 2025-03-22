@@ -226,6 +226,7 @@ GM_addStyle([
 				,'Interior Designer'
 				,'Investment Banker'
 				,'Jira'
+				,'Jobseeker'
 				,'Join our'
 				,'Join us'
 				,'iOS application'
