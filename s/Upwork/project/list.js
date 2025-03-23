@@ -385,6 +385,7 @@ GM_addStyle([
 				,'Work with a team'
 				,'Workshop'
 				,'You will be responsible'
+				,'Your expertise will be crucial'
 				,'Your expertise will help us'
 				,'YouTube Thumbnail'
 				,'Zoom'
