@@ -188,6 +188,7 @@ GM_addStyle([
 				,'Circuit'
 				,'CISO'
 				,'CMO'
+				,'Coaching'
 				,'Cold Calling'
 				,'Cold Calls'
 				,'Cold Email'
