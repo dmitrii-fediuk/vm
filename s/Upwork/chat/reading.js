@@ -6,7 +6,8 @@
 // @match *://www.upwork.com/*
 // @name Upwork / Chat / Reading
 // ==/UserScript==
-// 2024-10-13 "Remove all visual garbage from the Upwork chat screen": https://github.com/dmitrii-fediuk/vm/issues/53
+// 2024-10-13
+// "Remove all visual garbage from the Upwork chat screen": https://github.com/dmitrii-fediuk/vm/issues/53
 // language=CSS
 GM_addStyle('#story-viewport {height: initial !important;}');
 // language=CSS
