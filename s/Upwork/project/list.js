@@ -306,6 +306,7 @@ GM_addStyle([
 				,'Pitchbook'
 				,'Post Production'
 				,'Potential for equity'
+				,'Preparing Proposal'
 				,'Professional Proposal'
 				,'Promotional Materials'
 				,'Promotional Videos'
