@@ -161,7 +161,7 @@ GM_addStyle([
 		const fPhrases = (() => {
 			const enable = new URL(location.href).searchParams.has('df-phrases');
 			const banned = [
-				'🚀', '🎯', '🔥', '💡'
+				'🚀', '🎯', '🔥', '💡', '📌'
 				,'30 minute'
 				,'30 year old speaker'
 				,'3D Renderer'
@@ -379,7 +379,8 @@ GM_addStyle([
 				let r = !!e;
 				if (r) {
 					const t = e.textContent.toUpperCase();
-					const ta = t.split(/[\s\W]+/).map(v => v.trim());
+					// 2025-03-23 https://chatgpt.com/c/67df4ec4-a640-8003-8f17-7e3d5ba0d5e7
+					const ta = t.match(/\w+|\p{Extended_Pictographic}/gu);
 					//return banned.some(b => b.m ? t.includes(b.s) : ta.includes(b.s));
 					r = banned.some(b => {
 						const r = b.m ? t.includes(b.s) : ta.includes(b.s);
