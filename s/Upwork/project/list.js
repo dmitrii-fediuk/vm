@@ -384,6 +384,7 @@ GM_addStyle([
 				,'Whatsapp'
 				,'Work with a team'
 				,'Workshop'
+				,'You will be responsible'
 				,'Your expertise will help us'
 				,'YouTube Thumbnail'
 				,'Zoom'
