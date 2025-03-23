@@ -239,6 +239,7 @@ GM_addStyle([
 				,'Grant Writer'
 				,'Grant Writing'
 				,'Guest Poster'
+				,'Guest Speaker'
 				,'Head of Marketing'
 				,'Help me'
 				,'High Ticket Closer'
