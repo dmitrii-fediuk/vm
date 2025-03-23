@@ -178,6 +178,7 @@ GM_addStyle([
 				,'Brand Identity'
 				,'Brand Partnership'
 				,'Business Development'
+				,'Calendly'
 				,'Campaign'
 				,'Career advice'
 				,'CFO'
