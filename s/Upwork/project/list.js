@@ -387,6 +387,7 @@ GM_addStyle([
 				,'You will be responsible'
 				,'Your expertise will be crucial'
 				,'Your expertise will help us'
+				,'Your insights will help us'
 				,'YouTube Thumbnail'
 				,'Zoom'
 			].map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
