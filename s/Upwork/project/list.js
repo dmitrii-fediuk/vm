@@ -336,6 +336,7 @@ GM_addStyle([
 				,'Sourcing Specialist'
 				,'Standup'
 				,'Stock options'
+				,'Strategic Partnership'
 				,'Structural Engineer'
 				,'Supplement Manufacturer'
 				,'T-Shirt Design'
