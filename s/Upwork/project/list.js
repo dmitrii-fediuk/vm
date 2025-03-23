@@ -243,6 +243,7 @@ GM_addStyle([
 				,'iCloud'
 				,'Ideal candidate'
 				,'Immediate Start'
+				,'Immigration'
 				,'Innovative'
 				,'Instagram'
 				,'Interior Design'
