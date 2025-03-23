@@ -294,6 +294,7 @@ GM_addStyle([
 				,'Our team'
 				,'Outbound calling'
 				,'Paid media'
+				,'Partnership Opportunity'
 				,'Patent Attorney'
 				,'Patent Search'
 				,'Photographer'
