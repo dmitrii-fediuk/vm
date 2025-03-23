@@ -3,7 +3,7 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Upwork/chat/common.js
 // @icon https://www.upwork.com/favicon.ico
-// @match *://www.upwork.com/*
+// @match *://www.upwork.com/ab/messages/rooms/room_*
 // @name Upwork / Chat / Common
 // ==/UserScript==
 // 2025-03-23
