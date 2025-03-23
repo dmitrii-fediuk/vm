@@ -163,6 +163,7 @@ GM_addStyle([
 			const banned = [
 				'🚀', '🎯', '🔥', '💡', '📌'
 				,'30 minute'
+				,'45-Minute'
 				,'30 year old speaker'
 				,'3D Renderer'
 				,'A startup'
