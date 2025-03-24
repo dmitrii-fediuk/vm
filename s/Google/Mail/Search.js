@@ -31,6 +31,6 @@ const p = () => {if (location.hash.startsWith('#search/')) {
 	;
 	// 2025-03-24
 	// language=CSS
-	GM_addStyle('div[id]:has(> [data-srm="email"] > [aria-label="search refinement"][role="toolbar"]) > :not([data-srm="email"]) {height: calc(100vh - 64px - 16px) !important;}');
+	GM_addStyle('div[id]:has(> [data-srm="email"] > [aria-label="search refinement"][role="toolbar"]) > :not([data-srm="email"]) {height: 100vh !important;}');
 }};
 p(); window.addEventListener('hashchange', p);
