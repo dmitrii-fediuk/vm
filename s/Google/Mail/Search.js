@@ -20,4 +20,4 @@ const p = () => {if (location.hash.startsWith('#search/')) {
 		.join(',') + '{display: none !important;}')
 	;
 }};
-p(); window.addEventListener('hashchange', () => p);
+p(); window.addEventListener('hashchange', p);
