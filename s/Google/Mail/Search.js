@@ -3,7 +3,7 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Google/Mail/Search.js
 // @icon https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico
-// @match *://mail.google.com/mail/u/0/#search/*
+// @match *://mail.google.com/*
 // @name Google / Mail / Search
 // ==/UserScript==
 // 2025-03-24
@@ -20,8 +20,8 @@ if (self.navigation) {
 	navigation.addEventListener('navigatesuccess', p);
 }
 else {
-	let u = location.href;
-	new MutationObserver(() => u !== (u = location.href) && p()).observe(
+	let h = location.h;
+	new MutationObserver(() => h !== (h = location.hash) && p()).observe(
 		document, {subtree: true, childList: true}
 	);
 }
