@@ -15,7 +15,7 @@
 (() => {
 	const p = () => {
 		if (location.hash.startsWith('#search/')) {
-			console.log('Search 2');
+			console.log('С1');
 		}
 	};
 	p();
@@ -24,7 +24,7 @@
 (() => {
 	const p = () => {
 		if (location.hash.startsWith('#search/')) {
-			console.log('Search 1');
+			console.log('С2');
 		}
 	};
 	p();
