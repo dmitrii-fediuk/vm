@@ -10,21 +10,15 @@
 // 1) "Improve Gmail": https://github.com/dmitrii-fediuk/vm/issues/73
 // 2) https://grok.com/chat/7160441d-79e9-4dee-8a3f-266fdc81dcae
 // 3) https://violentmonkey.github.io/api/matching/#matching-spa-sites-like-fb-github-twitter-youtube
-const p = () => {
-	if (location.hash.startsWith('#search/')) {
-		console.log('Search');
-	}
-};
-p();
-if (self.navigation) {
-	navigation.addEventListener('navigatesuccess', p);
-}
-else {
-	let h = location.h;
-	new MutationObserver(() => h !== (h = location.hash) && p()).observe(
-		document, {subtree: true, childList: true}
-	);
-}
+(() => {
+	const p = () => {
+		if (location.hash.startsWith('#search/')) {
+			console.log('Search');
+		}
+	};
+	p();
+	window.addEventListener('hashchange', p);
+})();
 // language=CSS
 GM_addStyle([
 
