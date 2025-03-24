@@ -13,7 +13,7 @@
 const p = () => {if (location.hash.startsWith('#search/')) {
 	// language=CSS
 	GM_addStyle([
-
+		'[data-srm="email"]:has([data-tooltip="Spaces matched by name"][role="button"])'
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
