@@ -25,6 +25,7 @@ const p = () => {if (location.hash.startsWith('#search/')) {
 	GM_addStyle([
 		'div#\\:3'
 		,'div[id]:has(> [data-srm="email"] > [aria-label="search refinement"][role="toolbar"])'
+		,'div[id]:has(> [data-srm="email"] > [aria-label="search refinement"][role="toolbar"]) > :not([data-srm="email"])'
 	]
 		 // language=Javascript
 		.join(',') + '{height: auto !important;}')
