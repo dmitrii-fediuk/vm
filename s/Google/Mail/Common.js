@@ -97,8 +97,3 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-
-// 2025-03-24 https://grok.com/chat/7160441d-79e9-4dee-8a3f-266fdc81dcae
-if (location.hash.startsWith('#search/')) {
-
-}

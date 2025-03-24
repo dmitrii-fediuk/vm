@@ -5,8 +5,27 @@
 // @icon https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico
 // @match *://mail.google.com/mail/u/0/#search/*
 // @name Google / Mail / Search
+// @require https://cdn.jsdelivr.net/npm/@violentmonkey/url
 // ==/UserScript==
-// 2025-03-24 "Improve Gmail": https://github.com/dmitrii-fediuk/vm/issues/73
+// 2025-03-24
+// 1) "Improve Gmail": https://github.com/dmitrii-fediuk/vm/issues/73
+// 2 https://grok.com/chat/7160441d-79e9-4dee-8a3f-266fdc81dcae
+// 3) https://violentmonkey.github.io/api/matching/#matching-spa-sites-like-fb-github-twitter-youtube
+const onUrlChange = () => {
+	if (location.hash.startsWith('#search/')) {
+		console.log('Search');
+	}
+};
+onUrlChange();
+if (self.navigation) {
+	navigation.addEventListener('navigatesuccess', onUrlChange);
+}
+else {
+	let u = location.href;
+	new MutationObserver(() => u !== (u = location.href) && onUrlChange()).observe(
+		document, {subtree: true, childList: true}
+	);
+}
 // language=CSS
 GM_addStyle([
 
@@ -14,4 +33,3 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
-console.log('Search');
