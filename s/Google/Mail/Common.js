@@ -1,10 +1,10 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Google/Mail.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Google/Mail/Common.js
 // @icon https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico
 // @match *://mail.google.com/*
-// @name Google / Mail
+// @name Google / Mail / Common
 // ==/UserScript==
 // 2024-12-02 "Improve Gmail": https://github.com/dmitrii-fediuk/vm/issues/73
 // language=CSS
@@ -97,3 +97,8 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+
+// 2025-03-24 https://grok.com/chat/7160441d-79e9-4dee-8a3f-266fdc81dcae
+if (location.hash.startsWith('#search/')) {
+
+}
