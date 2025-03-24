@@ -11,6 +11,7 @@
 // 2) https://grok.com/chat/7160441d-79e9-4dee-8a3f-266fdc81dcae
 // 3) https://violentmonkey.github.io/api/matching/#matching-spa-sites-like-fb-github-twitter-youtube
 const p = () => {if (location.hash.startsWith('#search/')) {
+	// 2025-03-24
 	// language=CSS
 	GM_addStyle([
 		':has(> div > [role="contentinfo"] > img[contactid])'
@@ -18,6 +19,14 @@ const p = () => {if (location.hash.startsWith('#search/')) {
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
+	;
+	// 2025-03-24
+	// language=CSS
+	GM_addStyle([
+		'div[id]:has(> [data-srm="email"] > [aria-label="search refinement"][role="toolbar"])'
+	]
+		 // language=Javascript
+		.join(',') + '{height: auto !important;}')
 	;
 }};
 p(); window.addEventListener('hashchange', p);
