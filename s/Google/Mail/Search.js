@@ -25,10 +25,12 @@ const p = () => {if (location.hash.startsWith('#search/')) {
 	GM_addStyle([
 		'div#\\:3'
 		,'div[id]:has(> [data-srm="email"] > [aria-label="search refinement"][role="toolbar"])'
-		//,'div[id]:has(> [data-srm="email"] > [aria-label="search refinement"][role="toolbar"]) > :not([data-srm="email"])'
 	]
 		 // language=Javascript
 		.join(',') + '{height: auto !important;}')
 	;
+	// 2025-03-24
+	// language=CSS
+	GM_addStyle('div[id]:has(> [data-srm="email"] > [aria-label="search refinement"][role="toolbar"]) > :not([data-srm="email"]) {height: calc(100vh - 64px - 16px) !important;}');
 }};
 p(); window.addEventListener('hashchange', p);
