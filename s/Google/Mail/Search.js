@@ -11,7 +11,7 @@
 // 2) https://grok.com/chat/7160441d-79e9-4dee-8a3f-266fdc81dcae
 // 3) https://violentmonkey.github.io/api/matching/#matching-spa-sites-like-fb-github-twitter-youtube
 const p = () => {
-	console.log('Search')
+	console.log('Search');
 	// language=CSS
 	GM_addStyle([
 
