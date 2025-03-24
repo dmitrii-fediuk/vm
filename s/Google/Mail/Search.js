@@ -10,30 +10,14 @@
 // 1) "Improve Gmail": https://github.com/dmitrii-fediuk/vm/issues/73
 // 2) https://grok.com/chat/7160441d-79e9-4dee-8a3f-266fdc81dcae
 // 3) https://violentmonkey.github.io/api/matching/#matching-spa-sites-like-fb-github-twitter-youtube
-// https://chatgpt.com/c/67e1a122-bb74-8003-b9d6-a4b13a115879
-// `window.addEventListener('hashchange', ...)` does not work when the browser's Back button is pressed.
-(() => {
-	const p = () => {
-		if (location.hash.startsWith('#search/')) {
-			console.log('С1');
-		}
-	};
-	p();
-	(new MutationObserver(() => p)).observe(document.documentElement, {subtree: true, childList: true});
-})();
-(() => {
-	const p = () => {
-		if (location.hash.startsWith('#search/')) {
-			console.log('С2');
-		}
-	};
-	p();
-	window.addEventListener('hashchange', p);
-})();
-// language=CSS
-GM_addStyle([
+const p = () => {
+	console.log('Search')
+	// language=CSS
+	GM_addStyle([
 
-]
-	 // language=Javascript
-	.join(',') + '{display: none !important;}')
-;
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
+};
+p(); window.addEventListener('hashchange', () => location.hash.startsWith('#search/') ? p() : null);
