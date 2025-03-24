@@ -23,7 +23,8 @@ const p = () => {if (location.hash.startsWith('#search/')) {
 	// 2025-03-24
 	// language=CSS
 	GM_addStyle([
-		'div[id]:has(> [data-srm="email"] > [aria-label="search refinement"][role="toolbar"])'
+		'div#\\:3'
+		,'div[id]:has(> [data-srm="email"] > [aria-label="search refinement"][role="toolbar"])'
 	]
 		 // language=Javascript
 		.join(',') + '{height: auto !important;}')
