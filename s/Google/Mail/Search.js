@@ -15,7 +15,7 @@ const p = () => {
 		console.log('Search');
 	}
 };
-onUrlChange();
+p();
 if (self.navigation) {
 	navigation.addEventListener('navigatesuccess', p);
 }
