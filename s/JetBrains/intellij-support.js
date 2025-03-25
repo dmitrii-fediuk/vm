@@ -38,3 +38,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// 2025-03-25
+// language=CSS
+GM_addStyle('body {padding: 0 1rem !important;}');
