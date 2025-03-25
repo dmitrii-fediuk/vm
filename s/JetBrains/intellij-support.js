@@ -22,8 +22,7 @@ GM_addStyle([
 // 2025-03-25
 // language=CSS
 GM_addStyle([
-	'.article-content p'
-	,'.margin-bottom-vertical-unit'
+	'.margin-bottom-vertical-unit'
 	,'.margin-bottom-vertical-unit-half'
 	,'.post-header'
 	,'.vote'
@@ -52,3 +51,6 @@ GM_addStyle([
 // 2025-03-25
 // language=CSS
 GM_addStyle('body {padding: 0 1rem !important;}');
+// 2025-03-25
+// language=CSS
+GM_addStyle('.article-content p {margin: 0.25rem 0 !important;}');
