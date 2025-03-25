@@ -10,8 +10,8 @@
 // language=CSS
 GM_addStyle([
 	'.manager__menu'
-	,'[class^="secondColumn"]:has([data-test="current-visibility"])'
 	,'[class*="toTopButtonScroll"]'
+	,'[class^="secondColumn"]:has([data-test="current-visibility"])'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
