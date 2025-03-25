@@ -54,3 +54,6 @@ GM_addStyle('body {padding: 0 1rem !important;}');
 // 2025-03-25
 // language=CSS
 GM_addStyle('.article-content p {margin: 0.25rem 0 !important;}');
+// 2025-03-25
+// language=CSS
+GM_addStyle('.markdown {line-height: 1.4 !important;}');
