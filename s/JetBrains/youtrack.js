@@ -18,7 +18,7 @@ GM_addStyle([
 // 2025-03-25
 // language=CSS
 GM_addStyle([
-
+	'[class*="ticketHeaderSticky"]'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -26,7 +26,8 @@ GM_addStyle([
 // 2025-03-25
 // language=CSS
 GM_addStyle([
-	'article'
+	'[class*="ticketHeaderSticky"]'
+	,'article'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
