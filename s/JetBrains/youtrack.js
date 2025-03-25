@@ -20,6 +20,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'[class*="ticketHeaderSticky"]'
+	,'[class^="ticketNavigation"]'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
