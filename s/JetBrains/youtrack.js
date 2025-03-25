@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.manager__menu'
+	,'[class*="toTopButtonScroll"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -34,7 +35,6 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'[class*="ticketHeaderSticky"]'
-	,'[class*="toTopButtonScroll"]'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
