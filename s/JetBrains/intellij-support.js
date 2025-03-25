@@ -25,6 +25,7 @@ GM_addStyle([
 // 2025-03-25
 // language=CSS
 GM_addStyle([
+	'.g-container'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
