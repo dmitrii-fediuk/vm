@@ -22,7 +22,8 @@ GM_addStyle([
 // 2025-03-25
 // language=CSS
 GM_addStyle([
-	'.margin-bottom-vertical-unit'
+	'.article-content p'
+	,'.margin-bottom-vertical-unit'
 	,'.margin-bottom-vertical-unit-half'
 	,'.post-header'
 	,'.vote'
