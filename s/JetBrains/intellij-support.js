@@ -53,6 +53,24 @@ GM_addStyle([
 ;
 // 2025-03-25
 // language=CSS
+GM_addStyle([
+	'.vote-sum'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['width', 'min-width']
+			// language=Javascript
+			.map(k => `${k}: initial !important;`).join(' ') +
+		// language=CSS
+		Object.entries({
+			// language=Javascript
+			'max-width': '100%'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-03-25
+// language=CSS
 GM_addStyle('body {padding: 0 1rem !important;}');
 // 2025-03-25
 // language=CSS
