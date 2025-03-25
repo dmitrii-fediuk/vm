@@ -42,4 +42,12 @@ GM_addStyle([
 ;
 // 2025-03-25
 // language=CSS
+GM_addStyle([
+	'.margin-bottom-vertical-unit-half'
+]
+	 // language=Javascript
+	.join(',') + '{border: 0 !important;}')
+;
+// 2025-03-25
+// language=CSS
 GM_addStyle('body {padding: 0 1rem !important;}');
