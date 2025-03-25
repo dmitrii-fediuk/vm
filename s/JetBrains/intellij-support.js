@@ -17,6 +17,7 @@ GM_addStyle([
 // 2025-03-25
 // language=CSS
 GM_addStyle([
+	'.post-header'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
