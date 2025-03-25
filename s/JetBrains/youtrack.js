@@ -19,9 +19,9 @@ GM_addStyle([
 // 2025-03-25
 // language=CSS
 GM_addStyle([
-	'[class*="ticketHeaderSticky"]'
+	'[class*="linkedTickets"]'
+	,'[class*="ticketHeaderSticky"]'
 	,'[class^="description__"]'
-	,'[class^="linkedTickets"]'
 	,'[class^="ticketNavigation"]'
 ]
 	 // language=Javascript
