@@ -23,6 +23,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.margin-bottom-vertical-unit'
+	,'.margin-bottom-vertical-unit-half'
 	,'.post-header'
 	,'.vote'
 ]
