@@ -24,6 +24,7 @@ GM_addStyle([
 GM_addStyle([
 	'.margin-bottom-vertical-unit'
 	,'.post-header'
+	,'.vote'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
