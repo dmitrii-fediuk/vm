@@ -21,6 +21,7 @@ GM_addStyle([
 GM_addStyle([
 	'[class*="ticketHeaderSticky"]'
 	,'[class^="description__"]'
+	,'[class^="linkedTickets"]'
 	,'[class^="ticketNavigation"]'
 ]
 	 // language=Javascript
