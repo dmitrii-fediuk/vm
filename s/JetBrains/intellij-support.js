@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.article-content ~ *'
+	,'.comments ~ *'
 	,'.page__footer'
 	,'.page__header'
 	,'.post-footer'
