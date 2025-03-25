@@ -78,3 +78,12 @@ GM_addStyle('.article-content p {margin: 0.25rem 0 !important;}');
 // 2025-03-25
 // language=CSS
 GM_addStyle('.markdown {line-height: 1.4 !important;}');
+// 2025-03-25
+(() => {
+	document.querySelectorAll('footer.comment__footer').forEach(f => {
+		const s = f.querySelector('.vote-sum > span');
+		if (!s || !parseInt(s.textContent)) {
+			f.style.display = 'none';
+		}
+	});
+})();
