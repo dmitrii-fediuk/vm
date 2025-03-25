@@ -29,6 +29,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'[class*="ticketHeaderSticky"]'
+	,'[data-test="issue-container"]'
 	,'article'
 ]
 	 // language=Javascript
