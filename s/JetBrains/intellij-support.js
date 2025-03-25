@@ -14,3 +14,17 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// 2025-03-25
+// language=CSS
+GM_addStyle([
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
+// 2025-03-25
+// language=CSS
+GM_addStyle([
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
