@@ -34,6 +34,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'[class*="ticketHeaderSticky"]'
+	,'[class*="toTopButtonScroll"]'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
