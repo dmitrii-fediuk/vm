@@ -54,3 +54,6 @@ GM_addStyle([
 // 2025-03-25
 // language=CSS
 GM_addStyle('body {padding: 0 1rem !important;}');
+// 2025-03-25
+// language=CSS
+GM_addStyle('[class^="contentWrapper"] {flex-direction: column !important;}');
