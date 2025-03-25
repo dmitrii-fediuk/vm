@@ -19,8 +19,7 @@ GM_addStyle([
 // 2025-03-25
 // language=CSS
 GM_addStyle([
-	'[class*="linkedTickets"]'
-	,'[class*="ticketHeaderSticky"]'
+	'[class*="ticketHeaderSticky"]'
 	,'[class^="description__"]'
 	,'[class^="ticketNavigation"]'
 ]
@@ -59,6 +58,9 @@ GM_addStyle('body {padding: 0 1rem !important;}');
 // 2025-03-25
 // language=CSS
 GM_addStyle('[class^="contentWrapper"] {flex-direction: column !important;}');
+// 2025-03-25
+// language=CSS
+GM_addStyle('[class*="linkedTickets"] {margin: 0.25rem 0 0 0 !important;}');
 // 2025-03-25
 // language=CSS
 GM_addStyle('.text br {display: block !important; content: ""; height: 1px !important;}');
