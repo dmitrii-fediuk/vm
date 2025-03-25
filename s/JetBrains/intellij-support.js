@@ -26,6 +26,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.g-container'
+	,'.section-content'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
