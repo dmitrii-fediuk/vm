@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.page__header'
+	,'.subscribe-wrapper'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -27,7 +28,6 @@ GM_addStyle([
 GM_addStyle([
 	'.g-container'
 	,'.section-content'
-	,'.subscribe-wrapper'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
