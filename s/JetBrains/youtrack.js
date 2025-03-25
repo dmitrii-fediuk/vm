@@ -63,4 +63,7 @@ GM_addStyle('[class^="contentWrapper"] {flex-direction: column !important;}');
 GM_addStyle('[class*="linkedTickets"] {margin: 0.25rem 0 0 0 !important;}');
 // 2025-03-25
 // language=CSS
+GM_addStyle('.text {line-height: 1.4 !important;}');
+// 2025-03-25
+// language=CSS
 GM_addStyle('.text br {display: block !important; content: ""; height: 1px !important;}');
