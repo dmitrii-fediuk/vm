@@ -33,6 +33,14 @@ GM_addStyle([
 // 2025-03-25
 // language=CSS
 GM_addStyle([
+	'[class*="ticketHeaderSticky"]'
+]
+	 // language=Javascript
+	.join(',') + '{position: initial !important;}')
+;
+// 2025-03-25
+// language=CSS
+GM_addStyle([
 
 ]
 	 // language=Javascript
