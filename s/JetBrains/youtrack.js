@@ -10,7 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.manager__menu'
-	//,'[class*="Column"]:has([data-test="current-visibility"])'
+	,'[class^="secondColumn"]:has([data-test="current-visibility"])'
 	,'[class*="toTopButtonScroll"]'
 ]
 	 // language=Javascript
