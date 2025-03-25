@@ -9,7 +9,7 @@
 // 2025-03-25 "Improve `jetbrains.com`": https://github.com/dmitrii-fediuk/vm/issues/84
 // language=CSS
 GM_addStyle([
-
+	'.manager__menu'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
