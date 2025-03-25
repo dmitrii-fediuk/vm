@@ -38,6 +38,7 @@ GM_addStyle([
 	'.g-container'
 	,'.page__content'
 	,'.section-content'
+	,'.vote-sum'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
