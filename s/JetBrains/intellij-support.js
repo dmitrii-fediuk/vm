@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.page__header'
+	,'.post-footer'
 	,'.subscribe-wrapper'
 ]
 	 // language=Javascript
