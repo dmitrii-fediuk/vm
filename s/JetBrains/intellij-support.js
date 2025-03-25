@@ -28,6 +28,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.g-container'
+	,'.page__content'
 	,'.section-content'
 ]
 	 // language=Javascript
