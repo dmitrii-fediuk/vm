@@ -45,4 +45,12 @@ GM_addStyle([
 ;
 // 2025-03-25
 // language=CSS
+GM_addStyle([
+	'.global-top-bar'
+]
+	 // language=Javascript
+	.join(',') + '{border: 0 !important;}')
+;
+// 2025-03-25
+// language=CSS
 GM_addStyle('body {padding: 0 1rem !important;}');
