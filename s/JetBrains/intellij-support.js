@@ -9,7 +9,8 @@
 // 2025-03-25 "Improve `jetbrains.com`": https://github.com/dmitrii-fediuk/vm/issues/84
 // language=CSS
 GM_addStyle([
-	'.page__header'
+	'.page__footer'
+	,'.page__header'
 	,'.post-footer'
 	,'.subscribe-wrapper'
 ]
