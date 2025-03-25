@@ -15,6 +15,7 @@ GM_addStyle([
 	,'.page__header'
 	,'.post-footer'
 	,'.subscribe-wrapper'
+	,'.vote button'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
