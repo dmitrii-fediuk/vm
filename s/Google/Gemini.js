@@ -25,7 +25,7 @@ GM_addStyle([
 	'body' // 2025-03-27 https://chatgpt.com/c/67e48360-0cb8-8003-bcb9-394ec9b9fb47
 ]
 	 // language=Javascript
-	.join(',') + '{display: initial !important;}')
+	.join(',') + '{display: block !important;}')
 ;
 // 2025-03-27
 // language=CSS
@@ -37,4 +37,4 @@ GM_addStyle([
 ;
 // 2025-03-27 https://chatgpt.com/c/67e48360-0cb8-8003-bcb9-394ec9b9fb47
 // language=CSS
-GM_addStyle('body {min-height: 100vh; !important;}');
+GM_addStyle('body {min-height: 100vh !important;}');
