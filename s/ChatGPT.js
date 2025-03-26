@@ -10,8 +10,9 @@
 // language=CSS
 GM_addStyle([
 	'[data-testid="composer-speech-button"]'
-	,'.composer-parent ~ .absolute' // The «?» sticky button
+	,'.composer-parent > :last-child > .text-xs' // 2025-03-27 «ChatGPT can make mistakes.»
 	,'.composer-parent div:has(> div > ul > li > button > svg)'
+	,'.composer-parent ~ .absolute' // The «?» sticky button
 	// 2024-12-03
 	// 1) «What can I help with?»
 	// 2) «<…> workspace chats aren't used to train our models. ChatGPT can make mistakes.»
