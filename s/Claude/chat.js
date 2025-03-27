@@ -34,6 +34,7 @@ GM_addStyle([
 GM_addStyle([
 	//'.bottom-0.sticky'
 	'.bottom-0.absolute:has(svg[data-testid="action-bar-copy"]) > div'
+	,':has(> [data-test-render-count])'
 	,'[data-test-render-count] > div > div'
 ]
 	 // language=Javascript
