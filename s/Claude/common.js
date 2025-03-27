@@ -40,6 +40,8 @@ GM_addStyle([
 // 2025-03-20
 // language=CSS
 GM_addStyle([
+	'.lg\\:sticky' // 2025-03-27
+	,'.sticky'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
