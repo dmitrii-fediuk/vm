@@ -38,6 +38,7 @@ GM_addStyle([
 	,'.mx-auto:has(> div > [data-test-render-count])'
 	,':has(> [data-test-render-count])'
 	,'[data-test-render-count] > div > div'
+	,'header.sticky ~ div'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
