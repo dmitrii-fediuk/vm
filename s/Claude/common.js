@@ -1,7 +1,7 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Claude.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Claude/common.js
 // @icon https://claude.ai/images/claude_app_icon.png
 // @match *://claude.ai/*
 // @name Claude
