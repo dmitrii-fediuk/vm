@@ -11,11 +11,19 @@
 // language=CSS
 GM_addStyle([
 	'.z-sidebar' // 2025-03-27 The left sidebar
-	,':has(> .sticky.bottom-0) > :first-child > :not([data-test-render-count])'
+	,':has(> .bottom-0.sticky) > :first-child > :not([data-test-render-count])'
 	,':has(> a[href^="https://support.anthropic.com/en/articles/8525154"])'
 	,'button:has(svg[data-testid="action-bar-copy"]) ~ *'
 	,'header.sticky'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
+;
+// 2025-03-27
+// language=CSS
+GM_addStyle([
+	'.bottom-0.sticky'
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
 ;
