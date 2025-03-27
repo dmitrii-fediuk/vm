@@ -10,6 +10,8 @@
 // 2025-03-27
 // language=CSS
 GM_addStyle([
+	// 2027-03-20 «How can I help you today?»
+	'[contenteditable="true"] > p[data-placeholder].is-empty'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
