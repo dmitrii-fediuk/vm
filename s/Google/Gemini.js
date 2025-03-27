@@ -35,21 +35,8 @@ GM_addStyle([
 // https://github.com/dmitrii-fediuk/vm/blob/2025-03-27/s/Claude.js#L96-L102
 // language=CSS
 GM_addStyle([
-	'body', 'html'
+	'body', 'html', '*'
 ]
 	 // language=Javascript
 	.join(',') + '{height: auto !important; overflow-y: auto !important;}')
 ;
-// Предотвращение обработки scroll-событий другими скриптами
-window.addEventListener('load', function() {
-  // Отмена стандартного поведения scroll-eventов
-  const preventDefault = function(e) {
-    // Позволяем родной скролл, но блокируем программный скролл
-    if (!e.isTrusted) {
-      e.stopImmediatePropagation();
-    }
-  };
-
-  // Находим и блокируем скрипты, пытающиеся управлять скроллом
-  window.addEventListener('scroll', preventDefault, true);
-}, {once: true});
