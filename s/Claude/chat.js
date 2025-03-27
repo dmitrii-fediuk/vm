@@ -37,7 +37,7 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'position': 'static'
+			'position': 'initial'
 			//,'overflow': 'visible'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
