@@ -33,5 +33,5 @@ GM_addStyle([
 	'body', 'html'
 ]
 	 // language=Javascript
-	.join(',') + '{height: auto !important; overflow-y: auto !important;}')
+	.join(',') + '{height: auto !important; overflow-y: visible !important;}')
 ;
