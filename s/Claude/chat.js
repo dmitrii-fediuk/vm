@@ -23,7 +23,22 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	//'.bottom-0.sticky'
+	'.bottom-0.absolute:has(svg[data-testid="action-bar-copy"]) > div'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// 2025-03-27
+// language=CSS
+GM_addStyle([
+	//'.bottom-0.absolute:has(svg[data-testid="action-bar-copy"]) > div'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'height': 'auto'
+			,'overflow': 'visible'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);

@@ -40,7 +40,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{height: auto !important; overflow-y: initial !important;}')
 ;
-// 2024-12-25
+// 2025-03-27
 // language=CSS
 GM_addStyle([
 	'body', 'html'
