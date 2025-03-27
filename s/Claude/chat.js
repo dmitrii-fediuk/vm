@@ -12,6 +12,7 @@
 GM_addStyle([
 	'.z-sidebar' // 2025-03-27 The left sidebar
 	,'header.sticky'
+	,':has(> a[href^="https://support.anthropic.com/en/articles/8525154"])'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
