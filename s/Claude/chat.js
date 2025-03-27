@@ -22,7 +22,7 @@ GM_addStyle([
 // 2025-03-27
 // language=CSS
 GM_addStyle([
-	'.bottom-0.sticky'
+	//'.bottom-0.sticky'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
