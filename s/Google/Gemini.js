@@ -40,14 +40,32 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{height: auto !important; overflow-y: auto !important;}')
 ;
-(function() {
-  const removeEvents = ['scroll', 'wheel', 'touchmove'];
-  [window, document, document.body].forEach(target => {
-    removeEvents.forEach(evtName => {
-      const list = getEventListeners(target)?.[evtName] ?? [];
-      for (const h of list) {
-        target.removeEventListener(evtName, h.listener, h.useCapture);
+window.addEventListener('load', function() {
+  // Блокируем программное изменение scrollTop
+  const scrollPositionLock = function() {
+    let lastScrollY = window.scrollY;
+
+    // Функция для отслеживания изменений скролла
+    function checkScroll() {
+      // Если скролл внезапно сбросился в ноль (но не из-за пользователя)
+      if (window.scrollY === 0 && lastScrollY > 10 && !isUserScrolling) {
+        // Восстанавливаем предыдущую позицию скролла
+        window.scrollTo(0, lastScrollY);
       }
+
+      lastScrollY = window.scrollY;
+      requestAnimationFrame(checkScroll);
+    }
+
+    // Отслеживаем пользовательский скролл
+    let isUserScrolling = false;
+    document.addEventListener('wheel', function() {
+      isUserScrolling = true;
+      setTimeout(() => { isUserScrolling = false; }, 100);
     });
-  });
-})();
+
+    checkScroll();
+  };
+
+  scrollPositionLock();
+}, {once: true});
