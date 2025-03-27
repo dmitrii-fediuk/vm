@@ -1,10 +1,10 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Claude/common.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Claude/common-prev.js
 // @icon https://claude.ai/images/claude_app_icon.png
 // @match *://claude.ai/*
-// @name Claude / Common
+// @name Claude / Common / Prev
 // ==/UserScript==
 // 2024-11-30 "Improve `claude.ai`": https://github.com/dmitrii-fediuk/vm/issues/68
 // 2025-03-20
