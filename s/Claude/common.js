@@ -4,7 +4,7 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Claude/common.js
 // @icon https://claude.ai/images/claude_app_icon.png
 // @match *://claude.ai/*
-// @name Claude
+// @name Claude / Common
 // ==/UserScript==
 // 2024-11-30 "Improve `claude.ai`": https://github.com/dmitrii-fediuk/vm/issues/68
 // 2025-03-20
@@ -112,36 +112,3 @@ GM_addStyle('.h-screen {height: auto !important; overflow: visible !important;}'
 // 2025-03-20
 // language=CSS
 GM_addStyle('nav[data-testid="menu-sidebar"] {width: 2rem !important;}');
-// 2025-03-20
-if (location.pathname.startsWith('/new')) {
-	// 2025-03-20
-	// language=CSS
-	GM_addStyle([
-		'main > .mx-auto > .font-copernicus:has(.text-accent-brand)' // 2025-03-20 «Good morning»
-	]
-		 // language=Javascript
-		.join(',') + '{display: none !important;}')
-	;
-	// 2025-03-20
-	// language=CSS
-	GM_addStyle([
-		'main'
-		,'main > *'
-	]
-		 // language=Javascript
-		.join(',') + '{padding: 0 !important;}')
-	;
-
-	// language=CSS
-	GM_addStyle([
-		'main > .max-w-2xl'
-	]
-		// language=Javascript
-		.join(',') + '{' +
-			// language=CSS
-			['width', 'max-width', 'min-width']
-				// language=Javascript
-				.map(k => `${k}: 100% !important;`).join(' ') +
-		'}'
-	);
-}
