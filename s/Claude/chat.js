@@ -10,7 +10,7 @@
 // 2025-03-27
 // language=CSS
 GM_addStyle([
-	,'.z-sidebar' // 2025-03-27 The left sidebar
+	'.z-sidebar' // 2025-03-27 The left sidebar
 	,':has(> a[href^="https://support.anthropic.com/en/articles/8525154"])'
 	,'header.sticky'
 ]
