@@ -45,6 +45,14 @@ GM_addStyle([
 // 2025-03-27
 // language=CSS
 GM_addStyle([
+	'[class*=max-w-]'
+]
+	 // language=Javascript
+	.join(',') + '{max-width: 100% !important;}')
+;
+// 2025-03-27
+// language=CSS
+GM_addStyle([
 	'.mx-auto:has(> div > [data-test-render-count])'
 ]
 	// language=Javascript
