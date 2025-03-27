@@ -35,7 +35,7 @@ GM_addStyle([
 // https://github.com/dmitrii-fediuk/vm/blob/2025-03-27/s/Claude.js#L96-L102
 // language=CSS
 GM_addStyle([
-	'body', 'html', '*'
+	'body', 'html'
 ]
 	 // language=Javascript
 	.join(',') + '{height: auto !important; overflow-y: auto !important;}')
