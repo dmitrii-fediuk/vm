@@ -11,6 +11,7 @@
 // language=CSS
 GM_addStyle([
 	'.z-sidebar' // 2025-03-27 The left sidebar
+	,'header.sticky > .blur.sm'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
