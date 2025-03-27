@@ -22,19 +22,16 @@ GM_addStyle([
 // 2025-03-27
 // language=CSS
 GM_addStyle([
-	//'body' // 2025-03-27 https://chatgpt.com/c/67e48360-0cb8-8003-bcb9-394ec9b9fb47
+	'body' // 2025-03-27 https://chatgpt.com/c/67e49f23-bf58-8003-bc79-a7c015fa11cf
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
 ;
-// 2025-03-27
+// 2025-03-27 https://chatgpt.com/c/67e49f23-bf58-8003-bc79-a7c015fa11cf
 // language=CSS
 GM_addStyle([
-	//'body' // 2025-03-27 https://chatgpt.com/c/67e48360-0cb8-8003-bcb9-394ec9b9fb47
+	'body', 'html'
 ]
 	 // language=Javascript
-	.join(',') + '{height: initial !important;}')
+	.join(',') + '{height: auto !important; overflow-y: auto !important;}')
 ;
-// 2025-03-27 https://chatgpt.com/c/67e48360-0cb8-8003-bcb9-394ec9b9fb47
-// language=CSS
-//GM_addStyle('body {min-height: 100vh !important;}');
