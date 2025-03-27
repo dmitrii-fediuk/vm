@@ -23,8 +23,9 @@ GM_addStyle([
 // 2025-03-27
 // language=CSS
 GM_addStyle([
-	'[data-test-render-count] > div'
+	'.mx-auto:has(> div > [data-test-render-count])'
 	,'[data-test-render-count] > div > div'
+	,'[data-test-render-count] > div'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -34,12 +35,31 @@ GM_addStyle([
 GM_addStyle([
 	//'.bottom-0.sticky'
 	'.bottom-0.absolute:has(svg[data-testid="action-bar-copy"]) > div'
+	,'.mx-auto:has(> div > [data-test-render-count])'
 	,':has(> [data-test-render-count])'
 	,'[data-test-render-count] > div > div'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// 2025-03-27
+// language=CSS
+GM_addStyle([
+	'.mx-auto:has(> div > [data-test-render-count])'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['width', 'min-width']
+			// language=Javascript
+			.map(k => `${k}: initial !important;`).join(' ') +
+		// language=CSS
+		Object.entries({
+			// language=Javascript
+			'max-width': '100%'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 // 2025-03-27
 // language=CSS
 GM_addStyle([
