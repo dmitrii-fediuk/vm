@@ -22,7 +22,7 @@ GM_addStyle([
 // 2025-03-27
 // language=CSS
 GM_addStyle([
-	'body' // 2025-03-27 https://chatgpt.com/c/67e49f23-bf58-8003-bc79-a7c015fa11cf
+	//'body' // 2025-03-27 https://chatgpt.com/c/67e49f23-bf58-8003-bc79-a7c015fa11cf
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
@@ -35,7 +35,7 @@ GM_addStyle([
 // https://github.com/dmitrii-fediuk/vm/blob/2025-03-27/s/Claude.js#L96-L102
 // language=CSS
 GM_addStyle([
-	'body', 'html'
+	'body', 'html', 'main'
 ]
 	 // language=Javascript
 	.join(',') + '{height: auto !important; overflow-y: auto !important;}')
