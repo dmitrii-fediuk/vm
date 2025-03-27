@@ -24,6 +24,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'[data-test-render-count] > div'
+	,'[data-test-render-count] > div > div'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -33,6 +34,7 @@ GM_addStyle([
 GM_addStyle([
 	//'.bottom-0.sticky'
 	'.bottom-0.absolute:has(svg[data-testid="action-bar-copy"]) > div'
+	,'[data-test-render-count] > div > div'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
