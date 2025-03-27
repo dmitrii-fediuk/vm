@@ -10,10 +10,7 @@
 // 2025-03-20
 // language=CSS
 GM_addStyle([
-	':has(> [data-testid="user-message"]) > .shrink-0'
-	,':has(> a > svg[aria-label="Claude"])'
-	,'button:has(svg[data-testid="action-bar-copy"]) ~ *'
-	,'button[data-testid="conversation-star-button"]'
+	':has(> a > svg[aria-label="Claude"])'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')

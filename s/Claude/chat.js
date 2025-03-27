@@ -12,13 +12,21 @@
 GM_addStyle([
 	'.z-sidebar' // 2025-03-27 The left sidebar
 	,':has(> .bottom-0.sticky) > :first-child > :not([data-test-render-count])'
-	,':has(> a[href^="https://support.anthropic.com/en/articles/8525154"])'
 	,':has(> [data-testid="user-message"]) > .shrink-0'
+	,':has(> a[href^="https://support.anthropic.com/en/articles/8525154"])'
 	,'button:has(svg[data-testid="action-bar-copy"]) ~ *'
 	,'header.sticky'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
+;
+// 2025-03-27
+// language=CSS
+GM_addStyle([
+	'[data-test-render-count] > div'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
 ;
 // 2025-03-27
 // language=CSS
