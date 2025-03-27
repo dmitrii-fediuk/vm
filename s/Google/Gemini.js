@@ -40,32 +40,16 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{height: auto !important; overflow-y: auto !important;}')
 ;
+// Предотвращение обработки scroll-событий другими скриптами
 window.addEventListener('load', function() {
-  // Блокируем программное изменение scrollTop
-  const scrollPositionLock = function() {
-    let lastScrollY = window.scrollY;
-
-    // Функция для отслеживания изменений скролла
-    function checkScroll() {
-      // Если скролл внезапно сбросился в ноль (но не из-за пользователя)
-      if (window.scrollY === 0 && lastScrollY > 10 && !isUserScrolling) {
-        // Восстанавливаем предыдущую позицию скролла
-        window.scrollTo(0, lastScrollY);
-      }
-
-      lastScrollY = window.scrollY;
-      requestAnimationFrame(checkScroll);
+  // Отмена стандартного поведения scroll-eventов
+  const preventDefault = function(e) {
+    // Позволяем родной скролл, но блокируем программный скролл
+    if (!e.isTrusted) {
+      e.stopImmediatePropagation();
     }
-
-    // Отслеживаем пользовательский скролл
-    let isUserScrolling = false;
-    document.addEventListener('wheel', function() {
-      isUserScrolling = true;
-      setTimeout(() => { isUserScrolling = false; }, 100);
-    });
-
-    checkScroll();
   };
 
-  scrollPositionLock();
+  // Находим и блокируем скрипты, пытающиеся управлять скроллом
+  window.addEventListener('scroll', preventDefault, true);
 }, {once: true});
