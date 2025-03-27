@@ -10,7 +10,7 @@
 // 2025-03-27
 // language=CSS
 GM_addStyle([
-	'.z-sidebar'
+	'.z-sidebar' // 2025-03-27 The left sidebar
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
