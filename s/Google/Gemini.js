@@ -54,24 +54,3 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// Пример для Tampermonkey / Greasemonkey:
-(function() {
-  // Сохраняем оригинальный метод:
-  const originalScrollTo = window.scrollTo;
-  // Переопределяем:
-  window.scrollTo = function(x, y) {
-    // Если кто-то пытается скроллить строго в (0,0) —
-    // тихонько игнорируем
-    if (x === 0 && y === 0) {
-      console.debug('Prevented forced scrollTo(0,0)');
-      return;
-    }
-    // Иначе вызываем «настоящий» scrollTo
-    return originalScrollTo.apply(this, arguments);
-  };
-})();
-document.addEventListener('scroll', e => {
-  if (window.pageYOffset > 0) {
-    window.scrollTo(0,0);
-  }
-});

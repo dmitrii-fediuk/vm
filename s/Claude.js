@@ -93,6 +93,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{height: auto !important;}')
 ;
+// 2025-03-27
+// language=CSS
+GM_addStyle([
+	'header.sticky' // 2025-03-27 https://chatgpt.com/c/67e5a168-bde0-8003-997e-4f01ee718e0a
+]
+	 // language=Javascript
+	.join(',') + '{z-index: 0 !important;}')
+;
 // 2025-01-04 https://chatgpt.com/c/67792143-94dc-800c-a793-809f8e8488e6
 // 2025-03-20
 // Similar to:
