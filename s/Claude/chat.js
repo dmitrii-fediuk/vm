@@ -31,14 +31,14 @@ GM_addStyle([
 // 2025-03-27
 // language=CSS
 GM_addStyle([
-	//'.bottom-0.absolute:has(svg[data-testid="action-bar-copy"]) > div'
+	'.bottom-0.absolute:has(svg[data-testid="action-bar-copy"])'
 ]
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'height': 'auto'
-			,'overflow': 'visible'
+			'position': 'static'
+			//,'overflow': 'visible'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
