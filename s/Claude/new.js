@@ -10,7 +10,8 @@
 // 2025-03-20
 // language=CSS
 GM_addStyle([
-	'main > .mx-auto > .font-copernicus:has(.text-accent-brand)' // 2025-03-20 «Good morning»
+	':has(> [data-state="closed"] > .a[aria-label="New chat"])'
+	,'main > .mx-auto > .font-copernicus:has(.text-accent-brand)' // 2025-03-20 «Good morning»
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
