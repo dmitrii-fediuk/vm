@@ -8,3 +8,10 @@
 // ==/UserScript==
 // 2024-11-30 "Improve `claude.ai`": https://github.com/dmitrii-fediuk/vm/issues/68
 // 2025-03-27
+// language=CSS
+GM_addStyle([
+	'.z-sidebar'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
