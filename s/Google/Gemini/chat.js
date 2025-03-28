@@ -280,7 +280,7 @@ GM_addStyle([
 	// 2025-03-28 https://chatgpt.com/c/67e62a28-c3b8-8003-bda7-3589b21ff431
 	const i = setInterval(() => p() ? clearInterval(i) : null, 50);
 })();
-if (true) {
+if (false) {
 	// 2025-03-29 https://chatgpt.com/c/67e73161-4c50-8003-baea-be7c9e86ec41
 	(() => {
 		const p = () => {
@@ -345,6 +345,38 @@ if (false) {
 				});
 			}
 			return !!b;
+		};
+		const i = setInterval(() => p() ? clearInterval(i) : null, 50);
+	})();
+}
+// https://gemini.google.com/u/1/app/abbf3acbb874b5ff
+if (true) {
+	(() => {
+		const p = () => {
+			const b = document.querySelector('.actions-container-v2');
+			let result = false;
+			if (b) {
+				const initialM = b.querySelector('.buttons-container-v2');
+				if (initialM) {
+					const observer = new MutationObserver(mm => {
+						mm.forEach(m => {
+							if ('childList' === m.type) {
+								const currentM = b.querySelector('.buttons-container-v2');
+								if (!currentM) {
+									b.appendChild(initialM);
+								}
+								const spacer = b.querySelector('.spacer');
+								if (spacer) {
+									b.removeChild(spacer);
+								}
+							}
+						});
+					});
+					observer.observe(b, { childList: true });
+					result = true;
+				}
+			}
+			return result;
 		};
 		const i = setInterval(() => p() ? clearInterval(i) : null, 50);
 	})();
