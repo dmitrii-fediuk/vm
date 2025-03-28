@@ -184,7 +184,7 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			'color': '#067D17'
-			,'font-size': 'initial'
+			,'font-size': 'revert'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
