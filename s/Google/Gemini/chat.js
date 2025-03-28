@@ -23,6 +23,14 @@ GM_addStyle([
 // 2025-03-28
 // language=CSS
 GM_addStyle([
+	'.model-thoughts'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
+// 2025-03-28
+// language=CSS
+GM_addStyle([
 	'.response-container'
 	,'infinite-scroller'
 	,'user-query'
