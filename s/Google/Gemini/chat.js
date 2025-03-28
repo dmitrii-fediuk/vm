@@ -66,7 +66,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.code-block'
-	,'.code-block > .header-formatted'
+	,'.code-block > *'
 	,'.user-query-bubble-with-background'
 ]
 	 // language=Javascript
