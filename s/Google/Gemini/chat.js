@@ -68,17 +68,21 @@ GM_addStyle([
 ;
 // 2025-03-28 https://chatgpt.com/c/67e62607-5b70-8003-9805-1775f9b2b1db
 (() => {
-	const target = document.querySelector('.conversation-container');
-	debugger;
-	if (target) {
-		const observer = new MutationObserver(mm => {
-			mm.forEach(m => {
-				if (m.type === 'attributes' && m.attributeName === 'style') {
-					target.style.removeProperty('min-height');
-				}
+	const p = () => {
+		const c = document.querySelector('.conversation-container');
+		if (c) {
+			const observer = new MutationObserver(mm => {
+				mm.forEach(m => {
+					if ('attributes' === m.type && 'style' === m.attributeName) {
+						c.style.removeProperty('min-height');
+					}
+				});
 			});
-		});
-		observer.observe(target, {attributes: true, attributeFilter: ['style'] });
-	}
+			observer.observe(c, {attributes: true, attributeFilter: ['style']});
+		}
+		return !!c;
+	};
+	// 2025-03-28 https://chatgpt.com/c/67e62a28-c3b8-8003-bda7-3589b21ff431
+	const i = setInterval(() => p() ? clearInterval(i) : null, 50);
 })();
 
