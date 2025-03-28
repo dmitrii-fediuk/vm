@@ -280,23 +280,68 @@ GM_addStyle([
 	// 2025-03-28 https://chatgpt.com/c/67e62a28-c3b8-8003-bda7-3589b21ff431
 	const i = setInterval(() => p() ? clearInterval(i) : null, 50);
 })();
-// 2025-03-29 https://chatgpt.com/c/67e73161-4c50-8003-baea-be7c9e86ec41
+if (false) {
+	// 2025-03-29 https://chatgpt.com/c/67e73161-4c50-8003-baea-be7c9e86ec41
+	(() => {
+		const p = () => {
+			const b = document.querySelector('.actions-container-v2');
+			if (b) {
+				const observer = new MutationObserver(mm => {
+					mm.forEach(m => {
+						if ('childList' === m.type) {
+							m.removedNodes.forEach(rn => {
+								if (1 === rn.nodeType && rn.classList && rn.classList.contains('buttons-container-v2')) {
+									b.appendChild(rn);
+								}
+							});
+						}
+					});
+				});
+				observer.observe(b, {childList: true});
+			}
+			return !!b;
+		};
+		const i = setInterval(() => p() ? clearInterval(i) : null, 50);
+	})();
+}
+// 2025-03-28 https://gemini.google.com/u/1/app/<...>
 (() => {
 	const p = () => {
 		const b = document.querySelector('.actions-container-v2');
 		if (b) {
+			let v = null;
+			const s = () => {
+				const c = b.querySelector('.buttons-container-v2');
+				if (c && !v) {
+					v = c.cloneNode(true);
+				}
+				return !!c;
+			};
+			const r = () => {
+				if (v && !b.querySelector('.buttons-container-v2')) {
+					const e = b.querySelector('.spacer');
+					if (e) {
+						e.remove();
+					}
+					b.appendChild(v.cloneNode(true));
+					b.classList.remove('mobile');
+				}
+			};
+			s();
 			const observer = new MutationObserver(mm => {
 				mm.forEach(m => {
-					if ('childList' === m.type) {
-						m.removedNodes.forEach(rn => {
-							if (1 === rn.nodeType && rn.classList && rn.classList.contains('buttons-container-v2')) {
-								b.appendChild(rn);
-							}
-						});
+					if ('childList' === m.type || ('attributes' === m.type && 'class' === m.attributeName)) {
+						s();
+						r();
 					}
 				});
 			});
-			observer.observe(b, {childList: true});
+			observer.observe(b, {
+				childList: true,
+				attributes: true,
+				attributeFilter: ['class'],
+				subtree: true
+			});
 		}
 		return !!b;
 	};
