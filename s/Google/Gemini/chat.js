@@ -71,6 +71,7 @@ GM_addStyle([
 	const p = () => {
 		const c = document.querySelector('.conversation-container');
 		if (c) {
+			debugger;
 			const observer = new MutationObserver(mm => {
 				mm.forEach(m => {
 					if ('attributes' === m.type && 'style' === m.attributeName) {
