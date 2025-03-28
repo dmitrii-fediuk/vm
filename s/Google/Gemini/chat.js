@@ -32,6 +32,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.model-thoughts'
+	,'.side-nav-menu-button'
 	,'.user-query-container'
 ]
 	 // language=Javascript
