@@ -181,7 +181,7 @@ GM_addStyle([
 	'.code-block > *'
 ]
 	 // language=Javascript
-	.join(',') + '{background-color rgb(249, 249, 249) !important;}')
+	.join(',') + '{background-color: rgb(249, 249, 249) !important;}')
 ;
 // 2025-03-28
 // language=CSS
