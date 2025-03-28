@@ -32,6 +32,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.response-container'
+	,'[data-test-id="thoughts-header-button"]'
 	,'infinite-scroller'
 	,'user-query'
 ]
