@@ -88,6 +88,9 @@ GM_addStyle('infinite-scroller {overflow-y: auto !important;}');
 GM_addStyle('.markdown p {margin: 0.25rem 0 !important;}');
 // 2025-03-28
 // language=CSS
+GM_addStyle('.query-text {line-height: 1.2 !important;}');
+// 2025-03-28
+// language=CSS
 GM_addStyle('p.query-text-line br {display: block !important; content: ""; height: 1px !important;}');
 // 2025-03-28 https://chatgpt.com/c/67e62607-5b70-8003-9805-1775f9b2b1db
 (() => {
