@@ -48,7 +48,7 @@ GM_addStyle([
 	'.user-query-bubble-with-background'
 ]
 	 // language=Javascript
-	.join(',') + '{border: 0 !important;}')
+	.join(',') + '{border-radius: 0 !important;}')
 ;
 // 2025-03-28
 // 1) https://chatgpt.com/c/67e4b4cc-4a38-8003-9d53-d5eac3ac47b8
