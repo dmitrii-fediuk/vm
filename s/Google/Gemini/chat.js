@@ -12,7 +12,7 @@ console.log('Chat');
 // language=CSS
 GM_addStyle([
 	'.boqOnegoogleliteOgbOneGoogleBar'
-	//,'.query-content > .ng-star-inserted'
+	,'.query-content > :has(> button[aria-label="Edit"])'
 	,'.response-container-header'
 	,'hallucination-disclaimer'
 	,'top-bar-actions'
