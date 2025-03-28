@@ -38,7 +38,7 @@ GM_addStyle([
 GM_addStyle([
 	'body'
 	,'html'
-	'main'
+	,'main'
 ]
 	// language=Javascript
 	.join(',') + '{' +
