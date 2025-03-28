@@ -64,7 +64,8 @@ GM_addStyle([
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	'.user-query-bubble-with-background'
+	'.code-block .header-formatted'
+	,'.user-query-bubble-with-background'
 ]
 	 // language=Javascript
 	.join(',') + '{border-radius: 0 !important;}')
