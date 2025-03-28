@@ -7,6 +7,7 @@
 // @name Google / Gemini / Common
 // ==/UserScript==
 // 2024-10-23 "Improve `gemini.google.com`": https://github.com/dmitrii-fediuk/vm/issues/60
+console.log('Common');
 // language=CSS
 GM_addStyle([
 	// 2024-11-03 https://chatgpt.com/c/6715bd95-bee4-8006-bf0f-5174d0c9dfba
