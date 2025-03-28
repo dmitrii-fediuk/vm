@@ -14,24 +14,3 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
-// 2025-03-27
-// language=CSS
-GM_addStyle([
-	'body' // 2025-03-27 https://chatgpt.com/c/67e49f23-bf58-8003-bc79-a7c015fa11cf
-]
-	 // language=Javascript
-	.join(',') + '{display: block !important;}')
-;
-// 2025-03-27
-// 1) https://chatgpt.com/c/67e49f23-bf58-8003-bc79-a7c015fa11cf
-// 2) Similar to:
-// https://github.com/dmitrii-fediuk/vm/blob/2025-03-20/s/grok.com.js#L89-L91
-// https://github.com/dmitrii-fediuk/vm/blob/2025-03-20/s/ChatGPT.js#L52-L54
-// https://github.com/dmitrii-fediuk/vm/blob/2025-03-27/s/Claude.js#L96-L102
-// language=CSS
-GM_addStyle([
-	//'body', 'html'
-]
-	 // language=Javascript
-	.join(',') + '{height: auto !important; overflow-y: initial !important;}')
-;
