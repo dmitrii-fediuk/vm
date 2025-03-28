@@ -176,6 +176,7 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			'color': '#067D17'
+			,'font-size': 'initial'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
