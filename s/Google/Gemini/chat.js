@@ -179,6 +179,9 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.code-block > *'
+	,'code'
+	,'code-block'
+	,'pre'
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -186,8 +189,6 @@ GM_addStyle([
 		Object.entries({
 			// language=Javascript
 			'background-color': 'rgb(249, 249, 249)'
-			// language=CSS
-			//,'color': 'black'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
