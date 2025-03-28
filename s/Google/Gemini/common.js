@@ -1,7 +1,7 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Google/Gemini.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Google/Gemini/common.js
 // @icon https://www.gstatic.com/lamda/images/gemini_favicon_f069958c85030456e93de685481c559f160ea06b.png
 // @match *://gemini.google.com/*
 // @name Google / Gemini
