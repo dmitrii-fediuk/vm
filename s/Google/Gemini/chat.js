@@ -83,6 +83,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'body'
+	,'chat-app'
 	,'html'
 	,'main'
 ]
