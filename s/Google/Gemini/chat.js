@@ -53,19 +53,21 @@ GM_addStyle([
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	//'.side-nav-menu-button'
+	'.conversation-container'
 ]
-	 // language=Javascript
-	.join(',') + '{position: initial !important;}')
-;
-// 2025-03-28
-// language=CSS
-GM_addStyle([
-	//'.side-nav-menu-button'
-]
-	 // language=Javascript
-	.join(',') + '{position: absolute !important;}')
-;
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['width', 'min-width']
+			// language=Javascript
+			.map(k => `${k}: initial !important;`).join(' ') +
+		// language=CSS
+		Object.entries({
+			// language=Javascript
+			'max-width': '100%'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 // 2025-03-28 https://chatgpt.com/c/67e62607-5b70-8003-9805-1775f9b2b1db
 (() => {
 	const p = () => {
