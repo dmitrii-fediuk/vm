@@ -66,3 +66,17 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: absolute !important;}')
 ;
+(() => {
+	const target = document.querySelector('.conversation-container');
+	if (target) {
+		const observer = new MutationObserver(mm => {
+			mm.forEach(m => {
+				if (m.type === 'attributes' && m.attributeName === 'style') {
+					target.style.removeProperty('min-height');
+				}
+			});
+		});
+		observer.observe(target, {attributes: true, attributeFilter: ['style'] });
+	}
+})();
+
