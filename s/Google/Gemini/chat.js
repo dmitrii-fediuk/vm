@@ -289,7 +289,6 @@ GM_addStyle([
 				mm.forEach(m => {
 					if ('childList' === m.type) {
 						m.removedNodes.forEach(rn => {
-							debugger;
 							if (1 === rn.nodeType && rn.classList && rn.classList.contains('buttons-container-v2')) {
 								b.appendChild(rn);
 							}
