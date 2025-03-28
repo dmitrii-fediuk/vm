@@ -141,6 +141,7 @@ GM_addStyle('infinite-scroller {overflow-y: auto !important;}');
 // language=CSS
 GM_addStyle([
 	'.bard-mode-menu-button'
+	,'code:not(.code-container)'
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: bold !important;}')
@@ -201,7 +202,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	//'.code-block > *'
-	'code'
+	'code:not(.code-container)'
 	//,'code-block'
 	//,'pre'
 ]
