@@ -201,10 +201,7 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	//'.code-block > *'
 	'code:not(.code-container)'
-	//,'code-block'
-	//,'pre'
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: initial !important;}')
