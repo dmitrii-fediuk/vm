@@ -23,7 +23,8 @@ GM_addStyle([
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	'infinite-scroller'
+	'.response-container'
+	,'infinite-scroller'
 	,'user-query'
 ]
 	 // language=Javascript
