@@ -175,6 +175,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{margin: 0.25rem 0 !important;}')
 ;
+// 2025-03-29
+// language=CSS
+GM_addStyle([
+	'.code-block > *'
+]
+	 // language=Javascript
+	.join(',') + '{background-color rgb(249, 249, 249) !important;}')
+;
 // 2025-03-28
 // language=CSS
 GM_addStyle('.user-query-bubble-with-background {background-color: rgba(232, 232, 232, 0.5) !important;}');
