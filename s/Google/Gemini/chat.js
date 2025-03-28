@@ -93,7 +93,7 @@ GM_addStyle([
 );
 // 2025-03-28
 // language=CSS
-GM_addStyle('body {padding: 0 0 0 1rem !important;}');
+GM_addStyle('body {padding: 0 0 0 1rem !important; width: auto !important;}');
 // 2025-03-28 https://chatgpt.com/c/67e63433-b778-8003-9129-50e335c342b0
 // language=CSS
 GM_addStyle('infinite-scroller {overflow-y: auto !important;}');
