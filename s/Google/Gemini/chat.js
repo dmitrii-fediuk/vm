@@ -162,7 +162,6 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			'font-family': 'Segoie UI'
-			//,'line-height': 1.2
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
@@ -180,9 +179,17 @@ GM_addStyle([
 GM_addStyle([
 	'.code-block > *'
 ]
-	 // language=Javascript
-	.join(',') + '{background-color: rgb(249, 249, 249) !important;}')
-;
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			// language=Javascript
+			'background-color': 'rgb(249, 249, 249)'
+			// language=CSS
+			,'color': 'black'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 // 2025-03-28
 // language=CSS
 GM_addStyle('.user-query-bubble-with-background {background-color: rgba(232, 232, 232, 0.5) !important;}');
