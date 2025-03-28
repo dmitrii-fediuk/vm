@@ -145,6 +145,7 @@ GM_addStyle([
 GM_addStyle([
 	'.gds-title-s'
 	,'.markdown'
+	,'.mat-mdc-button'
 	,'.query-text'
 	,'body'
 	,'code'
