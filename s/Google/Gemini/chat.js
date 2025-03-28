@@ -14,6 +14,7 @@ GM_addStyle([
 	'.boqOnegoogleliteOgbOneGoogleBar'
 	,'.response-container-header'
 	,'hallucination-disclaimer'
+	,'top-bar-actions'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
