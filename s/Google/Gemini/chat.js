@@ -113,7 +113,6 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.side-nav-menu-button'
-	,productCard
 ]
 	// language=Javascript
 	.join(',') + '{' +
