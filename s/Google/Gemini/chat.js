@@ -172,7 +172,7 @@ GM_addStyle([
 	'.markdown'
 ]
 	 // language=Javascript
-	.join(',') + '{font-size: 140% !important;}')
+	.join(',') + '{font-size: 120% !important;}')
 ;
 // 2025-03-29
 // language=CSS
@@ -184,7 +184,7 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			'color': '#067D17'
-			//,'font-size': 'initial'
+			,'font-size': 'initial'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
