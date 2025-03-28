@@ -194,6 +194,7 @@ GM_addStyle([
 GM_addStyle([
 	'.markdown ol'
 	,'.markdown p'
+	,'.markdown ul'
 	,'p.query-text-line:not(:has(> br))'
 ]
 	 // language=Javascript
