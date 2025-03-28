@@ -11,9 +11,9 @@
 // language=CSS
 GM_addStyle([
 	'.bard-logo-container'
-	,'.trailing-actions-wrapper:has(speech-dictation-mic-button)'
-	//,'[data-placeholder="Ask Gemini"]::after'
+	,'[data-placeholder="Ask Gemini"]::after'
 	,'[data-placeholder="Ask Gemini"]::before'
+	,'speech-dictation-mic-button'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
