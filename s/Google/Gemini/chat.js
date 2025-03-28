@@ -15,6 +15,7 @@ GM_addStyle([
 	,'.response-container-header'
 	,'.side-nav-menu-button > button[data-test-id="side-nav-menu-button"]'
 	,'hallucination-disclaimer'
+	,'input-container:before'
 	,'mat-sidenav'
 	,'top-bar-actions'
 ]
