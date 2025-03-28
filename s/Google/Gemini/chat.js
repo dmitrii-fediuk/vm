@@ -24,7 +24,8 @@ GM_addStyle([
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	'.side-nav-menu-button'
+	'.chat-container'
+	,'.side-nav-menu-button'
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
