@@ -143,7 +143,8 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'.markdown'
+	'.gds-title-s'
+	,'.markdown'
 	,'.query-text'
 	,'code'
 	,'code-block'
