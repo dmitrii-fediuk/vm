@@ -108,6 +108,9 @@ GM_addStyle([
 ;
 // 2025-03-28
 // language=CSS
+GM_addStyle('.user-query-bubble-with-background {background-color: rgba(232, 232, 232, 0.5) !important;}');
+// 2025-03-28
+// language=CSS
 GM_addStyle('.query-text {line-height: 1.2 !important;}');
 // 2025-03-28
 // language=CSS
