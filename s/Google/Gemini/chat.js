@@ -66,6 +66,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: absolute !important;}')
 ;
+// 2025-03-28 https://chatgpt.com/c/67e62607-5b70-8003-9805-1775f9b2b1db
 (() => {
 	const target = document.querySelector('.conversation-container');
 	if (target) {
