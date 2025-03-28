@@ -12,6 +12,7 @@ console.log('Chat');
 // language=CSS
 GM_addStyle([
 	'.boqOnegoogleliteOgbOneGoogleBar'
+	,'.response-container-header'
 	,'hallucination-disclaimer'
 ]
 	 // language=Javascript
