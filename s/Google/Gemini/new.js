@@ -11,6 +11,7 @@
 console.log('New');
 // language=CSS
 GM_addStyle([
+	'#chat-history'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
