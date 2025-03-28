@@ -14,6 +14,7 @@ GM_addStyle([
 	'.boqOnegoogleliteOgbOneGoogleBar'
 	,'.query-content > :has(> button[aria-label="Edit"])'
 	,'.response-container-header'
+	,'.side-nav-menu-button > button[data-test-id="side-nav-menu-button"]'
 	,'hallucination-disclaimer'
 	,'top-bar-actions'
 ]
