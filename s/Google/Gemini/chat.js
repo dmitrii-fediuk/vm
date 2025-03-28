@@ -145,6 +145,9 @@ GM_addStyle([
 GM_addStyle([
 	'.markdown'
 	,'.query-text'
+	,'code'
+	,'code-block'
+	,'pre'
 ]
 	// language=Javascript
 	.join(',') + '{' +
