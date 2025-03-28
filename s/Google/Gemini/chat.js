@@ -50,7 +50,7 @@ GM_addStyle([
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	'.code-block .header-formatted'
+	'.code-block > .header-formatted'
 	,'.query-content'
 	,'.response-container'
 	,'.user-query-bubble-with-background'
@@ -66,6 +66,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.code-block'
+	,'.code-block > .header-formatted'
 	,'.user-query-bubble-with-background'
 ]
 	 // language=Javascript
