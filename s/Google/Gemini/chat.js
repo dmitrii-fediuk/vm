@@ -200,20 +200,25 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'.code-block > *'
-	,'code'
-	,'code-block'
-	,'pre'
+	//'.code-block > *'
+	'code'
+	//,'code-block'
+	//,'pre'
 ]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
-			// language=Javascript
-			'background-color': 'rgb(249, 249, 249)'
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
+	 // language=Javascript
+	.join(',') + '{background-color: initial !important;}')
+;
+// 2025-03-29
+// language=CSS
+GM_addStyle([
+	'.code-block > *'
+	,'code.code-container'
+	,'code-block'
+	//,'pre'
+]
+	 // language=Javascript
+	.join(',') + '{background-color: rgb(249, 249, 249) !important;}')
+;
 // 2025-03-28
 // language=CSS
 GM_addStyle('.user-query-bubble-with-background {background-color: rgba(232, 232, 232, 0.5) !important;}');
