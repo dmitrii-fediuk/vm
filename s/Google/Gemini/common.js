@@ -8,7 +8,6 @@
 // ==/UserScript==
 // 2024-10-23 "Improve `gemini.google.com`": https://github.com/dmitrii-fediuk/vm/issues/60
 // 2025-03-28
-console.log('Common');
 // language=CSS
 GM_addStyle([
 	'.bard-logo-container'
