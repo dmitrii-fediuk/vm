@@ -18,6 +18,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// 2025-03-29
+// language=CSS
+GM_addStyle([
+	'input-container'
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
 // 2025-03-28
 // language=CSS
 GM_addStyle([
