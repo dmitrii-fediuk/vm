@@ -33,6 +33,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.response-container'
+	,'.user-query-bubble-with-background'
 	,'[data-test-id="thoughts-header-button"]'
 	,'infinite-scroller'
 	,'user-query'
