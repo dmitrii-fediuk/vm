@@ -24,6 +24,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'infinite-scroller'
+	,'user-query'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
