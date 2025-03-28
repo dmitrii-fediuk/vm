@@ -10,6 +10,7 @@
 console.log('Common');
 // language=CSS
 GM_addStyle([
+	'.bard-logo-container'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
