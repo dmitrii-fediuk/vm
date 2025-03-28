@@ -161,7 +161,8 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'font-family': 'Segoie UI'
+			'color': 'black'
+			,'font-family': 'Segoie UI'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
@@ -186,7 +187,7 @@ GM_addStyle([
 			// language=Javascript
 			'background-color': 'rgb(249, 249, 249)'
 			// language=CSS
-			,'color': 'black'
+			//,'color': 'black'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
