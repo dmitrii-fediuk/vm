@@ -56,6 +56,7 @@ GM_addStyle([
 	,'.user-query-bubble-with-background'
 	,'[data-test-id="thoughts-header-button"]'
 	,'bard-mode-switcher .current-mode-title'
+	,'code'
 	,'infinite-scroller'
 	,'user-query'
 ]
