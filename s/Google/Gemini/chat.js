@@ -68,6 +68,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.conversation-container'
+	,'.user-query-bubble-with-background'
 ]
 	// language=Javascript
 	.join(',') + '{' +
