@@ -26,13 +26,8 @@ GM_addStyle([
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
-		['width', 'min-width']
+		['width', 'max-width', 'min-width']
 			// language=Javascript
-			.map(k => `${k}: initial !important;`).join(' ') +
-		// language=CSS
-		Object.entries({
-			// language=Javascript
-			'max-width': '100%'
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+			.map(k => `${k}: 100% !important;`).join(' ') +
 	'}'
 );
