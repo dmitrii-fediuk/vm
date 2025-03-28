@@ -112,7 +112,8 @@ GM_addStyle([
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	'.side-nav-menu-button'
+	'.bard-mode-menu-button'
+	,'.side-nav-menu-button'
 ]
 	// language=Javascript
 	.join(',') + '{' +
