@@ -166,6 +166,19 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-03-29
+// language=CSS
+GM_addStyle([
+	'code'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'color': '#067D17'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 // 2025-03-28
 // language=CSS
 GM_addStyle([
