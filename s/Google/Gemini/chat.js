@@ -154,7 +154,7 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			'font-family': 'Segoie UI'
-			,'line-height': 1.2
+			//,'line-height': 1.2
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
@@ -172,7 +172,10 @@ GM_addStyle([
 GM_addStyle('.user-query-bubble-with-background {background-color: rgba(232, 232, 232, 0.5) !important;}');
 // 2025-03-28
 // language=CSS
-//GM_addStyle('.query-text {line-height: 1.2 !important;}');
+GM_addStyle('.query-text {line-height: 1.2 !important;}');
+// 2025-03-28
+// language=CSS
+GM_addStyle('.markdown {line-height: 1.4 !important;}');
 // 2025-03-28
 // language=CSS
 GM_addStyle('p.query-text-line br {display: block !important; content: ""; height: 1px !important;}');
