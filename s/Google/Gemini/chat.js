@@ -280,7 +280,7 @@ GM_addStyle([
 	// 2025-03-28 https://chatgpt.com/c/67e62a28-c3b8-8003-bda7-3589b21ff431
 	const i = setInterval(() => p() ? clearInterval(i) : null, 50);
 })();
-if (false) {
+if (true) {
 	// 2025-03-29 https://chatgpt.com/c/67e73161-4c50-8003-baea-be7c9e86ec41
 	(() => {
 		const p = () => {
@@ -350,7 +350,7 @@ if (false) {
 	})();
 }
 // https://gemini.google.com/u/1/app/abbf3acbb874b5ff
-if (true) {
+if (false) {
 	(() => {
 		const p = () => {
 			const b = document.querySelector('.actions-container-v2');
