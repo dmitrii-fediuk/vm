@@ -36,11 +36,18 @@ GM_addStyle([
 // https://github.com/dmitrii-fediuk/vm/blob/2025-03-27/s/Claude.js#L96-L102
 // language=CSS
 GM_addStyle([
-	'main'
+	'body', 'html', 'main'
 ]
-	 // language=Javascript
-	.join(',') + '{display: block !important; height: auto !important; overflow-y: visible !important;}')
-;
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'display': 'block'
+			,'height': 'auto'
+			,'overflow-y': 'visible'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 // 2025-03-28
 // language=CSS
 GM_addStyle([
