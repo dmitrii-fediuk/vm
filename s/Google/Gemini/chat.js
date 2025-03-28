@@ -280,3 +280,26 @@ GM_addStyle([
 	// 2025-03-28 https://chatgpt.com/c/67e62a28-c3b8-8003-bda7-3589b21ff431
 	const i = setInterval(() => p() ? clearInterval(i) : null, 50);
 })();
+// 2025-03-29 https://chatgpt.com/c/67e73161-4c50-8003-baea-be7c9e86ec41
+(() => {
+	const p = () => {
+		const b = document.querySelector('.actions-container-v2');
+		if (b) {
+			const observer = new MutationObserver(mm => {
+				mm.forEach(m => {
+					if ('childList' === m.type) {
+						m.removedNodes.forEach(rn => {
+							debugger;
+							if (1 === rn.nodeType && rn.classList && rn.classList.contains('buttons-container-v2')) {
+								b.appendChild(rn);
+							}
+						});
+					}
+				});
+			});
+			observer.observe(b, {childList: true});
+		}
+		return !!b;
+	};
+	const i = setInterval(() => p() ? clearInterval(i) : null, 50);
+})();
