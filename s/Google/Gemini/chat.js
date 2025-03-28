@@ -24,6 +24,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.model-thoughts'
+	,'.user-query-container'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
