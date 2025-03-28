@@ -107,11 +107,11 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'text-overflow': 'initial'
-			,'overflow': 'initial'
-			,'line-clamp': 'none'
-			,'-webkit-line-clamp': 'none'
+			'-webkit-line-clamp': 'none'
 			,'display': 'block'
+			,'line-clamp': 'none'
+			,'overflow': 'initial'
+			,'text-overflow': 'initial'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
