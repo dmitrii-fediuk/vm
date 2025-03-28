@@ -13,6 +13,7 @@ console.log('Common');
 GM_addStyle([
 	'.bard-logo-container'
 	,'.trailing-actions-wrapper:has(speech-dictation-mic-button)'
+	,'[data-placeholder="Ask Gemini"]::after'
 	,'[data-placeholder="Ask Gemini"]::before'
 ]
 	 // language=Javascript
