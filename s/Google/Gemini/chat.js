@@ -146,6 +146,7 @@ GM_addStyle([
 	'.gds-title-s'
 	,'.markdown'
 	,'.query-text'
+	,'body'
 	,'code'
 	,'code-block'
 	,'pre'
