@@ -200,6 +200,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{margin: 0.25rem 0 !important;}')
 ;
+// 2025-03-28
+// language=CSS
+GM_addStyle([
+	'.markdown li'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0.15rem 0 !important;}')
+;
 // 2025-03-29
 // language=CSS
 GM_addStyle([
