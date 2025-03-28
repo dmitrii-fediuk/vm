@@ -40,7 +40,8 @@ GM_addStyle([
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	'.model-thoughts'
+	'.code-block'
+	,'.model-thoughts'
 	,'.user-query-container'
 ]
 	 // language=Javascript
