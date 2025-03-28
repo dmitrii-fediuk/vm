@@ -69,6 +69,7 @@ GM_addStyle([
 // 2025-03-28 https://chatgpt.com/c/67e62607-5b70-8003-9805-1775f9b2b1db
 (() => {
 	const target = document.querySelector('.conversation-container');
+	debugger;
 	if (target) {
 		const observer = new MutationObserver(mm => {
 			mm.forEach(m => {
