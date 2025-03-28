@@ -134,6 +134,14 @@ GM_addStyle('infinite-scroller {overflow-y: auto !important;}');
 // 2025-03-28
 // language=CSS
 GM_addStyle([
+	'.bard-mode-menu-button'
+]
+	 // language=Javascript
+	.join(',') + '{font-weight: bold !important;}')
+;
+// 2025-03-28
+// language=CSS
+GM_addStyle([
 	'.markdown p'
 	,'p.query-text-line:not(:has(> br))'
 ]
