@@ -20,3 +20,11 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// 2025-03-28
+// language=CSS
+GM_addStyle([
+	'.side-nav-menu-button'
+]
+	 // language=Javascript
+	.join(',') + '{position: absolute !important;}')
+;
