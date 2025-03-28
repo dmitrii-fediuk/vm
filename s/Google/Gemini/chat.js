@@ -49,7 +49,8 @@ GM_addStyle([
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	'.query-content'
+	'.code-block .header-formatted'
+	,'.query-content'
 	,'.response-container'
 	,'.user-query-bubble-with-background'
 	,'[data-test-id="thoughts-header-button"]'
