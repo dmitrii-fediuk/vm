@@ -11,6 +11,7 @@
 console.log('Chat');
 // language=CSS
 GM_addStyle([
+	'hallucination-disclaimer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
