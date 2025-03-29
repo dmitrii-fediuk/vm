@@ -11,6 +11,7 @@
 // language=CSS
 GM_addStyle([
 	'#chat-history'
+	,'chat-window-content'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
