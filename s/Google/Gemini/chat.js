@@ -66,6 +66,7 @@ GM_addStyle([
 	,'.query-content'
 	,'.response-container'
 	,'.user-query-bubble-with-background'
+	,'.user-query-container'
 	,'[data-test-id="thoughts-header-button"]'
 	,'bard-mode-switcher .current-mode-title'
 	,'code'
