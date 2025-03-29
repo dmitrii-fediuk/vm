@@ -19,6 +19,7 @@ GM_addStyle([
 GM_addStyle([
 	'.group\\/conversation-turn'
 	,'.text-base'
+	,'[data-message-author-role="user"] :has(> .whitespace-pre-wrap)'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
