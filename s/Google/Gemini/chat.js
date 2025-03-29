@@ -163,7 +163,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.current-mode-title'
-		.'.gds-title-s'
+	,'.gds-title-s'
 	,'.markdown'
 	,'.mat-mdc-button'
 	,'.query-text'
