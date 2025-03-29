@@ -54,6 +54,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.composer-parent:has(article)'
+	,'.\\[scrollbar-gutter\\:stable\\]'
 ]
 	// language=Javascript
 	.join(',') + '{' +
