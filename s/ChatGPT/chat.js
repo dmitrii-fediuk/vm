@@ -22,7 +22,6 @@ GM_addStyle([
 	,'.text-base'
 	,'[data-message-author-role="user"] :has(> .whitespace-pre-wrap)'
 	,'pre > div > .p-4'
-	,'pre > div > *'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
