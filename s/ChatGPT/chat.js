@@ -110,7 +110,7 @@ GM_addStyle('.prose :where(ul):not(:where([class~=not-prose] *)) {margin: 0 0 0.
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'code'
+	'code:not(.\\!whitespace-pre)'
 ]
 	// language=Javascript
 	.join(',') + '{' +
