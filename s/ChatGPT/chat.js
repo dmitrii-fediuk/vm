@@ -18,10 +18,17 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
+	'.prose li > p'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
+// 2025-03-29
+// language=CSS
+GM_addStyle([
 	'.group\\/conversation-turn'
 	,'.text-base'
 	,'[data-message-author-role="user"] :has(> .whitespace-pre-wrap)'
-	//,'pre > div > .p-4'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
