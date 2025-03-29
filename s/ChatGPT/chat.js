@@ -98,7 +98,7 @@ GM_addStyle([
 	'.prose'
 ]
 	 // language=Javascript
-	.join(',') + '{line-height: 1.4 !important;}')
+	.join(',') + '{line-height: 1.3 !important;}')
 ;
 // 2025-03-29
 // language=CSS
