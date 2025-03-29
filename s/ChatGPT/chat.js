@@ -67,3 +67,11 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-03-29
+// language=CSS
+GM_addStyle([
+	'.markdown'
+]
+	 // language=Javascript
+	.join(',') + '{font-size: 110% !important;}')
+;
