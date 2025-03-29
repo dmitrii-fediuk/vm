@@ -52,8 +52,8 @@ GM_addStyle([
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	//'.actions-container-v2'
-	'.code-block'
+	'message-actions > .actions-container-v2'
+	,'.code-block'
 	,'.model-thoughts'
 	,'.response-container-footer'
 	,'.side-nav-menu-button'
