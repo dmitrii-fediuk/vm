@@ -18,7 +18,8 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'.group\\/conversation-turn'
+	'.composer-parent > *'
+	,'.group\\/conversation-turn'
 	,'.text-base'
 	,'[data-message-author-role="user"] :has(> .whitespace-pre-wrap)'
 ]
