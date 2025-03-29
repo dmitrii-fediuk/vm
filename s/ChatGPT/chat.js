@@ -15,3 +15,11 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// 2025-03-29
+// language=CSS
+GM_addStyle([
+	'.text-base'
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
