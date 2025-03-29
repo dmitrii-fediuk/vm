@@ -46,6 +46,14 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
+	'pre:has(code.\\!whitespace-pre) > div > div'
+]
+	 // language=Javascript
+	.join(',') + '{height: auto !important;}')
+;
+// 2025-03-29
+// language=CSS
+GM_addStyle([
 	'[data-message-author-role="user"] :has(> .whitespace-pre-wrap)'
 ]
 	 // language=Javascript
