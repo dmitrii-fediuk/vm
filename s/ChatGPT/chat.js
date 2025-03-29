@@ -32,3 +32,21 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{border-radius: 0 !important;}')
 ;
+// 2025-03-29
+// language=CSS
+GM_addStyle([
+	'[class*="--user-chat-width"]'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['width', 'min-width']
+			// language=Javascript
+			.map(k => `${k}: initial !important;`).join(' ') +
+		// language=CSS
+		Object.entries({
+			// language=Javascript
+			'max-width': '100%'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
