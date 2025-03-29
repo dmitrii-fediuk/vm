@@ -188,7 +188,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.query-text'
-	,'body'
+	//,'body'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: 120% !important;}')
