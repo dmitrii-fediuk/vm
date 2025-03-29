@@ -83,3 +83,26 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{line-height: 1.4 !important;}')
 ;
+// 2025-03-29
+// language=CSS
+GM_addStyle([
+	'.markdown p'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0.25rem 0 !important;}')
+;
+// 2025-01-04
+// language=CSS
+GM_addStyle('.markdown h2 {margin: 1rem 0 0.5rem 0 !important;}');
+// 2025-01-04
+// language=CSS
+GM_addStyle('.markdown h3 {margin: 0.5rem 0 0.25rem 0 !important;}');
+// 2025-01-04
+// language=CSS
+GM_addStyle('.prose :where(hr):not(:where([class~=not-prose] *)) {margin: 0.5rem 0 !important;}');
+// 2025-01-04
+// language=CSS
+GM_addStyle('.prose :where(ol):not(:where([class~=not-prose] *)) {margin: 0 0 0.5rem 0 !important;}');
+// 2025-01-04
+// language=CSS
+GM_addStyle('.prose :where(ul):not(:where([class~=not-prose] *)) {margin: 0 0 0.5rem 0 !important;}');
