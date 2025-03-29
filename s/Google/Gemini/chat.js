@@ -53,6 +53,7 @@ GM_addStyle([
 	,'.model-thoughts'
 	,'.side-nav-menu-button'
 	,'.user-query-container'
+	,'bard-mode-switcher'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
