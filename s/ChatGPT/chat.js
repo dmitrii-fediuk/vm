@@ -10,10 +10,18 @@
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	//':has(> button#radix-\\:rp\\:)'
+	':has(> button#radix-\\:rp\\:)'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
+;
+// 2025-03-29
+// language=CSS
+GM_addStyle([
+	'.absolute:has(> [class*="mask-"] [data-testid="copy-turn-action-button"])'
+]
+	 // language=Javascript
+	.join(',') + '{position: initial !important;}')
 ;
 // 2025-03-29
 // language=CSS
