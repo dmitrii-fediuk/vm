@@ -196,7 +196,8 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'.query-text'
+	'.mat-mdc-button'
+	,'.query-text'
 	//,'body'
 ]
 	 // language=Javascript
