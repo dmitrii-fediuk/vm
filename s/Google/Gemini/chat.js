@@ -21,6 +21,7 @@ GM_addStyle([
 	,'hallucination-disclaimer'
 	,'input-container:before'
 	,'mat-sidenav'
+	,'model-thoughts'
 	,'top-bar-actions'
 ]
 	 // language=Javascript
