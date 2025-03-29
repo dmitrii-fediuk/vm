@@ -80,7 +80,7 @@ GM_addStyle([
 GM_addStyle([
 	'.text-base'
 	,'.text-sm'
-	,'code', 'kbd', 'pre', 'samp'
+	//,'code', 'kbd', 'pre', 'samp'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: 100% !important;}')
