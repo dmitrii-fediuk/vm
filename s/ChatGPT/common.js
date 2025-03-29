@@ -70,7 +70,7 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'body'
+	//'body'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: 120% !important;}')
@@ -78,8 +78,8 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'.text-base'
-	,'.text-sm'
+	//'.text-base'
+	//,'.text-sm'
 	//,'code', 'kbd', 'pre', 'samp'
 ]
 	 // language=Javascript
