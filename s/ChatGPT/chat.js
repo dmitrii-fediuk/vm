@@ -10,7 +10,8 @@
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	':has(> button#radix-\\:rp\\:)'
+	':has(> [data-testid="copy-turn-action-button"]) ~ *'
+	,':has(> button#radix-\\:rp\\:)'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
