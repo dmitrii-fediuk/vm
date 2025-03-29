@@ -53,6 +53,20 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle('body {padding: 0 0 0 1rem !important;}');
+// 2025-03-29
+// language=CSS
+GM_addStyle([
+	'body'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'color': 'black'
+			,'font-family': 'Segoie UI'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 // 2024-12-03
 // language=CSS
 GM_addStyle('.md\\:max-w-3xl {gap: 0 !important; max-width: initial !important;}');
