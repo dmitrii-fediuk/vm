@@ -54,6 +54,7 @@ GM_addStyle([
 GM_addStyle([
 	'.code-block'
 	,'.model-thoughts'
+	,'.response-container-footer'
 	,'.side-nav-menu-button'
 	,'.user-query-container'
 	,'bard-mode-switcher'
