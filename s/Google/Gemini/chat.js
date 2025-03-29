@@ -10,7 +10,8 @@
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	'.boqOnegoogleliteOgbOneGoogleBar'
+	'.avatar-gutter'
+	,'.boqOnegoogleliteOgbOneGoogleBar'
 	,'.cdk-visually-hidden'
 	,'.desktop-ogb-buffer'
 	,'.query-content > :has(> button[aria-label="Edit"])'
