@@ -27,6 +27,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.chat-container'
+	,'.query-content'
 	,'.side-nav-menu-button'
 	,'message-actions > mat-menu'
 	,'user-query-content'
