@@ -132,7 +132,9 @@ GM_addStyle('.prose :where(li):not(:where([class~=not-prose] *)) {margin: 0.25re
 GM_addStyle(':has(> code.\\!whitespace-pre) {padding-bottom: 0 !important; padding-top: 0 !important;}');
 // 2025-03-29
 // language=CSS
-GM_addStyle('pre:has(code.\\!whitespace-pre) > div > div {padding-bottom: 0 !important; padding-top: 0 !important;}');
+GM_addStyle('pre:has(code.\\!whitespace-pre) > div > div {' +
+	'padding-bottom: 0 !important; padding-top: 0 !important;}'
+);
 // 2025-03-29
 // language=CSS
 GM_addStyle([
