@@ -11,6 +11,7 @@
 // language=CSS
 GM_addStyle([
 	'.boqOnegoogleliteOgbOneGoogleBar'
+	,'.cdk-visually-hidden'
 	,'.desktop-ogb-buffer'
 	,'.query-content > :has(> button[aria-label="Edit"])'
 	,'.response-container-header'
