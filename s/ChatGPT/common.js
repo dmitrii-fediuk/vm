@@ -50,6 +50,9 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// 2025-03-29
+// language=CSS
+GM_addStyle('body {padding: 0 0 0 1rem !important;}');
 // 2024-12-03
 // language=CSS
 GM_addStyle('.md\\:max-w-3xl {gap: 0 !important; max-width: initial !important;}');
