@@ -143,4 +143,18 @@ GM_addStyle([
 );
 // 2025-03-29
 // language=CSS
+GM_addStyle([
+	'code.\\!whitespace-pre'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			// language=Javascript
+			'font-size': '90%'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-03-29
+// language=CSS
 GM_addStyle('[class*="mask-"]:has([data-testid="copy-turn-action-button"]) {mask: none !important;}');
