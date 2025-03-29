@@ -75,6 +75,15 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{font-size: 120% !important;}')
 ;
+// 2025-03-29
+// language=CSS
+GM_addStyle([
+	'.text-base'
+	,'.text-sm'
+]
+	 // language=Javascript
+	.join(',') + '{font-size: 100% !important;}')
+;
 // 2024-12-03
 // language=CSS
 GM_addStyle('.md\\:max-w-3xl {gap: 0 !important; max-width: initial !important;}');
