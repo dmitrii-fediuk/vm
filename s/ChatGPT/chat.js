@@ -17,7 +17,8 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'.text-base'
+	'.group\\/conversation-turn'
+	,'.text-base'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
