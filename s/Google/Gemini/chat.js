@@ -52,8 +52,7 @@ GM_addStyle([
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	'message-actions > .actions-container-v2'
-	,'.code-block'
+	'.code-block'
 	,'.model-thoughts'
 	,'.response-container-footer'
 	,'.side-nav-menu-button'
@@ -66,8 +65,8 @@ GM_addStyle([
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	//'.actions-container-v2'
-	'.code-block > .header-formatted'
+	'message-actions > .actions-container-v2'
+	,'.code-block > .header-formatted'
 	,'.query-content'
 	,'.response-container'
 	,'.user-query-bubble-with-background'
