@@ -187,11 +187,20 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
+	//'.query-text'
+	'body'
+]
+	 // language=Javascript
+	.join(',') + '{font-size: 120% !important;}')
+;
+// 2025-03-29
+// language=CSS
+GM_addStyle([
 	'.query-text'
 	//,'body'
 ]
 	 // language=Javascript
-	.join(',') + '{font-size: 120% !important;}')
+	.join(',') + '{font-size: revert !important;}')
 ;
 // 2025-03-29
 // language=CSS
