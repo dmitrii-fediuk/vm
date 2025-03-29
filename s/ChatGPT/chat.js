@@ -118,6 +118,7 @@ GM_addStyle([
 		Object.entries({
 			'background': 'none'
 			,'color': '#067D17'
+			,'font-weight': 'bold'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
