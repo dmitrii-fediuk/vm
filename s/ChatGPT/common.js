@@ -54,7 +54,7 @@ GM_addStyle([
 GM_addStyle('.md\\:max-w-3xl {gap: 0 !important; max-width: initial !important;}');
 // 2025-01-04 https://chatgpt.com/c/67792143-94dc-800c-a793-809f8e8488e6
 // language=CSS
-GM_addStyle('.composer-parent:has(article) {height: auto !important;}');
+//GM_addStyle('.composer-parent:has(article) {height: auto !important;}');
 // 2025-01-04
 // language=CSS
 GM_addStyle('.markdown h2 {margin: 1rem 0 0.5rem 0 !important;}');
