@@ -8,7 +8,6 @@
 // ==/UserScript==
 // 2024-10-08 "Improve the appearance of ChatGPT": https://github.com/dmitrii-fediuk/vm/issues/51
 // 2025-03-29
-console.log('Chat');
 // language=CSS
 GM_addStyle([
 ]

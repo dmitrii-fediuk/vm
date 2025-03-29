@@ -7,7 +7,6 @@
 // @name ChatGPT / Common
 // ==/UserScript==
 // 2024-10-08 "Improve the appearance of ChatGPT": https://github.com/dmitrii-fediuk/vm/issues/51
-console.log('Common');
 // language=CSS
 GM_addStyle([
 	'[data-placeholder="Ask anything"]' // 2025-03-29
