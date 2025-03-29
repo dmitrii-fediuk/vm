@@ -195,7 +195,7 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'.markdown'
+	//'.markdown'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: 140% !important;}')
