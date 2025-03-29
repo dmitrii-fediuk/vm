@@ -205,6 +205,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.markdown'
+	,'.ql-editor'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: 110% !important;}')
