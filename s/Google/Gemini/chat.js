@@ -12,6 +12,7 @@
 GM_addStyle([
 	'.avatar-gutter'
 	,'.boqOnegoogleliteOgbOneGoogleBar'
+	,'.buttons-container-v2:before'
 	,'.cdk-visually-hidden'
 	,'.desktop-ogb-buffer'
 	,'.query-content > :has(> button[aria-label="Edit"])'
@@ -65,7 +66,7 @@ GM_addStyle([
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	'message-actions > .actions-container-v2'
+	'.actions-container-v2'
 	,'.code-block > .header-formatted'
 	,'.query-content'
 	,'.response-container'
