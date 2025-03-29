@@ -107,3 +107,17 @@ GM_addStyle('.prose :where(ol):not(:where([class~=not-prose] *)) {margin: 0 0 0.
 // 2025-01-04
 // language=CSS
 GM_addStyle('.prose :where(ul):not(:where([class~=not-prose] *)) {margin: 0 0 0.5rem 0 !important;}');
+// 2025-03-29
+// language=CSS
+GM_addStyle([
+	'code'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'background': 'none'
+			,'color': '#067D17'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
