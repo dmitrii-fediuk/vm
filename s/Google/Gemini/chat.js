@@ -120,6 +120,7 @@ GM_addStyle([
 GM_addStyle([
 	'.conversation-container'
 	,'.user-query-bubble-with-background'
+	,'input-container'
 ]
 	// language=Javascript
 	.join(',') + '{' +
