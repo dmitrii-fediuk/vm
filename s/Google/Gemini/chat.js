@@ -51,6 +51,7 @@ GM_addStyle([
 GM_addStyle([
 	'.code-block'
 	,'.model-thoughts'
+	,'.side-nav-menu-button'
 	,'.user-query-container'
 ]
 	 // language=Javascript
@@ -144,7 +145,7 @@ GM_addStyle([
 GM_addStyle('body {padding: 0 0 0 1rem !important; width: auto !important;}');
 // 2025-03-29
 // language=CSS
-GM_addStyle('.side-nav-menu-button {margin: 0 0 0.5rem 0 !important;}');
+//GM_addStyle('.side-nav-menu-button {margin: 0 0 0.5rem 0 !important;}');
 // 2025-03-28 https://chatgpt.com/c/67e63433-b778-8003-9129-50e335c342b0
 // language=CSS
 GM_addStyle('infinite-scroller {overflow-y: auto !important;}');
