@@ -24,3 +24,11 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// 2025-03-29
+// language=CSS
+GM_addStyle([
+	'[data-message-author-role="user"] :has(> .whitespace-pre-wrap)'
+]
+	 // language=Javascript
+	.join(',') + '{border-radius: 0 !important;}')
+;
