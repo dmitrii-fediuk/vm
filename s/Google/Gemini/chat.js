@@ -198,10 +198,9 @@ GM_addStyle([
 GM_addStyle([
 	'.mat-mdc-button'
 	,'.query-text'
-	//,'body'
 ]
 	 // language=Javascript
-	.join(',') + '{font-size: revert !important;}')
+	.join(',') + '{font-size: 100% !important;}')
 ;
 // 2025-03-29
 // language=CSS
