@@ -71,15 +71,15 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.prose'
-	,'.prose :where(pre):not(:where([class~=not-prose] *))'
+	//,'.prose :where(pre):not(:where([class~=not-prose] *))'
 ]
 	 // language=Javascript
-	.join(',') + '{font-size: revert !important;}')
+	.join(',') + '{font-size: 110% !important;}')
 ;
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'.markdown'
+	//'.markdown'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: 110% !important;}')
