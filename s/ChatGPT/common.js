@@ -43,7 +43,8 @@ GM_addStyle([
 // 2025-01-04
 // language=CSS
 GM_addStyle([
-	'.md\\:pb-9'
+	'.composer-parent > *' // 2025-03-29
+	,'.md\\:pb-9'
 	,'article > .lg\\:px-4'
 ]
 	 // language=Javascript
