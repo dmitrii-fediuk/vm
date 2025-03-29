@@ -112,6 +112,14 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
+	'.prose :where(pre):not(:where([class~=not-prose] *))'
+]
+	 // language=Javascript
+	.join(',') + '{line-height: revert !important;}')
+;
+// 2025-03-29
+// language=CSS
+GM_addStyle([
 	'.prose p'
 ]
 	 // language=Javascript
