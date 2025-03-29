@@ -154,7 +154,6 @@ GM_addStyle('infinite-scroller {overflow-y: auto !important;}');
 // language=CSS
 GM_addStyle([
 	'.bard-mode-menu-button'
-	,'.current-mode-title'
 	,'code:not(.code-container)'
 ]
 	 // language=Javascript
@@ -163,7 +162,8 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'.gds-title-s'
+	'.current-mode-title'
+		.'.gds-title-s'
 	,'.markdown'
 	,'.mat-mdc-button'
 	,'.query-text'
