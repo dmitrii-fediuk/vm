@@ -229,6 +229,14 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-03-29 https://chatgpt.com/c/67e7837a-75b4-8003-af6a-1d8a350d139c
+// language=CSS
+GM_addStyle([
+	'code', 'pre'
+]
+	 // language=Javascript
+	.join(',') + '{tab-size: 4 !important;}')
+;
 // 2025-03-28
 // language=CSS
 GM_addStyle([
@@ -262,7 +270,6 @@ GM_addStyle([
 	'.code-block > *'
 	,'code.code-container'
 	,'code-block'
-	//,'pre'
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: rgb(249, 249, 249) !important;}')
