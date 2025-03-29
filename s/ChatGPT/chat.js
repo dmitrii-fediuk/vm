@@ -169,6 +169,8 @@ GM_addStyle([
 		Object.entries({
 			// language=Javascript
 			'font-size': '90%'
+			// language=CSS
+			,'line-height': 1.1
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
