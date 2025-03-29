@@ -11,6 +11,7 @@
 // language=CSS
 GM_addStyle([
 	'.boqOnegoogleliteOgbOneGoogleBar'
+	,'.desktop-ogb-buffer'
 	,'.query-content > :has(> button[aria-label="Edit"])'
 	,'.response-container-header'
 	,'.side-nav-menu-button > button[data-test-id="side-nav-menu-button"]'
