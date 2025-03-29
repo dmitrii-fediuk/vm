@@ -29,6 +29,7 @@ GM_addStyle([
 	'.chat-container'
 	,'.side-nav-menu-button'
 	,'message-actions > mat-menu'
+	,'user-query-content'
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
