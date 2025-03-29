@@ -21,6 +21,7 @@ GM_addStyle([
 	,'hallucination-disclaimer'
 	,'input-container:before'
 	,'mat-sidenav'
+	,'message-actions .buttons-container-v2 > :not(.menu-button-wrapper)'
 	,'model-thoughts'
 	,'top-bar-actions'
 ]
