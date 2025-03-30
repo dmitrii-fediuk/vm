@@ -39,7 +39,8 @@ GM_addStyle([
 // 2025-03-25
 // language=CSS
 GM_addStyle([
-	'[class*="ticketHeaderSticky"]'
+	'.global-top-bar'
+	,'[class*="ticketHeaderSticky"]'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
