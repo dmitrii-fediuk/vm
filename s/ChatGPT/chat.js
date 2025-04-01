@@ -99,7 +99,7 @@ GM_addStyle([
 	'.prose'
 ]
 	 // language=Javascript
-	.join(',') + '{font-size: 130% !important;}')
+	.join(',') + '{font-size: 125% !important;}')
 ;
 // 2025-03-29
 // language=CSS
