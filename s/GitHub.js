@@ -11,8 +11,8 @@
 // language=CSS
 GM_addStyle([
 	'#new_comment_form ~ div:has(a[href$="github-community-guidelines"])'
-	,'[class*="ActionBar-module__left-action-bar"]' // 2025-04-03
 	,'footer.footer'
+	,'td.diff-text-cell > [class*="ActionBar-module__"]' // 2025-04-03
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
