@@ -23,8 +23,8 @@ GM_addStyle([
 	,'.js-sticky'
 	,'.position-sticky'
 	,':has(> nav)'
-	,'[style*="-sticky-"]' // 2025-04-03
 	,'[data-testid="issue-metadata-sticky"]'
+	,'[style*="-sticky-"]' // 2025-04-03
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
