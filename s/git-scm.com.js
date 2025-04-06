@@ -12,6 +12,7 @@ GM_addStyle([
 	'#reference-languages-trigger'
 	,'#scrollToTop'
 	,'#sidebar'
+	,'.anchor'
 	,'.inner:has(> header)'
 	,'.sidebar-btn'
 	,'footer'
