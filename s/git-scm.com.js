@@ -38,7 +38,8 @@ GM_addStyle([
 // 2025-04-06
 // language=CSS
 GM_addStyle([
-	'#reference-version'
+	'#main'
+	,'#reference-version'
 	,'dl'
 ]
 	 // language=Javascript
