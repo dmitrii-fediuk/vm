@@ -36,7 +36,7 @@ GM_addStyle([
 // 2025-04-06
 // language=CSS
 GM_addStyle([
-
+	'#reference-version'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
