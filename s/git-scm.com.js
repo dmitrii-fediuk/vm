@@ -11,6 +11,7 @@
 GM_addStyle([
 	'#scrollToTop'
 	,'#sidebar'
+	,'.inner:has(> header)'
 	,'.sidebar-btn'
 	,'footer'
 ]
