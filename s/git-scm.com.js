@@ -13,6 +13,7 @@ GM_addStyle([
 	,'#scrollToTop'
 	,'#sidebar'
 	,'.anchor'
+	,'.anchor::before'
 	,'.inner:has(> header)'
 	,'.sidebar-btn'
 	,'footer'
@@ -85,6 +86,14 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{text-align: initial !important;}')
+;
+// 2025-04-06
+// language=CSS
+GM_addStyle([
+	'#reference-version'
+]
+	 // language=Javascript
+	.join(',') + '{overflow: hidden !important;}')
 ;
 // 2025-04-06
 // language=CSS
