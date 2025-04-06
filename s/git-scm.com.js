@@ -11,6 +11,7 @@
 GM_addStyle([
 	'#scrollToTop'
 	,'.sidebar-btn'
+	,'footer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
