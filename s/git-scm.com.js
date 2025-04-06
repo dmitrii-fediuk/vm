@@ -9,7 +9,8 @@
 // 2025-04-06 "Improve `git-scm.com`": https://github.com/dmitrii-fediuk/vm/issues/100
 // language=CSS
 GM_addStyle([
-	'#scrollToTop'
+	'#reference-languages-trigger'
+	,'#scrollToTop'
 	,'#sidebar'
 	,'.inner:has(> header)'
 	,'.sidebar-btn'
