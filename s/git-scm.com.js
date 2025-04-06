@@ -68,6 +68,14 @@ GM_addStyle([
 // 2025-04-06
 // language=CSS
 GM_addStyle([
+	'#main'
+]
+	 // language=Javascript
+	.join(',') + '{background-color: initial !important;}')
+;
+// 2025-04-06
+// language=CSS
+GM_addStyle([
 	'#content'
 	,'.inner'
 ]
