@@ -9,7 +9,8 @@
 // 2025-04-06 "Improve `git-scm.com`": https://github.com/dmitrii-fediuk/vm/issues/100
 // language=CSS
 GM_addStyle([
-	'.sidebar-btn'
+	'#scrollToTop'
+	,'.sidebar-btn'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
