@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'#scrollToTop'
+	,'#sidebar'
 	,'.sidebar-btn'
 	,'footer'
 ]
