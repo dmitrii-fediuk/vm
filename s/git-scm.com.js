@@ -60,6 +60,14 @@ GM_addStyle([
 // 2025-04-06
 // language=CSS
 GM_addStyle([
+	'body'
+]
+	 // language=Javascript
+	.join(',') + '{background: none !important;}')
+;
+// 2025-04-06
+// language=CSS
+GM_addStyle([
 	'#content'
 	,'.inner'
 ]
