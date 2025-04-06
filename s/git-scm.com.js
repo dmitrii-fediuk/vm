@@ -98,3 +98,12 @@ GM_addStyle([
 // 2025-04-06
 // language=CSS
 GM_addStyle('body {margin: 0 1rem !important;}');
+// 2025-04-06
+// language=CSS
+GM_addStyle('h3 {margin: 0.25rem 0 !important;}');
+// 2025-04-06
+// language=CSS
+GM_addStyle('h4 {margin: 0.2rem 0 !important;}');
+// 2025-04-06
+// language=CSS
+GM_addStyle('p {margin: 0.25rem 0 !important;}');
