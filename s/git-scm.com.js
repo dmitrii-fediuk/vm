@@ -90,7 +90,7 @@ GM_addStyle([
 // 2025-04-06
 // language=CSS
 GM_addStyle([
-	'#reference-version'
+	//'#reference-version'
 ]
 	 // language=Javascript
 	.join(',') + '{overflow: hidden !important;}')
