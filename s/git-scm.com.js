@@ -79,6 +79,14 @@ GM_addStyle([
 // 2025-04-06
 // language=CSS
 GM_addStyle([
+	'.anchor'
+]
+	 // language=Javascript
+	.join(',') + '{text-align: initial !important;}')
+;
+// 2025-04-06
+// language=CSS
+GM_addStyle([
 	'#content'
 	,'.inner'
 ]
