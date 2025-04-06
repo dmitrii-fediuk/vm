@@ -46,6 +46,7 @@ GM_addStyle([
 GM_addStyle([
 	'#content-wrapper'
 	,'#main'
+	,'#reference-version'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
