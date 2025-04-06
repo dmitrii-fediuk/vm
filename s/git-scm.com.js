@@ -87,6 +87,14 @@ GM_addStyle([
 // 2025-04-06
 // language=CSS
 GM_addStyle([
+	'h2'
+]
+	 // language=Javascript
+	.join(',') + '{line-height: initial !important;}')
+;
+// 2025-04-06
+// language=CSS
+GM_addStyle([
 	'#content'
 	,'.inner'
 ]
@@ -108,7 +116,7 @@ GM_addStyle([
 GM_addStyle('body {margin: 0 1rem !important;}');
 // 2025-04-06
 // language=CSS
-GM_addStyle('h2 {margin-bottom: 0.3rem !important; margin-top: 0.3rem !important;}');
+GM_addStyle('h2 {margin: 0.3rem 0 !important;}');
 // 2025-04-06
 // language=CSS
 GM_addStyle('h3 {margin: 0.25rem 0 !important;}');
