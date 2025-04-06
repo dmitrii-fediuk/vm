@@ -44,7 +44,8 @@ GM_addStyle([
 // 2025-04-06
 // language=CSS
 GM_addStyle([
-	'#main'
+	'#content-wrapper'
+	,'#main'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
