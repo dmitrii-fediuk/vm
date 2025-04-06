@@ -69,6 +69,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#main'
+	,'#reference-version'
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: initial !important;}')
