@@ -90,10 +90,10 @@ GM_addStyle([
 // 2025-04-06
 // language=CSS
 GM_addStyle([
-	//'#reference-version'
+	'#main'
 ]
 	 // language=Javascript
-	.join(',') + '{overflow: hidden !important;}')
+	.join(',') + '{clear: both !important;}')
 ;
 // 2025-04-06
 // language=CSS
