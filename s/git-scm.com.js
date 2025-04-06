@@ -45,7 +45,6 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#main'
-	,'.inner'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -62,6 +61,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#content'
+	,'.inner'
 ]
 	// language=Javascript
 	.join(',') + '{' +
