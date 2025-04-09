@@ -28,6 +28,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.prose li > p'
+	,'[class*="--thread-content-max-width"]' // 2025-04-08
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -62,7 +63,8 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'[class*="--user-chat-width"]'
+	'[class*="--thread-content-max-width"]' // 2025-04-08
+	,'[class*="--user-chat-width"]' // 2025-03-29
 ]
 	// language=Javascript
 	.join(',') + '{' +
