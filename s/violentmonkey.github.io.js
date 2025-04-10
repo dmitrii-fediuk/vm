@@ -182,6 +182,8 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			'font-family': 'Segoie UI'
+			// language=Javascript
+			,'font-size': '150%'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
@@ -196,8 +198,6 @@ GM_addStyle([
 		Object.entries({
 			'color': 'black'
 			,'font-family': 'Consolas'
-			// language=Javascript
-			,'font-size': '150%'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
