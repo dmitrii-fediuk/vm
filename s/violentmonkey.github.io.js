@@ -107,3 +107,17 @@ GM_addStyle([
 // 2025-04-10
 // language=CSS
 //GM_addStyle('body {margin: 0 1rem !important;}');
+// 2025-04-10
+// language=CSS
+GM_addStyle([
+	'main'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'display': 'flex'
+			,'flex-direction': 'column'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
