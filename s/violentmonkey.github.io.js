@@ -55,6 +55,14 @@ GM_addStyle([
 // 2025-04-10
 // language=CSS
 GM_addStyle([
+	'nav'
+]
+	 // language=Javascript
+	.join(',') + '{height: auto !important;}')
+;
+// 2025-04-10
+// language=CSS
+GM_addStyle([
 	'aside'
 	,'header'
 ]
