@@ -97,6 +97,14 @@ GM_addStyle([
 // 2025-04-10
 // language=CSS
 GM_addStyle([
+	'code span'
+]
+	 // language=Javascript
+	.join(',') + '{color: initial !important;}')
+;
+// 2025-04-10
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{text-align: initial !important;}')
