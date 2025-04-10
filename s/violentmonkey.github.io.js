@@ -44,6 +44,7 @@ GM_addStyle([
 // 2025-04-10
 // language=CSS
 GM_addStyle([
+	'h1'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
