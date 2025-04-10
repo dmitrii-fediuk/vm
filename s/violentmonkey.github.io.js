@@ -182,7 +182,8 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'font-family': 'Consolas'
+			'color': 'black'
+			,'font-family': 'Consolas'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
