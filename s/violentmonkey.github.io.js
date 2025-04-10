@@ -64,6 +64,14 @@ GM_addStyle([
 // 2025-04-10
 // language=CSS
 GM_addStyle([
+	'header > nav'
+]
+	 // language=Javascript
+	.join(',') + '{box-shadow: none !important;}')
+;
+// 2025-04-10
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
