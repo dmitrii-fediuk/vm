@@ -111,7 +111,7 @@ GM_addStyle([
 );
 // 2025-04-10
 // language=CSS
-//GM_addStyle('body {margin: 0 1rem !important;}');
+GM_addStyle('body {margin: 0 1rem !important;}');
 // 2025-04-10
 // language=CSS
 GM_addStyle('main > aside {order: 99 !important;}');
