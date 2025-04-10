@@ -117,6 +117,9 @@ GM_addStyle([
 GM_addStyle('main > aside {order: 99 !important;}');
 // 2025-04-10
 // language=CSS
+GM_addStyle('h2 {margin: 0.3rem 0 !important;}');
+// 2025-04-10
+// language=CSS
 GM_addStyle([
 	'main'
 ]
