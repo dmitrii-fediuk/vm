@@ -146,6 +146,9 @@ GM_addStyle([
 GM_addStyle('body {margin: 0 1rem !important;}');
 // 2025-04-10
 // language=CSS
+GM_addStyle('h1 {font-size: 1.5rem !important;}');
+// 2025-04-10
+// language=CSS
 GM_addStyle('h2 {margin: 0.3rem 0 !important;}');
 // 2025-04-10
 // language=CSS
