@@ -114,7 +114,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	':root'
-	,'h1'
+	,'h1', 'h2', 'h3', 'h4'
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: 1.1 !important;}')
