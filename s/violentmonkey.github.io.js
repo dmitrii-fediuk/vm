@@ -9,6 +9,7 @@
 // 2025-04-10 "Improve `violentmonkey.github.io`": https://github.com/dmitrii-fediuk/vm/issues/102
 // language=CSS
 GM_addStyle([
+	'[data-discord]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
