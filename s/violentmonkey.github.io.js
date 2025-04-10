@@ -182,7 +182,7 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'background': 'none'
+			'background-color': 'initial'
 			,'color': 'black'
 			,'font-family': 'Consolas'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
