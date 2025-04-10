@@ -176,7 +176,7 @@ GM_addStyle([
 // 2025-04-10
 // language=CSS
 GM_addStyle([
-	'pre', 'samp'
+	'code', 'pre'
 ]
 	// language=Javascript
 	.join(',') + '{' +
