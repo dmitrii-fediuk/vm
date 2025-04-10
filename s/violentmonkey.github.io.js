@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'[data-discord]'
+	,'footer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
