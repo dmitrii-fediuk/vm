@@ -6,8 +6,6 @@
 // @match *://violentmonkey.github.io/*
 // @name violentmonkey.github.io
 // ==/UserScript==
-
-
 // 2025-04-10 "Improve `violentmonkey.github.io`": https://github.com/dmitrii-fediuk/vm/issues/102
 // language=CSS
 GM_addStyle([
