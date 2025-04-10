@@ -132,7 +132,8 @@ GM_addStyle('p {margin: 0.25rem 0 !important;}');
 // 2025-04-10
 // language=CSS
 GM_addStyle([
-	'main'
+	'body'
+	,'main'
 ]
 	// language=Javascript
 	.join(',') + '{' +
