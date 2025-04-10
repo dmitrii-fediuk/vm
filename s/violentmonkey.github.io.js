@@ -90,6 +90,7 @@ GM_addStyle([
 // 2025-04-10
 // language=CSS
 GM_addStyle([
+	'main'
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -118,6 +119,7 @@ GM_addStyle([
 		Object.entries({
 			'display': 'flex'
 			,'flex-direction': 'column'
+			,'gap': 0
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
