@@ -113,8 +113,7 @@ GM_addStyle([
 // 2025-04-10
 // language=CSS
 GM_addStyle([
-	':root'
-	,':root *'
+	'*'
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: 1.15 !important;}')
