@@ -105,6 +105,14 @@ GM_addStyle([
 // 2025-04-10
 // language=CSS
 GM_addStyle([
+	':root *'
+]
+	 // language=Javascript
+	.join(',') + '{line-height: initial !important;}')
+;
+// 2025-04-10
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{text-align: initial !important;}')
