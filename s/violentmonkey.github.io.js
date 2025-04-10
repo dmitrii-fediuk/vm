@@ -86,6 +86,7 @@ GM_addStyle([
 // 2025-04-10
 // language=CSS
 GM_addStyle([
+	'code', 'figure', 'pre'
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: initial !important;}')
@@ -182,8 +183,7 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'background-color': 'white'
-			,'color': 'black'
+			'color': 'black'
 			,'font-family': 'Consolas'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
