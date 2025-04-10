@@ -47,6 +47,7 @@ GM_addStyle([
 GM_addStyle([
 	'aside > ul'
 	,'h1'
+	,'header > nav'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
