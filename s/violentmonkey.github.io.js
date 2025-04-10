@@ -89,7 +89,7 @@ GM_addStyle([
 	'code', 'figure', 'pre'
 ]
 	 // language=Javascript
-	.join(',') + '{background-color: initial !important;}')
+	.join(',') + '{background-color: white !important;}')
 ;
 // 2025-04-10
 // language=CSS
