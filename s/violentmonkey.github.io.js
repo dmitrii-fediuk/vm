@@ -86,10 +86,13 @@ GM_addStyle([
 // 2025-04-10
 // language=CSS
 GM_addStyle([
-	'code', 'figure', 'pre'
+	'code'
+	,'figure'
+	,'figure[data-rehype-pretty-code-figure] > pre'
+	,'pre'
 ]
 	 // language=Javascript
-	.join(',') + '{background-color: white !important;}')
+	.join(',') + '{background-color: initial !important;}')
 ;
 // 2025-04-10
 // language=CSS
