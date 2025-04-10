@@ -54,6 +54,15 @@ GM_addStyle([
 // 2025-04-10
 // language=CSS
 GM_addStyle([
+	'aside'
+	,'header'
+]
+	 // language=Javascript
+	.join(',') + '{order: 99 !important;}')
+;
+// 2025-04-10
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
@@ -114,9 +123,6 @@ GM_addStyle([
 // 2025-04-10
 // language=CSS
 GM_addStyle('body {margin: 0 1rem !important;}');
-// 2025-04-10
-// language=CSS
-GM_addStyle('aside {order: 99 !important;}');
 // 2025-04-10
 // language=CSS
 GM_addStyle('h2 {margin: 0.3rem 0 !important;}');
