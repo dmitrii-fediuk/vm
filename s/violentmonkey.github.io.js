@@ -113,9 +113,11 @@ GM_addStyle([
 // 2025-04-10
 // language=CSS
 GM_addStyle([
+	':root'
+	,':root *'
 ]
 	 // language=Javascript
-	.join(',') + '{text-align: initial !important;}')
+	.join(',') + '{line-height: 1.15 !important;}')
 ;
 // 2025-04-10
 // language=CSS
@@ -123,13 +125,6 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{clear: both !important;}')
-;
-// 2025-04-10
-// language=CSS
-GM_addStyle([
-]
-	 // language=Javascript
-	.join(',') + '{line-height: initial !important;}')
 ;
 // 2025-04-10
 // language=CSS
@@ -196,7 +191,6 @@ GM_addStyle([
 			// language=Javascript
 			,'font-size': '185%'
 			// language=CSS
-			,'line-height': 1.15
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
