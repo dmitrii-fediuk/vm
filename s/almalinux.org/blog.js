@@ -12,6 +12,7 @@
 GM_addStyle([
 	'#al-motd'
 	,'#al-primary-navbar'
+	,'.al-body-container ~'
 	,'footer.al-primary-footer'
 ]
 	 // language=Javascript
