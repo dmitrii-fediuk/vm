@@ -131,7 +131,8 @@ GM_addStyle([
 // 2025-04-11
 // language=CSS
 GM_addStyle([
-	'.al-wysiwyg blockquote'
+	'.al-wysiwyg'
+	,'.al-wysiwyg blockquote'
 	,'.al-wysiwyg li'
 	,'.al-wysiwyg ol'
 	,'.al-wysiwyg p'
