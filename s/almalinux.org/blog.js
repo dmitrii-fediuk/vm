@@ -146,3 +146,19 @@ GM_addStyle('h4 {margin: 0.2rem 0 !important;}');
 // 2025-04-11
 // language=CSS
 GM_addStyle('li, p, ul {margin: 0.25rem 0 !important;}');
+// 2025-04-11
+// language=CSS
+GM_addStyle([
+	':root'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'font-family': 'Segoie UI'
+			// language=Javascript
+			,'font-size': '175%'
+			// language=CSS
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
