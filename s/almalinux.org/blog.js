@@ -140,7 +140,7 @@ GM_addStyle([
 	,'.al-wysiwyg ul'
 ]
 	 // language=Javascript
-	.join(',') + '{font-size: initial !important;}')
+	.join(',') + '{font-size: revert !important;}')
 ;
 // 2025-04-11
 // language=CSS
