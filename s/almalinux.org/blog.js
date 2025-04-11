@@ -50,7 +50,8 @@ GM_addStyle([
 // 2025-04-11
 // language=CSS
 GM_addStyle([
-	'.al-page-blog-post > .container'
+	'.al-article-content'
+	,'.al-page-blog-post > .container'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
