@@ -12,6 +12,8 @@
 GM_addStyle([
 	'#al-motd'
 	,'#al-primary-navbar'
+	,'#further-updates'
+	,'#further-updates ~ *'
 	,'.al-body-container ~ *'
 	,'footer.al-primary-footer'
 ]
