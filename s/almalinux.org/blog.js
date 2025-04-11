@@ -78,6 +78,7 @@ GM_addStyle([
 GM_addStyle([
 	'.al-article-content'
 	,'body'
+	,'*'
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
