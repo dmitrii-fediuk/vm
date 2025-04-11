@@ -5,7 +5,7 @@
 // @icon https://archive.is/apple-touch-icon-144x144.png
 // @match https://archive.is/*
 // @exclude-match https://archive.is/
-// @name archive.is / New
+// @name archive.is / Result
 // ==/UserScript==
 // 2025-04-10 "Improve `archive.is`": https://github.com/dmitrii-fediuk/vm/issues/101
 console.log('archive.is / Result');
