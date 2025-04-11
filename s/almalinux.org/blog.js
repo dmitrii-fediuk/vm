@@ -130,22 +130,12 @@ GM_addStyle([
 );
 // 2025-04-11
 // language=CSS
-GM_addStyle('body {margin: 0 1rem !important;}');
-// 2025-04-11
-// language=CSS
-GM_addStyle('h1 {font-size: 1.5rem !important; margin: 0.3rem 0 !important;}');
-// 2025-04-11
-// language=CSS
-GM_addStyle('h2 {font-size: 1.2rem !important; margin: 0.3rem 0 !important;}');
-// 2025-04-11
-// language=CSS
-GM_addStyle('h3 {margin: 0.25rem 0 !important;}');
-// 2025-04-11
-// language=CSS
-GM_addStyle('h4 {margin: 0.2rem 0 !important;}');
-// 2025-04-11
-// language=CSS
-GM_addStyle('li, p, ul {margin: 0.25rem 0 !important;}');
+GM_addStyle([
+	':root > *'
+]
+	 // language=Javascript
+	.join(',') + '{font-size: initial !important;}')
+;
 // 2025-04-11
 // language=CSS
 GM_addStyle([
@@ -162,3 +152,21 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-04-11
+// language=CSS
+GM_addStyle('body {margin: 0 1rem !important;}');
+// 2025-04-11
+// language=CSS
+GM_addStyle('h1 {font-size: 1.5rem !important; margin: 0.3rem 0 !important;}');
+// 2025-04-11
+// language=CSS
+GM_addStyle('h2 {font-size: 1.2rem !important; margin: 0.3rem 0 !important;}');
+// 2025-04-11
+// language=CSS
+GM_addStyle('h3 {margin: 0.25rem 0 !important;}');
+// 2025-04-11
+// language=CSS
+GM_addStyle('h4 {margin: 0.2rem 0 !important;}');
+// 2025-04-11
+// language=CSS
+GM_addStyle('li, p, ul {margin: 0.25rem 0 !important;}');
