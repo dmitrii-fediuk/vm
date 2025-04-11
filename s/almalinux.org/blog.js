@@ -4,8 +4,8 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/archive.is/common.js
 // @icon https://almalinux.org/fav/apple-touch-icon.png
 // 2025-04-11 https://chatgpt.com/c/67f90c02-eb2c-8003-912b-607eae8ec098
-// @match https://almalinux.org/*
-// @name almalinux.org
+// @match https://almalinux.org/blog/*
+// @name almalinux.org / Blog
 // ==/UserScript==
 // 2025-04-11 "Improve `almalinux.org`": https://github.com/dmitrii-fediuk/vm/issues/103
 // language=CSS
