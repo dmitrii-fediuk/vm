@@ -51,6 +51,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.al-article-content'
+	,'.al-article-date'
 	,'.al-page-blog-post > .container'
 ]
 	 // language=Javascript
