@@ -10,6 +10,7 @@
 // 2025-04-11 "Improve `almalinux.org`": https://github.com/dmitrii-fediuk/vm/issues/103
 // language=CSS
 GM_addStyle([
+	'#al-primary-navbar'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -24,7 +25,7 @@ GM_addStyle([
 // 2025-04-11
 // language=CSS
 GM_addStyle([
-	'#al-primary-navbar'
+
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
