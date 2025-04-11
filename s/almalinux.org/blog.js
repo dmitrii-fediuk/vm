@@ -41,7 +41,8 @@ GM_addStyle([
 // 2025-04-11
 // language=CSS
 GM_addStyle([
-	'img[alt="profile"] + div'
+	'.al-page-blog-post > div'
+	,'img[alt="profile"] + div'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -49,6 +50,7 @@ GM_addStyle([
 // 2025-04-11
 // language=CSS
 GM_addStyle([
+	'.al-page-blog-post > div'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
