@@ -131,7 +131,8 @@ GM_addStyle([
 // 2025-04-11
 // language=CSS
 GM_addStyle([
-	':root > *'
+	'.al-wysiwyg ul'
+	, '.al-wysiwyg ol', '.al-wysiwyg li', '.al-wysiwyg p', '.al-wysiwyg pre', '.al-wysiwyg blockquote'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: initial !important;}')
