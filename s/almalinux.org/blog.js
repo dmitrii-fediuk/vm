@@ -131,14 +131,14 @@ GM_addStyle([
 // 2025-04-11
 // language=CSS
 GM_addStyle([
-	'.al-wysiwyg'
+	'.al-page-blog-author > *'
+	,'.al-wysiwyg'
 	,'.al-wysiwyg blockquote'
 	,'.al-wysiwyg li'
 	,'.al-wysiwyg ol'
 	,'.al-wysiwyg p'
 	,'.al-wysiwyg pre'
 	,'.al-wysiwyg ul'
-	,'h5', 'h6'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: revert !important;}')
