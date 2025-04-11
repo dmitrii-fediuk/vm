@@ -18,6 +18,7 @@ GM_addStyle([
 	,'.al-body-container ~ *'
 	,'.al-body-container article ~ *'
 	,'footer.al-primary-footer'
+	,'img[alt="profile"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
