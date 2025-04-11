@@ -3,6 +3,7 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/archive.is/new.js
 // @icon https://archive.is/apple-touch-icon-144x144.png
+// 2025-04-11 https://chatgpt.com/c/67f90ba8-a62c-8003-a059-cf3b84e22792
 // @match https://archive.is/*
 // @exclude-match https://archive.is/
 // @name archive.is / Result
@@ -88,6 +89,8 @@ GM_addStyle([
 // 2025-04-10
 // language=CSS
 GM_addStyle([
+	'#HEADER'
+	,'table'
 ]
 	// language=Javascript
 	.join(',') + '{' +

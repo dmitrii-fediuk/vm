@@ -3,6 +3,7 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/archive.is/common.js
 // @icon https://archive.is/apple-touch-icon-144x144.png
+// 2025-04-11 https://chatgpt.com/c/67f90c02-eb2c-8003-912b-607eae8ec098
 // @match https://archive.is/*
 // @name archive.is / Common
 // ==/UserScript==
