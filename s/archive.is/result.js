@@ -1,13 +1,14 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/archive.is/common.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/archive.is/new.js
 // @icon https://archive.is/apple-touch-icon-144x144.png
 // @match https://archive.is/*
-// @name archive.is / Common
+// @exclude-match https://archive.is/
+// @name archive.is / New
 // ==/UserScript==
 // 2025-04-10 "Improve `archive.is`": https://github.com/dmitrii-fediuk/vm/issues/101
-console.log('archive.is / Common');
+console.log('archive.is / Result');
 // language=CSS
 GM_addStyle([
 ]
