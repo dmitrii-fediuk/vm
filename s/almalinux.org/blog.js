@@ -14,6 +14,7 @@ GM_addStyle([
 	,'#al-primary-navbar'
 	,'#further-updates'
 	,'#further-updates ~ *'
+	,'.al-article-content > .mx-auto:first-child:has(> img:only-child)'
 	,'.al-body-container ~ *'
 	,'.al-body-container article ~ *'
 	,'footer.al-primary-footer'
