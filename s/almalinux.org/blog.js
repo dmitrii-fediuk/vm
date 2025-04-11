@@ -138,6 +138,7 @@ GM_addStyle([
 	,'.al-wysiwyg p'
 	,'.al-wysiwyg pre'
 	,'.al-wysiwyg ul'
+	,'h5', 'h6'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: revert !important;}')
