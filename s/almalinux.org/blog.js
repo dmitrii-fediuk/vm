@@ -76,9 +76,7 @@ GM_addStyle([
 // 2025-04-11
 // language=CSS
 GM_addStyle([
-	'.al-article-content'
-	,'body'
-	,'*'
+	'*'
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
