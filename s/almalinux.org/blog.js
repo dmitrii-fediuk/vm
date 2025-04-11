@@ -42,7 +42,8 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.al-page-blog-post > .container'
-	,'.my-3'
+	,'.mb-3'
+	,'.mt-3'
 	,'img[alt="profile"] + div'
 ]
 	 // language=Javascript
