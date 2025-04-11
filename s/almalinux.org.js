@@ -8,7 +8,6 @@
 // @name almalinux.org
 // ==/UserScript==
 // 2025-04-11 "Improve `almalinux.org`": https://github.com/dmitrii-fediuk/vm/issues/103
-console.log('archive.is / Common');
 // language=CSS
 GM_addStyle([
 ]
