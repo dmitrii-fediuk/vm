@@ -15,6 +15,7 @@ GM_addStyle([
 	,'#further-updates'
 	,'#further-updates ~ *'
 	,'.al-body-container ~ *'
+	,'.al-body-container article ~ *'
 	,'footer.al-primary-footer'
 ]
 	 // language=Javascript
