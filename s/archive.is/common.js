@@ -4,6 +4,7 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/archive.is/common.js
 // @icon https://archive.is/apple-touch-icon-144x144.png
 // @match *://archive.is/
+// @exclude /https:\/\/archive\.is\/.+/
 // @name archive.is / Common
 // ==/UserScript==
 // 2025-04-10 "Improve `archive.is`": https://github.com/dmitrii-fediuk/vm/issues/101
