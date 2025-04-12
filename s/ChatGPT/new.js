@@ -21,3 +21,6 @@ GM_addStyle([
 	.join(',') + '{display: none !important;}')
 ;
 console.log('ChatGPT / New');
+setTimeout(() => {
+  GM_addStyle('.composer-parent > :has([style*="--vt-splash-screen-headline"]) {display: none !important;}');
+}, 1000); 
