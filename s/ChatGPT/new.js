@@ -24,4 +24,4 @@ GM_addStyle([
 // language=CSS
 setTimeout(() => {
 	GM_addStyle('[style*="--vt-splash-screen-headline"] {display: none !important;}');
-}, 1000);
+}, 100);
