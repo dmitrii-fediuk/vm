@@ -20,10 +20,7 @@ GM_addStyle([
 	,'.text-base:has(form #composer-background) > .text-center'
 	// 2024-12-03 «<…> workspace chats aren't used to train our models. ChatGPT can make mistakes.»
 	,'.text-base:has(form #composer-background) + .text-center'
-	,':has(> .text-center > .text-2xl > [style*="--vt-splash-screen-headline"])' // 2025-03-29 «What can I help with?»
 	,'article + .cursor-pointer'
-	,'div:has(> h1.result-streaming) > h1' // 2024-12-06 «What can I help with?»
-	,'div.text-2xl.text-center:has(> h1)' // 2024-12-09 «What can I help with?»
 	// 2024-10-08
 	// "Hide follow-up question bubbles after ChatGPT responses": https://github.com/dmitrii-fediuk/vm/issues/50
 	,'form[type="button"] div.absolute'

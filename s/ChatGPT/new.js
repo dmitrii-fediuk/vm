@@ -10,6 +10,9 @@
 // 2025-03-29
 // language=CSS
 GM_addStyle([
+	,'div:has(> h1.result-streaming) > h1' // 2024-12-06 «What can I help with?»
+	,'div.text-2xl.text-center:has(> h1)' // 2024-12-09 «What can I help with?»
+	,':has(> .text-center > .text-2xl > [style*="--vt-splash-screen-headline"])' // 2025-03-29 «What can I help with?»
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
