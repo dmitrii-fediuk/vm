@@ -12,6 +12,8 @@
 GM_addStyle([
 	':has(> [data-state="closed"] > a[aria-label="New chat"])'
 	,'main > .mx-auto > .font-copernicus:has(.text-accent-brand)' // 2025-03-20 «Good morning»
+	// 2025-04-12 «Good morning»
+	,'main > .mx-auto > .font-copernicus:has(svg > path[d^="M96.0000 40.0000 L99.5002"])'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
