@@ -20,7 +20,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
-console.log('ChatGPT / New');
+// 2025-04-12 https://grok.com/chat/4ee407f0-cd51-4c34-9e9f-ab7522e09c27
 setTimeout(() => {
-  GM_addStyle('.composer-parent > :has([style*="--vt-splash-screen-headline"]) {display: none !important;}');
-}, 1000); 
+  GM_addStyle('[style*="--vt-splash-screen-headline"] {display: none !important;}');
+}, 1000);
