@@ -21,3 +21,11 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// 2025-04-13
+// language=CSS
+GM_addStyle([
+	'.composer-parent > *'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
