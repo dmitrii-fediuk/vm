@@ -10,27 +10,13 @@
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	,'div:has(> h1.result-streaming) > h1' // 2024-12-06 «What can I help with?»
-	,'div.text-2xl.text-center:has(> h1)' // 2024-12-09 «What can I help with?»
+	// 2025-04-12 «What's on the agenda today?»
+	'.composer-parent > :has([style*="--vt-splash-screen-headline"])'
 	// 2025-03-29 «What can I help with?»
 	,':has(> .text-center > .text-2xl > [style*="--vt-splash-screen-headline"])'
+	,'div.text-2xl.text-center:has(> h1)' // 2024-12-09 «What can I help with?»
+	,'div:has(> h1.result-streaming) > h1' // 2024-12-06 «What can I help with?»
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
-// language=CSS
-GM_addStyle([
-	'.composer-parent > :has([style*="--vt-splash-screen-headline"])'
-]
-	 // language=Javascript
-	.join(',') + '{display: none !important;}')
-;
-// 2025-04-12
-// 1) «What's on the agenda today?»
-// 2) https://grok.com/chat/4ee407f0-cd51-4c34-9e9f-ab7522e09c27
-// language=CSS
-if (false) {
-	setTimeout(() => {
-		GM_addStyle('[style*="--vt-splash-screen-headline"] {display: none !important;}');
-	}, 50);
-}
