@@ -6,8 +6,7 @@
 // @match *://chatgpt.com/?model=*
 // @name ChatGPT / New
 // ==/UserScript==
-// 2024-10-08 "Improve the appearance of ChatGPT": https://github.com/dmitrii-fediuk/vm/issues/51
-// 2025-03-29
+// 2024-10-08, 2025-03-29 "Improve the appearance of ChatGPT": https://github.com/dmitrii-fediuk/vm/issues/51
 // language=CSS
 GM_addStyle([
 	// 2025-04-13 «What's on the agenda today?»
