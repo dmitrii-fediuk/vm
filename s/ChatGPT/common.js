@@ -24,6 +24,7 @@ GM_addStyle([
 	// 2024-10-08
 	// "Hide follow-up question bubbles after ChatGPT responses": https://github.com/dmitrii-fediuk/vm/issues/50
 	,'form[type="button"] div.absolute'
+	,'span:has(> button[aria-label="Dictate button"])' // 2025-04-13
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
