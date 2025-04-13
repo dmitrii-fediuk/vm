@@ -22,7 +22,8 @@ GM_addStyle([
 	,'.text-base:has(form #composer-background) + .text-center'
 	,'article + .cursor-pointer'
 	// 2024-10-08
-	// "Hide follow-up question bubbles after ChatGPT responses": https://github.com/dmitrii-fediuk/vm/issues/50
+	// "Hide follow-up question bubbles after ChatGPT responses":
+	// https://github.com/dmitrii-fediuk/vm/issues/50
 	,'form[type="button"] div.absolute'
 	,'span:has(> button[aria-label="Dictate button"])' // 2025-04-13
 	,'span:has(> button[aria-label="New chat"])' // 2025-04-13
