@@ -32,7 +32,7 @@ GM_addStyle([
 // 2025-04-13
 // language=CSS
 GM_addStyle([
-	'.composer-parent > :has([style*="--vt-page-header"])' // 2025-04-13
+	'.composer-parent > [style*="--vt-page-header"]' // 2025-04-13
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
