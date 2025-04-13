@@ -10,7 +10,7 @@
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	// 2025-04-12 «What's on the agenda today?»
+	// 2025-04-13 «What's on the agenda today?»
 	'.composer-parent > :has([style*="--vt-splash-screen-headline"])'
 	// 2025-03-29 «What can I help with?»
 	,':has(> .text-center > .text-2xl > [style*="--vt-splash-screen-headline"])'
