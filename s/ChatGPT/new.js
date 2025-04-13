@@ -24,7 +24,7 @@ GM_addStyle([
 // 2025-04-13
 // language=CSS
 GM_addStyle([
-	'.composer-parent > *'
+	'.composer-parent > *' // 2025-04-13
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
