@@ -27,7 +27,8 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'.prose li > p' // 2025-03-29
+	'.composer-parent > [class*="--composer-overlap"]' // 2025-04-13
+	,'.prose li > p' // 2025-03-29
 	,'[class*="--thread-content-max-width"]' // 2025-04-08
 ]
 	 // language=Javascript
