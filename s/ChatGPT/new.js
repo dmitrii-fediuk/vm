@@ -29,3 +29,18 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
+// 2025-04-13
+// language=CSS
+GM_addStyle([
+	'.composer-parent'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'display': 'block'
+			,'height': 'auto'
+			,'overflow-y': 'visible'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
