@@ -22,6 +22,8 @@ GM_addStyle([
 ;
 // 2025-04-12 https://grok.com/chat/4ee407f0-cd51-4c34-9e9f-ab7522e09c27
 // language=CSS
-setTimeout(() => {
-	GM_addStyle('[style*="--vt-splash-screen-headline"] {display: none !important;}');
-}, 50);
+if (false) {
+	setTimeout(() => {
+		GM_addStyle('[style*="--vt-splash-screen-headline"] {display: none !important;}');
+	}, 50);
+}
