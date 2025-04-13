@@ -15,6 +15,7 @@ GM_addStyle([
 	,':has(> .text-center > .text-2xl > [style*="--vt-splash-screen-headline"])'
 	,'div.text-2xl.text-center:has(> h1)' // 2024-12-09 «What can I help with?»
 	,'div:has(> h1.result-streaming) > h1' // 2024-12-06 «What can I help with?»
+	,'span:has(> button[aria-label="Temporary"])' // 2025-04-13
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
