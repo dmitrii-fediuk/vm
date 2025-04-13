@@ -63,8 +63,7 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'[class*="--thread-content-max-width"]' // 2025-04-08
-	,'[class*="--user-chat-width"]' // 2025-03-29
+	'[class*="--user-chat-width"]' // 2025-03-29
 ]
 	// language=Javascript
 	.join(',') + '{' +

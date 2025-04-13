@@ -64,6 +64,24 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-04-08
+// language=CSS
+GM_addStyle([
+	'[class*="--thread-content-max-width"]' // 2025-04-08
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['width', 'min-width']
+			// language=Javascript
+			.map(k => `${k}: initial !important;`).join(' ') +
+		// language=CSS
+		Object.entries({
+			// language=Javascript
+			'max-width': '100%'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 // 2024-12-03
 // language=CSS
 GM_addStyle('.md\\:max-w-3xl {gap: 0 !important; max-width: initial !important;}');
