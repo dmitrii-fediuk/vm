@@ -129,6 +129,14 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-04-14
+// language=CSS
+GM_addStyle([
+	':root *'
+]
+	 // language=Javascript
+	.join(',') + '{font-size: revert !important;}')
+;
 // 2025-04-10
 // language=CSS
 //GM_addStyle('body {margin: 0 1rem !important;}');
