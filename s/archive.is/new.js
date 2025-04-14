@@ -8,7 +8,6 @@
 // @name archive.is / New
 // ==/UserScript==
 // 2025-04-10 "Improve `archive.is`": https://github.com/dmitrii-fediuk/vm/issues/101
-console.log('archive.is / New');
 // language=CSS
 GM_addStyle([
 ]
