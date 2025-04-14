@@ -30,23 +30,26 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
-// 2025-04-10
+// 2025-04-14
 // language=CSS
 GM_addStyle([
+	'.body' // 2025-04-14
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
-// 2025-04-10
+// 2025-04-14
 // language=CSS
 GM_addStyle([
+	'.body' // 2025-04-14
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
-// 2025-04-10
+// 2025-04-14
 // language=CSS
 GM_addStyle([
+	'.body' // 2025-04-14
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
