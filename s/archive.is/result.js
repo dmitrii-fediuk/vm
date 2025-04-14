@@ -94,6 +94,7 @@ GM_addStyle([
 GM_addStyle([
 	'#CONTENT'
 	,'#HEADER'
+	,'.body' // 2025-04-14
 	,'table'
 ]
 	// language=Javascript
