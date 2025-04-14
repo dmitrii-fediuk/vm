@@ -9,9 +9,10 @@
 // @name archive.is / Result
 // ==/UserScript==
 // 2025-04-10 "Improve `archive.is`": https://github.com/dmitrii-fediuk/vm/issues/101
-console.log('archive.is / Result');
+// 2025-04-14
 // language=CSS
 GM_addStyle([
+	'#HEADER' // 2025-04-14
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
