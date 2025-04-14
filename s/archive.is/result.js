@@ -63,9 +63,10 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{background: none !important;}')
 ;
-// 2025-04-10
+// 2025-04-14
 // language=CSS
 GM_addStyle([
+	'.html1' // 2025-04-14
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: initial !important;}')
