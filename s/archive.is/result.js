@@ -12,7 +12,8 @@
 // 2025-04-14
 // language=CSS
 GM_addStyle([
-	'#HEADER' // 2025-04-14
+	'#DIVSHARE + div[style*="padding"]'
+	,'#HEADER' // 2025-04-14
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
