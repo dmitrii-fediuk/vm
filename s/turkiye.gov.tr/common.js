@@ -102,6 +102,14 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
+	'#homepageHeroBlock' // 2025-04-15
+]
+	 // language=Javascript
+	.join(',') + '{height: auto !important;}')
+;
+// 2025-04-15
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: initial !important;}')
