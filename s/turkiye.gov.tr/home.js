@@ -97,6 +97,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#homepageHeroBlock' // 2025-04-15
+	,'#homepageSearchBlock > .first'  // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{height: auto !important;}')
