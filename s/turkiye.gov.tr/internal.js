@@ -67,7 +67,8 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'header#top' // 2025-04-15
+	,'aside#serviceHelperBlock' // 2025-04-15
+	,'header#top' // 2025-04-15
 	,'main#serviceBlock' // 2025-04-15
 ]
 	 // language=Javascript
