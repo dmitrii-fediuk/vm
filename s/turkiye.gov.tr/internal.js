@@ -34,7 +34,8 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'.disclaimerContainer' // 2025-04-15
+	'#pageContentBlock' // 2025-04-15
+	,'.disclaimerContainer' // 2025-04-15
 	,'.pageUpdateTime' // 2025-04-15
 	,'header .mainActionsList' // 2025-04-15
 ]
@@ -131,6 +132,7 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
+	'#pageContentBlock' // 2025-04-15
 ]
 	// language=Javascript
 	.join(',') + '{' +
