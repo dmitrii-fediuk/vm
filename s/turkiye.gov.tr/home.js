@@ -59,6 +59,7 @@ GM_addStyle([
 	'#homepageSearchBlock' // 2025-04-15
 	,'#homepageSearchBlock > em.first'  // 2025-04-15
 	,'#homepageServicesCard'  // 2025-04-15
+	,'#homepageTopServicesBlock'  // 2025-04-15
 	,'.homepageCardblock' // 2025-04-15
 	,'.homepageCardblockList .card-item' // 2025-04-15
 	,'.homepageconceptList > .card-block' // 2025-04-15
