@@ -66,6 +66,7 @@ GM_addStyle([
 	'#homepageSearchBlock' // 2025-04-15
 	,'#homepageSearchBlock > em.first'  // 2025-04-15
 	,'#homepageServicesCard'  // 2025-04-15
+	,'#homepageShortcutsBlock em' // 2025-04-15
 	,'#homepageShortcutsBlock' // 2025-04-15
 	,'#homepageTopServicesBlock'  // 2025-04-15
 	,'#homepageTopServicesList > li > a > em' // 2025-04-15
