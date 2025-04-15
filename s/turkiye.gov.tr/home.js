@@ -46,6 +46,7 @@ GM_addStyle([
 	,'#homepageSearchBlock' // 2025-04-15
 	,'#homepageSearchBlock > em.first'  // 2025-04-15
 	,'.homepageconceptList' // 2025-04-15
+	,'.homepageconceptList > .card-block' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -56,6 +57,7 @@ GM_addStyle([
 	'#homepageSearchBlock' // 2025-04-15
 	,'#homepageSearchBlock > em.first'  // 2025-04-15
 	,'#homepageServicesCard'  // 2025-04-15
+	,'.homepageconceptList > .card-block' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
