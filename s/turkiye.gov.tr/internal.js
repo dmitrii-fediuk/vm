@@ -103,6 +103,14 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
+	'#pageContentBlock' // 2025-04-15
+]
+	 // language=Javascript
+	.join(',') + '{box-shadow: none !important;}')
+;
+// 2025-04-15
+// language=CSS
+GM_addStyle([
 	'*'
 ]
 	 // language=Javascript
