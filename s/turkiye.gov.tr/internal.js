@@ -177,3 +177,6 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-04-15
+// language=CSS
+GM_addStyle('body {margin: 0 1rem !important;}');
