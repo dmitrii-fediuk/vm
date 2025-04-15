@@ -13,6 +13,7 @@ GM_addStyle([
 	'#homepageActionsBlock > #homepageActionsList > li > a > .menu-icon' // 2025-04-15
 	,'#homepageBannersBlock' // 2025-04-15
 	,'#homepageSearchBlock > em.first'  // 2025-04-15
+	,'#homepageStatisticsBlock' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
