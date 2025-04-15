@@ -126,7 +126,8 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'#homepageHeroBlock' // 2025-04-15
+	'#homepageActionsBlock'
+	,'#homepageHeroBlock' // 2025-04-15
 	,'#homepageSearchBlock > em.first'  // 2025-04-15
 ]
 	// language=Javascript
