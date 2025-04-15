@@ -10,7 +10,7 @@
 // 2025-04-15 "Improve `turkiye.gov.tr`": https://github.com/dmitrii-fediuk/vm/issues/104
 // language=CSS
 GM_addStyle([
-	'#homepageActionsBlock #homepageActionsList .menu-icon' // 2025-04-15
+	'#homepageActionsBlock > #homepageActionsList > li > a > .menu-icon' // 2025-04-15
 	,'#homepageBannersBlock' // 2025-04-15
 ]
 	 // language=Javascript
