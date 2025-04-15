@@ -98,7 +98,6 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'#mainActionsBlock' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{justify-content: initial !important;}')
