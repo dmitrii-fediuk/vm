@@ -183,6 +183,7 @@ GM_addStyle([
 	'#homepageActionsBlock' // 2025-04-15
 	,'#homepageHeroBlock' // 2025-04-15
 	,'#homepageSearchBlock > em.first'  // 2025-04-15
+	,'#homepageTopServicesList > li > a ' // 2025-04-15
 ]
 	// language=Javascript
 	.join(',') + '{' +
