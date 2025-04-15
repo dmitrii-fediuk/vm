@@ -11,8 +11,8 @@
 // 2025-04-15 "Improve `turkiye.gov.tr`": https://github.com/dmitrii-fediuk/vm/issues/104
 // language=CSS
 GM_addStyle([
-	'#brandingBlock'
-	,'footer'
+	'#brandingBlock' // 2025-04-15
+	,'footer' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -36,6 +36,7 @@ GM_addStyle([
 GM_addStyle([
 	'.disclaimerContainer' // 2025-04-15
 	,'.pageUpdateTime' // 2025-04-15
+	,'header .mainActionsList' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
