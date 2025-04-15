@@ -101,6 +101,14 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
+	'#mainActionsBlock' // 2025-04-15
+]
+	 // language=Javascript
+	.join(',') + '{justify-content: initial !important;}')
+;
+// 2025-04-15
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{text-align: initial !important;}')
@@ -110,14 +118,14 @@ GM_addStyle([
 GM_addStyle([
 ]
 	 // language=Javascript
-	.join(',') + '{clear: both !important;}')
+	.join(',') + '{line-height: initial !important;}')
 ;
 // 2025-04-15
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
-	.join(',') + '{line-height: initial !important;}')
+	.join(',') + '{text-align: initial !important;}')
 ;
 // 2025-04-15
 // language=CSS
