@@ -41,6 +41,7 @@ GM_addStyle([
 	,'.pageUpdateTime' // 2025-04-15
 	,'header .mainActionsList' // 2025-04-15
 	,'header .mainActionsList > li' // 2025-04-15
+	,'main#serviceBlock' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -53,6 +54,7 @@ GM_addStyle([
 	,'.serviceIntroductionBlock li' // 2025-04-15
 	,'aside#serviceHelperBlock' // 2025-04-15
 	,'header .mainActionsList' // 2025-04-15
+	,'main#serviceBlock' // 2025-04-15
 	,'section#contentStart' // 2025-04-15
 ]
 	 // language=Javascript

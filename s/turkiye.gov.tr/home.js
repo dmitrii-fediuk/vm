@@ -24,8 +24,6 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'header#top' // 2025-04-15
-	,'section#pageContentBlock' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
@@ -33,7 +31,6 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'main#serviceBlock' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -41,7 +38,6 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'main#serviceBlock' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -71,7 +67,6 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'*' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{box-shadow: none !important;}')
@@ -79,7 +74,6 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'*' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
@@ -137,22 +131,3 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{font-size: revert !important;}')
 ;
-// 2025-04-15
-// language=CSS
-GM_addStyle([
-	'body'
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
-			'font-family': 'Segoie UI'
-			// language=Javascript
-			,'font-size': '150%'
-			// language=CSS
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
-// 2025-04-15
-// language=CSS
-GM_addStyle('body {margin: 0 1rem !important;}');

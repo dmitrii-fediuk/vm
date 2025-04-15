@@ -34,7 +34,6 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'main#serviceBlock' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -42,7 +41,6 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'main#serviceBlock' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -57,7 +55,6 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'#homepageHeroBlock' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{background: none !important;}')
@@ -102,7 +99,6 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'#homepageHeroBlock' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{height: auto !important;}')
