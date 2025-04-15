@@ -54,14 +54,14 @@ GM_addStyle([
 GM_addStyle([
 ]
 	 // language=Javascript
-	.join(',') + '{border: 0 !important;}')
+	.join(',') + '{background: none !important;}')
 ;
 // 2025-04-15
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
-	.join(',') + '{background: none !important;}')
+	.join(',') + '{background-color: initial !important;}')
 ;
 // 2025-04-15
 // language=CSS
@@ -74,9 +74,10 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
+	'.disclaimerContainer' // 2025-04-15
 ]
 	 // language=Javascript
-	.join(',') + '{background-color: initial !important;}')
+	.join(',') + '{border: 0 !important;}')
 ;
 // 2025-04-15
 // language=CSS
