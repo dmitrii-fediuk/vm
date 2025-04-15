@@ -35,6 +35,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#pageContentBlock' // 2025-04-15
+	,'.breadcrumbNavigation' // 2025-04-15
 	,'.disclaimerContainer' // 2025-04-15
 	,'.pageUpdateTime' // 2025-04-15
 	,'header .mainActionsList' // 2025-04-15
