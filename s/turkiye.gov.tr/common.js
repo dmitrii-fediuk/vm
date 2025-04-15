@@ -101,13 +101,6 @@ GM_addStyle([
 GM_addStyle([
 ]
 	 // language=Javascript
-	.join(',') + '{height: auto !important;}')
-;
-// 2025-04-15
-// language=CSS
-GM_addStyle([
-]
-	 // language=Javascript
 	.join(',') + '{line-height: initial !important;}')
 ;
 // 2025-04-15
@@ -125,6 +118,18 @@ GM_addStyle([
 			// language=Javascript
 			'max-width': '100%'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-04-15
+// language=CSS
+GM_addStyle([
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['height', 'max-height',' min-height']
+			// language=Javascript
+			.map(k => `${k}: initial !important;`).join(' ') +
 	'}'
 );
 // 2025-04-15

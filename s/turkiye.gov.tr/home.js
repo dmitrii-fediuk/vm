@@ -100,15 +100,6 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'#homepageHeroBlock' // 2025-04-15
-	,'#homepageSearchBlock > em.first'  // 2025-04-15
-]
-	 // language=Javascript
-	.join(',') + '{height: auto !important;}')
-;
-// 2025-04-15
-// language=CSS
-GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: initial !important;}')
@@ -129,6 +120,20 @@ GM_addStyle([
 			// language=Javascript
 			'max-width': '100%'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-04-15
+// language=CSS
+GM_addStyle([
+	'#homepageHeroBlock' // 2025-04-15
+	,'#homepageSearchBlock > em.first'  // 2025-04-15
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['height', 'max-height',' min-height']
+			// language=Javascript
+			.map(k => `${k}: initial !important;`).join(' ') +
 	'}'
 );
 // 2025-04-15

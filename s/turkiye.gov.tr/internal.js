@@ -156,6 +156,18 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 ]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['height', 'max-height',' min-height']
+			// language=Javascript
+			.map(k => `${k}: initial !important;`).join(' ') +
+	'}'
+);
+// 2025-04-15
+// language=CSS
+GM_addStyle([
+]
 	 // language=Javascript
 	.join(',') + '{font-size: revert !important;}')
 ;
