@@ -49,6 +49,7 @@ GM_addStyle([
 	'#homepageActionsList' // 2025-04-15
 	,'#homepageSearchBlock > em.first'  // 2025-04-15
 	,'#homepageSearchBlock' // 2025-04-15
+	,'#homepageShortcutsBlock > ul'  // 2025-04-15
 	,'#homepageTopServicesBlock h2'  // 2025-04-15
 	,'#homepageTopServicesList > li' // 2025-04-15
 	,'#homepageTopServicesList' // 2025-04-15
@@ -174,6 +175,7 @@ GM_addStyle([
 GM_addStyle([
 	'#homepageActionsList' // 2025-04-15
 	,'#homepageSearchBlock' // 2025-04-15
+	,'#homepageShortcutsBlock > ul'  // 2025-04-15
 	,'#homepageTopServicesList' // 2025-04-15
 	,'.homepageCardblockList' // 2025-04-15
 	,'.homepageconceptList' // 2025-04-15
