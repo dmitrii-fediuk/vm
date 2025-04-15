@@ -82,6 +82,14 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
+	'.disclaimerContainer' // 2025-04-15
+]
+	 // language=Javascript
+	.join(',') + '{border-radius: 0 !important;}')
+;
+// 2025-04-15
+// language=CSS
+GM_addStyle([
 	'*'
 ]
 	 // language=Javascript
