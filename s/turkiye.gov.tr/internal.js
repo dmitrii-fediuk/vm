@@ -38,8 +38,6 @@ GM_addStyle([
 	,'.breadcrumbNavigation' // 2025-04-15
 	,'.disclaimerContainer' // 2025-04-15
 	,'.pageUpdateTime' // 2025-04-15
-	,'header .mainActionsList' // 2025-04-15
-	,'header .mainActionsList > li' // 2025-04-15
 	,'main#serviceBlock' // 2025-04-15
 ]
 	 // language=Javascript
@@ -52,7 +50,6 @@ GM_addStyle([
 	,'.pageUpdateTime' // 2025-04-15
 	,'.serviceIntroductionBlock li' // 2025-04-15
 	,'aside#serviceHelperBlock' // 2025-04-15
-	,'header .mainActionsList' // 2025-04-15
 	,'main#serviceBlock' // 2025-04-15
 	,'section#contentStart' // 2025-04-15
 ]

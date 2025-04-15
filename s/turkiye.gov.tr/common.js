@@ -35,6 +35,8 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
+	'header .mainActionsList' // 2025-04-15
+	,'header .mainActionsList > li' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -42,6 +44,7 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
+	'header .mainActionsList' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
