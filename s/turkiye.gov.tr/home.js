@@ -45,6 +45,7 @@ GM_addStyle([
 	'#homepageActionsList' // 2025-04-15
 	,'#homepageSearchBlock' // 2025-04-15
 	,'#homepageSearchBlock > em.first'  // 2025-04-15
+	,'.homepageconceptList' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -145,6 +146,7 @@ GM_addStyle([
 GM_addStyle([
 	'#homepageActionsList' // 2025-04-15
 	,'#homepageSearchBlock' // 2025-04-15
+	,'.homepageconceptList' // 2025-04-15
 ]
 	// language=Javascript
 	.join(',') + '{' +
