@@ -49,6 +49,7 @@ GM_addStyle([
 GM_addStyle([
 	'.disclaimerContainer' // 2025-04-15
 	,'.pageUpdateTime' // 2025-04-15
+	,'.serviceIntroductionBlock li' // 2025-04-15
 	,'header .mainActionsList' // 2025-04-15
 	,'section#contentStart' // 2025-04-15
 ]
