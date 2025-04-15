@@ -16,6 +16,7 @@ GM_addStyle([
 	,'#homepageSingleBannerBlock' // 2025-04-15
 	,'#homepageSocialMediaBlock' // 2025-04-15
 	,'#homepageStatisticsBlock' // 2025-04-15
+	,'#homepageTopServicesList > li > a > img' // 2025-04-15
 	,'#homepage_mygov' // 2025-04-15
 	,'#homepageinfoBlock' // 2025-04-15
 ]
