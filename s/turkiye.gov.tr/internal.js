@@ -57,6 +57,7 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
+	'.disclaimerContainer' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{background: none !important;}')
