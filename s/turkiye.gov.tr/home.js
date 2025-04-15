@@ -122,6 +122,14 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
+	'#homepageActionsList' // 2025-04-15
+]
+	 // language=Javascript
+	.join(',') + '{transform: none !important;}')
+;
+// 2025-04-15
+// language=CSS
+GM_addStyle([
 	'#homepageSearchBlock' // 2025-04-15
 ]
 	 // language=Javascript
