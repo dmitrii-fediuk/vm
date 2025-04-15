@@ -14,6 +14,7 @@ GM_addStyle([
 	,'#homepageBannersBlock' // 2025-04-15
 	,'#homepageSearchBlock > em.first'  // 2025-04-15
 	,'#homepageShortcutsBlock figure' // 2025-04-15
+	,'#homepageShortcutsBlock li:has(> a[href="/e-devlette-engel-yok"])' // 2025-04-15
 	,'#homepageSingleBannerBlock' // 2025-04-15
 	,'#homepageSocialMediaBlock' // 2025-04-15
 	,'#homepageStatisticsBlock' // 2025-04-15
