@@ -43,6 +43,7 @@ GM_addStyle([
 GM_addStyle([
 	'#homepageSearchBlock' // 2025-04-15
 	,'#homepageSearchBlock > em.first'  // 2025-04-15
+	,'#homepageServicesCard'  // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
