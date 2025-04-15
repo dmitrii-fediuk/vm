@@ -20,7 +20,6 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'header#top' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
