@@ -136,7 +136,7 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'#homepageTopServicesList > li > a ' // 2025-04-15
+	'#homepageTopServicesList > li > a:before' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: initial !important;}')
@@ -185,7 +185,7 @@ GM_addStyle([
 	'#homepageActionsBlock' // 2025-04-15
 	,'#homepageHeroBlock' // 2025-04-15
 	,'#homepageSearchBlock > em.first'  // 2025-04-15
-	,'#homepageTopServicesList > li > a ' // 2025-04-15
+	,'#homepageTopServicesList > li > a:before' // 2025-04-15
 ]
 	// language=Javascript
 	.join(',') + '{' +
