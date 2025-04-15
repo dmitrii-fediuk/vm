@@ -4,6 +4,8 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/turkiye.gov.tr/internal.js
 // @icon https://cdn.e-devlet.gov.tr/themes/izmir/images/favicons/favicon-196x196.1.8.0.png
 // @match https://www.turkiye.gov.tr/*
+// 2025-04-11 https://chatgpt.com/c/67f90ba8-a62c-8003-a059-cf3b84e22792
+// @exclude-match https://www.turkiye.gov.tr/
 // @name turkiye.gov.tr / Internal
 // ==/UserScript==
 // 2025-04-15 "Improve `turkiye.gov.tr`": https://github.com/dmitrii-fediuk/vm/issues/104
