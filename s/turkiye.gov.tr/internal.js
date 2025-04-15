@@ -158,22 +158,3 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{font-size: revert !important;}')
 ;
-// 2025-04-15
-// language=CSS
-GM_addStyle([
-	'body'
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
-			'font-family': 'Segoie UI'
-			// language=Javascript
-			,'font-size': '150%'
-			// language=CSS
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
-// 2025-04-15
-// language=CSS
-GM_addStyle('body {margin: 0 1rem !important;}');
