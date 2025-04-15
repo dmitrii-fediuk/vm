@@ -96,9 +96,6 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'.breadcrumbNavigation' // 2025-04-15
-	,'.disclaimerContainer' // 2025-04-15
-	,'aside#serviceHelperBlock' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{border-radius: 0 !important;}')
