@@ -92,6 +92,14 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
+	'#searchForm' // 2025-04-15
+]
+	 // language=Javascript
+	.join(',') + '{float: none !important;}')
+;
+// 2025-04-15
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{text-align: initial !important;}')
