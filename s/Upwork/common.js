@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'#user-top-navigation-container .nav-container > [data-cy="header"]'
+	,'.air3-banner' // 2025-04-15
 	,'.air3-search'
 	,'.microapp-slot-innova'
 	,'.nav-notifications .nav-dot'
