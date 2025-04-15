@@ -9,7 +9,7 @@
 // 2025-04-15 "Improve `turkiye.gov.tr`": https://github.com/dmitrii-fediuk/vm/issues/104
 // language=CSS
 GM_addStyle([
-	'a.scroll-to-top-btn'
+	'a.scroll-to-top-btn' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -24,7 +24,7 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'header#top'
+	'header#top' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
