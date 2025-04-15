@@ -27,6 +27,7 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
+	'#homepageSearchBlock' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
@@ -106,6 +107,14 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: initial !important;}')
+;
+// 2025-04-15
+// language=CSS
+GM_addStyle([
+	'#homepageSearchBlock' // 2025-04-15
+]
+	 // language=Javascript
+	.join(',') + '{z-index: initial !important;}')
 ;
 // 2025-04-15
 // language=CSS
