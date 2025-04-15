@@ -136,6 +136,7 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
+	'#homepageTopServicesList > li > a ' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: initial !important;}')
