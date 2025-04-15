@@ -12,6 +12,7 @@
 // language=CSS
 GM_addStyle([
 	'#brandingBlock' // 2025-04-15
+	,'.serviceTitleBlock .serviceActions' // 2025-04-15
 	,'footer' // 2025-04-15
 ]
 	 // language=Javascript
