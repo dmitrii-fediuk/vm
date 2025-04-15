@@ -107,7 +107,7 @@ GM_addStyle([
 // 2025-04-15
 // language=CSS
 GM_addStyle([
-	'#homepageSearchBlock' // 2025-04-15
+	'#homepageHeroBlock' // 2025-04-15
 ]
 	 // language=Javascript
 	.join(',') + '{clear: both !important;}')
