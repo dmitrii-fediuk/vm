@@ -12,6 +12,7 @@
 // language=CSS
 GM_addStyle([
 	'#js-hero-block'
+	,'#maincoreleft'
 	,'.embeddedServiceHelpButton'
 	,'footer'
 	,'header'
