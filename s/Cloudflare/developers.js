@@ -56,6 +56,7 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
+	'.content-panel'
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
