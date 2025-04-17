@@ -152,8 +152,8 @@ GM_addStyle([
 		Object.entries({
 			'font-family': 'Segoie UI'
 			// language=Javascript
-			,'font-size': '150%'
-			,'line-height': 1.25
+			,'font-size': '160%'
+			,'line-height': 1.15
 			// language=CSS
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
