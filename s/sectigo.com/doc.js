@@ -12,6 +12,7 @@
 // language=CSS
 GM_addStyle([
 	'.embeddedServiceHelpButton'
+	,'header'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
