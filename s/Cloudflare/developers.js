@@ -127,6 +127,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.c-breadcrumbs__link'
+	,'code'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: revert !important;}')
