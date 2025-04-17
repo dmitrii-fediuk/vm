@@ -145,7 +145,23 @@ GM_addStyle([
 );
 // 2025-04-17
 // language=CSS
-//GM_addStyle('body {margin: 0 1rem !important;}');
+GM_addStyle([
+	':root'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'font-family': 'Segoie UI'
+			// language=Javascript
+			,'font-size': '150%'
+			// language=CSS
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-04-17
+// language=CSS
+GM_addStyle('body {margin: 0 1rem !important;}');
 // 2025-04-17
 // language=CSS
 GM_addStyle('h1 {font-size: 1.5rem !important; margin: 0.3rem 0 !important;}');
