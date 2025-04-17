@@ -170,4 +170,4 @@ GM_addStyle([
 );
 // 2025-04-17
 // language=CSS
-//GM_addStyle('body {margin: 0 1rem !important;}');
+GM_addStyle('body {margin: 0 1rem !important;}');
