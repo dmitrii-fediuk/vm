@@ -41,6 +41,7 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
+	'.c_dr'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
