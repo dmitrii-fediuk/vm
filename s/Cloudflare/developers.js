@@ -22,6 +22,7 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
+	'h2'
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
