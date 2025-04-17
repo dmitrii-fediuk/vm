@@ -38,6 +38,7 @@ GM_addStyle([
 GM_addStyle([
 	'.heading-wrapper'
 	,'.sl-markdown-content'
+	,'[role="tabpanel"]'
 	,'starlight-tabs'
 ]
 	 // language=Javascript
