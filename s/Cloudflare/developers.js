@@ -9,7 +9,8 @@
 // 2025-04-17 "Improve `cloudflare.com`": https://github.com/dmitrii-fediuk/vm/issues/106
 // language=CSS
 GM_addStyle([
-	'.sidebar'
+	'.anchor-link'
+	,'.sidebar'
 	,':has(> astro-island)'
 	,'aside'
 	,'footer ~ *'
