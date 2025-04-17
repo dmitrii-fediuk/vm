@@ -3,7 +3,6 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/sectigo.com/doc.js
 // @icon https://www.sectigo.com/_ui/favicons/sectigo/apple-touch-icon.552357069.png
-// 2025-04-17 https://chatgpt.com/c/67f90c02-eb2c-8003-912b-607eae8ec098
 // @match https://www.sectigo.com/faqs/*
 // @match https://www.sectigo.com/knowledge-base/*
 // @name sectigo.com / Doc
@@ -30,7 +29,6 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')

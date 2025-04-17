@@ -1,19 +1,14 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/sectigo.com/support.js
-// @icon https://www.sectigo.com/_ui/favicons/sectigo/apple-touch-icon.552357069.png
-// @match https://support.sectigo.com/*
-// @name sectigo.com / Support
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Cloudflare/dash.js
+// @icon https://dash.cloudflare.com/favicon-196x196.png
+// @match https://dash.cloudflare.com/*
+// @name Cloudflare / dash
 // ==/UserScript==
-// 2025-04-17 "Improve `sectigo.com`": https://github.com/dmitrii-fediuk/vm/issues/105
+// 2025-04-17 "Improve `cloudflare.com`": https://github.com/dmitrii-fediuk/vm/issues/106
 // language=CSS
 GM_addStyle([
-	'#maincorecontent > :not(.pkbResultPanel)'
-	,'#maincoreleft'
-	,'.pkbResultSelectedCategories'
-	,'.pkbResultTop'
-	,'th.labelCol'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -21,7 +16,6 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-	'#maincore > .innerwrapper'
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
@@ -37,9 +31,6 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-	'.detailList'
-	,'.htmlDetailElementTable'
-	,'.pkbResultPanel'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -47,13 +38,6 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-	'#maincore > .innerwrapper'
-	,'#maincore'
-	,'#maincorecontent'
-	,'.data2Col'
-	,'.htmlDetailElementTable > tbody > tr > td'
-	,'.pkbResultInner'
-	,'.pkbResultPanel'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -61,7 +45,6 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-	'.pkbResultPanel'
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
@@ -91,23 +74,6 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-	'#maincore'
-	,'#maincorecontent'
-]
-	 // language=Javascript
-	.join(',') + '{height: initial !important;}')
-;
-// 2025-04-17
-// language=CSS
-GM_addStyle([
-	'#maincorecontent'
-]
-	 // language=Javascript
-	.join(',') + '{overflow: initial !important;}')
-;
-// 2025-04-17
-// language=CSS
-GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{text-align: initial !important;}')
@@ -129,8 +95,6 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-	'#maincore > .innerwrapper'
-	,'#maincorecontent'
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -169,7 +133,4 @@ GM_addStyle([
 );
 // 2025-04-17
 // language=CSS
-GM_addStyle('body {margin: 0 1rem !important;}');
-// 2025-04-17 https://gemini.google.com/u/1/app/8e21cf849ffc5094
-// language=CSS
-GM_addStyle(':root {overflow-y: hidden !important;}');
+//GM_addStyle('body {margin: 0 1rem !important;}');
