@@ -134,7 +134,7 @@ GM_addStyle([
 	,'code'
 ]
 	 // language=Javascript
-	.join(',') + '{font-size: 150% !important;}')
+	.join(',') + '{font-size: 1 !important;}')
 ;
 // 2025-04-17
 // language=CSS
