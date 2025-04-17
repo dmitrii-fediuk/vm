@@ -106,7 +106,8 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-	'.sl-container'
+	'.main-pane'
+	,'.sl-container'
 ]
 	// language=Javascript
 	.join(',') + '{' +
