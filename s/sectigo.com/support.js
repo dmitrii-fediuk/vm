@@ -14,6 +14,7 @@ GM_addStyle([
 	,'#maincoreleft'
 	,'.pkbResultSelectedCategories'
 	,'.pkbResultTop'
+	,'th.labelCol'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
