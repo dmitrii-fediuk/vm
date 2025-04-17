@@ -20,6 +20,13 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// language=CSS
+GM_addStyle([
+	'#maincoreleft'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
 // 2025-04-17
 // language=CSS
 GM_addStyle([
