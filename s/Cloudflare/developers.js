@@ -146,7 +146,7 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-	':root'
+	'body'
 ]
 	// language=Javascript
 	.join(',') + '{' +
