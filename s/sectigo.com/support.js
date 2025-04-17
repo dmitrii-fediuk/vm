@@ -51,6 +51,7 @@ GM_addStyle([
 	,'.data2Col'
 	,'.pkbResultInner'
 	,'.pkbResultPanel'
+	,'table.htmlDetailElementTable > tbody > tr > td'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
