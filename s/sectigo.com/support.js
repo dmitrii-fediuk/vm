@@ -38,6 +38,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.detailList'
+	,'.htmlDetailElementTable'
 	,'.pkbResultPanel'
 ]
 	 // language=Javascript
