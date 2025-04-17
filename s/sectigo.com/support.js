@@ -49,9 +49,9 @@ GM_addStyle([
 	'#maincore'
 	,'#maincorecontent'
 	,'.data2Col'
+	,'.htmlDetailElementTable > tbody > tr > td'
 	,'.pkbResultInner'
 	,'.pkbResultPanel'
-	,'table.htmlDetailElementTable > tbody > tr > td'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
