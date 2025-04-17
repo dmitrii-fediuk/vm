@@ -10,7 +10,8 @@
 // 2025-04-17 "Improve `sectigo.com`": https://github.com/dmitrii-fediuk/vm/issues/105
 // language=CSS
 GM_addStyle([
-	'#maincoreleft'
+	'#maincorecontent > :not(.pkbResultPanel)'
+	,'#maincoreleft'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
