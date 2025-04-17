@@ -45,7 +45,8 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-	'.data2Col'
+	'#maincore'
+	,'.data2Col'
 	,'.pkbResultInner'
 ]
 	 // language=Javascript
