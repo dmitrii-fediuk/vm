@@ -35,7 +35,8 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-	'.pkbResultPanel'
+	'.detailList'
+	,'.pkbResultPanel'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
