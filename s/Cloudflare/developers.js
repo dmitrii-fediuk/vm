@@ -11,6 +11,7 @@
 GM_addStyle([
 	'.anchor-link'
 	,'.sidebar'
+	,'.sl-markdown-content br'
 	,':has(> astro-island)'
 	,'aside'
 	,'footer ~ *'
@@ -50,7 +51,8 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-	'.content-panel'
+	'#breadcrumbs'
+	,'.content-panel'
 	,'.main-frame'
 	,'main'
 ]
