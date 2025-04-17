@@ -22,7 +22,7 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'#maincoreleft'
+	'[id="maincoreleft"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
