@@ -129,20 +129,17 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-	//'.c-breadcrumbs__link'
-	//,'.heading-wrapper'
-	//,'code'
+	'.c-breadcrumbs__link'
+	,'.heading-wrapper'
+	,'code'
 ]
 	 // language=Javascript
-	.join(',') + '{font-size: revert !important;}')
+	.join(',') + '{font-size: 150% !important;}')
 ;
 // 2025-04-17
 // language=CSS
 GM_addStyle([
 	'body'
-	,'.c-breadcrumbs__link'
-	,'.heading-wrapper'
-	,'code'
 ]
 	// language=Javascript
 	.join(',') + '{' +
