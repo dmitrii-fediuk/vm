@@ -176,7 +176,7 @@ GM_addStyle('h4 {margin: 0.2rem 0 !important;}');
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-	'li'
+	'li:not([role="presentation"])'
 	,'ol'
 	,'p'
 	,'ul:not([role="tablist"])'
