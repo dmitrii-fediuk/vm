@@ -40,7 +40,8 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-	'.main-frame'
+	'.content-panel'
+	,'.main-frame'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
