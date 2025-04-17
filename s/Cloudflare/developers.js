@@ -49,6 +49,7 @@ GM_addStyle([
 GM_addStyle([
 	'.content-panel'
 	,'.main-frame'
+	,'main'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
