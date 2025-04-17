@@ -47,6 +47,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#maincore'
+	,'#maincorecontent'
 	,'.data2Col'
 	,'.pkbResultInner'
 	,'.pkbResultPanel'
