@@ -13,6 +13,7 @@
 GM_addStyle([
 	'#js-hero-block'
 	,'.embeddedServiceHelpButton'
+	,'footer'
 	,'header'
 ]
 	 // language=Javascript
