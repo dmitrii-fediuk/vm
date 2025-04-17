@@ -92,6 +92,14 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
+	'#maincorecontent'
+]
+	 // language=Javascript
+	.join(',') + '{height: initial !important;}')
+;
+// 2025-04-17
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{text-align: initial !important;}')
