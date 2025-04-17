@@ -92,7 +92,8 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-	'#maincorecontent'
+	'#maincore'
+	,'#maincorecontent'
 ]
 	 // language=Javascript
 	.join(',') + '{height: initial !important;}')
