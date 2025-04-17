@@ -113,6 +113,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#maincore > .innerwrapper'
+	,'#maincorecontent'
 ]
 	// language=Javascript
 	.join(',') + '{' +
