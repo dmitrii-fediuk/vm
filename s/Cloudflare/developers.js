@@ -39,6 +39,7 @@ GM_addStyle([
 	'.heading-wrapper'
 	,'.sl-markdown-content'
 	,'h1'
+	,'h2'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
