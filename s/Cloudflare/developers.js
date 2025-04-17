@@ -56,6 +56,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.content-panel'
+	,'[role=tab]'
 	,'[role=tablist]'
 ]
 	 // language=Javascript
