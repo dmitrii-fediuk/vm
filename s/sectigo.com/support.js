@@ -171,3 +171,6 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle('body {margin: 0 1rem !important;}');
+// 2025-04-17 https://gemini.google.com/u/1/app/8e21cf849ffc5094
+// language=CSS
+GM_addStyle(':root {overflow-y: hidden !important;}');
