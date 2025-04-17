@@ -1,12 +1,12 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/sectigo.com/docs.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/sectigo.com/doc.js
 // @icon https://www.sectigo.com/_ui/favicons/sectigo/apple-touch-icon.552357069.png
 // 2025-04-17 https://chatgpt.com/c/67f90c02-eb2c-8003-912b-607eae8ec098
 // @match https://www.sectigo.com/faqs/*
 // @match https://www.sectigo.com/knowledge-base/*
-// @name sectigo.com / Docs
+// @name sectigo.com / Doc
 // ==/UserScript==
 // 2025-04-17 "Improve `sectigo.com`": https://github.com/dmitrii-fediuk/vm/issues/105
 // language=CSS
