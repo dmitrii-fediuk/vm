@@ -13,6 +13,7 @@
 GM_addStyle([
 	'#js-hero-block'
 	,'#maincoreleft'
+	,'#maincore > *'
 	,'.embeddedServiceHelpButton'
 	,':has(> .leftnavboxbox)'
 	,'footer'
