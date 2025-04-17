@@ -148,7 +148,7 @@ GM_addStyle([
 			'font-family': 'Segoie UI'
 			// language=Javascript
 			,'font-size': '150%'
-			,'line-height': 1.4
+			,'line-height': 1.25
 			// language=CSS
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
