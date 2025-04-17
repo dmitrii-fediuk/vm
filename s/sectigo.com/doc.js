@@ -15,6 +15,7 @@ GM_addStyle([
 	,'.embeddedServiceHelpButton'
 	,'footer'
 	,'header'
+	,'main:has(iframe[src^="https://support.sectigo.com/"]) > h1'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
