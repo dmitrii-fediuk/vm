@@ -104,6 +104,7 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
+	'.heading-wrapper'
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: initial !important;}')
