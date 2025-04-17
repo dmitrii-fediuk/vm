@@ -35,6 +35,7 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
+	'.pkbResultPanel'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -50,6 +51,7 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
+	'.pkbResultPanel'
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
