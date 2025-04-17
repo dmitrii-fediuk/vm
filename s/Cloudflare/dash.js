@@ -24,7 +24,7 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-	'aside ~ :has(> .c_j)'
+	'aside ~ :has(> .c_j) > .c_j'
 	,'header'
 ]
 	 // language=Javascript
