@@ -49,6 +49,7 @@ GM_addStyle([
 	'#maincore'
 	,'.data2Col'
 	,'.pkbResultInner'
+	,'.pkbResultPanel'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
