@@ -24,7 +24,8 @@ GM_addStyle([
 // 2025-04-17
 // language=CSS
 GM_addStyle([
-	//'.c_j'
+	'aside ~ :has(> .c_j)'
+	,'header'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
