@@ -42,6 +42,7 @@ GM_addStyle([
 	,'.sl-markdown-content'
 	,'[role="tabpanel"]'
 	,'starlight-tabs'
+	,'starlight-tabs-restore'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
