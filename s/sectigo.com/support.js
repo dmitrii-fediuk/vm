@@ -12,6 +12,7 @@
 GM_addStyle([
 	'#maincorecontent > :not(.pkbResultPanel)'
 	,'#maincoreleft'
+	,'.pkbResultSelectedCategories'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
