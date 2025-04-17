@@ -12,6 +12,8 @@ GM_addStyle([
 	'.sidebar'
 	,':has(> astro-island)'
 	,'aside'
+	,'footer ~ *'
+	,'footer'
 	,'header'
 ]
 	 // language=Javascript
