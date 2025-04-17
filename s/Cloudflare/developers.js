@@ -9,6 +9,7 @@
 // 2025-04-17 "Improve `cloudflare.com`": https://github.com/dmitrii-fediuk/vm/issues/106
 // language=CSS
 GM_addStyle([
+	'header'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
