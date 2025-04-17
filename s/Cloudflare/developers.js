@@ -175,4 +175,10 @@ GM_addStyle('h3 {margin: 0.25rem 0 !important;}');
 GM_addStyle('h4 {margin: 0.2rem 0 !important;}');
 // 2025-04-17
 // language=CSS
-GM_addStyle('li, ol, p, ul {margin: 0.25rem 0 !important;}');
+GM_addStyle([
+	'li:not([role="tablist"])'
+	,'ol', 'p', 'ul'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0.25rem 0 !important;}')
+;
