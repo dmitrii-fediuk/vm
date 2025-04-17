@@ -128,6 +128,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.c-breadcrumbs__link'
+	,'.heading-wrapper'
 	,'code'
 ]
 	 // language=Javascript
