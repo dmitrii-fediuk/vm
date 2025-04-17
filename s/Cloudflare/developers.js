@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'.sidebar'
+	,':has(> astro-island)'
 	,'aside'
 	,'header'
 ]
