@@ -72,8 +72,7 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'color': '#067D17'
-			,'font-family': 'Consolas'
+			'font-family': 'Consolas'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
@@ -86,8 +85,10 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
+			// language=CSS
+			'color': '#067D17'
 			// language=Javascript
-			'font-size': '1rem'
+			,'font-size': '1rem'
 			// language=CSS
 			,'font-weight': 'bold'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
