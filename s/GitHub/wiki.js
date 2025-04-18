@@ -47,6 +47,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.gh-header-meta'
+	,'h2'
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
