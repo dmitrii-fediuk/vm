@@ -21,6 +21,14 @@ GM_addStyle([
 // 2025-04-18
 // language=CSS
 GM_addStyle([
+	'.Layout'
+]
+	 // language=Javascript
+	.join(',') + '{display: block !important;}')
+;
+// 2025-04-18
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
