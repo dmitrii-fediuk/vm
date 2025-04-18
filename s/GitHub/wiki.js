@@ -74,8 +74,20 @@ GM_addStyle([
 		Object.entries({
 			'color': '#067D17'
 			,'font-family': 'Consolas'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-04-18
+// language=CSS
+GM_addStyle([
+	'.markdown-body :not(pre) > code'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
 			// language=Javascript
-			,'font-size': '1rem'
+			'font-size': '1rem'
 			// language=CSS
 			,'font-weight': 'bold'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
@@ -92,8 +104,6 @@ GM_addStyle([
 		Object.entries({
 			// language=Javascript
 			'font-size': '.9rem'
-			// language=CSS
-			,'font-weight': 'revert'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
