@@ -45,4 +45,12 @@ GM_addStyle([
 ;
 // 2025-04-18
 // language=CSS
+GM_addStyle([
+	'.gh-header-meta'
+]
+	 // language=Javascript
+	.join(',') + '{border: 0 !important;}')
+;
+// 2025-04-18
+// language=CSS
 GM_addStyle('body {margin: 0 1rem !important;}');
