@@ -39,6 +39,7 @@ GM_addStyle([
 	'#wiki-content'
 	,'#wiki-wrapper'
 	,'.gh-header-meta'
+	,'pre'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
