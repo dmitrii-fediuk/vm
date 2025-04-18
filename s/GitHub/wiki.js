@@ -47,6 +47,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#wiki-wrapper'
+	,'.gh-header-meta'
 	,'h2'
 ]
 	 // language=Javascript
