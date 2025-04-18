@@ -57,6 +57,14 @@ GM_addStyle([
 // 2025-04-18
 // language=CSS
 GM_addStyle([
+	'code'
+]
+	 // language=Javascript
+	.join(',') + '{background-color: initial !important;}')
+;
+// 2025-04-18
+// language=CSS
+GM_addStyle([
 	'.gh-header-meta'
 	,'h2'
 ]
