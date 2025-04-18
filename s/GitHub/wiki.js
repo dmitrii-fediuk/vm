@@ -36,6 +36,7 @@ GM_addStyle([
 // 2025-04-18
 // language=CSS
 GM_addStyle([
+	'#wiki-wrapper'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
