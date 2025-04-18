@@ -1,11 +1,11 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/GitHub.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/GitHub/common.js
 // @icon https://github.com/fluidicon.png
 // @match *://github.com/*
 // @match *://docs.github.com/*
-// @name GitHub
+// @name GitHub / Common
 // ==/UserScript==
 // 2024-09-20 "Improve the GitHub appearance": https://github.com/dmitrii-fediuk/vm/issues/47
 // language=CSS
