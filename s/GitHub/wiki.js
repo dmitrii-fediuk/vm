@@ -47,6 +47,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#wiki-wrapper'
+	,'h2'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
