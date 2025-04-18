@@ -65,6 +65,21 @@ GM_addStyle([
 // 2025-04-18
 // language=CSS
 GM_addStyle([
+	'code'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'color': '#067D17'
+			,'font-family': 'Consolas'
+			,'font-size': 'revert'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-04-18
+// language=CSS
+GM_addStyle([
 	'.gh-header-meta'
 	,'h2'
 ]
