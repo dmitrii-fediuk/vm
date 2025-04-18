@@ -12,6 +12,7 @@
 console.log('Wiki');
 // language=CSS
 GM_addStyle([
+	'.Layout-sidebar'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
