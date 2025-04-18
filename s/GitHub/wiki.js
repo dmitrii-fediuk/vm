@@ -58,7 +58,7 @@ GM_addStyle([
 // 2025-04-18
 // language=CSS
 GM_addStyle([
-	'code'
+	'.markdown-body code'
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: initial !important;}')
@@ -66,7 +66,7 @@ GM_addStyle([
 // 2025-04-18
 // language=CSS
 GM_addStyle([
-	'code'
+	'.markdown-body code'
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -84,7 +84,7 @@ GM_addStyle([
 // 2025-04-18
 // language=CSS
 GM_addStyle([
-	'pre > code'
+	'.markdown-body pre > code'
 ]
 	// language=Javascript
 	.join(',') + '{' +
