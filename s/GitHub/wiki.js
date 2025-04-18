@@ -74,6 +74,7 @@ GM_addStyle([
 			'color': '#067D17'
 			,'font-family': 'Consolas'
 			,'font-size': 'revert'
+			,'font-weight': 'bold'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
