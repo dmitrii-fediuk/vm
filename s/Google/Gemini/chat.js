@@ -243,9 +243,7 @@ GM_addStyle([
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	'.markdown ol'
-	,'.markdown p'
-	,'.markdown ul'
+	'.markdown :is(ol, p, ul)'
 	,'p.query-text-line:not(:has(> br))'
 ]
 	 // language=Javascript
