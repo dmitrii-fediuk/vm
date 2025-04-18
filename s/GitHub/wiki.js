@@ -66,15 +66,24 @@ GM_addStyle([
 // 2025-04-18
 // language=CSS
 GM_addStyle([
+	'.markdown-body'
+	,'body'
+]
+	 // language=Javascript
+	.join(',') + '{font-family: Segoie UI !important;}')
+;
+// 2025-04-18
+// language=CSS
+GM_addStyle([
 	':root'
 ]
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'font-family': 'Segoie UI'
+			//'font-family': 'Segoie UI'
 			// language=Javascript
-			,'font-size': '150%'
+			'font-size': '150%'
 			// language=CSS
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
