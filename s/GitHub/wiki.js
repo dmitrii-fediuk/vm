@@ -49,6 +49,7 @@ GM_addStyle([
 GM_addStyle([
 	'#wiki-wrapper'
 	,'.gh-header-meta'
+	,'code'
 	,'h2'
 ]
 	 // language=Javascript
