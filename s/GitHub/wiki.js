@@ -121,6 +121,14 @@ GM_addStyle([
 // 2025-04-18
 // language=CSS
 GM_addStyle([
+	'body'
+]
+	 // language=Javascript
+	.join(',') + '{color: initial !important;}')
+;
+// 2025-04-18
+// language=CSS
+GM_addStyle([
 	'.markdown-body'
 	,'body'
 ]
