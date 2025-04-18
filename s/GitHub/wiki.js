@@ -75,7 +75,7 @@ GM_addStyle([
 			'color': '#067D17'
 			,'font-family': 'Consolas'
 			// language=Javascript
-			,'font-size': '1 rem'
+			,'font-size': '1rem'
 			// language=CSS
 			,'font-weight': 'bold'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
