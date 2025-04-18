@@ -227,7 +227,8 @@ GM_addStyle([
 		Object.entries({
 			'color': '#067D17'
 			,'font-family': 'Consolas'
-			,'font-size': 'revert'
+			// language=Javascript
+			,'font-size': '1 rem'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
