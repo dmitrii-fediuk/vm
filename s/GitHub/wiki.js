@@ -67,6 +67,23 @@ GM_addStyle([
 // 2025-04-18
 // language=CSS
 GM_addStyle([
+	'.gh-header-meta'
+	,'h2'
+]
+	 // language=Javascript
+	.join(',') + '{border: 0 !important;}')
+;
+// 2025-04-18
+// language=CSS
+GM_addStyle([
+	'body', 'pre'
+]
+	 // language=Javascript
+	.join(',') + '{color: initial !important;}')
+;
+// 2025-04-18
+// language=CSS
+GM_addStyle([
 	'.markdown-body code'
 ]
 	// language=Javascript
@@ -112,45 +129,12 @@ GM_addStyle([
 // 2025-04-18
 // language=CSS
 GM_addStyle([
-	'.gh-header-meta'
-	,'h2'
-]
-	 // language=Javascript
-	.join(',') + '{border: 0 !important;}')
-;
-// 2025-04-18
-// language=CSS
-GM_addStyle([
-	'body', 'pre'
-]
-	 // language=Javascript
-	.join(',') + '{color: initial !important;}')
-;
-// 2025-04-18
-// language=CSS
-GM_addStyle([
 	'.markdown-body'
 	,'body'
 ]
 	 // language=Javascript
 	.join(',') + '{font-family: Segoie UI !important;}')
 ;
-// 2025-04-18
-// language=CSS
-GM_addStyle([
-	':root'
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
-			//'font-family': 'Segoie UI'
-			// language=Javascript
-			//'font-size': '150%'
-			// language=CSS
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
 // 2025-04-18
 // language=CSS
 GM_addStyle('body {margin: 0 1rem !important;}');
