@@ -28,7 +28,8 @@ GM_addStyle([
 // 2025-04-18
 // language=CSS
 GM_addStyle([
-	'#wiki-wrapper'
+	'#wiki-content'
+	,'#wiki-wrapper'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
