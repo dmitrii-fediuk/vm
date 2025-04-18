@@ -81,6 +81,19 @@ GM_addStyle([
 // 2025-04-18
 // language=CSS
 GM_addStyle([
+	'pre > code'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'font-weight': 'revert'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-04-18
+// language=CSS
+GM_addStyle([
 	'.gh-header-meta'
 	,'h2'
 ]
