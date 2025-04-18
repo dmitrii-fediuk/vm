@@ -90,7 +90,10 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'font-weight': 'revert'
+			// language=Javascript
+			'font-size': '.9rem'
+			// language=CSS
+			,'font-weight': 'revert'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
