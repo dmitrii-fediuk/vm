@@ -9,7 +9,7 @@
 // @name GitHub / Wiki
 // ==/UserScript==
 // 2024-09-20, 2025-04-18 "Improve the GitHub appearance": https://github.com/dmitrii-fediuk/vm/issues/47
-console.log('Wiki');
+// 2025-04-18
 // language=CSS
 GM_addStyle([
 	'.Layout-sidebar'
@@ -18,9 +18,25 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// 2025-04-18
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
+;
+// 2025-04-18
+// language=CSS
+GM_addStyle([
+	'#wiki-wrapper'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
+// 2025-04-18
+// language=CSS
+GM_addStyle([
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
 ;
