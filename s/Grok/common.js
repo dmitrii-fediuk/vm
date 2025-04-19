@@ -1,10 +1,10 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/grok.com.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Grok/common.js
 // @icon https://registry.npmmirror.com/@lobehub/icons-static-png/1.24.0/files/light/grok.png
 // @match *://grok.com/*
-// @name grok.com
+// @name Grok / Common
 // ==/UserScript==
 // 2025-02-21 "Improve `grok.com`": https://github.com/dmitrii-fediuk/vm/issues/92
 // language=CSS
