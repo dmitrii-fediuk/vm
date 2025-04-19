@@ -67,6 +67,7 @@ GM_addStyle([
 GM_addStyle([
 	//'.\\!font-mono'
 	'.prose'
+	,'.text-sm'
 	,':has(> code)'
 	//,'code'
 ]
