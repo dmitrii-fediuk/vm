@@ -30,7 +30,8 @@ GM_addStyle([
 // 2025-02-21
 // language=CSS
 GM_addStyle([
-	'.message-row'
+	'.\\!font-mono'
+	,'.message-row'
 	,'.pt-20'
 	,'form.bottom-0 textarea'
 ]
