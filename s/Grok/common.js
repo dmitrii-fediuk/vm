@@ -78,7 +78,7 @@ GM_addStyle([
 	':has(> code)'
 ]
 	 // language=Javascript
-	.join(',') + '{all: unset !important;}')
+	.join(',') + '{all: revert !important;}')
 ;
 // 2025-04-19
 // language=CSS
