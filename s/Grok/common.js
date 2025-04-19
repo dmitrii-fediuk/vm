@@ -49,6 +49,8 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.prose'
+	,'.prose p'
+	//,'.prose :where(p):not(:where([class~=not-prose],[class~=not-prose] *))'
 	,'.text-fg-primary'
 	,'.text-primary'
 	,'body'
