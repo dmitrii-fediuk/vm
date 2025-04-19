@@ -65,8 +65,8 @@ GM_addStyle([
 // 2.3) https://developer.mozilla.org/en-US/docs/Web/CSS/revert
 // language=CSS
 GM_addStyle([
-	'.\\!font-mono'
-	,'.prose'
+	//'.\\!font-mono'
+	'.prose'
 	,':has(> code)'
 	//,'code'
 ]
@@ -202,6 +202,9 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			'color': '#067D17'
+			// language=Javascript
+			,'font-size': '150%'
+			// language=CSS
 			,'font-weight': 'bold'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
