@@ -58,7 +58,7 @@ GM_addStyle([
 	'code'
 ]
 	 // language=Javascript
-	.join(',') + '{font-size: 0.9rem !important;}')
+	.join(',') + '{font-size: 85% !important;}')
 ;
 // 2025-04-19
 // 1) `inherit` and `revert` work too.
