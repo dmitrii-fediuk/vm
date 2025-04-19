@@ -47,7 +47,7 @@ GM_addStyle([
 	'.\\!font-mono'
 	,'.prose'
 	,':has(> code)'
-	,'code'
+	//,'code'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
