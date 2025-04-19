@@ -47,7 +47,7 @@ GM_addStyle([
 	'.prose'
 ]
 	 // language=Javascript
-	.join(',') + '{line-height: unset !important;}')
+	.join(',') + '{font-size: unset !important;}')
 ;
 // 2025-04-19
 // 1) `inherit` and `revert` work too.
@@ -59,7 +59,7 @@ GM_addStyle([
 	'.prose'
 ]
 	 // language=Javascript
-	.join(',') + '{font-size: unset !important;}')
+	.join(',') + '{line-height: unset !important;}')
 ;
 // 2025-02-21
 // language=CSS
