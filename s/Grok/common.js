@@ -72,6 +72,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{line-height: unset !important;}')
 ;
+// 2025-04-19 https://developer.mozilla.org/en-US/docs/Web/CSS/all
+// language=CSS
+GM_addStyle([
+	':has(> code)'
+]
+	 // language=Javascript
+	.join(',') + '{all: unset !important;}')
+;
 // 2025-04-19
 // language=CSS
 GM_addStyle([
