@@ -37,6 +37,30 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// 2025-04-19
+// 1) `inherit` and `revert` work too.
+// 2.1) https://developer.mozilla.org/en-US/docs/Web/CSS/unset
+// 2.2) https://developer.mozilla.org/en-US/docs/Web/CSS/inherit
+// 2.3) https://developer.mozilla.org/en-US/docs/Web/CSS/revert
+// language=CSS
+GM_addStyle([
+	'.prose'
+]
+	 // language=Javascript
+	.join(',') + '{line-height: unset !important;}')
+;
+// 2025-04-19
+// 1) `inherit` and `revert` work too.
+// 2.1) https://developer.mozilla.org/en-US/docs/Web/CSS/unset
+// 2.2) https://developer.mozilla.org/en-US/docs/Web/CSS/inherit
+// 2.3) https://developer.mozilla.org/en-US/docs/Web/CSS/revert
+// language=CSS
+GM_addStyle([
+	'.prose'
+]
+	 // language=Javascript
+	.join(',') + '{font-size: unset !important;}')
+;
 // 2025-02-21
 // language=CSS
 GM_addStyle([
@@ -105,15 +129,3 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// 2025-04-19
-// 1) `inherit` and `revert` work too.
-// 2.1) https://developer.mozilla.org/en-US/docs/Web/CSS/unset
-// 2.2) https://developer.mozilla.org/en-US/docs/Web/CSS/inherit
-// 2.3) https://developer.mozilla.org/en-US/docs/Web/CSS/revert
-// language=CSS
-GM_addStyle([
-	'.prose'
-]
-	 // language=Javascript
-	.join(',') + '{font-size: unset !important;}')
-;
