@@ -94,6 +94,14 @@ GM_addStyle('.\\@container\\/input {padding-bottom: 0 !important;}');
 GM_addStyle([
 	'body'
 ]
-	 // language=Javascript
-	.join(',') + '{font-family: Segoie UI !important;}')
-;
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'font-family': 'Segoie UI'
+			// language=Javascript
+			,'font-size': '150%'
+			// language=CSS
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
