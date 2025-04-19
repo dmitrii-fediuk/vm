@@ -44,7 +44,8 @@ GM_addStyle([
 // 2.3) https://developer.mozilla.org/en-US/docs/Web/CSS/revert
 // language=CSS
 GM_addStyle([
-	'.prose'
+	'.\\!font-mono'
+	,'.prose'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
@@ -127,6 +128,19 @@ GM_addStyle([
 			,'font-size': '155%'
 			// language=CSS
 			,'line-height': 1.25
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-04-19
+// language=CSS
+GM_addStyle([
+	'.\\!font-mono'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'font-family': 'Consolas'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
