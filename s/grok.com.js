@@ -94,3 +94,12 @@ GM_addStyle('.\\@container\\/main > .bottom-0 {width: 100% !important;}');
 // 2025-02-22
 // language=CSS
 GM_addStyle('.\\@container\\/input {padding-bottom: 0 !important;}');
+// 2025-04-19
+// language=CSS
+GM_addStyle([
+	'.markdown-body'
+	,'body'
+]
+	 // language=Javascript
+	.join(',') + '{font-family: Segoie UI !important;}')
+;
