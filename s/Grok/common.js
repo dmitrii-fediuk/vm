@@ -63,7 +63,7 @@ GM_addStyle([
 	':has(> div > code) > :first-child'
 ]
 	 // language=Javascript
-	.join(',') + '{border 0 !important;}')
+	.join(',') + '{border: 0 !important;}')
 ;
 // 2025-04-19
 // language=CSS
