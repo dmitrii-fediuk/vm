@@ -37,6 +37,7 @@ GM_addStyle([
 	,'.query-bar'
 	,':has(.message-bubble)'
 	,':has(> div > code) > :first-child'
+	,':has(> form.bottom-0)'
 	,'form.bottom-0 textarea'
 ]
 	 // language=Javascript
