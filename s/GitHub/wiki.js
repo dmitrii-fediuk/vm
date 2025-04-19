@@ -80,7 +80,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
 ;
-// 2025-04-18
+// 2025-04-1
 // language=CSS
 GM_addStyle([
 	'.markdown-body code'
