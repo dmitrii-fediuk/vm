@@ -48,14 +48,9 @@ GM_addStyle([
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
-		['width', 'min-width']
+		['max-width', 'min-width', 'width']
 			// language=Javascript
-			.map(k => `${k}: initial !important;`).join(' ') +
-		// language=CSS
-		Object.entries({
-			// language=Javascript
-			'max-width': '100%'
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+			.map(k => `${k}: 100% !important;`).join(' ') +
 	'}'
 );
 // 2025-02-22 https://chatgpt.com/c/67b8f0dc-df0c-800c-84ed-6b8a8d71d710
