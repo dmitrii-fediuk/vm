@@ -13,6 +13,7 @@ GM_addStyle([
 	,'.\\@container\\/nav .start-1'
 	,':has( > h1.text-primary)'
 	,'button:has(> svg.lucide-chevron-down)'
+	,'form.bottom-0 :has(> textarea[aria-label="Ask Grok anything"]) > .absolute' // 2025-04-19
 	,'form.bottom-0 ~ *' // 2025-03-20
 ]
 	 // language=Javascript
