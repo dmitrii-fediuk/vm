@@ -75,8 +75,8 @@ GM_addStyle([
 // 2025-04-19
 // language=CSS
 GM_addStyle([
-	':has(> code)'
-	,'code'
+	//':has(> code)'
+	'code'
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: .9 !important;}')
