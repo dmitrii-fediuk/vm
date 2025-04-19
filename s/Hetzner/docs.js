@@ -61,7 +61,7 @@ GM_addStyle([
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
-		['width', 'max-width',' min-width']
+		['max-width', 'min-width', 'width']
 			// language=Javascript
 			.map(k => `${k}: initial !important;`).join(' ') +
 	'}'
