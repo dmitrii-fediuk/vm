@@ -46,6 +46,14 @@ GM_addStyle([
 	.join(',') + '{background-color: initial !important;}')
 ;
 // 2025-04-19
+// language=CSS
+GM_addStyle([
+	'body'
+]
+	 // language=Javascript
+	.join(',') + '{color: initial !important;}')
+;
+// 2025-04-19
 // 1) `inherit` and `revert` work too.
 // 2.1) https://developer.mozilla.org/en-US/docs/Web/CSS/unset
 // 2.2) https://developer.mozilla.org/en-US/docs/Web/CSS/inherit
