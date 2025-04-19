@@ -11,7 +11,6 @@
 GM_addStyle([
 	'.\\@container\\/main div[style^="padding-bottom"]'
 	,'.\\@container\\/nav .start-1'
-	,'.message-bubble ~ :has(.lucide-pencil-line)'
 	,':has( > h1.text-primary)'
 	,'button:has(> svg.lucide-chevron-down)'
 	,'form.bottom-0 ~ *' // 2025-03-20
