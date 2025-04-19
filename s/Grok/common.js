@@ -31,7 +31,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.\\!font-mono'
-	,'.message-bubble'
+	,':is(.message-bubble)'
 	,'.message-row'
 	,'.pt-20'
 	,'.query-bar'
