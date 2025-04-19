@@ -105,3 +105,11 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-04-15
+// language=CSS
+GM_addStyle([
+	'.prose'
+]
+	 // language=Javascript
+	.join(',') + '{font-size: revert !important;}')
+;
