@@ -60,6 +60,14 @@ GM_addStyle([
 // 2025-04-19
 // language=CSS
 GM_addStyle([
+	':has(> div > code) > :first-child'
+]
+	 // language=Javascript
+	.join(',') + '{border 0 !important;}')
+;
+// 2025-04-19
+// language=CSS
+GM_addStyle([
 	'.prose p'
 	,'.prose'
 	,'.text-fg-primary'
@@ -193,7 +201,6 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.\\!font-mono'
-	//,':has(> code)'
 	,'code'
 ]
 	// language=Javascript
