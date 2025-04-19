@@ -34,6 +34,7 @@ GM_addStyle([
 	,'.message-bubble'
 	,'.message-row'
 	,'.pt-20'
+	,'.query-bar'
 	,':has(.message-bubble)'
 	,':has(> div > code) > :first-child'
 	,'form.bottom-0 textarea'
