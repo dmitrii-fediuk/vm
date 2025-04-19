@@ -204,7 +204,7 @@ GM_addStyle([
 		Object.entries({
 			'color': '#067D17'
 			// language=Javascript
-			,'font-size': '150%'
+			,'font-size': '95%'
 			// language=CSS
 			,'font-weight': 'bold'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
