@@ -77,8 +77,6 @@ GM_addStyle([
 // 2025-02-21
 // language=CSS
 GM_addStyle([
-	//'.max-w-3xl'
-	//,'.sm\\:max-w-\\[90\\%\\]'
 	'[class*="max-w-"]' // 2025-04-19
 	,'main > *'
 ]
