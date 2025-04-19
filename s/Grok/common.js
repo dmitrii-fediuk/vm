@@ -42,7 +42,8 @@ GM_addStyle([
 GM_addStyle([
 	'.max-w-3xl'
 	,'.sm\\:max-w-\\[90\\%\\]'
-	,'main  > *'
+	,'[class*="max-w-"]' // 2025-04-19
+	,'main > *'
 ]
 	// language=Javascript
 	.join(',') + '{' +
