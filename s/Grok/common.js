@@ -42,9 +42,10 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.\\!font-mono'
+	,'body'
 ]
 	 // language=Javascript
-	.join(',') + '{background-color: initial !important;}')
+	.join(',') + '{background-color: white !important;}')
 ;
 // 2025-04-19
 // language=CSS
