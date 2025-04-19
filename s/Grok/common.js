@@ -73,10 +73,6 @@ GM_addStyle([
 	.join(',') + '{line-height: unset !important;}')
 ;
 // 2025-04-19
-// 1) `inherit` and `revert` work too.
-// 2.1) https://developer.mozilla.org/en-US/docs/Web/CSS/unset
-// 2.2) https://developer.mozilla.org/en-US/docs/Web/CSS/inherit
-// 2.3) https://developer.mozilla.org/en-US/docs/Web/CSS/revert
 // language=CSS
 GM_addStyle([
 	':has(> code)'
