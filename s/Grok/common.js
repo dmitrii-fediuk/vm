@@ -143,6 +143,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{line-height: .9 !important;}')
 ;
+// 2025-04-19
+// language=CSS
+GM_addStyle([
+	'.absolute:has(> button img[alt="pfp"])'
+]
+	 // language=Javascript
+	.join(',') + '{top: 0 !important;}')
+;
 // 2025-02-21
 // language=CSS
 GM_addStyle([
