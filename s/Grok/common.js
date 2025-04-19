@@ -33,6 +33,7 @@ GM_addStyle([
 	'.\\!font-mono'
 	,'.message-row'
 	,'.pt-20'
+	,':has(> div > code) > :first-child'
 	,'form.bottom-0 textarea'
 ]
 	 // language=Javascript
