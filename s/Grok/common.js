@@ -73,6 +73,14 @@ GM_addStyle([
 // 2025-04-19
 // language=CSS
 GM_addStyle([
+	'.query-bar > :has(> button)'
+]
+	 // language=Javascript
+	.join(',') + '{border-radius: 0 !important;}')
+;
+// 2025-04-19
+// language=CSS
+GM_addStyle([
 	'.prose p'
 	,'.prose'
 	,'.text-fg-primary'
