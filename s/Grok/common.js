@@ -47,6 +47,7 @@ GM_addStyle([
 	'.\\!font-mono'
 	,'.prose'
 	,':has(> code)'
+	,'code'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
@@ -60,6 +61,7 @@ GM_addStyle([
 GM_addStyle([
 	'.prose'
 	,':has(> code)'
+	,'code'
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: unset !important;}')
@@ -137,7 +139,8 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.\\!font-mono'
-	,':has(> code)'
+	//,':has(> code)'
+	,'code'
 ]
 	// language=Javascript
 	.join(',') + '{' +
