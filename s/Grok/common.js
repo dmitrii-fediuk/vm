@@ -31,7 +31,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.\\!font-mono'
-	,':is(.message-bubble)'
+	,'.message-bubble'
 	,'.message-row'
 	,'.pt-20'
 	,'.query-bar'
@@ -40,7 +40,7 @@ GM_addStyle([
 	,'form.bottom-0 textarea'
 ]
 	 // language=Javascript
-	.join(',') + '{padding: 0 !important;}')
+	.join(',') + '{padding: unset !important;}')
 ;
 // 2025-04-19
 // language=CSS
