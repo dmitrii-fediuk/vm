@@ -46,7 +46,7 @@ GM_addStyle([
 GM_addStyle([
 	'.\\!font-mono'
 	,'.prose'
-	,'[class*="var(--font-ibm-plex-mono)"]'
+	,':has(> code)'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
@@ -59,7 +59,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.prose'
-	,'[class*="var(--font-ibm-plex-mono)"]'
+	,':has(> code)'
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: unset !important;}')
@@ -137,7 +137,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.\\!font-mono'
-	,'[class*="var(--font-ibm-plex-mono)"]'
+	,':has(> code)'
 ]
 	// language=Javascript
 	.join(',') + '{' +
