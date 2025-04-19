@@ -23,44 +23,6 @@ GM_addStyle([
 	.join(',') + '{position: initial !important;}')
 ;
 // 2025-03-15
-// language=CSS
-GM_addStyle([
-]
-	 // language=Javascript
-	.join(',') + '{margin: 0 !important;}')
-;
-// 2025-03-15
-// language=CSS
-GM_addStyle([
-]
-	 // language=Javascript
-	.join(',') + '{padding: 0 !important;}')
-;
-// 2025-03-15
-// language=CSS
-GM_addStyle([
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		['width', 'max-width',' min-width']
-			// language=Javascript
-			.map(k => `${k}: initial !important;`).join(' ') +
-	'}'
-);
-// 2025-02-22 https://chatgpt.com/c/67b8f0dc-df0c-800c-84ed-6b8a8d71d710
-// language=CSS
-GM_addStyle([
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		['bottom', 'left',' right', 'top']
-			// language=Javascript
-			.map(k => `${k}: auto !important;`).join(' ') +
-	'}'
-);
-// 2025-03-15
 // 1) E.g.: «https://www.beymen.com/tr/p_jacadi-paris-kirik-beyaz-unisex-bebek-orta-boy-seyahat-cantasi_1654889»
 // 2.1) https://chatgpt.com/c/67d4bd43-dc54-8003-847b-ca9df75fe2b3
 // 2.2) https://claude.ai/chat/a1ec8c21-cc1b-43b4-a336-b6f62f9bff00
