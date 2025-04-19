@@ -48,7 +48,10 @@ GM_addStyle([
 // 2025-04-19
 // language=CSS
 GM_addStyle([
-	'body'
+	'.prose'
+	,'.text-fg-primary'
+	,'.text-primary'
+	,'body'
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
