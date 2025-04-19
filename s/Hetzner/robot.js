@@ -50,15 +50,3 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
 ;
-// 2025-02-08
-// language=CSS
-GM_addStyle([
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		['width', 'max-width',' min-width']
-			// language=Javascript
-			.map(k => `${k}: initial !important;`).join(' ') +
-	'}'
-);
