@@ -62,6 +62,7 @@ GM_addStyle([
 GM_addStyle([
 	'#chat-history'
 	,'.content-wrapper'
+	,'.main-content'
 	,'bard-sidenav-container'
 	,'bard-sidenav-content'
 	,'body'
