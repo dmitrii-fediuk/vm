@@ -182,7 +182,7 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	//'*'
+	'*'
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -246,8 +246,6 @@ GM_addStyle([
 			'height': 'auto'
 			// language=CSS
 			,'overflow': 'visible'
-			,'scrollbar-color': 'unset'
-			,'scrollbar-width': 'unset'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
