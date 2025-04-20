@@ -76,7 +76,7 @@ GM_addStyle([
 	,'[class*="bg-"]'
 ]
 	 // language=Javascript
-	.join(',') + '{background-color: unset !important;}')
+	.join(',') + '{background-color: white !important;}')
 ;
 // 2025-04-20
 // language=CSS
