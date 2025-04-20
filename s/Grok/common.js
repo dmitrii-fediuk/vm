@@ -126,7 +126,7 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	':has(> div > code)'
+	':has(> div > code) > :first-child'
 ]
 	 // language=Javascript
 	.join(',') + '{height: auto !important;}')
