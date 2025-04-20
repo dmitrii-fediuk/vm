@@ -83,7 +83,7 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	//'h1' // 2025-04-20
+	'.gh-header-meta' // 2025-04-20
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: revert !important;}')
