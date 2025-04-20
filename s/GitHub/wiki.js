@@ -171,16 +171,16 @@ GM_addStyle([
 GM_addStyle('body {margin: 0 1rem !important;}');
 // 2025-04-18
 // language=CSS
-GM_addStyle('h1.gh-header-title {font-size: 2.3rem !important; margin: 0.5rem 0 !important;}');
+GM_addStyle('h1.gh-header-title {font-size: 1.5em !important; margin: 0.5rem 0 !important;}');
 // 2025-04-18
 // language=CSS
-GM_addStyle('.markdown-body h2 {font-size: 1.9rem !important; margin: 0.3rem 0 !important;}');
+GM_addStyle('.markdown-body h2 {font-size: 1.25em !important; margin: 0.3rem 0 !important;}');
 // 2025-04-18
 // language=CSS
-GM_addStyle('h3 {font-size: 1.6rem !important; margin: 0.2rem 0 !important;}');
+GM_addStyle('h3 {font-size: 1.1em !important; margin: 0.2rem 0 !important;}');
 // 2025-04-18
 // language=CSS
-GM_addStyle('h4 {font-size: 1.4rem !important; margin: 0.1rem 0 !important;}');
+GM_addStyle('h4 {font-size: 1em !important; margin: 0.1rem 0 !important;}');
 // 2025-04-18
 // language=CSS
 GM_addStyle([
