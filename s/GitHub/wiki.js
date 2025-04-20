@@ -132,7 +132,7 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	//'.markdown-body' // 2025-04-20
+	'h1' // 2025-04-20
 ]
 	 // language=Javascript
 	.join(',') + '{font-family: unset !important;}')
