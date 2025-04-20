@@ -10,7 +10,8 @@
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	'.boqOnegoogleliteOgbOneGoogleBar'
+	'.avatar-gutter'
+	,'.boqOnegoogleliteOgbOneGoogleBar'
 	,'.desktop-ogb-buffer'
 	,'.share-viewer_chat-container ~ *'
 	,'share-viewer ~ *'
@@ -37,8 +38,7 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	'.avatar-gutter'
-	,'.chat-history'
+	'.chat-history'
 	,'.top-container'
 ]
 	// language=Javascript
