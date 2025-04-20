@@ -92,7 +92,7 @@ GM_addStyle([
 			// language=CSS
 			'color': '#067D17'
 			// language=Javascript
-			,'font-size': '1rem'
+			//,'font-size': '1rem'
 			// language=CSS
 			,'font-weight': 'bold'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
@@ -108,7 +108,7 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			// language=Javascript
-			'font-size': '.9rem'
+			//'font-size': '.9rem'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
