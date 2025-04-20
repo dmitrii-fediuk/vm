@@ -22,7 +22,10 @@ GM_addStyle([
 	,'hallucination-disclaimer'
 	,'input-container:before'
 	,'mat-sidenav'
-	,'message-actions .buttons-container-v2 > :not(.menu-button-wrapper)'
+	,'message-actions .buttons-container-v2 > :not(' +
+		'.menu-button-wrapper' +
+		',:has(> #share-and-export-menu-button)' + // 2025-04-20
+	')'
 	,'model-thoughts'
 	,'top-bar-actions'
 ]
