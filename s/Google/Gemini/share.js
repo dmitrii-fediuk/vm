@@ -10,7 +10,8 @@
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	'.share-viewer_chat-container ~ *'
+	'.desktop-ogb-buffer'
+	,'.share-viewer_chat-container ~ *'
 	,'share-viewer ~ *'
 ]
 	 // language=Javascript
