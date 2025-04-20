@@ -17,7 +17,7 @@ GM_addStyle([
 ;
 // 2025-04-20
 // language=CSS
-GM_addStyle('.h6 {font-size: 0.8em !important; margin: 0 !important;}');
+GM_addStyle('.h5 {font-size: 0.8em !important; margin: 0 !important;}');
 // 2025-04-20
 // language=CSS
 GM_addStyle('.f6 {font-size: 0.7em !important; margin: 0 !important;}');
