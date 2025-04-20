@@ -50,7 +50,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	':has(> div > code)'
-	,'form.bottom-0 textarea'
+	//,'form.bottom-0 textarea'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -217,15 +217,6 @@ GM_addStyle([
 );
 // 2025-02-22
 // language=CSS
-//GM_addStyle('.\\@container\\/main > div {padding: 0.25rem !important;}');
-// 2025-02-22
-// language=CSS
-//GM_addStyle('.message-bubble {padding: 0.5rem !important;}');
-// 2025-02-22
-// language=CSS
-//GM_addStyle('.message-row {padding: 0 0.5rem !important;}');
-// 2025-02-22
-// language=CSS
 GM_addStyle('.max-w-\\[50rem\\] {max-width: initial !important;}');
 // 2025-02-22
 // language=CSS
@@ -333,4 +324,4 @@ GM_addStyle(':has(> div > code) > .sticky > .absolute {top: -0.4rem !important;}
 GM_addStyle('form.bottom-0 {border: 1px solid #f2f2f2;}');
 // 2025-04-20
 // language=CSS
-GM_addStyle('form.bottom-0 textarea[aria-label="Ask Grok anything"] {height: 2em !important;}');
+//GM_addStyle('.query-bar form.bottom-0 textarea[aria-label="Ask Grok anything"] {height: 2em !important;}');
