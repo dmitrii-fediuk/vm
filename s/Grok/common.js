@@ -179,6 +179,19 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{line-height: .9 !important;}')
 ;
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	'*'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['scrollbar-color', 'scrollbar-width']
+			// language=Javascript
+			.map(k => `${k}: unset !important;`).join(' ') +
+	'}'
+);
 // 2025-04-19
 // language=CSS
 GM_addStyle([
