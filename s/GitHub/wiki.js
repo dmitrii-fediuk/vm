@@ -88,6 +88,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{font-size: revert !important;}')
 ;
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	'.gh-header-title' // 2025-04-20
+]
+	 // language=Javascript
+	.join(',') + '{font-weight: revert !important;}')
+;
 // 2025-04-18
 // language=CSS
 GM_addStyle([
