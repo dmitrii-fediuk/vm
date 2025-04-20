@@ -46,10 +46,10 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	'*'
+	'code'
 ]
 	 // language=Javascript
-	.join(',') + '{tab-size: 4 !important;}')
+	.join(',') + '{tab-size: revert !important;}')
 ;
 // 2025-03-27
 // language=CSS
