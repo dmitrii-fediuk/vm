@@ -328,3 +328,6 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle(':has(> div > code) > .sticky > .absolute {top: -0.4rem !important;}');
+// 2025-04-20
+// language=CSS
+GM_addStyle('form.bottom-0 {border: 1px solid black;}');
