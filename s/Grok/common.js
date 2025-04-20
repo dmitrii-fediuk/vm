@@ -165,7 +165,6 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.absolute:has(> button img[alt="pfp"])'
-	,':has(> div > code) > .sticky > .absolute' // 2025-04-20
 ]
 	 // language=Javascript
 	.join(',') + '{top: 0 !important;}')
