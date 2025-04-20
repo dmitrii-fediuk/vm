@@ -10,6 +10,7 @@
 // 2025-04-20
 // language=CSS
 GM_addStyle([
+	'share-viewer ~ *'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
