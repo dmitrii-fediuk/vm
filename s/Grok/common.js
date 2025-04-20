@@ -72,6 +72,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{background-color: unset !important;}')
 ;
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	'.bg-gradient-to-b'
+]
+	 // language=Javascript
+	.join(',') + '{background-image: unset !important;}')
+;
 // 2025-04-19
 // language=CSS
 GM_addStyle([
