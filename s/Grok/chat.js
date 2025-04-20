@@ -4,6 +4,7 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Grok/chat.js
 // @icon https://registry.npmmirror.com/@lobehub/icons-static-png/1.24.0/files/light/grok.png
 // @match *://grok.com/chat/*
+// @match *://grok.com/share/*
 // @name Grok / Chat
 // ==/UserScript==
 // 2025-02-21, 2025-04-19 "Improve `grok.com`": https://github.com/dmitrii-fediuk/vm/issues/92
