@@ -49,6 +49,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	':has(> div > code)'
+	,'form.bottom-0 textarea'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
