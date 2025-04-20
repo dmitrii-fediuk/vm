@@ -38,7 +38,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.chat-history'
-	,'.presented-response-container > .avatar-gutter'
+	,'.avatar-gutter'
 	,'.top-container'
 ]
 	// language=Javascript
