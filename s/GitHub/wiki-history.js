@@ -17,6 +17,14 @@ GM_addStyle([
 ;
 // 2025-04-20
 // language=CSS
+GM_addStyle([
+	'.Button--small' // 2025-04-20
+]
+	 // language=Javascript
+	.join(',') + '{font-weight: revert !important;}')
+;
+// 2025-04-20
+// language=CSS
 GM_addStyle('.h5 {font-size: 0.8em !important; margin: 0 !important;}');
 // 2025-04-20
 // language=CSS
