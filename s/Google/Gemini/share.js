@@ -37,8 +37,8 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	'.avatar-gutter'
-	,'.chat-history'
+	'.chat-history'
+	,'.presented-response-container > .avatar-gutter'
 	,'.top-container'
 ]
 	// language=Javascript
