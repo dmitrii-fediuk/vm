@@ -80,6 +80,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
 ;
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	'h1' // 2025-04-20
+]
+	 // language=Javascript
+	.join(',') + '{font-size: unset !important;}')
+;
 // 2025-04-18
 // language=CSS
 GM_addStyle([
@@ -129,14 +137,6 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// 2025-04-20
-// language=CSS
-GM_addStyle([
-	'h1' // 2025-04-20
-]
-	 // language=Javascript
-	.join(',') + '{font-family: unset !important;}')
-;
 // 2025-04-20
 // language=CSS
 GM_addStyle([
