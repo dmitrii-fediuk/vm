@@ -10,7 +10,7 @@
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	'.share-viewer_header-container-old ~ *'
+	'.share-viewer_chat-container ~ *'
 	,'share-viewer ~ *'
 ]
 	 // language=Javascript
