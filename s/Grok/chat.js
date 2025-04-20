@@ -9,6 +9,9 @@
 // 2025-02-21, 2025-04-19 "Improve `grok.com`": https://github.com/dmitrii-fediuk/vm/issues/92
 // language=CSS
 GM_addStyle([
+	'button[aria-label="Dislike"]' // 2025-04-20
+	,'button[aria-label="Like"]' // 2025-04-20
+	,'button[aria-label="Regenerate"]' // 2025-04-20
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
