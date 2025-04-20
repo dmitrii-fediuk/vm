@@ -82,7 +82,8 @@ GM_addStyle([
 // 2025-04-19
 // language=CSS
 GM_addStyle([
-	'.message-bubble'
+	'.border-transparent' // 2025-04-20
+	,'.message-bubble'
 	,':has(> div > code) > :first-child'
 ]
 	 // language=Javascript
