@@ -119,6 +119,14 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	'#chat-history' // 2025-04-20
+]
+	 // language=Javascript
+	.join(',') + '{overflow-x: visible !important;}')
+;
 // 2025-03-28 https://chatgpt.com/c/67e63433-b778-8003-9129-50e335c342b0
 // language=CSS
 GM_addStyle('infinite-scroller {overflow-y: auto !important;}');
