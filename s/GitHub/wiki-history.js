@@ -15,3 +15,11 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	'.f6' // 2025-04-20
+]
+	 // language=Javascript
+	.join(',') + '{font-weight: revert !important;}')
+;
