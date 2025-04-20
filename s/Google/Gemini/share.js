@@ -73,7 +73,7 @@ GM_addStyle([
 		Object.entries({
 			'display': 'block'
 			,'height': 'auto'
-			,'overflow-y': 'visible'
+			,'overflow': 'visible'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
