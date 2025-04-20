@@ -245,7 +245,7 @@ GM_addStyle([
 		Object.entries({
 			'height': 'auto'
 			// language=CSS
-			//,'overflow': 'visible'
+			,'overflow': 'visible'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
@@ -334,6 +334,3 @@ GM_addStyle(':has(> div > code) > .sticky > .absolute {top: -0.4rem !important;}
 // 2025-04-20
 // language=CSS
 GM_addStyle('form.bottom-0 {border: 1px solid #f2f2f2;}');
-// 2025-04-20
-// language=CSS
-//GM_addStyle('.query-bar form.bottom-0 textarea[aria-label="Ask Grok anything"] {height: 2em !important;}');
