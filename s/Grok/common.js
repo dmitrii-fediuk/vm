@@ -169,9 +169,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{top: 0 !important;}')
 ;
-// 2025-04-20
-// language=CSS
-GM_addStyle(':has(> div > code) > .sticky > .absolute {top: -0.4rem !important;}');
 // 2025-02-21
 // language=CSS
 GM_addStyle([
@@ -296,3 +293,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{margin: 0.1rem 0 !important;}')
 ;
+// 2025-04-20
+// language=CSS
+GM_addStyle(':has(> div > code) > .sticky > .absolute {top: -0.4rem !important;}');
