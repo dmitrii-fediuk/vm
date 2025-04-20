@@ -98,6 +98,15 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{border-radius: 0 !important;}')
 ;
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	'.shadow'
+	,'[class*="shadow-"]'
+]
+	 // language=Javascript
+	.join(',') + '{box-shadow: unset !important;}')
+;
 // 2025-04-19
 // language=CSS
 GM_addStyle([
