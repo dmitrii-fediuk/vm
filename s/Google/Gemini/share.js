@@ -45,7 +45,6 @@ GM_addStyle([
 	'.query-content'
 	,'.user-query-bubble-container'
 	,'.user-query-bubble-with-background'
-	,'user-query'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -67,3 +66,16 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle('body {margin: 0 1rem !important;}');
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	'user-query'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'background-color': '#f2f2f2'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
