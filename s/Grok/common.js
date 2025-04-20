@@ -56,7 +56,7 @@ GM_addStyle([
 // 2025-04-19
 // language=CSS
 GM_addStyle([
-	//'body'
+	'body'
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: white !important;}')
