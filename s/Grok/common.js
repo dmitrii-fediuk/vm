@@ -56,8 +56,6 @@ GM_addStyle([
 // 2025-04-19
 // language=CSS
 GM_addStyle([
-	//'.\\!font-mono'
-	//,'[class*="bg-"]'
 	'body'
 ]
 	 // language=Javascript
