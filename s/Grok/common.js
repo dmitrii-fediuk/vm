@@ -219,7 +219,7 @@ GM_addStyle('.max-w-\\[50rem\\] {max-width: initial !important;}');
 GM_addStyle(':has(> form.bottom-0) {padding-bottom: 0.25rem !important;}');
 // 2025-02-22 https://chatgpt.com/c/67b8fea1-5c7c-800c-acb7-7be0480d93dd
 // language=CSS
-GM_addStyle('.h-full {height: auto !important; overflow: visible !important;}');
+//GM_addStyle('.h-full {height: auto !important; overflow: visible !important;}');
 // language=CSS
 GM_addStyle('.\\@container\\/main > .bottom-0 {width: 100% !important;}');
 // 2025-02-22
