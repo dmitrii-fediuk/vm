@@ -69,7 +69,7 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	'margin'
+	'body'
 ]
 	 // language=Javascript
 	.join(',') + '{width: auto !important;}')
