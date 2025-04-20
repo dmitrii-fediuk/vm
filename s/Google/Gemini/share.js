@@ -24,6 +24,7 @@ GM_addStyle([
 GM_addStyle([
 	'.query-content'
 	,'.user-query-bubble-container'
+	,'.user-query-bubble-with-background > .horizontal-container'
 	,'user-query-content'
 ]
 	 // language=Javascript
