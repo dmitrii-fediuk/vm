@@ -117,13 +117,22 @@ GM_addStyle([
 GM_addStyle([
 	'body'
 ]
-	 // language=Javascript
-	.join(',') + '{font-family: Segoie UI !important;}')
-;
-// 2025-04-18
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'font-family': 'Segoie UI'
+			// language=Javascript
+			,'font-size': '155%'
+			// language=CSS
+			,'line-height': 1.25
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-04-20
 // language=CSS
 GM_addStyle([
-	'.markdown-body'
+	'.markdown-body' // 2025-04-20
 ]
 	 // language=Javascript
 	.join(',') + '{font-family: unset !important;}')
