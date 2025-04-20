@@ -34,3 +34,16 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	'.top-container'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['max-width', 'min-width', 'width']
+			// language=Javascript
+			.map(k => `${k}: 100% !important;`).join(' ') +
+	'}'
+);
