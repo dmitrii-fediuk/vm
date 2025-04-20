@@ -143,7 +143,7 @@ GM_addStyle([
 	'.markdown-body' // 2025-04-20
 ]
 	 // language=Javascript
-	.join(',') + '{unset: all !important;}')
+	.join(',') + '{all: unset !important;}')
 ;
 // 2025-04-18
 // language=CSS
