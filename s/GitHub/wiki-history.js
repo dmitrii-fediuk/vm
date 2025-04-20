@@ -17,9 +17,4 @@ GM_addStyle([
 ;
 // 2025-04-20
 // language=CSS
-GM_addStyle([
-	'.f6' // 2025-04-20
-]
-	 // language=Javascript
-	.join(',') + '{font-weight: revert !important;}')
-;
+GM_addStyle('.f6 {font-size: 0.8em !important; margin: 0 !important;}');
