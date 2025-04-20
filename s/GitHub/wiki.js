@@ -115,7 +115,6 @@ GM_addStyle([
 // 2025-04-18
 // language=CSS
 GM_addStyle([
-	//'.markdown-body'
 	'body'
 ]
 	 // language=Javascript
