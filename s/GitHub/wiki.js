@@ -83,19 +83,6 @@ GM_addStyle([
 // 2025-04-18
 // language=CSS
 GM_addStyle([
-	'.markdown-body code'
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
-			'font-family': 'Consolas'
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
-// 2025-04-18
-// language=CSS
-GM_addStyle([
 	'.markdown-body :not(pre) > code'
 ]
 	// language=Javascript
@@ -128,12 +115,33 @@ GM_addStyle([
 // 2025-04-18
 // language=CSS
 GM_addStyle([
-	'.markdown-body'
-	,'body'
+	//'.markdown-body'
+	'body'
 ]
 	 // language=Javascript
 	.join(',') + '{font-family: Segoie UI !important;}')
 ;
+// 2025-04-18
+// language=CSS
+GM_addStyle([
+	'.markdown-body'
+]
+	 // language=Javascript
+	.join(',') + '{font-family: unset !important;}')
+;
+// 2025-04-18
+// language=CSS
+GM_addStyle([
+	'.markdown-body code'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'font-family': 'Consolas'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 // 2025-04-18
 // language=CSS
 GM_addStyle('body {margin: 0 1rem !important;}');
