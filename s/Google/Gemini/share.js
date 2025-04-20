@@ -44,6 +44,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.query-content'
+	,'.response-container'
 	,'.user-query-bubble-container'
 	,'.user-query-bubble-with-background'
 	,'user-query'
