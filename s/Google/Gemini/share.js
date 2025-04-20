@@ -22,6 +22,15 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle([
+	'.user-query-bubble-container'
+	,'user-query-content'
+]
+	 // language=Javascript
+	.join(',') + '{display: block !important;}')
+;
+// 2025-04-20
+// language=CSS
+GM_addStyle([
 	'.top-container'
 	,'h1'
 ]
