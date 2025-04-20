@@ -44,6 +44,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	':has(> div > code)'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
 // 2025-04-19
 // language=CSS
 GM_addStyle([
