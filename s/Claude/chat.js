@@ -49,7 +49,7 @@ GM_addStyle([
 	'*'
 ]
 	 // language=Javascript
-	.join(',') + '{tab-size: unset !important;}')
+	.join(',') + '{tab-size: 4 !important;}')
 ;
 // 2025-03-27
 // language=CSS
