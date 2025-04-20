@@ -132,10 +132,18 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	'.markdown-body' // 2025-04-20
+	//'.markdown-body' // 2025-04-20
 ]
 	 // language=Javascript
 	.join(',') + '{font-family: unset !important;}')
+;
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	'.markdown-body' // 2025-04-20
+]
+	 // language=Javascript
+	.join(',') + '{unset: all !important;}')
 ;
 // 2025-04-18
 // language=CSS
