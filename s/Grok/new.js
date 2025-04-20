@@ -8,3 +8,11 @@
 // @name Grok / New
 // ==/UserScript==
 // 2025-02-21, 2025-04-19 "Improve `grok.com`": https://github.com/dmitrii-fediuk/vm/issues/92
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	'form.bottom-0 textarea'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
