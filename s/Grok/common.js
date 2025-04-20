@@ -53,6 +53,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	'[class*="backdrop-"]'
+]
+	 // language=Javascript
+	.join(',') + '{backdrop-filter: unset !important;}')
+;
 // 2025-04-19
 // language=CSS
 GM_addStyle([
