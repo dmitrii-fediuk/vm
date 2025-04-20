@@ -18,3 +18,18 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	'h1'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
