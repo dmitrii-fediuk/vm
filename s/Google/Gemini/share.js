@@ -40,6 +40,7 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle([
+	'.user-query-bubble-container'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
