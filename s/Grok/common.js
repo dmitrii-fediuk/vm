@@ -123,6 +123,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{font-size: 85% !important;}')
 ;
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	':has(> div > code)'
+]
+	 // language=Javascript
+	.join(',') + '{height: auto !important;}')
+;
 // 2025-04-19
 // 1) `inherit` and `revert` work too.
 // 2.1) https://developer.mozilla.org/en-US/docs/Web/CSS/unset
