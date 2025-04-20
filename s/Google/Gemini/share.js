@@ -31,7 +31,8 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	'.top-container'
+	'.query-content'
+	,'.top-container'
 	,'h1'
 ]
 	 // language=Javascript
@@ -40,7 +41,8 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	'.user-query-bubble-container'
+	'.query-content'
+	,'.user-query-bubble-container'
 	,'.user-query-bubble-with-background'
 ]
 	 // language=Javascript
