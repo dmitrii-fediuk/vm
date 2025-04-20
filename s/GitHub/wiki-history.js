@@ -10,7 +10,7 @@
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	'mt-4'
+	'.mt-4'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
