@@ -33,7 +33,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.\\!font-mono'
-	,'div.message-bubble'
+	,'.message-bubble'
 	,'.message-row'
 	,'.pt-20'
 	,'.query-bar'
@@ -81,7 +81,8 @@ GM_addStyle([
 // 2025-04-19
 // language=CSS
 GM_addStyle([
-	':has(> div > code) > :first-child'
+	'.message-bubble'
+	,':has(> div > code) > :first-child'
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
@@ -207,10 +208,10 @@ GM_addStyle([
 //GM_addStyle('.\\@container\\/main > div {padding: 0.25rem !important;}');
 // 2025-02-22
 // language=CSS
-GM_addStyle('.message-bubble {padding: 0.5rem !important;}');
+//GM_addStyle('.message-bubble {padding: 0.5rem !important;}');
 // 2025-02-22
 // language=CSS
-GM_addStyle('.message-row {padding: 0 0.5rem !important;}');
+//GM_addStyle('.message-row {padding: 0 0.5rem !important;}');
 // 2025-02-22
 // language=CSS
 GM_addStyle('.max-w-\\[50rem\\] {max-width: initial !important;}');
