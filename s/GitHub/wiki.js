@@ -145,14 +145,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
 ;
-// 2025-04-20
-// language=CSS
-GM_addStyle([
-	'.markdown-body' // 2025-04-20
-]
-	 // language=Javascript
-	.join(',') + '{all: revert-layer !important;}')
-;
 // 2025-04-18
 // language=CSS
 GM_addStyle([
