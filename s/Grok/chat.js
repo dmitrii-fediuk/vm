@@ -11,6 +11,7 @@
 // language=CSS
 GM_addStyle([
 	'.message-bubble ~ :has(.lucide-pencil-line)' // 2025-02-21
+	,'@container/nav'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
