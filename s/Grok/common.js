@@ -250,6 +250,9 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-04-20
+// language=CSS
+GM_addStyle('body {margin: 0 1rem !important;}');
 // 2025-04-19
 // language=CSS
 GM_addStyle('h1 {margin: 0.5rem 0 !important;}');
