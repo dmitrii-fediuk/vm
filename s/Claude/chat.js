@@ -43,6 +43,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	'*'
+]
+	 // language=Javascript
+	.join(',') + '{tab-size: unset !important;}')
+;
 // 2025-03-27
 // language=CSS
 GM_addStyle([
