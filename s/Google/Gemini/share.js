@@ -68,7 +68,7 @@ GM_addStyle([
 );
 // 2025-04-20
 // language=CSS
-GM_addStyle('body {margin: 0 1rem !important;}');
+GM_addStyle('body {margin: 0 1rem !important; width: unset !important;}');
 // 2025-04-20
 // language=CSS
 GM_addStyle([
