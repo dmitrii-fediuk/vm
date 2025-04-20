@@ -218,8 +218,21 @@ GM_addStyle('.max-w-\\[50rem\\] {max-width: initial !important;}');
 // language=CSS
 GM_addStyle(':has(> form.bottom-0) {padding-bottom: 0.25rem !important;}');
 // 2025-02-22 https://chatgpt.com/c/67b8fea1-5c7c-800c-acb7-7be0480d93dd
+// 2025-04-20
 // language=CSS
-GM_addStyle('.h-full {height: auto !important; overflow: visible !important;}');
+GM_addStyle([
+	'.h-full'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'height': 'auto'
+			// language=CSS
+			//,'overflow': 'visible'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 // language=CSS
 GM_addStyle('.\\@container\\/main > .bottom-0 {width: 100% !important;}');
 // 2025-02-22
