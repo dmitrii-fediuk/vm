@@ -41,6 +41,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.user-query-bubble-container'
+	,'.user-query-bubble-with-background'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
