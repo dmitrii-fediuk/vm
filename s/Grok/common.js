@@ -24,6 +24,7 @@ GM_addStyle([
 GM_addStyle([
 	'.bottom-0'
 	,'.top-0'
+	,':has(> div > code) > .sticky'
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
