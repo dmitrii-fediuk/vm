@@ -38,6 +38,7 @@ GM_addStyle([
 	,'.pt-20'
 	,'.query-bar'
 	,':has(.message-bubble)'
+	,':has(> [aria-label="Attach"])' // 2025-04-20
 	,':has(> div > code) > :first-child'
 	,':has(> form.bottom-0)'
 	,'form.bottom-0 textarea'
