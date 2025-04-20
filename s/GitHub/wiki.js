@@ -86,7 +86,7 @@ GM_addStyle([
 	'h1' // 2025-04-20
 ]
 	 // language=Javascript
-	.join(',') + '{font-size: unset !important;}')
+	.join(',') + '{font-size: revert !important;}')
 ;
 // 2025-04-18
 // language=CSS
