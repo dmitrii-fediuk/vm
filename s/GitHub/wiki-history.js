@@ -6,5 +6,12 @@
 // @match *://github.com/*/*/wiki/*/_history
 // @name GitHub / Wiki / History
 // ==/UserScript==
-// 2024-09-20, 2025-04-18 "Improve the GitHub appearance": https://github.com/dmitrii-fediuk/vm/issues/47
-console.log('History');
+// 2024-09-20 "Improve the GitHub appearance": https://github.com/dmitrii-fediuk/vm/issues/47
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	'mt-4'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
