@@ -14,6 +14,7 @@ GM_addStyle([
 	,'.boqOnegoogleliteOgbOneGoogleBar'
 	,'.desktop-ogb-buffer'
 	,'.share-viewer_chat-container ~ *'
+	,'button[mattooltip="Report"]' // 2025-04-21
 	,'share-viewer ~ *'
 	,'top-bar-actions' // 2025-04-21
 ]
