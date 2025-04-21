@@ -15,6 +15,7 @@ GM_addStyle([
 	,'.desktop-ogb-buffer'
 	,'.share-viewer_chat-container ~ *'
 	,'share-viewer ~ *'
+	,'top-bar-actions' // 2025-04-21
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
