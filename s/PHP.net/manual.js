@@ -76,6 +76,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#breadcrumbs'
+	,':root'
 	,'a'
 ]
 	 // language=Javascript
