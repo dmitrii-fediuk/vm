@@ -13,6 +13,7 @@ GM_addStyle([
 	,'#toTop'
 	,'#usernotes > .foot'
 	,'.change-language'
+	,'.contribute'
 	,'.tip > .tip'
 	,'.warning > .warning'
 	,':is(h1, h3, h3):after'
