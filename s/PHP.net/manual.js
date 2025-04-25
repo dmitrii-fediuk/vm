@@ -115,6 +115,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#layout > #layout-content'
+	,'#layout'
 ]
 	// language=Javascript
 	.join(',') + '{' +
