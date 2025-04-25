@@ -75,6 +75,14 @@ GM_addStyle([
 // 2025-04-25
 // language=CSS
 GM_addStyle([
+	'#layout-content'
+]
+	 // language=Javascript
+	.join(',') + '{float: none !important;}')
+;
+// 2025-04-25
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{text-align: initial !important;}')
