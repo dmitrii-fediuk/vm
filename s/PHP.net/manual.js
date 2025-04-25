@@ -11,6 +11,7 @@
 GM_addStyle([
 	'#breadcrumbs-inner > :not(ul)'
 	,'#toTop'
+	,'#usernotes > .foot'
 	,'.change-language'
 	,'aside.layout-menu'
 	,'footer'
