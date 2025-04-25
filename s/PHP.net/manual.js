@@ -75,6 +75,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#breadcrumbs'
+	,'a'
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
