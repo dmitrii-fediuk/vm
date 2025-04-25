@@ -38,7 +38,8 @@ GM_addStyle([
 // 2025-04-25
 // language=CSS
 GM_addStyle([
-	'#layout'
+	'#breadcrumbs-inner'
+	,'#layout'
 	,'h1'
 ]
 	 // language=Javascript
@@ -110,7 +111,8 @@ GM_addStyle([
 // 2025-04-25
 // language=CSS
 GM_addStyle([
-	'#layout > #layout-content'
+	'#breadcrumbs-inner'
+	,'#layout > #layout-content'
 	,'#layout'
 ]
 	// language=Javascript
