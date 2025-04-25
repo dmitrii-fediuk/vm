@@ -13,6 +13,7 @@ GM_addStyle([
 	,'#toTop'
 	,'#usernotes > .foot'
 	,'.change-language'
+	,':is(h1, h3, h3):after'
 	,'aside.layout-menu'
 	,'footer'
 	,'nav.navbar-fixed-top'
