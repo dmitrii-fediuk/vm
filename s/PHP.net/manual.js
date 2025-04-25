@@ -42,6 +42,7 @@ GM_addStyle([
 // 2025-04-25
 // language=CSS
 GM_addStyle([
+	'#breadcrumbs'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
