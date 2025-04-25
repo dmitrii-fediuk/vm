@@ -41,7 +41,6 @@ GM_addStyle([
 	'#breadcrumbs-inner'
 	,'#layout'
 	,'.refsect1'
-	,'h1'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -168,10 +167,10 @@ GM_addStyle('h1 {font-size: 2rem !important; margin: 0.3rem 0 !important;}');
 GM_addStyle('h2 {font-size: 1.6rem !important; margin: 0.5rem 0 !important;}');
 // 2025-04-25
 // language=CSS
-GM_addStyle('h3 {margin: 0.25rem 0 !important;}');
+GM_addStyle('h3 {font-size: 1.5rem !important; margin: 0.25rem 0 !important;}');
 // 2025-04-25
 // language=CSS
-GM_addStyle('h4 {margin: 0.2rem 0 !important;}');
+GM_addStyle('h4 {font-size: 1.4rem !important; margin: 0.2rem 0 !important;}');
 // 2025-04-25
 // language=CSS
 GM_addStyle([
