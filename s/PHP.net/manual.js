@@ -40,6 +40,7 @@ GM_addStyle([
 GM_addStyle([
 	'#breadcrumbs-inner'
 	,'#layout'
+	,'.refsect1'
 	,'h1'
 ]
 	 // language=Javascript
