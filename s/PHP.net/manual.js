@@ -9,7 +9,8 @@
 // 2025-04-25 "Improve ``php.net`": https://github.com/dmitrii-fediuk/vm/issues/107
 // language=CSS
 GM_addStyle([
-	'aside.layout-menu'
+	'.change-language'
+	,'aside.layout-menu'
 	,'nav.navbar-fixed-top'
 ]
 	 // language=Javascript
