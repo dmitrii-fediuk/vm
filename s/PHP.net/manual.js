@@ -149,6 +149,7 @@ GM_addStyle([
 GM_addStyle([
 	'#breadcrumbs'
 	,'code'
+	,'code.parameter'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: revert !important;}')
