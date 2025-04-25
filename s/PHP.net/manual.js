@@ -136,6 +136,14 @@ GM_addStyle([
 // 2025-04-25
 // language=CSS
 GM_addStyle([
+	'#usernotes code'
+]
+	 // language=Javascript
+	.join(',') + '{font-family: revert !important;}')
+;
+// 2025-04-25
+// language=CSS
+GM_addStyle([
 	'#breadcrumbs'
 	,'code'
 ]
