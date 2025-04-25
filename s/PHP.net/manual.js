@@ -44,6 +44,7 @@ GM_addStyle([
 GM_addStyle([
 	'#breadcrumbs'
 	,'#breadcrumbs-inner > ul'
+	,'#layout-content'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
