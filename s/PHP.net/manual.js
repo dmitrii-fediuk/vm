@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	'#breadcrumbs-inner > :not(ul)'
+	,'#toTop'
 	,'.change-language'
 	,'aside.layout-menu'
 	,'footer'
