@@ -3,7 +3,7 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/PHP.net/manual.js
 // @icon https://www.php.net/favicon.svg?v=2
-// @match https://www.php.net/*
+// @match https://www.php.net/manual/*
 // @name PHP.net / Manual
 // ==/UserScript==
 // 2025-04-25 "Improve ``php.net`": https://github.com/dmitrii-fediuk/vm/issues/107
