@@ -74,13 +74,6 @@ GM_addStyle([
 GM_addStyle([
 ]
 	 // language=Javascript
-	.join(',') + '{background-color: initial !important;}')
-;
-// 2025-04-25
-// language=CSS
-GM_addStyle([
-]
-	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
 ;
 // 2025-04-25
