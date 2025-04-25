@@ -12,6 +12,7 @@ GM_addStyle([
 	'#breadcrumbs-inner > :not(ul)'
 	,'.change-language'
 	,'aside.layout-menu'
+	,'footer'
 	,'nav.navbar-fixed-top'
 ]
 	 // language=Javascript
