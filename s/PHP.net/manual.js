@@ -144,6 +144,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{table-layout: unset !important;}')
 ;
+// 2025-04-26
+// language=CSS
+GM_addStyle([
+	'table > caption'
+]
+	 // language=Javascript
+	.join(',') + '{text-align: unset !important;}')
+;
 // 2025-04-25
 // language=CSS
 GM_addStyle([
