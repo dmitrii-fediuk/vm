@@ -235,7 +235,7 @@ GM_addStyle([
 	'#usernotes .note'
 ]
 	 // language=Javascript
-	.join(',') + '{display: flex;}')
+	.join(',') + '{display: flex; flex-direction: column;}')
 ;
 // 2025-04-26
 // language=CSS
