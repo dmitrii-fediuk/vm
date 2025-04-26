@@ -148,6 +148,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#breadcrumbs'
+	,'.dc-description'
 	,'code'
 	,'code.parameter'
 ]
