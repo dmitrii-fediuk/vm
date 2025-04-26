@@ -204,7 +204,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
 ;
-// 2025-04-25
+// 2025-04-26
 // language=CSS
 GM_addStyle([
 	'.verinfo'
@@ -212,6 +212,14 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: 80% !important;}')
+;
+// 2025-04-26
+// language=CSS
+GM_addStyle([
+	'.genanchor'
+]
+	 // language=Javascript
+	.join(',') + '{font-size: 50% !important;}')
 ;
 // 2025-04-25
 // language=CSS
