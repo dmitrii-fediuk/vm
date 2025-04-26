@@ -131,7 +131,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{clear: both !important;}')
 ;
-// 2025-04-26
+// 2025-04-27
 // language=CSS
 GM_addStyle([
 	'#usernotes .note > .text' // 2025-04-26 https://g.co/gemini/share/67bc09143588
