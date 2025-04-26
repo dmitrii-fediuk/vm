@@ -113,9 +113,10 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#layout-content'
+	,'#usernotes .note *'
 ]
 	 // language=Javascript
-	.join(',') + '{float: none !important;}')
+	.join(',') + '{float: unset !important;}')
 ;
 // 2025-04-25
 // language=CSS
@@ -135,13 +136,6 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
-;
-// 2025-04-25
-// language=CSS
-GM_addStyle([
-]
-	 // language=Javascript
-	.join(',') + '{text-align: initial !important;}')
 ;
 // 2025-04-25
 // language=CSS
@@ -176,7 +170,8 @@ GM_addStyle([
 // 2025-04-26
 // language=CSS
 GM_addStyle([
-	'table > caption'
+	'#usernotes .note > *'
+	,'table > caption'
 ]
 	 // language=Javascript
 	.join(',') + '{text-align: unset !important;}')
@@ -247,7 +242,6 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			'display': 'block'
-			,'float': 'unset'
 			,'text-align': 'unset'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
