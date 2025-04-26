@@ -71,6 +71,14 @@ GM_addStyle([
 // 2025-04-25
 // language=CSS
 GM_addStyle([
+	'#usernotes .note .text'
+]
+	 // language=Javascript
+	.join(',') + '{box-shadow: unset !important;}')
+;
+// 2025-04-25
+// language=CSS
+GM_addStyle([
 	'#breadcrumbs'
 	,'#layout-content'
 	,':root'
