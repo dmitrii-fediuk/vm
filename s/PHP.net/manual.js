@@ -101,6 +101,7 @@ GM_addStyle([
 	'#breadcrumbs'
 	,'#layout-content'
 	,'#usernotes .note .date'
+	,'#usernotes .note .votes .tally'
 	,':root'
 	,'a'
 ]
