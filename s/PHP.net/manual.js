@@ -131,6 +131,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{clear: both !important;}')
 ;
+// 2025-04-26
+// language=CSS
+GM_addStyle([
+	'#usernotes .note > .text' // 2025-04-26 https://g.co/gemini/share/67bc09143588
+]
+	 // language=Javascript
+	.join(',') + '{flex-basis: 100%; !important;}')
+;
 // 2025-04-25
 // language=CSS
 GM_addStyle([
@@ -254,9 +262,6 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// 2025-04-26
-// language=CSS
-GM_addStyle('#usernotes .note > .text {flex-basis: 100%;}');
 // 2025-04-25
 // language=CSS
 GM_addStyle([
