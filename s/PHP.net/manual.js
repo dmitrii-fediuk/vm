@@ -341,7 +341,10 @@ GM_addStyle([
 ;
 // 2025-04-26
 // language=CSS
-GM_addStyle('#usernotes .note {margin: 0.7rem 0 !important;}');
+GM_addStyle('#usernotes .note {margin: 0.7rem 0;}');
+// 2025-04-26
+// language=CSS
+GM_addStyle('#usernotes .note:first-child {margin-top: 0;}');
 // 2025-04-26
 // language=CSS
 GM_addStyle([
