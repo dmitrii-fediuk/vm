@@ -230,22 +230,19 @@ GM_addStyle([
 GM_addStyle([
 	'#usernotes .note'
 ]
-	 // language=Javascript
-	.join(',') + '{display: flex; flex-direction: column;}')
-;
-// 2025-04-26
-// language=CSS
-GM_addStyle([
-	//'#usernotes .note > :not(.name)'
-]
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'display': 'block'
+			'display': 'flex'
+			,'flex-direction': 'row'
+			,'flex-wrap': 'wrap'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-04-26
+// language=CSS
+GM_addStyle('#usernotes .note .text {flex-basis: 100%;}');
 // 2025-04-26
 // language=CSS
 GM_addStyle([
