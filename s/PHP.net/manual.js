@@ -152,7 +152,7 @@ GM_addStyle([
 	,'code.parameter'
 ]
 	 // language=Javascript
-	.join(',') + '{font-size: revert !important;}')
+	.join(',') + '{font-size: unset !important;}')
 ;
 // 2025-04-25
 // language=CSS
