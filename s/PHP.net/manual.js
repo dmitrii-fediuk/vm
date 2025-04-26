@@ -242,9 +242,16 @@ GM_addStyle([
 GM_addStyle([
 	'#usernotes .note > :not(.name)'
 ]
-	 // language=Javascript
-	.join(',') + '{display: block; float: none !important;}')
-;
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'display': 'block'
+			,'float': 'unset'
+			,'text-align': 'unset'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 // 2025-04-26
 // language=CSS
 GM_addStyle([
