@@ -181,7 +181,8 @@ GM_addStyle([
 // 2025-04-26
 // language=CSS
 GM_addStyle([
-	'code.parameter'
+	'.dc-description'
+	,'code.parameter'
 ]
 	// language=Javascript
 	.join(',') + '{' +
