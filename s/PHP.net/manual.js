@@ -45,6 +45,7 @@ GM_addStyle([
 	'#breadcrumbs-inner'
 	,'#layout'
 	,'.refsect1'
+	,'dd'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
