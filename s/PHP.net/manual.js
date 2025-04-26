@@ -212,7 +212,7 @@ GM_addStyle([
 		Object.entries({
 			'font-family': 'Consolas'
 			// language=Javascript
-			,'font-size': '95%'
+			,'font-size': '1.5rem'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
