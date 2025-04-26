@@ -285,6 +285,7 @@ GM_addStyle([
 	'.dc-description'
 	,'.refentry code'
 	,'code.parameter'
+	,'var'
 ]
 	// language=Javascript
 	.join(',') + '{' +
