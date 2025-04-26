@@ -180,6 +180,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#usernotes .note .date strong'
+	,'strong'
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: revert !important;}')
