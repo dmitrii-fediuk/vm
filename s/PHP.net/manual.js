@@ -301,7 +301,13 @@ GM_addStyle([
 GM_addStyle('body {margin: 0 1rem !important;}');
 // 2025-04-26
 // language=CSS
-GM_addStyle('#usernotes .html > span > br {content: ""; display: block !important; height: 1px !important;}');
+GM_addStyle('#usernotes .html br {content: ""; display: block !important;}');
+// 2025-04-26
+// language=CSS
+GM_addStyle('#usernotes .html > br {height: 0.25rem;}');
+// 2025-04-26
+// language=CSS
+GM_addStyle('#usernotes .html > span > br {height: 1px;}');
 // 2025-04-26
 // language=CSS
 GM_addStyle('dt {margin: 0.5rem 0 0 0 !important;}');
