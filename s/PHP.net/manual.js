@@ -136,6 +136,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{overflow-x: unset !important;}')
 ;
+// 2025-04-26
+// language=CSS
+GM_addStyle([
+	'table.table'
+]
+	 // language=Javascript
+	.join(',') + '{table-layout: unset !important;}')
+;
 // 2025-04-25
 // language=CSS
 GM_addStyle([
