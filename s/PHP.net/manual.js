@@ -364,6 +364,10 @@ GM_addStyle([
 			// 3) https://grok.com/share/bGVnYWN5_d2ab66f6-50f5-4245-a0de-8f33657c838c
 			// language=Javascript
 			'content': 'attr(title)'
+			// 2025-04-27
+			// 1) https://chatgpt.com/share/680d4de7-af4c-8003-8435-355cf811e6ab
+			// 2) https://chatgpt.com/share/680d4dfe-c948-8003-aac9-9abd046334c2
+			// 3) https://grok.com/share/bGVnYWN5_3a21777e-7289-4fc9-8336-c8a5b23e3718
 			// language=CSS
 			,'display': 'block'
 			,'overflow': 'hidden'
