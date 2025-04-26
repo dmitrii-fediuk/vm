@@ -15,6 +15,7 @@ GM_addStyle([
 	,'#usernotes .note > .name'
 	,'#usernotes .note > .votes > :not(.tally)'
 	,'#usernotes > .foot'
+	,'#usernotes > .head > .action'
 	,'#usernotes h3 > .count'
 	,'.change-language'
 	,'.contribute'
