@@ -126,6 +126,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{line-height: initial !important;}')
 ;
+// 2025-04-26
+// language=CSS
+GM_addStyle([
+	'code'
+]
+	 // language=Javascript
+	.join(',') + '{overflow-x: unset !important;}')
+;
 // 2025-04-25
 // language=CSS
 GM_addStyle([
