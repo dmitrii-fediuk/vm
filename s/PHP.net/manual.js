@@ -340,7 +340,7 @@ GM_addStyle([
 ;
 // 2025-04-26
 // language=CSS
-GM_addStyle('#usernotes .note {margin: 0.5rem 0 !important;}');
+GM_addStyle('#usernotes .note {margin: 0.7rem 0 !important;}');
 // 2025-04-26
 // language=CSS
 GM_addStyle([
