@@ -195,6 +195,14 @@ GM_addStyle([
 // 2025-04-25
 // language=CSS
 GM_addStyle([
+	'.verinfo'
+]
+	 // language=Javascript
+	.join(',') + '{font-size: 90% !important;}')
+;
+// 2025-04-25
+// language=CSS
+GM_addStyle([
 	'#usernotes .note .name'
 	,'h1', 'h2', 'h3', 'h4', 'h5', 'h6'
 ]
