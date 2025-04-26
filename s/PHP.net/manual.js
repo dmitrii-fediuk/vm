@@ -258,6 +258,9 @@ GM_addStyle([
 GM_addStyle('body {margin: 0 1rem !important;}');
 // 2025-04-26
 // language=CSS
+GM_addStyle('#usernotes br {display: block !important; content: ""; height: 1px !important;}');
+// 2025-04-26
+// language=CSS
 GM_addStyle('dt {margin: 0.5rem 0 0 0 !important;}');
 // 2025-04-26
 // language=CSS
