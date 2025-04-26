@@ -282,9 +282,10 @@ GM_addStyle([
 // 2025-04-26
 // language=CSS
 GM_addStyle([
-	'.dc-description'
-	,'.refentry code'
-	,'code.parameter'
+	'#layout-content > :not(#usernotes) code'
+	,'.dc-description'
+	//,'.refentry code'
+	//,'code.parameter'
 	,'var'
 ]
 	// language=Javascript
