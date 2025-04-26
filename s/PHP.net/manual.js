@@ -185,7 +185,7 @@ GM_addStyle([
 // 2025-04-27
 // language=CSS
 GM_addStyle([
-	'.doctable thead th' // 2025-04-27
+	'.doctable thead th'
 ]
 	 // language=Javascript
 	.join(',') + '{top: unset !important;}')
