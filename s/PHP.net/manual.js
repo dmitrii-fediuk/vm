@@ -213,7 +213,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#breadcrumbs'
-	,'#usernotes .note > :is(.date, .votes)'
+	//,'#usernotes .note > :is(.date, .votes)'
 	,'.verinfo'
 ]
 	 // language=Javascript
