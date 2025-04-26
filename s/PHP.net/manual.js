@@ -240,6 +240,14 @@ GM_addStyle([
 // 2025-04-26
 // language=CSS
 GM_addStyle([
+	'#usernotes .note > *'
+]
+	 // language=Javascript
+	.join(',') + '{float: none;}')
+;
+// 2025-04-26
+// language=CSS
+GM_addStyle([
 	'#usernotes .note .date strong'
 ]
 	 // language=Javascript
