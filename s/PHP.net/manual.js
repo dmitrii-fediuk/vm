@@ -255,7 +255,7 @@ GM_addStyle('dt {margin: 0.5rem 0 0 0 !important;}');
 GM_addStyle('dd {margin: 0 0 0.5rem 0 !important;}');
 // 2025-04-25
 // language=CSS
-GM_addStyle('h1 {font-size: 2.25rem !important; margin: 0.3rem 0 !important;}');
+GM_addStyle('h1 {font-size: 2.5rem !important; margin: 0 0 0.3rem 0 !important;}');
 // 2025-04-25
 // language=CSS
 GM_addStyle('h2 {font-size: 2rem !important; margin: 0.5rem 0 !important;}');
