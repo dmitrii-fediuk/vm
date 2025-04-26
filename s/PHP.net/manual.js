@@ -232,6 +232,14 @@ GM_addStyle([
 // 2025-04-26
 // language=CSS
 GM_addStyle([
+	'#usernotes .note'
+]
+	 // language=Javascript
+	.join(',') + '{display: flex;}')
+;
+// 2025-04-26
+// language=CSS
+GM_addStyle([
 	'#usernotes .note .date strong'
 ]
 	 // language=Javascript
