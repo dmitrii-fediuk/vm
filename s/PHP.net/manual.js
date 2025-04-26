@@ -114,6 +114,25 @@ GM_addStyle([
 // 2025-04-25
 // language=CSS
 GM_addStyle([
+	'#usernotes code'
+]
+	 // language=Javascript
+	.join(',') + '{font-family: unset !important;}')
+;
+// 2025-04-25
+// language=CSS
+GM_addStyle([
+	'#breadcrumbs'
+	,'.dc-description'
+	,'code'
+	,'code.parameter'
+]
+	 // language=Javascript
+	.join(',') + '{font-size: unset !important;}')
+;
+// 2025-04-25
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{text-align: initial !important;}')
@@ -179,25 +198,6 @@ GM_addStyle([
 // 2025-04-25
 // language=CSS
 GM_addStyle([
-	'#usernotes code'
-]
-	 // language=Javascript
-	.join(',') + '{font-family: unset !important;}')
-;
-// 2025-04-25
-// language=CSS
-GM_addStyle([
-	'#breadcrumbs'
-	,'.dc-description'
-	,'code'
-	,'code.parameter'
-]
-	 // language=Javascript
-	.join(',') + '{font-size: unset !important;}')
-;
-// 2025-04-25
-// language=CSS
-GM_addStyle([
 	'#usernotes .note .name'
 	,'h1', 'h2', 'h3', 'h4', 'h5', 'h6'
 ]
@@ -258,7 +258,8 @@ GM_addStyle([
 // 2025-04-26
 // language=CSS
 GM_addStyle([
-	'code.parameter'
+	'#usernotes .note > :is(.date, .votes)'
+	,'code.parameter'
 	,'strong > code'
 ]
 	 // language=Javascript
