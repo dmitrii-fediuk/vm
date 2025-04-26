@@ -185,7 +185,6 @@ GM_addStyle([
 GM_addStyle([
 	'#breadcrumbs'
 	,'.dc-description'
-	,'.verinfo'
 	,'code'
 	,'code.parameter'
 ]
