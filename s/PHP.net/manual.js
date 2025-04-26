@@ -368,7 +368,7 @@ GM_addStyle([
 			,'display': 'inline-block'
 			,'overflow': 'hidden'
 			,'white-space': 'nowrap'
-			,'width': '10ch'
+			,'width': '9.5ch'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
