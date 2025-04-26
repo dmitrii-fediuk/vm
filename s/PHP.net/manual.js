@@ -15,6 +15,7 @@ GM_addStyle([
 	,'#usernotes .note > .name'
 	,'#usernotes .note > .votes > :not(.tally)'
 	,'#usernotes > .foot'
+	,'#usernotes h3 > .count'
 	,'.change-language'
 	,'.contribute'
 	,'.genanchor'
@@ -201,8 +202,7 @@ GM_addStyle([
 // 2025-04-25
 // language=CSS
 GM_addStyle([
-	'#usernotes .count'
-	,'h1', 'h2', 'h3', 'h4', 'h5', 'h6'
+	'h1', 'h2', 'h3', 'h4', 'h5', 'h6'
 ]
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
