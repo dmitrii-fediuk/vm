@@ -168,6 +168,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{font-size: 80% !important;}')
 ;
+// 2025-04-26
+// language=CSS
+GM_addStyle([
+	'#usernotes .note .date strong'
+]
+	 // language=Javascript
+	.join(',') + '{font-weight: revert !important;}')
+;
 // 2025-04-25
 // language=CSS
 GM_addStyle([
@@ -249,14 +257,6 @@ GM_addStyle([
 // 2025-04-26
 // language=CSS
 GM_addStyle('#usernotes .note > .text {flex-basis: 100%;}');
-// 2025-04-26
-// language=CSS
-GM_addStyle([
-	'#usernotes .note .date strong'
-]
-	 // language=Javascript
-	.join(',') + '{font-weight: revert !important;}')
-;
 // 2025-04-25
 // language=CSS
 GM_addStyle([
