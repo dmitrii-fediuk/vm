@@ -224,8 +224,11 @@ GM_addStyle([
 	'.genanchor'
 ]
 	 // language=Javascript
-	.join(',') + '{font-size: 50% !important;}')
+	.join(',') + '{display: none; font-size: 50% !important;}')
 ;
+// 2025-04-26
+// language=CSS
+GM_addStyle('.genanchor:hover {display: inline;}');
 // 2025-04-26
 // language=CSS
 GM_addStyle([
