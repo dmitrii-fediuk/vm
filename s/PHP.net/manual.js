@@ -243,7 +243,7 @@ GM_addStyle([
 	'#usernotes .note > *'
 ]
 	 // language=Javascript
-	.join(',') + '{float: none;}')
+	.join(',') + '{float: none !important;}')
 ;
 // 2025-04-26
 // language=CSS
