@@ -6,7 +6,7 @@
 // @match https://www.php.net/manual/*
 // @name PHP.net / Manual
 // ==/UserScript==
-// 2025-04-25 "Improve ``php.net`": https://github.com/dmitrii-fediuk/vm/issues/107
+// 2025-04-25 "Improve `php.net`": https://github.com/dmitrii-fediuk/vm/issues/107
 // language=CSS
 GM_addStyle([
 	'#breadcrumbs-inner > :not(ul)'
