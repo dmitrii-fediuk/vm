@@ -221,6 +221,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{font-size: 50% !important;}')
 ;
+// 2025-04-26
+// language=CSS
+GM_addStyle([
+	'#usernotes .note .date strong'
+]
+	 // language=Javascript
+	.join(',') + '{font-weight: revert !important;}')
+;
 // 2025-04-25
 // language=CSS
 GM_addStyle([
