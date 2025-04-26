@@ -44,6 +44,7 @@ GM_addStyle([
 GM_addStyle([
 	'#breadcrumbs-inner'
 	,'#layout'
+	,'#usernotes'
 	,'.example'
 	,'.refsect1'
 	,'blockquote.note'
