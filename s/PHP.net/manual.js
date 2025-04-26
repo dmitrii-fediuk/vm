@@ -282,7 +282,7 @@ GM_addStyle([
 // 2025-04-26
 // language=CSS
 GM_addStyle([
-	'#layout-content > :not(#usernotes) code'
+	'#layout-content > :not(#usernotes) code' // 2025-04-27
 	,'.dc-description'
 	//,'.refentry code'
 	//,'code.parameter'
