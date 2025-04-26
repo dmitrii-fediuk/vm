@@ -202,8 +202,7 @@ GM_addStyle([
 // 2025-04-25
 // language=CSS
 GM_addStyle([
-	'#usernotes .note .name'
-	,'h1', 'h2', 'h3', 'h4', 'h5', 'h6'
+	'h1', 'h2', 'h3', 'h4', 'h5', 'h6'
 ]
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
@@ -212,7 +211,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.verinfo'
-	,'#usernotes .note > :is(.date, .name, .votes)'
+	,'#usernotes .note > :is(.date, .votes)'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: 80% !important;}')
