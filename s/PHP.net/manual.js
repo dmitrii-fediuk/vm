@@ -45,6 +45,8 @@ GM_addStyle([
 	'#breadcrumbs-inner'
 	,'#layout'
 	,'.refsect1'
+	,'blockquote.note'
+	,'div:is(.caution, .tip, .warning)'
 	,'table.table'
 ]
 	 // language=Javascript
