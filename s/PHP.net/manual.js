@@ -27,9 +27,10 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
-// 2025-04-25
+// 2025-04-26
 // language=CSS
 GM_addStyle([
+	'#usernotes .note > :not(.name)'
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
@@ -235,14 +236,13 @@ GM_addStyle([
 // 2025-04-26
 // language=CSS
 GM_addStyle([
-	'#usernotes .note > :not(.name)'
+	//'#usernotes .note > :not(.name)'
 ]
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
 			'display': 'block'
-			,'text-align': 'unset'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
