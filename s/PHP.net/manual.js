@@ -240,10 +240,10 @@ GM_addStyle([
 // 2025-04-26
 // language=CSS
 GM_addStyle([
-	'#usernotes .note > *'
+	'#usernotes .note > :not(.name)'
 ]
 	 // language=Javascript
-	.join(',') + '{float: none !important;}')
+	.join(',') + '{display: block; float: none !important;}')
 ;
 // 2025-04-26
 // language=CSS
