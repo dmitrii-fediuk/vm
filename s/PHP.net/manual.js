@@ -303,6 +303,7 @@ GM_addStyle([
 	'#usernotes .note > :is(.date, .votes)'
 	,'code.parameter'
 	,'strong > code'
+	,'var'
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: 600 !important;}')
