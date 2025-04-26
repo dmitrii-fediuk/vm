@@ -365,6 +365,7 @@ GM_addStyle([
 			// language=Javascript
 			'content': 'attr(title)'
 			// language=CSS
+			,'display': 'inline-block'
 			,'overflow': 'hidden'
 			,'white-space': 'nowrap'
 			,'width': '10ch'
