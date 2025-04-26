@@ -201,6 +201,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'code.parameter'
+	,'strong > code'
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: 600 !important;}')
