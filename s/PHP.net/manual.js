@@ -46,7 +46,7 @@ GM_addStyle([
 	,'#layout'
 	,'.refsect1'
 	,'dd'
-	,'table'
+	,'table.table'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
