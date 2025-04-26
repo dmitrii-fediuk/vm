@@ -203,7 +203,7 @@ GM_addStyle([
 	'code.parameter'
 ]
 	 // language=Javascript
-	.join(',') + '{font-weight: bold !important;}')
+	.join(',') + '{font-weight: 600 !important;}')
 ;
 // 2025-04-25
 // language=CSS
