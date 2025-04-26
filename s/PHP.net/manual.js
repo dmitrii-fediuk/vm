@@ -303,7 +303,8 @@ GM_addStyle([
 // 2025-04-26
 // language=CSS
 GM_addStyle([
-	'#usernotes .note > :is(.date, .votes)'
+	'#layout-content > :not(#usernotes) :not(.phpcode) > code' // 2025-04-27
+	,'#usernotes .note > :is(.date, .votes)'
 	,'.function' // 2025-04-27
 	,'code.parameter'
 	,'strong > code'
