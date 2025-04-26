@@ -142,7 +142,7 @@ GM_addStyle([
 	'#usernotes code'
 ]
 	 // language=Javascript
-	.join(',') + '{font-family: revert !important;}')
+	.join(',') + '{font-family: unset !important;}')
 ;
 // 2025-04-25
 // language=CSS
