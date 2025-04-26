@@ -64,6 +64,7 @@ GM_addStyle([
 	,'#breadcrumbs-inner > ul'
 	,'#layout-content'
 	,'#usernotes .note .text'
+	,'#usernotes .note .votes .tally'
 	,'dd'
 ]
 	 // language=Javascript
