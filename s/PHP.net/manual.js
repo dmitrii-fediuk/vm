@@ -52,6 +52,7 @@ GM_addStyle([
 	'#breadcrumbs-inner'
 	,'#layout'
 	,'#usernotes'
+	,'.dc-description'
 	,'.example'
 	,'.refsect1'
 	,'blockquote.note'
