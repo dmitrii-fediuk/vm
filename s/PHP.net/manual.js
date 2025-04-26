@@ -286,6 +286,7 @@ GM_addStyle([
 	'#layout-content > :not(#usernotes) code' // 2025-04-27
 	,'.dc-description'
 	,'.function' // 2025-04-27
+	,'.type' // 2025-04-27
 	//,'.refentry code'
 	//,'code.parameter'
 	,'var'
@@ -306,6 +307,7 @@ GM_addStyle([
 	'#layout-content > :not(#usernotes) :not(.phpcode) > code' // 2025-04-27
 	,'#usernotes .note > :is(.date, .votes)'
 	,'.function' // 2025-04-27
+	,'.type' // 2025-04-27
 	,'code.parameter'
 	,'strong > code'
 	,'var'
