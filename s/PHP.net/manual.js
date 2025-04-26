@@ -284,7 +284,7 @@ GM_addStyle([
 GM_addStyle([
 	'#layout-content > :not(#usernotes) code' // 2025-04-27
 	,'.dc-description'
-	,'.function'
+	,'.function' // 2025-04-27
 	//,'.refentry code'
 	//,'code.parameter'
 	,'var'
