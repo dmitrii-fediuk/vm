@@ -350,9 +350,6 @@ GM_addStyle([
 	.join(',') + '{padding: 0.25rem !important;}')
 ;
 // 2025-04-26
-// 1) https://g.co/gemini/share/ff6066c51647
-// 2) https://chatgpt.com/share/680d3239-ed6c-8003-980d-2f3feb675f0a
-// 3) https://grok.com/share/bGVnYWN5_d2ab66f6-50f5-4245-a0de-8f33657c838c
 // language=CSS
 GM_addStyle([
 	'#usernotes .note > .date::after'
@@ -361,8 +358,16 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
+			// 2025-04-26
+			// 1) https://g.co/gemini/share/ff6066c51647
+			// 2) https://chatgpt.com/share/680d3239-ed6c-8003-980d-2f3feb675f0a
+			// 3) https://grok.com/share/bGVnYWN5_d2ab66f6-50f5-4245-a0de-8f33657c838c
 			// language=Javascript
 			'content': 'attr(title)'
+			// language=CSS
+			,'overflow': 'hidden'
+			,'white-space': 'nowrap'
+			,'width': '10ch'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
