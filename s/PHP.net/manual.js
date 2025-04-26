@@ -42,9 +42,10 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#breadcrumbs'
+	,'.doctable thead th' // 2025-04-27
 ]
 	 // language=Javascript
-	.join(',') + '{position: initial !important;}')
+	.join(',') + '{position: unset !important;}')
 ;
 // 2025-04-25
 // language=CSS
@@ -180,6 +181,14 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{text-align: unset !important;}')
+;
+// 2025-04-27
+// language=CSS
+GM_addStyle([
+	'.doctable thead th' // 2025-04-27
+]
+	 // language=Javascript
+	.join(',') + '{top: unset !important;}')
 ;
 // 2025-04-25
 // language=CSS
