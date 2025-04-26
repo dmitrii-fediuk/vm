@@ -294,3 +294,12 @@ GM_addStyle([
 // 2025-04-26
 // language=CSS
 GM_addStyle('#usernotes .note {margin: 0.5rem 0 !important;}');
+// 2025-04-26
+// language=CSS
+GM_addStyle([
+	'blockquote.note'
+	,'div:is(.caution, .tip, .warning)'
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0.25rem !important;}')
+;
