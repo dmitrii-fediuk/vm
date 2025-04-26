@@ -97,6 +97,7 @@ GM_addStyle([
 GM_addStyle([
 	'#breadcrumbs'
 	,'#layout-content'
+	,'#usernotes .note .date'
 	,':root'
 	,'a'
 ]
