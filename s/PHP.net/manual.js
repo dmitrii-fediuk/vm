@@ -184,7 +184,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.dc-description'
-	,'.example-contents code'
+	,'.refentry code'
 	,'code.parameter'
 ]
 	// language=Javascript
