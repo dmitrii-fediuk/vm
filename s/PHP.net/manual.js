@@ -7,6 +7,15 @@
 // @name PHP.net / Manual
 // ==/UserScript==
 // 2025-04-25 "Improve `php.net`": https://github.com/dmitrii-fediuk/vm/issues/107
+// 2025-04-25
+// language=CSS
+GM_addStyle([
+	'h1', 'h2', 'h3', 'h4', 'h5', 'h6'
+]
+	 // language=Javascript
+	.join(',') + '{all: unset !important;}')
+;
+// 2025-04-25
 // language=CSS
 GM_addStyle([
 	'#breadcrumbs-inner > :not(ul)'
@@ -118,6 +127,13 @@ GM_addStyle([
 // 2025-04-25
 // language=CSS
 GM_addStyle([
+]
+	 // language=Javascript
+	.join(',') + '{clear: both !important;}')
+;
+// 2025-04-25
+// language=CSS
+GM_addStyle([
 	'#layout-content'
 	,'#usernotes .note *'
 ]
@@ -142,13 +158,6 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
-;
-// 2025-04-25
-// language=CSS
-GM_addStyle([
-]
-	 // language=Javascript
-	.join(',') + '{clear: both !important;}')
 ;
 // 2025-04-25
 // language=CSS
@@ -210,19 +219,10 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// 2025-04-25
-// language=CSS
-GM_addStyle([
-	'h1', 'h2', 'h3', 'h4', 'h5', 'h6'
-]
-	 // language=Javascript
-	.join(',') + '{all: unset !important;}')
-;
 // 2025-04-26
 // language=CSS
 GM_addStyle([
 	'#breadcrumbs'
-	//,'#usernotes .note > :is(.date, .votes)'
 	,'.verinfo'
 ]
 	 // language=Javascript
