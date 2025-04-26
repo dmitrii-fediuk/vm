@@ -58,6 +58,7 @@ GM_addStyle([
 	,'#breadcrumbs-inner > ul'
 	,'#layout-content'
 	,'#usernotes .note .text'
+	,'dd'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
