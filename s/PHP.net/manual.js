@@ -44,6 +44,7 @@ GM_addStyle([
 GM_addStyle([
 	'#breadcrumbs-inner'
 	,'#layout'
+	,'.example'
 	,'.refsect1'
 	,'blockquote.note'
 	,'div:is(.caution, .tip, .warning)'
