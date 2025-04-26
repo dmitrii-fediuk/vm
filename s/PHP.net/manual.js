@@ -201,7 +201,8 @@ GM_addStyle([
 // 2025-04-25
 // language=CSS
 GM_addStyle([
-	'h1', 'h2', 'h3', 'h4', 'h5', 'h6'
+	'#usernotes .count'
+	,'h1', 'h2', 'h3', 'h4', 'h5', 'h6'
 ]
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
