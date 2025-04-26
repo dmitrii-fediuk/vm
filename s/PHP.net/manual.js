@@ -75,7 +75,7 @@ GM_addStyle([
 	,':root'
 ]
 	 // language=Javascript
-	.join(',') + '{background: none !important;}')
+	.join(',') + '{background: unset !important;}')
 ;
 // 2025-04-25
 // language=CSS
