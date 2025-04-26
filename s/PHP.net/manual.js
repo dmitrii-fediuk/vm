@@ -48,7 +48,7 @@ GM_addStyle([
 	,'.refsect1'
 	,'blockquote.note'
 	,'div:is(.caution, .tip, .warning)'
-	,'table.table'
+	,'table:is(.doctable, .table)'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
