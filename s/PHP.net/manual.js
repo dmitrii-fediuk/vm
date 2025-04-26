@@ -197,7 +197,7 @@ GM_addStyle([
 	'.verinfo'
 ]
 	 // language=Javascript
-	.join(',') + '{font-size: 90% !important;}')
+	.join(',') + '{font-size: 80% !important;}')
 ;
 // 2025-04-25
 // language=CSS
