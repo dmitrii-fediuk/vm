@@ -12,6 +12,8 @@ GM_addStyle([
 	'#breadcrumbs-inner > :not(ul)'
 	,'#toTop'
 	,'#usernotes .note > .date > strong'
+	,'#usernotes .note > .name'
+	,'#usernotes .note > .votes > :not(.tally)'
 	,'#usernotes > .foot'
 	,'.change-language'
 	,'.contribute'
