@@ -150,7 +150,7 @@ GM_addStyle([
 	'table > caption'
 ]
 	 // language=Javascript
-	.join(',') + '{text-align: unset !important;}')
+	.join(',') + '{all: unset !important;}')
 ;
 // 2025-04-25
 // language=CSS
