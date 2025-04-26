@@ -159,6 +159,15 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
 ;
+// 2025-04-26
+// language=CSS
+GM_addStyle([
+	'#breadcrumbs'
+	,'.verinfo'
+]
+	 // language=Javascript
+	.join(',') + '{font-size: 80% !important;}')
+;
 // 2025-04-25
 // language=CSS
 GM_addStyle([
@@ -219,15 +228,6 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// 2025-04-26
-// language=CSS
-GM_addStyle([
-	'#breadcrumbs'
-	,'.verinfo'
-]
-	 // language=Javascript
-	.join(',') + '{font-size: 80% !important;}')
-;
 // 2025-04-26 https://g.co/gemini/share/67bc09143588
 // language=CSS
 GM_addStyle([
