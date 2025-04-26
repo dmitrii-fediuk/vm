@@ -243,7 +243,8 @@ GM_addStyle('h4 {font-size: 1.4rem !important; margin: 0.2rem 0 !important;}');
 // 2025-04-25
 // language=CSS
 GM_addStyle([
-	'li'
+	'dl'
+	,'li'
 	,'ol'
 	,'p'
 	,'ul'
