@@ -17,6 +17,7 @@ GM_addStyle([
 	,'#usernotes > .foot'
 	,'.change-language'
 	,'.contribute'
+	,'.genanchor'
 	,'.tip > .tip'
 	,'.warning > .warning'
 	,':is(h1, h3, h3):after'
@@ -217,15 +218,12 @@ GM_addStyle([
 // 2025-04-26
 // language=CSS
 GM_addStyle([
-	'.genanchor'
+	//'.genanchor'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: 50% !important;}')
 ;
-// 2025-04-26
-// language=CSS
-//GM_addStyle('.genanchor:hover {display: inline;}');
-// 2025-04-26
+// 2025-04-26 https://g.co/gemini/share/67bc09143588
 // language=CSS
 GM_addStyle([
 	'#usernotes .note'
@@ -234,7 +232,10 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'display': 'flex'
+			// language=Javascript
+			'column-gap': '2rem'
+			// language=CSS
+			,'display': 'flex'
 			,'flex-direction': 'row'
 			,'flex-wrap': 'wrap'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
