@@ -65,7 +65,6 @@ GM_addStyle([
 	,'.dc-description'
 	,'.example'
 	,'.example-contents' // 2025-04-27
-	,'.refsect1'
 	,'blockquote.note'
 	,'div:is(.caution, .tip, .warning)'
 	,'table:is(.doctable, .table)'
@@ -337,6 +336,9 @@ GM_addStyle('#usernotes .html > br {height: 0.25rem;}');
 // 2025-04-26
 // language=CSS
 GM_addStyle('#usernotes .html > span > br {height: 1px;}');
+// 2025-04-27
+// language=CSS
+GM_addStyle('.refsect1 {margin: 1rem 0 !important;}');
 // 2025-04-26
 // language=CSS
 GM_addStyle('dt {margin: 0.5rem 0 0 0 !important;}');
