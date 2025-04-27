@@ -273,7 +273,10 @@ GM_addStyle([
 ;
 // 2025-04-28
 // language=CSS
-//GM_addStyle('body {margin: 0 1rem !important;}');
+GM_addStyle('body {margin: 0 1rem !important;}');
+// 2025-04-28
+// language=CSS
+GM_addStyle('[role="navigation"] > table {margin: 0 auto !important;}');
 // 2025-04-28
 // language=CSS
 GM_addStyle('[role="navigation"] > table td {padding: 0 .5rem !important;}');
