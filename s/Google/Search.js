@@ -23,9 +23,10 @@ GM_addStyle([
 	,'#sfcnt'
 	,'#sfooter'
 	,'#tsf ~ *'
-	,'a:has(> svg[aria-label="Go to Google home"])'
 	,'[aria-label="Search by voice"]'
 	,'[role="navigation"] > table td span'
+	,'a:has(> svg[aria-label="Go to Google home"])'
+	,'div:has(> [aria-label=" Clear"])'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
