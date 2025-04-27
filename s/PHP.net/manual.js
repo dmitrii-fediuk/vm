@@ -64,7 +64,7 @@ GM_addStyle([
 	,'#usernotes'
 	,'.dc-description'
 	,'.example'
-	,'.example-contents'
+	,'.example-contents' // 2025-04-27
 	,'.refsect1'
 	,'blockquote.note'
 	,'div:is(.caution, .tip, .warning)'
