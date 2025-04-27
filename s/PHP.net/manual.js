@@ -185,12 +185,13 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{font-weight: revert !important;}')
 ;
-// 2025-04-25
+// 2025-04-27
 // language=CSS
 GM_addStyle([
+	'code' // 2025-04-27
 ]
 	 // language=Javascript
-	.join(',') + '{line-height: initial !important;}')
+	.join(',') + '{line-height: unset !important;}')
 ;
 // 2025-04-26
 // language=CSS
