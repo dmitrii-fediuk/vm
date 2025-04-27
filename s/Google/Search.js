@@ -17,7 +17,8 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle([
-	'#bres'
+	'#appbar'
+	,'#bres'
 	,'#sfcnt'
 	,'#sfooter'
 	,'[role="navigation"] > table td span'
