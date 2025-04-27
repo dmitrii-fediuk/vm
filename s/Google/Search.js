@@ -29,6 +29,7 @@ GM_addStyle([
 	,'[aria-label="Search by voice"]'
 	,'[role="navigation"] > table td span'
 	,'body > :not(#main)'
+	,'span[jscontroller]:has(> a[target="_blank"]) ~ *'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
