@@ -164,6 +164,14 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle([
+	'textarea[name=q]'
+]
+	 // language=Javascript
+	.join(',') + '{overflow: unset !important;}')
+;
+// 2025-04-28
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{overflow-x: unset !important;}')
