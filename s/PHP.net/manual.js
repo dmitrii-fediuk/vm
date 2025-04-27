@@ -376,7 +376,8 @@ GM_addStyle('#usernotes .note:first-child {margin-top: 0;}');
 // 2025-04-26
 // language=CSS
 GM_addStyle([
-	'blockquote.note'
+	'.dc-description' // 2025-04-27
+	,'blockquote.note'
 	,'div:is(.caution, .tip, .warning)'
 ]
 	 // language=Javascript
