@@ -38,6 +38,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#rcnt'
+	,'#searchform'
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
