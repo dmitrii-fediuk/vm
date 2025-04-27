@@ -20,6 +20,7 @@ GM_addStyle([
 	'#bres'
 	,'#sfcnt'
 	,'#sfooter'
+	,'[role="navigation"] > table td > span'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
