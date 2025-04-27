@@ -33,7 +33,7 @@ GM_addStyle([
 	,'div:has(> [aria-label=" Clear"])'
 	,'div:has(> div > textarea[name=q]) ~ *'
 	,'div:has(> div > textarea[name=q]) > :not(:has(textarea[name=q]))'
-	,'div:has(> div > div > textarea[name=q]) > :not(> div > :has(textarea[name=q]))'
+	,'div:has(> div > div > textarea[name=q]) > :not(:has(> div > textarea[name=q]))'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
