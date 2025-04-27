@@ -79,6 +79,14 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle([
+	':has(> button[aria-label="Search"])'
+]
+	 // language=Javascript
+	.join(',') + '{border-radius: unset !important;}')
+;
+// 2025-04-28
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{box-shadow: unset !important;}')
