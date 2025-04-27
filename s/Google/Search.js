@@ -6,169 +6,170 @@
 // @match https://www.google.com/search/*
 // @name Google / Search
 // ==/UserScript==
-// 2025-04-27 "Improve Google Search": https://github.com/dmitrii-fediuk/vm/issues/108
-// 2025-04-27
+// 2025-04-28 "Improve Google Search": https://github.com/dmitrii-fediuk/vm/issues/108
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
+	'#searchform'
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{box-shadow: unset !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{background: unset !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{clear: both !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{flex-basis: 100%; !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{float: unset !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{font-family: unset !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: 80% !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: revert !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: unset !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: .9 !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{overflow-x: unset !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{table-layout: unset !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{text-align: unset !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{top: unset !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
@@ -185,7 +186,7 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
@@ -202,7 +203,7 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
@@ -218,7 +219,7 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
@@ -232,13 +233,13 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: 600 !important;}')
 ;
-// 2025-04-27
+// 2025-04-28
 // language=CSS
 //GM_addStyle('body {margin: 0 1rem !important;}');
