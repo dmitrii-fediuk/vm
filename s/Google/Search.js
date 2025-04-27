@@ -141,7 +141,7 @@ GM_addStyle([
 	':root *'
 ]
 	 // language=Javascript
-	.join(',') + '{font-size: revert !important;}')
+	.join(',') + '{font-size: unset !important;}')
 ;
 // 2025-04-28
 // language=CSS
