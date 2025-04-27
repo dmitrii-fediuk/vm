@@ -39,6 +39,7 @@ GM_addStyle([
 GM_addStyle([
 	'#rcnt'
 	,'#searchform'
+	,'textarea[name=q]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
