@@ -11,10 +11,6 @@
 // language=CSS
 GM_addStyle([
 	'.sfbg'
-	,'div:has(> div > div > textarea[name=q])'
-	,'div:has(> div > textarea[name=q])'
-	,'div:has(> textarea[name=q])'
-	,'textarea[name=q]'
 ]
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
@@ -30,9 +26,6 @@ GM_addStyle([
 	,'#tsf ~ *'
 	,'[aria-label="Search by voice"]'
 	,'[role="navigation"] > table td span'
-	,'div:has(> [aria-label=" Clear"])'
-	,'div:has(> div > textarea[name=q]) > :not(:has(textarea[name=q]))'
-	,'div:has(> div > div > textarea[name=q]) > :not(:has(> div > textarea[name=q]))'
 	,'body > :not(#main)'
 ]
 	 // language=Javascript
@@ -42,11 +35,6 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#rcnt'
-	,'#searchform'
-	,'div:has(> div > div > textarea[name=q])'
-	,'div:has(> div > textarea[name=q])'
-	,'div:has(> textarea[name=q])'
-	,'textarea[name=q]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
@@ -54,7 +42,6 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle([
-	'#searchform'
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
@@ -63,7 +50,6 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#rso'
-	,'#searchform'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -72,7 +58,6 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#cnt'
-	,'textarea[name=q]'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -80,7 +65,6 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle([
-	'textarea[name=q]'
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
@@ -88,7 +72,6 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle([
-	':has(> button[aria-label="Search"])'
 ]
 	 // language=Javascript
 	.join(',') + '{border-radius: unset !important;}')
@@ -96,7 +79,6 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle([
-	':has(> button[aria-label="Search"])'
 ]
 	 // language=Javascript
 	.join(',') + '{box-shadow: unset !important;}')
@@ -167,7 +149,6 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle([
-	'textarea[name=q]'
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: unset !important;}')
@@ -182,7 +163,6 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle([
-	'textarea[name=q]'
 ]
 	 // language=Javascript
 	.join(',') + '{overflow: unset !important;}')
@@ -226,7 +206,6 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle([
-	'textarea[name=q]'
 ]
 	// language=Javascript
 	.join(',') + '{' +
