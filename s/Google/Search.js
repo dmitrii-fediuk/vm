@@ -125,6 +125,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#cnt'
+	,'#rso > div > div'
 	,'body'
 ]
 	 // language=Javascript
