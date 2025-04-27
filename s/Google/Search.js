@@ -136,7 +136,9 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle([
-	//':root *'
+	'#rso > div > div'
+	,'body'
+	,'div[style^="-webkit-line-clamp"]'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
