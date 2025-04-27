@@ -63,6 +63,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#cnt'
+	,'textarea[name=q]'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -70,6 +71,7 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle([
+	'textarea[name=q]'
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
