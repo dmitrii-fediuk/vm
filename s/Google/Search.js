@@ -149,6 +149,7 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle([
+	'textarea[name=q]'
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: unset !important;}')
