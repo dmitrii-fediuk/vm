@@ -97,6 +97,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#usernotes .note .text'
+	,':not(.text) > [class$="code"]' // 2025-04-27
 ]
 	 // language=Javascript
 	.join(',') + '{box-shadow: unset !important;}')
