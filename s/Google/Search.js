@@ -252,3 +252,6 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle('[role="navigation"] > table td {padding: 0 .5rem !important;}');
+// 2025-04-28
+// language=CSS
+GM_addStyle('#rso > div > div[jscontroller] {margin: .2rem 0 !important;}');
