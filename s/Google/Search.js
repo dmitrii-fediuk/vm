@@ -35,6 +35,7 @@ GM_addStyle([
 	//,'div:has(> div > textarea[name=q]) ~ *'
 	,'div:has(> div > textarea[name=q]) > :not(:has(textarea[name=q]))'
 	,'div:has(> div > div > textarea[name=q]) > :not(:has(> div > textarea[name=q]))'
+	,'body > :not(#main)'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
