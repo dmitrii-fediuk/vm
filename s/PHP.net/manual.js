@@ -196,7 +196,7 @@ GM_addStyle([
 // 2025-04-27
 // language=CSS
 GM_addStyle([
-	':not(.text) > .phpcode > code' // 2025-04-27
+	':not(.text) > [class$="code"] > code' // 2025-04-27
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: .9 !important;}')
@@ -311,7 +311,7 @@ GM_addStyle([
 // 2025-04-26
 // language=CSS
 GM_addStyle([
-	'#layout-content > :not(#usernotes) :not(.phpcode) > code' // 2025-04-27
+	'#layout-content > :not(#usernotes) :not([class$="code"]) > code' // 2025-04-27
 	,'#usernotes .note > :is(.date, .votes)'
 	,'.function' // 2025-04-27
 	,'.type' // 2025-04-27
@@ -377,7 +377,7 @@ GM_addStyle('#usernotes .note:first-child {margin-top: 0;}');
 // language=CSS
 GM_addStyle([
 	'.dc-description' // 2025-04-27
-	,':not(.text) > .phpcode > code'
+	,':not(.text) > [class$="code"] > code'
 	,'blockquote.note'
 	,'div:is(.caution, .tip, .warning)'
 ]
