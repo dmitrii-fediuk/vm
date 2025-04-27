@@ -18,6 +18,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#sfcnt'
+	,'#sfooter'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
