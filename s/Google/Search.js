@@ -27,6 +27,8 @@ GM_addStyle([
 	,'[role="navigation"] > table td span'
 	,'a:has(> svg[aria-label="Go to Google home"])'
 	,'div:has(> [aria-label=" Clear"])'
+	//,'div:has(> button[aria-label="Search"])'
+	,'div:has(> textarea[name=q]) ~ *'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
