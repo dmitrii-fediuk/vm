@@ -12,6 +12,7 @@
 GM_addStyle([
 	'.sfbg'
 	,'body'
+	,'html'
 ]
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
