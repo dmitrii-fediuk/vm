@@ -128,6 +128,7 @@ GM_addStyle([
 	,'#rso > div > div'
 	,'body'
 	,'div[style^="-webkit-line-clamp"]'
+	,'h3'
 ]
 	 // language=Javascript
 	.join(',') + '{font-family: unset !important;}')
