@@ -3,7 +3,7 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Google/Search.js
 // @icon https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_"G"_logo.svg
-// @match https://www.google.com/search?*
+// @match https://www.google.com/search?q=*
 // @name Google / Search
 // ==/UserScript==
 // 2025-04-28 "Improve Google Search": https://github.com/dmitrii-fediuk/vm/issues/108
