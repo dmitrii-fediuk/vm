@@ -17,6 +17,7 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle([
+	'#sfcnt'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
