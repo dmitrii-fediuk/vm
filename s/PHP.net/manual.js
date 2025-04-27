@@ -193,6 +193,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{line-height: unset !important;}')
 ;
+// 2025-04-27
+// language=CSS
+GM_addStyle([
+	':not(#usernotes) code' // 2025-04-27
+]
+	 // language=Javascript
+	.join(',') + '{line-height: 0.9 !important;}')
+;
 // 2025-04-26
 // language=CSS
 GM_addStyle([
