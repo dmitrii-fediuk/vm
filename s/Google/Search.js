@@ -31,7 +31,6 @@ GM_addStyle([
 	,'[role="navigation"] > table td span'
 	,'a:has(> svg[aria-label="Go to Google home"])'
 	,'div:has(> [aria-label=" Clear"])'
-	,'div:has(> textarea[name=q]) ~ *'
 	,'div:has(> div > textarea[name=q]) ~ *'
 	,'div:has(> div > textarea[name=q]) > :not(:has(textarea[name=q]))'
 ]
