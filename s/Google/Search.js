@@ -23,7 +23,7 @@ GM_addStyle([
 	,'#sfcnt'
 	,'#sfooter'
 	,'#tsf ~ *'
-	,':has(> a> svg[aria-label="Go to Google home"])'
+	,'a:has(> svg[aria-label="Go to Google home"])'
 	,'[aria-label="Search by voice"]'
 	,'[role="navigation"] > table td span'
 ]
