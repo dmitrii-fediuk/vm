@@ -22,6 +22,7 @@ GM_addStyle([
 	,'#bres'
 	,'#sfcnt'
 	,'#sfooter'
+	,'[aria-label="Search by voice"]'
 	,'[role="navigation"] > table td span'
 ]
 	 // language=Javascript
