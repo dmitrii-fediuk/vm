@@ -24,6 +24,7 @@ GM_addStyle([
 GM_addStyle([
 	'#appbar'
 	,'#bres'
+	,'#cnt > :not(#rcnt)'
 	,'#sfcnt'
 	,'#sfooter'
 	,'#tsf ~ *'
