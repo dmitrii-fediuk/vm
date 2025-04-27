@@ -139,6 +139,7 @@ GM_addStyle([
 	'#rso > div > div'
 	,'body'
 	,'div[style^="-webkit-line-clamp"]'
+	,'div:has(> div > span[jscontroller] > a[target="_blank"])'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
