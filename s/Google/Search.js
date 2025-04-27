@@ -14,6 +14,7 @@ GM_addStyle([
 	,'div:has(> div > div > textarea[name=q])'
 	,'div:has(> div > textarea[name=q])'
 	,'div:has(> textarea[name=q])'
+	,'textarea[name=q]'
 ]
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
