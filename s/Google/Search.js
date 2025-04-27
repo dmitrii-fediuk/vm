@@ -12,6 +12,8 @@
 GM_addStyle([
 	'.sfbg'
 	,'div:has(> div > div > textarea[name=q])'
+	,'div:has(> div > textarea[name=q])'
+	,'div:has(> textarea[name=q])'
 ]
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
