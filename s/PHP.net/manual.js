@@ -199,7 +199,7 @@ GM_addStyle([
 	':not(.text) > .phpcode > code' // 2025-04-27
 ]
 	 // language=Javascript
-	.join(',') + '{line-height: 0.9 !important;}')
+	.join(',') + '{line-height: .9 !important;}')
 ;
 // 2025-04-26
 // language=CSS
@@ -330,7 +330,7 @@ GM_addStyle('body {margin: 0 1rem !important;}');
 GM_addStyle('#usernotes .html br {content: ""; display: block !important;}');
 // 2025-04-26
 // language=CSS
-GM_addStyle('#usernotes .html > br {height: 0.25rem;}');
+GM_addStyle('#usernotes .html > br {height: .25rem;}');
 // 2025-04-26
 // language=CSS
 GM_addStyle('#usernotes .html > span > br {height: 1px;}');
@@ -339,22 +339,22 @@ GM_addStyle('#usernotes .html > span > br {height: 1px;}');
 GM_addStyle('.refsect1 {margin: .5rem 0 !important;}');
 // 2025-04-26
 // language=CSS
-GM_addStyle('dt {margin: 0.5rem 0 0 0 !important;}');
+GM_addStyle('dt {margin: .5rem 0 0 0 !important;}');
 // 2025-04-26
 // language=CSS
-GM_addStyle('dd {margin: 0 0 0.5rem 0 !important;}');
+GM_addStyle('dd {margin: 0 0 .5rem 0 !important;}');
 // 2025-04-25
 // language=CSS
-GM_addStyle('h1 {font-size: 2.5rem !important; margin: 0 0 0.3rem 0 !important;}');
+GM_addStyle('h1 {font-size: 2.5rem !important; margin: 0 0 .3rem 0 !important;}');
 // 2025-04-25
 // language=CSS
-GM_addStyle('h2 {font-size: 2.25rem !important; margin: 0.5rem 0 !important;}');
+GM_addStyle('h2 {font-size: 2.25rem !important; margin: .5rem 0 !important;}');
 // 2025-04-25
 // language=CSS
-GM_addStyle('h3 {font-size: 2rem !important; margin: 0.25rem 0 !important;}');
+GM_addStyle('h3 {font-size: 2rem !important; margin: .25rem 0 !important;}');
 // 2025-04-25
 // language=CSS
-GM_addStyle('h4 {font-size: 1.75rem !important; margin: 0.2rem 0 !important;}');
+GM_addStyle('h4 {font-size: 1.75rem !important; margin: .2rem 0 !important;}');
 // 2025-04-25
 // language=CSS
 GM_addStyle([
@@ -365,11 +365,11 @@ GM_addStyle([
 	,'ul'
 ]
 	 // language=Javascript
-	.join(',') + '{margin: 0.25rem 0 !important;}')
+	.join(',') + '{margin: .25rem 0 !important;}')
 ;
 // 2025-04-26
 // language=CSS
-GM_addStyle('#usernotes .note {margin: 0.7rem 0;}');
+GM_addStyle('#usernotes .note {margin: .7rem 0;}');
 // 2025-04-26
 // language=CSS
 GM_addStyle('#usernotes .note:first-child {margin-top: 0;}');
@@ -380,7 +380,7 @@ GM_addStyle([
 	,'div:is(.caution, .tip, .warning)'
 ]
 	 // language=Javascript
-	.join(',') + '{padding: 0.25rem !important;}')
+	.join(',') + '{padding: .25rem !important;}')
 ;
 // 2025-04-26
 // language=CSS
