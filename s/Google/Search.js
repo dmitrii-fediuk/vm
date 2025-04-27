@@ -126,7 +126,7 @@ GM_addStyle([
 GM_addStyle([
 	'#cnt'
 	,'#rso > div > div'
-	,'body'
+	//,'body'
 	,'div[style^="-webkit-line-clamp"]'
 	,'h3'
 ]
@@ -137,7 +137,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#rso > div > div'
-	,'body'
+	//,'body'
 	,'div[style^="-webkit-line-clamp"]'
 	,'div:has(> div > span[jscontroller] > a[target="_blank"])'
 ]
