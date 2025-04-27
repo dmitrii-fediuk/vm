@@ -51,6 +51,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#rso'
+	,'#searchform'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
