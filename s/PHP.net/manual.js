@@ -283,9 +283,9 @@ GM_addStyle([
 		Object.entries({
 			'font-family': 'Segoie UI'
 			// language=Javascript
-			,'font-size': '165%'
+			,'font-size': '185%'
 			// language=CSS
-			,'line-height': 1.15
+			,'line-height': 1
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
@@ -296,8 +296,6 @@ GM_addStyle([
 	,'.dc-description'
 	,'.function' // 2025-04-27
 	,'.type' // 2025-04-27
-	//,'.refentry code'
-	//,'code.parameter'
 	,'var'
 ]
 	// language=Javascript
