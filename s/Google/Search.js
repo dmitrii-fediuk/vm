@@ -124,14 +124,7 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle([
-	':root *'
-]
-	 // language=Javascript
-	.join(',') + '{font-family: unset !important;}')
-;
-// 2025-04-28
-// language=CSS
-GM_addStyle([
+	//':root *'
 ]
 	 // language=Javascript
 	.join(',') + '{font-family: unset !important;}')
