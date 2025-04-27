@@ -196,7 +196,7 @@ GM_addStyle([
 // 2025-04-27
 // language=CSS
 GM_addStyle([
-	'.phpcode > code' // 2025-04-27
+	':not(.text) > .phpcode > code' // 2025-04-27
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: 0.9 !important;}')
