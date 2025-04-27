@@ -39,6 +39,7 @@ GM_addStyle([
 GM_addStyle([
 	'#rcnt'
 	,'#searchform'
+	,'div:has(> textarea[name=q])'
 	,'textarea[name=q]'
 ]
 	 // language=Javascript
