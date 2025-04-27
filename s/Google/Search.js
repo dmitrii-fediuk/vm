@@ -127,6 +127,7 @@ GM_addStyle([
 	'#cnt'
 	,'#rso > div > div'
 	,'body'
+	,'div[style^="-webkit-line-clamp"]'
 ]
 	 // language=Javascript
 	.join(',') + '{font-family: unset !important;}')
