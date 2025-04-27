@@ -29,6 +29,7 @@ GM_addStyle([
 	,'div:has(> [aria-label=" Clear"])'
 	//,'div:has(> button[aria-label="Search"])'
 	,'div:has(> textarea[name=q]) ~ *'
+	,'div:has(> div > textarea[name=q]) ~ *'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
