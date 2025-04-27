@@ -10,6 +10,7 @@
 // 2025-04-28
 // language=CSS
 GM_addStyle([
+	'.sfbg'
 ]
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
