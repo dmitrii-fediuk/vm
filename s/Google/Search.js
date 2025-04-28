@@ -15,7 +15,7 @@ GM_addStyle([
 	,'html'
 ]
 	 // language=Javascript
-	.join(',') + '{all: unset !important;}')
+	.join(',') + '{all: revert !important;}')
 ;
 // 2025-04-28
 // language=CSS
