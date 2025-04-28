@@ -53,6 +53,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#rso'
+	,'h3'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
