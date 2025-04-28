@@ -165,6 +165,7 @@ GM_addStyle([
 	'#cnt'
 	,'#res'
 	,'#rso > div > div'
+	,'cite[role="text"]'
 	,'div:has(> div > cite[role="text"]) > :first-child > span'
 	,'div:has(> div > span[jscontroller] > a[target="_blank"])'
 	,'div[style^="-webkit-line-clamp"]'
