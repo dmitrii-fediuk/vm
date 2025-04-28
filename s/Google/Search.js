@@ -162,7 +162,13 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle([
-	//':root *'
+	,'#cnt'
+	,'#res'
+	,'#rso > div > div'
+	,'div:has(> div > cite[role="text"]) > :first-child > span'
+	,'div:has(> div > span[jscontroller] > a[target="_blank"])'
+	,'div[style^="-webkit-line-clamp"]'
+	,'h3'
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: unset !important;}')
