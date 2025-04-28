@@ -168,7 +168,7 @@ GM_addStyle([
 	,'div:has(> div > cite[role="text"]) > :first-child > span'
 	,'div:has(> div > span[jscontroller] > a[target="_blank"])'
 	,'div[style^="-webkit-line-clamp"]'
-	,'h3'
+	,'h3:is(h3)'
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: unset !important;}')
