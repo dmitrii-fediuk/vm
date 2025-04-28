@@ -295,6 +295,9 @@ GM_addStyle('body {margin: 0 1rem !important;}');
 GM_addStyle('h3 {font-size: 2rem !important;}');
 // 2025-04-28
 // language=CSS
+GM_addStyle('h3 + br {content: ""; display: block !important; height: 1px;}');
+// 2025-04-28
+// language=CSS
 GM_addStyle('[role="navigation"] > table {margin: 0 auto !important;}');
 // 2025-04-28
 // language=CSS
