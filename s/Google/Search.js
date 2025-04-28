@@ -162,7 +162,7 @@ GM_addStyle([
 // 2025-04-28
 // language=CSS
 GM_addStyle([
-	,'#cnt'
+	'#cnt'
 	,'#res'
 	,'#rso > div > div'
 	,'div:has(> div > cite[role="text"]) > :first-child > span'
