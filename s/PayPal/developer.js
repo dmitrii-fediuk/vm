@@ -11,6 +11,7 @@
 // language=CSS
 GM_addStyle([
 	//'[role="tab"]'
+	'[role="button"]'
 ]
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
