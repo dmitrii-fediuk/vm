@@ -156,6 +156,11 @@ GM_addStyle([
 GM_addStyle([
 	'.dx-docs'
 	,'[style*="font"]'
+	,'button'
+	,'input'
+	,'optgroup'
+	,'select'
+	,'textarea'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
