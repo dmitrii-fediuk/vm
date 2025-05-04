@@ -213,6 +213,7 @@ GM_addStyle([
 // 2025-05-04
 // language=CSS
 GM_addStyle([
+	'[role="tab"]'
 ]
 	 // language=Javascript
 	.join(',') + '{text-align: unset !important;}')
