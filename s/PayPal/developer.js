@@ -220,9 +220,11 @@ GM_addStyle([
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
-		['height', 'width']
+		Object.entries({
+			'height': 'auto'
 			// language=Javascript
-			.map(k => `${k}: auto !important;`).join(' ') +
+			,'width': '100%'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
 // 2025-05-04 https://g.co/gemini/share/67bc09143588
