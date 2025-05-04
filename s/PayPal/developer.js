@@ -58,6 +58,7 @@ GM_addStyle([
 	,'.archetypeHeader'
 	,'.breadcrumb'
 	,'.numberedHeaderRow'
+	,'.productImage-sup'
 	,'.richText'
 	,'body > *'
 	// 2025-05-04
@@ -224,6 +225,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.breadcrumb'
+	,'.productImage-sup'
 ]
 	 // language=Javascript
 	.join(',') + '{min-height: unset !important;}')
