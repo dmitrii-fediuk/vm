@@ -146,6 +146,7 @@ GM_addStyle([
 // 2025-05-04
 // language=CSS
 GM_addStyle([
+	'body *'
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: unset !important;}')
