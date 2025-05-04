@@ -90,6 +90,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.outerBeforeRow'
+	,'[role="tablist"]'
 	,'[style*="background"]'
 ]
 	 // language=Javascript
