@@ -10,7 +10,7 @@
 // 2025-05-04
 // language=CSS
 GM_addStyle([
-	'[role="tab"]'
+	//'[role="tab"]'
 ]
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
