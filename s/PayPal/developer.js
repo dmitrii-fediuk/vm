@@ -75,7 +75,8 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
-	'[role="tablist"]'
+	'[role="tab"]'
+	,'[role="tablist"]'
 ]
 	 // language=Javascript
 	.join(',') + '{align-items: unset !important;}')
