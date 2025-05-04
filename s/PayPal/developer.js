@@ -40,6 +40,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'[class*="heroBackground-"]'
+	,'body > *'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
