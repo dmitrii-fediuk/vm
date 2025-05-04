@@ -17,7 +17,8 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
-	'[role="button"]'
+	'[class*=hero]'
+	,'[role="button"]'
 	,'a'
 ]
 	 // language=Javascript
