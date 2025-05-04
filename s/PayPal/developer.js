@@ -39,6 +39,7 @@ GM_addStyle([
 // 2025-05-04
 // language=CSS
 GM_addStyle([
+	'[class*="heroBackground-"]'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
