@@ -30,6 +30,7 @@ GM_addStyle([
 	,'.outerBeforeRow:has(#community)'
 	,'[class*="feedbackButton"]'
 	,'[class*="footerContainer"]'
+	,'a:after'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
