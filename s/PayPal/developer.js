@@ -263,6 +263,9 @@ GM_addStyle([
 GM_addStyle('body {margin: 0 1rem !important;}');
 // 2025-05-04
 // language=CSS
+GM_addStyle('br {content: ""; display: block !important; height: 1px;}');
+// 2025-05-04
+// language=CSS
 GM_addStyle('h1 {font-size: 2.5rem !important; margin: 0 0 .3rem 0 !important;}');
 // 2025-05-04
 // language=CSS
