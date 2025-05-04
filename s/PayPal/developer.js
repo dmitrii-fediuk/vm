@@ -84,9 +84,20 @@ GM_addStyle([
 // 2025-05-04
 // language=CSS
 GM_addStyle([
+	'.outerBeforeRow'
+	,'[role="tablist"]'
+	,'[style*="background"]'
 ]
 	 // language=Javascript
-	.join(',') + '{border: 0 !important;}')
+	.join(',') + '{background-color: unset !important;}')
+;
+// 2025-05-04
+// language=CSS
+GM_addStyle([
+	'[role="tab"]'
+]
+	 // language=Javascript
+	.join(',') + '{border: unset !important;}')
 ;
 // 2025-05-04
 // language=CSS
@@ -94,16 +105,6 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{box-shadow: unset !important;}')
-;
-// 2025-05-04
-// language=CSS
-GM_addStyle([
-	'.outerBeforeRow'
-	,'[role="tablist"]'
-	,'[style*="background"]'
-]
-	 // language=Javascript
-	.join(',') + '{background-color: unset !important;}')
 ;
 // 2025-05-04
 // language=CSS
