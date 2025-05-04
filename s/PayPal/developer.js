@@ -18,6 +18,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'[role="button"]'
+	,'a'
 ]
 	 // language=Javascript
 	.join(',') + '{all: revert !important;}')
