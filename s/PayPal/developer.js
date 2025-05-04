@@ -40,6 +40,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'[class*="-layout_container"]'
+	,'[class*="css-"]'
 	,'[class*="heroBackground-"]'
 	,'.numberedHeaderRow'
 	,'.richText'
