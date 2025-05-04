@@ -130,6 +130,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.dx-status-wrapper > span'
+	,'body'
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
