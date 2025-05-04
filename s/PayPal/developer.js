@@ -89,6 +89,7 @@ GM_addStyle([
 // 2025-05-04
 // language=CSS
 GM_addStyle([
+	'.outerBeforeRow'
 ]
 	 // language=Javascript
 	.join(',') + '{background: unset !important;}')
