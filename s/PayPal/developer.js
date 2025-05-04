@@ -134,6 +134,14 @@ GM_addStyle([
 // 2025-05-04
 // language=CSS
 GM_addStyle([
+	'[class*="heroBackground-"]'
+]
+	 // language=Javascript
+	.join(',') + '{height: unset !important;}')
+;
+// 2025-05-04
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: unset !important;}')
