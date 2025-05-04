@@ -124,6 +124,7 @@ GM_addStyle([
 // 2025-05-04
 // language=CSS
 GM_addStyle([
+	'[style*="font"]'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
