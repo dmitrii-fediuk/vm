@@ -108,6 +108,7 @@ GM_addStyle([
 // 2025-05-04
 // language=CSS
 GM_addStyle([
+	'h2'
 ]
 	 // language=Javascript
 	.join(',') + '{font-family: unset !important;}')
