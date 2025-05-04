@@ -50,8 +50,7 @@ GM_addStyle([
 	,'.numberedHeaderRow'
 	,'.richText'
 	,'body > *'
-	,'main'
-	,'main.content'
+	,'main:not(#fakeId)'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
