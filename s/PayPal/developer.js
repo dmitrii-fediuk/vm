@@ -50,7 +50,8 @@ GM_addStyle([
 	,'.numberedHeaderRow'
 	,'.richText'
 	,'body > *'
-	,'main:is(main)'
+	,'main'
+	,'main.content'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
