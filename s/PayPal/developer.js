@@ -61,7 +61,8 @@ GM_addStyle([
 // 2025-05-04
 // language=CSS
 GM_addStyle([
-	'[class*="-col_"]'
+	'.innerBeforeRow'
+	,'[class*="-col_"]'
 	,'[class*="-layout_container"]'
 	,'[class*="css-"]'
 	,'[class*="heroBackground-"]'
