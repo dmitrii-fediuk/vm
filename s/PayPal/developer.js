@@ -225,7 +225,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.breadcrumb'
-	,'.productImage-sup'
+	//,'.productImage-sup'
 ]
 	 // language=Javascript
 	.join(',') + '{min-height: unset !important;}')
