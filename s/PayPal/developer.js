@@ -70,6 +70,7 @@ GM_addStyle([
 	,'[class*="heroBackground-"]'
 	,'[style*="padding"]'
 	,'td:not(#A)'
+	,'th'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
