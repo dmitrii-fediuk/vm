@@ -126,7 +126,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{box-shadow: unset !important;}')
 ;
-// 2025-05-04
+// 2025-05-05
 // language=CSS
 GM_addStyle([
 	'.dx-status-wrapper > span'
