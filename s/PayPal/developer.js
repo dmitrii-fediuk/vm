@@ -161,6 +161,7 @@ GM_addStyle([
 	,'input'
 	,'optgroup'
 	,'select'
+	,'table'
 	,'textarea'
 ]
 	 // language=Javascript
