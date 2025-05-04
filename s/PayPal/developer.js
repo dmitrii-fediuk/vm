@@ -254,3 +254,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{font-weight: 600 !important;}')
 ;
+// 2025-05-04
+// language=CSS
+GM_addStyle('body {margin: 0 1rem !important;}');
