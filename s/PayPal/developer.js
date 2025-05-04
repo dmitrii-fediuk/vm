@@ -249,7 +249,8 @@ GM_addStyle([
 // 2025-05-04
 // language=CSS
 GM_addStyle([
-	'[class*="-col_"]'
+	'.productImage-sup'
+	,'[class*="-col_"]'
 	,'[role="tab"]'
 	,'[role="tablist"]'
 	,'main:not(#A)'
