@@ -97,7 +97,7 @@ GM_addStyle([
 	'[role="tab"]'
 ]
 	 // language=Javascript
-	.join(',') + '{border: unset !important;}')
+	.join(',') + '{border: 0 !important;}')
 ;
 // 2025-05-04
 // language=CSS
@@ -105,7 +105,7 @@ GM_addStyle([
 	'[role="tablist"]'
 ]
 	 // language=Javascript
-	.join(',') + '{border-radius: unset !important;}')
+	.join(',') + '{border-radius: 0 !important;}')
 ;
 // 2025-05-04
 // language=CSS
