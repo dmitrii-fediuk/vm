@@ -56,6 +56,7 @@ GM_addStyle([
 GM_addStyle([
 	'[class*="-col_"]'
 	,'[class*="-layout_container"]'
+	,'[class*="css-"]'
 	,'[class*="heroBackground-"]'
 	,'[style*="padding"]'
 ]
