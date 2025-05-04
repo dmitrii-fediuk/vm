@@ -46,6 +46,7 @@ GM_addStyle([
 // 2025-05-04
 // language=CSS
 GM_addStyle([
+	'[class$="-layout_container"]'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
