@@ -72,6 +72,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// 2025-05-05
+// language=CSS
+GM_addStyle([
+	'[role="tablist"]'
+]
+	 // language=Javascript
+	.join(',') + '{align-items: unset !important;}')
+;
 // 2025-05-04
 // language=CSS
 GM_addStyle([
