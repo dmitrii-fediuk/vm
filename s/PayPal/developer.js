@@ -18,8 +18,6 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'[role="button"]'
-	,'[role="tab"]'
-	,'[role="tablist"]'
 ]
 	 // language=Javascript
 	.join(',') + '{all: revert !important;}')
