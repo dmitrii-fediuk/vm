@@ -69,10 +69,8 @@ GM_addStyle([
 	,'[class*="css-"]'
 	,'[class*="heroBackground-"]'
 	,'[style*="padding"]'
-	// 2025-05-05
-	// 1.1) https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Specificity#the_is_not_has_and_css_nesting_exceptions
-	// 1.2) https://archive.is/5HYgv#selection-10675.63-10675.172
 	,'td:not(#A)'
+	,'th:not(#A)'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
