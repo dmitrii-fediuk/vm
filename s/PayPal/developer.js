@@ -90,6 +90,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.outerBeforeRow'
+	,'[style*="background"]'
 ]
 	 // language=Javascript
 	.join(',') + '{background: unset !important;}')
