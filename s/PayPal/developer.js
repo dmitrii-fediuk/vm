@@ -108,7 +108,7 @@ GM_addStyle([
 // 2025-05-04
 // language=CSS
 GM_addStyle([
-	'body *'
+	'body :is(*)'
 ]
 	 // language=Javascript
 	.join(',') + '{font-family: unset !important;}')
