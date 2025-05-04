@@ -39,7 +39,8 @@ GM_addStyle([
 // 2025-05-04
 // language=CSS
 GM_addStyle([
-	'[class*="heroBackground-"]'
+	'[class*="-layout_container"]'
+	,'[class*="heroBackground-"]'
 	,'body > *'
 ]
 	 // language=Javascript
