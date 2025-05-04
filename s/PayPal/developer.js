@@ -19,6 +19,7 @@ GM_addStyle([
 GM_addStyle([
 	'#ul-app'
 	,'[class*="feedbackButton"]'
+	,'[class*="footerContainer"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
