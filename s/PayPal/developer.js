@@ -173,6 +173,14 @@ GM_addStyle([
 // 2025-05-04
 // language=CSS
 GM_addStyle([
+	'.breadcrumb'
+]
+	 // language=Javascript
+	.join(',') + '{min-height: unset !important;}')
+;
+// 2025-05-04
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{overflow-x: unset !important;}')
