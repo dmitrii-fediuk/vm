@@ -17,7 +17,7 @@ GM_addStyle([
 // 2025-05-04
 // language=CSS
 GM_addStyle([
-	'.feedbackButton'
+	'[class*="feedbackButton"]'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
