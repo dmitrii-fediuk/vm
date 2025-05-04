@@ -102,6 +102,14 @@ GM_addStyle([
 // 2025-05-04
 // language=CSS
 GM_addStyle([
+	'[role="tablist"]'
+]
+	 // language=Javascript
+	.join(',') + '{border-radius: unset !important;}')
+;
+// 2025-05-04
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{box-shadow: unset !important;}')
