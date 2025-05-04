@@ -166,6 +166,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.dx-docs'
+	,'.dx-status-wrapper > span'
 	,'[style*="font"]'
 	,'button'
 	,'input'
