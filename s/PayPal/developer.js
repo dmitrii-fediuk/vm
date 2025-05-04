@@ -212,6 +212,19 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-05-04
+// language=CSS
+GM_addStyle([
+	'img'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['height', 'width']
+			// language=Javascript
+			.map(k => `${k}: auto !important;`).join(' ') +
+	'}'
+);
 // 2025-05-04 https://g.co/gemini/share/67bc09143588
 // language=CSS
 GM_addStyle([
