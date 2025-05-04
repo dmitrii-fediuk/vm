@@ -50,7 +50,11 @@ GM_addStyle([
 	,'.numberedHeaderRow'
 	,'.richText'
 	,'body > *'
-	,'main:not(#A)'
+	// 2025-05-04
+	// 1.1) https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Specificity#the_is_not_has_and_css_nesting_exceptions
+	// 1.2)
+	//,'main:not(#A)'
+	,'* > main'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
