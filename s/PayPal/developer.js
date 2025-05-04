@@ -93,7 +93,7 @@ GM_addStyle([
 	,'[style*="background"]'
 ]
 	 // language=Javascript
-	.join(',') + '{background: unset !important;}')
+	.join(',') + '{background-color: unset !important;}')
 ;
 // 2025-05-04
 // language=CSS
