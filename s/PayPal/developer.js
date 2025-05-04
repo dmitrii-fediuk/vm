@@ -46,6 +46,7 @@ GM_addStyle([
 	,'[class*="css-"]'
 	,'[class*="heroBackground-"]'
 	,'[style*="margin"]'
+	,'.archetypeHeader'
 	,'.breadcrumb'
 	,'.numberedHeaderRow'
 	,'.richText'
