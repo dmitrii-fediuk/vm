@@ -43,6 +43,7 @@ GM_addStyle([
 	'[class*="-layout_container"]'
 	,'[class*="css-"]'
 	,'[class*="heroBackground-"]'
+	,'[style*="margin"]'
 	,'.numberedHeaderRow'
 	,'.richText'
 	,'body > *'
@@ -56,6 +57,7 @@ GM_addStyle([
 	'[class*="-col_"]'
 	,'[class*="-layout_container"]'
 	,'[class*="heroBackground-"]'
+	,'[style*="padding"]'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
