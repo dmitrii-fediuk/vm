@@ -42,6 +42,7 @@ GM_addStyle([
 	'[class*="-layout_container"]'
 	,'[class*="heroBackground-"]'
 	,'.numberedHeaderRow'
+	,'.richText'
 	,'body > *'
 ]
 	 // language=Javascript
