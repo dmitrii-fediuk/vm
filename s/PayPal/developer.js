@@ -95,7 +95,8 @@ GM_addStyle([
 // 2025-05-04
 // language=CSS
 GM_addStyle([
-	'.outerBeforeRow'
+	'.dx-status-wrapper > span'
+	,'.outerBeforeRow'
 	,'[role="tablist"]'
 	,'[style*="background"]'
 ]
