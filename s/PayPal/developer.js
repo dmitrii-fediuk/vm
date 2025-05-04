@@ -19,6 +19,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#ul-app'
+	,'.outerBeforeRow:has(#community)'
 	,'[class*="feedbackButton"]'
 	,'[class*="footerContainer"]'
 ]
