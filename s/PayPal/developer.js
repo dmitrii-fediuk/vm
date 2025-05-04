@@ -70,7 +70,6 @@ GM_addStyle([
 	,'[class*="heroBackground-"]'
 	,'[style*="padding"]'
 	,'td:not(#A)'
-	,'th:not(#A)'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -165,6 +164,7 @@ GM_addStyle([
 	,'select'
 	,'table'
 	,'td'
+	,'th:not(#A)'
 	,'textarea'
 ]
 	 // language=Javascript
