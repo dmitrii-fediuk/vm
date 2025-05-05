@@ -228,6 +228,14 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
+	'.lia-quilt-row-header > div'
+]
+	 // language=Javascript
+	.join(',') + '{width: unset !important;}')
+;
+// 2025-05-05
+// language=CSS
+GM_addStyle([
 	'.lia-content'
 	,'.lia-quilt-column-main-left'
 ]
