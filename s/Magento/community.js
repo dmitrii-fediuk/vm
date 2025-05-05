@@ -29,6 +29,7 @@ GM_addStyle([
 	,'#nav-main'
 	,'.SearchForm'
 	,'.final-crumb'
+	,'.lia-menu-navigation-wrapper'
 	,'.lia-message-subject'
 	,'.lia-quilt-row-footer'
 	,'.lia-quilt-row-main-header'
