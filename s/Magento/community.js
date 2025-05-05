@@ -229,6 +229,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.lia-content'
+	,'.lia-quilt-column'
 ]
 	// language=Javascript
 	.join(',') + '{' +
