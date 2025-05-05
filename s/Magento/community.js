@@ -61,7 +61,8 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
-	'.lia-page'
+	'#list'
+	,'.lia-page'
 	,'.lia-page-header'
 	,'.lia-quilt-row-header'
 	,'.lia-quilt-row-sub-header'
