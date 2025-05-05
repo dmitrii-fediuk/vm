@@ -334,7 +334,7 @@ GM_addStyle([
 GM_addStyle('body {margin: 0 1rem !important;}');
 // 2025-04-26
 // language=CSS
-GM_addStyle(['.local-friendly-date']
+GM_addStyle(['.local-friendly-date::after']
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
