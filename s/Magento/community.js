@@ -25,7 +25,7 @@ GM_addStyle([
 	,'.lia-media-snippet-container'
 	,'.lia-message-body'
 	,'.lia-message-body-content'
-	,'.lia-message-editor *',
+	,'.lia-message-editor *'
 	,'.lia-message-editor'
 	,'.lia-user-name-link'
 	,'p'
