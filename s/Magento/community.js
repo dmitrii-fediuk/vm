@@ -66,6 +66,7 @@ GM_addStyle([
 	,'.lia-page'
 	,'.lia-page-header'
 	,'.lia-quilt-row-header'
+	,'.lia-quilt-row-main'
 	,'.lia-quilt-row-sub-header'
 	,'body'
 ]
