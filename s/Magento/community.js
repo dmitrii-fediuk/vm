@@ -300,3 +300,23 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{font-weight: 600 !important;}')
 ;
+// 2025-05-05
+// language=CSS
+GM_addStyle([
+	'body'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'font-family': 'Segoie UI'
+			// language=Javascript
+			,'font-size': '185%'
+			// language=CSS
+			,'line-height': 1
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-05-05
+// language=CSS
+GM_addStyle('body {margin: 0 1rem !important;}');
