@@ -81,6 +81,7 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
+	'.lia-quilt-row-sub-header'
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: unset !important;}')
