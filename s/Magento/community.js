@@ -61,6 +61,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.lia-page'
+	,'.lia-page-header'
 	,'body'
 ]
 	 // language=Javascript
