@@ -25,6 +25,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#nav-main'
+	,'.SearchForm'
 	,'.final-crumb'
 ]
 	 // language=Javascript
