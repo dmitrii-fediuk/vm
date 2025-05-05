@@ -47,8 +47,8 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
-	'.DateTime'
-	,'.lia-quilt-row-header'
+	'.lia-quilt-row-header'
+	,'.local-friendly-date'
 ]
 	// language=Javascript
 	.join(',') + '{' +
