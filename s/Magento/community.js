@@ -287,3 +287,15 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{font-weight: 600 !important;}')
 ;
+// 2025-05-05
+// language=CSS
+GM_addStyle(['.final-crumb > span']
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			// language=Javascript
+			'content': 'attr(aria-label)'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
