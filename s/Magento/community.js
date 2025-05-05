@@ -289,7 +289,7 @@ GM_addStyle([
 ;
 // 2025-05-05
 // language=CSS
-GM_addStyle(['.final-crumb > span']
+GM_addStyle(['.final-crumb > span::after']
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
