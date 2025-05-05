@@ -342,6 +342,7 @@ GM_addStyle(['.local-friendly-date::after']
 		Object.entries({
 			// language=Javascript
 			'content': 'attr(title)'
+			,'display': 'block'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
