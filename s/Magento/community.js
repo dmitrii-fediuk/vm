@@ -145,6 +145,7 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
+	'html'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
@@ -286,7 +287,7 @@ GM_addStyle([
 ;
 // 2025-05-05
 // language=CSS
-GM_addStyle('body {font-size: 1rem !important;}');
+//GM_addStyle('body {font-size: 1rem !important;}');
 // 2025-05-05
 // language=CSS
 GM_addStyle([
