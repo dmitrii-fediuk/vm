@@ -93,6 +93,7 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
+	'.lia-quilt-column'
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
