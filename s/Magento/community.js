@@ -29,9 +29,9 @@ GM_addStyle([
 	,'#nav-main'
 	,'.SearchForm'
 	,'.final-crumb'
+	,'.lia-message-subject'
 	,'.lia-quilt-row-footer'
 	,'.lia-quilt-row-main-header'
-	//,'.local-friendly-date'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -54,7 +54,6 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.lia-breadcrumb'
-	,'.lia-message-subject'
 	,'.lia-quilt-column'
 	,'.lia-page'
 ]
