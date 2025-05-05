@@ -134,6 +134,7 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
+	'body'
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
