@@ -222,6 +222,7 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
+	'.lia-content'
 ]
 	// language=Javascript
 	.join(',') + '{' +
