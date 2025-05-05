@@ -46,6 +46,7 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
+	'.lia-page'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -53,6 +54,7 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
+	'.lia-page'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
