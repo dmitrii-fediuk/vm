@@ -52,7 +52,8 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
-	'.lia-page'
+	'.lia-breadcrumb'
+	,'.lia-page'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
