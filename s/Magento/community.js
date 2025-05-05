@@ -24,6 +24,7 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
+	'#nav-main'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -38,7 +39,6 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
-	'#nav-main'
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
