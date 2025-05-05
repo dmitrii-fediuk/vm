@@ -54,6 +54,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.lia-breadcrumb'
+	,'.lia-message-subject'
 	,'.lia-quilt-column'
 	,'.lia-page'
 ]
