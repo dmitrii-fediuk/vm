@@ -54,10 +54,8 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			// language=Javascript
-			'column-gap': '2rem'
 			// language=CSS
-			,'display': 'flex'
+			'display': 'flex'
 			,'flex-direction': 'row'
 			,'flex-wrap': 'wrap'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
@@ -349,6 +347,12 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle('body {margin: 0 1rem !important;}');
+// 2025-05-05
+// language=CSS
+GM_addStyle('.lia-quilt-row-header {column-gap: 2rem;}');
+// 2025-05-05
+// language=CSS
+GM_addStyle('.local-friendly-date {column-gap: .5rem;}');
 // 2025-04-26
 // language=CSS
 GM_addStyle(['.local-friendly-date::before']
