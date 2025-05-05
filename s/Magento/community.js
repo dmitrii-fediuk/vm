@@ -17,21 +17,9 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
-	'.article-labels-title'
-	,'.board-description'
-	,'.lia-contest-media-description-display'
-	,'.lia-list-slim'
-	,'.lia-list-wide'
-	,'.lia-media-snippet-container'
-	,'.lia-message-body'
-	,'.lia-message-body-content'
-	,'.lia-message-editor *'
-	,'.lia-message-editor'
-	,'.lia-user-name-link'
-	,'p'
 ]
 	 // language=Javascript
-	.join(',') + '{all: unset !important;}')
+	.join(',') + '{all: revert !important;}')
 ;
 // 2025-05-05
 // language=CSS
@@ -283,22 +271,6 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'font-family': 'Segoie UI'
-			// language=Javascript
-			,'font-size': '185%'
-			// language=CSS
-			,'line-height': 1
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
-// 2025-05-05
-// language=CSS
-GM_addStyle([
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
 			'font-family': 'Consolas'
 			// language=Javascript
 			,'font-size': '1.5rem'
@@ -327,6 +299,30 @@ GM_addStyle([
 			// language=CSS
 			,'line-height': 1
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-05-05
+// language=CSS
+GM_addStyle([
+	'.article-labels-title'
+	,'.board-description'
+	,'.lia-contest-media-description-display'
+	,'.lia-list-slim'
+	,'.lia-list-wide'
+	,'.lia-media-snippet-container'
+	,'.lia-message-body'
+	,'.lia-message-body-content'
+	,'.lia-message-editor *'
+	,'.lia-message-editor'
+	,'.lia-user-name-link'
+	,'p'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['font-size', 'font-weight', 'line-height']
+			// language=Javascript
+			.map(k => `${k}: unset !important;`).join(' ') +
 	'}'
 );
 // 2025-05-05
