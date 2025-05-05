@@ -63,6 +63,7 @@ GM_addStyle([
 	'.lia-page'
 	,'.lia-page-header'
 	,'.lia-quilt-row-header'
+	,'.lia-quilt-row-sub-header'
 	,'body'
 ]
 	 // language=Javascript
