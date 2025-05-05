@@ -31,7 +31,7 @@ GM_addStyle([
 	,'.final-crumb'
 	,'.lia-quilt-row-footer'
 	,'.lia-quilt-row-main-header'
-	,'.local-friendly-date'
+	//,'.local-friendly-date'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
