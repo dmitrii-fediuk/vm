@@ -17,6 +17,18 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
+	'.article-labels-title'
+	,'.board-description'
+	,'.lia-contest-media-description-display'
+	,'.lia-list-slim'
+	,'.lia-list-wide'
+	,'.lia-media-snippet-container'
+	,'.lia-message-body'
+	,'.lia-message-body-content'
+	,'.lia-message-editor *',
+	,'.lia-message-editor'
+	,'.lia-user-name-link'
+	,'p'
 ]
 	 // language=Javascript
 	.join(',') + '{all: revert !important;}')
