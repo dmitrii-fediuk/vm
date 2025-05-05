@@ -343,6 +343,9 @@ GM_addStyle(['.local-friendly-date::after']
 			// language=Javascript
 			'content': 'attr(title)'
 			,'display': 'block'
+			,'overflow': 'hidden'
+			,'white-space': 'nowrap'
+			,'width': '9.5ch'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
