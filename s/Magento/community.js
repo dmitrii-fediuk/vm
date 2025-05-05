@@ -55,6 +55,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.lia-page'
+	,'body'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
