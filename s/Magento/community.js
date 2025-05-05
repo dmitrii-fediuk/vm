@@ -229,7 +229,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.lia-content'
-	,'.lia-quilt-column'
+	,'.lia-quilt-column-main-left'
 ]
 	// language=Javascript
 	.join(',') + '{' +
