@@ -54,6 +54,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.lia-breadcrumb'
+	,'.lia-quilt-column'
 	,'.lia-page'
 ]
 	 // language=Javascript
