@@ -24,7 +24,8 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
-	'#nav-main'
+	'#footer-wrap'
+	,'#nav-main'
 	,'.SearchForm'
 	,'.final-crumb'
 ]
