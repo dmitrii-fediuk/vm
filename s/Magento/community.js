@@ -28,6 +28,7 @@ GM_addStyle([
 	,'#nav-main'
 	,'.SearchForm'
 	,'.final-crumb'
+	,'.lia-quilt-row-footer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
