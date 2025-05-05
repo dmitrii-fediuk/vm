@@ -27,6 +27,7 @@ GM_addStyle([
 	'#actionMenuDropDown'
 	,'#footer-wrap'
 	,'#nav-main'
+	,'#threadnavigator'
 	,'.SearchForm'
 	,'.final-crumb'
 	,'.lia-menu-navigation-wrapper'
