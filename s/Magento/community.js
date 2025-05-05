@@ -46,6 +46,25 @@ GM_addStyle([
 // 2025-05-05
 // language=CSS
 GM_addStyle([
+	'.DateTime'
+	,'.lia-quilt-row-header'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			// language=Javascript
+			'column-gap': '2rem'
+			// language=CSS
+			,'display': 'flex'
+			,'flex-direction': 'row'
+			,'flex-wrap': 'wrap'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-05-05
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
@@ -342,24 +361,6 @@ GM_addStyle(['.local-friendly-date::before']
 			,'overflow': 'hidden'
 			,'white-space': 'nowrap'
 			,'width': '9.5ch'
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
-// 2025-05-05
-// language=CSS
-GM_addStyle([
-	'.lia-quilt-row-header'
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
-			// language=Javascript
-			'column-gap': '2rem'
-			// language=CSS
-			,'display': 'flex'
-			,'flex-direction': 'row'
-			,'flex-wrap': 'wrap'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
