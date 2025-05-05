@@ -31,7 +31,7 @@ GM_addStyle([
 	,'p'
 ]
 	 // language=Javascript
-	.join(',') + '{all: revert !important;}')
+	.join(',') + '{all: unset !important;}')
 ;
 // 2025-05-05
 // language=CSS
