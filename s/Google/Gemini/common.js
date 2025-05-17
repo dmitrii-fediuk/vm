@@ -11,6 +11,7 @@
 // language=CSS
 GM_addStyle([
 	'.bard-logo-container'
+	,'.buttons-container.referral' // 2025-05-17
 	,'[data-placeholder="Ask Gemini"]::after'
 	,'[data-placeholder="Ask Gemini"]::before'
 	,'speech-dictation-mic-button'
