@@ -24,6 +24,7 @@ GM_addStyle([
 // 2025-05-22
 // language=CSS
 GM_addStyle([
+	'.md-sidebar--secondary'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
