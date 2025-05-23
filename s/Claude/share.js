@@ -63,7 +63,7 @@ GM_addStyle([
 // 2025-05-23
 // language=CSS
 GM_addStyle([
-	'header.sticky + div > div' // 2025-05-23
+	'[class*="max-w-"]' // 2025-05-23
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -233,7 +233,7 @@ GM_addStyle([
 // 2025-05-23
 // language=CSS
 GM_addStyle([
-	'header.sticky + div > div' // 2025-05-23
+	'[class*="max-w-"]' // 2025-05-23
 ]
 	// language=Javascript
 	.join(',') + '{' +
