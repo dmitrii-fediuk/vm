@@ -15,7 +15,6 @@ GM_addStyle([
 	,':has(> [data-testid="user-message"]) > .shrink-0'
 	,':has(> a[href^="https://support.anthropic.com/en/articles/8525154"])'
 	,'button:has(svg[data-testid="action-bar-copy"]) ~ *'
-	//,'header.sticky'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -52,13 +51,13 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
-// 2025-04-20
+// 2025-05-23
 // language=CSS
 GM_addStyle([
-	'code'
+	'header.sticky' // 2025-05-23
 ]
 	 // language=Javascript
-	.join(',') + '{tab-size: 4 !important;}')
+	.join(',') + '{height: unset !important;}')
 ;
 // 2025-03-27
 // language=CSS
@@ -67,6 +66,14 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{max-width: 100% !important;}')
+;
+// 2025-04-20
+// language=CSS
+GM_addStyle([
+	'code'
+]
+	 // language=Javascript
+	.join(',') + '{tab-size: 4 !important;}')
 ;
 // 2025-03-27
 // language=CSS
