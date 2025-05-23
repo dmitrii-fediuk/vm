@@ -60,6 +60,14 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	':has(> [data-test-render-count])' // 2025-05-23
+]
+	 // language=Javascript
+	.join(',') + '{flex-grow: unset !important;}')
+;
+// 2025-05-23
+// language=CSS
+GM_addStyle([
+	':has(> [data-test-render-count])' // 2025-05-23
 	,'header.sticky > :not(.blur-sm)' // 2025-05-23
 ]
 	 // language=Javascript
