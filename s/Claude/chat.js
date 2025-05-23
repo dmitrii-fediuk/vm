@@ -57,6 +57,14 @@ GM_addStyle([
 // 2025-05-23
 // language=CSS
 GM_addStyle([
+	'header.sticky > :not(.blur-sm)' // 2025-05-23
+]
+	 // language=Javascript
+	.join(',') + '{gap: unset !important;}')
+;
+// 2025-05-23
+// language=CSS
+GM_addStyle([
 	'.h-screen' // 2025-05-23
 	,'header.sticky' // 2025-05-23
 ]
