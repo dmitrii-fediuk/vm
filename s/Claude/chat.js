@@ -110,4 +110,4 @@ GM_addStyle([
 );
 // 2025-03-27
 // language=CSS
-GM_addStyle('body {padding: 0 1rem !important;}');
+GM_addStyle('body {padding: 0 0.5rem !important;}');
