@@ -54,7 +54,8 @@ GM_addStyle([
 // 2025-05-23
 // language=CSS
 GM_addStyle([
-	'header.sticky' // 2025-05-23
+	':has(> header.sticky)' // 2025-05-23
+	,'header.sticky' // 2025-05-23
 ]
 	 // language=Javascript
 	.join(',') + '{height: unset !important;}')
