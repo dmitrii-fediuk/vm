@@ -25,6 +25,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.bottom-0.sticky' // 2025-05-23
+	,':has(> [data-test-render-count]) > :not([data-test-render-count])' // 2025-05-23
 	,'header.sticky' // 2025-05-23
 ]
 	 // language=Javascript
