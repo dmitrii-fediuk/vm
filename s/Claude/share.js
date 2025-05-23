@@ -70,6 +70,7 @@ GM_addStyle([
 // 2025-05-23
 // language=CSS
 GM_addStyle([
+	'header.sticky ~ *' // 2025-05-23
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
