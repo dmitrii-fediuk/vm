@@ -45,7 +45,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.bottom-0.sticky' // 2025-05-23
-	,'.bottom-0.absolute:has(svg[data-testid="action-bar-copy"]) > div'
+	//,'.bottom-0.absolute:has(svg[data-testid="action-bar-copy"]) > div'
 	,'.mx-auto:has(> div > [data-test-render-count])'
 	,':has(> [data-test-render-count])'
 	,'[data-test-render-count] > div > div'
