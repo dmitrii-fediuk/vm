@@ -49,6 +49,7 @@ GM_addStyle([
 	,'.mx-auto:has(> div > [data-test-render-count])'
 	,':has(> [data-test-render-count])'
 	,'[data-test-render-count] > div > div'
+	,'header.sticky > :not(.blur-sm)' // 2025-05-23
 	,'header.sticky ~ div'
 ]
 	 // language=Javascript
