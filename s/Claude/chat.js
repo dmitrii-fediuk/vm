@@ -14,7 +14,7 @@ GM_addStyle([
 	,':has(> .bottom-0.sticky) > :first-child > :not([data-test-render-count])'
 	,':has(> [data-testid="user-message"]) > .shrink-0'
 	,':has(> a[href^="https://support.anthropic.com/en/articles/8525154"])'
-	,'button:has(svg[data-testid="action-bar-copy"]) ~ *'
+	//,'button:has(svg[data-testid="action-bar-copy"]) ~ *'
 	,'header.sticky > .blur-sm' // 2025-05-23
 	// 2025-05-23 «Share»
 	,'header.sticky > :not(.blur-sm) > :not(:has(button > svg > path[d^="M214,112v96a14"]))'
@@ -45,7 +45,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.bottom-0.sticky' // 2025-05-23
-	//,'.bottom-0.absolute:has(svg[data-testid="action-bar-copy"]) > div'
+	,'.bottom-0.absolute:has(svg[data-testid="action-bar-copy"]) > div'
 	,'.mx-auto:has(> div > [data-test-render-count])'
 	,':has(> [data-test-render-count])'
 	,'[data-test-render-count] > div > div'
