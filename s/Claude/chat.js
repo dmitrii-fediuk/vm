@@ -16,6 +16,7 @@ GM_addStyle([
 	,':has(> a[href^="https://support.anthropic.com/en/articles/8525154"])'
 	,'button:has(svg[data-testid="action-bar-copy"]) ~ *'
 	,'header.sticky > .blur-sm' // 2025-05-23
+	,'header.sticky > :not(:has(button > svg > path[d^="M214,112v96a14"]))' // 2025-05-23 «Share»
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
