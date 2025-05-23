@@ -89,6 +89,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{tab-size: 4 !important;}')
 ;
+// 2025-05-23
+// language=CSS
+GM_addStyle([
+	'.absolute.bottom-0 > [class*=translate]' // 2025-05-23
+]
+	 // language=Javascript
+	.join(',') + '{transform: unset !important;}')
+;
 // 2025-03-27
 // language=CSS
 GM_addStyle([
