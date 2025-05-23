@@ -20,10 +20,10 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
-// 2025-05-22
+// 2025-05-23
 // language=CSS
 GM_addStyle([
-	':has(> header.sticky)' // 2025-05-22
+	':has(> header.sticky)' // 2025-05-23
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
@@ -34,6 +34,7 @@ GM_addStyle([
 	'.mx-auto:has(> div > [data-test-render-count])'
 	,'[data-test-render-count] > div > div'
 	,'[data-test-render-count] > div'
+	,'header.sticky' // 2025-05-23
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
