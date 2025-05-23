@@ -20,6 +20,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// 2025-05-22
+// language=CSS
+GM_addStyle([
+	':has(> header.sticky)' // 2025-05-22
+]
+	 // language=Javascript
+	.join(',') + '{display: block !important;}')
+;
 // 2025-03-27
 // language=CSS
 GM_addStyle([
