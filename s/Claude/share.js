@@ -24,6 +24,7 @@ GM_addStyle([
 // 2025-05-23
 // language=CSS
 GM_addStyle([
+	'.bottom-0.sticky' // 2025-05-23
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
