@@ -54,7 +54,7 @@ GM_addStyle([
 // 2025-05-23
 // language=CSS
 GM_addStyle([
-	':has(> header.sticky)' // 2025-05-23
+	'.h-screen' // 2025-05-23
 	,'header.sticky' // 2025-05-23
 ]
 	 // language=Javascript
