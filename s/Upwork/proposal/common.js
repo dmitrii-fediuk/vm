@@ -13,6 +13,7 @@
 GM_addStyle([
 	'.d-none-mobile-app:has(> h1)'
 	,'.invitations-card-view .header-aux'
+	,'.microapp-slot-innova' // 2025-05-29
 	,'.profile-highlights .multimedia-portfolio-hero'
 	,'[class*="scam-education-promo"]'
 	,'button[title="Referrals"]'
