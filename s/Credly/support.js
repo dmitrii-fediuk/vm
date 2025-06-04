@@ -24,8 +24,6 @@ GM_addStyle([
 // 2025-06-04
 // language=CSS
 GM_addStyle([
-	'.md-sidebar--secondary'
-	,'footer'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -55,7 +53,6 @@ GM_addStyle([
 // 2025-06-04
 // language=CSS
 GM_addStyle([
-	'header'
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
