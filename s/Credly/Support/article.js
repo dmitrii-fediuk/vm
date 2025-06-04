@@ -234,6 +234,7 @@ GM_addStyle([
 // 2025-06-04
 // language=CSS
 GM_addStyle([
+	'.article-container__article' // 2025-06-04
 ]
 	// language=Javascript
 	.join(',') + '{' +
