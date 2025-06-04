@@ -24,7 +24,7 @@ GM_addStyle([
 // 2025-06-04
 // language=CSS
 GM_addStyle([
-	'header' // 2025-06-04
+	':has(> #main-content) > :not(#main-content)' // 2025-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
