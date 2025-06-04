@@ -311,4 +311,31 @@ GM_addStyle([
 );
 // 2025-06-04
 // language=CSS
-//GM_addStyle('body {margin: 0 1rem !important;}');
+GM_addStyle('body {margin: 0 1rem !important;}');
+// 2025-06-04
+// language=CSS
+GM_addStyle('br {content: ""; display: block !important; height: 1px;}');
+// 2025-06-04
+// language=CSS
+GM_addStyle('h1 {font-size: 2.5rem !important; margin: 0 0 .3rem 0 !important;}');
+// 2025-06-04
+// language=CSS
+GM_addStyle('h2 {font-size: 2.25rem !important; margin: .5rem 0 !important;}');
+// 2025-06-04
+// language=CSS
+GM_addStyle('h3 {font-size: 2rem !important; margin: .25rem 0 !important;}');
+// 2025-06-04
+// language=CSS
+GM_addStyle('h4 {font-size: 1.75rem !important; margin: .2rem 0 !important;}');
+// 2025-06-04
+// language=CSS
+GM_addStyle([
+	'dl'
+	,'li'
+	,'ol'
+	,'p'
+	,'ul'
+]
+	 // language=Javascript
+	.join(',') + '{margin: .25rem 0 !important;}')
+;
