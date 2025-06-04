@@ -347,3 +347,11 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{margin: .25rem 0 !important;}')
 ;
+// 2025-06-04 https://g.co/gemini/share/e18f977272d7
+(() => {
+	document.querySelectorAll('*').forEach(v => {
+		if (v.innerHTML.trim() === '&nbsp;') {
+			v.classList.add('.empty-nbsp');
+		}
+	});
+})();
