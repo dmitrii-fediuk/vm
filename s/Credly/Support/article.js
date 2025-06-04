@@ -66,6 +66,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#main-content' // 2025-06-04
+	,'.article-page' // 2025-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -74,6 +75,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.article-container__column' // 2025-06-04
+	,'.container' // 2025-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
