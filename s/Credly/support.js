@@ -24,7 +24,8 @@ GM_addStyle([
 // 2025-06-04
 // language=CSS
 GM_addStyle([
-	'[style="visibility: visible;"]:has(iframe#launcher)' // 2025-06-04
+	'.article-sidebar' // 2025-06-04
+	,'[style="visibility: visible;"]:has(iframe#launcher)' // 2025-06-04
 	,'iframe[data-product="web_widget"]' // 2025-06-04
 ]
 	 // language=Javascript
