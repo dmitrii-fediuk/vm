@@ -28,6 +28,7 @@ GM_addStyle([
 	,'.topbar'
 	,':has(> #main-content) > :not(#main-content)' // 2025-06-04
 	,'footer' // 2025-06-04
+	,'p:empty'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
