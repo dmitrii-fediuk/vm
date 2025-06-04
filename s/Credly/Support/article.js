@@ -351,7 +351,8 @@ GM_addStyle([
 (() => {
 	document.querySelectorAll('*').forEach(v => {
 		if (v.innerHTML.trim() === '&nbsp;') {
-			v.classList.add('.empty-nbsp');
+			v.remove();
+			//v.classList.add('.empty-nbsp');
 		}
 	});
 })();
