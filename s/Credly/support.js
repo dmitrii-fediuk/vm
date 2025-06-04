@@ -2,7 +2,7 @@
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Credly/support.js
-// @icon https://docs.hyva.io/images/hyva-logo-192x192.png
+// @icon https://support.credly.com/hc/theming_assets/01HZPGW0A79WZGVJBB93FH85RB
 // @match https://support.credly.com/*
 // @name Credly / Support
 // ==/UserScript==
