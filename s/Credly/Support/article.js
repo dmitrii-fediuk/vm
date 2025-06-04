@@ -63,6 +63,7 @@ GM_addStyle([
 // 2025-06-04
 // language=CSS
 GM_addStyle([
+	'#main-content' // 2025-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
