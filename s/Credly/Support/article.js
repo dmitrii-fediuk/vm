@@ -287,9 +287,6 @@ GM_addStyle([
 ;
 // 2025-06-04
 // language=CSS
-//GM_addStyle('body {font-size: 1rem !important;}');
-// 2025-06-04
-// language=CSS
 GM_addStyle([
 	'html'
 ]
