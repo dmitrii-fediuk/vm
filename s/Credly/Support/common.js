@@ -4,7 +4,7 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Credly/support.js
 // @icon https://support.credly.com/hc/theming_assets/01HZPGW0A79WZGVJBB93FH85RB
 // @match https://support.credly.com/*
-// @name Credly / Support
+// @name Credly / Support / Common
 // ==/UserScript==
 // 2025-06-04 "Improve `support.credly.com`": https://github.com/dmitrii-fediuk/vm/issues/112
 // 2025-06-04
