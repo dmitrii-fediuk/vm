@@ -25,6 +25,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.article-more-questions' // 2025-06-04
+	,'.topbar'
 	,':has(> #main-content) > :not(#main-content)' // 2025-06-04
 	,'footer' // 2025-06-04
 ]
