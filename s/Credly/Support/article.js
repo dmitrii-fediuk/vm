@@ -35,6 +35,7 @@ GM_addStyle([
 // 2025-06-04
 // language=CSS
 GM_addStyle([
+	'.layout' // 2025-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
@@ -171,6 +172,7 @@ GM_addStyle([
 // 2025-06-04
 // language=CSS
 GM_addStyle([
+	'.layout' // 2025-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{height: unset !important;}')
