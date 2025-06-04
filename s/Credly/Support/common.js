@@ -149,6 +149,7 @@ GM_addStyle([
 // 2025-06-04
 // language=CSS
 GM_addStyle([
+	'body'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
@@ -279,10 +280,8 @@ GM_addStyle([
 ;
 // 2025-06-04
 // language=CSS
-//GM_addStyle('body {font-size: 1rem !important;}');
-// 2025-06-04
-// language=CSS
 GM_addStyle([
+	'html'
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -290,7 +289,7 @@ GM_addStyle([
 		Object.entries({
 			'font-family': 'Segoie UI'
 			// language=Javascript
-			,'font-size': '185%'
+			,'font-size': '150%'
 			// language=CSS
 			,'line-height': 1.1
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
