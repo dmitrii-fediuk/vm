@@ -24,7 +24,8 @@ GM_addStyle([
 // 2025-06-04
 // language=CSS
 GM_addStyle([
-	':has(> #main-content) > :not(#main-content)' // 2025-06-04
+	'.article-more-questions' // 2025-06-04
+	,':has(> #main-content) > :not(#main-content)' // 2025-06-04
 	,'footer' // 2025-06-04
 ]
 	 // language=Javascript
