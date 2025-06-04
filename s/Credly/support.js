@@ -25,6 +25,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.article-sidebar' // 2025-06-04
+	,'.layout__footer' // 2025-06-04
 	,'[style="visibility: visible;"]:has(iframe#launcher)' // 2025-06-04
 	,'button.scroll-to-top' // 2025-06-04
 	,'iframe[data-product="web_widget"]' // 2025-06-04
