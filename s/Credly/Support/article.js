@@ -25,10 +25,10 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.article-more-questions' // 2025-06-04
+	,'.empty-nbsp' // 2025-06-04 https://g.co/gemini/share/e18f977272d7
 	,'.topbar'
 	,':has(> #main-content) > :not(#main-content)' // 2025-06-04
 	,'footer' // 2025-06-04
-	,'p:empty'
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
