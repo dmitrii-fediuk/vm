@@ -474,6 +474,13 @@ GM_addStyle([
 		e.stopPropagation();
 		e.stopImmediatePropagation();
 	};
+	// 2025-06-06
+	const hideArticle = a => {
+		const b = a.querySelector('button[data-ev-label="dropdown_secondary_toggle"]');
+		if (b) {
+			b.click();
+		}
+	};
 	const openArticle = b => {
 		const article = b.closest('article[data-test="JobTile"]');
 		if (article) {
@@ -501,6 +508,11 @@ GM_addStyle([
 			if ('Enter' === e.key) {
 				stopEvent(e);
 				openArticle(article);
+			}
+			// 2025-06-06
+			else if ('Escape' === e.key) {
+				stopEvent(e);
+				hideArticle(article);
 			}
 		}, true);
 	})();
