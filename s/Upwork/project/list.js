@@ -476,9 +476,12 @@ GM_addStyle([
 	};
 	// 2025-06-06
 	const hideArticle = a => {
-		const b = a.querySelector('button[data-ev-label="dropdown_secondary_toggle"]');
-		if (b) {
-			b.click();
+		const e = a.querySelector('button[data-ev-label="dropdown_secondary_toggle"] svg');
+		if (e) {
+			// 2025-06-06
+			// 1) https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent
+			// 2) https://g.co/gemini/share/689b763bc005
+			e.dispatchEvent(new MouseEvent('click'));
 		}
 	};
 	const openArticle = b => {
