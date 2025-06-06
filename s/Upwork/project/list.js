@@ -532,8 +532,13 @@ GM_addStyle([
 				setTimeout(() => {
 					const allItems = document.querySelectorAll('.' + menuItemClass);
 					const i = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
-					i ? i.click() : null;
-				}, 50);
+					if (i) {
+						i.click();
+					}
+					else {
+						debugger;
+					}
+				}, 200);
 			}
 		}
 	}, true);
