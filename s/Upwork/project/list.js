@@ -538,7 +538,7 @@ GM_addStyle([
 					else {
 						debugger;
 					}
-				}, 200);
+				}, 500);
 			}
 		}
 	}, true);
