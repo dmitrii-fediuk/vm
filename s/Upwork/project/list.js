@@ -8,29 +8,34 @@
 // ==/UserScript==
 // 2024-10-13, 2024-12-24 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 // language=CSS
-GM_addStyle([
-	'.jobs-grid-container > :has([data-test="filter-active-item"])' // 2025-03-18 Filters at the header
-	,'.nav-parent-wrapper'
-	,':has(> .main-header)' // 2025-03-18 The header
-	,':has(> button[data-ev-label="save"])' // 2025-03-18 «Save job»
-	,'[data-test$="JobsButtons"]'
-	,'[data-test="Header"]'
-	,'[data-test="JobActionSave"]'
-	,'[data-test="JobInfo"] > :not([data-test="job-type-label"])' // 2025-03-18
-	,'[data-test="JobInfoClient"] > :not([data-test="location"])' // 2025-03-18
-	,'[data-test="JobInfoClientMore"]' // 2025-03-18
-	,'[data-test="JobsPage"] > [data-test="FiltersActive"]'
-	,'[data-test="JobsPage"] > [data-test="FiltersList"]'
-	// 2024-12-27
-	// I hide it because my JavaScript below automatically clicks the «Just not interested» option from this menu
-	// when the `JobActionFeedback` button is clicked, so there's no need for the menu to appear.
-	,'[data-test="JobActionFeedback"] [data-test="UpCPopover"]'
-	,'[data-test="jobs-buttons-component"]' // 2025-03-18 «Save search», «Saved jobs»
-	,'[data-test="location"] [data-test="UpCIcon"]' // 2025-03-18
-]
-	 // language=Javascript
-	.join(',') + '{display: none !important;}')
-;
+// 2025-06-06
+// 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
+// 2) https://g.co/gemini/share/647370d4f366
+setTimeout(() => {
+	GM_addStyle([
+		'.jobs-grid-container > :has([data-test="filter-active-item"])' // 2025-03-18 Filters at the header
+		,'.nav-parent-wrapper'
+		,':has(> .main-header)' // 2025-03-18 The header
+		,':has(> button[data-ev-label="save"])' // 2025-03-18 «Save job»
+		,'[data-test$="JobsButtons"]'
+		,'[data-test="Header"]'
+		,'[data-test="JobActionSave"]'
+		,'[data-test="JobInfo"] > :not([data-test="job-type-label"])' // 2025-03-18
+		,'[data-test="JobInfoClient"] > :not([data-test="location"])' // 2025-03-18
+		,'[data-test="JobInfoClientMore"]' // 2025-03-18
+		,'[data-test="JobsPage"] > [data-test="FiltersActive"]'
+		,'[data-test="JobsPage"] > [data-test="FiltersList"]'
+		// 2024-12-27
+		// I hide it because my JavaScript below automatically clicks the «Just not interested» option from this menu
+		// when the `JobActionFeedback` button is clicked, so there's no need for the menu to appear.
+		,'[data-test="JobActionFeedback"] [data-test="UpCPopover"]'
+		,'[data-test="jobs-buttons-component"]' // 2025-03-18 «Save search», «Saved jobs»
+		,'[data-test="location"] [data-test="UpCIcon"]' // 2025-03-18
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
+}, 200);
 // language=CSS
 GM_addStyle([
 	// 2025-03-18
