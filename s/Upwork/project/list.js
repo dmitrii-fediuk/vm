@@ -481,7 +481,7 @@ GM_addStyle([
 			// 2025-06-06
 			// 1) https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent
 			// 2) https://g.co/gemini/share/689b763bc005
-			e.dispatchEvent(new MouseEvent('click'));
+			e.dispatchEvent(new MouseEvent('click', {bubbles: true, cancelable: true, view: window}));
 		}
 	};
 	const openArticle = b => {
