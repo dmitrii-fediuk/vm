@@ -180,6 +180,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.test-container-wrapper' // 2025-06-07
+	,'.test-timer > .slider' // 2025-06-07
 ]
 	 // language=Javascript
 	.join(',') + '{height: unset !important;}')
