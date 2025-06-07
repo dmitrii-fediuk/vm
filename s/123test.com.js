@@ -239,6 +239,7 @@ GM_addStyle([
 // 2025-06-07
 // language=CSS
 GM_addStyle([
+	':has(> #main)' // 2025-06-07
 ]
 	// language=Javascript
 	.join(',') + '{' +
