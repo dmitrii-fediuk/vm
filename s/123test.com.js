@@ -72,6 +72,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#main-wrapper' // 2025-06-07
+	,'.main-wrapper' // 2025-06-07
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
