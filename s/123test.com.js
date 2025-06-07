@@ -24,7 +24,8 @@ GM_addStyle([
 // 2025-06-07
 // language=CSS
 GM_addStyle([
-	'.socials-container'
+	'#cookiescript_badge' // 2025-06-07
+	,'.socials-container' // 2025-06-07
 	,':has(> aside#menuInfoInstruments)' // 2025-06-07
 ]
 	 // language=Javascript
