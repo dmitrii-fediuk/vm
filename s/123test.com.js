@@ -233,6 +233,7 @@ GM_addStyle([
 // 2025-06-07
 // language=CSS
 GM_addStyle([
+	'.item-options' // 2025-06-07
 ]
 	 // language=Javascript
 	.join(',') + '{width: unset !important;}')
