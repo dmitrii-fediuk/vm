@@ -70,6 +70,7 @@ GM_addStyle([
 	,'.instruction' // 2025-06-07
 	,'.item-grid-container' // 2025-06-07
 	,'.row' // 2025-06-07
+	,'.test-status > ul' // 2025-06-07
 	,'.test-timer' // 2025-06-07
 ]
 	 // language=Javascript
@@ -80,6 +81,7 @@ GM_addStyle([
 GM_addStyle([
 	'#main-wrapper' // 2025-06-07
 	,'.main-wrapper' // 2025-06-07
+	,'.test-status > ul' // 2025-06-07
 	,':has(> #main)' // 2025-06-07
 ]
 	 // language=Javascript
