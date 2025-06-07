@@ -69,6 +69,7 @@ GM_addStyle([
 	'.instruction' // 2025-06-07
 	,'.item-grid-container' // 2025-06-07
 	,'.row' // 2025-06-07
+	,'.test-timer' // 2025-06-07
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
