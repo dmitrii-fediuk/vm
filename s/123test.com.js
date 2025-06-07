@@ -66,7 +66,8 @@ GM_addStyle([
 // 2025-06-07
 // language=CSS
 GM_addStyle([
-	'.row' // 2025-06-07
+	'.instruction' // 2025-06-07
+	,'.row' // 2025-06-07
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
