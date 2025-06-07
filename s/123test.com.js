@@ -27,6 +27,7 @@ GM_addStyle([
 	'#cookiescript_badge' // 2025-06-07
 	,'.socials-container' // 2025-06-07
 	,':has(> aside#menuInfoInstruments)' // 2025-06-07
+	,'footer' // 2025-06-07
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -56,7 +57,7 @@ GM_addStyle([
 // 2025-06-07
 // language=CSS
 GM_addStyle([
-	'header.header-nav' // 2025-06-07
+	'header' // 2025-06-07
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
