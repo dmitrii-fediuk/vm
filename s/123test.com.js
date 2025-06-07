@@ -221,6 +221,7 @@ GM_addStyle([
 // 2025-06-07
 // language=CSS
 GM_addStyle([
+	'.instruction' // 2025-06-07
 ]
 	 // language=Javascript
 	.join(',') + '{text-align: unset !important;}')
