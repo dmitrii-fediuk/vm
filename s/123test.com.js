@@ -66,7 +66,8 @@ GM_addStyle([
 // 2025-06-07
 // language=CSS
 GM_addStyle([
-	'.instruction' // 2025-06-07
+	'.container' // 2025-06-07
+	,'.instruction' // 2025-06-07
 	,'.item-grid-container' // 2025-06-07
 	,'.row' // 2025-06-07
 	,'.test-timer' // 2025-06-07
@@ -247,7 +248,8 @@ GM_addStyle([
 // 2025-06-07
 // language=CSS
 GM_addStyle([
-	':has(> #main)' // 2025-06-07
+	'.container' // 2025-06-07
+	,':has(> #main)' // 2025-06-07
 ]
 	// language=Javascript
 	.join(',') + '{' +
