@@ -53,6 +53,7 @@ GM_addStyle([
 // 2025-06-07
 // language=CSS
 GM_addStyle([
+	'header' // 2025-06-07
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
