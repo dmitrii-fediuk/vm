@@ -224,7 +224,8 @@ GM_addStyle([
 // 2025-06-07
 // language=CSS
 GM_addStyle([
-	'.instruction' // 2025-06-07
+	'.current-time' // 2025-06-07
+	,'.instruction' // 2025-06-07
 	,'.test-status > ul' // 2025-06-07
 ]
 	 // language=Javascript
