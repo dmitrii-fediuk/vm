@@ -241,6 +241,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.item-options' // 2025-06-07
+	,'.test-timer' // 2025-06-07
 ]
 	 // language=Javascript
 	.join(',') + '{width: unset !important;}')
