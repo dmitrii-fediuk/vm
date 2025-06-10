@@ -238,6 +238,7 @@ GM_addStyle([
 // 2025-06-10
 // language=CSS
 GM_addStyle([
+	'.image-with-lightbox > img' // 2025-06-10
 ]
 	// language=Javascript
 	.join(',') + '{' +
