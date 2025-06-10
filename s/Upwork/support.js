@@ -28,6 +28,14 @@ setTimeout(() => {
 		.join(',') + '{display: none !important;}')
 	;
 }, 200);
+// 2025-06-10
+// language=CSS
+GM_addStyle([
+	':has(> .articles-page-content)' // 2025-06-10
+]
+	 // language=Javascript
+	.join(',') + '{display: block !important;}')
+;
 // language=CSS
 GM_addStyle([
 	'div:has(> #article-body)'
