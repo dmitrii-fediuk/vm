@@ -317,16 +317,16 @@ GM_addStyle([
 GM_addStyle('br {content: ""; display: block !important; height: 1px;}');
 // 2025-05-04
 // language=CSS
-GM_addStyle('.articles-page h1 {font-size: 2.5rem !important; margin: 0 0 .3rem 0 !important;}');
+GM_addStyle('.articles-page h1 {font-size: 2rem !important; margin: 0 0 .3rem 0 !important;}');
 // 2025-05-04
 // language=CSS
-GM_addStyle('.articles-page h2 {font-size: 2.25rem !important; margin: .5rem 0 !important;}');
+GM_addStyle('.articles-page h2 {font-size: 1.75rem !important; margin: .5rem 0 !important;}');
 // 2025-05-04
 // language=CSS
-GM_addStyle('.articles-page h3 {font-size: 2rem !important; margin: .25rem 0 !important;}');
+GM_addStyle('.articles-page h3 {font-size: 1.5rem !important; margin: .25rem 0 !important;}');
 // 2025-05-04
 // language=CSS
-GM_addStyle('.articles-page h4 {font-size: 1.75rem !important; margin: .2rem 0 !important;}');
+GM_addStyle('.articles-page h4 {font-size: 1.25rem !important; margin: .2rem 0 !important;}');
 // 2025-05-04
 // language=CSS
 GM_addStyle([
