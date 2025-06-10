@@ -8,26 +8,31 @@
 // ==/UserScript==
 // 2024-10-13 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 // language=CSS
-GM_addStyle([
-	'#user-top-navigation-container .nav-container > [data-cy="header"]'
-	,'.air3-banner' // 2025-04-15
-	,'.air3-search'
-	,'.microapp-slot-innova'
-	,'.nav-notifications .nav-dot'
-	,'.nav-uma'
-	,'.up-skip-nav'
-	,'[data-cy="help-menu"]'
-	,'[data-test="SaveJob"]'
-	// 2025-03-04
-	//  1) «Our records indicate that one or more of your payment methods on file
-	//  is associated with Russia or Belarus».
-	// 2) https://support.upwork.com/hc/en-us/requests/51272840
-	,'div:has(> .up-smf [role="alert"] a[href="https://www.upwork.com/nx/payments/deposit-methods"])'
-	,'footer.up-footer'
-]
-	 // language=Javascript
-	.join(',') + '{display: none !important;}')
-;
+// 2025-06-10
+// 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
+// 2) https://g.co/gemini/share/647370d4f366
+setTimeout(() => {
+	GM_addStyle([
+		'#user-top-navigation-container .nav-container > [data-cy="header"]'
+		,'.air3-banner' // 2025-04-15
+		,'.air3-search'
+		,'.microapp-slot-innova'
+		,'.nav-notifications .nav-dot'
+		,'.nav-uma'
+		,'.up-skip-nav'
+		,'[data-cy="help-menu"]'
+		,'[data-test="SaveJob"]'
+		// 2025-03-04
+		//  1) «Our records indicate that one or more of your payment methods on file
+		//  is associated with Russia or Belarus».
+		// 2) https://support.upwork.com/hc/en-us/requests/51272840
+		,'div:has(> .up-smf [role="alert"] a[href="https://www.upwork.com/nx/payments/deposit-methods"])'
+		,'footer.up-footer'
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
+}, 200);
 // language=CSS
 GM_addStyle([
 	'[role="alert"]'
