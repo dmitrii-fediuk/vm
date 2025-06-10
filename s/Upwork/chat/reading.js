@@ -8,20 +8,27 @@
 // ==/UserScript==
 // 2024-10-13
 // "Remove all visual garbage from the Upwork chat screen": https://github.com/dmitrii-fediuk/vm/issues/53
+// 2025-06-10
+// 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
+// 2) https://g.co/gemini/share/647370d4f366
+setTimeout(() => {
+	// language=CSS
+	GM_addStyle([
+		'.composer-container'
+		,'.desktop-layout-header'
+		,'.desktop-layout-index'
+		,'.sidebar-layout'
+		,'.story-menu-section'
+		,'.top-room-content'
+		,'#user-top-navigation-container'
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
+}, 200);
+// 2024-10-13
 // language=CSS
 GM_addStyle('#story-viewport {height: initial !important;}');
+// 2024-10-13
 // language=CSS
 GM_addStyle('.desktop-room-layout {margin: 0 !important;}');
-// language=CSS
-GM_addStyle([
-	'.composer-container'
-	,'.desktop-layout-header'
-	,'.desktop-layout-index'
-	,'.sidebar-layout'
-	,'.story-menu-section'
-	,'.top-room-content'
-	,'#user-top-navigation-container'
-]
-	 // language=Javascript
-	.join(',') + '{display: none !important;}')
-;
