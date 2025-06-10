@@ -67,7 +67,8 @@ GM_addStyle([
 // 2025-06-10
 // language=CSS
 GM_addStyle([
-	':has(> #zd-breadcrumb)' // 2025-06-10
+	'.gallery-with-lightbox' // 2025-06-10
+	,':has(> #zd-breadcrumb)' // 2025-06-10
 	,'img' // 2025-06-10
 ]
 	 // language=Javascript
