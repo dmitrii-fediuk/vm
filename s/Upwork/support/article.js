@@ -22,12 +22,17 @@ GM_addStyle([
 	.join(',') + '{all: revert !important;}')
 ;
 // 2025-06-10
-// language=CSS
-GM_addStyle([
-]
-	 // language=Javascript
-	.join(',') + '{display: none !important;}')
-;
+// 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
+// 2) https://g.co/gemini/share/647370d4f366
+setTimeout(() => {
+	// language=CSS
+	GM_addStyle([
+		'[data-test-id="navbar"]' // 2025-06-10
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
+}, 200);
 // 2025-06-10
 // language=CSS
 GM_addStyle([
