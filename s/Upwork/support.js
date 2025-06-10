@@ -19,6 +19,7 @@ setTimeout(() => {
 		,'#section-banner-contact'
 		,'.navbar-container:has(> footer)'
 		,'.row:has(.breadcrumb)'
+		,'[data-test-id="footer"]'
 		,'div:has(> #article-sidebar)'
 	]
 		 // language=Javascript
