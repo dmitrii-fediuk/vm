@@ -4,7 +4,7 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Upwork/support.js
 // @icon https://www.upwork.com/favicon.ico
 // @match *://support.upwork.com/*
-// @name Upwork / Support
+// @name Upwork / Support / Common
 // ==/UserScript==
 // 2025-01-24 "Improve `support.upwork.com`": https://github.com/dmitrii-fediuk/vm/issues/86
 // 2025-06-10
