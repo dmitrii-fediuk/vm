@@ -10,7 +10,7 @@
 // 2024-12-25
 // 2024-12-30 It is applied to both `/nx/proposals/` and `/nx/proposals/job/`
 // language=CSS
-// 2025-06-06
+// 2025-06-10
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
 setTimeout(() => {
