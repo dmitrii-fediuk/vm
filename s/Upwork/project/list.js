@@ -7,11 +7,11 @@
 // @name Upwork / Project / List
 // ==/UserScript==
 // 2024-10-13, 2024-12-24 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
-// language=CSS
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
 setTimeout(() => {
+	// language=CSS
 	GM_addStyle([
 		'.jobs-grid-container > :has([data-test="filter-active-item"])' // 2025-03-18 Filters at the header
 		,'.nav-parent-wrapper'
