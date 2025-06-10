@@ -192,6 +192,14 @@ GM_addStyle([
 // 2025-06-10
 // language=CSS
 GM_addStyle([
+	'.articles-page :is(h1, h2, h3, h4)' // 2025-06-10
+]
+	 // language=Javascript
+	.join(',') + '{margin: unset !important;}')
+;
+// 2025-06-10
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{min-height: unset !important;}')
