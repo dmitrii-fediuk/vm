@@ -10,36 +10,41 @@
 // 2024-12-24 A job post, e.g.:
 // «https://www.upwork.com/jobs/Developer-for-Backend-Development-with-high-Stripe-API-Experience_~021871538070777433492»
 // language=CSS
-GM_addStyle([
-	'.client-activity-items .help-icon'
-	,'.extra-jobs-cards > [class*="card"]:has([data-test="SimilarJobs"])'
-	,'.nav-parent-wrapper'
-	,'[data-test="AboutClientUser"] div:has([data-testid="head-title"])'
-	// 2024-12-25 The title: «Attachment»
-	,'[data-test="Attachments"] h5'
-	// 2024-12-25 The title: «Activity on this job»
-	,'[data-test="ClientActivity"] h5'
-	,'[data-test="ContractToHireBanner"] .illustration'
-	// 2024-12-25 The title: «Skills and Expertise»
-	,'[data-test="Expertise"] h5'
-	// 2024-12-25 Titles like: «Full Stack Development Deliverables»
-	,'[data-test="Expertise"] > [class*="grid-container"] > div:has(> .skills-list) > strong'
-	,'[data-test="Features"] .description'
-	,'[data-test="Features"] > ul.features > li::after'
-	,'[data-test="Features"] [data-test="UpCIcon"]'
-	,'[data-test="FlagButton"]'
-	,'[data-test="Qualifications"] [data-cy="english"]'
-	// 2024-12-25 The title: «Preferred qualifications»
-	,'[data-test="Qualifications"] h5'
-	// 2024-12-25 The title: «You will be asked to answer the following questions when submitting a proposal:»
-	,'[data-test="Questions"] > p'
-	// 2024-12-25 The title: «Project Type:»
-	,'[data-test="Segmentations"] li > :first-child'
-	,'[data-test="SpecializedProfilePrompt"]'
-]
-	 // language=Javascript
-	.join(',') + '{display: none !important;}')
-;
+// 2025-06-10
+// 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
+// 2) https://g.co/gemini/share/647370d4f366
+setTimeout(() => {
+	GM_addStyle([
+		'.client-activity-items .help-icon'
+		,'.extra-jobs-cards > [class*="card"]:has([data-test="SimilarJobs"])'
+		,'.nav-parent-wrapper'
+		,'[data-test="AboutClientUser"] div:has([data-testid="head-title"])'
+		// 2024-12-25 The title: «Attachment»
+		,'[data-test="Attachments"] h5'
+		// 2024-12-25 The title: «Activity on this job»
+		,'[data-test="ClientActivity"] h5'
+		,'[data-test="ContractToHireBanner"] .illustration'
+		// 2024-12-25 The title: «Skills and Expertise»
+		,'[data-test="Expertise"] h5'
+		// 2024-12-25 Titles like: «Full Stack Development Deliverables»
+		,'[data-test="Expertise"] > [class*="grid-container"] > div:has(> .skills-list) > strong'
+		,'[data-test="Features"] .description'
+		,'[data-test="Features"] > ul.features > li::after'
+		,'[data-test="Features"] [data-test="UpCIcon"]'
+		,'[data-test="FlagButton"]'
+		,'[data-test="Qualifications"] [data-cy="english"]'
+		// 2024-12-25 The title: «Preferred qualifications»
+		,'[data-test="Qualifications"] h5'
+		// 2024-12-25 The title: «You will be asked to answer the following questions when submitting a proposal:»
+		,'[data-test="Questions"] > p'
+		// 2024-12-25 The title: «Project Type:»
+		,'[data-test="Segmentations"] li > :first-child'
+		,'[data-test="SpecializedProfilePrompt"]'
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
+}, 200);
 // language=CSS
 GM_addStyle([
 	'[data-test="Features"] > ul.features > li'
