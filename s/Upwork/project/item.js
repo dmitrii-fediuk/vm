@@ -9,11 +9,11 @@
 // 2024-10-13 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 // 2024-12-24 A job post, e.g.:
 // «https://www.upwork.com/jobs/Developer-for-Backend-Development-with-high-Stripe-API-Experience_~021871538070777433492»
-// language=CSS
 // 2025-06-10
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
 setTimeout(() => {
+	// language=CSS
 	GM_addStyle([
 		'.client-activity-items .help-icon'
 		,'.extra-jobs-cards > [class*="card"]:has([data-test="SimilarJobs"])'
