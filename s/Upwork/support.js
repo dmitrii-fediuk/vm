@@ -7,18 +7,18 @@
 // @name Upwork / Support
 // ==/UserScript==
 // 2025-01-24 "Improve `support.upwork.com`": https://github.com/dmitrii-fediuk/vm/issues/86
-// language=CSS
 // 2025-06-10
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
 setTimeout(() => {
+	// language=CSS
 	GM_addStyle([
 		'#article-body > hr'
-		,'#article-vote-container'
 		,'#navbar'
 		,'#section-banner-contact'
 		,'.navbar-container:has(> footer)'
 		,'.row:has(.breadcrumb)'
+		,':has (> #article-vote-container)' // 2025-06-10
 		,':has(> #article-sidebar)'
 		,':has(> .articles-page-content) > :not(.articles-page-content)' // 2025-06-10
 		,':has(> .contact-support-banner)' // 2025-06-10
