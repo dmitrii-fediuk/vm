@@ -150,6 +150,7 @@ GM_addStyle([
 // 2025-06-10
 // language=CSS
 GM_addStyle([
+	'body'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
