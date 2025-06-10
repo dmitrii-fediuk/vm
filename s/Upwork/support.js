@@ -96,6 +96,9 @@ GM_addStyle([
 			.map(k => `${k}: 100% !important;`).join(' ') +
 	'}'
 );
+// 2025-06-10
+// language=CSS
+GM_addStyle('body {margin: 0 1rem !important;}');
 // language=CSS
 GM_addStyle([
 	'#article-body > h3'
