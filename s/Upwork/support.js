@@ -11,6 +11,7 @@
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
 setTimeout(() => {
+	// language=CSS
 	GM_addStyle([
 		'#article-body > hr'
 		,'#navbar'
