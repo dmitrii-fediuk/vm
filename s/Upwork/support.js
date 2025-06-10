@@ -19,8 +19,9 @@ setTimeout(() => {
 		,'#section-banner-contact'
 		,'.navbar-container:has(> footer)'
 		,'.row:has(.breadcrumb)'
-		,'[data-test-id="footer"]'
-		,'div:has(> #article-sidebar)'
+		,':has(> #article-sidebar)'
+		,':has(> .contact-support-banner)' // 2025-06-10
+		,'[data-test-id="footer"]' // 2025-06-10
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
