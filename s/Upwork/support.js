@@ -38,20 +38,6 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	'div:has(> #article-body)'
-]
-	 // language=Javascript
-	.join(',') + '{width: auto !important;}')
-;
-// language=CSS
-GM_addStyle([
-	'.article-page > .container'
-]
-	 // language=Javascript
-	.join(',') + '{max-width: none !important;}')
-;
-// language=CSS
-GM_addStyle([
 	'#article-body'
 	,'#article-body > h3'
 	,'#page-header'
@@ -62,6 +48,7 @@ GM_addStyle([
 	,'.accordion-item-content ul'
 	,'.accordion-item-title > h3'
 	,'.article-page'
+	,'.container' // 2025-06-10
 	,'h1'
 ]
 	 // language=Javascript
@@ -70,6 +57,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.accordion-item-content'
+	,'.container' // 2025-06-10
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -82,6 +70,32 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{border: none !important;}')
 ;
+// language=CSS
+GM_addStyle([
+	'.article-page > .container'
+]
+	 // language=Javascript
+	.join(',') + '{max-width: none !important;}')
+;
+// language=CSS
+GM_addStyle([
+	'div:has(> #article-body)'
+]
+	 // language=Javascript
+	.join(',') + '{width: auto !important;}')
+;
+// 2025-06-10
+// language=CSS
+GM_addStyle([
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['max-width', 'width', 'min-width']
+			// language=Javascript
+			.map(k => `${k}: 100% !important;`).join(' ') +
+	'}'
+);
 // language=CSS
 GM_addStyle([
 	'#article-body > h3'
