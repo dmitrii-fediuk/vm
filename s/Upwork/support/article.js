@@ -36,6 +36,7 @@ setTimeout(() => {
 // 2025-06-10
 // language=CSS
 GM_addStyle([
+	'.air3-grid-container:has(h1)' // 2025-06-10
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
