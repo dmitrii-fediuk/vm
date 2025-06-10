@@ -7,11 +7,11 @@
 // @name Upwork / Common
 // ==/UserScript==
 // 2024-10-13 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
-// language=CSS
 // 2025-06-10
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
 setTimeout(() => {
+	// language=CSS
 	GM_addStyle([
 		'#user-top-navigation-container .nav-container > [data-cy="header"]'
 		,'.air3-banner' // 2025-04-15
