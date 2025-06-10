@@ -18,7 +18,7 @@ setTimeout(() => {
 		,'#section-banner-contact'
 		,'.navbar-container:has(> footer)'
 		,'.row:has(.breadcrumb)'
-		,':has (> #article-vote-container)' // 2025-06-10
+		,':has(> #article-vote-container)' // 2025-06-10
 		,':has(> #article-sidebar)'
 		,':has(> .articles-page-content) > :not(.articles-page-content)' // 2025-06-10
 		,':has(> .contact-support-banner)' // 2025-06-10
