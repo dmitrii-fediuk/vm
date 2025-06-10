@@ -28,6 +28,7 @@ setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
 		'[data-test-id="navbar"]' // 2025-06-10
+		,'hr' // 2025-06-10
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
