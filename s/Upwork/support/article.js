@@ -281,6 +281,7 @@ GM_addStyle([
 // 2025-06-10
 // language=CSS
 GM_addStyle([
+	'html'
 ]
 	// language=Javascript
 	.join(',') + '{' +
