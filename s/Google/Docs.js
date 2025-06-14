@@ -19,6 +19,7 @@ GM_addStyle([
 	,'#clearFormattingButton'
 	,'#commentSeparator'
 	,'#docs-branding-container'
+	,'#docs-instant-bubble' // 2025-06-14
 	,'#docs-omnibox-toolbar'
 	,'#docs-toolbar-mode-switcher'
 	,'#formatPainterButton'
