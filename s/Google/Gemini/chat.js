@@ -9,7 +9,8 @@
 // 2024-10-23 "Improve `gemini.google.com`": https://github.com/dmitrii-fediuk/vm/issues/60
 // 2025-06-15
 setTimeout(() => {
-	if (document.querySelector('deep-research-entry-chip-content')) {
+	debugger;
+	if (document.querySelector('deep-research-immersive-panel')) {
 		return;
 	}
 	// 2025-03-28
@@ -344,4 +345,4 @@ setTimeout(() => {
 		// 2025-03-28 https://chatgpt.com/c/67e62a28-c3b8-8003-bda7-3589b21ff431
 		const i = setInterval(() => p() ? clearInterval(i) : null, 50);
 	})();
-}, 200);
+}, 2000);
