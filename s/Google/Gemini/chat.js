@@ -31,7 +31,6 @@ const waitForAddition = s => {
 const waitForRemoval = s => {
 	return new Promise(resolve => {
 		if (!document.querySelector(s)) {
-			debugger;
 			resolve();
 		}
 		else {
