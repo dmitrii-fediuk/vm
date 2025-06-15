@@ -362,6 +362,7 @@ const waitForAddition = s => {
 		}
 	});
 };
+// 2025-06-15
 const waitForRemoval = s => {
 	return new Promise(resolve => {
 		if (!document.querySelector(s)) {
@@ -382,10 +383,14 @@ const waitForRemoval = s => {
 		}
 	});
 };
-waitForAddition('mat-progress-bar').then(() => {waitForRemoval('mat-progress-bar').then(() => {
-	setTimeout(() => {
-		if (!document.querySelector('deep-research-immersive-panel')) {
-			p();
-		}
-	}, 200);
-})});
+// 2025-06-15
+const t = 'mat-progress-bar';
+waitForAddition(t).then(() => {
+	waitForRemoval(t).then(() => {
+		setTimeout(() => {
+			if (!document.querySelector('deep-research-immersive-panel')) {
+				p();
+			}
+		}, 200);
+	})
+});
