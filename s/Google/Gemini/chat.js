@@ -17,7 +17,7 @@ const waitForAddition = s => {
 			const observer = new MutationObserver(mm => {
 				mm.forEach(m => {
 					m.addedNodes.forEach(n => {
-						if (Node.ELEMENT_NODE === node.nodeType && n.matches(s)) {
+						if (Node.ELEMENT_NODE === n.nodeType && n.matches(s)) {
 							observer.disconnect();
 							resolve();
 						}
