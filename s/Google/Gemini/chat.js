@@ -7,6 +7,10 @@
 // @name Google / Gemini / Chat
 // ==/UserScript==
 // 2024-10-23 "Improve `gemini.google.com`": https://github.com/dmitrii-fediuk/vm/issues/60
+// 2025-06-15
+if (document.querySelector('deep-research-immersive-panel')) {
+	return;
+}
 // 2025-03-28
 // language=CSS
 GM_addStyle([
