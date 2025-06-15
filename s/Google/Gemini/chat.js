@@ -10,7 +10,7 @@
 // 2025-06-15
 const waitForAddition = s => {
 	return new Promise(resolve => {
-		if (!document.querySelector(s)) {
+		if (document.querySelector(s)) {
 			resolve();
 		}
 		else {
