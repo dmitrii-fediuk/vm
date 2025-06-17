@@ -53,6 +53,7 @@ GM_addStyle([
 // 2025-06-17
 // language=CSS
 GM_addStyle([
+	'#orm-global-site-header' // 2025-06-17
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
