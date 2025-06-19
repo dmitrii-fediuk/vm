@@ -102,7 +102,7 @@ GM_addStyle([
 // 2025-06-19
 // language=CSS
 GM_addStyle([
-	'.markdown table [data-col-size=xl]' // 2025-06-19
+	'[data-col-size]' // 2025-06-19
 ]
 	 // language=Javascript
 	.join(',') + '{min-width: unset !important;}')
