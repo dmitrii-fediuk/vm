@@ -10,7 +10,8 @@
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	':has(> [data-testid="copy-turn-action-button"]) ~ *'
+	'#stage-slideover-sidebar' // 2025-06-19
+	,':has(> [data-testid="copy-turn-action-button"]) ~ *'
 	,':has(> button#radix-\\:rp\\:)'
 ]
 	 // language=Javascript
