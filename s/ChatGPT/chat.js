@@ -43,6 +43,7 @@ GM_addStyle([
 	,'.text-base'
 	,'[data-message-author-role="user"] :has(> .whitespace-pre-wrap)'
 	,'code.\\!whitespace-pre'
+	,'td' // 2025-06-19
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
