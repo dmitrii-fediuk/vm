@@ -63,11 +63,18 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{border-radius: 0 !important;}')
 ;
+// 2025-06-19
+// language=CSS
+GM_addStyle([
+	'[class*="tableContainer"]' // 2025-06-19
+]
+	 // language=Javascript
+	.join(',') + '{width: unset !important;}')
+;
 // 2025-03-29
 // language=CSS
 GM_addStyle([
 	'[class*="--user-chat-width"]' // 2025-03-29
-	,'[class*="tableContainer"]' // 2025-06-19
 ]
 	// language=Javascript
 	.join(',') + '{' +
