@@ -84,8 +84,9 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'.composer-parent:has(article)'
-	,'.\\[scrollbar-gutter\\:stable\\]'
+	,'.composer-parent:has(article)'
+	//,'.\\[scrollbar-gutter\\:stable\\]'
+	,'[class*="scrollbar-gutter\\:stable"]' // 2025-03-19
 ]
 	// language=Javascript
 	.join(',') + '{' +
