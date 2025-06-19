@@ -39,6 +39,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.group\\/conversation-turn'
+	,'.pb-25' // 2025-06-19
 	,'.text-base'
 	,'[data-message-author-role="user"] :has(> .whitespace-pre-wrap)'
 	,'code.\\!whitespace-pre'
