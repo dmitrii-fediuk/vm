@@ -17,6 +17,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// 2025-06-19
+// language=CSS
+GM_addStyle([
+	'[class*="tableContainer"] > *' // 2025-06-19
+]
+	 // language=Javascript
+	.join(',') + '{display: block !important;}')
+;
 // 2025-03-29
 // language=CSS
 GM_addStyle([
