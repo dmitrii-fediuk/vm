@@ -96,6 +96,14 @@ GM_addStyle([
 	'[class*="tableContainer"]' // 2025-06-19
 ]
 	 // language=Javascript
+	.join(',') + '{overflow-x: unset !important;}')
+;
+// 2025-06-19
+// language=CSS
+GM_addStyle([
+	'[class*="tableContainer"]' // 2025-06-19
+]
+	 // language=Javascript
 	.join(',') + '{scrollbar-width: unset !important;}')
 ;
 // 2025-06-19
