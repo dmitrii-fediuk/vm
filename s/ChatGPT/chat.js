@@ -86,7 +86,7 @@ GM_addStyle([
 GM_addStyle([
 	,'.composer-parent:has(article)'
 	//,'.\\[scrollbar-gutter\\:stable\\]'
-	,'[class*="scrollbar-gutter\\:stable"]' // 2025-03-19
+	,'[class*="scrollbar-gutter"]' // 2025-03-19
 ]
 	// language=Javascript
 	.join(',') + '{' +
