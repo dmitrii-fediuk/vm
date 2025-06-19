@@ -102,7 +102,7 @@ GM_addStyle([
 // 2025-06-19
 // language=CSS
 GM_addStyle([
-	'td' // 2025-06-19
+	'td[data-col-size]' // 2025-06-19
 ]
 	 // language=Javascript
 	.join(',') + '{min-width: unset !important;}')
