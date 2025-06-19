@@ -51,8 +51,6 @@ GM_addStyle([
 	,'.text-base'
 	,'[data-message-author-role="user"] :has(> .whitespace-pre-wrap)'
 	,'code.\\!whitespace-pre'
-	,'td' // 2025-06-19
-	,'th' // 2025-06-19
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -202,7 +200,7 @@ GM_addStyle('.prose h2 {margin: 0.4rem 0 !important;}');
 GM_addStyle('.prose h3 {margin: 0.25rem 0 !important;}');
 // 2025-06-19
 // language=CSS
-GM_addStyle('th {margin: 0.25rem 0 !important;}');
+GM_addStyle('th {padding: 0.25rem 0 !important;}');
 // 2025-01-04
 // language=CSS
 GM_addStyle('.prose :where(hr):not(:where([class~=not-prose] *)) {margin: 0.5rem 0 !important;}');
