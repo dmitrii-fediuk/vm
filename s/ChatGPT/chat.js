@@ -126,7 +126,7 @@ GM_addStyle([
 // 2025-06-19
 // language=CSS
 GM_addStyle([
-	'[class*="tableContainer"]' // 2025-06-19
+	//'[class*="tableContainer"]' // 2025-06-19
 ]
 	 // language=Javascript
 	.join(',') + '{width: unset !important;}')
@@ -135,6 +135,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'[class*="--user-chat-width"]' // 2025-03-29
+	,'[class*="tableContainer"]' // 2025-06-19
 ]
 	// language=Javascript
 	.join(',') + '{' +
