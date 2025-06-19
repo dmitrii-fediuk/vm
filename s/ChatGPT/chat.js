@@ -68,19 +68,27 @@ GM_addStyle([
 // 2025-06-19
 // language=CSS
 GM_addStyle([
-	'td' // 2025-06-19
-]
-	 // language=Javascript
-	.join(',') + '{min-width: unset !important;}')
-;
-// 2025-06-19
-// language=CSS
-GM_addStyle([
 	'table' // 2025-06-19
 	,'tbody' // 2025-06-19
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
+;
+// 2025-06-19
+// language=CSS
+GM_addStyle([
+	'table' // 2025-06-19
+]
+	 // language=Javascript
+	.join(',') + '{line-height: unset !important;}')
+;
+// 2025-06-19
+// language=CSS
+GM_addStyle([
+	'td' // 2025-06-19
+]
+	 // language=Javascript
+	.join(',') + '{min-width: unset !important;}')
 ;
 // 2025-06-19
 // language=CSS
