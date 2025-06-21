@@ -83,7 +83,7 @@ GM_addStyle([
 // 2025-06-21
 // language=CSS
 GM_addStyle([
-	'[class*=py-]' // 2025-06-21
+	//'[class*=py-]' // 2025-06-21
 ]
 	 // language=Javascript
 	.join(',') + '{padding-block: 0 !important;}')
@@ -91,7 +91,7 @@ GM_addStyle([
 // 2025-06-21
 // language=CSS
 GM_addStyle([
-	'[class*=px-]' // 2025-06-21
+	//'[class*=px-]' // 2025-06-21
 ]
 	 // language=Javascript
 	.join(',') + '{padding-inline: 0 !important;}')
