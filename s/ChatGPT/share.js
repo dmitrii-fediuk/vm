@@ -72,6 +72,7 @@ GM_addStyle([
 GM_addStyle([
 	':has(> .print\\:hidden)' // 2025-06-21
 	,':has(> a[href$="/?utm_src=deep-research-sharing"])' // 2025-06-21
+	,'.pb-8' // 2025-06-21
 	,'body' // 2025-06-21
 ]
 	 // language=Javascript
