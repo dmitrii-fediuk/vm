@@ -114,14 +114,6 @@ GM_addStyle([
 // 2025-06-21
 // language=CSS
 GM_addStyle([
-	//'[data-radix-popper-content-wrapper]' // 2025-06-21
-]
-	 // language=Javascript
-	.join(',') + '{background-color: white !important;}')
-;
-// 2025-06-21
-// language=CSS
-GM_addStyle([
 	'[class*=border]' // 2025-06-21
 ]
 	 // language=Javascript
