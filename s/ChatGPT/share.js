@@ -24,6 +24,7 @@ GM_addStyle([
 // 2025-06-21
 // language=CSS
 GM_addStyle([
+	':has(> a[href$="/report-content/"])' // 2025-06-21
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
