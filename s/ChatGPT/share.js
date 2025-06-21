@@ -179,6 +179,14 @@ GM_addStyle([
 // 2025-06-21
 // language=CSS
 GM_addStyle([
+	'[class*=gap-]' // 2025-06-21
+]
+	 // language=Javascript
+	.join(',') + '{gap: unset !important;}')
+;
+// 2025-06-21
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{height: unset !important;}')
