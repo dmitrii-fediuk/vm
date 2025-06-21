@@ -184,16 +184,10 @@ GM_addStyle([
 // 2025-06-21
 // language=CSS
 GM_addStyle([
+	'.prose' // 2025-06-21
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: unset !important;}')
-;
-// 2025-06-21
-// language=CSS
-GM_addStyle([
-]
-	 // language=Javascript
-	.join(',') + '{line-height: .9 !important;}')
 ;
 // 2025-06-21
 // language=CSS
