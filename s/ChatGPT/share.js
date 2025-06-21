@@ -103,6 +103,7 @@ GM_addStyle([
 // 2025-06-21
 // language=CSS
 GM_addStyle([
+	'[class*=border]' // 2025-06-21
 ]
 	 // language=Javascript
 	.join(',') + '{border-radius: 0 !important;}')
