@@ -24,7 +24,7 @@ GM_addStyle([
 // 2025-06-21
 // language=CSS
 GM_addStyle([
-	'.border-b' // 2025-06-21
+	'.border-b:empty' // 2025-06-21
 	,':has(> a[href$="/report-content/"])' // 2025-06-21
 	,':has(> button[aria-label="Try ChatGPT"])' // 2025-06-21
 	,'a[href$="/?utm_src=deep-research-sharing"]' // 2025-06-21
