@@ -109,6 +109,7 @@ GM_addStyle([
 // 2025-06-21
 // language=CSS
 GM_addStyle([
+	'.shadow-md' // 2025-06-21
 ]
 	 // language=Javascript
 	.join(',') + '{box-shadow: unset !important;}')
