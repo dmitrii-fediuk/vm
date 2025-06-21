@@ -25,6 +25,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	':has(> a[href$="/report-content/"])' // 2025-06-21
+	,':has(> button[aria-label="Try ChatGPT"])' // 2025-06-21
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
