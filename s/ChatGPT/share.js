@@ -106,10 +106,10 @@ GM_addStyle([
 // 2025-06-21
 // language=CSS
 GM_addStyle([
-	'[class*=bg-]:not([data-radix-popper-content-wrapper])' // 2025-06-21
+	'[class*=bg-]' // 2025-06-21
 ]
 	 // language=Javascript
-	.join(',') + '{background-color: unset !important;}')
+	.join(',') + '{background-color: white !important;}')
 ;
 // 2025-06-21
 // language=CSS
