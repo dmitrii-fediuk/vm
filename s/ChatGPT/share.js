@@ -106,7 +106,7 @@ GM_addStyle([
 // 2025-06-21
 // language=CSS
 GM_addStyle([
-	'[class*=bg-]' // 2025-06-21
+	//'[class*=bg-]' // 2025-06-21
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: unset !important;}')
@@ -114,7 +114,7 @@ GM_addStyle([
 // 2025-06-21
 // language=CSS
 GM_addStyle([
-	'[data-radix-popper-content-wrapper]' // 2025-06-21
+	//'[data-radix-popper-content-wrapper]' // 2025-06-21
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: white !important;}')
