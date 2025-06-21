@@ -83,7 +83,7 @@ GM_addStyle([
 // 2025-06-21
 // language=CSS
 GM_addStyle([
-	//'[class*=py-]' // 2025-06-21
+	'a[class*=py-]' // 2025-06-21
 ]
 	 // language=Javascript
 	.join(',') + '{padding-block: 0 !important;}')
