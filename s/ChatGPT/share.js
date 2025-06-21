@@ -236,6 +236,7 @@ GM_addStyle([
 // 2025-06-21
 // language=CSS
 GM_addStyle([
+	'.max-w-3xl' // 2025-06-21
 ]
 	// language=Javascript
 	.join(',') + '{' +
