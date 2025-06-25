@@ -541,7 +541,7 @@ GM_addStyle([
 				// 2025-06-06
 				// Previously, I had `50` here.
 				// Now I need `500` for `hideArticle()` to work.
-				}, 1500);
+				}, 500);
 			}
 		}
 	}, true);
