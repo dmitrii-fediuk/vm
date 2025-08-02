@@ -11,7 +11,8 @@
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	'.zero-state-container' // 2025-08-02
+	//'.zero-state-container' // 2025-08-02
+	'chat-window-content' // 2025-08-02
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
