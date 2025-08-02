@@ -11,7 +11,9 @@
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	'chat-window-content' // 2025-08-02
+	//'chat-window-content' // 2025-08-02
+	'.aurora-greeting-container' // 2025-08-02
+	,'.parent-condensed-prompt-card-container' // 2025-08-02
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}'
