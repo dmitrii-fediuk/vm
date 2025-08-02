@@ -13,14 +13,15 @@ setTimeout(() => {
 	// 2025-03-28
 	// language=CSS
 	GM_addStyle([
-		//'chat-window-content' // 2025-08-02
-		'.aurora-greeting-container' // 2025-08-02
-		,'.parent-condensed-prompt-card-container' // 2025-08-02
+		// 2025-08-02
+		// Hiding `chat-window-content` is a mistake
+		// because it prevents us from knowing when Gemini has finished thinking.
+		'.zero-state-container' // 2025-08-02
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}'
 	);
-}, 1000);
+}, 2000);
 // 2025-08-02
 // language=CSS
 GM_addStyle([
