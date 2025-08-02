@@ -8,16 +8,14 @@
 // @name Google / Gemini / New
 // ==/UserScript==
 // 2024-10-23 "Improve `gemini.google.com`": https://github.com/dmitrii-fediuk/vm/issues/60
-// 2025-08-02
-setTimeout(() => {
-	// 2025-03-28
-	// language=CSS
-	GM_addStyle([
-		'#chat-history'
-		,'.parent-condensed-prompt-card-container' // 2025-08-02
-		,'chat-window-content'
-	]
-		 // language=Javascript
-		.join(',') + '{display: none !important;}')
-	;
-}, 200);
+// 2025-03-28
+// language=CSS
+GM_addStyle([
+	//'#chat-history'
+	'.aurora-greeting-container' // 2025-08-02
+	,'.parent-condensed-prompt-card-container' // 2025-08-02
+	//,'chat-window-content'
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
