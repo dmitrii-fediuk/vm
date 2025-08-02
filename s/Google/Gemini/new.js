@@ -23,7 +23,7 @@ GM_addStyle([
 // 2025-08-02
 // language=CSS
 GM_addStyle([
-	'chat-window-content' // 2025-08-02
+	//'chat-window-content' // 2025-08-02
 ]
 	 // language=Javascript
 	.join(',') + '{display: initial !important;}'
