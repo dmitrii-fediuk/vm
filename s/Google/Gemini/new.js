@@ -8,20 +8,18 @@
 // @name Google / Gemini / New
 // ==/UserScript==
 // 2024-10-23 "Improve `gemini.google.com`": https://github.com/dmitrii-fediuk/vm/issues/60
+// 2025-03-28
 // 2025-08-02
-setTimeout(() => {
-	// 2025-03-28
-	// language=CSS
-	GM_addStyle([
-		// 2025-08-02
-		// Hiding `chat-window-content` is a mistake
-		// because it prevents us from knowing when Gemini has finished thinking.
-		'.zero-state-container' // 2025-08-02
-	]
-		 // language=Javascript
-		.join(',') + '{display: none !important;}'
-	);
-}, 2000);
+// language=CSS
+GM_addStyle([
+	// 2025-08-02
+	// Hiding `chat-window-content` is a mistake
+	// because it prevents us from knowing when Gemini has finished thinking.
+	'.zero-state-container' // 2025-08-02
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}'
+);
 // 2025-08-02
 // language=CSS
 GM_addStyle([
