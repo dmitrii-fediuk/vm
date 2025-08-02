@@ -11,8 +11,9 @@
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	'.parent-condensed-prompt-card-container' // 2025-08-02
-	,':has(> .aurora-greeting-container)' // 2025-08-02
+	//'.parent-condensed-prompt-card-container' // 2025-08-02
+	//,':has(> .aurora-greeting-container)' // 2025-08-02
+	'.zero-state-container' // 2025-08-02
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
