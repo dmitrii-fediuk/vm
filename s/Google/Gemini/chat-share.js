@@ -22,6 +22,8 @@ GM_addStyle([
 			'font-size': '120%' // 2025-03-29
 			,'margin': '0 0 0 1rem' // 2025-03-28
 			// language=CSS
+			,'overflow-x': 'hidden' // 2025-08-05
+			// language=CSS
 			,'width': 'auto' // 2025-03-28
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
@@ -54,7 +56,7 @@ GM_addStyle([
 		Object.entries({
 			'display': 'block'
 			,'height': 'auto'
-			,'overflow-y': 'unset'
+			,'overflow': 'unset'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
