@@ -51,6 +51,30 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
+	'code'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'color': '#067D17'
+			,'font-family': 'Consolas'
+			// language=Javascript
+			,'font-size': '1rem'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-03-29 https://chatgpt.com/c/67e7837a-75b4-8003-af6a-1d8a350d139c
+// language=CSS
+GM_addStyle([
+	'code', 'pre'
+]
+	 // language=Javascript
+	.join(',') + '{tab-size: 4 !important;}')
+;
+// 2025-03-29
+// language=CSS
+GM_addStyle([
 	'.query-text'
 ]
 	 // language=Javascript
