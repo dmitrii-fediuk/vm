@@ -22,6 +22,7 @@ const p = () => {
 		,'.side-nav-menu-button > button[data-test-id="side-nav-menu-button"]'
 		,'bard-mode-switcher' // 2025-08-05
 		,'bard-sidenav'
+		,'bard-sidenav *' // 2025-08-05
 		,'hallucination-disclaimer'
 		,'input-container:before'
 		,'mat-sidenav'
@@ -148,24 +149,19 @@ const p = () => {
 	// 2025-03-28 https://chatgpt.com/c/67e63433-b778-8003-9129-50e335c342b0
 	// language=CSS
 	//GM_addStyle('infinite-scroller {overflow-y: auto !important;}');
-	// 2025-03-28
-	// language=CSS
+	// 2025-03-28, 2025-08-05
 	GM_addStyle([
 		'.conversation-container'
 		,'.user-query-bubble-with-background'
 		,'input-container'
+		,'user-query' // 2025-08-05
 	]
 		// language=Javascript
 		.join(',') + '{' +
 			// language=CSS
-			['width', 'min-width']
+			['max-width', 'width', 'min-width']
 				// language=Javascript
-				.map(k => `${k}: initial !important;`).join(' ') +
-			// language=CSS
-			Object.entries({
-				// language=Javascript
-				'max-width': '100%'
-			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+				.map(k => `${k}: 100% !important;`).join(' ') +
 		'}'
 	);
 	// 2025-03-28
