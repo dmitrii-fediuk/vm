@@ -22,7 +22,6 @@ const p = () => {
 		,'.side-nav-menu-button > button[data-test-id="side-nav-menu-button"]'
 		,'bard-mode-switcher' // 2025-08-05
 		,'bard-sidenav'
-		,'bard-sidenav *' // 2025-08-05
 		,'hallucination-disclaimer'
 		,'input-container:before'
 		,'mat-sidenav'
