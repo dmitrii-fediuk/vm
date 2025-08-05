@@ -52,7 +52,8 @@ const p = () => {
 	// 2025-03-28
 	// language=CSS
 	GM_addStyle([
-		'.side-nav-menu-button'
+		'.main-content' // 2025-08-05
+		,'.side-nav-menu-button'
 		//,'bard-sidenav-content'
 	]
 		 // language=Javascript
@@ -129,6 +130,7 @@ const p = () => {
 	// language=CSS
 	GM_addStyle([
 		'#chat-history' // 2025-04-20
+		,'bard-sidenav-content' // 2025-08-05
 	]
 		 // language=Javascript
 		.join(',') + '{overflow-x: visible !important;}')
