@@ -183,7 +183,6 @@ const p = () => {
 	// language=CSS
 	GM_addStyle([
 		'.bard-mode-menu-button'
-		,'code:not(.code-container)'
 	]
 		 // language=Javascript
 		.join(',') + '{font-weight: bold !important;}')
