@@ -18,6 +18,7 @@ const p = () => {
 		,'.cdk-visually-hidden'
 		,'.desktop-ogb-buffer'
 		,'.query-content > :has(> button[aria-label="Edit"])'
+		,'.query-text ~ button[aria-label="Expand"]' // 2025-08-05
 		,'.response-container-header'
 		,'.side-nav-menu-button > button[data-test-id="side-nav-menu-button"]'
 		,'bard-mode-switcher' // 2025-08-05
