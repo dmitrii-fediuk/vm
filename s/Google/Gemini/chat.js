@@ -181,9 +181,6 @@ const p = () => {
 	);
 	// 2025-03-28
 	// language=CSS
-	GM_addStyle('body {padding: 0 0 0 1rem !important; width: auto !important;}');
-	// 2025-03-28
-	// language=CSS
 	GM_addStyle([
 		'.bard-mode-menu-button'
 		,'code:not(.code-container)'
