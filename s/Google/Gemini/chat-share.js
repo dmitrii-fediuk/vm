@@ -18,8 +18,10 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
+			// language=CSS
+			'display': 'block' // 2025-08-05
 			// language=Javascript
-			'font-size': '120%' // 2025-03-29
+			,'font-size': '120%' // 2025-03-29
 			,'margin': '0 0 0 1rem' // 2025-03-28
 			// language=CSS
 			,'overflow-x': 'hidden' // 2025-08-05
