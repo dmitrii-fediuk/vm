@@ -195,52 +195,6 @@ const p = () => {
 		 // language=Javascript
 		.join(',') + '{font-size: 100% !important;}')
 	;
-	// 2025-03-28
-	// language=CSS
-	GM_addStyle([
-		'.markdown :is(ol, p, ul)'
-		,'p.query-text-line:not(:has(> br))'
-	]
-		 // language=Javascript
-		.join(',') + '{margin: 0.25rem 0 !important;}')
-	;
-	// 2025-03-28
-	// language=CSS
-	GM_addStyle([
-		'.markdown li'
-	]
-		 // language=Javascript
-		.join(',') + '{margin: 0.15rem 0 !important;}')
-	;
-	// 2025-03-28
-	// language=CSS
-	GM_addStyle('.user-query-bubble-with-background {background-color: rgba(232, 232, 232, 0.5) !important;}');
-	// 2025-03-28
-	// language=CSS
-	GM_addStyle('.query-text {line-height: 1.2 !important;}');
-	// 2025-03-28
-	// language=CSS
-	GM_addStyle('.markdown {line-height: 1.4 !important;}');
-	// 2025-03-28
-	// language=CSS
-	GM_addStyle('p.query-text-line br {display: block !important; content: ""; height: 1px !important;}');
-	// 2025-03-28
-	// language=CSS
-	GM_addStyle([
-		'.query-text.collapsed'
-	]
-		// language=Javascript
-		.join(',') + '{' +
-			// language=CSS
-			Object.entries({
-				'-webkit-line-clamp': 'none'
-				,'display': 'block'
-				,'line-clamp': 'none'
-				,'overflow': 'initial'
-				,'text-overflow': 'initial'
-			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-		'}'
-	);
 	// 2025-03-28 https://chatgpt.com/c/67e62607-5b70-8003-9805-1775f9b2b1db
 	(() => {
 		const p = () => {
