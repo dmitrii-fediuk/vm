@@ -72,14 +72,21 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{tab-size: 4 !important;}')
 ;
-// 2025-03-28
 // language=CSS
 GM_addStyle([
 	'code:not(.code-container)'
 ]
-	 // language=Javascript
-	.join(',') + '{font-weight: bold !important;}')
-;
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			// language=CSS
+			'background-color': 'initial' // 2025-03-29
+			// language=CSS
+			,'font-weight': 'bold' // 2025-03-28
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 // 2025-03-29
 // language=CSS
 GM_addStyle([

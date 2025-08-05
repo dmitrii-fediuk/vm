@@ -215,14 +215,6 @@ const p = () => {
 	// 2025-03-29
 	// language=CSS
 	GM_addStyle([
-		'code:not(.code-container)'
-	]
-		 // language=Javascript
-		.join(',') + '{background-color: initial !important;}')
-	;
-	// 2025-03-29
-	// language=CSS
-	GM_addStyle([
 		'.code-block > *'
 		,'code.code-container'
 		,'code-block'
