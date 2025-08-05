@@ -7,6 +7,14 @@
 // @name Google / Gemini / Share
 // ==/UserScript==
 // 2025-04-20 "Improve `gemini.google.com`": https://github.com/dmitrii-fediuk/vm/issues/60
+// 2025-08-05
+// language=CSS
+GM_addStyle([
+	'.gds-title-s' // 2025-08-05
+]
+	 // language=Javascript
+	.join(',') + '{all: revert !important;}')
+;
 // 2025-04-20
 // language=CSS
 GM_addStyle([
