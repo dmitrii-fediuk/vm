@@ -156,9 +156,16 @@ const p = () => {
 		,'.main-content' // 2025-08-05
 		,'chat-window' // 2025-08-05
 	]
-		 // language=Javascript
-		.join(',') + '{overflow: visible !important;}')
-	;
+		// language=Javascript
+		.join(',') + '{' +
+			// language=CSS
+			Object.entries({
+				'display': 'block'
+				,'height': 'auto'
+				,'overflow': 'visible'
+			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+		'}'
+	);
 	// 2025-03-28 https://chatgpt.com/c/67e63433-b778-8003-9129-50e335c342b0
 	// language=CSS
 	//GM_addStyle('infinite-scroller {overflow-y: auto !important;}');
