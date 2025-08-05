@@ -151,7 +151,8 @@ const p = () => {
 	// 2025-08-05
 	// language=CSS
 	GM_addStyle([
-		'.content-container' // 2025-08-05
+		'.chat-container' // 2025-08-05
+		,'.content-container' // 2025-08-05
 		,'.content-wrapper' // 2025-08-05
 		,'.main-content' // 2025-08-05
 		,'chat-window' // 2025-08-05
