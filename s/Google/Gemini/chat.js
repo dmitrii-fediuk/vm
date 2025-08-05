@@ -109,6 +109,7 @@ const p = () => {
 	// language=CSS
 	GM_addStyle([
 		'#chat-history'
+		,'bard-sidenav-content' // 2025-08-05
 		,'body'
 		,'chat-app'
 		,'html'
