@@ -48,6 +48,14 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-03-29
+// language=CSS
+GM_addStyle([
+	'.query-text'
+]
+	 // language=Javascript
+	.join(',') + '{font-size: 100% !important;}')
+;
 // 2025-04-20, 2025-08-05
 // language=CSS
 GM_addStyle([

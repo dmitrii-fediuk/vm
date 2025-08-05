@@ -192,7 +192,6 @@ const p = () => {
 	// language=CSS
 	GM_addStyle([
 		'.mat-mdc-button'
-		,'.query-text'
 	]
 		 // language=Javascript
 		.join(',') + '{font-size: 100% !important;}')
