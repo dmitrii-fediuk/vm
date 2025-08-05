@@ -117,9 +117,8 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'background-color': '#f2f2f2'
 			// language=Javascript
-			,'margin': '0.5rem 0'
+			'margin': '0.5rem 0'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
