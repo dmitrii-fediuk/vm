@@ -167,30 +167,6 @@ const p = () => {
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
-	// 2025-03-28
-	// language=CSS
-	GM_addStyle([
-		'#chat-history'
-		,'.content-container'
-		,'.content-wrapper'
-		,'.main-content'
-		,'bard-sidenav-container'
-		,'bard-sidenav-content'
-		,'body'
-		,'chat-app'
-		,'html'
-		,'main'
-	]
-		// language=Javascript
-		.join(',') + '{' +
-			// language=CSS
-			Object.entries({
-				'display': 'block'
-				,'height': 'auto'
-				,'overflow': 'visible'
-			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-		'}'
-	);
 	// 2025-03-28 https://chatgpt.com/c/67e63433-b778-8003-9129-50e335c342b0
 	// language=CSS
 	//GM_addStyle('infinite-scroller {overflow-y: auto !important;}');
