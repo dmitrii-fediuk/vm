@@ -199,15 +199,6 @@ const p = () => {
 	// 2025-03-29
 	// language=CSS
 	GM_addStyle([
-		'.markdown'
-		,'.ql-editor'
-	]
-		 // language=Javascript
-		.join(',') + '{font-size: 110% !important;}')
-	;
-	// 2025-03-29
-	// language=CSS
-	GM_addStyle([
 		'code'
 	]
 		// language=Javascript

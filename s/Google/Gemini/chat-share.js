@@ -56,6 +56,15 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{font-size: 100% !important;}')
 ;
+// 2025-03-29
+// language=CSS
+GM_addStyle([
+	'.markdown'
+	,'.ql-editor'
+]
+	 // language=Javascript
+	.join(',') + '{font-size: 110% !important;}')
+;
 // 2025-04-20, 2025-08-05
 // language=CSS
 GM_addStyle([
