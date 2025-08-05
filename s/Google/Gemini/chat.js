@@ -57,7 +57,7 @@ const p = () => {
 		'.content-container' // 2025-08-05
 		,'.main-content' // 2025-08-05
 		,'.side-nav-menu-button'
-		//,'bard-sidenav-content'
+		,'bard-sidenav-content'
 	]
 		 // language=Javascript
 		.join(',') + '{position: initial !important;}')
