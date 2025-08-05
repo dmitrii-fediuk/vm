@@ -23,6 +23,7 @@ const p = () => {
 		,'bard-mode-switcher' // 2025-08-05
 		,'bard-sidenav'
 		,'hallucination-disclaimer'
+		,'input-container' // 2025-08-05
 		,'input-container:before'
 		,'mat-sidenav'
 		,'message-actions .buttons-container-v2 > :not(' +
