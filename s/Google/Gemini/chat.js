@@ -143,14 +143,21 @@ const p = () => {
 	// 2025-04-20
 	// language=CSS
 	GM_addStyle([
+		'infinite-scroller' // 2025-04-20
+	]
+		 // language=Javascript
+		.join(',') + '{overflow: unset !important;}')
+	;
+	// 2025-08-05
+	// language=CSS
+	GM_addStyle([
 		'.content-container' // 2025-08-05
 		,'.content-wrapper' // 2025-08-05
 		,'.main-content' // 2025-08-05
 		,'chat-window' // 2025-08-05
-		,'infinite-scroller' // 2025-04-20
 	]
 		 // language=Javascript
-		.join(',') + '{overflow: unset !important;}')
+		.join(',') + '{overflow: visible !important;}')
 	;
 	// 2025-03-28 https://chatgpt.com/c/67e63433-b778-8003-9129-50e335c342b0
 	// language=CSS
