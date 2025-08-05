@@ -161,9 +161,9 @@ const p = () => {
 		.join(',') + '{' +
 			// language=CSS
 			Object.entries({
-				'display': 'block'
-				,'height': 'auto'
-				,'overflow': 'visible'
+				//'display': 'block'
+				//,'height': 'auto'
+				'overflow': 'unset'
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 		'}'
 	);
