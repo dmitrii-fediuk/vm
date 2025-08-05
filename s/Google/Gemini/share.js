@@ -21,6 +21,7 @@ GM_addStyle([
 	'.avatar-gutter'
 	,'.boqOnegoogleliteOgbOneGoogleBar'
 	,'.desktop-ogb-buffer'
+	,'.publish-time-text:before' // 2025-08-05
 	,'.share-viewer_chat-container ~ *'
 	,'button[mattooltip="Report"]' // 2025-04-21
 	,'share-viewer ~ *'
