@@ -28,8 +28,8 @@ const p = () => {
 		,'input-container:before'
 		,'mat-sidenav'
 		,'message-actions .buttons-container-v2 > :not(' +
-			'.menu-button-wrapper' +
-			',:has(> [data-test-id=share-and-export-menu-button])' + // 2025-04-20
+			//'.menu-button-wrapper' +
+			':has(> [data-test-id=share-and-export-menu-button])' + // 2025-04-20
 			',copy-button' + // 2025-08-05
 		')'
 		,'model-thoughts'
