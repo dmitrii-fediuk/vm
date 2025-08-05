@@ -33,7 +33,8 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	'.query-content'
+	'.publish-time > *' // 2025-08-05
+	,'.query-content'
 	,'.user-query-bubble-container'
 	,'.user-query-bubble-with-background > .horizontal-container'
 	,'user-query-content'
