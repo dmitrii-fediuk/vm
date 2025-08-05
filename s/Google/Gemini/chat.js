@@ -20,7 +20,7 @@ const p = () => {
 		,'.query-content > :has(> button[aria-label="Edit"])'
 		,'.response-container-header'
 		,'.side-nav-menu-button > button[data-test-id="side-nav-menu-button"]'
-		,'bard-sidenav'
+		//,'bard-sidenav'
 		,'hallucination-disclaimer'
 		,'input-container:before'
 		,'mat-sidenav'
@@ -34,10 +34,12 @@ const p = () => {
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
 	;
+
 	// 2025-03-28
 	// language=CSS
 	GM_addStyle([
-		'.chat-container'
+		'bard-sidenav-container' // 2025-08-05
+		,'.chat-container'
 		,'.horizontal-container'
 		,'.query-content'
 		,'.side-nav-menu-button'
@@ -51,7 +53,7 @@ const p = () => {
 	// language=CSS
 	GM_addStyle([
 		'.side-nav-menu-button'
-		,'bard-sidenav-content'
+		//,'bard-sidenav-content'
 	]
 		 // language=Javascript
 		.join(',') + '{position: initial !important;}')
@@ -97,6 +99,7 @@ const p = () => {
 		 // language=Javascript
 		.join(',') + '{border-radius: 0 !important;}')
 	;
+
 	// 2025-03-28
 	// 1) https://chatgpt.com/c/67e4b4cc-4a38-8003-9d53-d5eac3ac47b8
 	// 2) Similar to:
