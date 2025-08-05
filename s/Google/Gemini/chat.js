@@ -105,7 +105,6 @@ const p = () => {
 		 // language=Javascript
 		.join(',') + '{border-radius: 0 !important;}')
 	;
-
 	// 2025-03-28
 	// 1) https://chatgpt.com/c/67e4b4cc-4a38-8003-9d53-d5eac3ac47b8
 	// 2) Similar to:
@@ -114,32 +113,16 @@ const p = () => {
 	// https://github.com/dmitrii-fediuk/vm/blob/2025-03-27/s/Claude.js#L96-L102
 	// language=CSS
 	GM_addStyle([
-		'#chat-history'
-		,'bard-sidenav-content' // 2025-08-05
-		,'body'
-		,'chat-app'
-		,'html'
-		,'main'
-	]
-		// language=Javascript
-		.join(',') + '{' +
-			// language=CSS
-			Object.entries({
-				'display': 'block'
-				,'height': 'auto'
-				,'overflow-y': 'visible'
-			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-		'}'
-	);
-	// 2025-04-20
-	// language=CSS
-	GM_addStyle([
 		'#chat-history' // 2025-04-20
 		,'.chat-container' // 2025-08-05
 		,'.content-container' // 2025-08-05
 		,'.content-wrapper' // 2025-08-05
 		,'.main-content' // 2025-08-05
 		,'bard-sidenav-content' // 2025-08-05
+		,'body' // 2025-03-28
+		,'chat-app' // 2025-03-28
+		,'html' // 2025-03-28
+		,'main' // 2025-03-28
 		,'chat-window' // 2025-08-05
 		,'infinite-scroller' // 2025-04-20
 	]
