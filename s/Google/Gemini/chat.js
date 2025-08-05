@@ -134,7 +134,7 @@ const p = () => {
 	// 2025-04-20
 	// language=CSS
 	GM_addStyle([
-		'bard-sidenav-content' // 2025-08-05
+
 	]
 		 // language=Javascript
 		.join(',') + '{overflow-x: visible !important;}')
@@ -147,6 +147,7 @@ const p = () => {
 		,'.content-container' // 2025-08-05
 		,'.content-wrapper' // 2025-08-05
 		,'.main-content' // 2025-08-05
+		,'bard-sidenav-content' // 2025-08-05
 		,'chat-window' // 2025-08-05
 		,'infinite-scroller' // 2025-04-20
 	]
