@@ -41,7 +41,7 @@ GM_addStyle([
 	,'.main-content' // 2025-08-05
 	,'bard-sidenav-container' // 2025-03-28
 	,'bard-sidenav-content' // 2025-08-05
-	,'body' // 2025-03-28
+	//,'body' // 2025-03-28
 	,'chat-app' // 2025-03-28
 	,'html' // 2025-03-28
 	,'main' // 2025-03-28
