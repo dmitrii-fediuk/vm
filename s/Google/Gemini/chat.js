@@ -213,14 +213,6 @@ const p = () => {
 	// 2025-03-29
 	// language=CSS
 	GM_addStyle([
-		'body'
-	]
-		 // language=Javascript
-		.join(',') + '{font-size: 120% !important;}')
-	;
-	// 2025-03-29
-	// language=CSS
-	GM_addStyle([
 		'.mat-mdc-button'
 		,'.query-text'
 	]

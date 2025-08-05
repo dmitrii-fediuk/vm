@@ -19,9 +19,10 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			// language=Javascript
-			'margin': '0 0 0 1rem' // 2025-08-05
+			'font-size': '120%' // 2025-03-29
+			,'margin': '0 0 0 1rem' // 2025-03-28
 			// language=CSS
-			,'width': 'auto' // 2025-08-05
+			,'width': 'auto' // 2025-03-28
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
