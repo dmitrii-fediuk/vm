@@ -52,7 +52,8 @@ const p = () => {
 	// 2025-03-28
 	// language=CSS
 	GM_addStyle([
-		'.main-content' // 2025-08-05
+		'.content-container' // 2025-08-05
+		,'.main-content' // 2025-08-05
 		,'.side-nav-menu-button'
 		//,'bard-sidenav-content'
 	]
