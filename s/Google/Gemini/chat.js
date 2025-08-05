@@ -191,28 +191,6 @@ const p = () => {
 	// 2025-03-29
 	// language=CSS
 	GM_addStyle([
-		'.current-mode-title'
-		,'.gds-title-s'
-		,'.markdown'
-		,'.mat-mdc-button'
-		,'.query-text'
-		,'body'
-		,'code'
-		,'code-block'
-		,'pre'
-	]
-		// language=Javascript
-		.join(',') + '{' +
-			// language=CSS
-			Object.entries({
-				'color': 'black'
-				,'font-family': 'Segoie UI'
-			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-		'}'
-	);
-	// 2025-03-29
-	// language=CSS
-	GM_addStyle([
 		'.mat-mdc-button'
 		,'.query-text'
 	]
