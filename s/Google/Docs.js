@@ -58,6 +58,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.kix-rotatingtilemanager-content > div' // 2025-08-13
+	,'.kix-scrollareadocumentplugin' // 2025-08-13
 ]
 	// language=Javascript
 	.join(',') + '{' +
