@@ -57,7 +57,8 @@ GM_addStyle([
 // 2025-08-13 https://g.co/gemini/share/1893549775f1
 // language=CSS
 GM_addStyle([
-	'.kix-rotatingtilemanager-content > div' // 2025-08-13
+	'#docs-editor' // 2025-08-13
+	,'.kix-rotatingtilemanager-content > div' // 2025-08-13
 	,'.kix-scrollareadocumentplugin' // 2025-08-13
 ]
 	// language=Javascript
