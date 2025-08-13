@@ -62,17 +62,21 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{animation: none !important;}')
 ;
+// language=CSS
 GM_addStyle([
 	'.kix-cursor-caret'
 ]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
-			'animation': 'none'
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
+	 // language=Javascript
+	.join(',') + '{opacity: 1 !important;}')
+;
+// 2025-08-13 https://stackoverflow.com/a/28400474
+// language=CSS
+GM_addStyle([
+	'.kix-cursor'
+]
+	 // language=Javascript
+	.join(',') + '{-webkit-animation-iteration-count: 0 !important;}')
+;
 // 2025-08-13 https://g.co/gemini/share/1893549775f1
 // language=CSS
 if (0) {
