@@ -57,7 +57,7 @@ GM_addStyle([
 // 2025-08-13 https://g.co/gemini/share/9f62fc0cb0ba
 // language=CSS
 GM_addStyle([
-	'kix-cursor-caret'
+	'.kix-cursor-caret'
 ]
 	 // language=Javascript
 	.join(',') + '{animation: none !important;}')
