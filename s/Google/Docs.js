@@ -42,6 +42,7 @@ GM_addStyle([
 	,'.docs-titlebar-buttons'
 	,'.left-sidebar-container'
 	,'.miniChapterSwitcherContainerView'
+	,'::-webkit-scrollbar' // 2025-08-13
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -61,14 +62,6 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{-webkit-animation-iteration-count: 0 !important;}')
-;
-// 2025-08-13
-// language=CSS
-GM_addStyle([
-	'.kix-appview-editor' // 2025-08-13
-]
-	 // language=Javascript
-	.join(',') + '{overflow-y: initial !important;}')
 ;
 // 2025-08-13 https://g.co/gemini/share/1893549775f1
 // language=CSS
