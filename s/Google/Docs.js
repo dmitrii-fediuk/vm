@@ -56,20 +56,22 @@ GM_addStyle([
 ;
 // 2025-08-13 https://g.co/gemini/share/1893549775f1
 // language=CSS
-GM_addStyle([
-	'#docs-editor' // 2025-08-13
-	,'.kix-rotatingtilemanager' // 2025-08-13
-	,'.kix-rotatingtilemanager-content > div' // 2025-08-13
-	,'.kix-scrollareadocumentplugin' // 2025-08-13
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		['max-width', 'min-width', 'width']
-			// language=Javascript
-			.map(k => `${k}: 100% !important;`).join(' ') +
-	'}'
-);
+if (0) {
+	GM_addStyle([
+		'#docs-editor' // 2025-08-13
+		,'.kix-rotatingtilemanager' // 2025-08-13
+		,'.kix-rotatingtilemanager-content > div' // 2025-08-13
+		,'.kix-scrollareadocumentplugin' // 2025-08-13
+	]
+		// language=Javascript
+		.join(',') + '{' +
+			// language=CSS
+			['max-width', 'min-width', 'width']
+				// language=Javascript
+				.map(k => `${k}: 100% !important;`).join(' ') +
+		'}'
+	);
+}
 // language=CSS
 GM_addStyle([
 	'div:has(> #docs-header-container)'
