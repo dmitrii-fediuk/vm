@@ -33,6 +33,7 @@ GM_addStyle([
 	,'#printButton'
 	,'#redoButton'
 	,'#spellGrammarCheckButton'
+	,'#textToSpeechToolbarButton' // 2025-08-13
 	,'#undoButton'
 	,'.docs-companion-app-switcher-container'
 	,'.docs-folder-container'
