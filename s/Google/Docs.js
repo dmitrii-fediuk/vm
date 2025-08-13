@@ -54,6 +54,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
+// 2025-08-13 https://g.co/gemini/share/9f62fc0cb0ba
+// language=CSS
+GM_addStyle([
+	'kix-cursor-caret'
+]
+	 // language=Javascript
+	.join(',') + '{animation: none !important;}')
+;
 // 2025-08-13 https://g.co/gemini/share/1893549775f1
 // language=CSS
 if (0) {
