@@ -16,7 +16,8 @@
 // 2025-08-02
 // language=CSS
 GM_addStyle([
-	'.contextual-actions-container' // 2025-08-15
+	'auto-suggest' // 2025-08-15
+	,'.contextual-actions-container' // 2025-08-15
 	// 2025-08-02
 	// Hiding `chat-window-content` is a mistake
 	// because it prevents us from knowing when Gemini has finished thinking.
