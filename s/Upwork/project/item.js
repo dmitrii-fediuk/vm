@@ -229,10 +229,11 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 	;
 	[...document.querySelectorAll(`[data-test='${aboutClient}'] .text-caption`)].forEach(i => {
 		const c = i.textContent;
-		if (c.endsWith('not verified')) {
-			i.textContent = 'not verified';
+		const t = 'not verified';
+		if (c.endsWith(t)) {
+			i.textContent = t;
 			i.style.setProperty('color', 'red');
-			i.style.setProperty('font-weight', 'bold');			
+			i.style.setProperty('font-weight', 'bold');
 		}
 		else if (c.endsWith(' verified')) {
 			// 2025-09-04
