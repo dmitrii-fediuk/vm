@@ -163,38 +163,38 @@ GM_addStyle([
 GM_addStyle([
 	`.air3-card-section:has(> [data-test='ConnectsAuction'])`
 	,`.air3-card-section:has(> [data-test='Qualifications'])`
-	,`[data-test='Expertise'] > [class*='grid-container']`
-	,`[data-test='Features'] .features`
 	,`[data-test='${aboutClient}'] ul.features`
 	,`[data-test='${aboutClient}']`
+	,`[data-test='Expertise'] > [class*='grid-container']`
+	,`[data-test='Features'] .features`
 ]
 	 // language=Javascript
 	.join(',') + '{display: flex !important; gap: 0.5rem !important;}')
 ;
 // 2024-12-25
 // language=CSS
-GM_addStyle('[data-test="AboutClientUser"] ul.features {flex-direction: row !important;}');
+GM_addStyle(`[data-test="AboutClientUser"] ul.features {flex-direction: row !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle('[data-test="Questions"] {font-weight: bold; margin-bottom: 0.5rem !important;}');
+GM_addStyle(`[data-test="Questions"] {font-weight: bold; margin-bottom: 0.5rem !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle('.qualification-items .icons {vertical-align: middle !important;}');
+GM_addStyle(`.qualification-items .icons {vertical-align: middle !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle('.qualification-items > li:has(.text-danger) {background: #ffebe6 !important;}');
+GM_addStyle(`.qualification-items > li:has(.text-danger) {background: #ffebe6 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle(':has(> [data-test="BudgetAmount"]) {background: #ffebe6 !important;}');
+GM_addStyle(`:has(> [data-test="BudgetAmount"]) {background: #ffebe6 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle('[data-test="Features"] {margin: 0.5rem 0 0 0 !important;}');
+GM_addStyle(`[data-test="Features"] {margin: 0.5rem 0 0 0 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle('[data-test="Bids"] h5 {font-size: 100% !important;}');
+GM_addStyle(`[data-test="Bids"] h5 {font-size: 100% !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle('.extra-jobs-cards[class*="px-"] {padding: 0 0.5rem !important;}');
+GM_addStyle(`.extra-jobs-cards[class*="px-"] {padding: 0 0.5rem !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle('[data-test="WorkHistory"][class*="mt-"] {border: 0 !important; margin-top: 0.5rem !important;}');
+GM_addStyle(`[data-test="WorkHistory"][class*="mt-"] {border: 0 !important; margin-top: 0.5rem !important;}`);
