@@ -19,6 +19,7 @@ setTimeout(() => {
 		,'.client-activity-items .help-icon'
 		,'.extra-jobs-cards > [class*="card"]:has([data-test="SimilarJobs"])'
 		,'.nav-parent-wrapper'
+		,'.popover' // 2025-09-04
 		,'[data-test="AboutClientUser"] div:has([data-testid="head-title"])'
 		,'[data-test="about-client-container"] div:has([data-testid="head-title"])' // 2025-09-04
 		// 2024-12-25 The title: «Attachment»
