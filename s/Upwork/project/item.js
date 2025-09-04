@@ -86,10 +86,17 @@ GM_addStyle([
 	,`[data-test='ConnectsAuction']`
 	,`[data-test='Expertise'] .skills-list`
 	,`[data-test='Questions'] li`
-	,'footer' // 2025-09-05
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
+;
+// 2025-09-05
+// language=CSS
+GM_addStyle([
+	'footer' // 2025-09-05
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
 ;
 // 2024-12-25
 // language=CSS
