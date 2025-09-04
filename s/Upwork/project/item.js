@@ -52,25 +52,25 @@ setTimeout(() => {
 }, 200);
 // language=CSS
 GM_addStyle([
-	'[data-test="Features"] > ul.features > li'
+	`[data-test="Features"] > ul.features > li`
 ]
 	 // language=Javascript
-	.join(',') + '{display: initial !important;}')
+	.join(`,`) + `{display: initial !important;}`)
 ;
 // language=CSS
 GM_addStyle([
-	'.job-details-content footer'
+	`.job-details-content footer`
 ]
 	 // language=Javascript
-	.join(',') + '{position: initial !important;}')
+	.join(`,`) + `{position: initial !important;}`)
 ;
 // language=CSS
 GM_addStyle([
-	'.air3-card-section h4'
-	,'.job-details-content footer'
-	,'[data-test="ConnectsAuction"]'
-	,'[data-test="Expertise"] .skills-list'
-	,'[data-test="Questions"] li'
+	`.air3-card-section h4`
+	,`.job-details-content footer`
+	,`[data-test="ConnectsAuction"]`
+	,`[data-test="Expertise"] .skills-list`
+	,`[data-test="Questions"] li`
 	,`[data-test='${aboutClient}'] div:has(> [data-test='UpCPopover'])`
 	,`[data-test='${aboutClient}'] ul.features`
 ]
