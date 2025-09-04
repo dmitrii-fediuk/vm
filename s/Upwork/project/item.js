@@ -209,32 +209,29 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 	[...document.querySelectorAll(`[data-test='${aboutClient}'] .text-caption`)].forEach(i => {
 		const c = i.textContent;
 		const p = i.parentElement;
-		const t = 'not verified';
+		const t1 = ' verified';
+		const t2 = `not${t1}`;
 		const hide = () => {
 			// 2025-09-04
 			// 1) https://g.co/gemini/share/3962b2485479
 			// 2) `.remove()` does not work here: https://g.co/gemini/share/47d68d7cabd2
 			p.style.setProperty('display', 'none', 'important');
 		};
-		if (c.endsWith(t)) {
-			const pp = p.parentElement;
-			pp.classList.add('df-not-verified');
-			const props = Object.entries({
+		if (c.endsWith(t1)) {
+			hide();
+			if (c.endsWith(t2)) {
+				// 2025-09-04 https://g.co/gemini/share/391b5f47d03d
+				const pp = p.parentElement;
+				pp.classList.add('df-not-verified');
+				const props = Object.entries({
+					// language=CSS
+					'color': 'red'
+					,'content': `'${t2}'`
+					,'font-weight': 'bold'
+				}).map(([k, v]) => `${k}: ${v} !important;`).join(' ');
 				// language=CSS
-				'color': 'red'
-				,'content': `'${t}'`
-				,'font-weight': 'bold'
-			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ');
-			// language=CSS
-			GM_addStyle(`.df-not-verified::before {${props}}`);
-			hide();
-			/*i.textContent = t;
-			i.style.setProperty('color', 'red');
-			i.style.setProperty('font-weight', 'bold');
-			lock(i);*/
-		}
-		else if (c.endsWith(' verified')) {
-			hide();
+				GM_addStyle(`.df-not-verified::before {${props}}`);
+			}
 		}
 	});
 })();
