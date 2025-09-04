@@ -206,14 +206,6 @@ GM_addStyle(`.extra-jobs-cards[class*='px-'] {padding: 0 0.5rem !important;}`);
 GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; margin-top: 0.5rem !important;}`);
 // 2025-09-04
 (() => {
-	// 2025-09-04 https://g.co/gemini/share/391b5f47d03d
-	const lock = i => {
-		const _lock = p => Object.defineProperty(i, p, {
-			configurable: true, get: () => '', set: v => {}
-		});
-		_lock('data');
-		_lock('nodeValue');
-	};
 	[...document.querySelectorAll(`[data-test='${aboutClient}'] .text-caption`)].forEach(i => {
 		const c = i.textContent;
 		const p = i.parentElement;
@@ -225,10 +217,19 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 			p.style.setProperty('display', 'none', 'important');
 		};
 		if (c.endsWith(t)) {
-			i.textContent = t;
+			p.classList.add('df-not-verified');
+			const props = Object.entries({
+				// language=CSS
+				'color': 'red'
+				,'content': t
+				,'font-weight': 'bold'
+			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ');
+			// language=CSS
+			GM_addStyle(`.df-not-verified::before {${props}}`);
+			/*i.textContent = t;
 			i.style.setProperty('color', 'red');
 			i.style.setProperty('font-weight', 'bold');
-			lock(i);
+			lock(i);*/
 		}
 		else if (c.endsWith(' verified')) {
 			hide();
