@@ -86,6 +86,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
+// 2025-09-04
+// language=CSS
+GM_addStyle([
+	'.df-not-verified' // 2025-09-04
+]
+	 // language=Javascript
+	.join(',') + '{margin-top: 0 !important;}')
+;
 // 2024-12-25
 // language=CSS
 GM_addStyle('#main {margin-top: 0.5rem !important;}');
