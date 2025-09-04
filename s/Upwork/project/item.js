@@ -32,7 +32,6 @@ setTimeout(() => {
 		// 2024-12-25 The title: «Attachment»
 		,`[data-test='Attachments'] h5`
 		,`[data-testid='buyer-rating']` // 2025-09-04
-		,`[data-test='ContractToHireBanner'] .illustration`
 		,`[data-test='Description'] > strong:first-child` // 2025-09-04
 		// 2024-12-25 The title: «Skills and Expertise»
 		,`[data-test='Expertise'] h5`
@@ -51,6 +50,7 @@ setTimeout(() => {
 		,`[data-test='Questions'] > p`
 		,`[data-test='SpecializedProfilePrompt']`
 		,`div[job-uid] > button` // 2025-09-04
+		,`section :has(> .illustration)` // 2025-09-05
 		,`section.air3-card-section > h5` // 2025-09-04
 		,`section.air3-card-section > section > h5` // 2025-09-04
 	]
