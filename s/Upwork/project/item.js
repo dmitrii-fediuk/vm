@@ -59,7 +59,7 @@ setTimeout(() => {
 }, 200);
 // language=CSS
 GM_addStyle([
-	`[data-test='Features'] > ul.features > li`
+	`.features > li`
 ]
 	 // language=Javascript
 	.join(`,`) + `{display: initial !important;}`)
