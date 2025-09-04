@@ -201,7 +201,7 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 // 2025-09-04
 (() => {
 	document.querySelectorAll(`[data-test='${aboutClient}'] strong.text-caption`).forEach(i => {
-		if ('Payment method not verified' === i.textContent) {
+		if ('Phone number verified' === i.textContent) {
 			i.parentElement.style.display = 'none';
 		}
 	});
