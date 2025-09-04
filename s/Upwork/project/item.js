@@ -202,7 +202,9 @@ GM_addStyle(`.qualification-items .icons {vertical-align: middle !important;}`);
 GM_addStyle(`.qualification-items > li:has(.text-danger) {background: #ffebe6 !important;}`);
 // 2024-12-25, 2025-09-04
 // language=CSS
-GM_addStyle(`li:has(> [data-cy='clock-timelog']) {background: #ffebe6 !important;}`);
+GM_addStyle(`li:has(> [data-cy='clock-timelog'], > [data-cy='fixed-price']) {
+	background: #ffebe6 !important;
+}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`[data-test='Bids'] h5 {font-size: 100% !important;}`);
