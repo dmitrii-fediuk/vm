@@ -226,6 +226,7 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ');
 			// language=CSS
 			GM_addStyle(`.df-not-verified::before {${props}}`);
+			hide();
 			/*i.textContent = t;
 			i.style.setProperty('color', 'red');
 			i.style.setProperty('font-weight', 'bold');
