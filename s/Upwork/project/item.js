@@ -177,7 +177,7 @@ GM_addStyle([
 	,`[data-test='${aboutClient}'] ul.features`
 	,`[data-test='${aboutClient}']`
 	,`[data-test='Expertise'] > [class*='grid-container']`
-	,`[data-test='Features'] .features`
+	,`.features`
 ]
 	 // language=Javascript
 	.join(',') + '{display: flex !important; gap: 0.5rem !important;}')
