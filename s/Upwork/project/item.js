@@ -68,11 +68,11 @@ GM_addStyle([
 GM_addStyle([
 	`.air3-card-section h4`
 	,`.job-details-content footer`
+	,`[data-test='${aboutClient}'] div:has(> [data-test='UpCPopover'])`
+	,`[data-test='${aboutClient}'] ul.features`
 	,`[data-test='ConnectsAuction']`
 	,`[data-test='Expertise'] .skills-list`
 	,`[data-test='Questions'] li`
-	,`[data-test='${aboutClient}'] div:has(> [data-test='UpCPopover'])`
-	,`[data-test='${aboutClient}'] ul.features`
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -103,40 +103,40 @@ GM_addStyle('.air3-card-sections > * {order: 6;}');
 GM_addStyle(`[data-test='${aboutClient}'] {order: 1 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle('.air3-card-section:has(> h4) {order: 2 !important;}');
+GM_addStyle(`.air3-card-section:has(> h4) {order: 2 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle('.air3-card-section:has(> [data-test="Description"]) {order: 3 !important;}');
+GM_addStyle(`.air3-card-section:has(> [data-test="Description"]) {order: 3 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle('[data-test="Questions"] {order: 4 !important;}');
+GM_addStyle(`[data-test="Questions"] {order: 4 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle('.air3-card-section:has(> [data-test="Qualifications"]) {order: 5 !important;}');
+GM_addStyle(`.air3-card-section:has(> [data-test="Qualifications"]) {order: 5 !important;}`);
 // language=CSS
-GM_addStyle('.air3-card-section {border: 0 !important; padding: 0 0.5rem !important;}');
+GM_addStyle(`.air3-card-section {border: 0 !important; padding: 0 0.5rem !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle('.air3-card-section:first-of-type > div {margin-top: 0 !important;}');
+GM_addStyle(`.air3-card-section:first-of-type > div {margin-top: 0 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle('.air3-card-section:has(> [data-test="Description"]) {margin-bottom: 0.66rem !important;}');
+GM_addStyle(`.air3-card-section:has(> [data-test="Description"]) {margin-bottom: 0.66rem !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle('.air3-card-section:has(> [data-test="Segmentations"]) {margin: 0.5rem 0 !important;}');
+GM_addStyle(`.air3-card-section:has(> [data-test="Segmentations"]) {margin: 0.5rem 0 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle('[data-test="ConnectsAuction"] {display: flex !important; gap: 1rem !important;}');
+GM_addStyle(`[data-test="ConnectsAuction"] {display: flex !important; gap: 1rem !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle('[data-test="ConnectsAuction"] > div {margin-top: 0 !important;}');
+GM_addStyle(`[data-test="ConnectsAuction"] > div {margin-top: 0 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle('[data-test="Description"] br {display: block !important; content: ""; height: 1px !important;}');
+GM_addStyle(`[data-test="Description"] br {display: block !important; content: ""; height: 1px !important;}`);
 // language=CSS
 GM_addStyle([
-	'[data-test="Description"] p'
-	,'[data-test="Questions"] ol'
+	`[data-test="Description"] p`
+	,`[data-test="Questions"] ol`
 ]
 	// language=Javascript
 	.join(',') + '{' +
