@@ -206,6 +206,14 @@ GM_addStyle(`.extra-jobs-cards[class*='px-'] {padding: 0 0.5rem !important;}`);
 GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; margin-top: 0.5rem !important;}`);
 // 2025-09-04
 (() => {
+	// 2025-09-04 https://g.co/gemini/share/391b5f47d03d
+	const lock = i => {
+		const _lock = p => Object.defineProperty(i, p, {
+			configurable: true, get: () => '', set: v => {}
+		});
+		_lock('data');
+		_lock('nodeValue');
+	};
 	[...document.querySelectorAll(`[data-test='${aboutClient}'] .text-caption`)].forEach(i => {
 		const c = i.textContent;
 		const p = i.parentElement;
@@ -217,23 +225,10 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 			p.style.setProperty('display', 'none', 'important');
 		};
 		if (c.endsWith(t)) {
-			const pp = p.parentElement;
-			// 2025-09-04 https://g.co/gemini/share/056039c8b8e8
-			/*const attributeNames = pp.getAttributeNames();
-				for (const a of attributeNames) {
-				if (a.startsWith('data-v-')) {
-					pp.removeAttribute(a);
-				}
-			}*/
-			const p2 = document.createElement('div');
-			const i2 = i.cloneNode(true);
-			i2.textContent = t;
-			i2.style.setProperty('color', 'red');
-			i2.style.setProperty('font-weight', 'bold');
-			p2.appendChild(i2);
-			p.after(p2);
-			//p.parentNode.insertBefore(p2, p.nextSibling);
-			//hide();
+			i.textContent = t;
+			i.style.setProperty('color', 'red');
+			i.style.setProperty('font-weight', 'bold');
+			lock(i);
 		}
 		else if (c.endsWith(' verified')) {
 			hide();
