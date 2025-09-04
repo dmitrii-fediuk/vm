@@ -40,6 +40,7 @@ setTimeout(() => {
 		// 2024-12-25 The title: «Project Type:»
 		,'[data-test="Segmentations"] li > :first-child'
 		,'[data-test="SpecializedProfilePrompt"]'
+		,'div[job-uid] > button' // 2025-09-04
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
