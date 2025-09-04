@@ -59,7 +59,7 @@ setTimeout(() => {
 }, 200);
 // language=CSS
 GM_addStyle([
-	`.features > li`
+	`.features > li` // 2025-09-04
 ]
 	 // language=Javascript
 	.join(`,`) + `{display: initial !important;}`)
