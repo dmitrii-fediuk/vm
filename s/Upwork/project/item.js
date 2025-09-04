@@ -21,7 +21,11 @@ setTimeout(() => {
 		,`.extra-jobs-cards > [class*='card']:has([data-test='SimilarJobs'])`
 		,`.nav-parent-wrapper`
 		,`.popover` // 2025-09-04
-		,'.posted-on-line ~ *' // 2025-09-04
+		// 2025-05-04
+		// 1.1) https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Specificity#the_is_not_has_and_css_nesting_exceptions
+		// 1.2) https://archive.is/5HYgv#selection-10675.63-10675.172
+		// 2025-09-04
+		,'.posted-on-line ~ :not(#A)'
 		,`[data-test='${aboutClient}'] div:has([data-testid='head-title'])` // 2025-09-04
 		// 2024-12-25 The title: «Attachment»
 		,`[data-test='Attachments'] h5`
