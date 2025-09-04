@@ -217,16 +217,6 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 })();
 // 2025-09-04
 (() => {
-	// 2025-09-04
-	// 1) https://g.co/gemini/share/c850e661b0a6
-	// 2) https://g.co/gemini/share/e232ef5657ad
-	[...document.querySelectorAll(`[data-test='${aboutClient}'] strong.text-caption`)]
-		.find(i => -1 !== ['Payment method verified', 'Phone number verified'].indexOf(i.textContent))
-		// 2025-09-04
-		// 1) https://g.co/gemini/share/3962b2485479
-		// 2) `.remove()` does not work here: https://g.co/gemini/share/47d68d7cabd2
-		?.parentElement.style.setProperty('display', 'none', 'important')
-	;
 	[...document.querySelectorAll(`[data-test='${aboutClient}'] .text-caption`)].forEach(i => {
 		const c = i.textContent;
 		const p = i.parentElement;
