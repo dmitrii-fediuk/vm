@@ -22,7 +22,6 @@ setTimeout(() => {
 		,'.extra-jobs-cards > [class*="card"]:has([data-test="SimilarJobs"])'
 		,'.nav-parent-wrapper'
 		,'.popover' // 2025-09-04
-		,`[data-test='${aboutClient}'] div:has([data-testid="head-title"])` // 2025-09-04
 		// 2024-12-25 The title: «Attachment»
 		,'[data-test="Attachments"] h5'
 		// 2024-12-25 The title: «Activity on this job»
@@ -45,6 +44,7 @@ setTimeout(() => {
 		,'[data-test="Segmentations"] li > :first-child'
 		,'[data-test="SpecializedProfilePrompt"]'
 		,'div[job-uid] > button' // 2025-09-04
+		,`[data-test='${aboutClient}'] div:has([data-testid="head-title"])` // 2025-09-04
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
