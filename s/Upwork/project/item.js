@@ -227,4 +227,18 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 		// 2) `.remove()` does not work here: https://g.co/gemini/share/47d68d7cabd2
 		?.parentElement.style.setProperty('display', 'none', 'important')
 	;
+	[...document.querySelectorAll(`[data-test='${aboutClient}'] .text-caption`)].forEach(i => {
+		const c = i.textContent;
+		if (c.endsWith('not verified')) {
+			i.textContent = 'not verified';
+			i.style.setProperty('color', 'red');
+			i.style.setProperty('font-weight', 'bold');			
+		}
+		else if (c.endsWith(' verified')) {
+			// 2025-09-04
+			// 1) https://g.co/gemini/share/3962b2485479
+			// 2) `.remove()` does not work here: https://g.co/gemini/share/47d68d7cabd2
+			i.parentElement.style.setProperty('display', 'none', 'important')
+		}
+	});
 })();
