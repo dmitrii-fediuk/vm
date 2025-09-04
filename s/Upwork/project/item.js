@@ -202,7 +202,7 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 (() => {
 	document.querySelectorAll(`[data-test='${aboutClient}'] strong.text-caption`).forEach(i => {
 		if ('Phone number verified' === i.textContent) {
-			i.parentElement.style.display = 'none';
+			i.parentElement.style.display = 'none !important';
 		}
 	});
 })();
