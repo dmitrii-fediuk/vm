@@ -38,8 +38,8 @@ setTimeout(() => {
 		// 2024-12-25 Titles like: «Full Stack Development Deliverables»
 		,`[data-test='Expertise'] > [class*='grid-container'] > div:has(> .skills-list) > strong`
 		,`.features .air3-icon` // 2025-09-04
-		,`[data-test='Features'] .description`
-		,`[data-test='Features'] > ul.features > li::after`
+		,`.features .description` // 2025-09-04
+		,`.features > li::after` // 2025-09-04
 		,`[data-test='Features'] [data-test='UpCIcon']`
 		,`[data-test='FlagButton']`
 		,`[data-test='Qualifications'] [data-cy='english']`
