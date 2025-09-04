@@ -163,10 +163,10 @@ GM_addStyle([
 GM_addStyle([
 	'.air3-card-section:has(> [data-test="ConnectsAuction"])'
 	,'.air3-card-section:has(> [data-test="Qualifications"])'
-	,'[data-test="AboutClientUser"]'
-	,'[data-test="AboutClientUser"] ul.features'
 	,'[data-test="Expertise"] > [class*="grid-container"]'
 	,'[data-test="Features"] .features'
+	,`[data-test='${aboutClient}'] ul.features`
+	,`[data-test='${aboutClient}']`
 ]
 	 // language=Javascript
 	.join(',') + '{display: flex !important; gap: 0.5rem !important;}')
