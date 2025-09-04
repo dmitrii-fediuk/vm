@@ -68,8 +68,8 @@ GM_addStyle([
 GM_addStyle([
 	'.air3-card-section h4'
 	,'.job-details-content footer'
-	,'[data-test="AboutClientUser"] div:has(> [data-test="UpCPopover"])'
-	,'[data-test="AboutClientUser"] ul.features'
+	,`[data-test='${aboutClient}'] div:has(> [data-test='UpCPopover'])`
+	,`[data-test='${aboutClient}'] ul.features`
 	,'[data-test="ConnectsAuction"]'
 	,'[data-test="Expertise"] .skills-list'
 	,'[data-test="Questions"] li'
