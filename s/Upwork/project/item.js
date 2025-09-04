@@ -217,6 +217,14 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 			p.style.setProperty('display', 'none', 'important');
 		};
 		if (c.endsWith(t)) {
+			const pp = p.parentElement;
+			// 2025-09-04 https://g.co/gemini/share/056039c8b8e8
+			const attributeNames = pp.getAttributeNames();
+				for (const a of attributeNames) {
+				if (a.startsWith('data-v-')) {
+					pp.removeAttribute(a);
+				}
+			}
 			const p2 = document.createElement('div');
 			const i2 = i.cloneNode(true);
 			i2.textContent = t;
