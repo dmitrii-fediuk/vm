@@ -238,6 +238,7 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 			p.style.setProperty('display', 'none', 'important');
 		};
 		if (c.endsWith(t)) {
+			// 2025-09-04 https://g.co/gemini/share/a4a503ac1c5a
 			const p2 = p.cloneNode(true);
 			const i2 = p2.querySelector('.text-caption');
 			i2.textContent = t;
