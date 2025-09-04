@@ -221,7 +221,7 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 			const props = Object.entries({
 				// language=CSS
 				'color': 'red'
-				,'content': t
+				,'content': `'${t}'`
 				,'font-weight': 'bold'
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ');
 			// language=CSS
