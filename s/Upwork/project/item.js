@@ -202,8 +202,12 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 (() => {
 	document.querySelectorAll(`[data-test='${aboutClient}'] strong.text-caption`).forEach(i => {
 		if ('Phone number verified' === i.textContent) {
-			// 2025-09-04 https://g.co/gemini/share/3962b2485479
-			i.parentElement.style.setProperty('display', 'none', 'important');
+			// 2025-09-04
+			// 1) https://g.co/gemini/share/a82e03bf368a
+			// 2) Another solution:
+			//		i.parentElement.style.setProperty('display', 'none', 'important');
+			// https://g.co/gemini/share/3962b2485479
+			i.parentElement.remove();
 		}
 	});
 })();
