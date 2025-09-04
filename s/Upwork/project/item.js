@@ -32,6 +32,7 @@ setTimeout(() => {
 		// 2024-12-25 The title: «Activity on this job»
 		,`[data-test='ClientActivity'] h5`
 		,`[data-test='ContractToHireBanner'] .illustration`
+		,`[data-test='Description'] > strong:first-child` // 2025-09-04
 		// 2024-12-25 The title: «Skills and Expertise»
 		,`[data-test='Expertise'] h5`
 		// 2024-12-25 Titles like: «Full Stack Development Deliverables»
