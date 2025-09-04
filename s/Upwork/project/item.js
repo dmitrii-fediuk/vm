@@ -19,6 +19,7 @@ setTimeout(() => {
 	GM_addStyle([
 		`.client-activity-items .help-icon`
 		,`.extra-jobs-cards > [class*='card']:has([data-test='SimilarJobs'])`
+		,`.job-details-content > :has(> button)` // 2025-09-04
 		,`.nav-parent-wrapper`
 		,`.popover` // 2025-09-04
 		// 2025-05-04
