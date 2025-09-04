@@ -50,7 +50,7 @@ setTimeout(() => {
 		,`[data-test='Segmentations'] li > :first-child`
 		,`[data-test='SpecializedProfilePrompt']`
 		,`div[job-uid] > button` // 2025-09-04
-		,`section.air3-card-section:has(.qualification-items) > section > h5` // 2025-09-04
+		,`section.air3-card-section > section > h5` // 2025-09-04
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
