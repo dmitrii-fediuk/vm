@@ -38,6 +38,7 @@ setTimeout(() => {
 		,`[data-test='Expertise'] h5`
 		// 2024-12-25 Titles like: «Full Stack Development Deliverables»
 		,`[data-test='Expertise'] > [class*='grid-container'] > div:has(> .skills-list) > strong`
+		,'.features > li:has(#featured-job)' // 2025-09-04
 		,`.features .air3-icon` // 2025-09-04
 		,`.features .description` // 2025-09-04
 		,`.features > li::after` // 2025-09-04
