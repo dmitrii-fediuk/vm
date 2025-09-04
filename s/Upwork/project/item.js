@@ -30,7 +30,7 @@ setTimeout(() => {
 		,`[data-test='${aboutClient}'] div:has([data-testid='head-title'])` // 2025-09-04
 		// 2024-12-25 The title: «Attachment»
 		,`[data-test='Attachments'] h5`
-
+		,`[data-testid='buyer-rating']` // 2025-09-04
 		,`[data-test='ContractToHireBanner'] .illustration`
 		,`[data-test='Description'] > strong:first-child` // 2025-09-04
 		// 2024-12-25 The title: «Skills and Expertise»
