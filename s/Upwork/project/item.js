@@ -205,6 +205,21 @@ GM_addStyle(`.extra-jobs-cards[class*='px-'] {padding: 0 0.5rem !important;}`);
 // language=CSS
 GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; margin-top: 0.5rem !important;}`);
 // 2025-09-04
+// 1) https://g.co/gemini/share/056039c8b8e8
+// 2) https://g.co/gemini/share/1b9b0ac3ece5
+(() => {
+	const p = document.querySelector(`[data-test='${aboutClient}']`);
+	const ii = [p, ...p.querySelectorAll('*')];
+	for (const i of ii) {
+		const nn = i.getAttributeNames();
+		for (const a of nn) {
+			if (a.startsWith('data-v-')) {
+				i.removeAttribute(a);
+			}
+		}
+	}
+})();
+// 2025-09-04
 (() => {
 	[...document.querySelectorAll(`[data-test='${aboutClient}'] .text-caption`)].forEach(i => {
 		const c = i.textContent;
@@ -219,12 +234,12 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 		if (c.endsWith(t)) {
 			const pp = p.parentElement;
 			// 2025-09-04 https://g.co/gemini/share/056039c8b8e8
-			const attributeNames = pp.getAttributeNames();
+			/*const attributeNames = pp.getAttributeNames();
 				for (const a of attributeNames) {
 				if (a.startsWith('data-v-')) {
 					pp.removeAttribute(a);
 				}
-			}
+			}*/
 			const p2 = document.createElement('div');
 			const i2 = i.cloneNode(true);
 			i2.textContent = t;
