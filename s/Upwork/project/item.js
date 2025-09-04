@@ -40,7 +40,6 @@ setTimeout(() => {
 		,`.features .air3-icon` // 2025-09-04
 		,`.features .description` // 2025-09-04
 		,`.features > li::after` // 2025-09-04
-		,`[data-test='Features'] [data-test='UpCIcon']`
 		,`[data-test='FlagButton']`
 		,`[data-test='Qualifications'] [data-cy='english']`
 		// 2024-12-25 The title: «Preferred qualifications»
