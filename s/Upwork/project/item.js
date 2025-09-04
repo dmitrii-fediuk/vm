@@ -238,17 +238,18 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 			p.style.setProperty('display', 'none', 'important');
 		};
 		if (c.endsWith(t)) {
-			// 2025-09-04 https://g.co/gemini/share/a4a503ac1c5a
-			const p2 = p.cloneNode(true);
-			const i2 = p2.querySelector('.text-caption');
+			const p2 = document.createElement('div');
+			const i2 = i.cloneNode(true);
 			i2.textContent = t;
 			i2.style.setProperty('color', 'red');
 			i2.style.setProperty('font-weight', 'bold');
+			p2.appendChild(i2);
 			p.after(p2);
-			hide();
+			//p.parentNode.insertBefore(p2, p.nextSibling);
+			//hide();
 		}
 		else if (c.endsWith(' verified')) {
-			hide();
+			//hide();
 		}
 	});
 })();
