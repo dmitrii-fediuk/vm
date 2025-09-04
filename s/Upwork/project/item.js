@@ -217,7 +217,8 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 			p.style.setProperty('display', 'none', 'important');
 		};
 		if (c.endsWith(t)) {
-			p.classList.add('df-not-verified');
+			const pp = p.parentElement;
+			pp.classList.add('df-not-verified');
 			const props = Object.entries({
 				// language=CSS
 				'color': 'red'
