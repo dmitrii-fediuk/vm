@@ -161,10 +161,10 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	`.air3-card-section:has(> [data-test="ConnectsAuction"])`
-	,`.air3-card-section:has(> [data-test="Qualifications"])`
-	,`[data-test="Expertise"] > [class*="grid-container"]`
-	,`[data-test="Features"] .features`
+	`.air3-card-section:has(> [data-test='ConnectsAuction'])`
+	,`.air3-card-section:has(> [data-test='Qualifications'])`
+	,`[data-test='Expertise'] > [class*='grid-container']`
+	,`[data-test='Features'] .features`
 	,`[data-test='${aboutClient}'] ul.features`
 	,`[data-test='${aboutClient}']`
 ]
