@@ -108,20 +108,21 @@ GM_addStyle('.air3-card-sections > * {order: 6;}');
 // language=CSS
 GM_addStyle(`[data-test='${aboutClient}'] {order: 1 !important;}`);
 // 2024-12-25
+// 2025-09-04 Title
 // language=CSS
-//GM_addStyle(`.air3-card-section:has(> h4) {order: 2 !important;}`);
-// 2025-09-04
-// language=CSS
-GM_addStyle(`section.air3-card-section:has(.client-activity-items) {order: 3 !important;}`);
+GM_addStyle(`.air3-card-section:has(> h4) {order: 2 !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`.air3-card-section:has(> [data-test='Description']) {order: 3 !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`[data-test='Questions'] {order: 4 !important;}`);
+// 2025-09-04
+// language=CSS
+GM_addStyle(`section.air3-card-section:has(.client-activity-items) {order: 5 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle(`.air3-card-section:has(> [data-test='Qualifications']) {order: 5 !important;}`);
+GM_addStyle(`.air3-card-section:has(> [data-test='Qualifications']) {order: 6 !important;}`);
 // language=CSS
 GM_addStyle(`.air3-card-section {border: 0 !important; padding: 0 0.5rem !important;}`);
 // 2024-12-25
