@@ -86,6 +86,7 @@ GM_addStyle([
 	,`[data-test='ConnectsAuction']`
 	,`[data-test='Expertise'] .skills-list`
 	,`[data-test='Questions'] li`
+	,'footer' // 2025-09-05
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
