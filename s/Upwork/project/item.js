@@ -17,8 +17,7 @@ const aboutClient = 'about-client-container';
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`.air3-card-section > div:has(path[d^='M20.261 14.857l-10'])` // 2025-09-04
-		,`.client-activity-items .help-icon`
+		`.client-activity-items .help-icon`
 		,`.extra-jobs-cards > [class*='card']:has([data-test='SimilarJobs'])`
 		,`.nav-parent-wrapper`
 		,`.popover` // 2025-09-04
