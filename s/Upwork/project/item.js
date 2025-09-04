@@ -52,7 +52,7 @@ setTimeout(() => {
 }, 200);
 // language=CSS
 GM_addStyle([
-	`[data-test="Features"] > ul.features > li`
+	`[data-test='Features'] > ul.features > li`
 ]
 	 // language=Javascript
 	.join(`,`) + `{display: initial !important;}`)
@@ -68,9 +68,9 @@ GM_addStyle([
 GM_addStyle([
 	`.air3-card-section h4`
 	,`.job-details-content footer`
-	,`[data-test="ConnectsAuction"]`
-	,`[data-test="Expertise"] .skills-list`
-	,`[data-test="Questions"] li`
+	,`[data-test='ConnectsAuction']`
+	,`[data-test='Expertise'] .skills-list`
+	,`[data-test='Questions'] li`
 	,`[data-test='${aboutClient}'] div:has(> [data-test='UpCPopover'])`
 	,`[data-test='${aboutClient}'] ul.features`
 ]
