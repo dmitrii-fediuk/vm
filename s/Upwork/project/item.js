@@ -75,7 +75,11 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.air3-card-section h4`
-	,'.df-not-verified' // 2025-09-04
+	// 2025-05-04
+	// 1.1) https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Specificity#the_is_not_has_and_css_nesting_exceptions
+	// 1.2) https://archive.is/5HYgv#selection-10675.63-10675.172
+	// 2025-09-04
+	,'.df-not-verified:not(#A)' // 2025-09-04
 	,`.job-details-content footer`
 	,`[data-test='${aboutClient}'] div:has(> [data-test='UpCPopover'])`
 	,`[data-test='${aboutClient}'] ul.features`
@@ -85,14 +89,6 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
-;
-// 2025-09-04
-// language=CSS
-GM_addStyle([
-	'.df-not-verified' // 2025-09-04
-]
-	 // language=Javascript
-	.join(',') + '{margin-top: 0 !important;}')
 ;
 // 2024-12-25
 // language=CSS
