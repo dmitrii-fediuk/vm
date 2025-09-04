@@ -229,6 +229,7 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 	;
 	[...document.querySelectorAll(`[data-test='${aboutClient}'] .text-caption`)].forEach(i => {
 		const c = i.textContent;
+		const p = i.parentElement;
 		const t = 'not verified';
 		if (c.endsWith(t)) {
 			i.textContent = t;
@@ -239,7 +240,7 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 			// 2025-09-04
 			// 1) https://g.co/gemini/share/3962b2485479
 			// 2) `.remove()` does not work here: https://g.co/gemini/share/47d68d7cabd2
-			i.parentElement.style.setProperty('display', 'none', 'important')
+			p.style.setProperty('display', 'none', 'important')
 		}
 	});
 })();
