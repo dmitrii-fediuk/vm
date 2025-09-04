@@ -198,3 +198,11 @@ GM_addStyle(`.extra-jobs-cards[class*='px-'] {padding: 0 0.5rem !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; margin-top: 0.5rem !important;}`);
+// 2025-09-04
+(() => {
+	document.querySelectorAll(`[data-test='${aboutClient}'] strong.text-caption`).forEach(i => {
+		if ('Payment method not verified' === i.textContent) {
+			i.parentElement.style.display = 'none';
+		}
+	});
+})();
