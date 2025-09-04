@@ -206,17 +206,6 @@ GM_addStyle(`.extra-jobs-cards[class*='px-'] {padding: 0 0.5rem !important;}`);
 GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; margin-top: 0.5rem !important;}`);
 // 2025-09-04
 (() => {
-	document.querySelectorAll(`[data-test='${aboutClient}'] strong.text-caption`).forEach(i => {
-		if ('Phone number verified' === i.textContent) {
-			// 2025-09-04
-			// 1) https://g.co/gemini/share/3962b2485479
-			// 2) `i.parentElement.remove()` does not work here: https://g.co/gemini/share/47d68d7cabd2
-			i.parentElement.style.setProperty('display', 'none', 'important');
-		}
-	});
-})();
-// 2025-09-04
-(() => {
 	[...document.querySelectorAll(`[data-test='${aboutClient}'] .text-caption`)].forEach(i => {
 		const c = i.textContent;
 		const p = i.parentElement;
