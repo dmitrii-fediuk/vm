@@ -75,6 +75,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.air3-card-section h4`
+	,'.df-not-verified' // 2025-09-04
 	,`.job-details-content footer`
 	,`[data-test='${aboutClient}'] div:has(> [data-test='UpCPopover'])`
 	,`[data-test='${aboutClient}'] ul.features`
