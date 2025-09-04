@@ -42,14 +42,13 @@ setTimeout(() => {
 		,`.features .air3-icon` // 2025-09-04
 		,`.features .description` // 2025-09-04
 		,`.features > li::after` // 2025-09-04
+		,`.segmentations > li > :first-child` // 2024-12-25, 2025-09-04 The title: «Project Type:»
 		,`[data-test='FlagButton']`
 		,`[data-test='Qualifications'] [data-cy='english']`
 		// 2024-12-25 The title: «Preferred qualifications»
 		,`[data-test='Qualifications'] h5`
 		// 2024-12-25 The title: «You will be asked to answer the following questions when submitting a proposal:»
 		,`[data-test='Questions'] > p`
-		// 2024-12-25 The title: «Project Type:»
-		,`[data-test='Segmentations'] li > :first-child`
 		,`[data-test='SpecializedProfilePrompt']`
 		,`div[job-uid] > button` // 2025-09-04
 		,`section.air3-card-section > h5` // 2025-09-04
