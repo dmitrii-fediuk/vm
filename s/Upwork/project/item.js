@@ -109,7 +109,7 @@ GM_addStyle('.air3-card-sections > * {order: 6;}');
 GM_addStyle(`[data-test='${aboutClient}'] {order: 1 !important;}`);
 // 2025-09-04
 // language=CSS
-GM_addStyle(`section.air3-card-section:has(.client-activity-items) {order: 2 !important;}`);
+GM_addStyle(`section.air3-card-section:has(.client-activity-items) {order: 3 !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`.air3-card-section:has(> h4) {order: 2 !important;}`);
