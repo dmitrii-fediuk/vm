@@ -231,16 +231,23 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 		const c = i.textContent;
 		const p = i.parentElement;
 		const t = 'not verified';
-		if (c.endsWith(t)) {
-			i.textContent = t;
-			i.style.setProperty('color', 'red');
-			i.style.setProperty('font-weight', 'bold');
-		}
-		else if (c.endsWith(' verified')) {
+		const hide = () => {
 			// 2025-09-04
 			// 1) https://g.co/gemini/share/3962b2485479
 			// 2) `.remove()` does not work here: https://g.co/gemini/share/47d68d7cabd2
-			p.style.setProperty('display', 'none', 'important')
+			p.style.setProperty('display', 'none', 'important');
+		};
+		if (c.endsWith(t)) {
+			const p2 = p.cloneNode(true);
+			const i2 = p2.querySelector('.text-caption');
+			i2.textContent = t;
+			i2.style.setProperty('color', 'red');
+			i2.style.setProperty('font-weight', 'bold');
+			p.after(p2);
+			hide();
+		}
+		else if (c.endsWith(' verified')) {
+			hide();
 		}
 	});
 })();
