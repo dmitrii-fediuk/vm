@@ -221,16 +221,14 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 			hide();
 			if (c.endsWith(t2)) {
 				// 2025-09-04 https://g.co/gemini/share/391b5f47d03d
-				const pp = p.parentElement;
-				pp.classList.add('df-not-verified');
+				const _class = 'df-not-verified';
+				p.parentElement.classList.add(_class);
 				const props = Object.entries({
 					// language=CSS
-					'color': 'red'
-					,'content': `'${t2}'`
-					,'font-weight': 'bold'
+					'color': 'red', 'content': `'${t2}'`, 'font-weight': 'bold'
 				}).map(([k, v]) => `${k}: ${v} !important;`).join(' ');
 				// language=CSS
-				GM_addStyle(`.df-not-verified::before {${props}}`);
+				GM_addStyle(`.${_class}::before {${props}}`);
 			}
 		}
 	});
