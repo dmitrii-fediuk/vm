@@ -94,10 +94,19 @@ GM_addStyle([
 // 2025-09-05
 // language=CSS
 GM_addStyle([
-	'footer' // 2025-09-05
+	`footer` // 2025-09-05
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
+;
+// 2025-09-05
+// language=CSS
+GM_addStyle([
+	`.air3-card-outline` // 2025-09-05
+	,`.air3-card-section`
+]
+	 // language=Javascript
+	.join(',') + '{border: 0 !important;}')
 ;
 // 2024-12-25
 // language=CSS
@@ -140,7 +149,7 @@ GM_addStyle(`section.air3-card-section:has(.client-activity-items) {order: 5 !im
 // language=CSS
 GM_addStyle(`.air3-card-section:has(> [data-test='Qualifications']) {order: 6 !important;}`);
 // language=CSS
-GM_addStyle(`.air3-card-section {border: 0 !important; padding: 0 0.5rem !important;}`);
+GM_addStyle(`.air3-card-section {padding: 0 0.5rem !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`.air3-card-section:first-of-type > div {margin-top: 0 !important;}`);
