@@ -97,6 +97,9 @@ GM_addStyle('.air3-card-sections > * {order: 6;}');
 // 2024-12-24 https://chatgpt.com/c/676b1c1b-79a0-800c-a2ca-88de2346828f
 // language=CSS
 GM_addStyle('[data-test="AboutClientUser"] {order: 1 !important;}');
+// 2025-09-04
+// language=CSS
+GM_addStyle('[data-test="about-client-container"] {order: 1 !important;}');
 // 2024-12-25
 // language=CSS
 GM_addStyle('.air3-card-section:has(> h4) {order: 2 !important;}');
