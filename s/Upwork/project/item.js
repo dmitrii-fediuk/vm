@@ -67,7 +67,7 @@ setTimeout(() => {
 // language=CSS
 GM_addStyle([
 	'.job-details-content > footer .d-flex.gap' // 2025-09-05
-	,`[data-test='${aboutClient}'] .features > li` // 2025-09-04
+	,`.features > li` // 2025-09-04
 ]
 	 // language=Javascript
 	.join(`,`) + `{display: initial !important;}`)
