@@ -214,7 +214,7 @@ GM_addStyle([
 GM_addStyle(`[data-test='${aboutClient}'] ul.features {flex-direction: row !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle(`[data-test='Questions'] {font-weight: bold; margin-bottom: 0.5rem !important;}`);
+GM_addStyle(`.${dfQuestions} {font-weight: bold; margin-bottom: 0.5rem !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`.qualification-items .icons {vertical-align: middle !important;}`);
