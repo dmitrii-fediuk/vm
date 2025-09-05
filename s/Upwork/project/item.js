@@ -308,12 +308,13 @@ setTimeout(() => {
 				m.addedNodes.forEach(i => {
 					if (1 === i.nodeType) {
 						if (i.matches('.posted-on-line span')) {
+							debugger;
 							const p = i.closest('.text-body-sm');
 							if (p) {
 								p.innerHTML = i.textContent;
 							}
 						}
-						process(node);
+						process(i);
 					}
 				});
 			}
