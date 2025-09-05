@@ -18,7 +18,8 @@ const dfQuestions = 'df-questions'; // 2025-09-05
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`.client-activity-items .help-icon`
+		`.${dfQuestions} > p` // 2025-09-05
+		,`.client-activity-items .help-icon`
 		,`.extra-jobs-cards > [class*='card']:has([data-test='SimilarJobs'])`
 		,`.job-details-content > :has(> button polygon)` // 2025-09-04
 		,`.nav-parent-wrapper`
