@@ -261,3 +261,14 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 		}
 	});
 })();
+// 2025-09-05
+(() => {
+	[...document.querySelectorAll(
+		`.job-details-card > .air3-card-sections > section > p > strong`
+	)].forEach(i => {
+		const c = i.textContent;
+		if (i.textContent.startsWith('You will be asked to answer')) {
+			i.closest('section').classList.add('df-questions');
+		}
+	});
+})();
