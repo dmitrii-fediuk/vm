@@ -249,6 +249,20 @@ GM_addStyle(`.job-details-content > footer {margin: 0.5rem 0 !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; margin-top: 0.5rem !important;}`);
+// 2025-09-05
+// 1) https://g.co/gemini/share/9776258b5353
+// 2) https://g.co/gemini/share/fdb2b22cbe50
+const modify = (s, action) => {
+	const p = i => {
+		i.matches?.(s) && action(i);
+		i.querySelectorAll?.(s).forEach(action);
+	};
+	(new MutationObserver(mm => {
+		mm.forEach(m => m.addedNodes.forEach(p));
+	})).observe(document.documentElement, {childList: true, subtree: true});
+	p(document.documentElement);
+};
+modify(`.posted-on-line span`, i => i.closest(`.text-body-sm`).innerHTML = i.textContent);
 // 2025-09-04
 (() => {
 	[...document.querySelectorAll(`[data-test='${aboutClient}'] .text-caption`)].forEach(i => {
@@ -288,17 +302,3 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 		}
 	});
 })();
-// 2025-09-05
-// 1) https://g.co/gemini/share/9776258b5353
-// 2) https://g.co/gemini/share/fdb2b22cbe50
-const modify = (s, action) => {
-	const p = i => {
-		i.matches?.(s) && action(i);
-		i.querySelectorAll?.(s).forEach(action);
-	};
-	(new MutationObserver(mm => {
-		mm.forEach(m => m.addedNodes.forEach(p));
-	})).observe(document.documentElement, {childList: true, subtree: true});
-	p(document.documentElement);
-};
-modify(`.posted-on-line span`, i => i.closest(`.text-body-sm`).innerHTML = i.textContent);
