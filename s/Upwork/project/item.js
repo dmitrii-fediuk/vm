@@ -11,6 +11,7 @@
 // «https://www.upwork.com/jobs/Developer-for-Backend-Development-with-high-Stripe-API-Experience_~021871538070777433492»
 const aboutClient = 'about-client-container'; // 2025-09-04 The previous value: «AboutClientUser»
 const dfNotVerified = 'df-not-verified'; // 2025-09-05
+const dfQuestions = 'df-questions'; // 2025-09-05
 // 2025-06-10
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
@@ -267,7 +268,7 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 	)].forEach(i => {
 		const c = i.textContent;
 		if (i.textContent.startsWith('You will be asked to answer')) {
-			i.closest('section').classList.add('df-questions');
+			i.closest('section').classList.add(dfQuestions);
 		}
 	});
 })();
