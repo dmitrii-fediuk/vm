@@ -9,8 +9,8 @@
 // 2024-10-13 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 // 2024-12-24 A job post, e.g.:
 // «https://www.upwork.com/jobs/Developer-for-Backend-Development-with-high-Stripe-API-Experience_~021871538070777433492»
-// 2025-09-04 The previous value: «AboutClientUser»
-const aboutClient = 'about-client-container';
+const aboutClient = 'about-client-container'; // 2025-09-04 The previous value: «AboutClientUser»
+const dfNotVerified = 'df-not-verified'; // 2025-09-05
 // 2025-06-10
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
@@ -80,7 +80,7 @@ GM_addStyle([
 	// 1.1) https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Specificity#the_is_not_has_and_css_nesting_exceptions
 	// 1.2) https://archive.is/5HYgv#selection-10675.63-10675.172
 	// 2025-09-04
-	,'.df-not-verified:not(#A)' // 2025-09-04
+	,`.${dfNotVerified}:not(#A)` // 2025-09-04
 	,`.job-details-content footer`
 	,`[data-test='${aboutClient}'] div:has(> [data-test='UpCPopover'])`
 	,`[data-test='${aboutClient}'] ul.features`
@@ -249,14 +249,13 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 			hide();
 			if (c.endsWith(t2)) {
 				// 2025-09-04 https://g.co/gemini/share/391b5f47d03d
-				const _class = 'df-not-verified';
-				p.parentElement.classList.add(_class);
+				p.parentElement.classList.add(dfNotVerified);
 				const props = Object.entries({
 					// language=CSS
 					'color': 'red', 'content': `'${t2}'`, 'font-weight': 'bold'
 				}).map(([k, v]) => `${k}: ${v} !important;`).join(' ');
 				// language=CSS
-				GM_addStyle(`.${_class}::before {${props}}`);
+				GM_addStyle(`.${dfNotVerified}::before {${props}}`);
 			}
 		}
 	});
