@@ -99,7 +99,8 @@ GM_addStyle([
 // 2025-09-05
 // language=CSS
 GM_addStyle([
-	`.extra-jobs-cards` // 2025-09-05
+	`.air3-card-section` // 2025-09-05
+	,`.extra-jobs-cards` // 2025-09-05
 	,`footer` // 2025-09-05
 ]
 	 // language=Javascript
