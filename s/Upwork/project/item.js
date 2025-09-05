@@ -306,7 +306,7 @@ setTimeout(() => {
 			if (m.addedNodes.length) {
 				m.addedNodes.forEach(i => {
 					if (1 === i.nodeType) {
-						if (i.matches('.posted-on-line span')) {
+						if (i.matches(`.posted-on-line span`)) {
 							i.closest('.text-body-sm').innerHTML = i.textContent;
 						}
 						process(i);
