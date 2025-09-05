@@ -270,7 +270,7 @@ const modify = (s, action) => {
 	})).observe(document.documentElement, {childList: true, subtree: true});
 	p(document.documentElement);
 };
-modify(`.posted-on-line span`, i => i.closest(`.text-body-sm`).innerHTML = i.textContent);
+modify(`.posted-on-line span`, i => i.closest(`.posted-on-line`).innerHTML = i.textContent);
 // 2025-09-04
 (() => {
 	[...document.querySelectorAll(`[data-test='${aboutClient}'] .text-caption`)].forEach(i => {
