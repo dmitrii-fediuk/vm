@@ -289,14 +289,8 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 	});
 })();
 // 2025-09-05
-(() => {
+setTimeout(() => {
 	const s = document.querySelector(`.posted-on-line span`);
 	const p = s.closest(`.text-body-sm`);
-	p.style.setProperty('display', 'none', 'important');
-	const props = Object.entries({
-		// language=CSS
-		'content': `'${s.textContent}'`, 'font-weight': 'bold'
-	}).map(([k, v]) => `${k}: ${v} !important;`).join(' ');
-	// language=CSS
-	GM_addStyle(`.posted-on-line::before {${props}}`);
-})();
+	p.innerHTML = s.textContent;
+}, 200);
