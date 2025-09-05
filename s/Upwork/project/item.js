@@ -18,7 +18,10 @@ const dfQuestions = 'df-questions'; // 2025-09-05
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`.${dfQuestions} > p` // 2025-09-05
+		// 2024-12-25
+		// The title: «You will be asked to answer the following questions when submitting a proposal:»
+		// 2025-09-05
+		`.${dfQuestions} > p`
 		,`.client-activity-items .help-icon`
 		,`.extra-jobs-cards > [class*='card']:has([data-test='SimilarJobs'])`
 		,`.job-details-content > :has(> button polygon)` // 2025-09-04
@@ -48,8 +51,6 @@ setTimeout(() => {
 		,`[data-test='Qualifications'] [data-cy='english']`
 		// 2024-12-25 The title: «Preferred qualifications»
 		,`[data-test='Qualifications'] h5`
-		// 2024-12-25 The title: «You will be asked to answer the following questions when submitting a proposal:»
-		,`[data-test='Questions'] > p`
 		,`[data-test='SpecializedProfilePrompt']`
 		,`div[job-uid] > button` // 2025-09-04
 		,`section :has(> .illustration)` // 2025-09-05
