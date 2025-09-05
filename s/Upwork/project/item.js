@@ -115,6 +115,9 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
 ;
+// 2025-09-05
+// language=CSS
+GM_addStyle('body {margin: 0 1rem !important;}');
 // 2024-12-25
 // language=CSS
 GM_addStyle('#main {margin-top: 0.5rem !important;}');
