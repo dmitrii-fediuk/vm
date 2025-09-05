@@ -53,6 +53,7 @@ setTimeout(() => {
 		,`[data-test='Qualifications'] h5`
 		,`[data-test='SpecializedProfilePrompt']`
 		,`div[job-uid] > button` // 2025-09-04
+		,`li:has(> a[href*='/att/download/openings/']) > .air3-icon` // 2025-09-05
 		,`section :has(> .illustration)` // 2025-09-05
 		,`section.air3-card-section > h5` // 2025-09-04
 		,`section.air3-card-section > section > h5` // 2025-09-04
