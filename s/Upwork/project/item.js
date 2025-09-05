@@ -297,15 +297,16 @@ setTimeout(() => {
 }, 2000);*/
 // 2025-09-05 https://g.co/gemini/share/9776258b5353
 (() => {
-	const p2 = i => i.closest(`.text-body-sm`).innerHTML = i.textContent;
-	const p = i => p2(i.querySelector(`.posted-on-line span`));
+	const pSpan = i => i.closest(`.text-body-sm`).innerHTML = i.textContent;
+	const s = `.posted-on-line span`;
+	const p = i => pSpan(i.querySelector(s));
 	(new MutationObserver(mm => {
 		mm.forEach(m => {
 			if (m.addedNodes.length) {
 				m.addedNodes.forEach(i => {
 					if (1 === i.nodeType) {
-						if (i.matches(`.posted-on-line span`)) {
-							p2(i);
+						if (i.matches(s)) {
+							pSpan(i);
 						}
 						p(i);
 					}
