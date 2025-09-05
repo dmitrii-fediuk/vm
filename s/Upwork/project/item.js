@@ -298,5 +298,5 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 		'content': `'${s.textContent}'`, 'font-weight': 'bold'
 	}).map(([k, v]) => `${k}: ${v} !important;`).join(' ');
 	// language=CSS
-	GM_addStyle(`.posted-on-line .text-body-sm::before {${props}}`);
+	GM_addStyle(`.posted-on-line::before {${props}}`);
 })();
