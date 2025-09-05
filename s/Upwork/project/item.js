@@ -298,7 +298,7 @@ setTimeout(() => {
 // 2025-09-05 https://g.co/gemini/share/9776258b5353
 (() => {
 	const p2 = i => i.closest(`.text-body-sm`).innerHTML = i.textContent;
-	const p = root => p2(root.querySelector(`.posted-on-line span`));
+	const p = i => p2(i.querySelector(`.posted-on-line span`));
 	(new MutationObserver(mm => {
 		mm.forEach(m => {
 			if (m.addedNodes.length) {
