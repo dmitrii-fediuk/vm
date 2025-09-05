@@ -134,6 +134,26 @@ GM_addStyle([
 );
 // 2024-12-25
 // language=CSS
+GM_addStyle([
+	`.air3-card-section:has(> [data-test='ConnectsAuction'])`
+	,`.air3-card-section:has(> [data-test='Qualifications'])`
+	,`[data-test='${aboutClient}'] ul.features`
+	,`[data-test='${aboutClient}']`
+	,`[data-test='Expertise'] > [class*='grid-container']`
+	,`.features`
+	,`section:has(.posted-on-line)` // 2025-09-05
+]
+	 // language=Javascript
+	.join(',') + '{display: flex !important; gap: 0.5rem !important;}')
+;
+// 2024-12-25
+// language=CSS
+GM_addStyle(`[data-test='ConnectsAuction'] {display: flex !important; gap: 1rem !important;}`);
+// 2024-12-25
+// language=CSS
+GM_addStyle(`[data-test='${aboutClient}'] ul.features {flex-direction: row !important;}`);
+// 2024-12-25
+// language=CSS
 GM_addStyle('.air3-card-sections > * {order: 6;}');
 // 2024-12-24 https://chatgpt.com/c/676b1c1b-79a0-800c-a2ca-88de2346828f
 // 2025-09-04
@@ -168,9 +188,6 @@ GM_addStyle(`.air3-card-section:has(> [data-test='Description']) {margin-bottom:
 GM_addStyle(`.air3-card-section:has(> section > .segmentations) {margin: 0.5rem 0 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle(`[data-test='ConnectsAuction'] {display: flex !important; gap: 1rem !important;}`);
-// 2024-12-25
-// language=CSS
 GM_addStyle(`[data-test='ConnectsAuction'] > div {margin-top: 0 !important;}`);
 // 2024-12-25
 // language=CSS
@@ -200,22 +217,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{gap: 0 !important;}')
 ;
-// 2024-12-25
-// language=CSS
-GM_addStyle([
-	`.air3-card-section:has(> [data-test='ConnectsAuction'])`
-	,`.air3-card-section:has(> [data-test='Qualifications'])`
-	,`[data-test='${aboutClient}'] ul.features`
-	,`[data-test='${aboutClient}']`
-	,`[data-test='Expertise'] > [class*='grid-container']`
-	,`.features`
-]
-	 // language=Javascript
-	.join(',') + '{display: flex !important; gap: 0.5rem !important;}')
-;
-// 2024-12-25
-// language=CSS
-GM_addStyle(`[data-test='${aboutClient}'] ul.features {flex-direction: row !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`.${dfQuestions} {font-weight: bold; margin-bottom: 0.5rem !important;}`);
