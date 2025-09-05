@@ -299,8 +299,7 @@ setTimeout(() => {
 (() => {
 	const process = root => {
 		const s = root.querySelector(`.posted-on-line span`);
-		const p = s.closest(`.text-body-sm`);
-		p.innerHTML = s.textContent;
+		s.closest(`.text-body-sm`).innerHTML = s.textContent;
 	};
 	(new MutationObserver(mm => {
 		mm.forEach(m => {
@@ -308,11 +307,7 @@ setTimeout(() => {
 				m.addedNodes.forEach(i => {
 					if (1 === i.nodeType) {
 						if (i.matches('.posted-on-line span')) {
-							//debugger;
-							const p = i.closest('.text-body-sm');
-							if (p) {
-								p.innerHTML = i.textContent;
-							}
+							i.closest('.text-body-sm').innerHTML = i.textContent;
 						}
 						process(i);
 					}
