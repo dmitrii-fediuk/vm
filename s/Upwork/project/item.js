@@ -70,7 +70,7 @@ GM_addStyle([
 	,`.features > li` // 2025-09-04
 ]
 	 // language=Javascript
-	.join(`,`) + `{display: initial !important;}`)
+	.join(`,`) + `{display: block !important;}`)
 ;
 // language=CSS
 GM_addStyle([
