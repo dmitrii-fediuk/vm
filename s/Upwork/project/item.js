@@ -118,7 +118,16 @@ GM_addStyle([
 // 2025-09-05
 // language=CSS
 GM_addStyle([
-	`.posted-on-line` // 2025-09-05
+	`.${dfNotVerified}` // 2025-09-05
+]
+	 // language=Javascript
+	.join(`,`) + `{color: red !important;}`)
+;
+// 2025-09-05
+// language=CSS
+GM_addStyle([
+	`.${dfNotVerified}` // 2025-09-05
+	,`.posted-on-line` // 2025-09-05
 ]
 	 // language=Javascript
 	.join(`,`) + `{font-weight: bold !important;}`)
@@ -257,6 +266,9 @@ GM_addStyle(`.job-details-content > footer {margin: 0.5rem 0 !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; margin-top: 0.5rem !important;}`);
+// 2025-09-05
+// language=CSS
+GM_addStyle(`.job-details-content > footer {margin: 0.5rem 0 !important;}`);
 // 2025-09-05
 // 1) https://g.co/gemini/share/9776258b5353
 // 2) https://g.co/gemini/share/fdb2b22cbe50
