@@ -297,23 +297,21 @@ setTimeout(() => {
 }, 2000);*/
 // 2025-09-05 https://g.co/gemini/share/9776258b5353
 (() => {
-	const process = root => {
-		const s = root.querySelector(`.posted-on-line span`);
-		s.closest(`.text-body-sm`).innerHTML = s.textContent;
-	};
+	const p2 = i => i.closest(`.text-body-sm`).innerHTML = i.textContent;
+	const p = root => p2(root.querySelector(`.posted-on-line span`));
 	(new MutationObserver(mm => {
 		mm.forEach(m => {
 			if (m.addedNodes.length) {
 				m.addedNodes.forEach(i => {
 					if (1 === i.nodeType) {
 						if (i.matches(`.posted-on-line span`)) {
-							i.closest('.text-body-sm').innerHTML = i.textContent;
+							p2(i);
 						}
-						process(i);
+						p(i);
 					}
 				});
 			}
 		});
 	})).observe(document.documentElement, {childList: true, subtree: true});
-	process(document.documentElement);
+	p(document.documentElement);
 })();
