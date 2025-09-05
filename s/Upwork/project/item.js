@@ -232,6 +232,9 @@ GM_addStyle(`[data-test='Bids'] h5 {font-size: 100% !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`.extra-jobs-cards[class*='px-'] {padding: 0 0.5rem !important;}`);
+// 2025-09-05
+// language=CSS
+GM_addStyle(`footer {margin-top: 0.5rem !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; margin-top: 0.5rem !important;}`);
