@@ -273,15 +273,16 @@ const modify = (s, action) => {
 modify(`.posted-on-line span`, i => i.closest(`.posted-on-line`).innerHTML = i.textContent);
 modify(`[data-test='${aboutClient}'] .text-caption`, i => {
 	const c = i.textContent;
-	const pp = i.parentElement.parentElement;
+	const p = i.parentElement;
 	const t1 = ' verified';
 	const t2 = `not${t1}`;
 	if (c.endsWith(t1)) {
 		if (!c.endsWith(t2)) {
-			pp.remove();
+			p.remove();
 		}
 		else {
-			pp.innerHTML = t2;
+			p.innerHTML = t2;
+			p.classList.add(dfNotVerified);
 		}
 	}
 });
