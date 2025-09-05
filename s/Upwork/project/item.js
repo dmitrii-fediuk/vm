@@ -305,8 +305,8 @@ setTimeout(() => {
 		i.matches?.(s) && action(i);
 		i.querySelectorAll?.(s).forEach(action);
 	};
-	(new MutationObserver(M => {
-		M.forEach(m => m.addedNodes.forEach(p));
+	(new MutationObserver(mm => {
+		mm.forEach(m => m.addedNodes.forEach(p));
 	})).observe(document.documentElement, {childList: true, subtree: true});
 	p(document.documentElement);
 })();
