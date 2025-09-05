@@ -67,10 +67,16 @@ setTimeout(() => {
 GM_addStyle([
 	`.features > li` // 2025-09-04
 	,'.job-details-content > footer .d-flex.gap' // 2025-09-05
-	,`.posted-on-line span` // 2025-09-05
 ]
 	 // language=Javascript
 	.join(`,`) + `{display: initial !important;}`)
+;
+// language=CSS
+GM_addStyle([
+	`.posted-on-line span` // 2025-09-05
+]
+	 // language=Javascript
+	.join(`,`) + `{display: block !important;}`)
 ;
 // language=CSS
 GM_addStyle([
