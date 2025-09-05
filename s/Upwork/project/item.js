@@ -271,34 +271,20 @@ const modify = (s, action) => {
 	p(document.documentElement);
 };
 modify(`.posted-on-line span`, i => i.closest(`.posted-on-line`).innerHTML = i.textContent);
-// 2025-09-04
-(() => {
-	[...document.querySelectorAll(`[data-test='${aboutClient}'] .text-caption`)].forEach(i => {
-		const c = i.textContent;
-		const p = i.parentElement;
-		const t1 = ' verified';
-		const t2 = `not${t1}`;
-		const hide = () => {
-			// 2025-09-04
-			// 1) https://g.co/gemini/share/3962b2485479
-			// 2) `.remove()` does not work here: https://g.co/gemini/share/47d68d7cabd2
-			p.style.setProperty('display', 'none', 'important');
-		};
-		if (c.endsWith(t1)) {
-			hide();
-			if (c.endsWith(t2)) {
-				// 2025-09-04 https://g.co/gemini/share/391b5f47d03d
-				p.parentElement.classList.add(dfNotVerified);
-				const props = Object.entries({
-					// language=CSS
-					'color': 'red', 'content': `'${t2}'`, 'font-weight': 'bold'
-				}).map(([k, v]) => `${k}: ${v} !important;`).join(' ');
-				// language=CSS
-				GM_addStyle(`.${dfNotVerified}::before {${props}}`);
-			}
+modify(`[data-test='${aboutClient}'] .text-caption`, i => {
+	const c = i.textContent;
+	const pp = i.parentElement.parentElement;
+	const t1 = ' verified';
+	const t2 = `not${t1}`;
+	if (c.endsWith(t1)) {
+		if (!c.endsWith(t2)) {
+			pp.remove();
 		}
-	});
-})();
+		else {
+			pp.innerHTML = t2;
+		}
+	}
+});
 // 2025-09-05
 (() => {
 	[...document.querySelectorAll(
