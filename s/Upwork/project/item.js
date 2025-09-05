@@ -31,7 +31,8 @@ setTimeout(() => {
 		// 1.1) https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Specificity#the_is_not_has_and_css_nesting_exceptions
 		// 1.2) https://archive.is/5HYgv#selection-10675.63-10675.172
 		// 2025-09-04
-		,'.posted-on-line ~ :not(#A)'
+		,`.posted-on-line ~ :not(#A)`
+		,`.posted-on-line` // 2025-09-05
 		,`:has(> .skills-list) > strong` // 2025-09-04
 		,`[data-test='${aboutClient}'] div:has([data-testid='head-title'])` // 2025-09-04
 		// 2024-12-25 The title: «Attachment»
@@ -66,6 +67,7 @@ setTimeout(() => {
 GM_addStyle([
 	`.features > li` // 2025-09-04
 	,'.job-details-content > footer .d-flex.gap' // 2025-09-05
+	,`.posted-on-line span` // 2025-09-05
 ]
 	 // language=Javascript
 	.join(`,`) + `{display: initial !important;}`)
