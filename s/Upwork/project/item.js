@@ -84,12 +84,12 @@ GM_addStyle([
 	// 1.2) https://archive.is/5HYgv#selection-10675.63-10675.172
 	// 2025-09-04
 	,`.${dfNotVerified}:not(#A)` // 2025-09-04
+	,`.${dfQuestions} li`
 	,`.job-details-content footer`
 	,`[data-test='${aboutClient}'] div:has(> [data-test='UpCPopover'])`
 	,`[data-test='${aboutClient}'] ul.features`
 	,`[data-test='ConnectsAuction']`
 	,`[data-test='Expertise'] .skills-list`
-	,`[data-test='Questions'] li`
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
