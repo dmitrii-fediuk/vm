@@ -87,10 +87,10 @@ GM_addStyle([
 	,`.${dfQuestions} li`
 	,`.air3-card-section h4`
 	,`.extra-jobs-cards > :not(#A)` // 2025-09-05
+	,`.skills-list` // 2025-09-05
 	,`[data-test='${aboutClient}'] div:has(> [data-test='UpCPopover'])`
 	,`[data-test='${aboutClient}'] ul.features`
 	,`[data-test='ConnectsAuction']`
-	,`[data-test='Expertise'] .skills-list`
 	,`button[data-cy='jobs-in-progress-button']` // 2025-09-05
 ]
 	 // language=Javascript
