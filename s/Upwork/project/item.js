@@ -289,18 +289,9 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 	});
 })();
 // 2025-09-05
-/*
-setTimeout(() => {
-	const s = document.querySelector(`.posted-on-line span`);
-	const p = s.closest(`.text-body-sm`);
-	p.innerHTML = s.textContent;
-}, 2000);*/
-// 2025-09-05
 // 1) https://g.co/gemini/share/9776258b5353
 // 2) https://g.co/gemini/share/fdb2b22cbe50
-(() => {
-	const s = '.posted-on-line span';
-	const action = i => i.closest(`.text-body-sm`).innerHTML = i.textContent;
+const modify = (s, action) => {
 	const p = i => {
 		i.matches?.(s) && action(i);
 		i.querySelectorAll?.(s).forEach(action);
@@ -309,4 +300,5 @@ setTimeout(() => {
 		mm.forEach(m => m.addedNodes.forEach(p));
 	})).observe(document.documentElement, {childList: true, subtree: true});
 	p(document.documentElement);
-})();
+};
+modify(`.posted-on-line span`, i => i.closest(`.text-body-sm`).innerHTML = i.textContent);
