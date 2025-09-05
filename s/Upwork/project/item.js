@@ -295,24 +295,18 @@ setTimeout(() => {
 	const p = s.closest(`.text-body-sm`);
 	p.innerHTML = s.textContent;
 }, 2000);*/
-// 2025-09-05 https://g.co/gemini/share/9776258b5353
+// 2025-09-05
+// 1) https://g.co/gemini/share/9776258b5353
+// 2) https://g.co/gemini/share/fdb2b22cbe50
 (() => {
-	const pSpan = i => i.closest(`.text-body-sm`).innerHTML = i.textContent;
-	const s = `.posted-on-line span`;
-	const p = i => pSpan(i.querySelector(s));
-	(new MutationObserver(mm => {
-		mm.forEach(m => {
-			if (m.addedNodes.length) {
-				m.addedNodes.forEach(i => {
-					if (1 === i.nodeType) {
-						if (i.matches(s)) {
-							pSpan(i);
-						}
-						p(i);
-					}
-				});
-			}
-		});
+	const s = '.posted-on-line span';
+	const action = i => i.closest(`.text-body-sm`).innerHTML = i.textContent;
+	const p = i => {
+		i.matches?.(s) && action(i);
+		i.querySelectorAll?.(s).forEach(action);
+	};
+	(new MutationObserver(M => {
+		M.forEach(m => m.addedNodes.forEach(p));
 	})).observe(document.documentElement, {childList: true, subtree: true});
 	p(document.documentElement);
 })();
