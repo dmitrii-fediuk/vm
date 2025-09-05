@@ -186,23 +186,23 @@ GM_addStyle('.air3-card-sections > * {order: 6;}');
 GM_addStyle(`[data-test='${aboutClient}'] {order: 1 !important;}`);
 // 2025-09-05
 // language=CSS
-GM_addStyle(`section:has(> .features) {order: 1 !important;}`);
+GM_addStyle(`section:has(> .features) {order: 2 !important;}`);
 // 2024-12-25
 // 2025-09-04 Title
 // language=CSS
-GM_addStyle(`.air3-card-section:has(> h4) {order: 2 !important;}`);
+GM_addStyle(`.air3-card-section:has(> h4) {order: 3 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle(`.air3-card-section:has(> [data-test='Description']) {order: 3 !important;}`);
+GM_addStyle(`.air3-card-section:has(> [data-test='Description']) {order: 4 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle(`.${dfQuestions} {order: 4 !important;}`);
+GM_addStyle(`.${dfQuestions} {order: 5 !important;}`);
 // 2025-09-04
 // language=CSS
-GM_addStyle(`section.air3-card-section:has(.client-activity-items) {order: 5 !important;}`);
+GM_addStyle(`section.air3-card-section:has(.client-activity-items) {order: 6 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle(`.air3-card-section:has(> [data-test='Qualifications']) {order: 6 !important;}`);
+GM_addStyle(`.air3-card-section:has(> [data-test='Qualifications']) {order: 7 !important;}`);
 // language=CSS
 GM_addStyle(`.air3-card-section {padding: 0 0.5rem !important;}`);
 // 2024-12-25
