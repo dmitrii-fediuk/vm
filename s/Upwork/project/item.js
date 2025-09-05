@@ -149,9 +149,15 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle(`[data-test='ConnectsAuction'] {display: flex !important; gap: 1rem !important;}`);
-// 2024-12-25
+// 2025-09-05
 // language=CSS
-GM_addStyle(`[data-test='${aboutClient}'] ul.features {flex-direction: row !important;}`);
+GM_addStyle([
+	`[data-test='${aboutClient}'] ul.features` // 2024-12-25
+	,`section:has(.posted-on-line)` // 2025-09-05
+]
+	 // language=Javascript
+	.join(',') + '{flex-direction: row !important;}')
+;
 // 2024-12-25
 // language=CSS
 GM_addStyle('.air3-card-sections > * {order: 6;}');
