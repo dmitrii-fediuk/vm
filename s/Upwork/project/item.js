@@ -173,8 +173,8 @@ GM_addStyle(`[data-test='ConnectsAuction'] > div {margin-top: 0 !important;}`);
 GM_addStyle(`[data-test='Description'] br {display: block !important; content: ''; height: 1px !important;}`);
 // language=CSS
 GM_addStyle([
-	`[data-test='Description'] p`
-	,`[data-test='Questions'] ol`
+	`.${dfQuestions} ol`
+	,`[data-test='Description'] p`
 ]
 	// language=Javascript
 	.join(',') + '{' +
