@@ -184,6 +184,9 @@ GM_addStyle('.air3-card-sections > * {order: 6;}');
 // 2025-09-04
 // language=CSS
 GM_addStyle(`[data-test='${aboutClient}'] {order: 1 !important;}`);
+// 2025-09-05
+// language=CSS
+GM_addStyle(`section:has(> .features) {order: 1 !important;}`);
 // 2024-12-25
 // 2025-09-04 Title
 // language=CSS
