@@ -117,6 +117,14 @@ GM_addStyle([
 ;
 // 2025-09-05
 // language=CSS
+GM_addStyle([
+	`.posted-on-line` // 2025-09-05
+]
+	 // language=Javascript
+	.join(`,`) + `{font-weight: bold !important;}`)
+;
+// 2025-09-05
+// language=CSS
 GM_addStyle('body {margin: 0.5rem 0.5rem 0 0.5rem !important;}');
 // 2024-12-24 https://chatgpt.com/c/676b1c1b-79a0-800c-a2ca-88de2346828f
 // language=CSS
