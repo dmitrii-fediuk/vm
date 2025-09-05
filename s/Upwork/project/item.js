@@ -79,13 +79,14 @@ GM_addStyle([
 ;
 // language=CSS
 GM_addStyle([
-	`.air3-card-section h4`
 	// 2025-05-04
 	// 1.1) https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Specificity#the_is_not_has_and_css_nesting_exceptions
 	// 1.2) https://archive.is/5HYgv#selection-10675.63-10675.172
 	// 2025-09-04
-	,`.${dfNotVerified}:not(#A)` // 2025-09-04
+	`.${dfNotVerified}:not(#A)` // 2025-09-04
 	,`.${dfQuestions} li`
+	,`.air3-card-section h4`
+	,`.extra-jobs-cards > *` // 2025-09-05
 	,`[data-test='${aboutClient}'] div:has(> [data-test='UpCPopover'])`
 	,`[data-test='${aboutClient}'] ul.features`
 	,`[data-test='ConnectsAuction']`
@@ -98,7 +99,8 @@ GM_addStyle([
 // 2025-09-05
 // language=CSS
 GM_addStyle([
-	`footer` // 2025-09-05
+	`.extra-jobs-cards` // 2025-09-05
+	,`footer` // 2025-09-05
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
