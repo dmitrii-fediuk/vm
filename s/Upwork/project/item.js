@@ -90,6 +90,7 @@ GM_addStyle([
 	,`[data-test='${aboutClient}'] ul.features`
 	,`[data-test='ConnectsAuction']`
 	,`[data-test='Expertise'] .skills-list`
+	,`button[data-cy='jobs-in-progress-button']` // 2025-09-05
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
