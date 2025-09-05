@@ -293,4 +293,4 @@ setTimeout(() => {
 	const s = document.querySelector(`.posted-on-line span`);
 	const p = s.closest(`.text-body-sm`);
 	p.innerHTML = s.textContent;
-}, 200);
+}, 1000);
