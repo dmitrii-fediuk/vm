@@ -66,8 +66,8 @@ setTimeout(() => {
 }, 200);
 // language=CSS
 GM_addStyle([
-	`.features > li` // 2025-09-04
-	,'.job-details-content > footer .d-flex.gap' // 2025-09-05
+	'.job-details-content > footer .d-flex.gap' // 2025-09-05
+	,`[data-test='${aboutClient}'] .features > li` // 2025-09-04
 ]
 	 // language=Javascript
 	.join(`,`) + `{display: initial !important;}`)
@@ -171,7 +171,7 @@ GM_addStyle(`[data-test='ConnectsAuction'] {display: flex !important; gap: 1rem 
 // 2025-09-05
 // language=CSS
 GM_addStyle([
-	`[data-test='${aboutClient}'] ul.features` // 2024-12-25
+	`[data-test='${aboutClient}'] .features` // 2024-12-25
 	,`section:has(.posted-on-line)` // 2025-09-05
 ]
 	 // language=Javascript
