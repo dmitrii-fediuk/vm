@@ -289,8 +289,35 @@ GM_addStyle(`[data-test='WorkHistory'][class*='mt-'] {border: 0 !important; marg
 	});
 })();
 // 2025-09-05
+/*
 setTimeout(() => {
 	const s = document.querySelector(`.posted-on-line span`);
 	const p = s.closest(`.text-body-sm`);
 	p.innerHTML = s.textContent;
-}, 1000);
+}, 2000);*/
+// 2025-09-05 https://g.co/gemini/share/9776258b5353
+(() => {
+	const process = root => {
+		const s = root.querySelector(`.posted-on-line span`);
+		const p = s.closest(`.text-body-sm`);
+		p.innerHTML = s.textContent;
+	};
+	(new MutationObserver(mm => {
+		mm.forEach(m => {
+			if (m.addedNodes.length) {
+				m.addedNodes.forEach(i => {
+					if (1 === i.nodeType) {
+						if (i.matches('.posted-on-line span')) {
+							const p = i.closest('.text-body-sm');
+							if (p) {
+								p.innerHTML = i.textContent;
+							}
+						}
+						process(node);
+					}
+				});
+			}
+		});
+	})).observe(document.documentElement, {childList: true, subtree: true});
+	process(document.documentElement);
+})();
