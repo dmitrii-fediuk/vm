@@ -220,7 +220,7 @@ GM_addStyle(`[data-test='Description'] br {
 	background: yellow !important;
 	content: '' !important;
 	display: block !important;
-	height: 1px !important;
+	height: 0.2rem !important;
 	width: 100% !important;
 }`);
 // language=CSS
