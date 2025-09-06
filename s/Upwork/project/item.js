@@ -268,7 +268,7 @@ const modify = (s, action) => {
 modify(`.posted-on-line span`, i => i.closest(`.posted-on-line`).innerHTML = i.textContent);
 // 2025-09-05
 // language=CSS
-modify(`[data-test='${aboutClient}'] .text-caption`, i => {
+modify(`[data-test='${aboutClient}'] .text-caption`, i => {// language=Javascript
 	const c = i.textContent.trim();
 	const p = i.parentElement;
 	const t1 = ' verified';
@@ -286,20 +286,9 @@ modify(`[data-test='${aboutClient}'] .text-caption`, i => {
 });
 // 2025-09-06
 // language=CSS
-modify(`[data-cy='expertise'] + strong`, i => {
-	const c = i.textContent.trim();
-	const p = i.parentElement;
-	const t1 = ' verified';
-	const t2 = `not${t1}`;
-	if (c.endsWith(t1)) {
-		if (!c.endsWith(t2)) {
-			p.remove();
-		}
-		else {
-			const pp = p.parentElement;
-			pp.innerHTML = t2;
-			pp.classList.add(dfNotVerified, dfWarning);
-		}
+modify(`[data-cy='expertise'] + strong`, i => {// language=Javascript
+	if ('Expert' !== i.textContent.trim()) {
+		i.classList.add(dfWarning);
 	}
 });
 // 2025-09-05
@@ -307,7 +296,6 @@ modify(`[data-cy='expertise'] + strong`, i => {
 	[...document.querySelectorAll(
 		`.job-details-card > .air3-card-sections > section > p > strong`
 	)].forEach(i => {
-		const c = i.textContent.trim();
 		if (i.textContent.startsWith('You will be asked to answer')) {
 			i.closest('section').classList.add(dfQuestions);
 		}
