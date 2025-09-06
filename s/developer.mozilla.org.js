@@ -65,6 +65,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.main-wrapper'
+	,'.reference-layout' // 2025-09-06
 	,'.table-container-inner'
 	,'main'
 	,'pre'
