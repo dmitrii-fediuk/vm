@@ -217,9 +217,10 @@ GM_addStyle(`[data-test='ConnectsAuction'] > div {margin-top: 0 !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`[data-test='Description'] br {
-    content: '' !important;
-    display: block !important;
 	font-size: 0 !important; 
+	width: 100% !important;
+    content: '' !important;
+    display: inline-block !important;
     height: 1px !important;
     line-height: 0 !important;
 }`);
