@@ -82,10 +82,8 @@ GM_addStyle([
 	,`[data-test='${aboutClient}'] ul.features`
 	,`[data-test='ConnectsAuction']`
 	,`button[data-cy='jobs-in-progress-button']` // 2025-09-05
-]
-	 // language=Javascript
-	.join(',') + '{margin: 0 !important;}')
-;
+// language=Javascript
+].join(',') + '{margin: 0 !important;}');
 // 2025-09-05
 // language=CSS
 GM_addStyle([
