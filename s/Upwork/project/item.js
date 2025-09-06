@@ -110,10 +110,8 @@ GM_addStyle([
 GM_addStyle([
 	`.${dfNotVerified}` // 2025-09-05
 	,`.posted-on-line` // 2025-09-05
-]
-	 // language=Javascript
-	.join(`,`) + `{font-weight: bold !important;}`)
-;
+// language=Javascript
+].join(`,`) + `{font-weight: bold !important;}`);
 // 2025-09-05
 // language=CSS
 GM_addStyle('body {margin: 0.5rem 0.5rem 0 0.5rem !important;}');
