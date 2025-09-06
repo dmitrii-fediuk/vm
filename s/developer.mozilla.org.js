@@ -17,6 +17,7 @@ GM_addStyle([
 	,'aside' // 2025-09-06
 	,'footer'
 	,'header > nav' // 2025-09-06
+	,'mdn-color-theme' // 2025-09-06
 	,'mdn-language-switcher' // 2025-09-06
 ]
 	 // language=Javascript
