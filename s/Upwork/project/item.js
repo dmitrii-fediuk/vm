@@ -291,7 +291,7 @@ modify(`.posted-on-line span`, i => {// language=Javascript
 	const c = i.textContent.trim();
 	const p = i.closest(`.posted-on-line`);
 	p.innerHTML = c;
-	// 2025-09-06
+	// 2025-09-06 https://g.co/gemini/share/0e23a0a889b2
 	p.classList.toggle(dfWarning,
 		/^last (week|month|year)/.test(c)
 		|| /(week|month|year)s? ago$/.test(c)
