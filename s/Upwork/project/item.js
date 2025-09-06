@@ -292,25 +292,11 @@ modify(`.posted-on-line span`, i => {// language=Javascript
 	const p = i.closest(`.posted-on-line`);
 	p.innerHTML = c;
 	// 2025-09-06
-	const unitsBig = ['week', 'month', 'year'];
-	let warn = false;
-	let ca = c.split(' ');
-	if ('last' === ca[0]) {
-		warn = unitsBig.includes(ca[1]);
-	}
-	else if ('ago' === ca[ca.length - 1]) {
-		const unit = ca[ca.length - 2].replace(/s$/, '');
-		if (unitsBig.includes(unit)) {
-			warn = true;
-		}
-		else if ('day' === unit) {
-			const v = +ca[0];
-			warn = 2 < v;
-		}
-	}
-	if (warn) {
-		p.classList.add(dfWarning);
-	}
+	p.classList.toggle(dfWarning,
+		/^last (week|month|year)/.test(c)
+		|| /(week|month|year)s? ago$/.test(c)
+		|| (c.match(/^(\d+) days? ago$/)?.[1] > 2)
+	);
 });
 // 2025-09-06
 // language=CSS
