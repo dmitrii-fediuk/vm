@@ -276,7 +276,7 @@ modify(`[data-test='${aboutClient}'] .text-caption`, i => {
 		else {
 			const pp = p.parentElement;
 			pp.innerHTML = t2;
-			pp.classList.add(dfNotVerified);
+			pp.classList.add(dfNotVerified, dfWarning);
 		}
 	}
 });
