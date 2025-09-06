@@ -263,7 +263,9 @@ const modify = (s, action) => {
 	})).observe(document.documentElement, {childList: true, subtree: true});
 	p(document.documentElement);
 };
+// 2025-09-05
 modify(`.posted-on-line span`, i => i.closest(`.posted-on-line`).innerHTML = i.textContent);
+// 2025-09-05
 modify(`[data-test='${aboutClient}'] .text-caption`, i => {
 	const c = i.textContent.trim();
 	const p = i.parentElement;
