@@ -220,7 +220,7 @@ GM_addStyle(`[data-test='Description'] br {
 	content: ''; 
 	display: block !important;
 	font-size: 0 !important;
-	height: 1px !important;
+	height: 0 !important;
 	margin: 0.5em 0 !important;
 }`);
 // 2025-09-06
