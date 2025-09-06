@@ -90,10 +90,8 @@ GM_addStyle([
 	`.air3-card-section:not(#A)` // 2025-09-05
 	,`.extra-jobs-cards` // 2025-09-05
 	,`.job-details-content > footer` // 2025-09-05
-]
-	 // language=Javascript
-	.join(',') + '{padding: 0 !important;}')
-;
+// language=Javascript
+].join(',') + '{padding: 0 !important;}');
 // 2025-09-05
 // language=CSS
 GM_addStyle([
