@@ -155,6 +155,23 @@ GM_addStyle([
 ].join(',') + '{flex-wrap: wrap !important;}');
 // 2024-12-25
 // language=CSS
+GM_addStyle([
+	'.client-activity-items'
+	,'.qualification-items'
+ // language=Javascript
+].join(',') + '{gap: 0 !important;}');
+// language=CSS
+GM_addStyle([
+	`.${dfQuestions} ol`
+	,`[data-test='Description'] p`
+// language=Javascript
+].join(',') + `{${Object.entries({
+	'font-family': 'Segoie UI'
+	,'font-size': '140%'
+	,'line-height': 1.2
+}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
+// 2024-12-25
+// language=CSS
 GM_addStyle('.air3-card-sections > * {order: 6;}');
 // 2024-12-24 https://chatgpt.com/c/676b1c1b-79a0-800c-a2ca-88de2346828f
 // 2025-09-04
@@ -199,23 +216,6 @@ GM_addStyle(`[data-test='ConnectsAuction'] > div {margin-top: 0 !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`[data-test='Description'] br {display: block !important; content: ''; height: 1px !important;}`);
-// language=CSS
-GM_addStyle([
-	`.${dfQuestions} ol`
-	,`[data-test='Description'] p`
-// language=Javascript
-].join(',') + `{${Object.entries({
-	'font-family': 'Segoie UI'
-	,'font-size': '140%'
-	,'line-height': 1.2
-}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
-// 2024-12-25
-// language=CSS
-GM_addStyle([
-	'.client-activity-items'
-	,'.qualification-items'
- // language=Javascript
-].join(',') + '{gap: 0 !important;}');
 // 2024-12-25
 // language=CSS
 GM_addStyle(`.${dfQuestions} {font-weight: bold; margin-bottom: 0.5rem !important;}`);
