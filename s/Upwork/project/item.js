@@ -214,6 +214,13 @@ GM_addStyle(`.air3-card-section:has(> section > .segmentations) {margin: 0.5rem 
 // 2024-12-25
 // language=CSS
 GM_addStyle(`[data-test='ConnectsAuction'] > div {margin-top: 0 !important;}`);
+// 2025-09-06
+// language=CSS
+GM_addStyle(`[data-test='Description'] p {
+	align-content: flex-start !important;
+	display: flex !important;
+	flex-wrap: wrap !important;
+}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`[data-test='Description'] br {
@@ -223,6 +230,7 @@ GM_addStyle(`[data-test='Description'] br {
 	height: 1px !important;
 	line-height: 0 !important;
 	margin: 0 !important;
+	width: 100% !important;
 }`);
 // 2024-12-25
 // language=CSS
