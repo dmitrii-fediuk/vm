@@ -9,7 +9,9 @@
 // 2024-10-13 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 // 2024-12-24 A job post, e.g.:
 // «https://www.upwork.com/jobs/Developer-for-Backend-Development-with-high-Stripe-API-Experience_~021871538070777433492»
-const aboutClient = 'about-client-container'; // 2025-09-04 The previous value: «AboutClientUser»
+// 2025-09-04 The previous value: «AboutClientUser»
+// 2025-09-06 The previous value: «about-client-container»
+const aboutClient = 'AboutClientUser';
 const dfNotVerified = 'df-not-verified'; // 2025-09-05
 const dfQuestions = 'df-questions'; // 2025-09-05
 // 2025-06-10
