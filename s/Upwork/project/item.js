@@ -51,10 +51,8 @@ setTimeout(() => {
 		// The title: «You will be asked to answer the following questions when submitting a proposal:»
 		// 2025-09-05
 		,`.${dfQuestions} > p`
-	]
-		 // language=Javascript
-		.join(',') + '{display: none !important;}')
-	;
+	// language=Javascript
+	].join(',') + '{display: none !important;}');
 }, 200);
 // language=CSS
 GM_addStyle([
