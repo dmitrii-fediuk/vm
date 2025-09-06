@@ -35,9 +35,9 @@ setTimeout(() => {
 		,`[data-test='Expertise'] > [class*='grid-container'] > div:has(> .skills-list) > strong`
 		// 2025-09-06
 		,`[data-test='Features'] .air3-icon:not([data-cy='clock-hourly'], [data-cy='fixed-price'])`
-		,`[data-test='Features'] > .features .description` // 2025-09-04
-		,`[data-test='Features'] > .features > li::after` // 2025-09-04
-		,`[data-test='Features'] > .features > li:has(#featured-job)` // 2025-09-04
+		,`[data-test='Features'] .description` // 2025-09-04
+		,`[data-test='Features'] li::after` // 2025-09-04
+		,`[data-test='Features'] li:has(#featured-job)` // 2025-09-04
 		,`[data-test='FlagButton']`
 		,`[data-test='Qualifications'] :has(> .qualification-items:empty)` // 2025-09-05
 		,`[data-test='Qualifications'] [data-cy='english']`
