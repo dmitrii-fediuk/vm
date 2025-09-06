@@ -155,7 +155,7 @@ GM_addStyle([
 	,`section:has(.posted-on-line)` // 2025-09-05
 ]
 	 // language=Javascript
-	.join(',') + '{display: flex !important; gap: 0.5rem !important;}')
+	.join(',') + '{display: flex !important; column-gap: 0.5rem !important;}')
 ;
 // 2024-12-25
 // language=CSS
