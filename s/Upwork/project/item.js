@@ -60,17 +60,13 @@ setTimeout(() => {
 GM_addStyle([
 	'.job-details-content > footer .d-flex.gap' // 2025-09-05
 	,`.features > li` // 2025-09-04
-]
-	 // language=Javascript
-	.join(`,`) + `{display: block !important;}`)
-;
+// language=Javascript
+].join(`,`) + `{display: block !important;}`);
 // language=CSS
 GM_addStyle([
 	`.job-details-content footer`
-]
-	 // language=Javascript
-	.join(`,`) + `{position: initial !important;}`)
-;
+// language=Javascript
+].join(`,`) + `{position: initial !important;}`);
 // language=CSS
 GM_addStyle([
 	// 2025-05-04
@@ -130,9 +126,10 @@ GM_addStyle([
 // language=CSS
 GM_addStyle('body {margin: 0.5rem 0.5rem 0 0.5rem !important;}');
 // 2024-12-24 https://chatgpt.com/c/676b1c1b-79a0-800c-a2ca-88de2346828f
+// language=CSS
 GM_addStyle([
-	// language=CSS
 	'.air3-card-sections'
+// language=Javascript
 ].join(',') + `{${Object.entries({
 	'display': 'flex'
 	,'flex-direction': 'column'
