@@ -175,7 +175,7 @@ GM_addStyle(`.air3-card-section:has(> [data-test='ClientActivity']) {${Object.en
 	'column-gap': 0
 	,'flex-wrap': 'wrap'
 	,'row-gap': '0.5rem'
-}).map(([k, v]) => `${k}: ${v} !important;`).join(' ')}}`);
+}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle('.air3-card-sections > * {order: 6;}');
