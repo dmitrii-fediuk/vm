@@ -295,7 +295,15 @@ modify(`.posted-on-line span`, i => {// language=Javascript
 	if (c.endsWith(' ago')) {
 		const ca = c.split(' ').slice(0, -1);
 		const unit = ca[ca.length - 1].replace(/s$/, '');
-		if (['month', 'year'].includes(unit)) {
+		let warn = false;
+		if (['week', 'month', 'year'].includes(unit)) {
+			warn = true;
+		}
+		else if ('day' === unit) {
+			const v = +ca[0];
+			warn = 2 > v;
+		}
+		if (warn) {
 			p.classList.add(dfWarning);
 		}
 	}
