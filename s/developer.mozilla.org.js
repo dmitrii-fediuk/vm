@@ -62,27 +62,18 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
-// 2024-12-13, 2025-09-06
+// 2024-08-21, 2025-09-06
 // 1) "How do I hide a DOM element inside a shadow root using Violentmonkey?" https://df.tips/t/2326
-// 2) https://chatgpt.com/c/675bf7f8-a3d0-800c-be9b-8175c41b1c2b
-const h = 'mdn-compat-table';
-customElements.whenDefined(h).then(() => {
-	const applyStyle = () => {
-		const c = document.querySelector(h)?.shadowRoot;
+// 2) https://stackoverflow.com/a/75518992
+// 3) https://stackoverflow.com/a/75571912
+// 4) https://github.com/violentmonkey/violentmonkey/issues/1852
+(() => {
+	let e = document.querySelector('mdn-compat-table').shadowRoot;
+	GM_addElement(e, 'style', {textContent:
 		// language=CSS
-		c?.appendChild(Object.assign(document.createElement('style'), {textContent: [
-				'.bc-legend-items-container'
-			]
-				// language=Javascript
-				.join(',') + `{margin: 0 !important;}`
-		}));
-		return !!c;
-	};
-	if(!applyStyle()) {
-		const o = new MutationObserver(() => applyStyle() && o.disconnect());
-		o.observe(document.documentElement, {childList:true, subtree:true});
-	}
-});
+		`.bc-legend-items-container {margin: 0 !important} `
+	});
+})();
 // 2025-03-18
 // language=CSS
 GM_addStyle([
