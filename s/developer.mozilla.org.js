@@ -14,6 +14,7 @@ GM_addStyle([
 	,'.page-layout__banner' // 2025-09-06
 	,'.sidebar-container'
 	,'.sticky-header-container'
+	,'aside' // 2025-09-06
 	,'footer'
 	,'header > nav' // 2025-09-06
 ]
