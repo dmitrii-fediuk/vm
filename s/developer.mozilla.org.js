@@ -43,7 +43,8 @@ GM_addStyle([
 // 2025-03-18
 // language=CSS
 GM_addStyle([
-	'.code-example'
+	'.bc-legend-items-container' // 2025-09-06
+	,'.code-example'
 	,'.main-wrapper'
 	,'.table-container'
 	,'dd'
