@@ -15,6 +15,7 @@ GM_addStyle([
 	,'.sidebar-container'
 	,'.sticky-header-container'
 	,'footer'
+	,'header > nav' // 2025-09-06
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
