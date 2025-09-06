@@ -130,6 +130,7 @@ GM_addStyle([
 	,`[data-test='${aboutClient}'] ul.features`
 	,`[data-test='${aboutClient}']`
 	,`[data-test='Expertise'] > [class*='grid-container']`
+	,`[data-test='Features'] > .features > li:has([data-test='UpCIcon'])` // 2025-09-06
 	,`[data-test='Features'] > .features`
 	,`section:has(.posted-on-line)` // 2025-09-05
 // language=Javascript
