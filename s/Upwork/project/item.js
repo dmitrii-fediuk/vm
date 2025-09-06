@@ -35,13 +35,6 @@ setTimeout(() => {
 		// 2025-09-04
 		,`.posted-on-line ~ :not(#A)`
 		,`:has(> .skills-list) > strong` // 2025-09-04
-		,`[data-test='${aboutClient}'] div:has([data-testid='head-title'])` // 2025-09-04
-		// 2024-12-25 The title: «Attachment»
-		,`[data-test='Attachments'] h5`
-		,`[data-testid='buyer-rating']` // 2025-09-04
-		,`[data-test='Description'] > strong:first-child` // 2025-09-04
-		// 2024-12-25 The title: «Skills and Expertise»
-		,`[data-test='Expertise'] h5`
 		// 2024-12-25 Titles like: «Full Stack Development Deliverables»
 		,`[data-test='Expertise'] > [class*='grid-container'] > div:has(> .skills-list) > strong`
 		,'.features > li:has(#featured-job)' // 2025-09-04
@@ -49,18 +42,19 @@ setTimeout(() => {
 		,`.features .description` // 2025-09-04
 		,`.features > li::after` // 2025-09-04
 		,`.segmentations > li > :first-child` // 2024-12-25, 2025-09-04 The title: «Project Type:»
+		,`[data-test='${aboutClient}'] div:has([data-testid='head-title'])` // 2025-09-04
+		,`[data-test='ClientActivity'] ~ section:not([data-test='Bids'])` // 2025-09-05
+		,`[data-test='Description'] > strong:first-child` // 2025-09-04
 		,`[data-test='FlagButton']`
+		,`[data-test='Qualifications'] :has(> .qualification-items:empty)` // 2025-09-05
 		,`[data-test='Qualifications'] [data-cy='english']`
-		// 2024-12-25 The title: «Preferred qualifications»
-		,`[data-test='Qualifications'] h5`
 		,`[data-test='SpecializedProfilePrompt']`
+		,`[data-testid='buyer-rating']` // 2025-09-04
 		,`div[job-uid] > button` // 2025-09-04
 		,`li:has(> a[href*='/att/download/openings/']) > .air3-icon` // 2025-09-05
 		,`section :has(> .illustration)` // 2025-09-05
-		,`section :has(> .qualification-items:empty)` // 2025-09-05
 		,`section.air3-card-section > h5` // 2025-09-04
 		,`section.air3-card-section > section:not([data-test='Bids']) > h5` // 2025-09-04
-		,`section:has(> .client-activity-items) ~ section` // 2025-09-05
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
