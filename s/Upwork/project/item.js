@@ -176,7 +176,7 @@ GM_addStyle([
 	`.air3-card-section:has(> [data-test='ClientActivity'])`
 ]
 	 // language=Javascript
-	.join(',') + '{flex-wrap: wrap !important;}')
+	.join(',') + '{flex-wrap: wrap !important; gap: 0 !important;}')
 ;
 // 2024-12-25
 // language=CSS
