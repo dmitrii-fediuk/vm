@@ -218,7 +218,7 @@ GM_addStyle(`[data-test='ConnectsAuction'] > div {margin-top: 0 !important;}`);
 GM_addStyle(`[data-test='Description'] br {display: block !important; content: ''; height: 1px !important;}`);
 // 2025-09-06
 // language=CSS
-GM_addStyle(`[data-test='Expertise'] {margin-top: 0.5rem !important;}`);
+GM_addStyle(`[data-test='Expertise'] {margin-bottom: 0.5rem !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`.${dfQuestions} {font-weight: bold; margin-bottom: 0.5rem !important;}`);
