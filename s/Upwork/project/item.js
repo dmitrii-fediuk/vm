@@ -232,11 +232,6 @@ GM_addStyle(`[data-test='Description'] br {
 	margin: 0 !important;
 	width: 100% !important;
 }`);
-// 2024-12-25
-// language=CSS
-GM_addStyle(`[data-test='Description'] br + br {
-	margin-top: -1lh !important;
-}`);
 // 2025-09-06
 // language=CSS
 GM_addStyle(`[data-test='Expertise'] {margin-bottom: 0.5rem !important;}`);
