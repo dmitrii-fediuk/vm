@@ -221,12 +221,16 @@ GM_addStyle(`[data-test='Description'] br {
     display: block !important;
 	font-size: 0 !important; 
     height: 1px !important;
-    line-height: 0  !important;
+    line-height: 0 !important;
 }`);
 // 2025-09-06 https://g.co/gemini/share/b2d537194308
 // language=CSS
 GM_addStyle(`[data-test='Description'] br + br {
-    line-height: 1px  !important;
+    content: '' !important;
+    display: block !important;
+	font-size: 0 !important; 
+    height: 1px !important;
+    line-height: 0 !important;
 }`);
 // 2025-09-06
 // language=CSS
