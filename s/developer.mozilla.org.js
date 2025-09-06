@@ -27,6 +27,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.main-wrapper'
+	,'.reference-layout' // 2025-09-06
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
