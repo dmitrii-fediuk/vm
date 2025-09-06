@@ -151,7 +151,7 @@ GM_addStyle([
 	,`[data-test='${aboutClient}'] ul.features`
 	,`[data-test='${aboutClient}']`
 	,`[data-test='Expertise'] > [class*='grid-container']`
-	,`.features`
+	,`[data-test='Features'] > .features`
 	,`section:has(.posted-on-line)` // 2025-09-05
 ]
 	 // language=Javascript
@@ -185,7 +185,7 @@ GM_addStyle('.air3-card-sections > * {order: 6;}');
 GM_addStyle(`[data-test='${aboutClient}'] {order: 1 !important;}`);
 // 2025-09-05
 // language=CSS
-GM_addStyle(`section:has(> .features) {order: 2 !important;}`);
+GM_addStyle(`[data-test='Features'] {order: 2 !important;}`);
 // 2024-12-25
 // 2025-09-04 Title
 // language=CSS
