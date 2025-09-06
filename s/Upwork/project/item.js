@@ -33,7 +33,7 @@ setTimeout(() => {
 		,`[data-test='Description'] > strong:first-child` // 2025-09-04
 		// 2024-12-25 Titles like: «Full Stack Development Deliverables»
 		,`[data-test='Expertise'] > [class*='grid-container'] > div:has(> .skills-list) > strong`
-		,`[data-test='Features'] > .features .air3-icon` // 2025-09-04
+		,`[data-test='Features'] > .features .air3-icon:not([data-test='UpCIcon'])` // 2025-09-04
 		,`[data-test='Features'] > .features .description` // 2025-09-04
 		,`[data-test='Features'] > .features > li::after` // 2025-09-04
 		,`[data-test='Features'] > .features > li:has(#featured-job)` // 2025-09-04
