@@ -103,10 +103,8 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.${dfNotVerified}` // 2025-09-05
-]
-	 // language=Javascript
-	.join(`,`) + `{color: red !important;}`)
-;
+// language=Javascript
+].join(`,`) + `{color: red !important;}`);
 // 2025-09-05
 // language=CSS
 GM_addStyle([
