@@ -134,10 +134,8 @@ GM_addStyle([
 	,`[data-test='Expertise'] > [class*='grid-container']`
 	,`[data-test='Features'] > .features`
 	,`section:has(.posted-on-line)` // 2025-09-05
-]
-	 // language=Javascript
-	.join(',') + '{display: flex !important; gap: 0.5rem !important;}')
-;
+// language=Javascript
+].join(',') + '{display: flex !important; gap: 0.5rem !important;}');
 // 2024-12-25
 // language=CSS
 GM_addStyle(`[data-test='ConnectsAuction'] {display: flex !important; gap: 1rem !important;}`);
