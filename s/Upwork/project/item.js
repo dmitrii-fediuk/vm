@@ -269,9 +269,6 @@ const modify = (s, action) => {
 };
 // 2025-09-05
 // language=CSS
-modify(`.posted-on-line span`, i => i.closest(`.posted-on-line`).innerHTML = i.textContent);
-// 2025-09-05
-// language=CSS
 modify(`[data-test='${aboutClient}'] .text-caption`, i => {// language=Javascript
 	const c = i.textContent.trim();
 	const p = i.parentElement;
@@ -286,6 +283,17 @@ modify(`[data-test='${aboutClient}'] .text-caption`, i => {// language=Javascrip
 			pp.innerHTML = t2;
 			pp.classList.add(dfNotVerified, dfWarning);
 		}
+	}
+});
+// 2025-09-05
+// language=CSS
+modify(`.posted-on-line span`, i => {// language=Javascript
+	const c = i.textContent.trim();
+	const p = i.closest(`.posted-on-line`);
+	p.innerHTML = c;
+	// 2025-09-06
+	if (c.endsWith(' ago')) {
+		const ca = c.split(' ').pop();
 	}
 });
 // 2025-09-06

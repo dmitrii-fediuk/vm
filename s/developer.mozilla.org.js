@@ -29,6 +29,7 @@ GM_addStyle([
 // 2025-03-18
 // language=CSS
 GM_addStyle([
+	'header' // 2025-09-06
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
