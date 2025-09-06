@@ -11,6 +11,7 @@
 GM_addStyle([
 	'.article-footer'
 	,'.baseline-indicator'
+	,'.page-layout__banner' // 2025-09-06
 	,'.sidebar-container'
 	,'.sticky-header-container'
 	,'footer'
