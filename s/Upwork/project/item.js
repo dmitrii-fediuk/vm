@@ -214,18 +214,12 @@ GM_addStyle(`.air3-card-section:has(> section > .segmentations) {margin: 0.5rem 
 // 2024-12-25
 // language=CSS
 GM_addStyle(`[data-test='ConnectsAuction'] > div {margin-top: 0 !important;}`);
-// 2024-12-25
+// 2025-09-06 It still does not work for an unknown reason.
 // language=CSS
 GM_addStyle(`[data-test='Description'] br {
-	background: yellow !important;
 	content: '' !important;
 	display: block !important;
-	height: 0.2rem !important;
-	width: 100% !important;
-}`);
-// language=CSS
-GM_addStyle(`[data-test='Description'] br + br {
-	display: none !important;
+	height: 1px !important;
 }`);
 // 2025-09-06
 // language=CSS
