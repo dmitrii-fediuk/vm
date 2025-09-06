@@ -59,7 +59,7 @@ setTimeout(() => {
 		,`section :has(> .illustration)` // 2025-09-05
 		,`section :has(> .qualification-items:empty)` // 2025-09-05
 		,`section.air3-card-section > h5` // 2025-09-04
-		,`section.air3-card-section > section > h5` // 2025-09-04
+		,`section.air3-card-section > section:not([data-test='Bids']) > h5` // 2025-09-04
 		,`section:has(> .client-activity-items) ~ section` // 2025-09-05
 	]
 		 // language=Javascript
