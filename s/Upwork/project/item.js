@@ -216,7 +216,11 @@ GM_addStyle(`.air3-card-section:has(> section > .segmentations) {margin: 0.5rem 
 GM_addStyle(`[data-test='ConnectsAuction'] > div {margin-top: 0 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle(`[data-test='Description'] br {display: block !important; content: ''; height: 1px !important;}`);
+GM_addStyle(`[data-test='Description'] br {
+	content: ''; 
+	display: block !important; 
+	height: 1px !important;
+}`);
 // 2025-09-06
 // language=CSS
 GM_addStyle(`[data-test='Expertise'] {margin-bottom: 0.5rem !important;}`);
