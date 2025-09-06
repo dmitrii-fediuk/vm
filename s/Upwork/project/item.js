@@ -126,7 +126,7 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	,`.air3-card-section:has(> [data-test='ClientActivity'])` // 2025-09-06
+	`.air3-card-section:has(> [data-test='ClientActivity'])` // 2025-09-06
 	,`.air3-card-section:has(> [data-test='ConnectsAuction'])`
 	,`[data-test='${aboutClient}'] ul.features`
 	,`[data-test='${aboutClient}']`
