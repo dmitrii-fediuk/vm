@@ -169,15 +169,11 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{flex-direction: row !important;}')
 ;
-// 2025-09-06
+// 2025-09-06 https://g.co/gemini/share/b3ab20147335
 // language=CSS
-GM_addStyle([
-	// 2025-09-06 https://g.co/gemini/share/b3ab20147335
-	`.air3-card-section:has(> [data-test='ClientActivity'])`
-]
-	 // language=Javascript
-	.join(',') + '{flex-wrap: wrap !important; row-gap: 0.25rem !important;}')
-;
+GM_addStyle(`.air3-card-section:has(> [data-test='ClientActivity']) {
+	flex-wrap: wrap !important; column-gap: 0 !important; row-gap: 0.5rem !important;
+}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle('.air3-card-sections > * {order: 6;}');
