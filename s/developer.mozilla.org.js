@@ -43,8 +43,7 @@ GM_addStyle([
 // 2025-03-18
 // language=CSS
 GM_addStyle([
-	'.bc-legend-items-container' // 2025-09-06
-	,'.code-example'
+	'.code-example'
 	,'.main-wrapper'
 	,'.table-container'
 	,'dd'
@@ -62,18 +61,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
-// 2024-08-21, 2025-09-06
-// 1) "How do I hide a DOM element inside a shadow root using Violentmonkey?" https://df.tips/t/2326
-// 2) https://stackoverflow.com/a/75518992
-// 3) https://stackoverflow.com/a/75571912
-// 4) https://github.com/violentmonkey/violentmonkey/issues/1852
-(() => {
-	let e = document.querySelector('mdn-compat-table').shadowRoot;
-	GM_addElement(e, 'style', {textContent:
-		// language=CSS
-		`.bc-legend-items-container {margin: 0 !important} `
-	});
-})();
 // 2025-03-18
 // language=CSS
 GM_addStyle([
