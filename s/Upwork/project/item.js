@@ -102,13 +102,13 @@ GM_addStyle([
 // 2025-09-05
 // language=CSS
 GM_addStyle([
-	`.${dfNotVerified}` // 2025-09-05
+	`.${dfWarning}` // 2025-09-05
 // language=Javascript
 ].join(`,`) + `{color: red !important;}`);
 // 2025-09-05
 // language=CSS
 GM_addStyle([
-	`.${dfNotVerified}` // 2025-09-05
+	`.${dfWarning}` // 2025-09-05
 	,`.posted-on-line` // 2025-09-05
 // language=Javascript
 ].join(`,`) + `{font-weight: bold !important;}`);
