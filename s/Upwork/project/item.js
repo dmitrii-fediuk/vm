@@ -295,7 +295,7 @@ const modify = (s, action) => {
 };
 modify(`.posted-on-line span`, i => i.closest(`.posted-on-line`).innerHTML = i.textContent);
 modify(`[data-test='${aboutClient}'] .text-caption`, i => {
-	const c = i.textContent;
+	const c = i.textContent.trim();
 	const p = i.parentElement;
 	const t1 = ' verified';
 	const t2 = `not${t1}`;
@@ -315,7 +315,7 @@ modify(`[data-test='${aboutClient}'] .text-caption`, i => {
 	[...document.querySelectorAll(
 		`.job-details-card > .air3-card-sections > section > p > strong`
 	)].forEach(i => {
-		const c = i.textContent;
+		const c = i.textContent.trim();
 		if (i.textContent.startsWith('You will be asked to answer')) {
 			i.closest('section').classList.add(dfQuestions);
 		}
