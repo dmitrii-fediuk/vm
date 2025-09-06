@@ -295,6 +295,9 @@ modify(`.posted-on-line span`, i => {// language=Javascript
 	if (c.endsWith(' ago')) {
 		const ca = c.split(' ').slice(0, -1);
 		const unit = ca[ca.length - 1].replace(/s$/, '');
+		if (['month', 'year'].includes(unit)) {
+			p.classList.add(dfWarning);
+		}
 	}
 });
 // 2025-09-06
