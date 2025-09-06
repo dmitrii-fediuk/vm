@@ -264,9 +264,29 @@ const modify = (s, action) => {
 	p(document.documentElement);
 };
 // 2025-09-05
+// language=CSS
 modify(`.posted-on-line span`, i => i.closest(`.posted-on-line`).innerHTML = i.textContent);
 // 2025-09-05
+// language=CSS
 modify(`[data-test='${aboutClient}'] .text-caption`, i => {
+	const c = i.textContent.trim();
+	const p = i.parentElement;
+	const t1 = ' verified';
+	const t2 = `not${t1}`;
+	if (c.endsWith(t1)) {
+		if (!c.endsWith(t2)) {
+			p.remove();
+		}
+		else {
+			const pp = p.parentElement;
+			pp.innerHTML = t2;
+			pp.classList.add(dfNotVerified, dfWarning);
+		}
+	}
+});
+// 2025-09-06
+// language=CSS
+modify(`[data-cy='expertise'] + strong`, i => {
 	const c = i.textContent.trim();
 	const p = i.parentElement;
 	const t1 = ' verified';
