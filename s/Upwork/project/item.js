@@ -58,7 +58,7 @@ setTimeout(() => {
 // language=CSS
 GM_addStyle([
 	'.job-details-content > footer .d-flex.gap' // 2025-09-05
-	,`.features > li` // 2025-09-04
+	//,`.features > li` // 2025-09-04
 // language=Javascript
 ].join(`,`) + `{display: block !important;}`);
 // language=CSS
@@ -131,7 +131,8 @@ GM_addStyle([
 	,`[data-test='${aboutClient}'] ul.features`
 	,`[data-test='${aboutClient}']`
 	,`[data-test='Expertise'] > [class*='grid-container']`
-	,`[data-test='Features'] li:has(> [data-cy='clock-hourly'], > [data-cy='fixed-price'])` // 2025-09-06
+	,`[data-test='Features'] li:has(> [data-cy='clock-hourly'])` // 2025-09-06
+	,`[data-test='Features'] li:has(> [data-cy='fixed-price'])` // 2025-09-06
 	,`[data-test='Features'] > .features`
 	,`section:has(.posted-on-line)` // 2025-09-05
 // language=Javascript
