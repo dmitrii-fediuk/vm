@@ -301,7 +301,7 @@ modify(`.posted-on-line span`, i => {// language=Javascript
 		}
 		else if ('day' === unit) {
 			const v = +ca[0];
-			warn = 2 > v;
+			warn = 2 < v;
 		}
 		if (warn) {
 			p.classList.add(dfWarning);
