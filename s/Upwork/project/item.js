@@ -314,6 +314,11 @@ modify(`.posted-on-line span`, i => {// language=Javascript
 });
 // 2025-09-06
 // language=CSS
+modify(`[data-qa='client-company-profile-size']`, i => p.classList.toggle(dfWarning, // language=Javascript
+	'Individual client' === i.textContent.trim()
+));
+// 2025-09-06
+// language=CSS
 modify(`[data-cy='expertise'] + strong`, i => {// language=Javascript
 	if ('Expert' !== i.textContent.trim()) {
 		i.classList.add(dfWarning);
