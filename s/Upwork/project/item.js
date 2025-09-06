@@ -171,9 +171,11 @@ GM_addStyle([
 ;
 // 2025-09-06 https://g.co/gemini/share/b3ab20147335
 // language=CSS
-GM_addStyle(`.air3-card-section:has(> [data-test='ClientActivity']) {
-	flex-wrap: wrap !important; column-gap: 0 !important; row-gap: 0.5rem !important;
-}`);
+GM_addStyle(`.air3-card-section:has(> [data-test='ClientActivity']) {${Object.entries({
+	'column-gap': 0
+	,'flex-wrap': 'wrap'
+	,'row-gap': '0.5rem'
+}).map(([k, v]) => `${k}: ${v} !important;`).join(' ')}}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle('.air3-card-sections > * {order: 6;}');
