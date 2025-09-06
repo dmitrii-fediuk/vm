@@ -217,11 +217,15 @@ GM_addStyle(`[data-test='ConnectsAuction'] > div {margin-top: 0 !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`[data-test='Description'] br {
-	content: ''; 
-	display: block !important;
-	font-size: 0 !important;
-	height: 0 !important;
-	margin: 0.5em 0 !important;
+    content: '';
+    display: block !important;
+    height: 1px !important;
+    line-height: 0;
+}`);
+// 2025-09-06 https://g.co/gemini/share/b2d537194308
+// language=CSS
+GM_addStyle(`[data-test='Description'] br + br {
+    line-height: 1px;
 }`);
 // 2025-09-06
 // language=CSS
