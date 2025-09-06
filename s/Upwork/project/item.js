@@ -14,6 +14,7 @@
 const aboutClient = 'AboutClientUser';
 const dfNotVerified = 'df-not-verified'; // 2025-09-05
 const dfQuestions = 'df-questions'; // 2025-09-05
+const dfWarning = 'df-warning'; // 2025-09-06
 // 2025-06-10
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
