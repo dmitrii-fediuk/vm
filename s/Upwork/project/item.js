@@ -130,19 +130,13 @@ GM_addStyle([
 // language=CSS
 GM_addStyle('body {margin: 0.5rem 0.5rem 0 0.5rem !important;}');
 // 2024-12-24 https://chatgpt.com/c/676b1c1b-79a0-800c-a2ca-88de2346828f
-// language=CSS
 GM_addStyle([
+	// language=CSS
 	'.air3-card-sections'
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
-			'display': 'flex'
-			,'flex-direction': 'column'
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
+].join(',') + `{${Object.entries({
+	'display': 'flex'
+	,'flex-direction': 'column'
+}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle([
