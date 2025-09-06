@@ -305,11 +305,9 @@ modify(`[data-qa='client-company-profile-size']`, i => i.classList.toggle(dfWarn
 ));
 // 2025-09-06
 // language=CSS
-modify(`[data-cy='expertise'] + strong`, i => {// language=Javascript
-	if ('Expert' !== i.textContent.trim()) {
-		i.classList.add(dfWarning);
-	}
-});
+modify(`[data-cy='expertise'] + strong`, i => i.classList.toggle(dfWarning, // language=Javascript
+	'Expert' !== i.textContent.trim()
+));
 // 2025-09-05
 (() => {
 	[...document.querySelectorAll(
