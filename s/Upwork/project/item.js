@@ -293,7 +293,8 @@ modify(`.posted-on-line span`, i => {// language=Javascript
 	p.innerHTML = c;
 	// 2025-09-06
 	if (c.endsWith(' ago')) {
-		const ca = c.split(' ').pop();
+		const ca = c.split(' ').slice(0, -1);
+		const unit = ca[ca.length - 1].replace(/s$/, '');
 	}
 });
 // 2025-09-06
