@@ -203,27 +203,19 @@ GM_addStyle(`[data-test='Description'] br {display: block !important; content: '
 GM_addStyle([
 	`.${dfQuestions} ol`
 	,`[data-test='Description'] p`
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
-			'font-family': 'Segoie UI'
-			// language=Javascript
-			,'font-size': '140%'
-			,'line-height': 1.2
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
+// language=Javascript
+].join(',') + `{${Object.entries({
+	'font-family': 'Segoie UI'
+	,'font-size': '140%'
+	,'line-height': 1.2
+}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle([
 	'.client-activity-items'
 	,'.qualification-items'
-]
-	 // language=Javascript
-	.join(',') + '{gap: 0 !important;}')
-;
+ // language=Javascript
+].join(',') + '{gap: 0 !important;}');
 // 2024-12-25
 // language=CSS
 GM_addStyle(`.${dfQuestions} {font-weight: bold; margin-bottom: 0.5rem !important;}`);
