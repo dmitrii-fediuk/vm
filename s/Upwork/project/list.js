@@ -18,6 +18,7 @@ setTimeout(() => {
 		,':has(> .main-header)' // 2025-03-18 The header
 		,':has(> button[data-ev-label="save"])' // 2025-03-18 «Save job»
 		,'[data-test$="JobsButtons"]'
+		,'[data-test$="JobsTopButtons"]' // 2025-09-08
 		,'[data-test="Header"]'
 		,'[data-test="JobActionSave"]'
 		,'[data-test="JobInfo"] > :not([data-test="job-type-label"])' // 2025-03-18
