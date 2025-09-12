@@ -293,8 +293,8 @@ modify(`.posted-on-line span`, i => {// language=Javascript
 	p.innerHTML = c;
 	// 2025-09-06 https://g.co/gemini/share/0e23a0a889b2
 	p.classList.toggle(dfWarning,
-		/^last (week|month|year)/.test(c)
-		|| /(week|month|year)s? ago$/.test(c)
+		/^last (week|month|quarter|year)/.test(c)
+		|| /(week|month|quarter|year)s? ago$/.test(c)
 		|| (c.match(/^(\d+) days? ago$/)?.[1] > 2)
 	);
 });
