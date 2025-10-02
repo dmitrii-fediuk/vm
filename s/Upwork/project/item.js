@@ -131,7 +131,8 @@ GM_addStyle([
 // 2025-09-05
 // language=CSS
 GM_addStyle([
-	`.${dfWarning}` // 2025-09-05
+	`${dfImportantList}:not(#A)` // 2024-12-25, 2025-10-02
+	,`.${dfWarning}` // 2025-09-05
 	,`.posted-on-line` // 2025-09-05
 // language=Javascript
 ].join(`,`) + `{font-weight: bold !important;}`);
@@ -248,9 +249,6 @@ GM_addStyle(`[data-test='Description'] br {
 // 2025-09-06
 // language=CSS
 GM_addStyle(`${dfTags} {margin-bottom: 0.5rem !important;}`);
-// 2024-12-25, 2025-10-02
-// language=CSS
-GM_addStyle(`${dfImportantList}:not(#A) {font-weight: bold !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`${dfQuestions} {margin-bottom: 0.5rem !important;}`);
