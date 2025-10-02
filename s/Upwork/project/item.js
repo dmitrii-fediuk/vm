@@ -250,7 +250,7 @@ GM_addStyle(`[data-test='Description'] br {
 GM_addStyle(`${dfTags} {margin-bottom: 0.5rem !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle(`${dfQuestions} {font-weight: bold; margin-bottom: 0.5rem !important;}`);
+GM_addStyle(`${dfImportantList} {font-weight: bold; margin-bottom: 0.5rem !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`.qualification-items .icons {vertical-align: middle !important;}`);
