@@ -166,23 +166,22 @@ GM_addStyle([
 		 */
 		const fRateNotSpecified = (() => {
 			const enable = new URL(location.href).searchParams.has('df-rate-not-specified');
-			return a => {
-				let r = true;
-				if (enable) {
-					const terms = a.querySelector('li[data-test="job-type-label"] > strong');
-					if (terms) {
-						r = 'Hourly' === terms.textContent.trim();
-					}
-				}
-				return r;
-			};
+			// 2025-10-02 https://g.co/gemini/share/c9bf80c6789f
+			return a => !enable || 'Hourly' === (
+				a.querySelector('li[data-test="job-type-label"] > strong')?.textContent.trim() ?? 'Hourly'
+			);
 		})();
 		/**
-		 * 2025-10-02
+		 * 2025-10-02 https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)_per_capita#Table
 		 * @return {boolean}
 		 */
 		const fCountries = (() => {
 			const enable = new URL(location.href).searchParams.has('df-countries');
+			const banned = [
+				'India'
+				,'Indonesia'
+				,'United Arab Emirates'
+			];
 			return a => {
 				let r = true;
 				return r;
