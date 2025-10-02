@@ -212,9 +212,14 @@ GM_addStyle([
 			const enable = new URL(location).searchParams.has('df-tags');
 			const banned = [
 				'Android App Development'
+				,'Blog Writing'
+				,'Content Writing'
+				,'Circuit Design'
 				,'Conversion Rate Optimization'
+				,'Copywriting'
 				,'DApps'
 				,'DaVinci Resolve'
+				,'Electrical Engineering'
 				,'Email Campaign Setup'
 				,'Email Marketing'
 				,'Facebook Advertising'
@@ -225,6 +230,7 @@ GM_addStyle([
 				,'Landing Page'
 				,'Lead Generation'
 				,'Mechanical Engineering'
+				,'PCB Design'
 				,'Photography'
 				,'Public Relations'
 				,'SEO Keyword Research'
