@@ -213,6 +213,7 @@ GM_addStyle([
 			const banned = [
 				'Email Marketing'
 				,'Facebook Advertising'
+				,'HubSpot'
 				,'Internet Marketing'
 				,'Lead Generation'
 				,'Photography'
