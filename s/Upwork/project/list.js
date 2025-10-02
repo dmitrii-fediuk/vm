@@ -212,6 +212,7 @@ GM_addStyle([
 			const enable = new URL(location).searchParams.has('df-tags');
 			const banned = [
 				'Android App Development'
+				,'Art & Design'
 				,'Blog Writing'
 				,'Content Writing'
 				,'Circuit Design'
