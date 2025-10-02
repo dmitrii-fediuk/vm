@@ -144,32 +144,44 @@ GM_addStyle([
 		 * @return {boolean}
 		 */
 		const fCountries = (() => {
-			const enable = new URL(location.href).searchParams.has('df-countries');
+			const l = +new URL(location.href).searchParams.has('df-countries');
 			// 2025-10-02 https://www.iban.com/country-codes
-			const banned = [
+			const l1 = [
+				'Egypt', 'EGY'
+				,'India', 'IND'
+				,'Indonesia', 'IDN'
+				,'Pakistan', 'PAK'
+				,'Philippines', 'PHL'
+				,'Vietnam', 'VNM'
+			];
+			const l2 = [
 				'Brazil', 'BRA'
 				,'China', 'CHN'
 				,'CZE'
-				,'Egypt', 'EGY'
 				,'Germany', 'DEU'
-				,'India', 'IND'
-				,'Indonesia', 'IDN'
 				,'Israel', 'ISR'
 				,'Netherlands', 'NLD'
-				,'Pakistan', 'PAK'
-				,'Philippines', 'PHL'
+				,'Poland', 'POL'
 				,'Saudi Arabia', 'SAU'
 				,'Ukraine', 'UKR'
 				,'United Arab Emirates', 'ARE'
-				,'Vietnam', 'VNM'
 			];
 			// 2025-10-02 https://g.co/gemini/share/c73dc86cff0a
-			return a => !enable || !banned.includes(
-				a.querySelector('li[data-test="location"] > div > span')
-					?.textContent
-					?.replace(/Location/, '')
-					?.trim()
-			);
+			return a => {
+				let r = true;
+				if (l) {
+					const c = a.querySelector('li[data-test="location"] > div > span')
+						?.textContent
+						?.replace(/Location/, '')
+						?.trim()
+					;
+					r = !l1.includes(c);
+					if (r && 1 < l) {
+						r = !l1.includes(c);
+					}
+				}
+				return r;
+			};
 		})();
 		// 2025-10-02
 		const qTerms = a => a.querySelector('li[data-test="job-type-label"] > strong');
