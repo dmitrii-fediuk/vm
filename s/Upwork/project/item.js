@@ -19,6 +19,7 @@ const aboutClient = `[data-test='${df_v_aboutClient}']`;
 // language=CSS
 const dfClientActivity = 'section:has(> ul.client-activity-items)';
 //2025-10-02 The previous value: `[data-test='Features']`
+// language=CSS
 const dfFeatures = 'section:has(> ul.features)';
 const dfNotVerified = 'df-not-verified'; // 2025-09-05
 //2025-10-02 The previous value: `[data-test='Qualifications']`
