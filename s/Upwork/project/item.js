@@ -333,12 +333,9 @@ modify(`[data-cy='expertise'] + strong`, i => i.classList.toggle(dfWarning, // l
 	});
 })();
 // 2025-10-02
-(() => {
-	[...document.querySelectorAll(
-		`.job-details-card > .air3-card-sections > section > h5 > strong`
-	)].forEach(i => {
-		if (i.textContent.trim().startsWith('Bid range')) {
-			i.closest('section').classList.add(df_c_bid_range);
-		}
-	});
-})();
+// language=CSS
+modify(`.job-details-card > .air3-card-sections > section > h5 > strong`, i => {// language=Javascript
+	if (i.textContent.trim().startsWith('Bid range')) {
+		i.closest('section').classList.add(df_c_bid_range);
+	}
+});
