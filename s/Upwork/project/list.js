@@ -211,7 +211,8 @@ GM_addStyle([
 		const fTags = (() => {
 			const enable = new URL(location).searchParams.has('df-tags');
 			const banned = [
-				'Email Campaign Setup'
+				'DApps'
+				,'Email Campaign Setup'
 				,'Email Marketing'
 				,'Facebook Advertising'
 				,'HubSpot'
