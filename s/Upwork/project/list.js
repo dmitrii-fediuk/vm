@@ -144,7 +144,8 @@ GM_addStyle([
 		 * @return {boolean}
 		 */
 		const fRate = (() => {
-			const minRate = parseInt(new URL(location.href).searchParams.get('df-rate-min'));
+			// 2025-10-02 https://g.co/gemini/share/6984ff9b61f7
+			const minRate = +new URL(location.href).searchParams.get('df-rate-min');
 			return a => {
 				let r = true;
 				if (minRate) {
