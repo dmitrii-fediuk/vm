@@ -163,9 +163,12 @@ GM_addStyle([
 				,'United Arab Emirates', 'ARE'
 				,'Vietnam', 'VNM'
 			];
+			// 2025-10-02 https://g.co/gemini/share/c73dc86cff0a
 			return a => !enable || !banned.includes(
-				a.querySelector('li[data-test="location"] > div > span')?.textContent.trim()
-					.replace('Location', '').trim()
+				a.querySelector('li[data-test="location"] > div > span')
+					?.textContent
+					?.replace(/Location/, '')
+					?.trim()
 			);
 		})();
 		// 2025-10-02
@@ -478,7 +481,7 @@ GM_addStyle([
 		// 2) https://claude.ai/chat/a79fe12b-9d97-4a6b-87fb-304eb27c0807
 		// 3) https://grok.com/chat/1f2223eb-d192-4d35-a49a-9bcc8729e1b4
 		return c => c.querySelectorAll('article').forEach(a => {
-			if (!fCountries(a) || !fRate(a) || !fRateNotSpecified(a) || !fPhrases(a)) {
+			if (!fCountries(a) || !fRate(a) || !fRateNotSpecified(a) || !fPhrases(a) || !fTags(a)) {
 				// 2025-03-18 https://chatgpt.com/c/67d984ba-4f08-8003-a6dc-e3d70688ceab
 				a.style.display = 'none';
 			}
