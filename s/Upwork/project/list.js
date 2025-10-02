@@ -211,7 +211,8 @@ GM_addStyle([
 		const fTags = (() => {
 			const enable = new URL(location).searchParams.has('df-tags');
 			const banned = [
-				'Conversion Rate Optimization'
+				'Android App Development'
+				,'Conversion Rate Optimization'
 				,'DApps'
 				,'Email Campaign Setup'
 				,'Email Marketing'
@@ -225,6 +226,7 @@ GM_addStyle([
 				,'Public Relations'
 				,'SEO Keyword Research'
 				,'Videography'
+				,'iOS Development'
 			];
 			return a => !enable ||
 				![...a.querySelectorAll('[data-test*="TokenClamp"] button[data-test="token"]')]
