@@ -340,7 +340,7 @@ modify(`[data-qa='client-company-profile-industry']`, i => i.classList.toggle(df
 // 2025-09-06
 // language=CSS
 modify(`[data-qa='client-company-profile-size']`, i => i.classList.toggle(dfWarning, // language=Javascript
-	'Individual client' === i.textContent.trim()
+	['Individual client', 'Small company (2-9 people)'].includes(i.textContent.trim())
 ));
 // 2025-09-06
 // language=CSS
