@@ -32,6 +32,7 @@ const dfBids = `.${df_c_bid_range}`;
 // 2025-10-02 The previous value: `[data-test='ClientActivity']`
 // language=CSS
 const dfClientActivity = `.${df_c_activity}`;
+const dfDeliverables = `ul[data-test='deliverables']`; // 2025-10-02
 const dfQuestions = `.${df_c_questions}`; // 2025-10-02
 // 2025-10-02 The previous value: `[data-test='Expertise']`
 // language=CSS
@@ -94,6 +95,7 @@ GM_addStyle([
 	// 1.2) https://archive.is/5HYgv#selection-10675.63-10675.172
 	// 2025-09-04
 	`.${dfNotVerified}:not(#A)` // 2025-09-04
+	,`${dfDeliverables} li` // 2025-10-02
 	,`${dfQuestions} li`
 	,`.air3-card-section h4`
 	,`.extra-jobs-cards > :not(#A)` // 2025-09-05
