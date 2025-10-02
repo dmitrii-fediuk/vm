@@ -217,6 +217,7 @@ GM_addStyle([
 				,'Lead Generation'
 				,'Photography'
 				,'Public Relations'
+				,'SEO Keyword Research'
 				,'Videography'
 			];
 			return a => !enable ||
