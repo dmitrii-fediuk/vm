@@ -173,6 +173,7 @@ GM_addStyle([
 			const banned = [
 				'Brazil', 'BRA'
 				,'China', 'CHN'
+				,'CZE'
 				,'Egypt', 'EGY'
 				,'Germany', 'DEU'
 				,'India', 'IND'
