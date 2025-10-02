@@ -362,3 +362,6 @@ markSection([df_c_questions, df_c_important_list], `> p > strong`, 'You will be 
 // 2025-10-02
 // language=CSS
 markSection(df_c_tags, `> h5`, 'Skills and Expertise');
+// 2025-09-05
+// language=CSS
+mark(df_c_important_list, dfDeliverables);
