@@ -61,7 +61,6 @@ setTimeout(() => {
 		,`.nav-parent-wrapper`
 		,`.popover` // 2025-09-04
 		,`.posted-on-line ~ :not(#A)` // 2025-09-04
-		,`.segmentations > li > :first-child` // 2024-12-25, 2025-09-04 The title: «Project Type:»
 		,`:has(> .skills-list) > strong` // 2025-09-04
 		,`[data-test='Description'] > strong:first-child` // 2025-09-04
 		,`[data-test='FlagButton']`
@@ -72,6 +71,8 @@ setTimeout(() => {
 		,`section :has(> .illustration)` // 2025-09-05
 		,`section.air3-card-section > h5` // 2025-09-04
 		,`section.air3-card-section > section:not(${dfBids}) > h5` // 2025-09-04
+		// 2024-12-25, 2025-09-04, 2025-10-02 «Project Type: Ongoing project»
+		,`section.air3-card-section:has(> section > .segmentations)`
 		// 2024-12-25
 		// The title: «You will be asked to answer the following questions when submitting a proposal:»
 		// 2025-09-05
