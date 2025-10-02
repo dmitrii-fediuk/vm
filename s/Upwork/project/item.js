@@ -250,7 +250,7 @@ GM_addStyle(`[data-test='Description'] br {
 GM_addStyle(`${dfTags} {margin-bottom: 0.5rem !important;}`);
 // 2024-12-25, 2025-10-02
 // language=CSS
-GM_addStyle(`${dfImportantList} {font-weight: bold;}`);
+GM_addStyle(`${dfImportantList} {font-weight: bold !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`${dfQuestions} {margin-bottom: 0.5rem !important;}`);
