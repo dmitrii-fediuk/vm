@@ -342,12 +342,14 @@ modify(`[data-cy='expertise'] + strong`, i => i.classList.toggle(dfWarning, // l
 ));
 // 2025-10-02
 // language=CSS
-const markSection = (c, path, text) => modify(`section ${path}`, i => {// language=Javascript
+const mark = (c, path, text, locator) => modify(path, i => {// language=Javascript
 	if (i.textContent.trim().includes(text)) {
-		// 2025-10-02 https://g.co/gemini/share/469106224bfe
-		i.parentNode.closest('section').classList.add(...[].concat(c));
+		locator(i).classList.add(...[].concat(c));
 	}
 });
+// 2025-10-02
+// language=CSS
+const markSection = (c, path, text) => mark(c, `section ${path}`, text, i => i.parentNode.closest('section'));
 // 2025-10-02
 // language=CSS
 markSection(df_c_activity, `> h5`, 'Activity on this job');
