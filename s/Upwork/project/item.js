@@ -21,10 +21,11 @@ const dfNotVerified = 'df-not-verified'; // 2025-09-05
 //2025-10-02 The previous value: `[data-test='Qualifications']`
 const dfQualifications = 'section:has(> ul.qualification-items)';
 const df_c_bid_range = 'df-bid-range'; // 2025-10-02
-const dfQuestions = 'df-questions'; // 2025-09-05
+const df_c_questions = 'df-questions'; // 2025-09-05
 const dfWarning = 'df-warning'; // 2025-09-06
 //2025-10-02 The previous value: `[data-test='Bids']`
 const dfBids = `.${df_c_bid_range}`;
+const dfQuestions = `.${df_c_questions}`; // 2025-10-02
 // 2025-06-10
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
@@ -61,7 +62,7 @@ setTimeout(() => {
 		// 2024-12-25
 		// The title: «You will be asked to answer the following questions when submitting a proposal:»
 		// 2025-09-05
-		,`.${dfQuestions} > p`
+		,`${dfQuestions} > p`
 	// language=Javascript
 	].join(',') + '{display: none !important;}');
 }, 200);
@@ -83,7 +84,7 @@ GM_addStyle([
 	// 1.2) https://archive.is/5HYgv#selection-10675.63-10675.172
 	// 2025-09-04
 	`.${dfNotVerified}:not(#A)` // 2025-09-04
-	,`.${dfQuestions} li`
+	,`${dfQuestions} li`
 	,`.air3-card-section h4`
 	,`.extra-jobs-cards > :not(#A)` // 2025-09-05
 	,`.skills-list:not(#A)` // 2025-09-05
@@ -172,7 +173,7 @@ GM_addStyle([
 ].join(',') + '{gap: 0 !important;}');
 // language=CSS
 GM_addStyle([
-	`.${dfQuestions} ol`
+	`${dfQuestions} ol`
 	,`[data-test='Description'] p`
 // language=Javascript
 ].join(',') + `{${Object.entries({
@@ -199,7 +200,7 @@ GM_addStyle(`.air3-card-section:has(> h4) {order: 3 !important;}`);
 GM_addStyle(`.air3-card-section:has(> [data-test='Description']) {order: 4 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle(`.${dfQuestions} {order: 5 !important;}`);
+GM_addStyle(`${dfQuestions} {order: 5 !important;}`);
 // 2025-09-04
 // language=CSS
 GM_addStyle(`section.air3-card-section:has(.client-activity-items) {order: 6 !important;}`);
@@ -235,7 +236,7 @@ GM_addStyle(`[data-test='Description'] br {
 GM_addStyle(`[data-test='Expertise'] {margin-bottom: 0.5rem !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle(`.${dfQuestions} {font-weight: bold; margin-bottom: 0.5rem !important;}`);
+GM_addStyle(`${dfQuestions} {font-weight: bold; margin-bottom: 0.5rem !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`.qualification-items .icons {vertical-align: middle !important;}`);
@@ -328,7 +329,7 @@ modify(`[data-cy='expertise'] + strong`, i => i.classList.toggle(dfWarning, // l
 		`.job-details-card > .air3-card-sections > section > p > strong`
 	)].forEach(i => {
 		if (i.textContent.startsWith('You will be asked to answer')) {
-			i.closest('section').classList.add(dfQuestions);
+			i.closest('section').classList.add(df_c_questions);
 		}
 	});
 })();
