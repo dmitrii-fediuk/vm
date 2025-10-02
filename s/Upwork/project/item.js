@@ -333,7 +333,7 @@ modify(`[data-cy='expertise'] + strong`, i => i.classList.toggle(dfWarning, // l
 // language=CSS
 const markSection = (c, path, text) => modify(`section ${path}`, i => {// language=Javascript
 	if (i.textContent.trim().includes(text)) {
-		i.closest('section').classList.add(c);
+		i.parent().closest('section').classList.add(c);
 	}
 });
 // 2025-09-05
