@@ -202,8 +202,14 @@ GM_addStyle([
 		const fTags = (() => {
 			const enable = new URL(location.href).searchParams.has('df-tags');
 			const banned = [
+				'Photography'
+				,'Videography'
 			];
-			return a => !enable || true;
+			let r = true;
+			if (enable) {
+				//a.querySelectorAll('div[data-test*="TokenClamp"] button[data-test="token"]')
+			}
+			return r;
 		})();
 		/**
 		 * 2025-03-18
