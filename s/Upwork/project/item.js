@@ -31,7 +31,7 @@ const dfBids = `.${df_c_bid_range}`;
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`${dfClientActivity} ~ section:not([data-test='Bids'])` // 2025-09-05
+		`${dfClientActivity} ~ section:not(${dfBids})` // 2025-09-05
 		,`${dfFeatures} .air3-icon:not([data-cy='clock-hourly'], [data-cy='fixed-price'])` // 2025-09-06
 		,`${dfFeatures} .description` // 2025-09-04
 		,`${dfFeatures} li::after` // 2025-09-04
