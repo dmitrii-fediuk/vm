@@ -146,27 +146,30 @@ GM_addStyle([
 		const fCountries = (() => {
 			const l = +new URL(location).searchParams.get('df-countries');
 			// 2025-10-02 https://www.iban.com/country-codes
-			const l1 = [
-				'Egypt', 'EGY'
-				,'India', 'IND'
-				,'Indonesia', 'IDN'
-				,'Pakistan', 'PAK'
-				,'Philippines', 'PHL'
-				,'Vietnam', 'VNM'
+			const ll = [
+				[
+					'Egypt', 'EGY'
+					,'India', 'IND'
+					,'Indonesia', 'IDN'
+					,'Pakistan', 'PAK'
+					,'Philippines', 'PHL'
+					,'Vietnam', 'VNM'
+				]
+				,[
+					'Brazil', 'BRA'
+					,'China', 'CHN'
+					,'CZE'
+					,'Germany', 'DEU'
+					,'Israel', 'ISR'
+					,'Netherlands', 'NLD'
+					,'Poland', 'POL'
+					,'Saudi Arabia', 'SAU'
+					,'Ukraine', 'UKR'
+					,'United Arab Emirates', 'ARE'
+				]
 			];
-			const l2 = [
-				'Brazil', 'BRA'
-				,'China', 'CHN'
-				,'CZE'
-				,'Germany', 'DEU'
-				,'Israel', 'ISR'
-				,'Netherlands', 'NLD'
-				,'Poland', 'POL'
-				,'Saudi Arabia', 'SAU'
-				,'Ukraine', 'UKR'
-				,'United Arab Emirates', 'ARE'
-			];
-			const countries = l ? [...l1, ...(1 < l ? l2 : [])] : [];
+			// 2025-10-02 https://g.co/gemini/share/e0109654ff2a
+			const countries = l ? ll.slice(0, l).flat() : [];
 			// 2025-10-02 https://g.co/gemini/share/c73dc86cff0a
 			return a => {
 				const c = l && a.querySelector('li[data-test="location"] > div > span')
