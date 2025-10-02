@@ -337,11 +337,21 @@ modify(`.posted-on-line span`, i => {// language=Javascript
 modify(`[data-qa='client-company-profile-industry']`, i => i.classList.toggle(dfWarning, // language=Javascript
 	'Tech & IT' === i.textContent.trim()
 ));
-// 2025-09-06
+// 2025-09-06, 2025-10-02
 // language=CSS
-modify(`[data-qa='client-company-profile-size']`, i => i.classList.toggle(dfWarning, // language=Javascript
-	['Individual client', 'Small company (2-9 people)'].includes(i.textContent.trim())
-));
+modify(`[data-qa='client-company-profile-size']`, i => {// language=Javascript
+	const v1 = 'Individual';
+	const v2 = 'Small';
+	let v = i.textContent.trim();
+	if (v.startsWith(v1)) {
+		v = v1;
+	}
+	else if (v.startsWith(v2)) {
+		v = v2;
+	}
+	i.innerHTML = v;
+	i.classList.toggle(dfWarning, [v1, v2].includes(v));
+});
 // 2025-09-06
 // language=CSS
 modify(`[data-cy='expertise'] + strong`, i => i.classList.toggle(dfWarning, // language=Javascript
