@@ -128,17 +128,6 @@ GM_addStyle([
 	`.${dfWarning}` // 2025-09-05
 // language=Javascript
 ].join(`,`) + `{color: red !important;}`);
-// 2025-09-05
-// language=CSS
-GM_addStyle([
-	`${dfImportantList}:not(#A)` // 2024-12-25, 2025-10-02
-	,`.${dfWarning}` // 2025-09-05
-	,`.posted-on-line` // 2025-09-05
-// language=Javascript
-].join(`,`) + `{font-weight: bold !important;}`);
-// 2025-09-05
-// language=CSS
-GM_addStyle('body {margin: 0.5rem 0.5rem 0 0.5rem !important;}');
 // 2024-12-24 https://chatgpt.com/c/676b1c1b-79a0-800c-a2ca-88de2346828f
 // language=CSS
 GM_addStyle([
@@ -178,6 +167,14 @@ GM_addStyle([
 	`.air3-card-section:has(> ${dfClientActivity})`
 // language=Javascript
 ].join(',') + '{flex-wrap: wrap !important;}');
+// 2025-09-05
+// language=CSS
+GM_addStyle([
+	`${dfImportantList}:not(#A)` // 2024-12-25, 2025-10-02
+	,`.${dfWarning}` // 2025-09-05
+	,`.posted-on-line` // 2025-09-05
+// language=Javascript
+].join(`,`) + `{font-weight: bold !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle([
@@ -185,6 +182,12 @@ GM_addStyle([
 	,'.qualification-items'
  // language=Javascript
 ].join(',') + '{gap: 0 !important;}');
+// 2025-10-02
+// language=CSS
+GM_addStyle([
+	dfDeliverables
+// language=Javascript
+].join(`,`) + `{list-style: none !important;}`);
 // language=CSS
 GM_addStyle([
 	`${dfQuestions} ol`
@@ -196,6 +199,9 @@ GM_addStyle([
 	,'font-size': '140%'
 	,'line-height': 1.2
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
+// 2025-09-05
+// language=CSS
+GM_addStyle('body {margin: 0.5rem 0.5rem 0 0.5rem !important;}');
 // 2024-12-25
 // language=CSS
 GM_addStyle('.air3-card-sections > * {order: 6;}');
