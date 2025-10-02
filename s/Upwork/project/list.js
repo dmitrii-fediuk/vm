@@ -208,24 +208,19 @@ GM_addStyle([
 			return a => !enable || h === (qTerms(a)?.textContent.trim() ?? h);
 		})();
 		/**
-		 * 2025-10-02
+		 * 2025-10-02 https://g.co/gemini/share/cf6a1129ba3d
 		 * @return {boolean}
 		 */
 		const fTags = (() => {
-			const enable = new URL(location.href).searchParams.has('df-tags');
+			const enable = new URL(location).searchParams.has('df-tags');
 			const banned = [
 				'Photography'
 				,'Videography'
 			];
-			return a => {
-				let r = true;
-				if (enable) {
-					// https://g.co/gemini/share/df1c38ce603a
-					const tokens = a.querySelectorAll('[data-test*="TokenClamp"] button[data-test="token"]');
-					r = ![...tokens].some(t => banned.includes(t.textContent.trim()));
-				}
-				return r;
-			};
+			return a => !enable ||
+				![...a.querySelectorAll('[data-test*="TokenClamp"] button[data-test="token"]')]
+					.some(t => banned.includes(t.textContent.trim()))
+			;
 		})();
 		/**
 		 * 2025-03-18
