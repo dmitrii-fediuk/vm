@@ -30,6 +30,8 @@ setTimeout(() => {
 		,`${dfFeatures} .description` // 2025-09-04
 		,`${dfFeatures} li::after` // 2025-09-04
 		,`${dfFeatures} li:has(#featured-job)` // 2025-09-04
+		,`${dfQualifications} :has(> .qualification-items:empty)` // 2025-09-05
+		,`${dfQualifications} [data-cy='english']`
 		,`.client-activity-items .help-icon`
 		,`.extra-jobs-cards > [class*='card']:has([data-test='SimilarJobs'])`
 		,`.job-details-content > :has(> button polygon)` // 2025-09-04
@@ -44,8 +46,6 @@ setTimeout(() => {
 		// 2024-12-25 Titles like: «Full Stack Development Deliverables»
 		,`[data-test='Expertise'] > [class*='grid-container'] > div:has(> .skills-list) > strong`
 		,`[data-test='FlagButton']`
-		,`${dfQualifications} :has(> .qualification-items:empty)` // 2025-09-05
-		,`${dfQualifications} [data-cy='english']`
 		,`[data-test='SpecializedProfilePrompt']`
 		,`[data-testid='buyer-rating']` // 2025-09-04
 		,`div[job-uid] > button` // 2025-09-04
