@@ -212,6 +212,7 @@ GM_addStyle([
 			const enable = new URL(location).searchParams.has('df-tags');
 			const banned = [
 				'Photography'
+				,'Public Relations'
 				,'Videography'
 			];
 			return a => !enable ||
