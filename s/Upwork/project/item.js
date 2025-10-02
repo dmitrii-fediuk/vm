@@ -34,6 +34,7 @@ const dfBids = `.${df_c_bid_range}`;
 // language=CSS
 const dfClientActivity = `.${df_c_activity}`;
 const dfDeliverables = `ul[data-test='deliverables']`; // 2025-10-02
+const dfImportantList = `.${df_c_important_list}`; // 2025-10-02
 const dfQuestions = `.${df_c_questions}`; // 2025-10-02
 // 2025-10-02 The previous value: `[data-test='Expertise']`
 // language=CSS
@@ -96,8 +97,7 @@ GM_addStyle([
 	// 1.2) https://archive.is/5HYgv#selection-10675.63-10675.172
 	// 2025-09-04
 	`.${dfNotVerified}:not(#A)` // 2025-09-04
-	,`${dfDeliverables} li` // 2025-10-02
-	,`${dfQuestions} li`
+	,`${dfImportantList} li` // 2025-10-02
 	,`.air3-card-section h4`
 	,`.extra-jobs-cards > :not(#A)` // 2025-09-05
 	,`.skills-list:not(#A)` // 2025-09-05
@@ -340,7 +340,8 @@ modify(`[data-cy='expertise'] + strong`, i => i.classList.toggle(dfWarning, // l
 // language=CSS
 const markSection = (c, path, text) => modify(`section ${path}`, i => {// language=Javascript
 	if (i.textContent.trim().includes(text)) {
-		i.parentNode.closest('section').classList.add(c);
+		// 2025-10-02 https://g.co/gemini/share/469106224bfe
+		i.parentNode.closest('section').classList.add(...[].concat(c));
 	}
 });
 // 2025-10-02
