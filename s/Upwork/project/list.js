@@ -144,7 +144,7 @@ GM_addStyle([
 		 * @return {boolean}
 		 */
 		const fCountries = (() => {
-			const l = +new URL(location.href).searchParams.has('df-countries');
+			const l = +new URL(location).searchParams.has('df-countries');
 			// 2025-10-02 https://www.iban.com/country-codes
 			const l1 = [
 				'Egypt', 'EGY'
