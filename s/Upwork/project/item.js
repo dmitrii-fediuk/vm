@@ -13,6 +13,8 @@
 // 2025-09-06 The previous value: «about-client-container»
 // 2025-10-02 The previous value: «AboutClientUser»
 const aboutClient = 'about-client-container';
+//2025-10-02 The previous value: `[data-test='Features'] `
+const dfFeatures = 'section:has(> ul.features)';
 const dfNotVerified = 'df-not-verified'; // 2025-09-05
 const dfQuestions = 'df-questions'; // 2025-09-05
 const dfWarning = 'df-warning'; // 2025-09-06
@@ -181,7 +183,7 @@ GM_addStyle('.air3-card-sections > * {order: 6;}');
 GM_addStyle(`[data-test='${aboutClient}'] {order: 1 !important;}`);
 // 2025-09-05
 // language=CSS
-GM_addStyle(`[data-test='Features'] {order: 2 !important;}`);
+GM_addStyle(`${dfFeatures} {order: 2 !important;}`);
 // 2024-12-25
 // 2025-09-04 Title
 // language=CSS
