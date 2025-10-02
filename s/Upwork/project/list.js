@@ -178,8 +178,13 @@ GM_addStyle([
 		const fCountries = (() => {
 			const enable = new URL(location.href).searchParams.has('df-countries');
 			const banned = [
-				'India'
+				'Brazil'
+				,'Egypt'
+				,'India'
 				,'Indonesia'
+				,'Pakistan'
+				,'Philippines'
+				,'Ukraine'
 				,'United Arab Emirates'
 			];
 			return a => {
