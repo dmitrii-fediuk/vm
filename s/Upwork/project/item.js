@@ -32,16 +32,15 @@ setTimeout(() => {
 		,`.posted-on-line ~ :not(#A)` // 2025-09-04
 		,`.segmentations > li > :first-child` // 2024-12-25, 2025-09-04 The title: «Project Type:»
 		,`:has(> .skills-list) > strong` // 2025-09-04
+		,`${dfFeatures} .air3-icon:not([data-cy='clock-hourly'], [data-cy='fixed-price'])` // 2025-09-06
+		,`${dfFeatures} .description` // 2025-09-04
+		,`${dfFeatures} li::after` // 2025-09-04
+		,`${dfFeatures} li:has(#featured-job)` // 2025-09-04
 		,`[data-test='${aboutClient}'] div:has([data-testid='head-title'])` // 2025-09-04
 		,`[data-test='ClientActivity'] ~ section:not([data-test='Bids'])` // 2025-09-05
 		,`[data-test='Description'] > strong:first-child` // 2025-09-04
 		// 2024-12-25 Titles like: «Full Stack Development Deliverables»
 		,`[data-test='Expertise'] > [class*='grid-container'] > div:has(> .skills-list) > strong`
-		// 2025-09-06
-		,`${dfFeatures} .air3-icon:not([data-cy='clock-hourly'], [data-cy='fixed-price'])`
-		,`${dfFeatures} .description` // 2025-09-04
-		,`${dfFeatures} li::after` // 2025-09-04
-		,`${dfFeatures} li:has(#featured-job)` // 2025-09-04
 		,`[data-test='FlagButton']`
 		,`[data-test='Qualifications'] :has(> .qualification-items:empty)` // 2025-09-05
 		,`[data-test='Qualifications'] [data-cy='english']`
