@@ -15,11 +15,14 @@
 const aboutClient = 'about-client-container';
 //2025-10-02 The previous value: `[data-test='ClientActivity']`
 const dfClientActivity = 'section:has(> ul.client-activity-items)';
+//2025-10-02 The previous value: `[data-test='Bids']`
+const dfBids = `${dfClientActivity} + section`;
 //2025-10-02 The previous value: `[data-test='Features']`
 const dfFeatures = 'section:has(> ul.features)';
 const dfNotVerified = 'df-not-verified'; // 2025-09-05
 //2025-10-02 The previous value: `[data-test='Qualifications']`
 const dfQualifications = 'section:has(> ul.qualification-items)';
+const df_c_bid_range = 'df-bid-range'; // 2025-10-02
 const dfQuestions = 'df-questions'; // 2025-09-05
 const dfWarning = 'df-warning'; // 2025-09-06
 // 2025-06-10
@@ -326,6 +329,16 @@ modify(`[data-cy='expertise'] + strong`, i => i.classList.toggle(dfWarning, // l
 	)].forEach(i => {
 		if (i.textContent.startsWith('You will be asked to answer')) {
 			i.closest('section').classList.add(dfQuestions);
+		}
+	});
+})();
+// 2025-10-02
+(() => {
+	[...document.querySelectorAll(
+		`.job-details-card > .air3-card-sections > section > h5 > strong`
+	)].forEach(i => {
+		if (i.textContent.startsWith('Bid range')) {
+			i.closest('section').classList.add(df_c_bid_range);
 		}
 	});
 })();
