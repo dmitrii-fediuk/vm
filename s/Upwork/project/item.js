@@ -24,6 +24,7 @@ const dfNotVerified = 'df-not-verified'; // 2025-09-05
 const dfQualifications = 'section:has(> ul.qualification-items)';
 const df_c_activity = 'df-activity'; // 2025-10-02
 const df_c_bid_range = 'df-bid-range'; // 2025-10-02
+const df_c_list = 'df-list'; // 2025-10-02
 const df_c_questions = 'df-questions'; // 2025-09-05
 const df_c_tags = 'df-tags'; // 2025-10-02
 const dfWarning = 'df-warning'; // 2025-09-06
@@ -350,7 +351,7 @@ markSection(df_c_activity, `> h5`, 'Activity on this job');
 markSection(df_c_bid_range, `> h5 > strong`, 'Bid range');
 // 2025-09-05
 // language=CSS
-markSection(df_c_questions, `> p > strong`, 'You will be asked to answer');
+markSection([df_c_questions, df_c_list], `> p > strong`, 'You will be asked to answer');
 // 2025-10-02
 // language=CSS
 markSection(df_c_tags, `> h5`, 'Skills and Expertise');
