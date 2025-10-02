@@ -188,6 +188,7 @@ GM_addStyle([
 GM_addStyle([
 	`${dfQuestions} ol`
 	,`[data-test='Description'] p`
+	,dfDeliverables // 2025-10-02
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'font-family': 'Segoie UI'
