@@ -177,7 +177,7 @@ GM_addStyle([
 					;
 					r = !l1.includes(c);
 					if (r && 1 < l) {
-						r = !l1.includes(c);
+						r = !l2.includes(c);
 					}
 				}
 				return r;
