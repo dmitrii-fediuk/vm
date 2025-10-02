@@ -178,6 +178,17 @@ GM_addStyle([
 			};
 		})();
 		/**
+		 * 2025-10-02
+		 * @return {boolean}
+		 */
+		const fCountries = (() => {
+			const enable = new URL(location.href).searchParams.has('df-countries');
+			return a => {
+				let r = true;
+				return r;
+			};
+		})();
+		/**
 		 * 2025-03-18
 		 * @return {boolean}
 		 */
