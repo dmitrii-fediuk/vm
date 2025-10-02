@@ -24,7 +24,7 @@ const df_c_bid_range = 'df-bid-range'; // 2025-10-02
 const dfQuestions = 'df-questions'; // 2025-09-05
 const dfWarning = 'df-warning'; // 2025-09-06
 //2025-10-02 The previous value: `[data-test='Bids']`
-const dfBids = `.${df_c_bid_range};
+const dfBids = `.${df_c_bid_range}`;
 // 2025-06-10
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
