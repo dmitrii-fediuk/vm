@@ -13,9 +13,11 @@
 // 2025-09-06 The previous value: «about-client-container»
 // 2025-10-02 The previous value: «AboutClientUser»
 const aboutClient = 'about-client-container';
-//2025-10-02 The previous value: `[data-test='Features'] `
+//2025-10-02 The previous value: `[data-test='Features']`
 const dfFeatures = 'section:has(> ul.features)';
 const dfNotVerified = 'df-not-verified'; // 2025-09-05
+//2025-10-02 The previous value: `[data-test='Qualifications']`
+const dfQualifications = 'section:has(> ul.qualification-items)';
 const dfQuestions = 'df-questions'; // 2025-09-05
 const dfWarning = 'df-warning'; // 2025-09-06
 // 2025-06-10
@@ -42,8 +44,8 @@ setTimeout(() => {
 		// 2024-12-25 Titles like: «Full Stack Development Deliverables»
 		,`[data-test='Expertise'] > [class*='grid-container'] > div:has(> .skills-list) > strong`
 		,`[data-test='FlagButton']`
-		,`[data-test='Qualifications'] :has(> .qualification-items:empty)` // 2025-09-05
-		,`[data-test='Qualifications'] [data-cy='english']`
+		,`${dfQualifications} :has(> .qualification-items:empty)` // 2025-09-05
+		,`${dfQualifications} [data-cy='english']`
 		,`[data-test='SpecializedProfilePrompt']`
 		,`[data-testid='buyer-rating']` // 2025-09-04
 		,`div[job-uid] > button` // 2025-09-04
