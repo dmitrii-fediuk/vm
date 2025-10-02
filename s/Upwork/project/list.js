@@ -169,20 +169,22 @@ GM_addStyle([
 		 */
 		const dfCountries = (() => {
 			const enable = new URL(location.href).searchParams.has('df-countries');
+			// 2025-10-02 https://www.iban.com/country-codes
 			const banned = [
-				'Brazil'
-				,'China'
-				,'Egypt'
-				,'India'
-				,'Indonesia'
-				,'Israel'
-				,'Netherlands'
-				,'Pakistan'
-				,'Philippines'
-				,'Saudi Arabia'
-				,'Ukraine'
-				,'United Arab Emirates'
-				,'Vietnam'
+				'Brazil', 'BRA'
+				,'China', 'CHN'
+				,'Egypt', 'EGY'
+				,'Germany', 'DEU'
+				,'India', 'IND'
+				,'Indonesia', 'IDN'
+				,'Israel', 'ISR'
+				,'Netherlands', 'NLD'
+				,'Pakistan', 'PAK'
+				,'Philippines', 'PHL'
+				,'Saudi Arabia', 'SAU'
+				,'Ukraine', 'UKR'
+				,'United Arab Emirates', 'ARE'
+				,'Vietnam', 'VNM'
 			];
 			return a => !enable || !banned.includes(
 				a.querySelector('li[data-test="location"] > div > span')?.textContent.trim()
