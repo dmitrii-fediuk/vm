@@ -325,21 +325,14 @@ modify(`[data-cy='expertise'] + strong`, i => i.classList.toggle(dfWarning, // l
 ));
 // 2025-10-02
 // language=CSS
-const markSection = (path, text, c) => modify(`section ${path}`, i => {// language=Javascript
+const markSection = (c, path, text) => modify(`section ${path}`, i => {// language=Javascript
 	if (i.textContent.trim().includes(text)) {
 		i.closest('section').classList.add(c);
 	}
 });
 // 2025-09-05
-(() => {
-	[...document.querySelectorAll(
-		`.job-details-card > .air3-card-sections > section > p > strong`
-	)].forEach(i => {
-		if (i.textContent.startsWith('You will be asked to answer')) {
-			i.closest('section').classList.add(df_c_questions);
-		}
-	});
-})();
+// language=CSS
+markSection(df_c_questions, `> p > strong`, 'You will be asked to answer');
 // 2025-10-02
 // language=CSS
-markSection(`> h5 > strong`, 'Bid range', df_c_bid_range);
+markSection(df_c_bid_range, `> h5 > strong`, 'Bid range');
