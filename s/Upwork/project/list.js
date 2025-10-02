@@ -166,21 +166,15 @@ GM_addStyle([
 				,'Ukraine', 'UKR'
 				,'United Arab Emirates', 'ARE'
 			];
+			const countries = l ? [...l1, ...(1 < l ? l2 : [])] : [];
 			// 2025-10-02 https://g.co/gemini/share/c73dc86cff0a
 			return a => {
-				let r = true;
-				if (l) {
-					const c = a.querySelector('li[data-test="location"] > div > span')
-						?.textContent
-						?.replace(/Location/, '')
-						?.trim()
-					;
-					r = !l1.includes(c);
-					if (r && 1 < l) {
-						r = !l2.includes(c);
-					}
-				}
-				return r;
+				const c = l && a.querySelector('li[data-test="location"] > div > span')
+					?.textContent
+					?.replace(/Location/, '')
+					?.trim()
+				;
+				return !l || !countries.includes(c);
 			};
 		})();
 		// 2025-10-02
