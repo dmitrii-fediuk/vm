@@ -167,7 +167,7 @@ GM_addStyle([
 		 * 2025-10-02 https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)_per_capita#Table
 		 * @return {boolean}
 		 */
-		const fCountries = (() => {
+		const dfCountries = (() => {
 			const enable = new URL(location.href).searchParams.has('df-countries');
 			const banned = [
 				'Brazil'
