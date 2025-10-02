@@ -139,30 +139,6 @@ GM_addStyle([
 // 2025-03-18
 (() => {
 	const process = (() => {
-		// 2025-10-02
-		const qTerms = a => a.querySelector('li[data-test="job-type-label"] > strong');
-		/**
-		 * 2025-03-18
-		 * @return {boolean}
-		 */
-		const fRate = (() => {
-			// 2025-10-02 https://g.co/gemini/share/6984ff9b61f7
-			const minRate = +new URL(location.href).searchParams.get('df-rate-min');
-			return a => {
-				const m = qTerms(a)?.textContent?.trim()?.match(/^Hourly:.*?\$(\d+)\.00/);
-				return !minRate || !m || minRate <= +m[1];
-			};
-		})();
-		/**
-		 * 2025-10-02
-		 * @return {boolean}
-		 */
-		const fRateNotSpecified = (() => {
-			const enable = new URL(location.href).searchParams.has('df-rate-not-specified');
-			const h = 'Hourly';
-			// 2025-10-02 https://g.co/gemini/share/c9bf80c6789f
-			return a => !enable || h === (qTerms(a)?.textContent.trim() ?? h);
-		})();
 		/**
 		 * 2025-10-02 https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)_per_capita#Table
 		 * @return {boolean}
@@ -191,6 +167,30 @@ GM_addStyle([
 				a.querySelector('li[data-test="location"] > div > span')?.textContent.trim()
 					.replace('Location', '').trim()
 			);
+		})();
+		// 2025-10-02
+		const qTerms = a => a.querySelector('li[data-test="job-type-label"] > strong');
+		/**
+		 * 2025-03-18
+		 * @return {boolean}
+		 */
+		const fRate = (() => {
+			// 2025-10-02 https://g.co/gemini/share/6984ff9b61f7
+			const minRate = +new URL(location.href).searchParams.get('df-rate-min');
+			return a => {
+				const m = qTerms(a)?.textContent?.trim()?.match(/^Hourly:.*?\$(\d+)\.00/);
+				return !minRate || !m || minRate <= +m[1];
+			};
+		})();
+		/**
+		 * 2025-10-02
+		 * @return {boolean}
+		 */
+		const fRateNotSpecified = (() => {
+			const enable = new URL(location.href).searchParams.has('df-rate-not-specified');
+			const h = 'Hourly';
+			// 2025-10-02 https://g.co/gemini/share/c9bf80c6789f
+			return a => !enable || h === (qTerms(a)?.textContent.trim() ?? h);
 		})();
 		/**
 		 * 2025-03-18
