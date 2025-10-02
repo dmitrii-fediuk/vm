@@ -217,15 +217,15 @@ GM_addStyle([
 				'Photography'
 				,'Videography'
 			];
-			let r = true;
-			if (enable) {
-				// https://g.co/gemini/share/df1c38ce603a
-				const tokens = document.querySelectorAll(
-					'[data-test*="TokenClamp"] button[data-test="token"]'
-				);
-				r = ![...tokens].some(t => banned.includes(t.textContent.trim()));
-			}
-			return r;
+			return a => {
+				let r = true;
+				if (enable) {
+					// https://g.co/gemini/share/df1c38ce603a
+					const tokens = a.querySelectorAll('[data-test*="TokenClamp"] button[data-test="token"]');
+					r = ![...tokens].some(t => banned.includes(t.textContent.trim()));
+				}
+				return r;
+			};
 		})();
 		/**
 		 * 2025-03-18
