@@ -25,6 +25,7 @@ const dfNotVerified = 'df-not-verified'; // 2025-09-05
 //2025-10-02 The previous value: `[data-test='Qualifications']`
 // language=CSS
 const dfQualifications = 'section:has(> ul.qualification-items)';
+const df_c_activity = 'df-activity'; // 2025-10-02
 const df_c_bid_range = 'df-bid-range'; // 2025-10-02
 const df_c_questions = 'df-questions'; // 2025-09-05
 const dfWarning = 'df-warning'; // 2025-09-06
@@ -151,12 +152,6 @@ GM_addStyle([
 	,`${dfFeatures} > .features`
 	,`section:has(.posted-on-line)` // 2025-09-05
 // language=Javascript
-].join(',') + '{display: flex !important; gap: 0.5rem !important;}');
-// 2024-12-25
-// language=CSS
-GM_addStyle([
-	dfAboutClient
-	// language=Javascript
 ].join(',') + '{display: flex !important; gap: 0.5rem !important;}');
 // 2024-12-25
 // language=CSS
@@ -347,3 +342,6 @@ markSection(df_c_questions, `> p > strong`, 'You will be asked to answer');
 // 2025-10-02
 // language=CSS
 markSection(df_c_bid_range, `> h5 > strong`, 'Bid range');
+// 2025-10-02
+// language=CSS
+markSection(df_c_activity, `> .${df_c_bid_range}`, '');
