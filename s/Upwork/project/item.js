@@ -332,49 +332,16 @@ modify(`.posted-on-line span`, i => {// language=Javascript
 		|| (c.match(/^(\d+) days? ago$/)?.[1] > 2)
 	);
 });
-// 2025-09-06, 2025-10-02
+// 2025-09-06
 // language=CSS
-modify(`[data-qa='client-company-profile']`, i => {// language=Javascript
-	let iIndustry = i.querySelector(`[data-qa='client-company-profile-industry']`);
-	let iSize = i.querySelector(`[data-qa='client-company-profile-size']`);
-	const vIndustry = !iIndustry ? null : iIndustry.textContent.trim();
-	const badIndustry = 'Tech & IT' === vIndustry;
-	const vSize = !iSize ? null : iSize.textContent.trim();
-	let changed = false;
-	let badSize = false;
-	let vSizeR = vSize;
-	debugger;
-	if (vSize) {
-		const vSize1 = 'Individual';
-		const vSize2 = 'Small';
-		if (vSize.startsWith(vSize1)) {
-			vSizeR = vSize1;
-		}
-		else if (vSize.startsWith(vSize2)) {
-			vSizeR = vSize2;
-		}
-		changed = changed || vSizeR !== vSize;
-		badSize = [vSize1, vSize2].includes(vSizeR);
-	}
-	if (changed) {
-		i.innerHTML = '';
-		iIndustry = document.createElement('strong');
-		iIndustry.innerHTML = vIndustry;
-		i.appendChild(iIndustry);
-		iSize = document.createElement('div');
-		iSize.innerHTML = vSizeR;
-		i.appendChild(iSize);
-	}
-	iIndustry.classList.toggle(dfWarning, badIndustry);
-	iSize.classList.toggle(dfWarning, badSize);
-	//const p = i.parentElement;
-	//const i2 = document.createElement('div');
-	//i2.innerHTML = v;
-	//p.appendChild(i2);
-	//p.innerHTML = `<div data-qa='client-company-profile-size'>${v}</div>`;
-	//i.innerHTML = v;
-	//i.classList.toggle(dfWarning, [v1, v2].includes(v));
-});
+modify(`[data-qa='client-company-profile-industry']`, i => i.classList.toggle(dfWarning, // language=Javascript
+	'Tech & IT' === i.textContent.trim()
+));
+// 2025-09-06
+// language=CSS
+modify(`[data-qa='client-company-profile-size']`, i => i.classList.toggle(dfWarning, // language=Javascript
+	['Individual client', 'Small company (2-9 people)'].includes(i.textContent.trim())
+));
 // 2025-09-06
 // language=CSS
 modify(`[data-cy='expertise'] + strong`, i => i.classList.toggle(dfWarning, // language=Javascript
