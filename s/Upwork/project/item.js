@@ -337,7 +337,7 @@ modify(`[data-cy='expertise'] + strong`, i => i.classList.toggle(dfWarning, // l
 	[...document.querySelectorAll(
 		`.job-details-card > .air3-card-sections > section > h5 > strong`
 	)].forEach(i => {
-		if (i.textContent.startsWith('Bid range')) {
+		if (i.textContent.trim().startsWith('Bid range')) {
 			i.closest('section').classList.add(df_c_bid_range);
 		}
 	});
