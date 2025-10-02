@@ -11,7 +11,8 @@
 // «https://www.upwork.com/jobs/Developer-for-Backend-Development-with-high-Stripe-API-Experience_~021871538070777433492»
 // 2025-09-04 The previous value: «AboutClientUser»
 // 2025-09-06 The previous value: «about-client-container»
-const aboutClient = 'AboutClientUser';
+// 2025-10-02 The previous value: «AboutClientUser»
+const aboutClient = 'about-client-container';
 const dfNotVerified = 'df-not-verified'; // 2025-09-05
 const dfQuestions = 'df-questions'; // 2025-09-05
 const dfWarning = 'df-warning'; // 2025-09-06
