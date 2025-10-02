@@ -214,6 +214,7 @@ GM_addStyle([
 				'Android App Development'
 				,'Conversion Rate Optimization'
 				,'DApps'
+				,'DaVinci Resolve'
 				,'Email Campaign Setup'
 				,'Email Marketing'
 				,'Facebook Advertising'
