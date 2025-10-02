@@ -343,7 +343,7 @@ modify(`[data-cy='expertise'] + strong`, i => i.classList.toggle(dfWarning, // l
 // 2025-10-02
 // language=CSS
 const mark = (c, path, text, locator) => modify(path, i => {// language=Javascript
-	if (i.textContent.trim().includes(text)) {
+	if (!text || i.textContent.trim().includes(text)) {
 		(!locator ? i : locator(i)).classList.add(...[].concat(c));
 	}
 });
