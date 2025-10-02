@@ -28,7 +28,8 @@ const dfWarning = 'df-warning'; // 2025-09-06
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`${dfFeatures} .air3-icon:not([data-cy='clock-hourly'], [data-cy='fixed-price'])` // 2025-09-06
+		`${dfClientActivity} ~ section:not([data-test='Bids'])` // 2025-09-05
+		,`${dfFeatures} .air3-icon:not([data-cy='clock-hourly'], [data-cy='fixed-price'])` // 2025-09-06
 		,`${dfFeatures} .description` // 2025-09-04
 		,`${dfFeatures} li::after` // 2025-09-04
 		,`${dfFeatures} li:has(#featured-job)` // 2025-09-04
@@ -43,7 +44,6 @@ setTimeout(() => {
 		,`.segmentations > li > :first-child` // 2024-12-25, 2025-09-04 The title: «Project Type:»
 		,`:has(> .skills-list) > strong` // 2025-09-04
 		,`[data-test='${aboutClient}'] div:has([data-testid='head-title'])` // 2025-09-04
-		,`[data-test='ClientActivity'] ~ section:not([data-test='Bids'])` // 2025-09-05
 		,`[data-test='Description'] > strong:first-child` // 2025-09-04
 		// 2024-12-25 Titles like: «Full Stack Development Deliverables»
 		,`[data-test='Expertise'] > [class*='grid-container'] > div:has(> .skills-list) > strong`
@@ -133,7 +133,7 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	`.air3-card-section:has(> [data-test='ClientActivity'])` // 2025-09-06
+	`.air3-card-section:has(> ${dfClientActivity})` // 2025-09-06
 	,`.air3-card-section:has(> [data-test='ConnectsAuction'])`
 	,`[data-test='${aboutClient}'] ul.features`
 	,`[data-test='${aboutClient}']`
