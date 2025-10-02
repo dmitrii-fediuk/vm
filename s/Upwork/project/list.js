@@ -147,11 +147,10 @@ GM_addStyle([
 			// 2025-10-02 https://g.co/gemini/share/6984ff9b61f7
 			const minRate = +new URL(location.href).searchParams.get('df-rate-min');
 			return a => {
-				const m =
-					a.querySelector('li[data-test="job-type-label"] > strong')
-						?.textContent
-						?.trim()
-						?.match(/^Hourly:.*?\$(\d+)\.00/)
+				const m = a.querySelector('li[data-test="job-type-label"] > strong')
+					?.textContent
+					?.trim()
+					?.match(/^Hourly:.*?\$(\d+)\.00/)
 				;
 				return !minRate || !m || minRate <= +m[1];
 			};
