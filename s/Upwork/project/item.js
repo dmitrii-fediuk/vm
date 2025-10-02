@@ -349,3 +349,6 @@ markSection(df_c_bid_range, `> h5 > strong`, 'Bid range');
 // 2025-09-05
 // language=CSS
 markSection(df_c_questions, `> p > strong`, 'You will be asked to answer');
+// 2025-10-02
+// language=CSS
+markSection(df_c_tags, `> h5`, 'Skills and Expertise');
