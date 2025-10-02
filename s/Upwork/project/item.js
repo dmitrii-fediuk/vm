@@ -13,6 +13,8 @@
 // 2025-09-06 The previous value: «about-client-container»
 // 2025-10-02 The previous value: «AboutClientUser»
 const aboutClient = 'about-client-container';
+//2025-10-02 The previous value: `[data-test='ClientActivity']`
+const dfClientActivity = 'section:has(> ul.client-activity-items)';
 //2025-10-02 The previous value: `[data-test='Features']`
 const dfFeatures = 'section:has(> ul.features)';
 const dfNotVerified = 'df-not-verified'; // 2025-09-05
