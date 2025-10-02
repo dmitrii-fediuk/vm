@@ -193,6 +193,16 @@ GM_addStyle([
 			return a => !enable || h === (qTerms(a)?.textContent.trim() ?? h);
 		})();
 		/**
+		 * 2025-10-02
+		 * @return {boolean}
+		 */
+		const fTags = (() => {
+			const enable = new URL(location.href).searchParams.has('df-tags');
+			const banned = [
+			];
+			return a => !enable || true;
+		})();
+		/**
 		 * 2025-03-18
 		 * @return {boolean}
 		 */
