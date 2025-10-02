@@ -184,10 +184,10 @@ GM_addStyle([
 				,'United Arab Emirates'
 				,'Vietnam'
 			];
-			return a => {
-				let r = true;
-				return r;
-			};
+			return a => !enable || !banned.includes(
+				a.querySelector('li[data-test="location"] > div > span')?.textContent.trim()
+					.replace('Location', '').trim()
+			);
 		})();
 		/**
 		 * 2025-03-18
