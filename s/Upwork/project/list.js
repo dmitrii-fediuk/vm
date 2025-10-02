@@ -191,7 +191,7 @@ GM_addStyle([
 		 */
 		const fRate = (() => {
 			// 2025-10-02 https://g.co/gemini/share/6984ff9b61f7
-			const minRate = +new URL(location.href).searchParams.get('df-rate-min');
+			const minRate = +new URL(location).searchParams.get('df-rate-min');
 			return a => {
 				const m = qTerms(a)?.textContent?.trim()?.match(/^Hourly:.*?\$(\d+)\.00/);
 				return !minRate || !m || minRate <= +m[1];
@@ -202,7 +202,7 @@ GM_addStyle([
 		 * @return {boolean}
 		 */
 		const fRateNotSpecified = (() => {
-			const enable = new URL(location.href).searchParams.has('df-rate-not-specified');
+			const enable = new URL(location).searchParams.has('df-rate-not-specified');
 			const h = 'Hourly';
 			// 2025-10-02 https://g.co/gemini/share/c9bf80c6789f
 			return a => !enable || h === (qTerms(a)?.textContent.trim() ?? h);
@@ -227,7 +227,7 @@ GM_addStyle([
 		 * @return {boolean}
 		 */
 		const fPhrases = (() => {
-			const enable = new URL(location.href).searchParams.has('df-phrases');
+			const enable = new URL(location).searchParams.has('df-phrases');
 			const banned = [
 				'🚀', '🎯', '🔥', '💡', '📌'
 				,'30 minute'
