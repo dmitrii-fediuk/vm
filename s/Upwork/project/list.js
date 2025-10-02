@@ -480,15 +480,14 @@ GM_addStyle([
 		// 1) https://chatgpt.com/c/67d953fa-c3e8-8003-858a-d60b7a270c03
 		// 2) https://claude.ai/chat/a79fe12b-9d97-4a6b-87fb-304eb27c0807
 		// 3) https://grok.com/chat/1f2223eb-d192-4d35-a49a-9bcc8729e1b4
-		return c => c.querySelectorAll('article').forEach(a => {
-			if (!fCountries(a) || !fRate(a) || !fRateNotSpecified(a) || !fPhrases(a) || !fTags(a)) {
+		// 2025-10-02 https://g.co/gemini/share/60eb4bcb2b7f
+		const filters = [fCountries, fRate, fRateNotSpecified, fPhrases, fTags];
+		return c => c.querySelectorAll('article').forEach(a =>
+			filters.every(f => f(a))
+				? format(a)
 				// 2025-03-18 https://chatgpt.com/c/67d984ba-4f08-8003-a6dc-e3d70688ceab
-				a.style.display = 'none';
-			}
-			else {
-				format(a);
-			}
-		});
+				: a.style.display = 'none'
+		);
 	})();
 	setTimeout(() => {process(document.querySelector('.card-list-container'));}, 50);
 	// 2025-03-18 https://chatgpt.com/c/67d98719-3eec-8003-9df4-844aa046c43b
