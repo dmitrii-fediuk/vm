@@ -113,6 +113,7 @@ GM_addStyle([
 	`.air3-card-section:not(#A)` // 2025-09-05
 	,`.extra-jobs-cards` // 2025-09-05
 	,`.job-details-content > footer` // 2025-09-05
+	,dfDeliverables // 2025-10-02
 // language=Javascript
 ].join(',') + '{padding: 0 !important;}');
 // 2025-09-05
