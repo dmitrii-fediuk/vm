@@ -146,12 +146,17 @@ GM_addStyle([
 	,`.air3-card-section:has(> [data-test='ConnectsAuction'])`
 	,`${dfAboutClient} ul.features`
 	,dfAboutClient
-	,`[data-test="about-client-container"]`
 	,`[data-test='Expertise'] > [class*='grid-container']`
 	,`${dfFeatures} li:has(> [data-cy='clock-hourly'], > [data-cy='fixed-price'])` // 2025-09-06
 	,`${dfFeatures} > .features`
 	,`section:has(.posted-on-line)` // 2025-09-05
 // language=Javascript
+].join(',') + '{display: flex !important; gap: 0.5rem !important;}');
+// 2024-12-25
+// language=CSS
+GM_addStyle([
+	dfAboutClient
+	// language=Javascript
 ].join(',') + '{display: flex !important; gap: 0.5rem !important;}');
 // 2024-12-25
 // language=CSS
