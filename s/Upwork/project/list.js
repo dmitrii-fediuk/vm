@@ -167,7 +167,6 @@ GM_addStyle([
 				,'United Arab Emirates', 'ARE'
 			];
 			const countries = l ? [...l1, ...(1 < l ? l2 : [])] : [];
-			debugger;
 			// 2025-10-02 https://g.co/gemini/share/c73dc86cff0a
 			return a => {
 				const c = l && a.querySelector('li[data-test="location"] > div > span')
