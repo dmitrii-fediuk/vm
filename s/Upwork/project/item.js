@@ -42,13 +42,16 @@ const dfTags = `.${df_c_tags}`;
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`${dfClientActivity} ~ section:not(${dfBids})` // 2025-09-05
+		`${dfAboutClient} div:has([data-testid='head-title'])` // 2025-09-04
+		,`${dfClientActivity} ~ section:not(${dfBids})` // 2025-09-05
 		,`${dfFeatures} .air3-icon:not([data-cy='clock-hourly'], [data-cy='fixed-price'])` // 2025-09-06
 		,`${dfFeatures} .description` // 2025-09-04
 		,`${dfFeatures} li::after` // 2025-09-04
 		,`${dfFeatures} li:has(#featured-job)` // 2025-09-04
 		,`${dfQualifications} :has(> .qualification-items:empty)` // 2025-09-05
 		,`${dfQualifications} [data-cy='english']`
+		// 2024-12-25 Titles like: «Full Stack Development Deliverables»
+		,`${dfTags} > [class*='grid-container'] > div:has(> .skills-list) > strong`
 		,`.client-activity-items .help-icon`
 		,`.extra-jobs-cards > [class*='card']:has([data-test='SimilarJobs'])`
 		,`.job-details-content > :has(> button polygon)` // 2025-09-04
@@ -57,10 +60,7 @@ setTimeout(() => {
 		,`.posted-on-line ~ :not(#A)` // 2025-09-04
 		,`.segmentations > li > :first-child` // 2024-12-25, 2025-09-04 The title: «Project Type:»
 		,`:has(> .skills-list) > strong` // 2025-09-04
-		,`${dfAboutClient} div:has([data-testid='head-title'])` // 2025-09-04
 		,`[data-test='Description'] > strong:first-child` // 2025-09-04
-		// 2024-12-25 Titles like: «Full Stack Development Deliverables»
-		,`[data-test='Expertise'] > [class*='grid-container'] > div:has(> .skills-list) > strong`
 		,`[data-test='FlagButton']`
 		,`[data-test='SpecializedProfilePrompt']`
 		,`[data-testid='buyer-rating']` // 2025-09-04
