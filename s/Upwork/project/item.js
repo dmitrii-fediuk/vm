@@ -62,7 +62,7 @@ setTimeout(() => {
 // language=CSS
 GM_addStyle([
 	'.job-details-content > footer .d-flex.gap' // 2025-09-05
-	,`[data-test='Features'] li` // 2025-09-04
+	,`${dfFeatures} li` // 2025-09-04
 // language=Javascript
 ].join(`,`) + `{display: block !important;}`);
 // language=CSS
@@ -135,8 +135,8 @@ GM_addStyle([
 	,`[data-test='${aboutClient}'] ul.features`
 	,`[data-test='${aboutClient}']`
 	,`[data-test='Expertise'] > [class*='grid-container']`
-	,`[data-test='Features'] li:has(> [data-cy='clock-hourly'], > [data-cy='fixed-price'])` // 2025-09-06
-	,`[data-test='Features'] > .features`
+	,`${dfFeatures} li:has(> [data-cy='clock-hourly'], > [data-cy='fixed-price'])` // 2025-09-06
+	,`${dfFeatures} > .features`
 	,`section:has(.posted-on-line)` // 2025-09-05
 // language=Javascript
 ].join(',') + '{display: flex !important; gap: 0.5rem !important;}');
