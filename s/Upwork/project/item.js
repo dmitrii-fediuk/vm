@@ -12,7 +12,8 @@
 // 2025-09-04 The previous value: «AboutClientUser»
 // 2025-09-06 The previous value: «about-client-container»
 // 2025-10-02 The previous value: «AboutClientUser»
-const aboutClient = 'about-client-container';
+const df_v_aboutClient = 'about-client-container';
+const aboutClient = `[data-test='${df_v_aboutClient}']`;
 //2025-10-02 The previous value: `[data-test='ClientActivity']`
 const dfClientActivity = 'section:has(> ul.client-activity-items)';
 //2025-10-02 The previous value: `[data-test='Features']`
