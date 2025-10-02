@@ -15,9 +15,6 @@
 const df_v_about_client = 'about-client-container';
 // language=CSS
 const dfAboutClient = `[data-test='${df_v_about_client}']`;
-// 2025-10-02 The previous value: `[data-test='ClientActivity']`
-// language=CSS
-const dfClientActivity = 'section:has(> ul.client-activity-items)';
 //2025-10-02 The previous value: `[data-test='Features']`
 // language=CSS
 const dfFeatures = 'section:has(> ul.features)';
@@ -31,6 +28,9 @@ const df_c_questions = 'df-questions'; // 2025-09-05
 const dfWarning = 'df-warning'; // 2025-09-06
 //2025-10-02 The previous value: `[data-test='Bids']`
 const dfBids = `.${df_c_bid_range}`;
+// 2025-10-02 The previous value: `[data-test='ClientActivity']`
+// language=CSS
+const dfClientActivity = `.${df_c_activity}`;
 const dfQuestions = `.${df_c_questions}`; // 2025-10-02
 // 2025-06-10
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
