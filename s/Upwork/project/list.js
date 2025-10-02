@@ -217,6 +217,7 @@ GM_addStyle([
 				,'Email Campaign Setup'
 				,'Email Marketing'
 				,'Facebook Advertising'
+				,'Figma'
 				,'HubSpot'
 				,'Internet Marketing'
 				,'Landing Page'
