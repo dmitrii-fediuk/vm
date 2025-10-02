@@ -219,7 +219,11 @@ GM_addStyle([
 			];
 			let r = true;
 			if (enable) {
-				//a.querySelectorAll('div[data-test*="TokenClamp"] button[data-test="token"]')
+				// https://g.co/gemini/share/df1c38ce603a
+				const tokens = document.querySelectorAll(
+					'[data-test*="TokenClamp"] button[data-test="token"]'
+				);
+				r = ![...tokens].some(t => banned.includes(t.textContent.trim()));
 			}
 			return r;
 		})();
