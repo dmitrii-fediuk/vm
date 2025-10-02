@@ -200,7 +200,7 @@ GM_addStyle(`.${dfQuestions} {order: 5 !important;}`);
 GM_addStyle(`section.air3-card-section:has(.client-activity-items) {order: 6 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle(`.air3-card-section:has(> [data-test='Qualifications']) {order: 7 !important;}`);
+GM_addStyle(`.air3-card-section:has(> ${dfQualifications}) {order: 7 !important;}`);
 // 2025-09-05
 // language=CSS
 GM_addStyle(`li:has(> [data-cy='clock-timelog']) {order: -1 !important;}`);
