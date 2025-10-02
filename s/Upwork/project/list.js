@@ -147,18 +147,13 @@ GM_addStyle([
 			// 2025-10-02 https://g.co/gemini/share/6984ff9b61f7
 			const minRate = +new URL(location.href).searchParams.get('df-rate-min');
 			return a => {
-				let r = true;
-				if (minRate) {
-					const rateE = a.querySelector('li[data-test="job-type-label"] > strong');
-					if (rateE) {
-						const rateS = rateE.textContent.trim();
-						if (rateS.startsWith('Hourly:')) {
-							const m = rateS.match(/\$(\d+)\.00/);
-							r = !m || minRate <= parseInt(m[1]);
-						}
-					}
-				}
-				return r;
+				const m =
+					a.querySelector('li[data-test="job-type-label"] > strong')
+						?.textContent
+						?.trim()
+						?.match(/^Hourly:.*?\$(\d+)\.00/)
+				;
+				return !minRate || !m || minRate <= +m[1];
 			};
 		})();
 		/**
