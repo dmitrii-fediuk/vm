@@ -161,9 +161,10 @@ GM_addStyle([
 		 */
 		const fRateNotSpecified = (() => {
 			const enable = new URL(location.href).searchParams.has('df-rate-not-specified');
+			const h = 'Hourly';
 			// 2025-10-02 https://g.co/gemini/share/c9bf80c6789f
-			return a => !enable || 'Hourly' === (
-				a.querySelector('li[data-test="job-type-label"] > strong')?.textContent.trim() ?? 'Hourly'
+			return a => !enable || h === (
+				a.querySelector('li[data-test="job-type-label"] > strong')?.textContent.trim() ?? h
 			);
 		})();
 		/**
