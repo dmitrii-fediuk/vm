@@ -52,7 +52,7 @@ setTimeout(() => {
 		,`.posted-on-line ~ :not(#A)` // 2025-09-04
 		,`.segmentations > li > :first-child` // 2024-12-25, 2025-09-04 The title: «Project Type:»
 		,`:has(> .skills-list) > strong` // 2025-09-04
-		,`[data-test='${aboutClient}'] div:has([data-testid='head-title'])` // 2025-09-04
+		,`${dfAboutClient} div:has([data-testid='head-title'])` // 2025-09-04
 		,`[data-test='Description'] > strong:first-child` // 2025-09-04
 		// 2024-12-25 Titles like: «Full Stack Development Deliverables»
 		,`[data-test='Expertise'] > [class*='grid-container'] > div:has(> .skills-list) > strong`
@@ -93,8 +93,8 @@ GM_addStyle([
 	,`.air3-card-section h4`
 	,`.extra-jobs-cards > :not(#A)` // 2025-09-05
 	,`.skills-list:not(#A)` // 2025-09-05
-	,`[data-test='${aboutClient}'] div:has(> [data-test='UpCPopover'])`
-	,`[data-test='${aboutClient}'] ul.features`
+	,`${dfAboutClient} div:has(> [data-test='UpCPopover'])`
+	,`${dfAboutClient} ul.features`
 	,`[data-test='ConnectsAuction']`
 	,`button[data-cy='jobs-in-progress-button']` // 2025-09-05
 // language=Javascript
@@ -144,8 +144,8 @@ GM_addStyle([
 GM_addStyle([
 	`.air3-card-section:has(> ${dfClientActivity})` // 2025-09-06
 	,`.air3-card-section:has(> [data-test='ConnectsAuction'])`
-	,`[data-test='${aboutClient}'] ul.features`
-	,`[data-test='${aboutClient}']`
+	,`${dfAboutClient} ul.features`
+	,dfAboutClient
 	,`[data-test='Expertise'] > [class*='grid-container']`
 	,`${dfFeatures} li:has(> [data-cy='clock-hourly'], > [data-cy='fixed-price'])` // 2025-09-06
 	,`${dfFeatures} > .features`
@@ -158,7 +158,7 @@ GM_addStyle(`[data-test='ConnectsAuction'] {display: flex !important; gap: 1rem 
 // 2025-09-05
 // language=CSS
 GM_addStyle([
-	`[data-test='${aboutClient}'] .features` // 2024-12-25
+	`${dfAboutClient} .features` // 2024-12-25
 	,`section:has(.posted-on-line)` // 2025-09-05
 // language=Javascript
 ].join(',') + '{flex-direction: row !important;}');
@@ -192,7 +192,7 @@ GM_addStyle('.air3-card-sections > * {order: 6;}');
 // 2024-12-24 https://chatgpt.com/c/676b1c1b-79a0-800c-a2ca-88de2346828f
 // 2025-09-04
 // language=CSS
-GM_addStyle(`[data-test='${aboutClient}'] {order: 1 !important;}`);
+GM_addStyle(`${dfAboutClient} {order: 1 !important;}`);
 // 2025-09-05
 // language=CSS
 GM_addStyle(`${dfFeatures} {order: 2 !important;}`);
@@ -284,7 +284,7 @@ const modify = (s, action) => {
 };
 // 2025-09-05
 // language=CSS
-modify(`[data-test='${aboutClient}'] .text-caption`, i => {// language=Javascript
+modify(`${dfAboutClient} .text-caption`, i => {// language=Javascript
 	const c = i.textContent.trim();
 	const p = i.parentElement;
 	const t1 = ' verified';
