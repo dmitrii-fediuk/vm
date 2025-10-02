@@ -105,6 +105,7 @@ GM_addStyle([
 	,`${dfAboutClient} ul.features`
 	,`[data-test='ConnectsAuction']`
 	,`button[data-cy='jobs-in-progress-button']` // 2025-09-05
+	,dfDeliverables // 2025-10-02
 // language=Javascript
 ].join(',') + '{margin: 0 !important;}');
 // 2025-09-05
