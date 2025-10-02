@@ -15,8 +15,6 @@
 const aboutClient = 'about-client-container';
 //2025-10-02 The previous value: `[data-test='ClientActivity']`
 const dfClientActivity = 'section:has(> ul.client-activity-items)';
-//2025-10-02 The previous value: `[data-test='Bids']`
-const dfBids = `${dfClientActivity} + section`;
 //2025-10-02 The previous value: `[data-test='Features']`
 const dfFeatures = 'section:has(> ul.features)';
 const dfNotVerified = 'df-not-verified'; // 2025-09-05
@@ -25,6 +23,8 @@ const dfQualifications = 'section:has(> ul.qualification-items)';
 const df_c_bid_range = 'df-bid-range'; // 2025-10-02
 const dfQuestions = 'df-questions'; // 2025-09-05
 const dfWarning = 'df-warning'; // 2025-09-06
+//2025-10-02 The previous value: `[data-test='Bids']`
+const dfBids = `.${df_c_bid_range};
 // 2025-06-10
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
