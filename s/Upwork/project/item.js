@@ -335,7 +335,7 @@ modify(`.posted-on-line span`, i => {// language=Javascript
 // 2025-09-06
 // language=CSS
 modify(`[data-qa='client-company-profile-industry']`, i => i.classList.toggle(dfWarning, // language=Javascript
-	'Tech & IT' === i.textContent.trim()
+	['Sales & Marketing', 'Tech & IT'].includes(i.textContent.trim())
 ));
 // 2025-09-06, 2025-10-02
 // language=CSS
