@@ -336,12 +336,12 @@ const markSection = (c, path, text) => modify(`section ${path}`, i => {// langua
 		i.parentNode.closest('section').classList.add(c);
 	}
 });
-// 2025-09-05
-// language=CSS
-markSection(df_c_questions, `> p > strong`, 'You will be asked to answer');
-// 2025-10-02
-// language=CSS
-markSection(df_c_bid_range, `> h5 > strong`, 'Bid range');
 // 2025-10-02
 // language=CSS
 markSection(df_c_activity, `> h5`, 'Activity on this job');
+// 2025-10-02
+// language=CSS
+markSection(df_c_bid_range, `> h5 > strong`, 'Bid range');
+// 2025-09-05
+// language=CSS
+markSection(df_c_questions, `> p > strong`, 'You will be asked to answer');
