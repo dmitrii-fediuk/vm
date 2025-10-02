@@ -323,6 +323,13 @@ modify(`[data-qa='client-company-profile-size']`, i => i.classList.toggle(dfWarn
 modify(`[data-cy='expertise'] + strong`, i => i.classList.toggle(dfWarning, // language=Javascript
 	'Expert' !== i.textContent.trim()
 ));
+// 2025-10-02
+// language=CSS
+const markSection = (path, text, c) => modify(`section ${path}`, i => {// language=Javascript
+	if (i.textContent.trim().includes(text)) {
+		i.closest('section').classList.add(c);
+	}
+});
 // 2025-09-05
 (() => {
 	[...document.querySelectorAll(
@@ -335,8 +342,4 @@ modify(`[data-cy='expertise'] + strong`, i => i.classList.toggle(dfWarning, // l
 })();
 // 2025-10-02
 // language=CSS
-modify(`section > h5 > strong`, i => {// language=Javascript
-	if (i.textContent.trim().startsWith('Bid range')) {
-		i.closest('section').classList.add(df_c_bid_range);
-	}
-});
+markSection(`> h5 > strong`, 'Bid range', df_c_bid_range);
