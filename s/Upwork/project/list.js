@@ -211,7 +211,10 @@ GM_addStyle([
 		const fTags = (() => {
 			const enable = new URL(location).searchParams.has('df-tags');
 			const banned = [
-				'Facebook Advertising'
+				'Email Marketing'
+				,'Facebook Advertising'
+				,'Internet Marketing'
+				,'Lead Generation'
 				,'Photography'
 				,'Public Relations'
 				,'Videography'
