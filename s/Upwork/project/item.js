@@ -147,14 +147,14 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	`.air3-card-section:has(> ${dfClientActivity})` // 2025-09-06
-	,`.air3-card-section:has(> [data-test='ConnectsAuction'])`
-	,`${dfAboutClient} ul.features`
-	,dfAboutClient
-	,`${dfTags} > [class*='grid-container']`
-	,`${dfFeatures} li:has(> [data-cy='clock-hourly'], > [data-cy='fixed-price'])` // 2025-09-06
+	`${dfAboutClient} ul.features`
 	,`${dfFeatures} > .features`
+	,`${dfFeatures} li:has(> [data-cy='clock-hourly'], > [data-cy='fixed-price'])` // 2025-09-06
+	,`${dfTags} > [class*='grid-container']`
+	,`.air3-card-section:has(> ${dfClientActivity})` // 2025-09-06
+	,`.air3-card-section:has(> [data-test='ConnectsAuction'])`
 	,`section:has(.posted-on-line)` // 2025-09-05
+	,dfAboutClient
 // language=Javascript
 ].join(',') + '{display: flex !important; gap: 0.5rem !important;}');
 // 2024-12-25
