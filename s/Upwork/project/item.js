@@ -337,7 +337,7 @@ modify(`.posted-on-line span`, i => {// language=Javascript
 modify(`[data-qa='client-company-profile-industry']`, i => i.classList.toggle(dfWarning, // language=Javascript
 	'Tech & IT' === i.textContent.trim()
 ));
-// 2025-09-06
+// 2025-09-06, 2025-10-02
 // language=CSS
 modify(`[data-qa='client-company-profile-size']`, i => i.classList.toggle(dfWarning, // language=Javascript
 	['Individual client', 'Small company (2-9 people)'].includes(i.textContent.trim())
