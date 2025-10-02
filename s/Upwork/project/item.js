@@ -57,7 +57,7 @@ setTimeout(() => {
 		,`li:has(> a[href*='/att/download/openings/']) > .air3-icon` // 2025-09-05
 		,`section :has(> .illustration)` // 2025-09-05
 		,`section.air3-card-section > h5` // 2025-09-04
-		,`section.air3-card-section > section:not([data-test='Bids']) > h5` // 2025-09-04
+		,`section.air3-card-section > section:not(${dfBids}) > h5` // 2025-09-04
 		// 2024-12-25
 		// The title: «You will be asked to answer the following questions when submitting a proposal:»
 		// 2025-09-05
