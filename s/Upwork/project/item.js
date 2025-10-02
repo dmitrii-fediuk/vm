@@ -250,7 +250,7 @@ GM_addStyle(`li:has(> [data-cy='clock-timelog']) {background: #ffebe6 !important
 GM_addStyle(`li:has(> [data-cy='fixed-price']) {background: #ecffb3 !important;}`);
 // 2024-12-25
 // language=CSS
-GM_addStyle(`${dfBids} h5 {font-size: 100% !important;}`);
+GM_addStyle(`${dfBids} > h5 {font-size: 100% !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`.extra-jobs-cards[class*='px-'] {padding: 0 0.5rem !important;}`);
