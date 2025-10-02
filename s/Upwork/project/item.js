@@ -157,7 +157,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	// 2025-09-06 https://g.co/gemini/share/b3ab20147335
-	`.air3-card-section:has(> [data-test='ClientActivity'])`
+	`.air3-card-section:has(> ${dfClientActivity})`
 // language=Javascript
 ].join(',') + '{flex-wrap: wrap !important;}');
 // 2024-12-25
