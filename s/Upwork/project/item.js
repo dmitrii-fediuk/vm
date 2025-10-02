@@ -23,6 +23,7 @@ const dfClientActivity = 'section:has(> ul.client-activity-items)';
 const dfFeatures = 'section:has(> ul.features)';
 const dfNotVerified = 'df-not-verified'; // 2025-09-05
 //2025-10-02 The previous value: `[data-test='Qualifications']`
+// language=CSS
 const dfQualifications = 'section:has(> ul.qualification-items)';
 const df_c_bid_range = 'df-bid-range'; // 2025-10-02
 const df_c_questions = 'df-questions'; // 2025-09-05
