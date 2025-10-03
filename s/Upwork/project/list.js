@@ -272,6 +272,8 @@ GM_addStyle([
 				,'Lead Generation Strategy'
 				,'Lead Generation'
 				,'MQL 4'
+				,'Market Analysis'
+				,'Market Research'
 				,'Marketing Automation'
 				,'Mechanical Engineering'
 				,'Motion Graphics'
