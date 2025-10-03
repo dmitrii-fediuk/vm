@@ -292,6 +292,8 @@ GM_addStyle([
 				,'Sales'
 				,'Scriptwriting'
 				,'Search Engine Marketing Strategy'
+				,'SEO Backlinking'
+				,'Search Engine Optimization'
 				,'Singing'
 				,'Sketch'
 				,'Social Media Marketing'
