@@ -235,6 +235,7 @@ GM_addStyle([
 				,'Landing Page'
 				,'Lead Generation'
 				,'Mechanical Engineering'
+				,'MQL 4'
 				,'PCB Design'
 				,'Photography'
 				,'Public Relations'
