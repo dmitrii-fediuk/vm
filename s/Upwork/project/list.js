@@ -215,6 +215,7 @@ GM_addStyle([
 				,'3D Design'
 				,'3D Modeling'
 				,'A/B Testing'
+				,'Acting'
 				,'Adobe After Effects'
 				,'Adobe Illustrator'
 				,'Android App Development'
