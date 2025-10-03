@@ -229,6 +229,7 @@ GM_addStyle([
 				,'Blog Writing'
 				,'Business Proposal Writing'
 				,'Circuit Design'
+				,'CNC Programming'
 				,'Cold Calling'
 				,'Content Writing'
 				,'Conversion Rate Optimization'
