@@ -267,6 +267,7 @@ GM_addStyle([
 				,'Outbound Sales'
 				,'PCB Design'
 				,'Pay Per Click Advertising'
+				,'Penetration Testing'
 				,'Photography'
 				,'Project Management'
 				,'Public Relations'
