@@ -243,6 +243,7 @@ GM_addStyle([
 				,'DApps'
 				,'DaVinci Resolve'
 				,'Digital Project Management'
+				,'Dropshipping'
 				,'Electrical Engineering'
 				,'Elementor'
 				,'Email Automation'
