@@ -211,7 +211,8 @@ GM_addStyle([
 		const fTags = (() => {
 			const enable = new URL(location).searchParams.has('df-tags');
 			const banned = [
-				'Android App Development'
+				'Adobe Illustrator'
+				,'Android App Development'
 				,'Art & Design'
 				,'Blog Writing'
 				,'Business Proposal Writing'
@@ -253,6 +254,7 @@ GM_addStyle([
 				,'QA Testing'
 				,'SEO Keyword Research'
 				,'Sales'
+				,'Sketch'
 				,'Social Media Marketing'
 				,'Stock Market'
 				,'Telemarketing'
@@ -260,6 +262,8 @@ GM_addStyle([
 				,'Trading Strategy'
 				,'UI Animation'
 				,'UI Graphics'
+				,'User Experience Design'
+				,'User Interface Design'
 				,'Videography'
 				,'Virtual Assistance'
 				,'Web Design'
