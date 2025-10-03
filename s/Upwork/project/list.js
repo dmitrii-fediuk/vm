@@ -285,6 +285,7 @@ GM_addStyle([
 				,'Videography'
 				,'Virtual Assistance'
 				,'Web Design'
+				,'Webinar'
 				,'iOS Development'
 			];
 			return a => !enable ||
