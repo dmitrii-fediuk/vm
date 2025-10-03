@@ -327,6 +327,7 @@ GM_addStyle([
 				,'Voice-Over'
 				,'Web Design'
 				,'Webinar'
+				,'Wix'
 				,'Zoom Video Conferencing'
 				,'iOS Development'
 			];
