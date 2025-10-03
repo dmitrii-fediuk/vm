@@ -24,6 +24,7 @@ const dfNotVerified = 'df-not-verified'; // 2025-09-05
 const dfQualifications = 'section:has(> ul.qualification-items)';
 const df_c_activity = 'df-activity'; // 2025-10-02
 const df_c_bid_range = 'df-bid-range'; // 2025-10-02
+const df_c_hired = 'df-hired'; // 2025-10-03
 const df_c_important_list = 'df-important-list'; // 2025-10-02
 const df_c_questions = 'df-questions'; // 2025-09-05
 const df_c_tags = 'df-tags'; // 2025-10-02
@@ -349,7 +350,7 @@ modify(`[data-cy='expertise'] + strong`, i => i.classList.toggle(dfWarning, // l
 ));
 // 2025-10-03
 // language=CSS
-modify(`[data-qa='client-job-posting-stats']`, i => {
+modify(`[data-qa='client-job-posting-stats']`, i => {// language=Javascript
 	const iPosted = i.querySelector('strong');
 	const iRate = i.querySelector('div');
 	if (iPosted && iRate) {
@@ -360,6 +361,15 @@ modify(`[data-qa='client-job-posting-stats']`, i => {
 			const nRate = parseInt(mRate[1], 10);
 			iRate.classList.toggle(dfWarning, 3 < nPosted && 20 > nRate);
 		}
+	}
+});
+// 2025-10-03
+// language=CSS
+modify(`ul.client-activity-items > li`, i => {// language=Javascript
+	if (i.textContent.trim().includes('Hires:')) {
+		document.querySelector('body').toggleClass(df_c_hired,
+			i.querySelector('.value').textContent.match(/\d+/)
+		);
 	}
 });
 // 2025-10-02
