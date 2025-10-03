@@ -246,6 +246,8 @@ GM_addStyle([
 				,'Facebook Ads Manager'
 				,'Facebook Advertising'
 				,'Figma'
+				,'Financial Analysis'
+				,'Financial Projection'
 				,'Google Ads'
 				,'Graphic Design'
 				,'HubSpot'
