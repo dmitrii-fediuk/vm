@@ -370,7 +370,6 @@ modify(`[data-qa='client-job-posting-stats']`, i => {// language=Javascript
 // language=CSS
 modify(`ul.client-activity-items > li`, i => {// language=Javascript
 	if (i.textContent.trim().includes('Hires:')) {
-		debugger;
 		document.querySelector('body').classList.toggle(df_c_hired,
 			!!i.querySelector('.value').textContent.match(/\d+/)
 		);
