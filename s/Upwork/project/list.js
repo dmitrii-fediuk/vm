@@ -239,6 +239,7 @@ GM_addStyle([
 				,'Photography'
 				,'Public Relations'
 				,'SEO Keyword Research'
+				,'Social Media Marketing'
 				,'Videography'
 				,'iOS Development'
 			];
