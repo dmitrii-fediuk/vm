@@ -234,6 +234,7 @@ GM_addStyle([
 				,'CNC Programming'
 				,'Circuit Design'
 				,'Cold Calling'
+				,'Comedy Writing'
 				,'Content Writing'
 				,'Conversion Rate Optimization'
 				,'Copywriting'
