@@ -245,6 +245,7 @@ GM_addStyle([
 				,'Email Marketing'
 				,'Facebook Ads Manager'
 				,'Facebook Advertising'
+				,'Fashion Design'
 				,'Figma'
 				,'Financial Analysis'
 				,'Financial Projection'
