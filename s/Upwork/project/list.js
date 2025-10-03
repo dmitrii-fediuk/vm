@@ -226,6 +226,7 @@ GM_addStyle([
 				,'Email Copywriting'
 				,'Email Marketing Strategy'
 				,'Email Marketing'
+				,'Facebook Ads Manager'
 				,'Facebook Advertising'
 				,'Figma'
 				,'Graphic Design'
