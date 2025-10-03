@@ -347,6 +347,21 @@ modify(`[data-qa='client-company-profile-size']`, i => i.classList.toggle(dfWarn
 modify(`[data-cy='expertise'] + strong`, i => i.classList.toggle(dfWarning, // language=Javascript
 	'Expert' !== i.textContent.trim()
 ));
+// 2025-10-03
+// language=CSS
+modify(`[data-qa='client-job-posting-stats']`, i => {
+	const iPosted = i.querySelector('strong');
+	const iRate = i.querySelector('div');
+	if (iPosted && iRate) {
+		const mPosted = iPosted.textContent.match(/\d+/);
+		const mRate = iRate.textContent.match(/(\d+)%/);
+		if (mPosted && mRate) {
+			const nPosted = parseInt(mPosted[0], 10);
+			const nRate = parseInt(mRate[1], 10);
+			iRate.classList.toggle(dfWarning, 3 < nPosted && 20 > nRate);
+		}
+	}
+});
 // 2025-10-02
 // language=CSS
 const mark = (c, path, text, locator) => modify(path, i => {// language=Javascript
