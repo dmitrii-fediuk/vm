@@ -247,6 +247,7 @@ GM_addStyle([
 				,'Pay Per Click Advertising'
 				,'Photography'
 				,'Public Relations'
+				,'QA Testing'
 				,'SEO Keyword Research'
 				,'Sales'
 				,'Social Media Marketing'
