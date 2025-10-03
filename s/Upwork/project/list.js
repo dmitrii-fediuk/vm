@@ -275,6 +275,7 @@ GM_addStyle([
 				,'SolidWorks'
 				,'Sound Mixing'
 				,'Stock Market'
+				,'Structural Engineering'
 				,'Telemarketing'
 				,'Trading Automation'
 				,'Trading Strategy'
