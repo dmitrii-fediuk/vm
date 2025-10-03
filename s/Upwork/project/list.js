@@ -212,6 +212,7 @@ GM_addStyle([
 			const enable = new URL(location).searchParams.has('df-tags');
 			const banned = [
 				'2D Animation'
+				,'A/B Testing'
 				,'Adobe After Effects'
 				,'Adobe Illustrator'
 				,'Android App Development'
@@ -223,6 +224,7 @@ GM_addStyle([
 				,'Circuit Design'
 				,'Cold Calling'
 				,'Motion Graphics'
+				,'Search Engine Marketing Strategy'
 				,'Content Writing'
 				,'Conversion Rate Optimization'
 				,'Copywriting'
