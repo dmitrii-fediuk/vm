@@ -250,6 +250,7 @@ GM_addStyle([
 				,'Telemarketing'
 				,'Videography'
 				,'Virtual Assistance'
+				,'Web Design'
 				,'iOS Development'
 			];
 			return a => !enable ||
