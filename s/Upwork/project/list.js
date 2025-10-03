@@ -241,6 +241,7 @@ GM_addStyle([
 				,'SEO Keyword Research'
 				,'Social Media Marketing'
 				,'Videography'
+				,'Virtual Assistance'
 				,'iOS Development'
 			];
 			return a => !enable ||
