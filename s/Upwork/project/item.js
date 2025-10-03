@@ -372,17 +372,13 @@ modify(`[data-qa='client-job-posting-stats']`, i => {// language=Javascript
 });
 // 2025-10-03
 // language=CSS
-modify(`li:has(> [data-qa='client-spend'])`, i => {// language=Javascript
+modify(`li:has(> [data-qa='client-spend'])`, i => {
 	const iSpent = i.querySelector(`[data-qa='client-spend']`);
-	if (iSpent) {
-		const spentText = iSpent.textContent || '';
-		const spentMatch = spentText.match(/\$([\d,]+(\.\d+)?)/);
-		const spent = spentMatch ? parseFloat(spentMatch[1].replace(/,/g, '')) : 0;
-		const hiresText = i.querySelector(`[data-qa='client-hires']`)?.textContent || '';
-		const hiresMatch = hiresText.match(/(\d+)\s+hires?/);
-		const hires = hiresMatch ? parseInt(hiresMatch[1], 10) : 0;
-		iSpent.classList.toggle('df-warning', 0 < hires && 200 > spent / hires);
-	}
+	const spent = +(iSpent?.textContent.match(/\$([\d,]+(\.\d+)?)/)?.[1]?.replace(/,/g, '') ?? 0);
+	const hires = +(
+		i.querySelector(`[data-qa='client-hires']`)?.textContent.match(/(\d+)\s+hires?/)?.[1] ?? 0
+	);
+	iSpent?.classList.toggle('df-warning', hires > 0 && spent / hires < 200);
 });
 // 2025-10-03
 // language=CSS
