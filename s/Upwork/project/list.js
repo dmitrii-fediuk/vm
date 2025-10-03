@@ -253,6 +253,8 @@ GM_addStyle([
 				,'Sales'
 				,'Social Media Marketing'
 				,'Telemarketing'
+				,'UI Animation'
+				,'UI Graphics'
 				,'Videography'
 				,'Virtual Assistance'
 				,'Web Design'
