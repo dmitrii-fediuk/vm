@@ -214,6 +214,7 @@ GM_addStyle([
 				'Android App Development'
 				,'Art & Design'
 				,'Blog Writing'
+				,'Business Proposal Writing'
 				,'Circuit Design'
 				,'Cold Calling'
 				,'Content Writing'
