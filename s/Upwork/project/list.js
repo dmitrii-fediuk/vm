@@ -227,6 +227,7 @@ GM_addStyle([
 				,'Audio Engineering'
 				,'Audio Production'
 				,'Autodesk Fusion 360'
+				,'Blockchain Development'
 				,'Blog Writing'
 				,'Business Proposal Writing'
 				,'CNC Programming'
