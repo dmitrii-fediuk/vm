@@ -222,6 +222,7 @@ GM_addStyle([
 				,'Adobe After Effects'
 				,'Adobe Illustrator'
 				,'Adobe Photoshop'
+				,'Amazon Listing Optimization'
 				,'Android App Development'
 				,'Animation'
 				,'Art & Design'
