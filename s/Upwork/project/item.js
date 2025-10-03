@@ -372,6 +372,17 @@ modify(`[data-qa='client-job-posting-stats']`, i => {// language=Javascript
 });
 // 2025-10-03
 // language=CSS
+modify(`li:has(> [data-qa='client-spend'])`, i => {// language=Javascript
+	const spentText = i.querySelector(`[data-qa='client-spend']`)?.textContent || '';
+	const spentMatch = spentText.match(/\$([\d,]+(\.\d+)?)/);
+	const spent = spentMatch ? parseFloat(spentMatch[1].replace(/,/g, '')) : 0;
+	const hiresText = i.querySelector(`[data-qa='client-hires']`)?.textContent || '';
+	const hiresMatch = hiresText.match(/(\d+)\s+hires?/);
+	const hires = hiresMatch ? parseInt(hiresMatch[1], 10) : 0;
+	i.classList.toggle('df-warning', 0 < hires && 200 > spent / hires);
+});
+// 2025-10-03
+// language=CSS
 modify(`ul.client-activity-items > li`, i => {// language=Javascript
 	if (i.textContent.trim().includes('Hires:')) {
 		document.querySelector('body').classList.toggle(df_c_hired,
