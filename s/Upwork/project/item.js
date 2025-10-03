@@ -208,7 +208,7 @@ GM_addStyle([
 GM_addStyle('body {margin: 0.5rem 0.5rem 0 0.5rem !important;}');
 // 2025-10-03
 // language=CSS
-GM_addStyle(`#main.${df_c_hired} {background: pink !important;}`);
+GM_addStyle(`.air3-card-sections.${df_c_hired} {background: pink !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle('.air3-card-sections > * {order: 6;}');
@@ -370,7 +370,7 @@ modify(`[data-qa='client-job-posting-stats']`, i => {// language=Javascript
 // language=CSS
 modify(`ul.client-activity-items > li`, i => {// language=Javascript
 	if (i.textContent.trim().includes('Hires:')) {
-		document.querySelector('#main').classList.toggle(df_c_hired,
+		i.closest('.air3-card-sections').classList.toggle(df_c_hired,
 			!!i.querySelector('.value').textContent.match(/\d+/)
 		);
 	}
