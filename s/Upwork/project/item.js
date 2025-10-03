@@ -208,7 +208,7 @@ GM_addStyle([
 GM_addStyle('body {margin: 0.5rem 0.5rem 0 0.5rem !important;}');
 // 2025-10-03
 // language=CSS
-GM_addStyle(`.air3-card-sections.${df_c_hired} {background: pink !important;}`);
+GM_addStyle(`.air3-card-sections.${df_c_hired} {background: #ffb3b3 !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle('.air3-card-sections > * {order: 6;}');
