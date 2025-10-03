@@ -122,7 +122,8 @@ GM_addStyle([
 // 2025-10-03
 // language=CSS
 GM_addStyle([
-	`.${df_c_hired} :is(.air3-card-sections)`
+	`.${df_c_hired}`
+	,`.${df_c_hired} :is(.air3-card-sections)`
 // language=Javascript
 ].join(`,`) + `{background: #ffe6e6 !important;}`);
 // 2025-09-05
