@@ -378,7 +378,14 @@ modify(`li:has(> [data-qa='client-spend'])`, i => {
 	const hires = +(
 		i.querySelector(`[data-qa='client-hires']`)?.textContent.match(/(\d+)\s+hires?/)?.[1] ?? 0
 	);
-	iSpent?.classList.toggle('df-warning', hires > 0 && spent / hires < 200);
+	iSpent?.classList.toggle(dfWarning, hires > 0 && spent / hires < 200);
+});
+// 2025-10-03
+// language=CSS
+modify(`li:has(> [data-qa='client-hourly-rate'])`, i => {
+	const iRate = i.querySelector(`[data-qa='client-hourly-rate']`);
+	const rate = +(iRate?.textContent.match(/\$([\d,]+(\.\d+)?)/)?.[1]?.replace(/,/g, '') ?? 0);
+	iRate?.classList.toggle(dfWarning, rate < 20);
 });
 // 2025-10-03
 // language=CSS
