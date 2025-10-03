@@ -263,7 +263,6 @@ GM_addStyle([
 				,'HubSpot'
 				,'Influencer Outreach'
 				,'Internet Marketing'
-				,'Zoom Video Conferencing'
 				,'Landing Page'
 				,'Lead Generation Analysis'
 				,'Lead Generation Content Creation'
@@ -296,6 +295,7 @@ GM_addStyle([
 				,'Telemarketing'
 				,'Trading Automation'
 				,'Trading Strategy'
+				,'Translation'
 				,'UI Animation'
 				,'UI Graphics'
 				,'User Experience Design'
@@ -306,6 +306,7 @@ GM_addStyle([
 				,'Voice-Over'
 				,'Web Design'
 				,'Webinar'
+				,'Zoom Video Conferencing'
 				,'iOS Development'
 			];
 			return a => !enable ||
