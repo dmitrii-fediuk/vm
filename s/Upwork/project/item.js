@@ -366,7 +366,7 @@ modify(`[data-qa='client-job-posting-stats']`, i => {// language=Javascript
 		if (mPosted && mRate) {
 			const nPosted = parseInt(mPosted[0], 10);
 			const nRate = parseInt(mRate[1], 10);
-			iRate.classList.toggle(dfWarning, 3 < nPosted && 20 > nRate);
+			iRate.classList.toggle(dfWarning, 3 < nPosted && 30 > nRate || (6 < nPosted && 50 > nRate));
 		}
 	}
 });
