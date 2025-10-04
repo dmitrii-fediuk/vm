@@ -374,11 +374,16 @@ modify(`[data-qa='client-job-posting-stats']`, i => {// language=Javascript
 // language=CSS
 modify(`li:has(> [data-qa='client-spend'])`, i => {
 	const iSpent = i.querySelector(`[data-qa='client-spend']`);
-	const spent = +(iSpent?.textContent.match(/\$([\d,]+(\.\d+)?)/)?.[1]?.replace(/,/g, '') ?? 0);
+	// 2025-10-04 https://g.co/gemini/share/a0563a25afb5
+	const m = iSpent?.textContent.match(/\$([\d,]+(?:\.\d+)?)([KMBT]?)/i);
+	const spent = !m ? 0 :
+		parseFloat(m[1].replace(/,/g, ''))
+		* (({'K': 1e3, 'M': 1e6, 'B': 1e9, 'T': 1e12})[m[2]?.toUpperCase()] || 1)
+	;
 	const hires = +(
 		i.querySelector(`[data-qa='client-hires']`)?.textContent.match(/(\d+)\s+hires?/)?.[1] ?? 0
 	);
-	iSpent?.classList.toggle(dfWarning, hires > 0 && spent / hires < 200);
+	iSpent?.classList.toggle(dfWarning, 0 < hires && spent / hires < 200);
 });
 // 2025-10-03
 // language=CSS
