@@ -6,4 +6,6 @@
 // @match *://www.upwork.com/nx/search/jobs*
 // @name Upwork / Project / List / 1
 // ==/UserScript==
-// 2025-10-05 https://g.co/gemini/share/a3e668c14254
+// 2025-10-05
+// 1) https://g.co/gemini/share/ede314ebdbc2
+// 2) https://g.co/gemini/share/a3e668c14254
