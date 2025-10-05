@@ -13,7 +13,7 @@
 // You can change the order using the Violentmonkey dashboard.
 // Click and drag the bounding box of each script in the list to move it up or down in the list.»
 // https://github.com/OpenUserJs/OpenUserJS.org/wiki/Violentmonkey-for-Chrome#user-content-trouble-shooting
-unsafeWindow.df.upwork.project.list.tags = [
+unsafeWindow.df?.upwork?.project?.list?.tags = [
 	'2D Animation'
 	,'3D Design'
 	,'3D Modeling'
