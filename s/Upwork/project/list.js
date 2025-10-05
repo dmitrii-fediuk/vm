@@ -305,6 +305,8 @@ GM_addStyle([
 				,'Live Interpretation'
 				,'Looker Studio'
 				,'MQL 4'
+				,'ManyChat'
+				,'Make.com'
 				,'Market Analysis'
 				,'Market Research'
 				,'Marketing Analytics'
