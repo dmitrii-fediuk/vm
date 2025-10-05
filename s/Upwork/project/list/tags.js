@@ -14,15 +14,8 @@
 // Click and drag the bounding box of each script in the list to move it up or down in the list.»
 // https://github.com/OpenUserJs/OpenUserJS.org/wiki/Violentmonkey-for-Chrome#user-content-trouble-shooting
 // 4) https://g.co/gemini/share/0433ff10fc5f
-(() => {
-	['df', 'upwork', 'project', 'list'].reduce((o, k) => {
-		if (!o[k]) {
-			o[k] = {};
-		}
-		return o[k];
-	}, unsafeWindow);
-})();
-unsafeWindow.df.upwork.project.list.tags = [
+// 5) https://g.co/gemini/share/049320c5e4e5
+['df', 'upwork', 'project', 'list'].reduce((o, k) => o[k] ??= {}, unsafeWindow).tags = [
 	'2D Animation'
 	,'3D Design'
 	,'3D Modeling'
