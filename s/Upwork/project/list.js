@@ -310,6 +310,7 @@ GM_addStyle([
 				,'Marketing Automation'
 				,'Mechanical Engineering'
 				,'Medical Equipment & Supplies'
+				,'MetaTrader 5'
 				,'Mobile App Development'
 				,'Motion Graphics'
 				,'Outbound Sales'
