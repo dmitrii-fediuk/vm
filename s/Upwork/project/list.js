@@ -340,6 +340,7 @@ GM_addStyle([
 				,'Translation'
 				,'UI Animation'
 				,'UI Graphics'
+				,'UI/UX Prototyping'
 				,'User Experience Design'
 				,'User Interface Design'
 				,'Video Ad'
