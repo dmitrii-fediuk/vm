@@ -1,16 +1,18 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Upwork/project/list/00-tags.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Upwork/project/list/tags.js
 // @icon https://www.upwork.com/favicon.ico
 // @match *://www.upwork.com/nx/search/jobs*
-// @name Upwork / Project / List / 00 - Tags
+// @name Upwork / Project / List / Tags
 // ==/UserScript==
 // 2025-10-05
 // 1) https://g.co/gemini/share/ede314ebdbc2
 // 2) https://g.co/gemini/share/a3e668c14254
-// 3) https://violentmonkey.github.io/posts/inject-into-context
-// 4) https://violentmonkey.github.io/api/metadata-block#inject-into
+// 3) «Sometimes, when you use more than one userscript on the same web page, they need to run in a particular order.
+// You can change the order using the Violentmonkey dashboard.
+// Click and drag the bounding box of each script in the list to move it up or down in the list.»
+// https://github.com/OpenUserJs/OpenUserJS.org/wiki/Violentmonkey-for-Chrome#user-content-trouble-shooting
 unsafeWindow.df.upwork.project.list.tags = [
 	'2D Animation'
 	,'3D Design'

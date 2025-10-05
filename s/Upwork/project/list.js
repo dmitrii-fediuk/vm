@@ -1,15 +1,12 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Upwork/project/list/main.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Upwork/project/list.js
 // @icon https://www.upwork.com/favicon.ico
 // @match *://www.upwork.com/nx/search/jobs*
-// @name Upwork / Project / List / Main
+// @name Upwork / Project / List
 // ==/UserScript==
 // 2024-10-13, 2024-12-24 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
-// 2025-10-05
-// 1) https://g.co/gemini/share/ede314ebdbc2
-// 2) https://g.co/gemini/share/a3e668c14254
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
