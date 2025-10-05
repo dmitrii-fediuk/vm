@@ -291,6 +291,7 @@ GM_addStyle([
 				,'MQL 4'
 				,'Market Analysis'
 				,'Market Research'
+				,'Marketing Analytics'
 				,'Marketing Automation'
 				,'Mechanical Engineering'
 				,'Medical Equipment & Supplies'
