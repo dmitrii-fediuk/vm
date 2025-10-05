@@ -306,6 +306,7 @@ GM_addStyle([
 				,'Photography'
 				,'Price & Quote Negotiation'
 				,'Project Management'
+				,'Proofreading'
 				,'Public Relations'
 				,'QA Testing'
 				,'Recruiting'
