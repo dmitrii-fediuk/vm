@@ -323,6 +323,7 @@ GM_addStyle([
 				,'Project Management'
 				,'Proofreading'
 				,'Public Relations'
+				,'Publishing'
 				,'QA Testing'
 				,'Recruiting'
 				,'SEO Backlinking'
