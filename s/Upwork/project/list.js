@@ -288,6 +288,7 @@ GM_addStyle([
 				,'Lead Generation Strategy'
 				,'Lead Generation'
 				,'LinkedIn Recruiting'
+				,'Live Interpretation'
 				,'MQL 4'
 				,'Market Analysis'
 				,'Market Research'
