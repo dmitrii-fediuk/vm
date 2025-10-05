@@ -632,6 +632,7 @@ GM_addStyle([
 				,'Your expertise will help us'
 				,'Your insights will help us'
 				,'YouTube Thumbnail'
+				,'Zapier'
 				,'Zoom'
 			].map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
 			return a => !enable || !(['h2', 'p.text-body-sm'].some(s => {
