@@ -258,6 +258,8 @@ GM_addStyle([
 				,'Cover Art Thumbnail'
 				,'Creative Strategy'
 				,'Creative Writing'
+				,'Crowdfunding'
+				,'Crowdfunding Campaign'
 				,'Cryptocurrency'
 				,'Customer Care'
 				,'Customer Service'
