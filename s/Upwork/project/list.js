@@ -252,6 +252,7 @@ GM_addStyle([
 				,'Cover Art Thumbnail'
 				,'Creative Strategy'
 				,'Creative Writing'
+				,'Customer Care'
 				,'Customer Service'
 				,'DApps'
 				,'DaVinci Resolve'
