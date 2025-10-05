@@ -281,6 +281,7 @@ GM_addStyle([
 				,'Event Planning'
 				,'Event Setup'
 				,'Executive Support'
+				,'Exterior Rendering'
 				,'Facebook Ads Manager'
 				,'Facebook Advertising'
 				,'Fashion Design'
