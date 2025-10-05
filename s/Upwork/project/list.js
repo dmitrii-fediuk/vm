@@ -321,6 +321,7 @@ GM_addStyle([
 				,'Medical Equipment & Supplies'
 				,'MetaTrader 5'
 				,'Mobile App Development'
+				,'Modeling'
 				,'Motion Graphics'
 				,'Outbound Sales'
 				,'Outreach Strategy'
