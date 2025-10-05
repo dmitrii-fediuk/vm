@@ -304,6 +304,7 @@ GM_addStyle([
 				,'Penetration Testing'
 				,'Photo Editing'
 				,'Photography'
+				,'Post Template'
 				,'Price & Quote Negotiation'
 				,'Project Management'
 				,'Proofreading'
