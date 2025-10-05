@@ -297,6 +297,7 @@ GM_addStyle([
 				,'Illustration'
 				,'Influencer Outreach'
 				,'Instagram'
+				,'Interior Design'
 				,'Internet Marketing'
 				,'iOS'
 				,'Landing Page'
