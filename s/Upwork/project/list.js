@@ -328,6 +328,7 @@ GM_addStyle([
 				,'SolidWorks'
 				,'Sound Mixing'
 				,'Sourcing'
+				,'Spring Framework'
 				,'Stock Market'
 				,'Structural Engineering'
 				,'Supplier Search'
