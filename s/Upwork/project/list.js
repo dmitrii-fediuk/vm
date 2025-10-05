@@ -296,6 +296,7 @@ GM_addStyle([
 				,'LinkedIn'
 				,'LinkedIn Recruiting'
 				,'Live Interpretation'
+				,'Looker Studio'
 				,'MQL 4'
 				,'Market Analysis'
 				,'Market Research'
