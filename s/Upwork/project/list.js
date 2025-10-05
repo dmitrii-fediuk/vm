@@ -239,6 +239,7 @@ GM_addStyle([
 				,'Biology'
 				,'Blockchain Development'
 				,'Blog Writing'
+				,'Bubble.io'
 				,'Business Proposal Writing'
 				,'Buying'
 				,'CNC Programming'
