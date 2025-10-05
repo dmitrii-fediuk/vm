@@ -290,6 +290,7 @@ GM_addStyle([
 				,'Google Ads'
 				,'Grant Writing'
 				,'Graphic Design'
+				,'HighLevel'
 				,'HubSpot'
 				,'Human Resource Management'
 				,'Illustration'
