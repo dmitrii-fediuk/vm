@@ -191,6 +191,8 @@
 	,'Supplier Search'
 	,'Teaching English'
 	,'Telemarketing'
+	,'TikTok Ad'
+	,'TikTok Marketing'
 	,'Trading Automation'
 	,'Trading Strategy'
 	,'Training'
