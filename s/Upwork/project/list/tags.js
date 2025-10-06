@@ -151,6 +151,7 @@
 	,'Photography'
 	,'Podcast'
 	,'Post Template'
+	,'Presentation Design'
 	,'Price & Quote Negotiation'
 	,'Product Photography'
 	,'Project Management'
