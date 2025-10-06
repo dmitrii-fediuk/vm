@@ -203,6 +203,7 @@
 	,'Supplier Search'
 	,'Teaching English'
 	,'Telemarketing'
+	,'TikTok'
 	,'TikTok Ad'
 	,'TikTok Marketing'
 	,'Trading Automation'
