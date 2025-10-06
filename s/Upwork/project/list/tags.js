@@ -143,6 +143,7 @@
 	,'Mobile App Development'
 	,'Modeling'
 	,'Motion Graphics'
+	,'Narrative'
 	,'Online Chat Support'
 	,'Outbound Sales'
 	,'Outreach Strategy'
