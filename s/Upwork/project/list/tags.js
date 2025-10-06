@@ -82,6 +82,8 @@
 	,'Customer Service Training'
 	,'DApps'
 	,'DaVinci Resolve'
+	,'Dental Care'
+	,'Dentistry'
 	,'Digital Project Management'
 	,'Drafting'
 	,'Dropshipping'
