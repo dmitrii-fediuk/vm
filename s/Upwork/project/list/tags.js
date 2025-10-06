@@ -143,6 +143,7 @@
 	,'Marketing Automation'
 	,'Marketing Strategy'
 	,'Mechanical Engineering'
+	,'Media Buying'
 	,'Medical Equipment & Supplies'
 	,'MetaTrader 5'
 	,'Mobile App Development'
