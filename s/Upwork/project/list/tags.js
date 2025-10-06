@@ -185,6 +185,7 @@
 	,'Scriptwriting'
 	,'Search Engine Marketing Strategy'
 	,'Search Engine Optimization'
+	,'Sewing'
 	,'Scheduling'
 	,'Singing'
 	,'Sketch'
