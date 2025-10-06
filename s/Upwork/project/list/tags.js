@@ -17,6 +17,7 @@
 // 5) https://g.co/gemini/share/049320c5e4e5
 ['df', 'upwork', 'project', 'list'].reduce((o, k) => o[k] ??= {}, unsafeWindow).tags = [
 	'2D Animation'
+	,'2D Illustration'
 	,'3D Design'
 	,'3D Modeling'
 	,'3D Rendering'
@@ -55,9 +56,12 @@
 	,'Catalog Design'
 	,'CNC Programming'
 	,'Campaign Management'
+	,'Character Design'
 	,'Chart Presentation'
 	,'Chemistry'
+	,'Children\'s Book Illustration'
 	,'Circuit Design'
+	,'Clip Studio Paint'
 	,'Cold Calling'
 	,'Comedy Writing'
 	,'Content Creation'
@@ -124,6 +128,7 @@
 	,'Lead Generation Content Creation'
 	,'Lead Generation Strategy'
 	,'Lead Generation'
+	,'Line Drawing'
 	,'LinkedIn'
 	,'LinkedIn Recruiting'
 	,'Live Interpretation'
