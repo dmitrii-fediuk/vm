@@ -48,6 +48,7 @@
 	,'Blockchain'
 	,'Blog Writing'
 	,'Bubble.io'
+	,'Business Presentation'
 	,'Business Proposal Writing'
 	,'Buying'
 	,'Canva'
