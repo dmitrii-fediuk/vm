@@ -179,6 +179,7 @@
 	,'Scriptwriting'
 	,'Search Engine Marketing Strategy'
 	,'Search Engine Optimization'
+	,'Scheduling'
 	,'Singing'
 	,'Sketch'
 	,'Smartphone'
