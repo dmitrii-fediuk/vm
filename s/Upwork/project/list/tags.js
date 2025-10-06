@@ -97,6 +97,7 @@
 	,'Financial Analysis'
 	,'Financial Projection'
 	,'Google Ads'
+	,'Google My Business Listing'
 	,'Grant Writing'
 	,'Graphic Design'
 	,'HighLevel'
