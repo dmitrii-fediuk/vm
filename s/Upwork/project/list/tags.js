@@ -54,6 +54,7 @@
 	,'Catalog Design'
 	,'CNC Programming'
 	,'Campaign Management'
+	,'Chart Presentation'
 	,'Chemistry'
 	,'Circuit Design'
 	,'Cold Calling'
