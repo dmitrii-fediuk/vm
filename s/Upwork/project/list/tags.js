@@ -106,6 +106,7 @@
 	,'Google Review'
 	,'Grant Writing'
 	,'Graphic Design'
+	,'HARO Link Building'
 	,'HighLevel'
 	,'HubSpot'
 	,'Human Resource Management'
