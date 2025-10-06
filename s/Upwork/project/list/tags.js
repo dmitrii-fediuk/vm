@@ -205,6 +205,7 @@
 	,'Supplier Search'
 	,'Teaching English'
 	,'Telemarketing'
+	,'Textile Design'
 	,'TikTok'
 	,'TikTok Ad'
 	,'TikTok Marketing'
