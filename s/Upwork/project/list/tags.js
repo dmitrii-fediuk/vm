@@ -52,6 +52,7 @@
 	,'Blockchain Development'
 	,'Blockchain'
 	,'Blog Writing'
+	,'Bookkeeping'
 	,'Bubble.io'
 	,'Business Presentation'
 	,'Business Proposal Writing'
