@@ -79,6 +79,7 @@
 	,'Communication Etiquette'
 	,'Content Creation'
 	,'Content Marketing Strategy'
+	,'Content SEO'
 	,'Content Strategy'
 	,'Content Writing'
 	,'Conversion Rate Optimization'
