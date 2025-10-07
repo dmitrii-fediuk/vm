@@ -221,6 +221,7 @@
 	,'Structural Engineering'
 	,'Supplier Search'
 	,'Teaching English'
+	,'Team Management'
 	,'Telemarketing'
 	,'Testimonial Video'
 	,'Textile Design'
