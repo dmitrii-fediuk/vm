@@ -124,6 +124,7 @@
 	,'Financial Analysis'
 	,'Financial Modeling'
 	,'Financial Projection'
+	,'Floor Plan Design'
 	,'Game Development'
 	,'Google Ads'
 	,'Google My Business Listing'
