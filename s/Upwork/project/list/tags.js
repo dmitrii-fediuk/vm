@@ -53,6 +53,8 @@
 	,'Blockchain'
 	,'Blog Writing'
 	,'Bookkeeping'
+	,'Brand Guidelines'
+	,'Brand Identity Design'
 	,'Bubble.io'
 	,'Business Presentation'
 	,'Business Proposal Writing'
