@@ -198,6 +198,7 @@
 	,'Singing'
 	,'Sketch'
 	,'Slide Animation'
+	,'Slide Transition'
 	,'Smartphone'
 	,'Social Media Content Creation'
 	,'Social Media Design'
