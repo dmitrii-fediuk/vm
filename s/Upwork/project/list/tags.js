@@ -211,6 +211,7 @@
 	,'Sewing Pattern'
 	,'Sewing'
 	,'Shopify Development'
+	,'Shopify Marketing'
 	,'Singing'
 	,'Sketch'
 	,'Slide Animation'
