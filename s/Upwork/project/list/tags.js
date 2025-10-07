@@ -20,6 +20,7 @@
 	,'2D Illustration'
 	,'3D Animation'
 	,'3D Design'
+	,'3D Floor Plan'
 	,'3D Modeling'
 	,'3D Rendering'
 	,'A/B Testing'
