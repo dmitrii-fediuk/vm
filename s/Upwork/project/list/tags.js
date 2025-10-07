@@ -67,6 +67,7 @@
 	,'Children\'s Book Illustration'
 	,'Circuit Design'
 	,'Clip Studio Paint'
+	,'Coaching'
 	,'Cold Calling'
 	,'Comedy Writing'
 	,'Content Creation'
