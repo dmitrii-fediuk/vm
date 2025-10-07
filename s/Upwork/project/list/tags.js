@@ -156,6 +156,7 @@
 	,'Medical Equipment & Supplies'
 	,'MetaTrader 4'
 	,'MetaTrader 5'
+	,'Microsoft PowerPoint'
 	,'Mobile App Development'
 	,'Modeling'
 	,'Motion Graphics'
