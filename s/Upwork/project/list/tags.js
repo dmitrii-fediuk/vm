@@ -270,6 +270,7 @@
 	,'Web Design'
 	,'Webinar'
 	,'Wedding Photography'
+	,`Web3`
 	,'Wix'
 	,'Xamarin'
 	,'YouTube'
