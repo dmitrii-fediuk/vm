@@ -152,6 +152,7 @@
 	,'LinkedIn Recruiting'
 	,'Live Interpretation'
 	,'Looker Studio'
+	,'Maxon Cinema 4D'
 	,'MQL 4'
 	,'ManyChat'
 	,'Make.com'
