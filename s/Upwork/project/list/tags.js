@@ -200,6 +200,7 @@
 	,'Publishing'
 	,'QA Testing'
 	,'Recruiting'
+	,'Replit'
 	,'SEMrush'
 	,'SEO Backlinking'
 	,'SEO Keyword Research'
