@@ -18,6 +18,7 @@
 ['df', 'upwork', 'project', 'list'].reduce((o, k) => o[k] ??= {}, unsafeWindow).tags = [
 	'2D Animation'
 	,'2D Illustration'
+	,'3D Animation'
 	,'3D Design'
 	,'3D Modeling'
 	,'3D Rendering'
