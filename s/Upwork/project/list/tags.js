@@ -197,6 +197,7 @@
 	,'SEMrush'
 	,'SEO Backlinking'
 	,'SEO Keyword Research'
+	,'SEO Strategy'
 	,'Sales & Marketing'
 	,'Sales'
 	,'Scheduling'
