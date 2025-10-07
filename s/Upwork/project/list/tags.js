@@ -197,6 +197,7 @@
 	,'Shopify Development'
 	,'Singing'
 	,'Sketch'
+	,'Slide Animation'
 	,'Smartphone'
 	,'Social Media Content Creation'
 	,'Social Media Design'
