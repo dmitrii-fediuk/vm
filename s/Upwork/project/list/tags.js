@@ -110,6 +110,7 @@
 	,'Email Copywriting'
 	,'Email Marketing Strategy'
 	,'Email Marketing'
+	,'Email Outreach'
 	,'English Tutoring'
 	,'English'
 	,'Event Management'
