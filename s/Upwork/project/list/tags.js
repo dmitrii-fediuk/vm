@@ -189,6 +189,7 @@
 	,'Post Template'
 	,'Presentation Design'
 	,'Price & Quote Negotiation'
+	,'Product Design'
 	,'Product Photography'
 	,'Project Management'
 	,'Proofreading'
