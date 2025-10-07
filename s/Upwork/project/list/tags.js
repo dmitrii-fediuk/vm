@@ -133,6 +133,7 @@
 	,'Internet Marketing'
 	,'iOS'
 	,'iPad App Development'
+	,'Java'
 	,'Knitwear'
 	,'Landing Page'
 	,'Lead Generation Analysis'
