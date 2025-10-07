@@ -112,6 +112,7 @@
 	,'Figma'
 	,'Film Editing'
 	,'Financial Analysis'
+	,'Financial Modeling'
 	,'Financial Projection'
 	,'Google Ads'
 	,'Google My Business Listing'
