@@ -122,6 +122,7 @@
 	,'Exterior Rendering'
 	,'Facebook Ads Manager'
 	,'Facebook Advertising'
+	,'Fashion Consultation'
 	,'Fashion Design'
 	,'Figma'
 	,'Film Editing'
