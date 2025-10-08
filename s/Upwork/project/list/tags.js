@@ -255,6 +255,7 @@
 	,'Training'
 	,'Translation'
 	,'Twitter/X'
+	,'UGC'
 	,'UI Animation'
 	,'UI Graphics'
 	,'UI/UX Prototyping'
