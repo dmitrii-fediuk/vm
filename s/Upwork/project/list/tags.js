@@ -180,6 +180,7 @@
 	,'MetaTrader 4'
 	,'MetaTrader 5'
 	,'Microsoft PowerPoint'
+	,'Mobile App'
 	,'Mobile App Development'
 	,'Modeling'
 	,'Motion Graphics'
