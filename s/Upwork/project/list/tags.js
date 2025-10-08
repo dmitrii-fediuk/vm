@@ -276,6 +276,7 @@
 	,'Virtual Assistance'
 	,'Virtual Reality'
 	,'Voice Acting'
+	,'Voice Talent'
 	,'YouTube Thumbnail'
 	,'Voice-Over'
 	,'Web Design'
