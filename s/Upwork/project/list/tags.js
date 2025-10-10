@@ -188,6 +188,7 @@
 	,'Modeling'
 	,'Motion Graphics'
 	,'Narrative'
+	,'Newspaper Journalism'
 	,'Off-Page SEO'
 	,'Online Chat Support'
 	,'Outbound Sales'
