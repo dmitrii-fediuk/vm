@@ -24,7 +24,8 @@ GM_addStyle([
 // 2025-10-10
 // language=CSS
 GM_addStyle([
-	'header' // 2025-10-10
+	'#vp-js-mobile__navigation' // 2025-10-10
+	,'header' // 2025-10-10
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
