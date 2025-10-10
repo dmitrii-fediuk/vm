@@ -127,6 +127,7 @@
 	,'Email Marketing'
 	,'Email Outreach'
 	,'Employment Dispute'
+	,'Employment Law'
 	,'English Tutoring'
 	,'English'
 	,'Environment & Green Technology'
