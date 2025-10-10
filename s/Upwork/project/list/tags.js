@@ -82,6 +82,8 @@
 	,'Children\'s Book Illustration'
 	,'Circuit Design'
 	,'Civil Engineering'
+	,'Clinical Trial'
+	,'Clinical Trial Management System'
 	,'Clip Studio Paint'
 	,'Coaching'
 	,'Cold Call'
