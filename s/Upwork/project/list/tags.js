@@ -148,6 +148,7 @@
 	,'Google Ad Manager'
 	,'Google Ads'
 	,'Google My Business Listing'
+	,'Google My Business Optimization'
 	,'Google Review'
 	,'Grant Writing'
 	,'Graphic Design'
