@@ -114,6 +114,7 @@
 	,'Drafting'
 	,'Dropshipping'
 	,'ESL Teaching'
+	,'ESP32'
 	,'Editorial Writing'
 	,'Electrical Engineering'
 	,'Elementor'
