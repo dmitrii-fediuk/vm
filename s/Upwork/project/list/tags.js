@@ -313,6 +313,7 @@
 	,'YouTube Marketing'
 	,'YouTube Monetization'
 	,'Zapier'
+	,'Zoho Creator'
 	,'Zoom Video Conferencing'
 	,'iOS Development'
 ];
