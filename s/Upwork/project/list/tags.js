@@ -233,6 +233,7 @@
 	,'Sewing'
 	,'Shopify Development'
 	,'Shopify Marketing'
+	,'Shopify Theme'
 	,'Singing'
 	,'Sketch'
 	,'Slide Animation'
