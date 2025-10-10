@@ -167,6 +167,7 @@
 	,'Knitwear'
 	,'Land Surveying'
 	,'Landing Page'
+	,'Layout Design'
 	,'Lead Generation Analysis'
 	,'Lead Generation Content Creation'
 	,'Lead Generation Strategy'
