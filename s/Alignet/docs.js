@@ -303,4 +303,4 @@ GM_addStyle([
 );
 // 2025-10-10
 // language=CSS
-//GM_addStyle('body {margin: 0 1rem !important;}');
+GM_addStyle('body {margin: 0 1rem !important;}');
