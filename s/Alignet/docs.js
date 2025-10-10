@@ -35,6 +35,7 @@ GM_addStyle([
 // 2025-10-10
 // language=CSS
 GM_addStyle([
+	'#main-content' // 2025-10-10
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
