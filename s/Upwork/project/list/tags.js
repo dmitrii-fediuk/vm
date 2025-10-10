@@ -223,6 +223,7 @@
 	,'Public Relations'
 	,'Publishing'
 	,'QA Testing'
+	,'Quantum Computing'
 	,'Recruiting'
 	,'Replit'
 	,'SEMrush'
