@@ -25,6 +25,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#vp-js-mobile__navigation' // 2025-10-10
+	,'footer' // 2025-10-10
 	,'header' // 2025-10-10
 ]
 	 // language=Javascript
