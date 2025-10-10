@@ -255,6 +255,7 @@
 	,'Teaching English'
 	,'Team Management'
 	,'Telemarketing'
+	,'Test Automation'
 	,'Testimonial Video'
 	,'Textile Design'
 	,'TikTok'
