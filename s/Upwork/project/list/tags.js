@@ -197,6 +197,7 @@
 	,'Meta Quest'
 	,'MetaTrader 4'
 	,'MetaTrader 5'
+	,'Microsoft Excel'
 	,'Microsoft PowerPoint'
 	,'Mobile App Development'
 	,'Mobile App'
