@@ -143,6 +143,7 @@
 	,'Financial Projection'
 	,'Floor Plan Design'
 	,'Game Development'
+	,'Game UI/UX Design'
 	,'Gaming NFT'
 	,'Google Ad Manager'
 	,'Google Ads'
