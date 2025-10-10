@@ -34,6 +34,7 @@
 	,'Adobe InDesign'
 	,'Adobe Lightroom'
 	,'Adobe Photoshop'
+	,'Agile Project Management'
 	,'Amazon Listing Optimization'
 	,'Android'
 	,'Android App Development'
