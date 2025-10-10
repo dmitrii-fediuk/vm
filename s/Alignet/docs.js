@@ -169,6 +169,14 @@ GM_addStyle([
 // 2025-10-10
 // language=CSS
 GM_addStyle([
+	'main' // 2025-10-10
+]
+	 // language=Javascript
+	.join(',') + '{gap: 0 !important;}')
+;
+// 2025-10-10
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{height: unset !important;}')
