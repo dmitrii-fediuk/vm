@@ -51,6 +51,7 @@ if ('product' === document.querySelector('meta[name="twitter:card"]')?.content) 
 		,'[data-fragment-name="Navigation"]'
 		,'[data-partial-fragment-name="MarketingProductDetail"][data-partial-fragment-part="breadcrumb-without-gender"]'
 		,'[data-partial-fragment-name="MarketingProductDetail"][data-partial-fragment-part="seo-content"]'
+		,'[fragment-partial="flash-sales-banner"]' // 2025-10-10
 		,'article.questions-wrapper'
 		,'article[data-drroot="product-reviews"]'
 	]
