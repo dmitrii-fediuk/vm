@@ -4,7 +4,7 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Alignet/docs.js
 // @icon https://docs.alignet.com/__assets-5ae8127f-cd07-4738-b1e9-d974e1d377dc/image/Recurso%201@4x.png
 // @match https://docs.alignet.com/*
-// @name O'Reilly / Learning
+// @name Alignet / Docs
 // ==/UserScript==
 // 2025-10-10 "Improve `alignet.com`": https://github.com/dmitrii-fediuk/vm/issues/114
 // 2025-10-10
@@ -24,6 +24,7 @@ GM_addStyle([
 // 2025-10-10
 // language=CSS
 GM_addStyle([
+	'header' // 2025-10-10
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
