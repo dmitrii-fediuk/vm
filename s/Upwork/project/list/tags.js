@@ -239,6 +239,7 @@
 	,'Sewing'
 	,'Shopify Development'
 	,'Shopify Marketing'
+	,'Shopify Templates'
 	,'Shopify Theme'
 	,'Singing'
 	,'Sketch'
