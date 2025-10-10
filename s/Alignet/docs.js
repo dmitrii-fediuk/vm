@@ -27,6 +27,7 @@ GM_addStyle([
 	'#vp-js-mobile__navigation' // 2025-10-10
 	,'footer' // 2025-10-10
 	,'header' // 2025-10-10
+	,'vp-article-pagination' // 2025-10-10
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
