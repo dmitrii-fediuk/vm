@@ -71,6 +71,7 @@ GM_addStyle([
 // 2025-10-10
 // language=CSS
 GM_addStyle([
+	'main' // 2025-10-10
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
