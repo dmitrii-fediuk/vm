@@ -65,7 +65,8 @@ GM_addStyle([
 // 2025-10-10
 // language=CSS
 GM_addStyle([
-	'.table-wrap' // 2025-10-10
+	'#main-content' // 2025-10-10
+	,'.table-wrap' // 2025-10-10
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
