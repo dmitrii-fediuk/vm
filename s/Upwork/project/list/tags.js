@@ -179,6 +179,7 @@
 	,'LinkedIn Recruiting'
 	,'LinkedIn'
 	,'Live Interpretation'
+	,'Logo Design'
 	,'Looker Studio'
 	,'Maxon Cinema 4D'
 	,'MQL 4'
