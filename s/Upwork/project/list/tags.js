@@ -108,6 +108,7 @@
 	,'Drafting'
 	,'Dropshipping'
 	,'ESL Teaching'
+	,'Editorial Writing'
 	,'Electrical Engineering'
 	,'Elementor'
 	,'Email Automation'
