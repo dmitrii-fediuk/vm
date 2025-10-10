@@ -74,6 +74,7 @@ GM_addStyle([
 GM_addStyle([
 	'#article-inner-content' // 2025-10-10
 	,'.panel-macro' // 2025-10-10
+	,'.table-wrap'
 	,'main' // 2025-10-10
 ]
 	 // language=Javascript
