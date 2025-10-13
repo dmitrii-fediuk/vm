@@ -175,6 +175,7 @@
 	,'Game Development'
 	,'Game UI/UX Design'
 	,'Gaming NFT'
+	,'German Tutoring'
 	,'Ghostwriting'
 	,'Google Ad Manager'
 	,'Google Ads'
