@@ -36,6 +36,7 @@
 	,'Adobe Lightroom'
 	,'Adobe Photoshop'
 	,'Advertising Strategy'
+	,'Affiliate Marketing'
 	,'Agile Project Management'
 	,'Amazon Advertising Console'
 	,'Amazon Listing Optimization'
