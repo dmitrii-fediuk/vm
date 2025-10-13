@@ -157,6 +157,7 @@
 	,'Figma'
 	,'Film Editing'
 	,'Financial Analysis'
+	,'Financial Model'
 	,'Financial Modeling'
 	,'Financial Projection'
 	,'Floor Plan Design'
