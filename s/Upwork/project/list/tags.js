@@ -260,6 +260,8 @@
 	,'Newspaper Journalism'
 	,'Non-Disclosure Agreement'
 	,'Notion'
+	,'Nursing'
+	,'Nursing Management'
 	,'Off-Page SEO'
 	,'Online Chat Support'
 	,'Organic Traffic Growth'
