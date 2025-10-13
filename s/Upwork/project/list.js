@@ -353,7 +353,7 @@ GM_addStyle([
 						i.click();
 					}
 					else {
-						debugger;
+						//debugger;
 					}
 				// 2025-06-06
 				// Previously, I had `50` here.
