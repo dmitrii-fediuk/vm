@@ -187,6 +187,7 @@
 	,'Line Drawing'
 	,'LinkedIn Recruiting'
 	,'LinkedIn'
+	,'Literature'
 	,'Live Interpretation'
 	,'Logo Design'
 	,'Looker Studio'
