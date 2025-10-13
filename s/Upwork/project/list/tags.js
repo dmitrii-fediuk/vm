@@ -163,6 +163,7 @@
 	,'HubSpot'
 	,'Human Resource Management'
 	,'Illustration'
+	,'Immigration Law'
 	,'Industrial Design'
 	,'Influencer Outreach'
 	,'Instagram'
