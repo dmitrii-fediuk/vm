@@ -111,6 +111,7 @@
 	,'Copyright Registration'
 	,'Copyright Search'
 	,'Copywriting'
+	,'Course Creation'
 	,'Cover Art Thumbnail'
 	,'Creative Strategy'
 	,'Creative Writing'
