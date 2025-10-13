@@ -93,6 +93,7 @@
 	,'Cold Calling'
 	,'Comedy Writing'
 	,'Communication Etiquette'
+	,'Communication Skills'
 	,'Content Creation'
 	,'Content Marketing Strategy'
 	,'Content SEO'
