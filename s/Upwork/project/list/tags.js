@@ -52,6 +52,7 @@
 	,'Audio Engineering'
 	,'Audio Production'
 	,'AutoCAD Civil 3D'
+	,'AutoCAD HVAC Loads Calculations'
 	,'Autodesk Fusion 360'
 	,'Autodesk Revit'
 	,'B2B Lead Generation'
