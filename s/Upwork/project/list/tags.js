@@ -164,6 +164,7 @@
 	,'Financial Modeling'
 	,'Financial Projection'
 	,'Floor Plan Design'
+	,'Food & Beverage'
 	,'Forex Trading'
 	,'Functional Testing'
 	,'Fundraising'
