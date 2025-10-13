@@ -327,6 +327,7 @@
 	,'Structural Engineering'
 	,'Supplier Search'
 	,'Teaching English'
+	,'Teaching Spanish'
 	,'Team Management'
 	,'Telemarketing'
 	,'Test Automation'
