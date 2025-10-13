@@ -92,6 +92,7 @@
 	,'Circuit Design'
 	,'Civil Engineering'
 	,'Clean Technology'
+	,'Client Management'
 	,'Clinical Trial'
 	,'Clinical Trial Management System'
 	,'Clip Studio Paint'
