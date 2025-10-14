@@ -147,6 +147,7 @@
 	,'Elearning'
 	,'Electrical Engineering'
 	,'Elementor'
+	,'Email & Newsletter'
 	,'Email Automation'
 	,'Email Campaign Setup'
 	,'Email Communication'
