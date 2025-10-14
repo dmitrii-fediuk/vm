@@ -100,6 +100,7 @@
 	,'Cold Call'
 	,'Cold Calling'
 	,'Cold Email'
+	,'College Essay'
 	,'Comedy Writing'
 	,'Communication Etiquette'
 	,'Communication Skills'
