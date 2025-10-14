@@ -158,6 +158,7 @@
 	,'Email Campaign Setup'
 	,'Email Communication'
 	,'Email Copywriting'
+	,'Email Design'
 	,'Email Marketing Strategy'
 	,'Email Marketing'
 	,'Email Outreach'
