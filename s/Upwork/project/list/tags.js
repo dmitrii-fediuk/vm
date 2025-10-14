@@ -182,6 +182,7 @@
 	,'Financial Modeling'
 	,'Financial Projection'
 	,'Floor Plan Design'
+	,'Flutter'
 	,'Food & Beverage'
 	,'Forex Trading'
 	,'Functional Testing'
