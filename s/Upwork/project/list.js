@@ -148,7 +148,8 @@ GM_addStyle([
 			// 2025-10-02 https://www.iban.com/country-codes
 			const ll = [
 				[
-					'Brazil', 'BRA'
+					'Bangladesh', 'BGD'
+					,'Brazil', 'BRA'
 					,'Egypt', 'EGY'
 					,'India', 'IND'
 					,'Indonesia', 'IDN'
