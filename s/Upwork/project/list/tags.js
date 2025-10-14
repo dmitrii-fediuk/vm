@@ -301,6 +301,7 @@
 	,'Public Relations'
 	,'Publishing'
 	,'QA Testing'
+	,'Quality Assurance'
 	,'Quantum Computing'
 	,'Recruiting'
 	,'Replit'
