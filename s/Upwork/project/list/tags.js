@@ -107,6 +107,7 @@
 	,'Communication Skills'
 	,'Compositing'
 	,'Concept Video'
+	,'Construction Estimating'
 	,'Content Creation'
 	,'Content Marketing'
 	,'Content Marketing Strategy'
