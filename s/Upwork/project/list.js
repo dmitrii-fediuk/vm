@@ -151,6 +151,7 @@ GM_addStyle([
 					'Egypt', 'EGY'
 					,'India', 'IND'
 					,'Indonesia', 'IDN'
+					,'Nigeria', 'NGA'
 					,'Pakistan', 'PAK'
 					,'Philippines', 'PHL'
 					,'Vietnam', 'VNM'
