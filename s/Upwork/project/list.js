@@ -148,24 +148,24 @@ GM_addStyle([
 			// 2025-10-02 https://www.iban.com/country-codes
 			const ll = [
 				[
-					'Egypt', 'EGY'
+					'Brazil', 'BRA'
+					,'Egypt', 'EGY'
 					,'India', 'IND'
 					,'Indonesia', 'IDN'
 					,'Nigeria', 'NGA'
 					,'Pakistan', 'PAK'
 					,'Philippines', 'PHL'
+					,'Ukraine', 'UKR'
 					,'Vietnam', 'VNM'
 				]
 				,[
-					'Brazil', 'BRA'
-					,'China', 'CHN'
+					'China', 'CHN'
 					,'CZE'
 					,'Germany', 'DEU'
 					,'Israel', 'ISR'
 					,'Netherlands', 'NLD'
 					,'Poland', 'POL'
 					,'Saudi Arabia', 'SAU'
-					,'Ukraine', 'UKR'
 					,'United Arab Emirates', 'ARE'
 				]
 			];
