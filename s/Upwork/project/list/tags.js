@@ -371,6 +371,7 @@
 	,'UI Animation'
 	,'UI Graphics'
 	,'UI/UX Prototyping'
+	,'UX & UI'
 	,'Unity'
 	,'User Experience Design'
 	,'User Interface Design'
