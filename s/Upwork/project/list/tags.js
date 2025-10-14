@@ -345,6 +345,7 @@
 	,'Scheduling'
 	,'Science Tutoring'
 	,'Scriptwriting'
+	,'Search Engine Marketing'
 	,'Search Engine Marketing Strategy'
 	,'Search Engine Optimization'
 	,'Sewing Pattern'
