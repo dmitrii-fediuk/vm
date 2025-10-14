@@ -328,6 +328,7 @@
 	,'Resume Screening'
 	,'Resume Writing'
 	,'SEMrush'
+	,'SEO Audit'
 	,'SEO Backlinking'
 	,'SEO Keyword Research'
 	,'SEO Strategy'
