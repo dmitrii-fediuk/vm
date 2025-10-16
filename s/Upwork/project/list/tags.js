@@ -309,6 +309,7 @@
 	,'Pixel Art'
 	,'Podcast'
 	,'Post Template'
+	,'PowerPoint Presentation'
 	,'Presentation Design'
 	,'Price & Quote Negotiation'
 	,'Product Development'
