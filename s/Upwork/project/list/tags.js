@@ -172,6 +172,7 @@
 	,'English Tutoring'
 	,'English'
 	,'Environment & Green Technology'
+	,'Ethical Hacking'
 	,'Event Management'
 	,'Event Planning'
 	,'Event Setup'
