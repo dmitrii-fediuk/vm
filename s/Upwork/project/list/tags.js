@@ -376,6 +376,7 @@
 	,'Sound Mixing'
 	,'Sourcing'
 	,'Spokesperson Video'
+	,'Sports'
 	,'Spring Framework'
 	,'Steel Structure'
 	,'Stock Market'
