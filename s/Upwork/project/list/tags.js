@@ -338,6 +338,7 @@
 	,'SEMrush'
 	,'SEO Audit'
 	,'SEO Backlinking'
+	,'SEO Competitor Analysis'
 	,'SEO Keyword Research'
 	,'SEO Strategy'
 	,'Sales & Marketing'
