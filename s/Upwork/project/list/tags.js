@@ -281,6 +281,7 @@
 	,'Mobile App'
 	,'Modeling'
 	,'Motion Graphics'
+	,'Music & Sound Design'
 	,'Narration'
 	,'Narrative'
 	,'Newspaper Journalism'
