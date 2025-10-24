@@ -62,6 +62,7 @@
 	,'AutoCAD Civil 3D'
 	,'AutoCAD HVAC Loads Calculations'
 	,'Autodesk Fusion 360'
+	,'Autodesk Maya'
 	,'Autodesk Revit'
 	,'B2B Lead Generation'
 	,'B2B Marketing'
