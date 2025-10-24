@@ -23,6 +23,7 @@
 	,'3D Floor Plan'
 	,'3D Modeling'
 	,'3D Rendering'
+	,'3D Rigging'
 	,'A/B Testing'
 	,'AI Trading'
 	,'AI Video Generation'
