@@ -277,6 +277,7 @@
 	,'Meta Quest'
 	,'MetaTrader 4'
 	,'MetaTrader 5'
+	,'Microcontroller Programming'
 	,'Microsoft Excel'
 	,'Microsoft PowerPoint'
 	,'Mobile App Development'
