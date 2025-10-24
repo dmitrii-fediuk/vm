@@ -113,6 +113,7 @@
 	,'Communications'
 	,'Composite Material'
 	,'Compositing'
+	,'Computer Hardware Installation'
 	,'Concept Video'
 	,'Construction Estimating'
 	,'Content Creation'
