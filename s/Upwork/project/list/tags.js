@@ -217,6 +217,7 @@
 	,'Green Technology'
 	,'HARO Link Building'
 	,'HVAC System Design'
+	,'Hardware Prototyping'
 	,'HighLevel'
 	,'HubSpot'
 	,'Human Resource Management'
