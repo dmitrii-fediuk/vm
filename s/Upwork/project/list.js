@@ -157,6 +157,7 @@ GM_addStyle([
 					,'Pakistan', 'PAK'
 					,'Philippines', 'PHL'
 					,'Ukraine', 'UKR'
+					,'Uzbekistan', 'UZB'
 					,'Vietnam', 'VNM'
 				]
 				,[
