@@ -212,6 +212,15 @@ GM_addStyle([
 					const ta = t.match(/\w+|\p{Extended_Pictographic}/gu);
 					//return banned.some(b => b.m ? t.includes(b.s) : ta.includes(b.s));
 					r = banned.some(b => {
+						// 2025-03-23
+						// 2025-10-26
+						// 1.1) If the banned phrase consists of multiple words,
+						// we search for it in the project text without modification.
+						// 1.2) Otherwise (if the banned phrase consists of a single word),
+						// we split the project's text into an array of all words and emojies,
+						// and then look for the banned word in this array.
+						// 2.1)
+						// 2.2) https://gemini.google.com/share/f44517aab02b
 						const r = b.m ? t.includes(b.s) : ta.includes(b.s);
 						if (r) {
 							console.log(b.s);
