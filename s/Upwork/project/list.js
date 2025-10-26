@@ -145,34 +145,8 @@ GM_addStyle([
 		 */
 		const fCountries = (() => {
 			const l = +new URL(location).searchParams.get('df-countries');
-			// 2025-10-02 https://www.iban.com/country-codes
-			const ll = [
-				[
-					'Bangladesh', 'BGD'
-					,'Brazil', 'BRA'
-					,'Egypt', 'EGY'
-					,'India', 'IND'
-					,'Indonesia', 'IDN'
-					,'Nigeria', 'NGA'
-					,'Pakistan', 'PAK'
-					,'Philippines', 'PHL'
-					,'Ukraine', 'UKR'
-					,'Uzbekistan', 'UZB'
-					,'Vietnam', 'VNM'
-				]
-				,[
-					'China', 'CHN'
-					,'CZE'
-					,'Germany', 'DEU'
-					,'Israel', 'ISR'
-					,'Netherlands', 'NLD'
-					,'Poland', 'POL'
-					,'Saudi Arabia', 'SAU'
-					,'United Arab Emirates', 'ARE'
-				]
-			];
 			// 2025-10-02 https://g.co/gemini/share/e0109654ff2a
-			const countries = l ? ll.slice(0, l).flat() : [];
+			const countries = l ? unsafeWindow.df.upwork.project.list.countries.slice(0, l).flat() : [];
 			// 2025-10-02 https://g.co/gemini/share/c73dc86cff0a
 			return a => {
 				const c = l && a.querySelector('li[data-test="location"] > div > span')
