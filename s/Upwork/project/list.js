@@ -202,7 +202,8 @@ GM_addStyle([
 			const banned = ᛡ.phrases.map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
 			return a => !enable || !(['h2', 'p.text-body-sm'].some(s => {
 				const e = a.querySelector(s);
-				// 2025-03-18 `e` is `null` if the project is already hidden via the UI («Just not interested»).
+				// 2025-03-18
+				// `e` is `null` if the project is already hidden via the UI («Just not interested»).
 				let r = !!e;
 				if (r) {
 					const t = e.textContent.toUpperCase();
