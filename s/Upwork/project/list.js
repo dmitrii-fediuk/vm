@@ -147,7 +147,7 @@ GM_addStyle([
 		const fCountries = (() => {
 			const l = +new URL(location).searchParams.get('df-countries');
 			// 2025-10-02 https://g.co/gemini/share/e0109654ff2a
-			const countries = l ? unsafeWindow.df.upwork.project.list.countries.slice(0, l).flat() : [];
+			const countries = l ? ᛡ.countries.slice(0, l).flat() : [];
 			// 2025-10-02 https://g.co/gemini/share/c73dc86cff0a
 			return a => {
 				const c = l && a.querySelector('li[data-test="location"] > div > span')
@@ -188,7 +188,7 @@ GM_addStyle([
 		 */
 		const fTags = (() => {
 			const enable = new URL(location).searchParams.has('df-tags');
-			const banned = unsafeWindow.df.upwork.project.list.tags;
+			const banned = ᛡ.tags;
 			return a => !enable ||
 				![...a.querySelectorAll('[data-test*="TokenClamp"] button[data-test="token"]')]
 					.some(t => banned.includes(t.textContent.trim()))
@@ -200,7 +200,7 @@ GM_addStyle([
 		 */
 		const fPhrases = (() => {
 			const enable = new URL(location).searchParams.has('df-phrases');
-			const banned = unsafeWindow.df.upwork.project.list.phrases.map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
+			const banned = ᛡ.phrases.map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
 			return a => !enable || !(['h2', 'p.text-body-sm'].some(s => {
 				const e = a.querySelector(s);
 				// 2025-03-18 `e` is `null` if the project is already hidden via the UI («Just not interested»).
