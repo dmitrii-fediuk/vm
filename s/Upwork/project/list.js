@@ -188,10 +188,9 @@ GM_addStyle([
 		 */
 		const fTags = (() => {
 			const enable = new URL(location).searchParams.has('df-tags');
-			const banned = ᛡ.tags;
 			return a => !enable ||
 				![...a.querySelectorAll('[data-test*="TokenClamp"] button[data-test="token"]')]
-					.some(t => banned.includes(t.textContent.trim()))
+					.some(t => ᛡ.tags.includes(t.textContent.trim()))
 			;
 		})();
 		/**
