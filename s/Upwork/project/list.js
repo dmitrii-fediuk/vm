@@ -219,7 +219,7 @@ GM_addStyle([
 						// 1.2) Otherwise (if the banned phrase consists of a single word),
 						// we split the project's text into an array of all words and emojies,
 						// and then look for the banned word in this array.
-						// 2.1)
+						// 2.1) https://gemini.google.com/share/fc90073bf8f3
 						// 2.2) https://gemini.google.com/share/f44517aab02b
 						const r = b.m ? t.includes(b.s) : ta.includes(b.s);
 						if (r) {
