@@ -225,6 +225,7 @@
 	,'Human Resource Management'
 	,'Illustration'
 	,'Immigration Law'
+	,'Inbound Marketing'
 	,'Industrial Design'
 	,'Influencer Outreach'
 	,'Instagram'
