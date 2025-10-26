@@ -207,7 +207,8 @@ GM_addStyle([
 				let r = !!e;
 				if (r) {
 					const t = e.textContent.toUpperCase();
-					// 2025-03-23 https://chatgpt.com/c/67df4ec4-a640-8003-8f17-7e3d5ba0d5e7
+					// 2025-03-23
+					// 2025-10-26 https://gemini.google.com/share/15c71ac2197f
 					const ta = t.match(/\w+|\p{Extended_Pictographic}/gu);
 					//return banned.some(b => b.m ? t.includes(b.s) : ta.includes(b.s));
 					r = banned.some(b => {
