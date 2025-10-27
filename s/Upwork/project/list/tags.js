@@ -52,8 +52,6 @@
 		,'Appointment Setting'
 		,'Architectural Design'
 		,'Architectural Rendering'
-		,'Art & Design'
-		,'Art Direction'
 		,'Articulate Storyline'
 		,'Audience Segmentation & Targeting'
 		,'Audio Engineering'
@@ -442,6 +440,7 @@
 		,`Web3`
 	]
 	,partial: [
-		'Marketing'
+		'Art'
+		,'Marketing'
 	]
 };
