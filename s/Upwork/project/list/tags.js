@@ -359,7 +359,6 @@
 		,'Zapier'
 		,'Zoho Creator'
 		,'eBay Listing'
-		,'iPad App Development'
 		,`Web3`
 	]
 	,partial: [
