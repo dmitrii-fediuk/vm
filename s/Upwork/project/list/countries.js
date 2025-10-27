@@ -92,6 +92,7 @@
 		,'Sudan', 'SDN'
 		,'Syria', 'SYR'
 		,'Tajikistan', 'TJK'
+		,'Tanzania', 'TZA'
 		,'Ukraine', 'UKR'
 		,'Uzbekistan', 'UZB'
 		,'Vietnam', 'VNM'
