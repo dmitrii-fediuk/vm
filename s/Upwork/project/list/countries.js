@@ -37,6 +37,8 @@
 		,'Cambodia', 'KHM'
 		,'Cameroon', 'CMR'
 		,'Central African Republic', 'CAF'
+		,'China', 'CHN'
+		,'Colombia', 'COL'
 		,'Egypt', 'EGY'
 		,'India', 'IND'
 		,'Indonesia', 'IDN'
@@ -48,8 +50,8 @@
 		,'Vietnam', 'VNM'
 	]
 	,[
-		'China', 'CHN'
-		,'CZE'
+
+		'CZE'
 		,'Germany', 'DEU'
 		,'Israel', 'ISR'
 		,'Netherlands', 'NLD'
