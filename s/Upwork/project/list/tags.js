@@ -49,7 +49,6 @@
 		,'Audio Engineering'
 		,'Audio Production'
 		,'Audiobook'
-		,'AutoCAD Civil 3D'
 		,'AutoCAD HVAC Loads Calculations'
 		,'Autodesk Fusion 360'
 		,'Autodesk Maya'
@@ -184,9 +183,6 @@
 		,'Forex Trading'
 		,'Functional Testing'
 		,'Fundraising'
-		,'Game Development'
-		,'Game UI/UX Design'
-		,'Gaming NFT'
 		,'General Transcription'
 		,'German Tutoring'
 		,'Ghostwriting'
@@ -435,6 +431,8 @@
 		'2D'
 		,'3D'
 		,'Art'
+		,'Game'
+		,'Gaming'
 		,'Marketing'
 	]
 };
