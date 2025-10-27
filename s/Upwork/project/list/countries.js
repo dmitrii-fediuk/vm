@@ -93,6 +93,7 @@
 		,'Syria', 'SYR'
 		,'Tajikistan', 'TJK'
 		,'Tanzania', 'TZA'
+		,'Tunisia', 'TUN'
 		,'Ukraine', 'UKR'
 		,'Uzbekistan', 'UZB'
 		,'Vietnam', 'VNM'
