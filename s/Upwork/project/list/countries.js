@@ -74,6 +74,8 @@
 		,'Mongolia', 'MNG'
 		,'Morocco', 'MAR'
 		,'Myanmar', 'MMR'
+		,'Namibia', 'NAM'
+		,'Nepal', 'NPL'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
 		,'Ukraine', 'UKR'
