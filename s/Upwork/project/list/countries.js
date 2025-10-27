@@ -40,6 +40,8 @@
 		,'China', 'CHN'
 		,'Colombia', 'COL'
 		,'Congo', 'COD'
+		,'Djibouti', 'DJI'
+		,'Ecuador', 'ECU'
 		,'Egypt', 'EGY'
 		,'India', 'IND'
 		,'Indonesia', 'IDN'
