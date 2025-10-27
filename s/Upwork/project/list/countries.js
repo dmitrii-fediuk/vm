@@ -73,6 +73,7 @@
 		,'Germany', 'DEU'
 		,'Hungary', 'HUN'
 		,'Israel', 'ISR'
+		,'Italy', 'ITA'
 		,'Netherlands', 'NLD'
 		,'Poland', 'POL'
 		,'Saudi Arabia', 'SAU'
