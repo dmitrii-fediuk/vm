@@ -50,6 +50,7 @@
 		,'Eswatini', 'SWZ'
 		,'Ethiopia', 'ETH'
 		,'Gabon', 'GAB'
+		,'Georgia', 'GEO'
 		,'Nigeria', 'NGA'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
