@@ -17,15 +17,7 @@
 // 5) https://g.co/gemini/share/049320c5e4e5
 ['df', 'upwork', 'project', 'list'].reduce((o, k) => o[k] ??= {}, unsafeWindow).tags = {
 	exact: [
-		'2D Animation'
-		,'2D Illustration'
-		,'3D Animation'
-		,'3D Design'
-		,'3D Floor Plan'
-		,'3D Modeling'
-		,'3D Rendering'
-		,'3D Rigging'
-		,'A/B Testing'
+		'A/B Testing'
 		,'AI Trading'
 		,'AI Video Generation'
 		,'AI Video Generator'
@@ -440,7 +432,9 @@
 		,`Web3`
 	]
 	,partial: [
-		'Art'
+		'2D'
+		,'3D'
+		,'Art'
 		,'Marketing'
 	]
 };
