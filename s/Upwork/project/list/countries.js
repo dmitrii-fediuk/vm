@@ -39,6 +39,7 @@
 		,'Central African Republic', 'CAF'
 		,'China', 'CHN'
 		,'Colombia', 'COL'
+		,'Congo', 'COD'
 		,'Egypt', 'EGY'
 		,'India', 'IND'
 		,'Indonesia', 'IDN'
