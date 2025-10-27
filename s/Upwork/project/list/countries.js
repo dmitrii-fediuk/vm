@@ -90,6 +90,7 @@
 		,'Serbia', 'SRB'
 		,'Somalia', 'SOM'
 		,'Sudan', 'SDN'
+		,'Syria', 'SYR'
 		,'Ukraine', 'UKR'
 		,'Uzbekistan', 'UZB'
 		,'Vietnam', 'VNM'
