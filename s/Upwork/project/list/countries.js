@@ -86,6 +86,8 @@
 		,'Philippines', 'PHL'
 		,'Romania', 'ROU'
 		,'Rwanda', 'RWA'
+		,'Senegal', 'SEN'
+		,'Serbia', 'SRB'
 		,'Ukraine', 'UKR'
 		,'Uzbekistan', 'UZB'
 		,'Vietnam', 'VNM'
