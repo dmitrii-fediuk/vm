@@ -48,6 +48,7 @@
 		,'India', 'IND'
 		,'Indonesia', 'IDN'
 		,'Eswatini', 'SWZ'
+		,'Ethiopia', 'ETH'
 		,'Nigeria', 'NGA'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
