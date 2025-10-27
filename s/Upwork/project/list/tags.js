@@ -420,5 +420,6 @@
 		,'Phone'
 		,'Press'
 		,'Psychology'
+		,'Resume'
 	]
 };
