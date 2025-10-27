@@ -80,6 +80,7 @@
 		,'Niger', 'NER'
 		,'Nigeria', 'NGA'
 		,'Pakistan', 'PAK'
+		,'Palestine', 'PSE'
 		,'Philippines', 'PHL'
 		,'Ukraine', 'UKR'
 		,'Uzbekistan', 'UZB'
