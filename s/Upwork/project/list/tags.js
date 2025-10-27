@@ -229,6 +229,7 @@
 	,'Industrial Design'
 	,'Influencer Outreach'
 	,'Instagram'
+	,'Interactive Design'
 	,'Interior Design'
 	,'Internet Marketing'
 	,'Investor Overview'
