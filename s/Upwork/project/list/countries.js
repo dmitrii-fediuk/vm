@@ -36,6 +36,7 @@
 		,'Cabo Verde', 'CPV'
 		,'Cambodia', 'KHM'
 		,'Cameroon', 'CMR'
+		,'Central African Republic', 'CAF'
 		,'Egypt', 'EGY'
 		,'India', 'IND'
 		,'Indonesia', 'IDN'
