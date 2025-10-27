@@ -76,6 +76,8 @@
 		,'Myanmar', 'MMR'
 		,'Namibia', 'NAM'
 		,'Nepal', 'NPL'
+		,'Nicaragua', 'NIC'
+		,'Niger', 'NER'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
 		,'Ukraine', 'UKR'
