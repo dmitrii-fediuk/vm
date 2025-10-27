@@ -359,8 +359,6 @@
 		,'Zapier'
 		,'Zoho Creator'
 		,'eBay Listing'
-		,'iOS Development'
-		,'iOS'
 		,'iPad App Development'
 		,`Web3`
 	]
@@ -394,5 +392,6 @@
 		,'Voice'
 		,'Wedding'
 		,'Zoom'
+		,'iOS'
 	]
 };
