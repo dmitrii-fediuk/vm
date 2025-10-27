@@ -104,6 +104,7 @@
 		,'Oman', 'OMN'
 		,'Poland', 'POL'
 		,'Portugal', 'PRT'
+		,'Qatar', 'QAT'
 		,'Saudi Arabia', 'SAU'
 		,'United Arab Emirates', 'ARE'
 	]
