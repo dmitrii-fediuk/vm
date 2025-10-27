@@ -62,6 +62,7 @@
 		,'Kazakhstan', 'KAZ'
 		,'Kenya', 'KEN'
 		,'Kyrgyzstan', 'KGZ'
+		,'Laos', 'LAO'
 		,'Nigeria', 'NGA'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
