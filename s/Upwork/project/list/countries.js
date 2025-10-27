@@ -73,6 +73,7 @@
 		,'Mexico', 'MEX'
 		,'Mongolia', 'MNG'
 		,'Morocco', 'MAR'
+		,'Myanmar', 'MMR'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
 		,'Ukraine', 'UKR'
