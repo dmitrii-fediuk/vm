@@ -84,6 +84,7 @@
 		,'Papua New Guinea', 'PNG'
 		,'Paraguay', 'PRY'
 		,'Philippines', 'PHL'
+		,'Romania', 'ROU'
 		,'Ukraine', 'UKR'
 		,'Uzbekistan', 'UZB'
 		,'Vietnam', 'VNM'
