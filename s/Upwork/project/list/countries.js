@@ -89,6 +89,7 @@
 		,'Senegal', 'SEN'
 		,'Serbia', 'SRB'
 		,'Somalia', 'SOM'
+		,'Sudan', 'SDN'
 		,'Ukraine', 'UKR'
 		,'Uzbekistan', 'UZB'
 		,'Vietnam', 'VNM'
