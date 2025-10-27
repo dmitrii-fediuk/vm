@@ -91,6 +91,7 @@
 		,'Somalia', 'SOM'
 		,'Sudan', 'SDN'
 		,'Syria', 'SYR'
+		,'Tajikistan', 'TJK'
 		,'Ukraine', 'UKR'
 		,'Uzbekistan', 'UZB'
 		,'Vietnam', 'VNM'
