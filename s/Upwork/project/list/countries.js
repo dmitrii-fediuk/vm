@@ -76,6 +76,7 @@
 		,'Hungary', 'HUN'
 		,'Israel', 'ISR'
 		,'Italy', 'ITA'
+		,'Kuwait', 'KWT'
 		,'Netherlands', 'NLD'
 		,'Poland', 'POL'
 		,'Saudi Arabia', 'SAU'
