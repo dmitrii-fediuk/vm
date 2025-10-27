@@ -71,6 +71,7 @@
 		,'Malawi', 'MWI'
 		,'Mali', 'MLI'
 		,'Mexico', 'MEX'
+		,'Mongolia', 'MNG'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
 		,'Ukraine', 'UKR'
