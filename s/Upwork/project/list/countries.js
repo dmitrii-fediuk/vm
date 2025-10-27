@@ -51,6 +51,7 @@
 		,'Ethiopia', 'ETH'
 		,'Gabon', 'GAB'
 		,'Georgia', 'GEO'
+		,'Ghana', 'GHA'
 		,'Nigeria', 'NGA'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
