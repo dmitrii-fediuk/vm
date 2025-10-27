@@ -32,6 +32,7 @@
 		,'Botswana', 'BWA'
 		,'Brazil', 'BRA'
 		,'Burkina Faso', 'BFA'
+		,'Burundi', 'BDI'
 		,'Egypt', 'EGY'
 		,'India', 'IND'
 		,'Indonesia', 'IDN'
