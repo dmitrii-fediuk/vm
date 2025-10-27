@@ -397,6 +397,7 @@
 		,'Resume'
 		,'SEO'
 		,'YouTube'
+		,'Voice'
 		,'Wedding'
 		,'Zoom'
 	]
