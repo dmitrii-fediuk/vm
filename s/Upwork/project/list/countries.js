@@ -35,6 +35,7 @@
 		,'Burundi', 'BDI'
 		,'Cabo Verde', 'CPV'
 		,'Cambodia', 'KHM'
+		,'Cameroon', 'CMR'
 		,'Egypt', 'EGY'
 		,'India', 'IND'
 		,'Indonesia', 'IDN'
