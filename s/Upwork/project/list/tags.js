@@ -91,7 +91,7 @@
 		,'Customer Service Training'
 		,'DApps'
 		,'DaVinci Resolve'
-		,'Dental Care'
+
 		,'Dentistry'
 		,'Design for Manufacturing'
 		,'Digital Project Management'
@@ -319,6 +319,7 @@
 		,'Copyright'
 		,'Crowdfunding'
 		,'Cryptocurrency'
+		,'Dental'
 		,'Electrical'
 		,'Email'
 		,'Employment'
