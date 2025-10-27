@@ -94,6 +94,7 @@
 		,'Tajikistan', 'TJK'
 		,'Tanzania', 'TZA'
 		,'Tunisia', 'TUN'
+		,'Turkmenistan', 'TKM'
 		,'Ukraine', 'UKR'
 		,'Uzbekistan', 'UZB'
 		,'Vietnam', 'VNM'
