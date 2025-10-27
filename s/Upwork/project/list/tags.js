@@ -183,6 +183,7 @@
 		,'Sourcing'
 		,'Sports'
 		,'Spring Framework'
+		,'Sprint Planning'
 		,'Steel Structure'
 		,'Structural Engineering'
 		,'Supplier Search'
