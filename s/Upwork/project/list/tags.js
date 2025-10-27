@@ -283,7 +283,6 @@
 		,'Promotional Video'
 		,'Proofreading'
 		,'Proposal Writing'
-		,'Psychology'
 		,'Public Relations'
 		,'Publishing'
 		,'QA Testing'
@@ -420,5 +419,6 @@
 		,'Marketing'
 		,'Phone'
 		,'Press'
+		,'Psychology'
 	]
 };
