@@ -57,6 +57,7 @@
 	,[
 
 		'CZE'
+		,'Estonia', 'EST'
 		,'Germany', 'DEU'
 		,'Israel', 'ISR'
 		,'Netherlands', 'NLD'
