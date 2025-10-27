@@ -359,7 +359,6 @@
 		,'Zapier'
 		,'Zoho Creator'
 		,'eBay Listing'
-		,`Web3`
 	]
 	,partial: [
 		'2D'
@@ -388,6 +387,7 @@
 		,'Resume'
 		,'SEO'
 		,'Voice'
+		,'Web3'
 		,'Wedding'
 		,'YouTube'
 		,'Zoom'
