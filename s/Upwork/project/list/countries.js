@@ -43,6 +43,8 @@
 		,'Djibouti', 'DJI'
 		,'Ecuador', 'ECU'
 		,'Egypt', 'EGY'
+		,'Equatorial Guinea', 'GNQ'
+		,'Eritrea', 'ERI'
 		,'India', 'IND'
 		,'Indonesia', 'IDN'
 		,'Nigeria', 'NGA'
