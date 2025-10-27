@@ -61,6 +61,7 @@
 		,'Iraq', 'IRQ'
 		,'Kazakhstan', 'KAZ'
 		,'Kenya', 'KEN'
+		,'Kyrgyzstan', 'KGZ'
 		,'Nigeria', 'NGA'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
