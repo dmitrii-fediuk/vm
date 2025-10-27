@@ -350,6 +350,7 @@
 		,'Psychology'
 		,'Resume'
 		,'SEO'
+		,'Social'
 		,'Testing'
 		,'TikTok'
 		,'Trademark'
