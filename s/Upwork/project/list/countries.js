@@ -49,7 +49,7 @@
 		,'Indonesia', 'IDN'
 		,'Eswatini', 'SWZ'
 		,'Ethiopia', 'ETH'
-		,'Fiji', 'FJI'
+		,'Gabon', 'GAB'
 		,'Nigeria', 'NGA'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
