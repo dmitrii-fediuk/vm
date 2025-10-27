@@ -47,6 +47,7 @@
 		,'Eritrea', 'ERI'
 		,'India', 'IND'
 		,'Indonesia', 'IDN'
+		,'Eswatini', 'SWZ'
 		,'Nigeria', 'NGA'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
