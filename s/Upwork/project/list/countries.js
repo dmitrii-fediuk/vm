@@ -79,6 +79,7 @@
 		,'Israel', 'ISR'
 		,'Italy', 'ITA'
 		,'Kuwait', 'KWT'
+		,'Latvia', 'LVA'
 		,'Netherlands', 'NLD'
 		,'Poland', 'POL'
 		,'Saudi Arabia', 'SAU'
