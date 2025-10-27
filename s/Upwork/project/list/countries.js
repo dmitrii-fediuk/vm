@@ -19,7 +19,11 @@
 ['df', 'upwork', 'project', 'list'].reduce((o, k) => o[k] ??= {}, unsafeWindow).countries = [
 	// 2025-10-02 https://www.iban.com/country-codes
 	[
-		'Bangladesh', 'BGD'
+		'Afghanistan', 'AFG'
+		,'Albania', 'ALB'
+		,'Algeria', 'DZA'
+		,'Armenia', 'ARM'
+		,'Bangladesh', 'BGD'
 		,'Brazil', 'BRA'
 		,'Egypt', 'EGY'
 		,'India', 'IND'
