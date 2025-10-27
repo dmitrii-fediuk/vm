@@ -59,6 +59,7 @@
 		,'Honduras', 'HND'
 		,'Indonesia', 'IDN'
 		,'Iraq', 'IRQ'
+		,'Kazakhstan', 'KAZ'
 		,'Nigeria', 'NGA'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
