@@ -69,6 +69,7 @@
 		'CZE'
 		,'Estonia', 'EST'
 		,'Germany', 'DEU'
+		,'Hungary', 'HUN'
 		,'Israel', 'ISR'
 		,'Netherlands', 'NLD'
 		,'Poland', 'POL'
