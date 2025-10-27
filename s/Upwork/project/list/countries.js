@@ -110,6 +110,7 @@
 		,'Qatar', 'QAT'
 		,'Saudi Arabia', 'SAU'
 		,'Slovakia', 'SVK'
+		,'Slovenia', 'SVN'
 		,'United Arab Emirates', 'ARE'
 	]
 ];
