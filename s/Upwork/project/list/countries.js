@@ -33,6 +33,7 @@
 		,'Brazil', 'BRA'
 		,'Burkina Faso', 'BFA'
 		,'Burundi', 'BDI'
+		,'Cabo Verde', 'CPV'
 		,'Egypt', 'EGY'
 		,'India', 'IND'
 		,'Indonesia', 'IDN'
