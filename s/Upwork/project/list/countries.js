@@ -63,6 +63,7 @@
 		,'Kenya', 'KEN'
 		,'Kyrgyzstan', 'KGZ'
 		,'Laos', 'LAO'
+		,'Lebanon', 'LBN'
 		,'Nigeria', 'NGA'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
