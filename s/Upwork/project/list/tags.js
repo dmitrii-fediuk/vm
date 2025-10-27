@@ -163,7 +163,6 @@
 		,'ManyChat'
 		,'Material Selection'
 		,'Materials Knowledge'
-		,'Maxon Cinema 4D'
 		,'Media Buying'
 		,'Medical Equipment & Supplies'
 		,'Microsoft Excel'
@@ -249,6 +248,7 @@
 	,partial: [
 		'2D'
 		,'3D'
+		,'4D'
 		,'Advertising'
 		,'Android'
 		,'Animation'
