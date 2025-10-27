@@ -34,6 +34,7 @@
 		,'Burkina Faso', 'BFA'
 		,'Burundi', 'BDI'
 		,'Cabo Verde', 'CPV'
+		,'Cambodia', 'KHM'
 		,'Egypt', 'EGY'
 		,'India', 'IND'
 		,'Indonesia', 'IDN'
