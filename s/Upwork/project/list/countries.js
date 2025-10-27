@@ -78,6 +78,7 @@
 		,'Nepal', 'NPL'
 		,'Nicaragua', 'NIC'
 		,'Niger', 'NER'
+		,'Nigeria', 'NGA'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
 		,'Ukraine', 'UKR'
