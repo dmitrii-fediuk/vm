@@ -307,6 +307,7 @@
 		,'LinkedIn'
 		,'Logo'
 		,'Marketing'
+		,'PPC'
 		,'Patent'
 		,'Phone'
 		,'Photo'
