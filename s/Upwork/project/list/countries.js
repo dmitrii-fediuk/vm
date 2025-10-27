@@ -57,6 +57,7 @@
 		,'Guinea', 'GIN'
 		,'Haiti', 'HTI'
 		,'Honduras', 'HND'
+		,'Indonesia', 'IDN\t'
 		,'Nigeria', 'NGA'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
