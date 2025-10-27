@@ -81,6 +81,7 @@
 		,'Nigeria', 'NGA'
 		,'Pakistan', 'PAK'
 		,'Palestine', 'PSE'
+		,'Paraguay', 'PRY'
 		,'Philippines', 'PHL'
 		,'Ukraine', 'UKR'
 		,'Uzbekistan', 'UZB'
