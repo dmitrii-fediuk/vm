@@ -301,6 +301,7 @@
 		,'Life'
 		,'LinkedIn'
 		,'Logo'
+		,'MQL'
 		,'Marketing'
 		,'Outreach'
 		,'PCB'
