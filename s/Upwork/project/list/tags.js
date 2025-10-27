@@ -83,7 +83,6 @@
 		,'Conversion Rate Optimization'
 		,'Copywriting'
 		,'Course Creation'
-		,'Cover Art Thumbnail'
 		,'Creative Strategy'
 		,'Creative Writing'
 		,'Customer Care'
@@ -91,7 +90,6 @@
 		,'Customer Service Training'
 		,'DApps'
 		,'DaVinci Resolve'
-
 		,'Dentistry'
 		,'Design for Manufacturing'
 		,'Digital Project Management'
@@ -226,7 +224,6 @@
 		,'Personal Branding'
 		,'Philosophy'
 		,'Photography'
-		,'Pixel Art'
 		,'Podcast'
 		,'Post Template'
 		,'PowerPoint Presentation'
