@@ -98,6 +98,7 @@
 		,'Turkmenistan', 'TKM'
 		,'Uganda', 'UGA'
 		,'Ukraine', 'UKR'
+		,'Uruguay', 'URY'
 		,'Uzbekistan', 'UZB'
 		,'Vietnam', 'VNM'
 	]
