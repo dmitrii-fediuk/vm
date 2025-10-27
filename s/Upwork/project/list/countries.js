@@ -88,6 +88,7 @@
 		,'Rwanda', 'RWA'
 		,'Senegal', 'SEN'
 		,'Serbia', 'SRB'
+		,'Somalia', 'SOM'
 		,'Ukraine', 'UKR'
 		,'Uzbekistan', 'UZB'
 		,'Vietnam', 'VNM'
