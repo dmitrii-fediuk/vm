@@ -196,8 +196,10 @@ GM_addStyle([
 					// 2.1) It correctly handles partial phrases like «2D».
 					// 2.2) For speed purposes, it intentionally does not correctly handle
 					// partial phrases with special characters, such as «A/B».
+					// 2.2.1) It splits «A/B» into 2 words: «A», «B».
+					// 2.2.2) It splits «Voice-Over» into 2 words: «Voice», «Over».
 					// 2.3)	https://gemini.google.com/share/98d684c5a283
-					const ww = t.match(/\w+/gu);
+					const ww = t.match(/\w+/u);
 					return ᛡ.tags.exact.includes(t) || ᛡ.tags.partial.some(w => ww.includes(w));
 				})
 			;
