@@ -103,6 +103,7 @@
 		,'Netherlands', 'NLD'
 		,'Oman', 'OMN'
 		,'Poland', 'POL'
+		,'Portugal', 'PRT'
 		,'Saudi Arabia', 'SAU'
 		,'United Arab Emirates', 'ARE'
 	]
