@@ -101,6 +101,7 @@
 		,'Uruguay', 'URY'
 		,'Uzbekistan', 'UZB'
 		,'Vietnam', 'VNM'
+		,'Yemen', 'YEM'
 	]
 	,[
 		'Czech Repiblic', 'CZE'
