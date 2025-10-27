@@ -89,6 +89,7 @@
 		,'Senegal', 'SEN'
 		,'Serbia', 'SRB'
 		,'Somalia', 'SOM'
+		,'Sri Lanka', 'LKA'
 		,'Sudan', 'SDN'
 		,'Syria', 'SYR'
 		,'Tajikistan', 'TJK'
@@ -118,7 +119,7 @@
 		,'Saudi Arabia', 'SAU'
 		,'Slovakia', 'SVK'
 		,'Slovenia', 'SVN'
-		,'Sri Lanka', 'LKA'
+		,'Turkey', 'TUR'
 		,'United Arab Emirates', 'ARE'
 	]
 ];
