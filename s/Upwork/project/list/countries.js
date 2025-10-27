@@ -96,6 +96,7 @@
 		,'Tanzania', 'TZA'
 		,'Tunisia', 'TUN'
 		,'Turkmenistan', 'TKM'
+		,'Uganda', 'UGA'
 		,'Ukraine', 'UKR'
 		,'Uzbekistan', 'UZB'
 		,'Vietnam', 'VNM'
