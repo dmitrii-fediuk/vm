@@ -85,6 +85,7 @@
 		,'Paraguay', 'PRY'
 		,'Philippines', 'PHL'
 		,'Romania', 'ROU'
+		,'Rwanda', 'RWA'
 		,'Ukraine', 'UKR'
 		,'Uzbekistan', 'UZB'
 		,'Vietnam', 'VNM'
