@@ -26,6 +26,8 @@
 		,'Armenia', 'ARM'
 		,'Azerbaijan', 'AZE'
 		,'Bangladesh', 'BGD'
+		,'Belize', 'BLZ'
+		,'Benin', 'BEN'
 		,'Brazil', 'BRA'
 		,'Egypt', 'EGY'
 		,'India', 'IND'
