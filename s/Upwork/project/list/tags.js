@@ -275,9 +275,6 @@
 		,'Post Template'
 		,'PowerPoint Presentation'
 		,'Presentation Design'
-		,'Press Release'
-		,'Press Release Formatting'
-		,'Press Release Writing'
 		,'Price & Quote Negotiation'
 		,'Product Development'
 		,'Product Design'
@@ -422,5 +419,6 @@
 		,'Logo'
 		,'Marketing'
 		,'Phone'
+		,'Press'
 	]
 };
