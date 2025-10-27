@@ -35,8 +35,6 @@
 		,'Amazon Advertising Console'
 		,'Amazon Listing Optimization'
 		,'Amazon PPC'
-		,'Android'
-		,'Android App Development'
 		,'Animated Environment'
 		,'Animation'
 		,'Applied Behavior Analysis'
@@ -426,6 +424,7 @@
 	,partial: [
 		'2D'
 		,'3D'
+		,'Android'
 		,'Art'
 		,'Game'
 		,'Gaming'
