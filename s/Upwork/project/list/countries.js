@@ -93,8 +93,7 @@
 		,'Vietnam', 'VNM'
 	]
 	,[
-
-		'CZE'
+		'Czech Repiblic', 'CZE'
 		,'Estonia', 'EST'
 		,'Germany', 'DEU'
 		,'Hungary', 'HUN'
@@ -110,6 +109,7 @@
 		,'Portugal', 'PRT'
 		,'Qatar', 'QAT'
 		,'Saudi Arabia', 'SAU'
+		,'Slovakia', 'SVK'
 		,'United Arab Emirates', 'ARE'
 	]
 ];
