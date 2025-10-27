@@ -370,7 +370,6 @@
 		,'YouTube'
 		,'Zapier'
 		,'Zoho Creator'
-		,'Zoom Video Conferencing'
 		,'eBay Listing'
 		,'iOS Development'
 		,'iOS'
@@ -403,5 +402,6 @@
 		,'Psychology'
 		,'Resume'
 		,'SEO'
+		,'Zoom'
 	]
 };
