@@ -189,8 +189,12 @@ GM_addStyle([
 		const fTags = (() => {
 			const enable = new URL(location).searchParams.has('df-tags');
 			return a => !enable ||
-				![...a.querySelectorAll('[data-test*="TokenClamp"] button[data-test="token"]')]
-					.some(t => ᛡ.tags.includes(t.textContent.trim()))
+				![...a.querySelectorAll('[data-test*="TokenClamp"] button[data-test="token"]')].some(t => {
+					t = t.textContent.trim();
+					// 2025-10-27 https://gemini.google.com/share/569fcfda03fe
+					const ww = t.match(/\w+/gu);
+					return ᛡ.tags.exact.includes(t) || ᛡ.tags.partial.some(w => ww.includes(w));
+				})
 			;
 		})();
 		/**
