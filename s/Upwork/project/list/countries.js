@@ -98,6 +98,7 @@
 		,'Lithuania', 'LTU'
 		,'Malaysia', 'MYS'
 		,'Netherlands', 'NLD'
+		,'Oman', 'OMN'
 		,'Poland', 'POL'
 		,'Saudi Arabia', 'SAU'
 		,'United Arab Emirates', 'ARE'
