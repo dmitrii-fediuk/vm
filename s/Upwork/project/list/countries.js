@@ -53,6 +53,7 @@
 		,'Georgia', 'GEO'
 		,'Ghana', 'GHA'
 		,'Greece', 'GRC'
+		,'Guatemala', 'GTM'
 		,'Nigeria', 'NGA'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
