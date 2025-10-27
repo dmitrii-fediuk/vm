@@ -102,6 +102,7 @@
 		,'Uzbekistan', 'UZB'
 		,'Vietnam', 'VNM'
 		,'Yemen', 'YEM'
+		,'Zambia', 'ZMB'
 	]
 	,[
 		'Czech Repiblic', 'CZE'
