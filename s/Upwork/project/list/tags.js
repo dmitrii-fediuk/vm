@@ -18,7 +18,6 @@
 ['df', 'upwork', 'project', 'list'].reduce((o, k) => o[k] ??= {}, unsafeWindow).tags = {
 	exact: [
 		'A/B Testing'
-		,'AI Trading'
 		,'Acting'
 		,'Adobe After Effects'
 		,'Adobe Captivate'
@@ -142,7 +141,6 @@
 		,'Floor Plan Design'
 		,'Flutter'
 		,'Food & Beverage'
-		,'Forex Trading'
 		,'Functional Testing'
 		,'Fundraising'
 		,'General Transcription'
@@ -307,8 +305,6 @@
 		,'TikTok Ad'
 		,'TikTok'
 		,'Time Management'
-		,'Trading Automation'
-		,'Trading Strategy'
 		,'Training'
 		,'Training & Development'
 		,'Translation'
@@ -365,6 +361,7 @@
 		,'Resume'
 		,'SEO'
 		,'Trademark'
+		,'Trading'
 		,'Video'
 		,'Voice'
 		,'Web3'
