@@ -70,6 +70,7 @@
 		,'Madagascar', 'MDG'
 		,'Malawi', 'MWI'
 		,'Mali', 'MLI'
+		,'Mexico', 'MEX'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
 		,'Ukraine', 'UKR'
