@@ -112,6 +112,7 @@
 		,'Saudi Arabia', 'SAU'
 		,'Slovakia', 'SVK'
 		,'Slovenia', 'SVN'
+		,'Sri Lanka', 'LKA'
 		,'United Arab Emirates', 'ARE'
 	]
 ];
