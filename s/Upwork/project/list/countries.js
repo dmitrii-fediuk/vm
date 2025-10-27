@@ -60,6 +60,7 @@
 		,'Indonesia', 'IDN'
 		,'Iraq', 'IRQ'
 		,'Kazakhstan', 'KAZ'
+		,'Kenya', 'KEN'
 		,'Nigeria', 'NGA'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
