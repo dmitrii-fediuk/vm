@@ -54,6 +54,7 @@
 		,'Ghana', 'GHA'
 		,'Greece', 'GRC'
 		,'Guatemala', 'GTM'
+		,'Guinea', 'GIN'
 		,'Nigeria', 'NGA'
 		,'Pakistan', 'PAK'
 		,'Philippines', 'PHL'
