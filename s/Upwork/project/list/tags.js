@@ -76,6 +76,7 @@
 		,'DaVinci Resolve'
 		,'Dentistry'
 		,'Design for Manufacturing'
+		,'Dietetics'
 		,'Digital Project Management'
 		,'Divorce'
 		,'Drafting'
