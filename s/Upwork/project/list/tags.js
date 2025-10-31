@@ -120,6 +120,7 @@
 		,'Knitwear'
 		,'Land Surveying'
 		,'Landing Page'
+		,'Landing Page Design'
 		,'Layout Design'
 		,'Line Drawing'
 		,'Literature'
