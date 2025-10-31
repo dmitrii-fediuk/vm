@@ -238,6 +238,7 @@
 		,'Content'
 		,'Copyright'
 		,'Creative'
+		,'Credit'
 		,'Crowdfunding'
 		,'Cryptocurrency'
 		,'Dental'
