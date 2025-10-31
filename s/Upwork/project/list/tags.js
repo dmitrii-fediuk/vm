@@ -49,6 +49,7 @@
 		,'CAD Drafting'
 		,'CNC Programming'
 		,'Canva'
+		,'Cash Flow Analysis'
 		,'Catalog Design'
 		,'Character Design'
 		,'Chart Presentation'
