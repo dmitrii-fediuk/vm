@@ -62,6 +62,7 @@
 		,'College Essay'
 		,'Combination Mark'
 		,'Communications'
+		,'Community Engagement'
 		,'Compositing'
 		,'Computer Hardware Installation'
 		,'Conversion Rate Optimization'
