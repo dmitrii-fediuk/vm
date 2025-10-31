@@ -272,6 +272,7 @@
 		,'MetaTrader'
 		,'Microcontroller'
 		,'Mobile'
+		,'Music'
 		,'Outreach'
 		,'PCB'
 		,'PPC'
