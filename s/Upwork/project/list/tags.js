@@ -75,6 +75,7 @@
 		,'Customer Support'
 		,'DApps'
 		,'DaVinci Resolve'
+		,'Data Entry'
 		,'Dentistry'
 		,'Design for Manufacturing'
 		,'Dietetics'
