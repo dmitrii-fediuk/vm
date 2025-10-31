@@ -142,6 +142,7 @@
 		,'Microsoft Excel'
 		,'Microsoft PowerPoint'
 		,'Modeling'
+		,'Montage'
 		,'Motion Graphics'
 		,'Narration'
 		,'Narrative'
