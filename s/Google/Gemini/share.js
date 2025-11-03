@@ -34,6 +34,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// 2025-11-04
+// language=CSS
+GM_addStyle([
+	'share-turn-viewer:has(deep-research-confirmation-widget) user-query' // 2025-11-04
+]
+	 // language=Javascript
+	.join(',') + '{background: yellow !important;}')
+;
 // 2025-04-20
 // language=CSS
 GM_addStyle([
