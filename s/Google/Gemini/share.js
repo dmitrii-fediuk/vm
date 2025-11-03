@@ -24,11 +24,10 @@ GM_addStyle([
 	,'.publish-time-text:before' // 2025-08-05
 	,'.share-viewer_chat-container ~ *'
 	,'button[mattooltip="Report"]' // 2025-04-21
+	,'deep-research-confirmation-widget' // 2025-11-04
 	,'share-viewer ~ *'
 	,'top-bar-actions' // 2025-04-21
 	,'user-notice' // 2025-11-04
-	,'deep-research-confirmation-widget' // 2025-11-04
-	//,'share-turn-viewer:has(deep-research-confirmation-widget)' // 2025-11-04
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
