@@ -69,7 +69,6 @@ GM_addStyle([
 	,'.gds-title-s:not(#A)'
 	,'.markdown:not(#A)'
 	,'.markdown:not(#A) :not(code)' // 2025-11-04
-	//,'.markdown-main-panel'
 	,'.mat-mdc-button:not(#A)'
 	,'.query-text:not(#A)'
 	,'body:not(#A)'
