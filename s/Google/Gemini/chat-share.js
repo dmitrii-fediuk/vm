@@ -65,15 +65,16 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'.current-mode-title'
-	,'.gds-title-s'
-	,'.markdown'
-	,'.mat-mdc-button'
-	,'.query-text'
-	,'body'
-	,'code'
-	,'code-block'
-	,'pre'
+	'.current-mode-title:not(#A)'
+	,'.gds-title-s:not(#A)'
+	,'.markdown:not(#A)'
+	//,'.markdown-main-panel'
+	,'.mat-mdc-button:not(#A)'
+	,'.query-text:not(#A)'
+	,'body:not(#A)'
+	,'code:not(#A)'
+	,'code-block:not(#A)'
+	,'pre:not(#A)'
 ]
 	// language=Javascript
 	.join(',') + '{' +
