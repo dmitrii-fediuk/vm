@@ -26,6 +26,7 @@ GM_addStyle([
 	,'[data-mat-icon-name="travel_explore"]' // 2025-11-04
 	,'button[mattooltip="Report"]' // 2025-04-21
 	,'deep-research-confirmation-widget' // 2025-11-04
+	,'share-turn-viewer:not(:first-of-type) user-query' // 2025-11-04
 	,'share-viewer ~ *'
 	,'top-bar-actions' // 2025-04-21
 	,'user-notice' // 2025-11-04
