@@ -22,10 +22,14 @@ GM_addStyle([
 	,'.boqOnegoogleliteOgbOneGoogleBar'
 	,'.desktop-ogb-buffer'
 	,'.publish-time-text:before' // 2025-08-05
+	,'.response-container-footer' // 2025-11-04
+	,'.response-container-header' // 2025-11-04
 	,'.share-viewer_chat-container ~ *'
 	,'[data-mat-icon-name="travel_explore"]' // 2025-11-04
 	,'button[mattooltip="Report"]' // 2025-04-21
 	,'deep-research-confirmation-widget' // 2025-11-04
+	//,'share-turn-viewer:has(deep-research-confirmation-widget)' // 2025-11-04
+	,'share-turn-viewer:has(deep-research-confirmation-widget) response-container' // 2025-11-04
 	,'share-turn-viewer:not(:has(deep-research-confirmation-widget)) user-query' // 2025-11-04
 	,'share-viewer ~ *'
 	,'top-bar-actions' // 2025-04-21
@@ -37,7 +41,7 @@ GM_addStyle([
 // 2025-11-04
 // language=CSS
 GM_addStyle([
-	//'share-turn-viewer:not(:has(deep-research-confirmation-widget)) user-query' // 2025-11-04
+	'share-turn-viewer:has(deep-research-confirmation-widget)' // 2025-11-04
 ]
 	 // language=Javascript
 	.join(',') + '{background: yellow !important;}')
