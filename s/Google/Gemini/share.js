@@ -26,6 +26,7 @@ GM_addStyle([
 	,'button[mattooltip="Report"]' // 2025-04-21
 	,'share-viewer ~ *'
 	,'top-bar-actions' // 2025-04-21
+	,'user-notice' // 2025-11-04
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
