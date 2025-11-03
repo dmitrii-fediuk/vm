@@ -27,6 +27,7 @@ GM_addStyle([
 	,'share-viewer ~ *'
 	,'top-bar-actions' // 2025-04-21
 	,'user-notice' // 2025-11-04
+	,':has(>share-turn-viewer)' // 2025-11-04
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
