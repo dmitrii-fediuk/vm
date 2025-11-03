@@ -25,6 +25,8 @@ GM_addStyle([
 	,'.share-viewer_chat-container ~ *'
 	,'button[mattooltip="Report"]' // 2025-04-21
 	,'deep-research-confirmation-widget' // 2025-11-04
+	,'[data-mat-icon-name="travel_explore"]' // 2025-11-04
+	//,'message-content' // 2025-11-04
 	,'share-viewer ~ *'
 	,'top-bar-actions' // 2025-04-21
 	,'user-notice' // 2025-11-04
