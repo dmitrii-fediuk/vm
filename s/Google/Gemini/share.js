@@ -79,6 +79,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.immersive-artifact-container' // 2025-11-04
+	,'.title-container' // 2025-11-04
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
