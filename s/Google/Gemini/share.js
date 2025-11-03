@@ -38,14 +38,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
-// 2025-11-04
-// language=CSS
-GM_addStyle([
-	'share-turn-viewer:has(deep-research-confirmation-widget)' // 2025-11-04
-]
-	 // language=Javascript
-	.join(',') + '{background: yellow !important;}')
-;
+
 // 2025-04-20
 // language=CSS
 GM_addStyle([
@@ -58,6 +51,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
 ;
+
 // 2025-04-20
 // language=CSS
 GM_addStyle([
@@ -80,6 +74,16 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+
+// 2025-11-04
+// language=CSS
+GM_addStyle([
+	'.immersive-artifact-container' // 2025-11-04
+]
+	 // language=Javascript
+	.join(',') + '{border: 0 !important;}')
+;
+
 // 2025-04-20
 // language=CSS
 GM_addStyle([
