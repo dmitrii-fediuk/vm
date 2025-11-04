@@ -7,6 +7,8 @@
 // @name Google / Gemini / Share
 // ==/UserScript==
 // 2025-04-20 "Improve `gemini.google.com`": https://github.com/dmitrii-fediuk/vm/issues/60
+// 2025-11-04
+const dfResearchW = 'deep-research-confirmation-widget'; // 2025-11-04
 // 2025-08-05
 // language=CSS
 GM_addStyle([
@@ -29,12 +31,12 @@ GM_addStyle([
 	,`:has(> .immersive-artifact-container) > message-content` // 2025-11-04
 	,`[data-mat-icon-name='travel_explore']` // 2025-11-04
 	,`button[mattooltip='Report']` // 2025-04-21
-	,`deep-research-confirmation-widget` // 2025-11-04
-	,`share-turn-viewer:has(deep-research-confirmation-widget) response-container` // 2025-11-04
-	,`share-viewer:has(deep-research-confirmation-widget) share-turn-viewer:not(:has(deep-research-confirmation-widget)) user-query` // 2025-11-04
+	,`share-turn-viewer:has(${dfResearchW}) response-container` // 2025-11-04
 	,`share-viewer ~ *`
+	,`share-viewer:has(${dfResearchW}) share-turn-viewer:not(:has(${dfResearchW})) user-query` // 2025-11-04
 	,`top-bar-actions` // 2025-04-21
 	,`user-notice` // 2025-11-04
+	,dfResearchW // 2025-11-04
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
