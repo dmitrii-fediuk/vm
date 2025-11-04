@@ -145,8 +145,8 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'.markdown'
-	,'.ql-editor'
+	'.markdown:not(#A)'
+	,'.ql-editor:not(#A)'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: 110% !important;}')
