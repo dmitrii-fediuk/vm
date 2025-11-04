@@ -45,7 +45,8 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	`.carousel-content` // 2025-11-04
+	`card-renderer` // 2025-11-04
+	,`.carousel-content` // 2025-11-04
 	,`.carousel-content > div` // 2025-11-04
 	,`.publish-time > *` // 2025-08-05
 	,`.query-content`
