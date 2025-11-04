@@ -9,6 +9,14 @@
 // @name Google / Gemini / Chat & Share
 // ==/UserScript==
 // 2025-08-05 "Improve `gemini.google.com`": https://github.com/dmitrii-fediuk/vm/issues/60
+// 2025-11-04
+// language=CSS
+GM_addStyle([
+	'td:not(#A)'// 2025-11-04
+]
+	 // language=Javascript
+	.join(',') + '{all: revert !important;}')
+;
 // 2025-08-05
 // language=CSS
 GM_addStyle([
