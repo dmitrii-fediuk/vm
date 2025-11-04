@@ -129,6 +129,15 @@ GM_addStyle([
 	.join(`,`) + `{height: auto !important;}`)
 ;
 
+// 2025-11-04
+// language=CSS
+GM_addStyle([
+	`.source-card-footer` // 2025-11-04
+]
+	 // language=Javascript
+	.join(',') + '{max-height: auto !important;}')
+;
+
 // 2025-04-20
 // language=CSS
 GM_addStyle([
