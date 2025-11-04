@@ -92,6 +92,7 @@ GM_addStyle([
 	,`.query-content`
 	,`.top-container`
 	,`h1`
+	,`sources-carousel > .container` // 2025-11-04
 ]
 	 // language=Javascript
 	.join(`,`) + `{margin: 0 !important;}`)
