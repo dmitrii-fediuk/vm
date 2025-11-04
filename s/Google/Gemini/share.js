@@ -46,6 +46,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.carousel-content` // 2025-11-04
+	,`.carousel-content > div` // 2025-11-04
 	,`.publish-time > *` // 2025-08-05
 	,`.query-content`
 	,`.share-title-section` // 2025-11-04
