@@ -80,7 +80,6 @@ GM_addStyle([
 	,'.mat-mdc-button:not(#A)'
 	,'.query-text:not(#A)'
 	,'body:not(#A)'
-	,'code:not(#A)'
 	,'code-block:not(#A)'
 	,'pre:not(#A)'
 ]
@@ -96,7 +95,7 @@ GM_addStyle([
 // 2025-03-29
 // language=CSS
 GM_addStyle([
-	'code'
+	'code:not(#A)'
 ]
 	// language=Javascript
 	.join(',') + '{' +
