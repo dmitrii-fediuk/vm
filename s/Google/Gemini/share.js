@@ -45,6 +45,7 @@ GM_addStyle([
 	'.publish-time > *' // 2025-08-05
 	,'.query-content'
 	,'.share-title-section' // 2025-11-04
+	,'.share-title-section > .title-link' // 2025-11-04
 	,'.user-query-bubble-container'
 	,'.user-query-bubble-with-background > .horizontal-container'
 	,'user-query-content'
