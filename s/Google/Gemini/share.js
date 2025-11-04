@@ -102,6 +102,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.chat-history'
+	,`.source-card-container` // 2025-11-04
 	,'.top-container'
 ]
 	// language=Javascript
