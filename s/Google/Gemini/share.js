@@ -57,8 +57,8 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	'.query-content'
-	,'.share-title-section > .title-link > .link-flag' // 2025-11-04
+	'.link-flag' // 2025-11-04
+	,'.query-content'
 	,'.top-container'
 	,'h1'
 ]
