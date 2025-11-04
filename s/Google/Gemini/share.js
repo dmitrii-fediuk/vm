@@ -53,6 +53,7 @@ GM_addStyle([
 	,`.share-title-section > .title-link` // 2025-11-04
 	,`.user-query-bubble-container`
 	,`.user-query-bubble-with-background > .horizontal-container`
+	,`sources-carousel` // 2025-11-04
 	,`user-query-content`
 ]
 	 // language=Javascript
