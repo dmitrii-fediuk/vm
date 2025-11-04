@@ -65,7 +65,8 @@ GM_addStyle([
 // 2025-04-20
 // language=CSS
 GM_addStyle([
-	'.query-content'
+	'message-content' // 2025-11-04
+	,'.query-content'
 	,'.response-container'
 	,'.user-query-bubble-container'
 	,'.user-query-bubble-with-background'
