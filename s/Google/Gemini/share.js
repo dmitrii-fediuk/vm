@@ -68,6 +68,15 @@ GM_addStyle([
 // 2025-11-04
 // language=CSS
 GM_addStyle([
+	`.source-card-container` // 2025-11-04
+]
+	 // language=Javascript
+	.join(`,`) + `{border-radius: 0 !important;}`)
+;
+
+// 2025-11-04
+// language=CSS
+GM_addStyle([
 	`.source-card-attribution-text` // 2025-11-04
 ]
 	 // language=Javascript
