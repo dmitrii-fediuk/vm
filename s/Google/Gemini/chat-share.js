@@ -187,7 +187,7 @@ GM_addStyle('.user-query-bubble-with-background {background-color: rgba(232, 232
 // 2025-03-28
 // language=CSS
 GM_addStyle('.query-text:not(#A) {line-height: 1.2 !important;}');
-// 2025-03-28
+// 2025-03-28, 2025-11-04
 // language=CSS
 GM_addStyle('.markdown:not(#A) {line-height: 1.35 !important;}');
 // 2025-03-28
