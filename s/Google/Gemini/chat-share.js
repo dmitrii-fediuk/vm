@@ -210,3 +210,15 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-11-04
+// language=CSS
+GM_addStyle('h1 {font-size: 1.75rem !important; margin: 0 0 .35rem 0 !important;}');
+// 2025-11-04
+// language=CSS
+GM_addStyle('h2 {font-size: 1.5rem !important; margin: .3rem 0 !important;}');
+// 2025-11-04
+// language=CSS
+GM_addStyle('h3 {font-size: 1.25rem !important; margin: .25rem 0 !important;}');
+// 2025-11-04
+// language=CSS
+GM_addStyle('h4 {font-size: 1rem !important; margin: .2rem 0 !important;}');
