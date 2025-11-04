@@ -12,8 +12,9 @@ const dfResearchW = 'deep-research-confirmation-widget'; // 2025-11-04
 // 2025-08-05
 // language=CSS
 GM_addStyle([
-	'.gds-title-s' // 2025-08-05
-	,'.source-card-content .source-card-title' // 2025-11-04
+	`.gds-title-s` // 2025-08-05
+	,`.source-card-attribution-text` // 2025-11-04
+	,'.source-card-title' // 2025-11-04
 ]
 	 // language=Javascript
 	.join(',') + '{all: revert !important;}')
