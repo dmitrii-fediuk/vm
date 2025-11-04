@@ -212,7 +212,7 @@ GM_addStyle([
 );
 // 2025-11-04
 // language=CSS
-GM_addStyle('h1 {font-size: 1.75rem !important; margin: 0 0 .35rem 0 !important;}');
+GM_addStyle('h1 {font-size: 2rem !important; margin: 0 !important;}');
 // 2025-11-04
 // language=CSS
 GM_addStyle('h2 {font-size: 1.5rem !important; margin: .6rem 0 .3rem 0 !important;}');
