@@ -14,8 +14,8 @@ const dfResearchW = 'deep-research-confirmation-widget'; // 2025-11-04
 GM_addStyle([
 	`.gds-title-s` // 2025-08-05
 	,`.source-card-attribution-text` // 2025-11-04
-	,'.source-card-title' // 2025-11-04
-	,'.source-card-title > .clamp-two-lines' // 2025-11-04
+	,`.source-card-title` // 2025-11-04
+	,`.source-card-title > .clamp-two-lines` // 2025-11-04
 ]
 	 // language=Javascript
 	.join(',') + '{all: revert !important;}')
@@ -56,6 +56,7 @@ GM_addStyle([
 	,`.share-title-section > .title-link` // 2025-11-04
 	,`.share-title-section` // 2025-11-04
 	,`.source-card-container` // 2025-11-04
+	,`.source-card-content` // 2025-11-04
 	,`.user-query-bubble-container`
 	,`.user-query-bubble-with-background > .horizontal-container`
 	,`sources-carousel > .container` // 2025-11-04
