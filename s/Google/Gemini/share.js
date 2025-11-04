@@ -65,6 +65,15 @@ GM_addStyle([
 	.join(`,`) + `{display: block !important;}`)
 ;
 
+// 2025-11-04
+// language=CSS
+GM_addStyle([
+	`.source-card-attribution-text` // 2025-11-04
+]
+	 // language=Javascript
+	.join(',') + '{font-weight: bold !important;}')
+;
+
 // 2025-04-20
 // language=CSS
 GM_addStyle([
