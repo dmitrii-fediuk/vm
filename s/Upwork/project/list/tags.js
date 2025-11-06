@@ -264,6 +264,7 @@
 		,'LinkedIn'
 		,'Logo'
 		,'Looker'
+		,'Journalism'
 		,'MQL'
 		,'Market'
 		,'Marketing'
