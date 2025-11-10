@@ -120,6 +120,7 @@
 		,'Interior Design'
 		,'Investor Overview'
 		,'Java'
+		,'Klaviyo'
 		,'Knitwear'
 		,'Land Surveying'
 		,'Landing Page'
