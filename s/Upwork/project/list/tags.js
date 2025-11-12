@@ -120,6 +120,7 @@
 		,'Interior Design'
 		,'Investor Overview'
 		,'Java'
+		,'Jewelry Design'
 		,'Klaviyo'
 		,'Knitwear'
 		,'Land Surveying'
