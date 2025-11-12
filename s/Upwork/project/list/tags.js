@@ -215,6 +215,7 @@
 		,'Zapier'
 		,'Zoho Creator'
 		,'eBay Listing'
+		,'n8n'
 	]
 	,partial: [
 		'2D'
