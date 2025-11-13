@@ -170,6 +170,7 @@
 		,'Public Relations'
 		,'Publishing'
 		,'Quality Assurance'
+		,'Quantitative Finance'
 		,'Quantum Computing'
 		,'React Native'
 		,'Real Estate Investment Assistance'
