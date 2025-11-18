@@ -205,6 +205,7 @@
 		,'Team Management'
 		,'Telemarketing'
 		,'Time Management'
+		,'Tracking Pixel'
 		,'Typing'
 		,'UGC'
 		,'User Experience Design'
