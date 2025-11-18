@@ -174,6 +174,7 @@
 		,'Quality Assurance'
 		,'Quantitative Finance'
 		,'Quantum Computing'
+		,'RFP Writing'
 		,'React Native'
 		,'Real Estate Investment Assistance'
 		,'Replit'
