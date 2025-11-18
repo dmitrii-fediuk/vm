@@ -65,6 +65,7 @@
 		,'College Essay'
 		,'Combination Mark'
 		,'Communications'
+		,'Competitor Research'
 		,'Compositing'
 		,'Computer Hardware Installation'
 		,'Conversion Rate Optimization'
