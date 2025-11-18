@@ -59,6 +59,7 @@
 		,'Circuit Design'
 		,'Civil Engineering'
 		,'Clean Technology'
+		,'ClickUp'
 		,'Client Management'
 		,'Clip Studio Paint'
 		,'College Essay'
