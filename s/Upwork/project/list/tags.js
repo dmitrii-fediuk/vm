@@ -269,6 +269,7 @@
 		,'Gaming'
 		,'Grant'
 		,'Green'
+		,'HR'
 		,'Industrial'
 		,'Instagram'
 		,'Lead'
