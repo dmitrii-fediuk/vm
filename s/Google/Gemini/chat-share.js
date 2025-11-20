@@ -6,6 +6,7 @@
 // @match *://gemini.google.com/app/*
 // @match *://gemini.google.com/share/*
 // @match *://gemini.google.com/u/*/app/*
+// @match *://gemini.google.com/u/*/share/*
 // @name Google / Gemini / Chat & Share
 // ==/UserScript==
 // 2025-08-05 "Improve `gemini.google.com`": https://github.com/dmitrii-fediuk/vm/issues/60
