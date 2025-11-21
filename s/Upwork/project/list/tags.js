@@ -59,6 +59,7 @@
 		,'Circuit Design'
 		,'Civil Engineering'
 		,'Clean Technology'
+		,'ClickFunnels'
 		,'ClickUp'
 		,'Client Management'
 		,'Clip Studio Paint'
