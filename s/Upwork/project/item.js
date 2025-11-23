@@ -395,7 +395,9 @@ modify(`li:has(> [data-qa='client-hourly-rate'])`, i => {
 // 2025-10-03
 // language=CSS
 modify(`ul.client-activity-items > li`, i => {// language=Javascript
-	if (i.textContent.trim().includes('Hires:')) {
+	const c = i.textContent.trim();
+	// 2025-11-23 «Hired:» is shown on closed projects
+	if (c.includes('Hires:') || c.includes('Hired:')) {
 		document.querySelector('body').classList.toggle(df_c_hired,
 			!!i.querySelector('.value').textContent.match(/\d+/)
 		);
