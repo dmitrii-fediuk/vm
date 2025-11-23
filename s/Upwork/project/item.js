@@ -127,13 +127,13 @@ GM_addStyle([
 	,`.${df_c_hired} .air3-card-sections`
 // language=Javascript
 ].join(`,`) + `{background: #ffe6e6 !important;}`);
-// 2025-11-23 https://share.google/94PsRzxJ9I2UyLKRK
+// 2025-11-23 https://share.google/TUp89J1Q0llPHWhkI
 // language=CSS
 GM_addStyle([
 	`.${df_c_hired_and_closed}`
 	,`.${df_c_hired_and_closed} .air3-card-sections`
 // language=Javascript
-].join(`,`) + `{background: #d9d2d2 !important;}`);
+].join(`,`) + `{background: #f5e9e9 !important;}`);
 // 2025-09-05
 // language=CSS
 GM_addStyle([
