@@ -127,6 +127,13 @@ GM_addStyle([
 	,`.${df_c_hired} .air3-card-sections`
 // language=Javascript
 ].join(`,`) + `{background: #ffe6e6 !important;}`);
+// 2025-11-23 https://share.google/94PsRzxJ9I2UyLKRK
+// language=CSS
+GM_addStyle([
+	`.${df_c_hired_and_closed}`
+	,`.${df_c_hired_and_closed} .air3-card-sections`
+// language=Javascript
+].join(`,`) + `{background: #d9d2d2 !important;}`);
 // 2025-09-05
 // language=CSS
 GM_addStyle([
@@ -396,15 +403,22 @@ modify(`li:has(> [data-qa='client-hourly-rate'])`, i => {
 // 2025-10-03
 // language=CSS
 modify(`ul.client-activity-items > li`, i => {// language=Javascript
-	const c = i.textContent.trim();
-	// 2025-11-23 «Hired:» is shown on closed projects
-	if (c.includes('Hires:') || c.includes('Hired:')) {
+	if (i.textContent.trim().includes('Hires:')) {
 		document.querySelector('body').classList.toggle(df_c_hired,
 			!!i.querySelector('.value').textContent.match(/\d+/)
 		);
 	}
 });
-// 2025-10-02
+// 2025-11-23 «Hired:» is shown on closed projects
+// language=CSS
+modify(`ul.client-activity-items > li`, i => {// language=Javascript
+	if (i.textContent.trim().includes('Hired:')) {
+		document.querySelector('body').classList.toggle(df_c_hired_and_closed,
+			!!i.querySelector('.value').textContent.match(/\d+/)
+		);
+	}
+});
+// 2025-10-03
 // language=CSS
 const mark = (c, path, text, locator) => modify(path, i => {// language=Javascript
 	if (!text || i.textContent.trim().includes(text)) {
