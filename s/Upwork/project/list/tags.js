@@ -160,6 +160,7 @@
 		,'Organic Traffic Growth'
 		,'Outbound Sales'
 		,'Philosophy'
+		,'Pitch Deck'
 		,'Post Template'
 		,'PowerPoint Presentation'
 		,'Presentation Design'
