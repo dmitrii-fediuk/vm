@@ -25,6 +25,7 @@ const dfQualifications = 'section:has(> ul.qualification-items)';
 const df_c_activity = 'df-activity'; // 2025-10-02
 const df_c_bid_range = 'df-bid-range'; // 2025-10-02
 const df_c_hired = 'df-hired'; // 2025-10-03
+const df_c_hired_and_closed = 'df-hired-closed'; // 2025-11-23
 const df_c_important_list = 'df-important-list'; // 2025-10-02
 const df_c_questions = 'df-questions'; //2025-09-05
 const df_c_tags = 'df-tags'; // 2025-10-02
