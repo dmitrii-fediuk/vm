@@ -240,6 +240,7 @@
 		,'Architectural'
 		,'Art'
 		,'Audio'
+		,'Biography'
 		,'Blockchain'
 		,'Brand'
 		,'Branding'
