@@ -31,6 +31,7 @@
 		,'Applied Behavior Analysis'
 		,'Articulate Storyline'
 		,'Audience Segmentation & Targeting'
+		,'Autobiography'
 		,'Audiobook'
 		,'AutoCAD HVAC Loads Calculations'
 		,'Autodesk Fusion 360'
