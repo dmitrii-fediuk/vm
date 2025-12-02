@@ -29,6 +29,7 @@ GM_addStyle([
 	,'.globalNavFooter' // 2025-12-02
 	,'.globalnavheader' // 2025-12-02
 	,'.helpxFooter' // 2025-12-02
+	,'.note-icon' // 2025-12-02
 	,'.titleBar' // 2025-12-02
 	,'main ~ .feedback' // 2025-12-02
 ]
