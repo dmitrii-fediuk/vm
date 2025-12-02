@@ -77,6 +77,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#root_content_flex'
+	,'.applies-to-container'
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
