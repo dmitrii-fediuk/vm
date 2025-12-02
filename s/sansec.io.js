@@ -164,6 +164,7 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
+	'h2' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
@@ -337,4 +338,4 @@ GM_addStyle([
 //GM_addStyle('body {margin: 1rem .5rem !important;}');
 // 2025-12-02
 // language=CSS
-//GM_addStyle('h2 {margin: .5rem 0 !important;}');
+GM_addStyle('h2 {margin: .5rem 0 !important;}');
