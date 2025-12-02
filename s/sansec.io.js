@@ -17,8 +17,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'.text' // 2025-12-02
-	,'p' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{all: revert !important;}')
@@ -26,19 +24,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'#adbMsgClientWrapper' // 2025-12-02
-	,'#root_content_flex > div > .position:not(:first-of-type)' // 2025-12-02
-	,'.globalNavFooter' // 2025-12-02
-	,'.globalnavheader' // 2025-12-02
-	,'.helpxFooter' // 2025-12-02
-	,'.horizontalRule + .aem-GridColumn:has(a[href$="helpx.adobe.com/security.html"])' // 2025-12-02
-	,'.horizontalRule' // 2025-12-02
-	,'.note-icon' // 2025-12-02
-	,'.titleBar' // 2025-12-02
-	,'.toc' // 2025-12-02
-	,'main ~ .feedback' // 2025-12-02
-	,'p > br:first-child' // 2025-12-02
-	,'p:has(a[href$="https://hackerone.com/adobe"])' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -46,7 +31,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'#root_content_flex > div' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
@@ -76,8 +60,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'#root_content_flex' // 2025-12-02
-	,'.page-description' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -85,8 +67,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'.helpx-note' // 2025-12-02
-	,'p' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0.25rem 0 !important;}')
@@ -94,11 +74,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'#root_content_flex:not(#A)' // 2025-12-02
-	,'.applies-to-container:not(#A)' // 2025-12-02
-	,'.helpx-note' // 2025-12-02
-	,'.position' // 2025-12-02
-	,'h2' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -120,8 +95,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'.helpx-note' // 2025-12-02
-	,'h2' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
@@ -256,7 +229,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'td' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{width: unset !important;}')
@@ -264,8 +236,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'#root_content_flex > div > .position:first-of-type' // 2025-12-02
-	,'table' // 2025-12-02
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -330,11 +300,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'div:not(#A)' // 2025-12-02
-	,'li' // 2025-12-02
-	,'p' // 2025-12-02
-	,'span:not(#A)' // 2025-12-02
-	,'table' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
@@ -353,22 +318,7 @@ GM_addStyle([
 );
 // 2025-12-02
 // language=CSS
-GM_addStyle('body {margin: 1rem .5rem !important;}');
+//GM_addStyle('body {margin: 1rem .5rem !important;}');
 // 2025-12-02
 // language=CSS
-GM_addStyle('h2 {margin: .5rem 0 !important;}');
-// 2025-12-02 https://gemini.google.com/share/814d8f5fd665
-document.querySelectorAll('p').forEach(p => {
-	if (!p.children.length && !/\S/.test(p.textContent)) {
-		p.remove();
-	}
-});
-// 2025-12-02
-// https://gemini.google.com/share/4bc89b41bad9
-// language=CSS
-//GM_addStyle('table {table-layout: fixed; !important;}');
-// 2025-12-02
-// 1) https://gemini.google.com/share/4bc89b41bad9
-// 2) https://gemini.google.com/share/78237c927526
-// language=CSS
-GM_addStyle('td {overflow-wrap: anywhere; !important; min-width: 8ch !important;}');
+//GM_addStyle('h2 {margin: .5rem 0 !important;}');
