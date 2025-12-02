@@ -4,7 +4,7 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/sansec.io.js
 // @icon https://sansec.io/assets/images/sansec-social.svg
 // @match https://slcyber.io/*
-// @name sansec.io
+// @name slcyber.io
 // ==/UserScript==
 // 2025-12-02 "Improve `slcyber.io`": https://github.com/dmitrii-fediuk/vm/issues/121
 // 2025-12-02
