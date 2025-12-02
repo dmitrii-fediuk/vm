@@ -366,9 +366,9 @@ document.querySelectorAll('p').forEach(p => {
 // 2025-12-02
 // https://gemini.google.com/share/4bc89b41bad9
 // language=CSS
-GM_addStyle('table {table-layout: fixed; !important;}');
+//GM_addStyle('table {table-layout: fixed; !important;}');
 // 2025-12-02
 // 1) https://gemini.google.com/share/4bc89b41bad9
 // 2) https://gemini.google.com/share/78237c927526
 // language=CSS
-GM_addStyle('td {overflow-wrap: break-word; !important;}');
+GM_addStyle('td {overflow-wrap: anywhere; !important; min-width: 8ch !important;}');
