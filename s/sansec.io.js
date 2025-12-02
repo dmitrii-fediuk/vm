@@ -245,7 +245,8 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'.max-w-2xl' // 2025-12-02
+	'.container' // 2025-12-02
+	,'.max-w-2xl' // 2025-12-02
 ]
 	// language=Javascript
 	.join(',') + '{' +
