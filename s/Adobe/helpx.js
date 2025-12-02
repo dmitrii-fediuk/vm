@@ -69,6 +69,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#root_content_flex' // 2025-12-02
+	,'.page-description' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
