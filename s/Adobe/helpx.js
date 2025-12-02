@@ -314,7 +314,7 @@ GM_addStyle([
 );
 // 2025-12-02
 // language=CSS
-//GM_addStyle('body {margin: 0 1rem !important;}');
+GM_addStyle('body {margin: 0 0.5rem !important;}');
 // 2025-12-02
 // language=CSS
 //GM_addStyle('h3 {margin: 0.25rem 0 !important;}');
