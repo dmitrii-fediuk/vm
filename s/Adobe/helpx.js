@@ -324,6 +324,14 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
+	'div:not(#A)' // 2025-12-02
+]
+	 // language=Javascript
+	.join(',') + '{font-size: unset !important;}')
+;
+// 2025-12-02
+// language=CSS
+GM_addStyle([
 ]
 	// language=Javascript
 	.join(',') + '{' +
