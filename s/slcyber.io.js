@@ -2,7 +2,7 @@
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/slcyber.io.js
-// @icon https://sansec.io/assets/images/sansec-social.svg
+// @icon https://slcyber.io/wp-content/themes/searchlight/dist/img/favicon/apple-touch-icon.png
 // @match https://slcyber.io/*
 // @name slcyber.io
 // ==/UserScript==
