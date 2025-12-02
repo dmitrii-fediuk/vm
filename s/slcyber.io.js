@@ -17,11 +17,23 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	':is(.h2, .h3, .h4, h1, h2, h3, h4, h5)' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{all: revert !important;}')
 ;
+// 2025-12-02
+// language=CSS
+GM_addStyle([
+	':is(.h2, .h3, .h4, h1, h2, h3, h4, h5)' // 2025-12-02
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['font-family', 'font-size']
+			// language=Javascript
+			.map(k => `${k}: revert !important;`).join(' ') +
+	'}'
+);
 // 2025-12-02
 // language=CSS
 GM_addStyle([
