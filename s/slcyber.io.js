@@ -280,6 +280,7 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
+	'code' // 2025-12-02
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -294,6 +295,7 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
+	'code.custom-inline-code'
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -301,7 +303,6 @@ GM_addStyle([
 		Object.entries({
 			// language=CSS
 			'color': '#067D17' // 2025-12-02
-			,'cursor': 'revert' // 2025-12-02
 			,'font-weight': 'bold' // 2025-12-02
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
