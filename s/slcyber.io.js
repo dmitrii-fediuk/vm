@@ -161,6 +161,7 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
+	':is(.h2, .h3, .h4, h1, h2, h3, h4, h5)' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: revert !important;}')
