@@ -25,8 +25,8 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#adbMsgClientWrapper' // 2025-12-02
-	,'main ~ .feedback' // 2025-12-02
 	,'.titleBar' // 2025-12-02
+	,'main ~ .feedback' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
