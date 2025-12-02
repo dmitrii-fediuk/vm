@@ -260,6 +260,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#root_content_flex > div > .position:first-of-type' // 2025-12-02
+	,'table' // 2025-12-02
 ]
 	// language=Javascript
 	.join(',') + '{' +
