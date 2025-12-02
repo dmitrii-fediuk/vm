@@ -290,6 +290,7 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
+	'body' // 2025-12-02
 ]
 	// language=Javascript
 	.join(',') + '{' +
