@@ -325,6 +325,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'div:not(#A)' // 2025-12-02
+	,'p'
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
