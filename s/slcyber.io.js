@@ -3,10 +3,10 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/sansec.io.js
 // @icon https://sansec.io/assets/images/sansec-social.svg
-// @match https://sansec.io/*
+// @match https://slcyber.io/*
 // @name sansec.io
 // ==/UserScript==
-// 2025-12-02 "Improve `sansec.io`": https://github.com/dmitrii-fediuk/vm/issues/120
+// 2025-12-02 "Improve `slcyber.io`": https://github.com/dmitrii-fediuk/vm/issues/121
 // 2025-12-02
 // language=CSS
 GM_addStyle([
@@ -24,15 +24,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'#acknowledgements' // 2025-12-02
-	,'#acknowledgements + p' // 2025-12-02
-	,':has(> .markdown) > :not(.markdown)' // 2025-12-02
-	,':has(> .markdown) ~ *' // 2025-12-02
-	,'aside' // 2025-12-02
-	,'body > :not(main)' // 2025-12-02
-	,'li:before' // 2025-12-02
-	,'main > :not(section)' // 2025-12-02
-	,'ul:has(> li:only-child > a[href="/live"])' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -40,7 +31,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'main > section > .container' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
@@ -70,10 +60,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'.container' // 2025-12-02
-	,'code' // 2025-12-02
-	,'main' // 2025-12-02
-	,'section' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -81,9 +67,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'li' // 2025-12-02
-	,'p' // 2025-12-02
-	,'ul' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0.25rem 0 !important;}')
@@ -91,7 +74,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'.markdown' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -106,7 +88,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'code' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: unset !important;}')
@@ -114,7 +95,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'code' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
@@ -129,7 +109,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'code' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{box-shadow: unset !important;}')
@@ -137,8 +116,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'.markdown' // 2025-12-02
-	,'p' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
@@ -167,7 +144,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'ul' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{font-family: unset !important;}')
@@ -175,8 +151,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'.text-sm' // 2025-12-02
-	,'h2' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: revert !important;}')
@@ -205,7 +179,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'.markdown' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: unset !important;}')
@@ -213,7 +186,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'h2' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: revert !important;}')
@@ -271,8 +243,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'.max-w-2xl' // 2025-12-02
-	,'main > section > .container' // 2025-12-02
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -299,7 +269,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'code' // 2025-12-02
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -314,7 +283,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'code:not(.hljs)'
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -337,7 +305,6 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'body'
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -372,7 +339,7 @@ GM_addStyle([
 );
 // 2025-12-02
 // language=CSS
-GM_addStyle('body {margin: 1rem .5rem !important;}');
+//GM_addStyle('body {margin: 1rem .5rem !important;}');
 // 2025-12-02
 // language=CSS
-GM_addStyle('h2 {margin: .5rem 0 !important;}');
+//GM_addStyle('h2 {margin: .5rem 0 !important;}');
