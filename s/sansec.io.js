@@ -174,7 +174,8 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'h2' // 2025-12-02
+	'.text-sm' // 2025-12-02
+	,'h2' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: revert !important;}')
