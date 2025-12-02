@@ -76,6 +76,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'p' // 2025-12-02
+	,'ul' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0.25rem 0 !important;}')
