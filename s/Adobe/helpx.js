@@ -78,6 +78,7 @@ GM_addStyle([
 GM_addStyle([
 	'#root_content_flex:not(#A)' // 2025-12-02
 	,'.applies-to-container:not(#A)' // 2025-12-02
+	,'h2' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
