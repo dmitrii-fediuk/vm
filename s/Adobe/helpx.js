@@ -78,6 +78,15 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
+	'.helpx-note' // 2025-12-02
+	,'p' // 2025-12-02
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0.25rem !important;}')
+;
+// 2025-12-02
+// language=CSS
+GM_addStyle([
 	'#root_content_flex:not(#A)' // 2025-12-02
 	,'.applies-to-container:not(#A)' // 2025-12-02
 	,'.helpx-note' // 2025-12-02
@@ -325,6 +334,3 @@ GM_addStyle('body {margin: 0 0.5rem !important;}');
 // 2025-12-02
 // language=CSS
 GM_addStyle('h2 {margin: 0.5rem 0 !important;}');
-// 2025-12-02
-// language=CSS
-GM_addStyle('p {margin: 0.25rem 0 !important;}');
