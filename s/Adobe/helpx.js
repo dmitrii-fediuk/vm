@@ -12,6 +12,7 @@
 GM_addStyle([
 	'.text' // 2025-12-02
 	,'p'
+	,'table'
 ]
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
