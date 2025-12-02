@@ -29,7 +29,14 @@ GM_addStyle([
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
-		['font-family', 'font-size']
+		[
+			'font-family'
+			,'font-size'
+			,'font-weight'
+			,'letter-spacing'
+			,'line-height'
+			,'text-transform'
+		]
 			// language=Javascript
 			.map(k => `${k}: revert !important;`).join(' ') +
 	'}'
