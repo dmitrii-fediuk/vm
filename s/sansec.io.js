@@ -28,6 +28,7 @@ GM_addStyle([
 	,'#acknowledgements + p' // 2025-12-02
 	,':has(> .markdown) > :not(.markdown)' // 2025-12-02
 	,':has(> .markdown) ~ *' // 2025-12-02
+	,'aside' // 2025-12-02
 	,'body > :not(main)' // 2025-12-02
 	,'li:before' // 2025-12-02
 	,'main > :not(section)' // 2025-12-02
