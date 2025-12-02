@@ -221,6 +221,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{min-height: unset !important;}')
 ;
+// 2025-12-02 https://gemini.google.com/share/78237c927526
+// language=CSS
+GM_addStyle([
+	'td' // 2025-12-02
+]
+	 // language=Javascript
+	.join(',') + '{overflow-wrap: anywhere !important;}')
+;
 // 2025-12-02
 // language=CSS
 GM_addStyle([
