@@ -305,7 +305,7 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'.text' // 2025-12-02
+	'.text:not(#A)' // 2025-12-02
 	,'body:not(#A)' // 2025-12-02
 ]
 	// language=Javascript
