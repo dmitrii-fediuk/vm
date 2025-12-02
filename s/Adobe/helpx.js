@@ -321,3 +321,6 @@ GM_addStyle('body {margin: 0 0.5rem !important;}');
 // 2025-12-02
 // language=CSS
 GM_addStyle('h2 {margin: 0.5rem 0 !important;}');
+// 2025-12-02
+// language=CSS
+GM_addStyle('p {margin: 0.25rem 0 !important;}');
