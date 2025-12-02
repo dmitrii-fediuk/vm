@@ -1,7 +1,7 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/sansec.io.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/slcyber.io.js
 // @icon https://sansec.io/assets/images/sansec-social.svg
 // @match https://slcyber.io/*
 // @name slcyber.io
