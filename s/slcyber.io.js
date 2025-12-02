@@ -119,6 +119,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'body:not(#A)' // 2025-12-02
+	,'code:not(#A)' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: unset !important;}')
