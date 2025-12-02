@@ -101,6 +101,7 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
+	'h2' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
