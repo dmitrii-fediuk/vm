@@ -49,6 +49,7 @@ GM_addStyle([
 	,'#masthead' // 2025-12-02
 	,'.research-single__content--copy ~ *' // 2025-12-02
 	,'.research-single__content--copy--content ~ *' // 2025-12-02
+	,'li:before' // 2025-12-02
 	,'main > :not(div.section)' // 2025-12-02
 ]
 	 // language=Javascript
