@@ -37,6 +37,7 @@ GM_addStyle([
 	,'.titleBar' // 2025-12-02
 	,'main ~ .feedback' // 2025-12-02
 	,'p > br:first-child' // 2025-12-02
+	,'p:has(a[href$="https://hackerone.com/adobe"])' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
