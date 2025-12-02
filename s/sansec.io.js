@@ -24,7 +24,9 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	':has(> .markdown) > :not(.markdown)' // 2025-12-02
+	'#acknowledgements' // 2025-12-02
+	,'#acknowledgements + p' // 2025-12-02
+	,':has(> .markdown) > :not(.markdown)' // 2025-12-02
 	,':has(> .markdown) ~ *' // 2025-12-02
 	,'body > :not(main)' // 2025-12-02
 	,'li:before' // 2025-12-02
