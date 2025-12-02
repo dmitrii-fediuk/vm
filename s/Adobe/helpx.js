@@ -230,7 +230,7 @@ GM_addStyle([
 	'td' // 2025-12-02
 ]
 	 // language=Javascript
-	.join(',') + '{overflow-wrap: anywhere !important;}')
+	.join(',') + '{word-wrap: break-word; !important;}')
 ;
 // 2025-12-02
 // language=CSS
