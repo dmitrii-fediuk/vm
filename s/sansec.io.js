@@ -312,6 +312,22 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
+	'code:not(.hljs)'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			// language=CSS
+			'color': '#067D17' // 2025-12-02
+			// language=CSS
+			,'font-weight': 'bold' // 2025-12-02
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-12-02
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: 600 !important;}')
