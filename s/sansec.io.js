@@ -320,7 +320,7 @@ GM_addStyle([
 		Object.entries({
 			// language=CSS
 			'color': '#067D17' // 2025-12-02
-			// language=CSS
+			,'cursor': 'revert' // 2025-12-02
 			,'font-weight': 'bold' // 2025-12-02
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
