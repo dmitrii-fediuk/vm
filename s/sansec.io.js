@@ -80,7 +80,8 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'p' // 2025-12-02
+	'li' // 2025-12-02
+	,'p' // 2025-12-02
 	,'ul' // 2025-12-02
 ]
 	 // language=Javascript
