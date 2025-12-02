@@ -294,6 +294,7 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
+	'body'
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -328,7 +329,7 @@ GM_addStyle([
 );
 // 2025-12-02
 // language=CSS
-//GM_addStyle('body {margin: 1rem .5rem !important;}');
+GM_addStyle('body {margin: 1rem .5rem !important;}');
 // 2025-12-02
 // language=CSS
 //GM_addStyle('h2 {margin: .5rem 0 !important;}');
