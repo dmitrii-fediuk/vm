@@ -327,7 +327,7 @@ GM_addStyle([
 			// language=Javascript
 			,'font-size': '150%'
 			// language=CSS
-			,'line-height': 1.1
+			,'line-height': 1.25
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
