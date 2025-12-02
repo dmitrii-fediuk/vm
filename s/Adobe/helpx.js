@@ -24,7 +24,8 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'#adbMsgClientWrapper' // 2025-12-02
+	,'#adbMsgClientWrapper' // 2025-12-02
+	,'#root_content_flex > div > .position:not(:first-of-type)' / 2025-12-02
 	,'.globalNavFooter' // 2025-12-02
 	,'.globalnavheader' // 2025-12-02
 	,'.helpxFooter' // 2025-12-02
