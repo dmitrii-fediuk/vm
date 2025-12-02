@@ -27,6 +27,7 @@ GM_addStyle([
 	'#about-assetnote' // 2025-12-02
 	,'#about-assetnote + p' // 2025-12-02
 	,'.research-single__content--copy ~ *' // 2025-12-02
+	,'.research-single__content--copy--content ~ *' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
