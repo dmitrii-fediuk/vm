@@ -326,6 +326,7 @@ GM_addStyle([
 GM_addStyle([
 	'div:not(#A)' // 2025-12-02
 	,'p' // 2025-12-02
+	,'span:not(#A)' // 2025-12-02
 	,'table' // 2025-12-02
 ]
 	 // language=Javascript
