@@ -124,7 +124,8 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'.single-research :is(a i, h2, h3, h4, h5, h6, p, p a, ul li)' // 2025-12-02
+	//'.single-research :is(a i, h1, h2, h3, h4, h5, h6, p, p a, ul li)' // 2025-12-02
+	'.single-research:not(#A) :not(code, [class^="hljs"])' // 2025-12-02
 	,'body:not(#A)' // 2025-12-02
 ]
 	 // language=Javascript
