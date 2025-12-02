@@ -224,14 +224,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{min-height: unset !important;}')
 ;
-// 2025-12-02 https://gemini.google.com/share/78237c927526
-// language=CSS
-GM_addStyle([
-	'td' // 2025-12-02
-]
-	 // language=Javascript
-	.join(',') + '{overflow-wrap: break-word; !important;}')
-;
+
 // 2025-12-02
 // language=CSS
 GM_addStyle([
@@ -370,3 +363,12 @@ document.querySelectorAll('p').forEach(p => {
 		p.remove();
 	}
 });
+// 2025-12-02
+// https://gemini.google.com/share/4bc89b41bad9
+// language=CSS
+GM_addStyle('table {table-layout: fixed; !important;}');
+// 2025-12-02
+// 1) https://gemini.google.com/share/4bc89b41bad9
+// 2) https://gemini.google.com/share/78237c927526
+// language=CSS
+GM_addStyle('td {overflow-wrap: break-word; !important;}');
