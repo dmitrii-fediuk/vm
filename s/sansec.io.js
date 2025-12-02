@@ -167,7 +167,7 @@ GM_addStyle([
 	'h2' // 2025-12-02
 ]
 	 // language=Javascript
-	.join(',') + '{font-size: unset !important;}')
+	.join(',') + '{font-size: revert !important;}')
 ;
 // 2025-12-02
 // language=CSS
