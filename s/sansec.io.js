@@ -32,6 +32,7 @@ GM_addStyle([
 	,'body > :not(main)' // 2025-12-02
 	,'li:before' // 2025-12-02
 	,'main > :not(section)' // 2025-12-02
+	,'ul:has(> li:only-child > a[href="/live"])' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
