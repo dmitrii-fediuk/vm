@@ -63,7 +63,8 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'main' // 2025-12-02
+	'.container' // 2025-12-02
+	,'main' // 2025-12-02
 	,'section' // 2025-12-02
 ]
 	 // language=Javascript
