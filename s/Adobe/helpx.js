@@ -371,4 +371,4 @@ document.querySelectorAll('p').forEach(p => {
 // 1) https://gemini.google.com/share/4bc89b41bad9
 // 2) https://gemini.google.com/share/78237c927526
 // language=CSS
-GM_addStyle('td {overflow-wrap: anywhere; !important; min-width: 8ch !important;}');
+GM_addStyle('td {overflow-wrap: anywhere; !important; min-width: 10ch !important;}');
