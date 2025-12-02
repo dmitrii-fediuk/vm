@@ -10,8 +10,6 @@
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'.text' // 2025-12-02
-	,'p' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
@@ -19,6 +17,8 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
+	'.text' // 2025-12-02
+	,'p' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{all: revert !important;}')
