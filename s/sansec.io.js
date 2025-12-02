@@ -156,6 +156,7 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
+	'ul' // 2025-12-02
 ]
 	 // language=Javascript
 	.join(',') + '{font-family: unset !important;}')
