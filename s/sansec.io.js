@@ -24,7 +24,8 @@ GM_addStyle([
 // 2025-12-02
 // language=CSS
 GM_addStyle([
-	'body > :not(main)' // 2025-12-02
+	':has(> .markdown) > :not(.markdown)' // 2025-12-02
+	,'body > :not(main)' // 2025-12-02
 	,'main > :not(section)' // 2025-12-02
 ]
 	 // language=Javascript
