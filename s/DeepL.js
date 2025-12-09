@@ -13,6 +13,7 @@ GM_addStyle([
 	'#textareasContainer .sticky'
 	,'[data-testid="product-navigation-sidebar-container"]'
 	,'div:has(> button[data-testid="floating-button-ui"])'
+	,'div:has(> div > main) ~ *' // 2025-12-10
 	,'div:has(> main) ~ *'
 	,'footer'
 	,'span:has(> [data-testid="downloadButtonHeader"])'
