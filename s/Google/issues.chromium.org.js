@@ -38,7 +38,8 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	':has(> article)' // 2025-12-16
+	'.bv2-note-container-note' // 2025-12-16
+	,':has(> article)' // 2025-12-16
 	,'issue-header > div > div' // 2025-12-16
 	,'mat-sidenav-content > div' // 2025-12-16
 ]
