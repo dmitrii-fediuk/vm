@@ -25,6 +25,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	':has(> b-pagination-one-issue)' // 2025-12-16
+	,':has(> issue-chip-indicators)' // 2025-12-16
 	,'b-footer' // 2025-12-16
 	,'b-tracker-banner' // 2025-12-16
 	,'header.main-header' // 2025-12-16
