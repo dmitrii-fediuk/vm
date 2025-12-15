@@ -1,12 +1,12 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/slcyber.io.js
-// @icon https://slcyber.io/wp-content/themes/searchlight/dist/img/favicon/apple-touch-icon.png
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Google/issues.chromium.org.js
+// @icon https://www.gstatic.com/chrome-tracker/img/chromium.svg
 // @match https://slcyber.io/*
 // @name slcyber.io
 // ==/UserScript==
-// 2025-12-16 "Improve `issues.chromium.org`": https://github.com/dmitrii-fediuk/vm/issues/121
+// 2025-12-16 "Improve `issues.chromium.org`": https://github.com/dmitrii-fediuk/vm/issues/122
 // 2025-12-16
 // language=CSS
 GM_addStyle([
