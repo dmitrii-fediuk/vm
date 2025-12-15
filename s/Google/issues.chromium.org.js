@@ -24,7 +24,8 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'b-footer' // 2025-12-16
+	':has(> b-pagination-one-issue)' // 2025-12-16
+	,'b-footer' // 2025-12-16
 	,'b-tracker-banner' // 2025-12-16
 	,'header.main-header' // 2025-12-16
 	,'llm-chat-open-button' // 2025-12-16
