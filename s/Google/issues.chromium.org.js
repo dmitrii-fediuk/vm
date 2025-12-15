@@ -118,6 +118,7 @@ GM_addStyle([
 	'.bv2-content' // 2025-12-16
 	,'b-issue-description' // 2025-12-16
 	,'issue-header > div' // 2025-12-16
+	,'status-update > div' // 2025-12-16
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
