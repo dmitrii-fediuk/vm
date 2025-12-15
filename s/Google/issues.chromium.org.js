@@ -33,7 +33,8 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'mat-sidenav-content > div' // 2025-12-16
+	':has(> article)' // 2025-12-16
+	,'mat-sidenav-content > div' // 2025-12-16
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
