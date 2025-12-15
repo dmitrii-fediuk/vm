@@ -262,7 +262,6 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'code' // 2025-12-16
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -277,7 +276,6 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'code.custom-inline-code'
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -299,7 +297,6 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'body'
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -337,7 +334,7 @@ GM_addStyle([
 //GM_addStyle('body {margin: 1rem .5rem !important;}');
 // 2025-12-16
 // language=CSS
-GM_addStyle('h1:not(#A) {font-size: 2rem !important; margin: .5rem 0 !important;}');
+//GM_addStyle('h1:not(#A) {font-size: 2rem !important; margin: .5rem 0 !important;}');
 // 2025-12-16
 // language=CSS
-GM_addStyle(':is(h2, h3, h4) {margin: .5rem 0 !important;}');
+//GM_addStyle(':is(h2, h3, h4) {margin: .5rem 0 !important;}');
