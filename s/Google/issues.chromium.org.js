@@ -67,6 +67,7 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
+	'issue-header > div > div' // 2025-12-16
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
