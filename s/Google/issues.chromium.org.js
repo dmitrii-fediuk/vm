@@ -71,6 +71,7 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
+	'b-issue-description' // 2025-12-16
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -92,6 +93,7 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
+	'b-issue-description' // 2025-12-16
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
