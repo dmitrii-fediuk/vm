@@ -26,6 +26,7 @@ GM_addStyle([
 GM_addStyle([
 	'b-footer' // 2025-12-16
 	,'header.main-header' // 2025-12-16
+	,'mat-icon' // 2025-12-16
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
