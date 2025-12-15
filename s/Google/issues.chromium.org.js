@@ -3,7 +3,7 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Google/issues.chromium.org.js
 // @icon https://www.gstatic.com/chrome-tracker/img/chromium.svg
-// @match https://slcyber.io/*
+// @match https://issues.chromium.org/issues/*
 // @name slcyber.io
 // ==/UserScript==
 // 2025-12-16 "Improve `issues.chromium.org`": https://github.com/dmitrii-fediuk/vm/issues/122
