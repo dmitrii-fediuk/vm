@@ -73,6 +73,7 @@ GM_addStyle([
 GM_addStyle([
 	'.bv2-note-container' // 2025-12-16
 	,'b-issue-description' // 2025-12-16
+	,'issue-description-area' // 2025-12-16
 	,'issue-header > div > div' // 2025-12-16
 	,'status-update > div' // 2025-12-16
 ]
@@ -92,6 +93,7 @@ GM_addStyle([
 GM_addStyle([
 	'#bv2-edit-issue-details-scroll' // 2025-12-16
 	,'b-issue-description' // 2025-12-16
+	,'issue-description-area' // 2025-12-16
 	,'issue-header > div' // 2025-12-16
 	,'status-update > div' // 2025-12-16
 ]
