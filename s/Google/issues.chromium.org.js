@@ -74,9 +74,18 @@ GM_addStyle([
 	'.bv2-note-container' // 2025-12-16
 	,'b-issue-description' // 2025-12-16
 	,'issue-header > div > div' // 2025-12-16
+	,'status-update > div' // 2025-12-16
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
+;
+// 2025-12-16
+// language=CSS
+GM_addStyle([
+	'p'
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0.25rem 0 !important;}')
 ;
 // 2025-12-16
 // language=CSS
