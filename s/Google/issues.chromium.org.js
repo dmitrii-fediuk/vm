@@ -253,6 +253,7 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
+	'.bv2-note-container-note' // 2025-12-16
 ]
 	// language=Javascript
 	.join(',') + '{' +
