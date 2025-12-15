@@ -37,6 +37,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	':has(> article)' // 2025-12-16
+	,'issue-header > div > div' // 2025-12-16
 	,'mat-sidenav-content > div' // 2025-12-16
 ]
 	 // language=Javascript
