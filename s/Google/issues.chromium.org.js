@@ -24,33 +24,6 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	':is(.h2, .h3, .h4, h1, h2, h3, h4, h5)' // 2025-12-16
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		[
-			'font-family'
-			,'font-size'
-			,'font-weight'
-			,'letter-spacing'
-			,'line-height'
-			,'text-transform'
-		]
-			// language=Javascript
-			.map(k => `${k}: revert !important;`).join(' ') +
-	'}'
-);
-// 2025-12-16
-// language=CSS
-GM_addStyle([
-	'#about-assetnote' // 2025-12-16
-	,'#about-assetnote + p' // 2025-12-16
-	,'#masthead' // 2025-12-16
-	,'.research-single__content--copy ~ *' // 2025-12-16
-	,'.research-single__content--copy--content ~ *' // 2025-12-16
-	,'li:before' // 2025-12-16
-	,'main > :not(div.section)' // 2025-12-16
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -94,16 +67,6 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'li'
-	,'p'
-]
-	 // language=Javascript
-	.join(',') + '{margin: 0.25rem 0 !important;}')
-;
-// 2025-12-16
-// language=CSS
-GM_addStyle([
-	'main > div.section' // 2025-12-16
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -118,8 +81,6 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'body:not(#A)' // 2025-12-16
-	,'code.custom-inline-code' // 2025-12-16
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: unset !important;}')
@@ -148,8 +109,6 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'.single-research:not(#A) :not(code, [class^="hljs"])' // 2025-12-16
-	,'body:not(#A)' // 2025-12-16
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
@@ -277,7 +236,6 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'.research-single__content--copy' // 2025-12-16
 ]
 	// language=Javascript
 	.join(',') + '{' +
