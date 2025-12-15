@@ -4,7 +4,7 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Google/issues.chromium.org.js
 // @icon https://www.gstatic.com/chrome-tracker/img/chromium.svg
 // @match https://issues.chromium.org/issues/*
-// @name slcyber.io
+// @name issues.chromium.org
 // ==/UserScript==
 // 2025-12-16 "Improve `issues.chromium.org`": https://github.com/dmitrii-fediuk/vm/issues/122
 // 2025-12-16
