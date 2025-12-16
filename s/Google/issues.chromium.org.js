@@ -328,34 +328,6 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
-			'font-family': 'Consolas'
-			// language=Javascript
-			,'font-size': '1.5rem'
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
-// 2025-12-16
-// language=CSS
-GM_addStyle([
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
-			// language=CSS
-			'color': '#067D17' // 2025-12-16
-			,'font-weight': 'bold' // 2025-12-16
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
-// 2025-12-16
-// language=CSS
-GM_addStyle([
 	'*' // 2025-12-16
 ]
 	// language=Javascript
@@ -380,6 +352,36 @@ GM_addStyle([
 			,'font-size': '175%'
 			// language=CSS
 			,'line-height': 1.25
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-12-16
+// language=CSS
+GM_addStyle([
+	'code' // 2025-12-16
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'font-family': 'Consolas'
+			// language=Javascript
+			,'font-size': '1.5rem'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2025-12-16
+// language=CSS
+GM_addStyle([
+	'code' // 2025-12-16
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			// language=CSS
+			'color': '#067D17' // 2025-12-16
+			,'font-weight': 'bold' // 2025-12-16
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
