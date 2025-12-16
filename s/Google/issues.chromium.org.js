@@ -123,7 +123,8 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'issue-header > div' // 2025-12-16
+	'.b-chip' // 2025-12-16
+	,'issue-header > div' // 2025-12-16
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: unset !important;}')
