@@ -380,6 +380,8 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.type-m' // 2025-12-16
+	,'p'
+	,'textarea'
 ]
 	// language=Javascript
 	.join(',') + '{' +
