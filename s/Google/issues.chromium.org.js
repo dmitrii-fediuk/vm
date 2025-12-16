@@ -25,6 +25,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'.cdk-live-announcer-element' // 2025-12-16
+	,'.cdk-overlay-container' // 2025-12-16
 	,':has(> b-pagination-one-issue)' // 2025-12-16
 	,':has(> issue-chip-indicators)' // 2025-12-16
 	,'[popover]' // 2025-12-16
