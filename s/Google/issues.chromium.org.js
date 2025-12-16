@@ -129,6 +129,7 @@ GM_addStyle([
 	'.bv2-content' // 2025-12-16
 	,':has(> b-post-comment)' // 2025-12-16
 	,'b-issue-description' // 2025-12-16
+	,'b-resizable-sidebar > div' // 2025-12-16
 	,'issue-header > div' // 2025-12-16
 	,'nav' // 2025-12-16
 	,'status-update > div' // 2025-12-16
@@ -294,7 +295,8 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'body' // 2025-12-16
+	'b-resizable-sidebar > div' // 2025-12-16
+	,'body' // 2025-12-16
 ]
 	// language=Javascript
 	.join(',') + '{' +
