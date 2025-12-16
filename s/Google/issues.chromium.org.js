@@ -26,7 +26,8 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'.cdk-live-announcer-element' // 2025-12-16
+	'.bv2-event-user-image-cell' // 2025-12-16
+	,'.cdk-live-announcer-element' // 2025-12-16
 	,'.cdk-overlay-container' // 2025-12-16
 	,':has(> b-pagination-one-issue)' // 2025-12-16
 	,':has(> issue-chip-indicators)' // 2025-12-16
