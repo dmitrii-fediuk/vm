@@ -10,7 +10,7 @@
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	//'body', 'html' // 2025-12-16
+	'body', 'html' // 2025-12-16
 ]
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
