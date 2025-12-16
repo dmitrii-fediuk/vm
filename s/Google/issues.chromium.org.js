@@ -350,6 +350,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'*' // 2025-12-16
+	,'button'
 ]
 	// language=Javascript
 	.join(',') + '{' +
