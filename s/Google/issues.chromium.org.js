@@ -356,8 +356,20 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
+	'body' // 2025-12-16
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['font-family', 'font-size', 'font-weight', 'line-height']
+			// language=Javascript
+			.map(k => `${k}: revert !important;`).join(' ') +
+	'}'
+);
+// 2025-12-16
+// language=CSS
+GM_addStyle([
 	'.type-m' // 2025-12-16
-	,'body' // 2025-12-16
 	,'p'
 	,'textarea'
 ]
