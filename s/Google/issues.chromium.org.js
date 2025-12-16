@@ -84,7 +84,8 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'.bv2-note-container' // 2025-12-16
+	'.bv2-event-content-cell' // 2025-12-16
+	,'.bv2-note-container' // 2025-12-16
 	,':has(> b-post-comment)' // 2025-12-16
 	,'b-issue-description' // 2025-12-16
 	,'issue-description-area' // 2025-12-16
