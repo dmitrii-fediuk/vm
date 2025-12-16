@@ -99,6 +99,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#bv2-edit-issue-details-scroll' // 2025-12-16
+	,'.bv2-event-content-cell' // 2025-12-16
 	,':has(> b-post-comment)' // 2025-12-16
 	,'b-issue-description' // 2025-12-16
 	,'issue-description-area' // 2025-12-16
