@@ -349,13 +349,6 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-]
-	 // language=Javascript
-	.join(',') + '{font-weight: 600 !important;}')
-;
-// 2025-12-16
-// language=CSS
-GM_addStyle([
 	'*' // 2025-12-16
 ]
 	// language=Javascript
@@ -364,22 +357,6 @@ GM_addStyle([
 		['font-family', 'font-size', 'font-weight', 'line-height']
 			// language=Javascript
 			.map(k => `${k}: revert !important;`).join(' ') +
-	'}'
-);
-// 2025-12-16
-// language=CSS
-GM_addStyle([
-	//'.heading-m'
-	//'.type-m' // 2025-12-16
-	//,'p'
-	//,'textarea'
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		['font-family', 'font-size', 'font-weight', 'line-height']
-			// language=Javascript
-			.map(k => `${k}: unset !important;`).join(' ') +
 	'}'
 );
 // 2025-12-16
