@@ -18,7 +18,7 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'body' // 2025-12-16
+	//'body' // 2025-12-16
 ]
 	 // language=Javascript
 	.join(',') + '{all: revert !important;}')
@@ -356,6 +356,22 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
+	'.type-m' // 2025-12-16
+	,'body' // 2025-12-16
+	,'p'
+	,'textarea'
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['font-family', 'font-size', 'font-weight', 'line-height']
+			// language=Javascript
+			.map(k => `${k}: unset !important;`).join(' ') +
+	'}'
+);
+// 2025-12-16
+// language=CSS
+GM_addStyle([
 	'body' // 2025-12-16
 ]
 	// language=Javascript
@@ -377,21 +393,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
 ;
-// 2025-12-16
-// language=CSS
-GM_addStyle([
-	'.type-m' // 2025-12-16
-	,'p'
-	,'textarea'
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		['font-family', 'font-size', 'font-weight', 'line-height']
-			// language=Javascript
-			.map(k => `${k}: unset !important;`).join(' ') +
-	'}'
-);
 // 2025-12-16
 // language=CSS
 GM_addStyle('body {margin: .5rem !important;}');
