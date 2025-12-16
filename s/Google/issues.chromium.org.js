@@ -36,6 +36,7 @@ GM_addStyle([
 	,'b-tracker-banner' // 2025-12-16
 	,'header.main-header' // 2025-12-16
 	,'issue-details-wrapper > h2' // 2025-12-16
+	,'issue-header aside.pos-fill' // 2025-12-16
 	,'issue-title ~ *' // 2025-12-16
 	,'llm-chat-open-button' // 2025-12-16
 	,'mat-icon' // 2025-12-16
