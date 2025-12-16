@@ -10,6 +10,7 @@
 // 2025-12-16
 // language=CSS
 GM_addStyle([
+	//'body', 'html' // 2025-12-16
 ]
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
@@ -279,7 +280,7 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'.bv2-note-container-note' // 2025-12-16
+	//'.bv2-note-container-note' // 2025-12-16
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -287,6 +288,19 @@ GM_addStyle([
 		['max-width', 'width', 'min-width']
 			// language=Javascript
 			.map(k => `${k}: 100% !important;`).join(' ') +
+	'}'
+);
+// 2025-12-16
+// language=CSS
+GM_addStyle([
+	'body' // 2025-12-16
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['max-width', 'width', 'min-width']
+			// language=Javascript
+			.map(k => `${k}: unset !important;`).join(' ') +
 	'}'
 );
 // 2025-12-16
