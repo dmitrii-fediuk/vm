@@ -32,6 +32,7 @@ GM_addStyle([
 	,'[popover]' // 2025-12-16
 	,'b-footer' // 2025-12-16
 	,'b-hiring-banner' // 2025-12-16
+	,'b-terms-of-service' // 2025-12-16
 	,'b-tracker-banner' // 2025-12-16
 	,'header.main-header' // 2025-12-16
 	,'issue-title ~ *' // 2025-12-16
