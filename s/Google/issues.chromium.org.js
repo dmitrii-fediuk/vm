@@ -349,7 +349,8 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'*:not(#A)' // 2025-12-16
+	'*' // 2025-12-16
+	,':not(#A)'
 ]
 	// language=Javascript
 	.join(',') + '{' +
