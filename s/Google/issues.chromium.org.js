@@ -379,11 +379,12 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
+	'.type-m' // 2025-12-16
 ]
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
-		['font-size', 'font-weight', 'line-height']
+		['font-family', 'font-size', 'font-weight', 'line-height']
 			// language=Javascript
 			.map(k => `${k}: unset !important;`).join(' ') +
 	'}'
