@@ -373,7 +373,7 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'code' // 2025-12-16
+	'p > code' // 2025-12-16
 ]
 	// language=Javascript
 	.join(',') + '{' +
