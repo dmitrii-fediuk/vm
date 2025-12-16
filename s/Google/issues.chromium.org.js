@@ -95,14 +95,6 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'p'
-]
-	 // language=Javascript
-	.join(',') + '{margin: 0.25rem 0 !important;}')
-;
-// 2025-12-16
-// language=CSS
-GM_addStyle([
 	'#bv2-edit-issue-details-scroll' // 2025-12-16
 	,':has(> b-post-comment)' // 2025-12-16
 	,'b-issue-description' // 2025-12-16
@@ -399,6 +391,14 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle('body {margin: .5rem !important;}');
+// 2025-12-16
+// language=CSS
+GM_addStyle([
+	':is(li, ol, p, ul)' // 2025-12-16
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0.25rem 0 !important;}')
+;
 // 2025-12-16
 // language=CSS
 //GM_addStyle('h1:not(#A) {font-size: 2rem !important; margin: .5rem 0 !important;}');
