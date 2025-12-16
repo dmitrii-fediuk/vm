@@ -295,7 +295,8 @@ GM_addStyle([
 // 2025-12-16
 // language=CSS
 GM_addStyle([
-	'b-resizable-sidebar > div' // 2025-12-16
+	'b-resizable-sidebar .content' // 2025-12-16
+	,'b-resizable-sidebar > div' // 2025-12-16
 	,'body' // 2025-12-16
 ]
 	// language=Javascript
