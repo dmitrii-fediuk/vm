@@ -26,6 +26,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// 2025-12-21
+// language=CSS
+GM_addStyle([
+	'.container' // 2025-12-21
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
 // 2025-08-05
 // language=CSS
 GM_addStyle([
