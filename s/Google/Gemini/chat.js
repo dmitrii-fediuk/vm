@@ -39,13 +39,10 @@ const p = () => {
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
 	;
-
 	// 2025-03-28
 	// language=CSS
 	GM_addStyle([
-		'bard-sidenav-container' // 2025-08-05
-		,'.chat-container'
-		,'.horizontal-container'
+		'.horizontal-container'
 		,'.query-content'
 		,'.side-nav-menu-button'
 		,'message-actions > mat-menu'
