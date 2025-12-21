@@ -226,8 +226,10 @@ GM_addStyle([
 	,'height': 'auto'
 	,'overflow': 'unset'
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
-// 2025-12-21 It is not compatible with Partial Share
-if (0) {
+// 2025-12-21
+// 1) It removes the duplicate vertical scrollbar.
+// 2) It is not compatible with Partial Share.
+if (1) {
 	// 2025-12-21
 	// language=CSS
 	GM_addStyle(`body {${Object.entries({
