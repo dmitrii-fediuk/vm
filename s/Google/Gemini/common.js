@@ -40,3 +40,6 @@ GM_addStyle([
 			.map(k => `${k}: 100% !important;`).join(' ') +
 	'}'
 );
+// 2025-12-21
+// language=CSS
+GM_addStyle(`.ql-editor.ql-blank:before {content: '' !important;}`);
