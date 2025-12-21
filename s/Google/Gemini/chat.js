@@ -154,6 +154,9 @@ const p = () => {
 		 // language=Javascript
 		.join(',') + '{font-size: 100% !important;}')
 	;
+	// 2025-12-21
+	// language=CSS
+	GM_addStyle(`.ql-editor.ql-blank:before {content: '' !important;}`);
 	// 2025-03-28 https://chatgpt.com/c/67e62607-5b70-8003-9805-1775f9b2b1db
 	(() => {
 		const p = () => {
