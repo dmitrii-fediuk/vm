@@ -18,6 +18,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{all: revert !important;}')
 ;
+// 2025-12-21
+// language=CSS
+GM_addStyle([
+	'.footer' // 2025-12-21
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
 // 2025-08-05
 // language=CSS
 GM_addStyle([
@@ -28,9 +36,9 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			// language=CSS
-			'display': 'block' // 2025-08-05
+			//'display': 'block' // 2025-08-05
 			// language=Javascript
-			,'font-size': '120%' // 2025-03-29
+			'font-size': '120%' // 2025-03-29
 			,'margin': '0 0 0 1rem' // 2025-03-28
 			// language=CSS
 			,'overflow-x': 'hidden' // 2025-08-05
@@ -52,12 +60,12 @@ GM_addStyle([
 	,'.chat-container' // 2025-08-05
 	,'.content-container' // 2025-08-05
 	,'.content-wrapper' // 2025-08-05
-	,'.main-content' // 2025-08-05
-	,'bard-sidenav-container' // 2025-03-28
-	,'bard-sidenav-content' // 2025-08-05
+	//,'.main-content' // 2025-08-05
+	,,'bard-sidenav-container' // 2025-03-28
+	//,'bard-sidenav-content' // 2025-08-05
 	,'chat-app' // 2025-03-28
-	,'html' // 2025-03-28
-	,'main' // 2025-03-28
+	//,'html' // 2025-03-28
+	//,'main' // 2025-03-28
 	,'chat-window' // 2025-08-05
 	,'infinite-scroller' // 2025-04-20
 ]
@@ -71,6 +79,7 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+
 // 2025-03-29
 // language=CSS
 GM_addStyle([
