@@ -246,7 +246,6 @@ if (1) {
 		,`.main-content` // 2025-08-05
 		,`bard-sidenav-content` // 2025-08-05
 		,`html` // 2025-03-28
-		,`main` // 2025-03-28
 	// language=Javascript
 	].join(',') + `{${Object.entries({
 		'display': 'block'
