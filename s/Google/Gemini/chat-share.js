@@ -211,8 +211,7 @@ GM_addStyle(`body {${Object.entries({
 // 2025-12-21
 // language=CSS
 GM_addStyle([
-	`#A` // 2025-12-21
-	,`#chat-history` // 2025-04-20
+	`#chat-history` // 2025-04-20
 	,`.chat-container` // 2025-08-05
 	,`.content-container` // 2025-08-05
 	,`.content-wrapper` // 2025-08-05
