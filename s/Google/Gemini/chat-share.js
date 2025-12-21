@@ -34,6 +34,19 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// 2025-12-21
+// language=CSS
+GM_addStyle([
+	'structured-content-container' // 2025-12-21
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['max-width', 'width', 'min-width']
+			// language=Javascript
+			.map(k => `${k}: 100% !important;`).join(' ') +
+	'}'
+);
 // 2025-08-05
 // language=CSS
 GM_addStyle([
