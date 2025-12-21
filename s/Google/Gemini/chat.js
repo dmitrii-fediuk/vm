@@ -151,6 +151,35 @@ const p = () => {
 		 // language=Javascript
 		.join(',') + '{font-size: 100% !important;}')
 	;
+	// 2025-12-21
+	// 1) It removes the duplicate vertical scrollbar in the Chat Mode.
+	// 2) It is not compatible with Partial Share.
+	if (1) {
+		// 2025-12-21
+		// language=CSS
+		GM_addStyle(`body {${Object.entries({
+			'display': 'block' // 2025-08-05
+		}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
+		// 2025-03-28
+		// Similar to:
+		// https://github.com/dmitrii-fediuk/vm/blob/2025-03-20/s/grok.com.js#L89-L91
+		// https://github.com/dmitrii-fediuk/vm/blob/2025-03-20/s/ChatGPT.js#L52-L54
+		// https://github.com/dmitrii-fediuk/vm/blob/2025-03-27/s/Claude.js#L96-L102
+		// 2025-12-21
+		// language=CSS
+		GM_addStyle([
+			`#A` // 2025-12-21
+			,`.main-content` // 2025-08-05
+			,`bard-sidenav-content` // 2025-08-05
+			,`html` // 2025-03-28
+			,`main` // 2025-03-28
+		// language=Javascript
+		].join(',') + `{${Object.entries({
+			'display': 'block'
+			,'height': 'auto'
+			,'overflow': 'unset'
+		}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
+	}
 	// 2025-03-28 https://chatgpt.com/c/67e62607-5b70-8003-9805-1775f9b2b1db
 	(() => {
 		const p = () => {
