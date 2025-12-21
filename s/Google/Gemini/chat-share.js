@@ -226,14 +226,19 @@ GM_addStyle([
 	,'overflow': 'unset'
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2025-12-21
-// 1) It removes the duplicate vertical scrollbar in the Chat Mode.
+// 1) I do not remember the purpose of it.
 // 2) It is not compatible with Partial Share.
-if (1) {
+if (0) {
 	// 2025-12-21
 	// language=CSS
 	GM_addStyle(`body {${Object.entries({
 		'display': 'block' // 2025-08-05
 	}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
+}
+// 2025-12-21
+// 1) It removes the duplicate vertical scrollbar in the Chat Mode.
+// 2) It is not compatible with Partial Share.
+if (1) {
 	// 2025-03-28
 	// Similar to:
 	// https://github.com/dmitrii-fediuk/vm/blob/2025-03-20/s/grok.com.js#L89-L91
