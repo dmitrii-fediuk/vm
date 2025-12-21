@@ -33,6 +33,7 @@ const p = () => {
 			',copy-button' + // 2025-08-05
 		')'
 		,'model-thoughts'
+		,'side-nav-menu-button' // 2025-12-21
 		,'top-bar-actions'
 	]
 		 // language=Javascript
