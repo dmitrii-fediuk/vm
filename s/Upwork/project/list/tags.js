@@ -274,6 +274,7 @@
 		,'Gaming'
 		,'Grant'
 		,'Green'
+		,'High-Ticket'
 		,'HR'
 		,'Industrial'
 		,'Instagram'
