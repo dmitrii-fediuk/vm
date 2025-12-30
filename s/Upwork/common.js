@@ -41,6 +41,12 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// 2025-12-30
+// language=CSS
+GM_addStyle([
+	'*' // 2025-12-30
+// language=Javascript
+].join(',') + '{letter-spacing: initial !important;}');
 // 2024-12-25
 // language=CSS
 GM_addStyle([
