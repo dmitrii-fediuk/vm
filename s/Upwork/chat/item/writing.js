@@ -14,3 +14,11 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// 2026-01-14
+// language=CSS
+GM_addStyle([
+	`.room-header` // 2026-01-14
+]
+	 // language=Javascript
+	.join(',') + '{height: unset !important;}')
+;
