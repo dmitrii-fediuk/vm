@@ -49,7 +49,7 @@ GM_addStyle([
 // 2026-01-14
 // language=CSS
 GM_addStyle([
-	'.up-d-composer' // 2026-01-14
+	`.up-d-composer` // 2026-01-14
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -62,7 +62,7 @@ GM_addStyle([
 // 2026-01-14
 // language=CSS
 GM_addStyle([
-	'.up-d-composer' // 2026-01-14
+	`.up-d-composer` // 2026-01-14
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
