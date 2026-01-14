@@ -1,7 +1,7 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Upwork/chat/reading.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Upwork/chat/list.js
 // @icon https://www.upwork.com/favicon.ico
 // @match *://www.upwork.com/ab/messages/rooms
 // @name Upwork / Chat / List
