@@ -36,3 +36,16 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{height: unset !important;}')
 ;
+// 2026-01-14
+// language=CSS
+GM_addStyle([
+	'.up-d-composer' // 2026-01-14
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['height', 'max-height', 'min-height']
+			// language=Javascript
+			.map(k => `${k}: unset !important;`).join(' ') +
+	'}'
+);
