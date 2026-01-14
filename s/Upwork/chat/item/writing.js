@@ -20,15 +20,8 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.room-header` // 2026-01-14
+	,`.up-d-composer-actions` // 2026-01-14
 ]
 	 // language=Javascript
 	.join(',') + '{height: unset !important;}')
-;
-// 2026-01-14
-// language=CSS
-GM_addStyle([
-	`.up-d-composer > .w-100` // 2026-01-14
-]
-	 // language=Javascript
-	.join(',') + '{ --buttons-area-height: unset !important;}')
 ;
