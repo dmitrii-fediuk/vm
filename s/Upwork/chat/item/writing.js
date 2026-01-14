@@ -19,7 +19,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`#story-viewport` // 2026-01-14
-	`,.room-section` // 2026-01-14
+	,`.room-section` // 2026-01-14
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
