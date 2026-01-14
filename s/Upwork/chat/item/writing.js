@@ -18,6 +18,14 @@ GM_addStyle([
 // 2026-01-14
 // language=CSS
 GM_addStyle([
+	`#story-viewport` // 2026-01-14
+]
+	 // language=Javascript
+	.join(',') + '{display: block !important;}')
+;
+// 2026-01-14
+// language=CSS
+GM_addStyle([
 	`.input-area` // 2026-01-14
 	,`.room-header` // 2026-01-14
 	,`.story-inner` // 2026-01-14
