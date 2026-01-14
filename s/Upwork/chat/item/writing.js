@@ -19,6 +19,7 @@ GM_addStyle([
 GM_addStyle([
 	`.input-area` // 2026-01-14
 	,`.room-header` // 2026-01-14
+	,`.story-inner` // 2026-01-14
 	,`.up-d-composer-actions` // 2026-01-14
 ]
 	 // language=Javascript
