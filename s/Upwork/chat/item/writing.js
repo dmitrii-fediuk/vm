@@ -67,7 +67,9 @@ GM_addStyle([
 // https://github.com/dmitrii-fediuk/vm/blob/2025-03-27/s/Claude.js#L96-L102
 // language=CSS
 GM_addStyle([
-	//`#story-viewport`
+	`#story-viewport` // 2026-01-14
+	,`.room-section` // 2026-01-14
+	,'.up-d-composer' // 2026-01-14
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'display': 'block'
