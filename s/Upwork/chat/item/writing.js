@@ -60,6 +60,14 @@ GM_addStyle([
 	'}'
 );
 // 2026-01-14
+// language=CSS
+GM_addStyle([
+	'.up-d-composer' // 2026-01-14
+]
+	 // language=Javascript
+	.join(',') + '{position: unset !important;}')
+;
+// 2026-01-14
 // 2025-03-28
 // Similar to:
 // https://github.com/dmitrii-fediuk/vm/blob/2025-03-20/s/grok.com.js#L89-L91
@@ -68,6 +76,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`#story-viewport` // 2026-01-14
+	,`.composer-container` // 2026-01-14
 	,`.desktop-container` // 2026-01-14
 	,`.desktop-room` // 2026-01-14
 	,`.room-body` // 2026-01-14
