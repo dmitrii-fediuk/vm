@@ -49,3 +49,18 @@ GM_addStyle([
 			.map(k => `${k}: unset !important;`).join(' ') +
 	'}'
 );
+// 2026-01-14
+// 2025-03-28
+// Similar to:
+// https://github.com/dmitrii-fediuk/vm/blob/2025-03-20/s/grok.com.js#L89-L91
+// https://github.com/dmitrii-fediuk/vm/blob/2025-03-20/s/ChatGPT.js#L52-L54
+// https://github.com/dmitrii-fediuk/vm/blob/2025-03-27/s/Claude.js#L96-L102
+// language=CSS
+GM_addStyle([
+	`#story-viewport`
+// language=Javascript
+].join(',') + `{${Object.entries({
+	'display': 'block'
+	,'height': 'auto'
+	,'overflow': 'unset'
+}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
