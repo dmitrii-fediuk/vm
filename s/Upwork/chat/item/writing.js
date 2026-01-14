@@ -88,4 +88,5 @@ GM_addStyle([
 	'display': 'block'
 	,'height': 'auto'
 	,'overflow': 'unset'
+	,'position': 'unset'
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
