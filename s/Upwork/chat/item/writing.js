@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	`.room-typing` // 2026-01-14
+	,`.up-d-room-header-actions` // 2026-01-14
 	, `[data-ev-label='wm_view_contract_action']` // 2026-01-14
 ]
 	 // language=Javascript
