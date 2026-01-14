@@ -10,7 +10,8 @@
 // language=CSS
 GM_addStyle([
 	`.input-area` // 2026-01-14
-	, `.room-header` // 2026-01-14
+	,`.room-header` // 2026-01-14
+	,`.up-d-composer-actions` // 2026-01-14
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
