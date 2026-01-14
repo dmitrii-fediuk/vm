@@ -15,7 +15,6 @@ setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
 		'.composer-container'
-		,'.desktop-layout-header'
 		,'.desktop-layout-index'
 		,'.sidebar-layout'
 		,'.story-menu-section'
