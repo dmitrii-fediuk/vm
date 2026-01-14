@@ -9,6 +9,14 @@
 // 2026-01-14
 // language=CSS
 GM_addStyle([
+	`.room-typing` // 2026-01-14
+]
+	 // language=Javascript
+	.join(',') + '{display: none !important;}')
+;
+// 2026-01-14
+// language=CSS
+GM_addStyle([
 	`.input-area` // 2026-01-14
 	,`.room-header` // 2026-01-14
 	,`.up-d-composer-actions` // 2026-01-14
