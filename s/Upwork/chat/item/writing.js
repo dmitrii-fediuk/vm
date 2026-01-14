@@ -24,3 +24,11 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{height: unset !important;}')
 ;
+// 2026-01-14
+// language=CSS
+GM_addStyle([
+	`.up-d-composer > .w-100` // 2026-01-14
+]
+	 // language=Javascript
+	.join(',') + '{ --buttons-area-height: unset !important;}')
+;
