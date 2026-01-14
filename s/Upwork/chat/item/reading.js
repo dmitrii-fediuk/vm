@@ -28,6 +28,3 @@ setTimeout(() => {
 // 2024-10-13
 // language=CSS
 GM_addStyle('#story-viewport {height: initial !important;}');
-// 2024-10-13
-// language=CSS
-GM_addStyle('.desktop-room-layout {margin: 0 !important;}');

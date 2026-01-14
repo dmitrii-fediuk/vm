@@ -20,7 +20,7 @@ setTimeout(() => {
 // 2026-01-14
 // language=CSS
 GM_addStyle([
-	`.desktop-room-layout` // 2026-01-14
+	`.desktop-room-layout` // 2024-10-13, 2026-01-14
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
