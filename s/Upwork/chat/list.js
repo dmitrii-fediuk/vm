@@ -20,6 +20,14 @@ setTimeout(() => {
 // 2026-01-14
 // language=CSS
 GM_addStyle([
+	`.rooms-panel` // 2026-01-14
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
+// 2026-01-14
+// language=CSS
+GM_addStyle([
 	`.rooms-panel-room-list` // 2026-01-14
 ]
 	 // language=Javascript
