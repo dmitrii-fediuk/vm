@@ -10,7 +10,8 @@
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		'.desktop-layout-header'
+		`.desktop-layout-header`
+		,`.rooms-panel__list-wrapper`
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
