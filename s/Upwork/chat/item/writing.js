@@ -9,7 +9,8 @@
 // 2026-01-14
 // language=CSS
 GM_addStyle([
-	`.room-header` // 2026-01-14
+	`.input-area` // 2026-01-14
+	, `.room-header` // 2026-01-14
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
