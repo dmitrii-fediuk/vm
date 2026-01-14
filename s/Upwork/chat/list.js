@@ -20,7 +20,7 @@ setTimeout(() => {
 // 2026-01-14
 // language=CSS
 GM_addStyle([
-	`rooms-panel-room-list` // 2026-01-14
+	`.rooms-panel-room-list` // 2026-01-14
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
