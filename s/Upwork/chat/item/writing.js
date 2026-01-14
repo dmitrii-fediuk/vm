@@ -29,7 +29,8 @@ GM_addStyle([
 // 2026-01-14
 // language=CSS
 GM_addStyle([
-	`.room-header` // 2026-01-14
+	`#story-viewport` // 2026-01-14
+	,`.room-header` // 2026-01-14
 	,`.up-d-composer-actions` // 2026-01-14
 ]
 	 // language=Javascript
