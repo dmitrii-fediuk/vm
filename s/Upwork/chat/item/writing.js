@@ -30,8 +30,17 @@ GM_addStyle([
 // 2026-01-14
 // language=CSS
 GM_addStyle([
+	`.sidebar` // 2026-01-14
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
+// 2026-01-14
+// language=CSS
+GM_addStyle([
 	`.input-area` // 2026-01-14
 	,`.room-header` // 2026-01-14
+	,`.sidebar` // 2026-01-14
 	,`.story-inner` // 2026-01-14
 	,`.up-d-composer-actions` // 2026-01-14
 ]
