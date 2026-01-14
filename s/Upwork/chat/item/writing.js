@@ -68,8 +68,12 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`#story-viewport` // 2026-01-14
+	,`.desktop-container` // 2026-01-14
+	,`.desktop-room` // 2026-01-14
+	,`.room-body` // 2026-01-14
 	,`.room-section` // 2026-01-14
-	,'.up-d-composer' // 2026-01-14
+	,`.up-d-composer` // 2026-01-14
+	,`.up-d-desktop-layout` // 2026-01-14
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'display': 'block'
