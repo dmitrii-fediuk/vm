@@ -14,6 +14,7 @@ GM_addStyle([
 	,'.buttons-container.referral' // 2025-05-17
 	,'[data-placeholder="Ask Gemini"]::after'
 	,'[data-placeholder="Ask Gemini"]::before'
+	,'g1-dynamic-upsell-button' // 2026-03-14
 	,'speech-dictation-mic-button'
 ]
 	 // language=Javascript
