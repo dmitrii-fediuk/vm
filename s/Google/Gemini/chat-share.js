@@ -21,7 +21,8 @@ GM_addStyle([
 // 2025-12-21
 // language=CSS
 GM_addStyle([
-	'.footer' // 2025-12-21
+	'.adv-upsell' // 2026-03-14
+	,'.footer' // 2025-12-21
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
