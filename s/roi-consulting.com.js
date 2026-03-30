@@ -43,7 +43,7 @@ GM_addStyle([
 // 2026-03-30
 // language=CSS
 GM_addStyle([
-	`#app > .bg-royal-blue-500` // 2026-03-30
+	`#app > :not(#main-content)` // 2026-03-30
 	,`footer#footer` // 2026-03-30
 	,`header#site-header` // 2026-03-30
 ]
