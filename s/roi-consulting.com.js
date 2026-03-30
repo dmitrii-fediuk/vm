@@ -364,3 +364,6 @@ GM_addStyle([
 			.map(k => `${k}: unset !important;`).join(' ') +
 	'}'
 );
+// 2026-03-30
+// language=CSS
+GM_addStyle('body {margin: .5rem !important;}');
