@@ -100,6 +100,7 @@ GM_addStyle([
 // 2026-03-30
 // language=CSS
 GM_addStyle([
+	`#main-content` // 2026-03-30
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
