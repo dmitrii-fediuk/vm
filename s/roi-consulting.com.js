@@ -47,6 +47,7 @@ GM_addStyle([
 	,`#main-content > :not(:has(> main))` // 2026-03-30
 	,`aside` // 2026-03-30
 	,`footer#footer` // 2026-03-30
+	,`footer#footer ~ *` // 2026-03-30
 	,`header#site-header` // 2026-03-30
 ]
 	 // language=Javascript
@@ -84,6 +85,7 @@ GM_addStyle([
 // 2026-03-30
 // language=CSS
 GM_addStyle([
+	`#main-content > *` // 2026-03-30
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
