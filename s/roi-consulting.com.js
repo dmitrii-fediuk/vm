@@ -44,6 +44,8 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`#app > :not(#main-content)` // 2026-03-30
+	,`#main-content > :not(:has(> main))` // 2026-03-30
+	,`aside` // 2026-03-30
 	,`footer#footer` // 2026-03-30
 	,`header#site-header` // 2026-03-30
 ]
