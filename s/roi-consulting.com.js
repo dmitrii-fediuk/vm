@@ -24,7 +24,6 @@ GM_addStyle([
 // 2026-03-30
 // language=CSS
 GM_addStyle([
-	':is(.h2, .h3, .h4, h1, h2, h3, h4, h5)' // 2026-03-30
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -44,13 +43,8 @@ GM_addStyle([
 // 2026-03-30
 // language=CSS
 GM_addStyle([
-	'#about-assetnote' // 2026-03-30
-	,'#about-assetnote + p' // 2026-03-30
-	,'#masthead' // 2026-03-30
-	,'.research-single__content--copy ~ *' // 2026-03-30
-	,'.research-single__content--copy--content ~ *' // 2026-03-30
-	,'li:before' // 2026-03-30
-	,'main > :not(div.section)' // 2026-03-30
+	`header#site-header` // 2026-03-30
+	
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -94,8 +88,6 @@ GM_addStyle([
 // 2026-03-30
 // language=CSS
 GM_addStyle([
-	'li'
-	,'p'
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0.25rem 0 !important;}')
@@ -103,7 +95,6 @@ GM_addStyle([
 // 2026-03-30
 // language=CSS
 GM_addStyle([
-	'main > div.section' // 2026-03-30
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -118,8 +109,6 @@ GM_addStyle([
 // 2026-03-30
 // language=CSS
 GM_addStyle([
-	'body:not(#A)' // 2026-03-30
-	,'code.custom-inline-code' // 2026-03-30
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: unset !important;}')
@@ -148,8 +137,6 @@ GM_addStyle([
 // 2026-03-30
 // language=CSS
 GM_addStyle([
-	'.single-research:not(#A) :not(code, [class^="hljs"])' // 2026-03-30
-	,'body:not(#A)' // 2026-03-30
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
@@ -277,7 +264,6 @@ GM_addStyle([
 // 2026-03-30
 // language=CSS
 GM_addStyle([
-	'.research-single__content--copy' // 2026-03-30
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -304,7 +290,6 @@ GM_addStyle([
 // 2026-03-30
 // language=CSS
 GM_addStyle([
-	'code' // 2026-03-30
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -341,7 +326,6 @@ GM_addStyle([
 // 2026-03-30
 // language=CSS
 GM_addStyle([
-	'body'
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -374,12 +358,3 @@ GM_addStyle([
 			.map(k => `${k}: unset !important;`).join(' ') +
 	'}'
 );
-// 2026-03-30
-// language=CSS
-//GM_addStyle('body {margin: 1rem .5rem !important;}');
-// 2026-03-30
-// language=CSS
-GM_addStyle('h1:not(#A) {font-size: 2rem !important; margin: .5rem 0 !important;}');
-// 2026-03-30
-// language=CSS
-GM_addStyle(':is(h2, h3, h4) {margin: .5rem 0 !important;}');
