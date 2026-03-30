@@ -3,7 +3,7 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/roi-consulting.com.js
 // @icon https://roi-consulting.com/content/uploads/2020/07/cropped-Favicon512-180x180.png
-// @match roi-consulting.com/*
+// @match https://roi-consulting.com/*
 // @name roi-consulting.com
 // ==/UserScript==
 // 2026-03-30 "Improve `roi-consulting.com`": https://github.com/dmitrii-fediuk/vm/issues/123
@@ -43,8 +43,9 @@ GM_addStyle([
 // 2026-03-30
 // language=CSS
 GM_addStyle([
-	`header#site-header` // 2026-03-30
-	
+	`#app > .bg-royal-blue-500` // 2026-03-30
+	,`footer#footer` // 2026-03-30
+	,`header#site-header` // 2026-03-30
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
