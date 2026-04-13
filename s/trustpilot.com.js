@@ -89,7 +89,7 @@ GM_addStyle([
 // 2026-04-13
 // language=CSS
 GM_addStyle([
-	`:has(> nav)` // 2024-08-07
+	`:has(> nav)` // 2026-04-13
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
