@@ -47,7 +47,8 @@ GM_addStyle([
 // 2026-04-13
 // language=CSS
 GM_addStyle([
-	`:has(> [class*='styles_similarBusinesses'])` // 2026-04-13
+	`:has(> #review-incentives-banner-variant-panel)` // 2026-04-13
+	,`:has(> [class*='styles_similarBusinesses'])` // 2026-04-13
 	,`[class*='styles_popup']` // 2026-04-13
 	,`[class^='CDS_BannerAlert']` // 2026-04-13
 	,`[class^='styles_banners']` // 2026-04-13
