@@ -65,8 +65,8 @@ GM_addStyle([
 // 2026-04-13
 // language=CSS
 GM_addStyle([
-	`:has(> [class^='styles_mainContent'])` // 2026-04-13
-	,`[class^='styles_mainContent']` // 2024-08-07
+	`:has(> [class^='styles_mainContent'] > [class^='styles_reviewListContainer'])` // 2026-04-13
+	,`[class^='styles_mainContent']:has(> [class^='styles_reviewListContainer'])` // 2026-04-13
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
