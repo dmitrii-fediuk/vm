@@ -43,12 +43,6 @@ GM_addStyle([
 // 2026-04-13
 // language=CSS
 GM_addStyle([
-	`#app > :not(#main-content)` // 2026-04-13
-	,`#main-content > :not(:has(> main))` // 2026-04-13
-	,`aside` // 2026-04-13
-	,`footer#footer` // 2026-04-13
-	,`footer#footer ~ *` // 2026-04-13
-	,`header#site-header` // 2026-04-13
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -85,7 +79,6 @@ GM_addStyle([
 // 2026-04-13
 // language=CSS
 GM_addStyle([
-	`#main-content > *` // 2026-04-13
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -100,7 +93,6 @@ GM_addStyle([
 // 2026-04-13
 // language=CSS
 GM_addStyle([
-	`#main-content` // 2026-04-13
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -310,7 +302,6 @@ GM_addStyle([
 // 2026-04-13
 // language=CSS
 GM_addStyle([
-	'code.custom-inline-code'
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -366,4 +357,4 @@ GM_addStyle([
 );
 // 2026-04-13
 // language=CSS
-GM_addStyle('body {margin: .5rem !important;}');
+//GM_addStyle('body {margin: .5rem !important;}');
