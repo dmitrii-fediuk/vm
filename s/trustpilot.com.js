@@ -52,6 +52,7 @@ GM_addStyle([
 	,`[class^='CDS_BannerAlert']` // 2026-04-13
 	,`[class^='styles_businessInfoSideBar']` // 2026-04-13
 	,`[class^='styles_summaryContainer']` // 2026-04-13
+	,`section[class*='styles_filterSection'] > :not(:has(> button[name='filter']))` // 2026-04-13
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
