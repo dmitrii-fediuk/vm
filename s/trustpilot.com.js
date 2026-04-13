@@ -53,6 +53,7 @@ GM_addStyle([
 	,`[class^='CDS_BannerAlert']` // 2026-04-13
 	,`[class^='styles_banners']` // 2026-04-13
 	,`[class^='styles_businessInfoSideBar']` // 2026-04-13
+	,`[class^='styles_helpCenterLink']` // 2026-04-13
 	,`[class^='styles_stickyColumnContent']` // 2026-04-13
 	,`[class^='styles_summaryContainer']` // 2026-04-13
 	,`[class^='styles_trustpilotExperienceCardContainer']` // 2026-04-13
