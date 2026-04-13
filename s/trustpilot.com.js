@@ -6,8 +6,10 @@
 // @match *://*.trustpilot.com/*
 // @name trustpilot.com
 // ==/UserScript==
-// 2024-08-07 "Prevent the header from sticking on `trustpilot.com`":
+// 2024-08-07
+// 1) "Prevent the header from sticking on `trustpilot.com`":
 // https://github.com/dmitrii-fediuk/vm/issues/20
+// 2) "Hide the right sidebar from `trustpilot.com`": https://github.com/dmitrii-fediuk/vm/issues/21
 // 2026-04-13 "Improve `trustpilot.com`": https://github.com/dmitrii-fediuk/vm/issues/125
 // 2024-08-07
 // language=CSS
@@ -87,6 +89,7 @@ GM_addStyle([
 // 2026-04-13
 // language=CSS
 GM_addStyle([
+	`:has(> nav)` // 2024-08-07
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
@@ -94,10 +97,8 @@ GM_addStyle([
 // 2026-04-13
 // language=CSS
 GM_addStyle([
-	// 2024-08-07 "Prevent the header from sticking on `trustpilot.com`":
-	// https://github.com/dmitrii-fediuk/vm/issues/20
-	`[class*='styles_isFixed']`
-	,`[class*='styles_wrapSticky']`
+	`[class*='styles_isFixed']` // 2024-08-07
+	,`[class*='styles_wrapSticky']` // 2024-08-07
 ]
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
