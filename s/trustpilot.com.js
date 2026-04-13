@@ -65,9 +65,8 @@ GM_addStyle([
 // 2026-04-13
 // language=CSS
 GM_addStyle([
-	// 2024-08-07
-	// "Hide the right sidebar from `trustpilot.com`": https://github.com/dmitrii-fediuk/vm/issues/21
-	`[class^='styles_mainContent']`
+	`:has(> [class^='styles_mainContent'])` // 2026-04-13
+	,`[class^='styles_mainContent']` // 2024-08-07
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
