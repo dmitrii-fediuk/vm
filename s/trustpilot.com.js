@@ -94,6 +94,17 @@ GM_addStyle([
 // 2026-04-13
 // language=CSS
 GM_addStyle([
+	// 2024-08-07 "Prevent the header from sticking on `trustpilot.com`":
+	// https://github.com/dmitrii-fediuk/vm/issues/20
+	`[class*='styles_isFixed']`
+	,`[class*='styles_wrapSticky']`
+]
+	 // language=Javascript
+	.join(',') + '{position: initial !important;}')
+;
+// 2026-04-13
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
