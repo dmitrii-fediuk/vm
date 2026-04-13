@@ -37,7 +37,7 @@ setTimeout(() => {
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
 	;
-}, 300);
+}, 400);
 // language=CSS
 GM_addStyle([
 	// 2025-03-18
