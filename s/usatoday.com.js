@@ -1,9 +1,9 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/roi-consulting.com.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/usatoday.com.js
 // @icon https://roi-consulting.com/content/uploads/2020/07/cropped-Favicon512-180x180.png
-// @match https://roi-consulting.com/*
+// @match https://www.usatoday.com/*
 // @name usatoday.com
 // ==/UserScript==
 // 2026-04-13 "Improve `usatoday.com`": https://github.com/dmitrii-fediuk/vm/issues/124
