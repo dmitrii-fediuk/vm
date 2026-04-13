@@ -43,6 +43,7 @@ GM_addStyle([
 // 2026-04-13
 // language=CSS
 GM_addStyle([
+	`header` // 2026-04-13
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
