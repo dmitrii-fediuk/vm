@@ -49,6 +49,7 @@ GM_addStyle([
 GM_addStyle([
 	`[class^='styles_businessInfoSideBar']` // 2026-04-13
 	,`[class*='styles_popup']` // 2026-04-13
+	,`[class^='styles_summaryContainer']` // 2026-04-13
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -92,15 +93,6 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
-;
-// 2026-04-13
-// language=CSS
-GM_addStyle([
-	`[class*='styles_isFixed']` // 2024-08-07
-	,`[class*='styles_wrapSticky']` // 2024-08-07
-]
-	 // language=Javascript
-	.join(',') + '{position: initial !important;}')
 ;
 // 2026-04-13
 // language=CSS
