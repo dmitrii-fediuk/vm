@@ -2,7 +2,7 @@
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/usatoday.com.js
-// @icon https://roi-consulting.com/content/uploads/2020/07/cropped-Favicon512-180x180.png
+// @icon https://cdn.brandfetch.io/idJUh3ruU8/w/304/h/304/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B
 // @match https://www.usatoday.com/*
 // @name usatoday.com
 // ==/UserScript==
