@@ -47,8 +47,8 @@ GM_addStyle([
 // 2026-04-13
 // language=CSS
 GM_addStyle([
-	`[class*='styles_popup']` // 2026-04-13
-	,`[class*='styles_similarBusinesses']` // 2026-04-13
+	`:has(> [class*='styles_similarBusinesses'])` // 2026-04-13
+	,`[class*='styles_popup']` // 2026-04-13
 	,`[class^='styles_businessInfoSideBar']` // 2026-04-13
 	,`[class^='styles_summaryContainer']` // 2026-04-13
 ]
