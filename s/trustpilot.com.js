@@ -55,6 +55,7 @@ GM_addStyle([
 	,`[class^='styles_businessInfoSideBar']` // 2026-04-13
 	,`[class^='styles_stickyColumnContent']` // 2026-04-13
 	,`[class^='styles_summaryContainer']` // 2026-04-13
+	,`[class^='styles_trustpilotExperienceCardContainer']` // 2026-04-13
 	,`footer` // 2026-04-13
 	,`section[class*='styles_filterSection'] > :not(:has(> button[name='filter']))` // 2026-04-13
 ]
