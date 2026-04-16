@@ -73,6 +73,7 @@ GM_addStyle([
 // 2026-04-16
 // language=CSS
 GM_addStyle([
+	`.navbar2_component` // 2026-04-16
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
