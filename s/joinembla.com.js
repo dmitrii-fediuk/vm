@@ -6,22 +6,22 @@
 // @match https://www.usatoday.com/*
 // @name usatoday.com
 // ==/UserScript==
-// 2026-04-13 "Improve `joinembla.com`": https://github.com/dmitrii-fediuk/vm/issues/126
-// 2026-04-13
+// 2026-04-16 "Improve `joinembla.com`": https://github.com/dmitrii-fediuk/vm/issues/126
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{all: unset !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{all: revert !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
@@ -40,22 +40,22 @@ GM_addStyle([
 			.map(k => `${k}: revert !important;`).join(' ') +
 	'}'
 );
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
-	`header` // 2026-04-13
+	`header` // 2026-04-16
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
@@ -70,154 +70,154 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0.25rem 0 !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{align-items: unset !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: unset !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{border-radius: 0 !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{box-shadow: unset !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{clear: both !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{flex-basis: 100%; !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{float: unset !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{font-family: unset !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: revert !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: revert !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{gap: 0 !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{height: unset !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: unset !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: revert !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: .9 !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
@@ -225,42 +225,42 @@ GM_addStyle([
 	.join(',') + '{min-height: unset !important;}')
 ;
 
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{overflow-x: unset !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{table-layout: unset !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{text-align: unset !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{top: unset !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{width: unset !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
@@ -272,7 +272,7 @@ GM_addStyle([
 			.map(k => `${k}: 100% !important;`).join(' ') +
 	'}'
 );
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
@@ -286,7 +286,7 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
@@ -300,7 +300,7 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
@@ -309,19 +309,19 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			// language=CSS
-			'color': '#067D17' // 2026-04-13
-			,'font-weight': 'bold' // 2026-04-13
+			'color': '#067D17' // 2026-04-16
+			,'font-weight': 'bold' // 2026-04-16
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: 600 !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
@@ -337,14 +337,14 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
 ;
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
@@ -356,6 +356,6 @@ GM_addStyle([
 			.map(k => `${k}: unset !important;`).join(' ') +
 	'}'
 );
-// 2026-04-13
+// 2026-04-16
 // language=CSS
 //GM_addStyle('body {margin: .5rem !important;}');
