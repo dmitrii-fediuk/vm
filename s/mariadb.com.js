@@ -336,7 +336,8 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
-	`code:not(.table)` // 2026-05-03
+	`code.table .highlight-line-content:not(:has(> span))` // 2026-05-03
+	,`code:not(.table)` // 2026-05-03
 ]
 	// language=Javascript
 	.join(',') + '{' +
