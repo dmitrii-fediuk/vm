@@ -45,7 +45,7 @@ GM_addStyle([
 	'#see-also + ul ~ *' // 2026-05-03
 	,`.contents > .contents > :not(main)` // 2026-05-03
 	,`[data-gb-announcement-banner]` // 2026-05-03
-	,`aside` // 2026-05-03
+	,`aside:not(#a):not(a):not(#a):not(#a)` // 2026-05-03
 	,`footer` // 2026-05-03
 	,`header` // 2026-05-03
 ]
@@ -78,6 +78,7 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
+	`.xl:sticky` // 2026-05-03
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
