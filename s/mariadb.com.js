@@ -47,6 +47,7 @@ GM_addStyle([
 	,`[data-gb-announcement-banner]` // 2026-05-03
 	,`footer[data-gb-site-footer]` // 2026-05-03
 	,`header[data-gb-site-header]` // 2026-05-03
+	,`main > header` // 2026-05-03
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
