@@ -270,6 +270,14 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
+	`aside` // 2026-05-03
+]
+	 // language=Javascript
+	.join(',') + '{z-index: unset !important;}')
+;
+// 2026-05-03
+// language=CSS
+GM_addStyle([
 	`.contents` // 2026-05-03
 	,`main` // 2026-05-03
 ]
