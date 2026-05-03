@@ -227,11 +227,18 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
+	`[class*=max\-w\-]` // 2026-05-03
+]
+	 // language=Javascript
+	.join(',') + '{max-width: unset !important;}')
+;
+// 2026-05-03
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{min-height: unset !important;}')
 ;
-
 // 2026-05-03
 // language=CSS
 GM_addStyle([
