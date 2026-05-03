@@ -7,7 +7,6 @@
 // @name mariadb.com
 // ==/UserScript==
 // 2026-05-03 "Improve `mariadb.com`": https://github.com/dmitrii-fediuk/vm/issues/127
-// 2026-05-03
 // language=CSS
 GM_addStyle([
 ]
