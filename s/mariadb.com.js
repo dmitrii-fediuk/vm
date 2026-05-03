@@ -48,6 +48,7 @@ GM_addStyle([
 	,`aside:not(#a):not(a):not(#a):not(#a)` // 2026-05-03
 	,`footer[data-gb-site-footer]` // 2026-05-03
 	,`header[data-gb-site-header]` // 2026-05-03
+	,`body:has(.layout-default) .layout-default\\:xl\\:not-chat-open\\:flex\\!:not(#a):not(a):not(#a):not(#a)` // 2026-05-03
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -376,3 +377,24 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 //GM_addStyle('body {margin: .5rem !important;}');
+// 2025-09-05
+// language=CSS
+modify(`${dfAboutClient} .text-caption`, i => {// language=Javascript
+	const c = i.textContent.trim();
+	const p = i.parentElement;
+	const t1 = ' verified';
+	const t2 = `not${t1}`;
+	if (c.endsWith(t1)) {
+		if (!c.endsWith(t2)) {
+			p.remove();
+		}
+		else {
+			const pp = p.parentElement;
+			pp.innerHTML = t2;
+			pp.classList.add(dfNotVerified, dfWarning);
+		}
+	}
+});
+// 2026-05-03
+// language=CSS
+modify(`aside`, i => i.remove());
