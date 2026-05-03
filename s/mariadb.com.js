@@ -183,6 +183,7 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
+	`.highlight-line-content` // 2026-05-03
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: revert !important;}')
@@ -318,6 +319,7 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
+	`code` // 2026-05-03
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -332,6 +334,7 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
+	`code:not(.table)` // 2026-05-03
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -353,6 +356,7 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
+	`body` // 2026-05-03
 ]
 	// language=Javascript
 	.join(',') + '{' +
