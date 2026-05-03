@@ -43,7 +43,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#see-also + ul ~ *' // 2026-05-03
-	,`.contents > :not(main)` // 2026-05-03
+	,`.contents > .contents > :not(main)` // 2026-05-03
 	,`[data-gb-announcement-banner]` // 2026-05-03
 	,`aside` // 2026-05-03
 	,`footer` // 2026-05-03
