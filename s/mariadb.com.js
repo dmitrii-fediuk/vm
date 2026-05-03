@@ -104,6 +104,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`div:has(> .contents)` // 2026-05-03
+	,`h2` // 2026-05-03
 	,`main` // 2026-05-03
 ]
 	 // language=Javascript
@@ -387,6 +388,12 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle(`body {margin: .5rem !important;}`);
+// 2026-05-03
+// language=CSS
+GM_addStyle(`h2 {margin: .5rem 0 !important;}`);
+// 2026-05-03
+// language=CSS
+GM_addStyle(`p {margin: .25rem 0 !important;}`);
 // 2025-09-05
 // 1) https://g.co/gemini/share/9776258b5353
 // 2) https://g.co/gemini/share/fdb2b22cbe50
