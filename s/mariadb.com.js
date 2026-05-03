@@ -184,6 +184,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.highlight-line-content` // 2026-05-03
+	,`.text-sm` // 2026-05-03
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: revert !important;}')
