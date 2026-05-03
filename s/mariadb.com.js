@@ -42,6 +42,7 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
+	`[data-gb-announcement-banner]` // 2026-05-03
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
