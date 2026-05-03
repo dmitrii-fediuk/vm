@@ -42,7 +42,8 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
-	`[data-gb-announcement-banner]` // 2026-05-03
+	'#see-also + ul ~ *' // 2026-05-03
+	,`[data-gb-announcement-banner]` // 2026-05-03
 	,`footer` // 2026-05-03
 	,`header` // 2026-05-03
 ]
