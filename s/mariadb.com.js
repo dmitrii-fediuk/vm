@@ -43,7 +43,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	'#see-also + ul ~ *' // 2026-05-03
-	,`.contents > aside` // 2026-05-03
+	,`aside` // 2026-05-03
 	,`[data-gb-announcement-banner]` // 2026-05-03
 	,`footer` // 2026-05-03
 	,`header` // 2026-05-03
@@ -54,6 +54,7 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
+	`.contents` // 2026-05-03
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
@@ -76,7 +77,6 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
-	`aside` // 2026-05-03
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
