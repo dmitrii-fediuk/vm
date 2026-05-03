@@ -42,7 +42,6 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
-	`#customerly-container` // 2026-05-03
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -72,7 +71,6 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
-	`.navbar2_component` // 2026-05-03
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')

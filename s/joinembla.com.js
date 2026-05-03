@@ -7,7 +7,6 @@
 // @name joinembla.com
 // ==/UserScript==
 // 2026-04-16 "Improve `joinembla.com`": https://github.com/dmitrii-fediuk/vm/issues/126
-// 2026-04-16
 // language=CSS
 GM_addStyle([
 ]
