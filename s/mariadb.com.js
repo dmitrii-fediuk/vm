@@ -4,9 +4,9 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/joinembla.com.js
 // @icon https://cdn.prod.website-files.com/624df511f4060c8ee19a17c1/66fcfcab8e17c9868b430fcf_Embla-icon-for-app-store_800x800px%20(2).png
 // @match https://www.joinembla.com/*
-// @name joinembla.com
+// @name mariadb.com
 // ==/UserScript==
-// 2026-05-03 "Improve `joinembla.com`": https://github.com/dmitrii-fediuk/vm/issues/126
+// 2026-05-03 "Improve `mariadb.com`": https://github.com/dmitrii-fediuk/vm/issues/127
 // 2026-05-03
 // language=CSS
 GM_addStyle([
