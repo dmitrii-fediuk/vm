@@ -1,7 +1,7 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/joinembla.com.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/mariadb.com.js
 // @icon https://cdn.prod.website-files.com/624df511f4060c8ee19a17c1/66fcfcab8e17c9868b430fcf_Embla-icon-for-app-store_800x800px%20(2).png
 // @match https://www.joinembla.com/*
 // @name mariadb.com
