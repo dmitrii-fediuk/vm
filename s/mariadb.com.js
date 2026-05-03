@@ -42,11 +42,13 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
-	'#see-also + ul ~ *' // 2026-05-03
+	'#see-also' // 2026-05-03
+	,'#see-also ~ *' // 2026-05-03
 	,`.contents > .contents > :not(main)` // 2026-05-03
 	,`[data-gb-announcement-banner]` // 2026-05-03
 	,`footer[data-gb-site-footer]` // 2026-05-03
 	,`header[data-gb-site-header]` // 2026-05-03
+	,`main > :not(div:first-of-type)` // 2026-05-03
 	,`main > header` // 2026-05-03
 ]
 	 // language=Javascript
@@ -227,7 +229,7 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
-	`[class*=max\-w\-]` // 2026-05-03
+	`[class*=max-w-]` // 2026-05-03
 ]
 	 // language=Javascript
 	.join(',') + '{max-width: unset !important;}')
