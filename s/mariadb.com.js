@@ -78,7 +78,7 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
-	`.xl:sticky` // 2026-05-03
+	`[class*=\\:sticky]` // 2026-05-03
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
@@ -269,6 +269,7 @@ GM_addStyle([
 // 2026-05-03
 // language=CSS
 GM_addStyle([
+	`main` // 2026-05-03
 ]
 	// language=Javascript
 	.join(',') + '{' +
