@@ -386,7 +386,7 @@ GM_addStyle([
 );
 // 2026-05-03
 // language=CSS
-//GM_addStyle('body {margin: .5rem !important;}');
+GM_addStyle(`body {margin: .5rem !important;}`);
 // 2025-09-05
 // 1) https://g.co/gemini/share/9776258b5353
 // 2) https://g.co/gemini/share/fdb2b22cbe50
