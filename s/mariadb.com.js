@@ -46,6 +46,7 @@ GM_addStyle([
 	,'#see-also ~ *' // 2026-05-03
 	,`.contents > .contents > :not(main)` // 2026-05-03
 	,`[data-gb-announcement-banner]` // 2026-05-03
+	,`[data-radix-popper-content-wrapper]` // 2026-05-03
 	,`footer[data-gb-site-footer]` // 2026-05-03
 	,`header[data-gb-site-header]` // 2026-05-03
 	,`main > :not(div:first-of-type)` // 2026-05-03
