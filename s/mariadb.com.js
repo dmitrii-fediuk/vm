@@ -56,7 +56,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.contents` // 2026-05-03
-	,`.flex` // 2026-05-03
+	//,`.flex` // 2026-05-03
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
