@@ -3,7 +3,7 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/mariadb.com.js
 // @icon https://360929122-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/organizations%2FdiTpXxF5WsbHqTReoBsS%2Fsites%2Fsite_0SXwk%2Ficon%2FQ3m9jytowcs8OgGJCEew%2Fmariadb-logo-docs-bitmap.png?alt=media&token=721f3364-39ef-41a2-bf1b-e683a838d2ba
-// @match https://www.joinembla.com/*
+// @match https://mariadb.com/*
 // @name mariadb.com
 // ==/UserScript==
 // 2026-05-03 "Improve `mariadb.com`": https://github.com/dmitrii-fediuk/vm/issues/127
