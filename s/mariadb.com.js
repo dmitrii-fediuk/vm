@@ -378,23 +378,18 @@ GM_addStyle([
 // language=CSS
 //GM_addStyle('body {margin: .5rem !important;}');
 // 2025-09-05
-// language=CSS
-modify(`${dfAboutClient} .text-caption`, i => {// language=Javascript
-	const c = i.textContent.trim();
-	const p = i.parentElement;
-	const t1 = ' verified';
-	const t2 = `not${t1}`;
-	if (c.endsWith(t1)) {
-		if (!c.endsWith(t2)) {
-			p.remove();
-		}
-		else {
-			const pp = p.parentElement;
-			pp.innerHTML = t2;
-			pp.classList.add(dfNotVerified, dfWarning);
-		}
-	}
-});
+// 1) https://g.co/gemini/share/9776258b5353
+// 2) https://g.co/gemini/share/fdb2b22cbe50
+const modify = (s, action) => {
+	const p = i => {
+		i.matches?.(s) && action(i);
+		i.querySelectorAll?.(s).forEach(action);
+	};
+	(new MutationObserver(mm => {
+		mm.forEach(m => m.addedNodes.forEach(p));
+	})).observe(document.documentElement, {childList: true, subtree: true});
+	p(document.documentElement);
+};
 // 2026-05-03
 // language=CSS
 modify(`aside`, i => i.remove());
