@@ -108,7 +108,7 @@ GM_addStyle('[data-test="JobTileDetails"] {display: flex; flex-direction: row; f
 // 2025-03-19
 // language=CSS
 GM_addStyle([
-	`#main p.text-body-sm`
+	`#main p.text-body-sm` // 2025-03-19
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'font-family': 'Segoie UI'
