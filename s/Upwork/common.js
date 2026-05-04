@@ -50,7 +50,7 @@ GM_addStyle([
 // 2026-05-04
 // language=CSS
 GM_addStyle([
-	`[class*=text-]` // 2026-05-04
+	`[class*=text-]:not(#a)` // 2026-05-04
 // language=Javascript
 ].join(',') + '{letter-spacing: unset !important;}');
 // 2024-12-25
