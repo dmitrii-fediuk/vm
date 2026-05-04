@@ -108,22 +108,14 @@ GM_addStyle('[data-test="JobTileDetails"] {display: flex; flex-direction: row; f
 // 2025-03-19
 // language=CSS
 GM_addStyle([
-	'#main p.text-body-sm'
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
-			'font-family': 'Segoie UI'
-			// language=Javascript
-			,'font-size': '120%'
-			// language=CSS
-			,'line-height': 1.2
-			// language=CSS
-			,'letter-spacing': 1.2 // 2026-05-04
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
+	`#main p.text-body-sm`
+// language=Javascript
+].join(',') + `{${Object.entries({
+	'font-family': 'Segoie UI'
+	,'font-size': '120%'
+	,'line-height': 1.2
+	,'letter-spacing': 1.2 // 2026-05-04
+}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2025-03-19
 // language=CSS
 GM_addStyle('p.text-body-sm br {display: block !important; content: ""; height: 1px !important;}');
