@@ -74,6 +74,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// 2026-05-04
+// language=CSS
+GM_addStyle([
+	`:hover:not(#A)` // 2026-05-04
+]
+	 // language=Javascript
+	.join(',') + '{background-color: unset !important;}')
+;
 // 2025-03-18
 // language=CSS
 GM_addStyle([
