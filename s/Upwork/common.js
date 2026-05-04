@@ -52,7 +52,7 @@ GM_addStyle([
 GM_addStyle([
 	`[class*=text-]:not(#a)` // 2026-05-04
 // language=Javascript
-].join(',') + '{letter-spacing: unset !important;}');
+].join(',') + '{letter-spacing: revert !important;}');
 // 2024-12-25
 // language=CSS
 GM_addStyle([
