@@ -217,7 +217,7 @@ GM_addStyle([
 	'font-family': 'Segoie UI'
 	,'font-size': '140%'
 	,'line-height': 1.2
-	,'letter-spacing': '.04em' // 2026-05-04
+	,'letter-spacing': '.02em' // 2026-05-04
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2025-09-05
 // language=CSS
