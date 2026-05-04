@@ -116,9 +116,11 @@ GM_addStyle([
 		Object.entries({
 			'font-family': 'Segoie UI'
 			// language=Javascript
-			,'font-size': '110%'
+			,'font-size': '120%'
 			// language=CSS
 			,'line-height': 1.2
+			// language=CSS
+			,'letter-spacing': 1.2 // 2026-05-04
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
