@@ -217,6 +217,14 @@ GM_addStyle([
 	dfDeliverables
 // language=Javascript
 ].join(`,`) + `{list-style: none !important;}`);
+// 2026-05-05
+// language=CSS
+GM_addStyle([
+	`body`
+// language=Javascript
+].join(',') + `{${Object.entries({
+	'font-family': 'Segoie UI'
+}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2025-10-02
 // language=CSS
 GM_addStyle([
