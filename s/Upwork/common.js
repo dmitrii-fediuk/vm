@@ -44,7 +44,7 @@ GM_addStyle([
 // 2025-12-30
 // language=CSS
 GM_addStyle([
-	//'*' // 2025-12-30
+	'*' // 2025-12-30
 // language=Javascript
 ].join(',') + '{letter-spacing: initial !important;}');
 // 2026-05-04

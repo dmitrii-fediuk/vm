@@ -209,7 +209,9 @@ GM_addStyle([
 ].join(`,`) + `{list-style: none !important;}`);
 // language=CSS
 GM_addStyle([
-	`${dfQuestions} ol`
+	`${dfDeliverables} *` // 2026-05-05
+	,`${dfQuestions} ol *` // 2026-05-05
+	,`${dfQuestions} ol`
 	,`[data-test='Description'] p`
 	,dfDeliverables // 2025-10-02
 // language=Javascript
