@@ -43,6 +43,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`devsite-header` // 2026-05-31
+	,`main ~ *` // 2026-05-31
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
