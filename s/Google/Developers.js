@@ -48,6 +48,7 @@ GM_addStyle([
 	,`.devsite-wrapper > :not(#gc-wrapper)` // 2026-05-31
 	,`devsite-feedback` // 2026-05-31
 	,`devsite-header` // 2026-05-31
+	,`devsite-key-takeaways-panel` // 2026-05-31
 	,`devsite-thumb-rating` // 2026-05-31
 	,`main ~ *` // 2026-05-31
 ]
