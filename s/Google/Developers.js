@@ -44,6 +44,7 @@ GM_addStyle([
 GM_addStyle([
 	`.devsite-article ~ *` // 2026-05-31
 	,`.devsite-article-body ~ *` // 2026-05-31
+	,`.devsite-wrapper > :not(#gc-wrapper)` // 2026-05-31
 	,`devsite-header` // 2026-05-31
 	,`main ~ *` // 2026-05-31
 ]
