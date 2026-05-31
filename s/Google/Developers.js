@@ -128,6 +128,7 @@ GM_addStyle([
 // 2026-05-31
 // language=CSS
 GM_addStyle([
+	`.devsite-article` // 2026-05-31
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
