@@ -89,6 +89,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`#gc-wrapper` // 2026-05-31
+	,`.devsite-article-meta` // 2026-05-31
 	,`devsite-content` // 2026-05-31
 ]
 	 // language=Javascript
