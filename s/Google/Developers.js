@@ -120,6 +120,7 @@ GM_addStyle([
 // 2026-05-31
 // language=CSS
 GM_addStyle([
+	`body` // 2026-05-31
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: unset !important;}')
