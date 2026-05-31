@@ -42,15 +42,6 @@ GM_addStyle([
 // 2026-05-31
 // language=CSS
 GM_addStyle([
-	'#see-also' // 2026-05-31
-	,'#see-also ~ *' // 2026-05-31
-	,`.contents > .contents > :not(main)` // 2026-05-31
-	,`[data-gb-announcement-banner]` // 2026-05-31
-	,`[data-radix-popper-content-wrapper]` // 2026-05-31
-	,`footer[data-gb-site-footer]` // 2026-05-31
-	,`header[data-gb-site-header]` // 2026-05-31
-	,`main > :not(div:first-of-type)` // 2026-05-31
-	,`main > header` // 2026-05-31
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -58,8 +49,6 @@ GM_addStyle([
 // 2026-05-31
 // language=CSS
 GM_addStyle([
-	`.contents` // 2026-05-31
-	//,`.flex` // 2026-05-31
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
@@ -82,7 +71,6 @@ GM_addStyle([
 // 2026-05-31
 // language=CSS
 GM_addStyle([
-	`[class*=\\:sticky]` // 2026-05-31
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
@@ -104,9 +92,6 @@ GM_addStyle([
 // 2026-05-31
 // language=CSS
 GM_addStyle([
-	`div:has(> .contents)` // 2026-05-31
-	,`h2`, `h3`, `h4`, `h5`, `h6`  // 2026-05-31
-	,`main` // 2026-05-31
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -184,9 +169,6 @@ GM_addStyle([
 // 2026-05-31
 // language=CSS
 GM_addStyle([
-	`.highlight-line-content` // 2026-05-31
-	,`.text-sm` // 2026-05-31
-	,`[class*=\\:text-]` // 2026-05-31
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: revert !important;}')
@@ -236,7 +218,6 @@ GM_addStyle([
 // 2026-05-31
 // language=CSS
 GM_addStyle([
-	`[class*=max-w-]` // 2026-05-31
 ]
 	 // language=Javascript
 	.join(',') + '{max-width: unset !important;}')
@@ -294,8 +275,6 @@ GM_addStyle([
 // 2026-05-31
 // language=CSS
 GM_addStyle([
-	`.contents` // 2026-05-31
-	,`main` // 2026-05-31
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -322,7 +301,6 @@ GM_addStyle([
 // 2026-05-31
 // language=CSS
 GM_addStyle([
-	`code` // 2026-05-31
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -337,8 +315,6 @@ GM_addStyle([
 // 2026-05-31
 // language=CSS
 GM_addStyle([
-	`code.table .highlight-line-content:not(:has(> span))` // 2026-05-31
-	,`code:not(.table)` // 2026-05-31
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -360,7 +336,6 @@ GM_addStyle([
 // 2026-05-31
 // language=CSS
 GM_addStyle([
-	`body` // 2026-05-31
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -393,31 +368,3 @@ GM_addStyle([
 			.map(k => `${k}: unset !important;`).join(' ') +
 	'}'
 );
-// 2026-05-31
-// language=CSS
-GM_addStyle(`body {margin: .5rem !important;}`);
-// 2026-05-31
-// language=CSS
-GM_addStyle(`h2 {margin: .5rem 0 !important;}`);
-// 2026-05-31
-// language=CSS
-GM_addStyle(`h3 {margin: .25rem 0 !important;}`);
-// 2026-05-31
-// language=CSS
-GM_addStyle(`p {margin: .25rem 0 !important;}`);
-// 2025-09-05
-// 1) https://g.co/gemini/share/9776258b5353
-// 2) https://g.co/gemini/share/fdb2b22cbe50
-const modify = (s, action) => {
-	const p = i => {
-		i.matches?.(s) && action(i);
-		i.querySelectorAll?.(s).forEach(action);
-	};
-	(new MutationObserver(mm => {
-		mm.forEach(m => m.addedNodes.forEach(p));
-	})).observe(document.documentElement, {childList: true, subtree: true});
-	p(document.documentElement);
-};
-// 2026-05-31
-// language=CSS
-modify(`aside`, i => i.remove());
