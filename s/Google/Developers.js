@@ -103,6 +103,7 @@ GM_addStyle([
 // 2026-05-31
 // language=CSS
 GM_addStyle([
+	`.devsite-article` // 2026-05-31
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
