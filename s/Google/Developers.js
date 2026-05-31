@@ -280,7 +280,6 @@ GM_addStyle([
 // 2026-05-31
 // language=CSS
 GM_addStyle([
-	`aside` // 2026-05-31
 ]
 	 // language=Javascript
 	.join(',') + '{z-index: unset !important;}')
@@ -381,3 +380,6 @@ GM_addStyle([
 			.map(k => `${k}: unset !important;`).join(' ') +
 	'}'
 );
+// 2026-05-31
+// language=CSS
+GM_addStyle(`body {margin: .5rem !important;}`);
