@@ -35,6 +35,7 @@ GM_addStyle([
 	,`:has(> .immersive-artifact-container) > message-content` // 2025-11-04
 	,`[data-mat-icon-name='travel_explore']` // 2025-11-04
 	,`button[mattooltip='Report']` // 2025-04-21
+	,`chat-loading-animation` // 2026-06-01
 	,`share-turn-viewer:has(${dfResearchW}) response-container` // 2025-11-04
 	,`share-viewer ~ *`
 	,`share-viewer:has(${dfResearchW}) share-turn-viewer:not(:has(${dfResearchW})) user-query` // 2025-11-04
