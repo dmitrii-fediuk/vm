@@ -23,6 +23,7 @@ setTimeout(() => {
 		,`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
 		,`:has(> ${dfJobsFeed}) > :not(${dfJobsFeed}):not(#a1):not(#a2)` // 2026-06-04
 		,`[data-test='feed-best-match'] > :not(${df_Ev_BestMatch})` // 2026-06-04
+		,`[data-test='rating-minimal']` // 2026-06-04
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
