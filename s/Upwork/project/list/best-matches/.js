@@ -114,7 +114,7 @@ GM_addStyle([
 	`${dfText}` // 2026-06-04
 ]
 	 // language=Javascript
-	.join(',') + '{line-clamp: none !important;}')
+	.join(',') + '{-webkit-line-clamp: none !important;}')
 ;
 // 2024-12-25, 2025-03-18
 // language=CSS
