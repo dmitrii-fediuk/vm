@@ -177,7 +177,7 @@ GM_addStyle([
 				p.innerHTML = p.textContent.replace(/(?:\r\n|\r|\n)/g, '<br/>');
 			}
 		};
-		return c => c.querySelectorAll('article').forEach(a => format(a));
+		return c => c.querySelectorAll(`${dfJobTile}`).forEach(a => format(a));
 	})();
 	setTimeout(() => {process(document.querySelector('.card-list-container'));}, 50);
 	// 2025-03-18 https://chatgpt.com/c/67d98719-3eec-8003-9df4-844aa046c43b
