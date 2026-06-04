@@ -260,7 +260,7 @@ modify(dfText, i => {// language=Javascript
 	const openArticle = b => {
 		const article = b.closest(dfJobTile);
 		if (article) {
-			const i = article.querySelector('> .impression-tracker');
+			const i = article.querySelector('.impression-tracker');
 			if (i) {
 				const v = i.getAttribute('data-ev-opening_uid');
 				window.open(`https://www.upwork.com/jobs/~${v}`, '_blank');
