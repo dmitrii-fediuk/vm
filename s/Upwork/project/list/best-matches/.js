@@ -130,14 +130,8 @@ GM_addStyle(`${df_Row_Header} {order: 1 !important;}`);
 GM_addStyle(`${df_Row_Country} {order: 2 !important;}`);
 // 2026-06-04
 // language=CSS
-//GM_addStyle(`${df_Row_Header} {background: yellow; border: 1px solid red;}`);
-// 2026-06-04
-// language=CSS
-//GM_addStyle(`${df_Row_Header_3} {background: pink; border: 1px solid green;}`);
-// 2025-03-19
-// language=CSS
 GM_addStyle([
-	`#main p.text-body-sm` // 2025-03-19
+	`${dfText}` // 2026-06-04
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'font-family': 'Segoie UI'
@@ -145,9 +139,9 @@ GM_addStyle([
 	,'line-height': 1.2
 	,'letter-spacing': '.03em' // 2026-05-04
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
-// 2025-03-19
+// 2026-06-04
 // language=CSS
-GM_addStyle('p.text-body-sm br {display: block !important; content: ""; height: 1px !important;}');
+GM_addStyle(`${dfText} br {display: block !important; content: ''; height: 1px !important;}`);
 // 2024-12-28
 // language=CSS
 GM_addStyle([
