@@ -88,18 +88,9 @@ GM_addStyle([
 // 2024-12-25, 2025-03-18
 // language=CSS
 GM_addStyle('body {padding: 0.5rem !important;}');
-// 2025-03-18
+// 2026-06-04
 // language=CSS
-GM_addStyle('#main article {padding: 0.25rem 0 !important;}');
-// 2025-03-18
-// language=CSS
-GM_addStyle('[data-test="location"] {padding: 0 1rem 0 0 !important;}');
-// 2024-12-25
-// language=CSS
-GM_addStyle('[data-test="proposals-tier"] {padding: 0.5rem 0 0 0 !important;}');
-// 2025-03-18
-// language=CSS
-GM_addStyle('[data-test="JobTileDetails"] {display: flex; flex-direction: row; flex-wrap: wrap;}');
+GM_addStyle(`${df_Row_Country} {order: 2 !important;}`);
 // 2025-03-19
 // language=CSS
 GM_addStyle([
