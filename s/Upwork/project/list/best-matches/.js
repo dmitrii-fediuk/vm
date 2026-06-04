@@ -238,3 +238,78 @@ modify(dfText, i => {// language=Javascript
 	// 2.2) https://chatgpt.com/c/67d9e839-2800-8003-9a50-5a9edd88c3a2
 	i.innerHTML = i.textContent.replace(/(?:\r\n|\r|\n)/g, '<br/>');
 });
+(() => {
+	const stopEvent = e => {
+		e.preventDefault();
+		e.stopPropagation();
+		e.stopImmediatePropagation();
+	};
+	// 2025-06-06
+	const hideArticle = a => {
+		const e = a.querySelector('button[data-ev-label="dropdown_secondary_toggle"] svg');
+		if (e) {
+			// 2025-06-06
+			// 1) https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent
+			// 2) https://g.co/gemini/share/689b763bc005
+			e.dispatchEvent(new MouseEvent('click', {bubbles: true, cancelable: true}));
+		}
+	};
+	const openArticle = b => {
+		const article = b.closest(dfJobTile);
+		if (article) {
+			const i = article.querySelector('> .impression-tracker');
+			if (i) {
+				const v = i.getAttribute('data-ev-opening_uid');
+				window.open(`https://www.upwork.com/jobs/~${v}`, '_blank');
+			}
+		}
+	};
+	(() => {
+		let x = 0, y = 0, article;
+		const updateArticle = () => {
+			article = document.elementFromPoint(x, y)?.closest('article[data-test="JobTile"]');
+		};
+		document.addEventListener('mousemove', e => {
+			x = e.clientX; y = e.clientY;
+			updateArticle();
+		}, true);
+		document.addEventListener('scroll', updateArticle, true);
+		document.addEventListener('keydown', e => {
+			if ('Enter' === e.key) {
+				stopEvent(e);
+				openArticle(article);
+			}
+			// 2025-06-06
+			else if ('Escape' === e.key) {
+				stopEvent(e);
+				hideArticle(article);
+			}
+		}, true);
+	})();
+	document.addEventListener('click', e => {
+		const i = e.target;
+		const menuItemClass = 'air3-menu-item';
+		if (!i.classList.contains(menuItemClass) && e.target.closest('article')) {
+			const downBtn = i.closest('button[data-ev-label="dropdown_secondary_toggle"]');
+			if (!downBtn) {
+				stopEvent(e);
+				openArticle(e.target);
+			}
+			else {
+				setTimeout(() => {
+					const allItems = document.querySelectorAll('.' + menuItemClass);
+					const i = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
+					if (i) {
+						i.click();
+					}
+					else {
+						//debugger;
+					}
+				// 2025-06-06
+				// Previously, I had `50` here.
+				// Now I need `500` for `hideArticle()` to work.
+				}, 500);
+			}
+		}
+	}, true);
+})();
