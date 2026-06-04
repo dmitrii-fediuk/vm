@@ -10,6 +10,8 @@
 // language=CSS
 const dfJobTile = `[data-test='job-tile']`; // 2026-06-04
 // language=CSS
+const dfJobTileBadges = `[data-test='job-tile-badges']`; // 2026-06-04
+// language=CSS
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 // language=CSS
 const dfTabContent = `[data-test='tab-content']`; // 2026-06-04
@@ -53,9 +55,9 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	`${df_Ev_BestMatch}:not(#a)` // 2026-06-04
+	`${dfJobTileBadges}` // 2026-06-04
+	,`${df_Ev_BestMatch}:not(#a)` // 2026-06-04
 	,`.line-clamp` // 2026-06-04
-	,`[data-test='job-tile-badges']` // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -63,9 +65,9 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	`${dfJobTile}:not(#a)` // 2026-06-04
+	`${dfJobTileBadges}` // 2026-06-04
+	,`${dfJobTile}:not(#a)` // 2026-06-04
 	,`${dfTabContent}` // 2026-06-04
-	,`[data-test='job-tile-badges']` // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
