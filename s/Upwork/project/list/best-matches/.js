@@ -269,7 +269,7 @@ modify(dfText, i => {// language=Javascript
 	(() => {
 		let x = 0, y = 0, article;
 		const updateArticle = () => {
-			article = document.elementFromPoint(x, y)?.closest('article[data-test="JobTile"]');
+			article = document.elementFromPoint(x, y)?.closest(dfJobTile);
 		};
 		document.addEventListener('mousemove', e => {
 			x = e.clientX; y = e.clientY;
@@ -290,9 +290,9 @@ modify(dfText, i => {// language=Javascript
 	})();
 	document.addEventListener('click', e => {
 		const i = e.target;
-		const menuItemClass = 'air3-menu-item';
+		const menuItemClass = 'ngm-menu-item';
 		if (!i.classList.contains(menuItemClass) && e.target.closest('article')) {
-			const downBtn = i.closest('button[data-ev-label="dropdown_secondary_toggle"]');
+			const downBtn = i.closest(dfButton);
 			if (!downBtn) {
 				stopEvent(e);
 				openArticle(e.target);
