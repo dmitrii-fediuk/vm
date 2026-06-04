@@ -142,6 +142,9 @@ GM_addStyle(`${df_Row_Header} {order: 1 !important;}`);
 GM_addStyle(`${df_Row_Country} {order: 2 !important;}`);
 // 2026-06-04
 // language=CSS
+GM_addStyle(`[data-test='job-title'] {font-size: 1.5rem !important;}`);
+// 2026-06-04
+// language=CSS
 GM_addStyle([
 	`${dfText}` // 2026-06-04
 // language=Javascript
