@@ -21,6 +21,7 @@ setTimeout(() => {
 	GM_addStyle([
 		`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
 		,`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
+		,`.job-tile-actions > :not([data-test='job-feedback'])` // 2026-06-04
 		,`:has(> ${dfJobsFeed}) > :not(${dfJobsFeed}):not(#a1):not(#a2)` // 2026-06-04
 		,`:has(> [data-test='rating-minimal']) > :not(:last-child):not(#a)` // 2026-06-04
 		,`:has(> [data-test='rating-minimal']) [data-test='icon']` // 2026-06-04
