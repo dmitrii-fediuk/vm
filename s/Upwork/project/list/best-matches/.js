@@ -99,7 +99,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`${dfJobTile}:not(#a)` // 2026-06-04
-	,`${df_Ev_BestMatch}` // 2026-06-04
+	,`${df_Ev_BestMatch}:not(#a)` // 2026-06-04
 	,`${df_Row_Header} > div` // 2026-06-04
 ]
 	 // language=Javascript
