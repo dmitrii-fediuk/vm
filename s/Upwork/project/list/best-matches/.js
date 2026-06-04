@@ -8,11 +8,11 @@
 // ==/UserScript==
 // 2024-10-13, 2024-12-24 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 // language=CSS
-const df_Ev_BestMatch = `[data-ev-label='best_match']`; // 2026-06-04
 const dfJobTile = `[data-test='job-tile']`; // 2026-06-04
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 const dfTabContent = `[data-test='tab-content']`; // 2026-06-04
 const dfTabs = `[data-test='tabs']`; // 2026-06-04
+const df_Ev_BestMatch = `[data-ev-label='best_match']`; // 2026-06-04
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
