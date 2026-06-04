@@ -4,7 +4,7 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Upwork/project/list/normal/countries.js
 // @icon https://www.upwork.com/favicon.ico
 // @match *://www.upwork.com/nx/search/jobs*
-// @name Upwork / Project / List / Countries
+// @name Upwork / Project / List / Normal / Countries
 // ==/UserScript==
 // 2025-10-05
 // 1) https://g.co/gemini/share/ede314ebdbc2
