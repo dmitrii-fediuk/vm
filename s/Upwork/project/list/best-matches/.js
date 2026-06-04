@@ -17,6 +17,7 @@ setTimeout(() => {
 	GM_addStyle([
 		`${dfJobsFeed} > :not([data-test='tabs'])` // 2026-06-04
 		,`:has(> ${dfJobsFeed}) > :not(${dfJobsFeed}):not(#a)` // 2026-06-04
+		,`[data-test='tabs'] > :not([data-test='tab-content'])` // 2026-06-04
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
