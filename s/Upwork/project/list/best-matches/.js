@@ -36,6 +36,7 @@ setTimeout(() => {
 		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
 		,`${df_Row_Header_3} > :not(:first-child)` // 2026-06-04
+		,`.featured-tag` // 2026-06-04
 		,`.impression-tracker` // 2026-06-04
 		,`.job-tile-actions > :not([data-test='job-feedback'])` // 2026-06-04
 		,`:has(> ${dfJobsFeed}) > :not(${dfJobsFeed}):not(#a1):not(#a2)` // 2026-06-04
