@@ -111,6 +111,14 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
+	`.job-tile-actions` // 2026-06-04
+]
+	 // language=Javascript
+	.join(',') + '{opacity: .5 !important;}')
+;
+// 2026-06-04
+// language=CSS
+GM_addStyle([
 	`${dfText}` // 2026-06-04
 ]
 	 // language=Javascript
@@ -139,6 +147,14 @@ GM_addStyle([
 	,'line-height': 1.2
 	,'letter-spacing': '.03em' // 2026-05-04
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
+// 2025-09-06 It still does not work for an unknown reason.
+// 2026-06-04
+// language=CSS
+GM_addStyle(`${dfText} br {
+	content: '' !important;
+	display: block !important;
+	height: 1px !important;
+}`);
 // 2024-12-28
 // language=CSS
 GM_addStyle([
@@ -152,8 +168,6 @@ GM_addStyle([
 			// language=Javascript
 			,'left': '60%'
 			,'margin-top': '0.5rem'
-			// language=CSS
-			,'opacity': 0.5 // 2025-03-18
 			,'position': 'absolute'
 			,'z-index': 1
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
@@ -181,14 +195,3 @@ modify(`${dfText}`, i => {// language=Javascript
 	// 2.2) https://chatgpt.com/c/67d9e839-2800-8003-9a50-5a9edd88c3a2
 	i.innerHTML = i.textContent.replace(/(?:\r\n|\r|\n)/g, '<br/>');
 });
-setTimeout(() => {
-	//GM_addStyle(`${dfText} br {display: block !important; content: ''; height: 1px !important;}`);
-	// 2025-09-06 It still does not work for an unknown reason.
-	// 2026-06-04
-	// language=CSS
-	GM_addStyle(`${dfText} br {
-		content: '' !important;
-		display: block !important;
-		height: 1px !important;
-	}`);
-}, 1000);
