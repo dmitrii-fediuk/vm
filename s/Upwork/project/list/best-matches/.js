@@ -133,7 +133,7 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	`${dfText}` // 2026-06-04
+	dfText // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{-webkit-line-clamp: none !important;}')
