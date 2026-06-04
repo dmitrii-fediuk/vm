@@ -9,15 +9,16 @@
 // 2024-10-13, 2024-12-24 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 // language=CSS
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
+const dfTabs = `[data-test='tabs']`; // 2026-06-04
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`${dfJobsFeed} > :not([data-test='tabs'])` // 2026-06-04
+		`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
+		,`${dfTabs} > :not([data-test='tab-content'])` // 2026-06-04
 		,`:has(> ${dfJobsFeed}) > :not(${dfJobsFeed}):not(#a)` // 2026-06-04
-		,`[data-test='tabs'] > :not([data-test='tab-content'])` // 2026-06-04
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
