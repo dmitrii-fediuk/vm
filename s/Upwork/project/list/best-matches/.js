@@ -156,6 +156,19 @@ GM_addStyle(`${dfTitle} {font-size: 1.25rem !important;}`);
 // 2026-06-04
 // language=CSS
 GM_addStyle([
+	`.label-small` // 2026-06-04
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['font-size', 'font-weight', 'line-height']
+			// language=Javascript
+			.map(k => `${k}: unset !important;`).join(' ') +
+	'}'
+);
+// 2026-06-04
+// language=CSS
+GM_addStyle([
 	dfText // 2026-06-04
 // language=Javascript
 ].join(',') + `{${Object.entries({
