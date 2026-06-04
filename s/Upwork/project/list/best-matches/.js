@@ -291,7 +291,7 @@ modify(dfText, i => {// language=Javascript
 	document.addEventListener('click', e => {
 		const i = e.target;
 		const menuItemClass = 'ngm-menu-item';
-		if (!i.classList.contains(menuItemClass) && e.target.closest('article')) {
+		if (!i.classList.contains(menuItemClass) && e.target.closest(dfJobTile)) {
 			const downBtn = i.closest(dfButton);
 			if (!downBtn) {
 				stopEvent(e);
