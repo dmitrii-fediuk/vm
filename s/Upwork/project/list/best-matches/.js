@@ -56,7 +56,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`${dfJobTileBadges}` // 2026-06-04
-	,`${df_Ev_BestMatch}:not(#a)` // 2026-06-04
+	,`${df_Ev_BestMatch}:not(#a1):not(#a2)` // 2026-06-04
 	,`.line-clamp` // 2026-06-04
 ]
 	 // language=Javascript
