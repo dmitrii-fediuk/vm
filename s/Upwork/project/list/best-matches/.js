@@ -123,9 +123,9 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	`${dfJobTileBadges}` // 2026-06-04
-	,`.job-tile-actions` // 2026-06-04
+	`.job-tile-actions` // 2026-06-04
 	,`.job-tile-toggle` // 2026-06-04
+	,dfJobTileBadges // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{opacity: .5 !important;}')
