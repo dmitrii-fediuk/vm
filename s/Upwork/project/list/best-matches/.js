@@ -263,7 +263,7 @@ modify(dfText, i => {// language=Javascript
 			const i = article.querySelector('.impression-tracker');
 			if (i) {
 				const v = i.getAttribute('data-ev-opening_uid');
-				window.open(`https://www.upwork.com/jobs/~${v}`, '_blank');
+				window.open(`https://www.upwork.com/jobs/~02${v}`, '_blank');
 			}
 		}
 	};
