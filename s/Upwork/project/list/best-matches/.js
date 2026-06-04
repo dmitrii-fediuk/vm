@@ -90,6 +90,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{border-radius: 0 !important;}')
 ;
+// 2026-06-04
+// language=CSS
+GM_addStyle([
+	`${dfJobTile}` // 2026-06-04
+]
+	 // language=Javascript
+	.join(',') + '{gap: 0 !important;}')
+;
 // 2024-12-25, 2025-03-18
 // language=CSS
 GM_addStyle('body {padding: 0.5rem !important;}');
