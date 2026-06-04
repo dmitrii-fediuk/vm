@@ -132,12 +132,19 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	`${dfJobTile}:not(#a)` // 2026-06-04
-	,`${df_Ev_BestMatch}:not(#a)` // 2026-06-04
+	`${df_Ev_BestMatch}:not(#a)` // 2026-06-04
 	,`${df_Row_Header} > div` // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{gap: 0 !important;}')
+;
+// 2026-06-04
+// language=CSS
+GM_addStyle([
+	`${dfJobTile}:not(#a)` // 2026-06-04
+]
+	 // language=Javascript
+	.join(',') + '{gap: .5rem !important;}')
 ;
 // 2026-06-04
 // language=CSS
