@@ -205,7 +205,7 @@ const modify = (s, action) => {
 };
 // 2026-06-04
 // language=CSS
-modify(`${dfText}`, i => {// language=Javascript
+modify(dfText, i => {// language=Javascript
 	// 2025-03-19
 	// 1) https://stackoverflow.com/a/784547
 	// 2.1) https://claude.ai/chat/5d359891-1f1d-400f-bc3b-e8b30fa92867
