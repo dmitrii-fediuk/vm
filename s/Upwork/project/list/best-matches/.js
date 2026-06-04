@@ -15,7 +15,8 @@ const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`:has(> ${dfJobsFeed}) > :not(${dfJobsFeed}):not(#a)` // 2026-06-04
+		`${dfJobsFeed} > :not([data-test='tabs'])` // 2026-06-04
+		,`:has(> ${dfJobsFeed}) > :not(${dfJobsFeed}):not(#a)` // 2026-06-04
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
