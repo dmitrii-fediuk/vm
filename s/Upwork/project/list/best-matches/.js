@@ -89,7 +89,7 @@ GM_addStyle([
 // 2025-03-18
 // language=CSS
 GM_addStyle([
-	`${dfJobTile}` // 2026-06-04
+	dfJobTile // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
