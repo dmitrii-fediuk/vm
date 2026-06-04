@@ -74,7 +74,7 @@ GM_addStyle([
 GM_addStyle([
 	`${dfJobTileBadges}` // 2026-06-04
 	,`${dfJobTile}:not(#a)` // 2026-06-04
-	,`${dfTabContent}` // 2026-06-04
+	,dfTabContent // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
