@@ -50,6 +50,7 @@ setTimeout(() => {
 		,`.job-tile-actions > :not([data-test='job-feedback'])` // 2026-06-04
 		,`.job-tile-bonus-connects-tag-wrap:not(#a)` // 2026-06-04
 		,`:has(> ${dfJobsFeed}) > :not(${dfJobsFeed}):not(#a1):not(#a2)` // 2026-06-04
+		,`:has(> [data-test='menu-container'])` // 2026-06-04
 		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
 		,`[data-test='feed-best-match'] > :not(${df_Ev_BestMatch})` // 2026-06-04
 	]
@@ -240,6 +241,7 @@ modify(dfText, i => {// language=Javascript
 	// 2.2) https://chatgpt.com/c/67d9e839-2800-8003-9a50-5a9edd88c3a2
 	i.innerHTML = i.textContent.replace(/(?:\r\n|\r|\n)/g, '<br/>');
 });
+if (false) {
 (() => {
 	const stopEvent = e => {
 		e.preventDefault();
@@ -315,3 +317,5 @@ modify(dfText, i => {// language=Javascript
 		}
 	}, true);
 })();
+}
+
