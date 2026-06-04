@@ -25,6 +25,8 @@ const df_Row_Country = `${dfJobTile} > :has(> [data-test='rating-minimal'])`; //
 const df_Row_Header = `${dfJobTile} > :has(> div > div > h3[data-test='job-title'])`; // 2026-06-04
 // language=CSS
 const df_Row_Header_3 = `${df_Row_Header} > div > div:last-of-type`; // 2026-06-04
+// language=CSS
+const dfText = `.line-clamp`; // 2026-06-04
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
@@ -57,8 +59,8 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`${dfJobTileBadges}:not(#a)` // 2026-06-04
+	,`${dfText}` // 2026-06-04
 	,`${df_Ev_BestMatch}:not(#a)` // 2026-06-04
-	,`.line-clamp` // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -109,7 +111,7 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	`.line-clamp` // 2026-06-04
+	`${dfText}` // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{line-clamp: none !important;}')
