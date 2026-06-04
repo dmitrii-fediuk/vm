@@ -28,6 +28,8 @@ const df_Row_Country = `${dfJobTile} > :has(
 const df_Row_Header = `${dfJobTile} > :has(> div > div > h3[data-test='job-title'])`; // 2026-06-04
 // language=CSS
 const df_Row_Header_3 = `${df_Row_Header} > div > div:last-of-type`; // 2026-06-04
+// 2026-06-04
+const dfButton = `button[data-ev-label='job_feedback_button']`; // 2026-06-04
 // language=CSS
 const dfText = `p.line-clamp`; // 2026-06-04
 // language=CSS
@@ -246,7 +248,7 @@ modify(dfText, i => {// language=Javascript
 	};
 	// 2025-06-06
 	const hideArticle = a => {
-		const e = a.querySelector('button[data-ev-label="dropdown_secondary_toggle"] svg');
+		const e = a.querySelector(`${dfButton} svg`);
 		if (e) {
 			// 2025-06-06
 			// 1) https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent
