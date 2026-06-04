@@ -42,6 +42,7 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle([
+	`${dfTabContent}` // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
