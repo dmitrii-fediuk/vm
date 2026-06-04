@@ -13,8 +13,9 @@
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`[data-test='job-search-box']` // 2026-06-04
-		,`[data-test='freelancer-menu']:not(#a)` // 2026-06-04
+		//`[data-test='job-search-box']` // 2026-06-04
+		//,`[data-test='freelancer-menu']:not(#a)` // 2026-06-04
+		`:has(> [data-test='jobs-feed']) > :not([data-test='jobs-feed'])` // 2026-06-04
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
