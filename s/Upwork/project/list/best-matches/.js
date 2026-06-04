@@ -156,7 +156,7 @@ GM_addStyle(`${dfTitle} {font-size: 1.25rem !important;}`);
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	`${dfText}` // 2026-06-04
+	dfText // 2026-06-04
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'font-family': 'Segoie UI'
