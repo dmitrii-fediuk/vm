@@ -9,10 +9,16 @@
 // 2024-10-13, 2024-12-24 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 // language=CSS
 const dfJobTile = `[data-test='job-tile']`; // 2026-06-04
+// language=CSS
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
+// language=CSS
 const dfTabContent = `[data-test='tab-content']`; // 2026-06-04
+// language=CSS
 const dfTabs = `[data-test='tabs']`; // 2026-06-04
+// language=CSS
 const df_Ev_BestMatch = `[data-ev-label='best_match']`; // 2026-06-04
+// language=CSS
+const df_Row_Country = `:has(> [data-test='rating-minimal'])`; // 2026-06-04
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
@@ -21,10 +27,10 @@ setTimeout(() => {
 	GM_addStyle([
 		`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
 		,`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
+		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
+		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
 		,`.job-tile-actions > :not([data-test='job-feedback'])` // 2026-06-04
 		,`:has(> ${dfJobsFeed}) > :not(${dfJobsFeed}):not(#a1):not(#a2)` // 2026-06-04
-		,`:has(> [data-test='rating-minimal']) > :not(:last-child):not(#a)` // 2026-06-04
-		,`:has(> [data-test='rating-minimal']) [data-test='icon']` // 2026-06-04
 		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
 		,`:has(> div > h3[data-test='job-title']) > :last-child > :not(:first-child)` // 2026-06-04
 		,`[data-test='feed-best-match'] > :not(${df_Ev_BestMatch})` // 2026-06-04
