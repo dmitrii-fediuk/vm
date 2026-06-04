@@ -26,7 +26,7 @@ const df_Row_Header = `${dfJobTile} > :has(> div > div > h3[data-test='job-title
 // language=CSS
 const df_Row_Header_3 = `${df_Row_Header} > div > div:last-of-type`; // 2026-06-04
 // language=CSS
-const dfText = `.line-clamp`; // 2026-06-04
+const dfText = `p.line-clamp`; // 2026-06-04
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
