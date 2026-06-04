@@ -162,3 +162,44 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2026-06-04
+(() => {
+	const process = (() => {
+		// 2025-03-19
+		const format = a => {
+			const p = a.querySelector(`${dfText}`);
+			// 2025-03-18 `p` is `null` if the project is already hidden via the UI («Just not interested»).
+			if (p) {
+				// 2025-03-19
+				// 1) https://stackoverflow.com/a/784547
+				// 2.1) https://claude.ai/chat/5d359891-1f1d-400f-bc3b-e8b30fa92867
+				// 2.2) https://chatgpt.com/c/67d9e839-2800-8003-9a50-5a9edd88c3a2
+				p.innerHTML = p.textContent.replace(/(?:\r\n|\r|\n)/g, '<br/>');
+			}
+		};
+		return c => c.querySelectorAll('article').forEach(a => format(a));
+	})();
+	setTimeout(() => {process(document.querySelector('.card-list-container'));}, 50);
+	// 2025-03-18 https://chatgpt.com/c/67d98719-3eec-8003-9df4-844aa046c43b
+	(new MutationObserver(mm => {
+		// 2025-03-18 https://grok.com/chat/293ac71e-03ab-475a-ab7e-0030d1035357
+		mm.forEach(m => {
+			let n;
+			if (
+				m.target.parentNode.classList.contains('jobs-grid-container')
+				&& 1 === m.addedNodes.length
+				&& (n = m.addedNodes[0]).classList.contains('card-list-container')
+				&& n.children.length
+				&& 'ARTICLE' === n.firstChild.tagName
+			) {
+				process(n);
+			}
+		});
+	})).observe(document.querySelector('.jobs-grid-container'), {
+		// 2025-03-18 https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe#attributes
+		attributes: false
+		// 2025-03-18 https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe#childlist
+		,childList: true
+		,subtree: true
+	});
+})();
