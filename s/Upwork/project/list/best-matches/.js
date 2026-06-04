@@ -90,7 +90,7 @@ GM_addStyle([
 GM_addStyle('body {padding: 0.5rem !important;}');
 // 2026-06-04
 // language=CSS
-GM_addStyle(`${df_Row_Country} {order: 2 !important;}`);
+GM_addStyle(`${df_Row_Country} {order: -1 !important;}`);
 // 2025-03-19
 // language=CSS
 GM_addStyle([
