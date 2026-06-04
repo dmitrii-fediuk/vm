@@ -4,7 +4,6 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Upwork/project/list/normal/tags.js
 // @icon https://www.upwork.com/favicon.ico
 // @match *://www.upwork.com/nx/search/jobs*
-// @match *://www.upwork.com/nx/s/find-work/best-matches*
 // @name Upwork / Project / List / Tags
 // ==/UserScript==
 // 2025-10-05
