@@ -8,6 +8,7 @@
 // ==/UserScript==
 // 2024-10-13, 2024-12-24 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 // language=CSS
+const dfJobTile = `[data-test='job-tile']`; // 2026-06-04
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 const dfTabContent = `[data-test='tab-content']`; // 2026-06-04
 const dfTabs = `[data-test='tabs']`; // 2026-06-04
@@ -42,7 +43,8 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	`${dfTabContent}` // 2026-06-04
+	`${dfJobTile}` // 2026-06-04
+	,`${dfTabContent}` // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -57,6 +59,7 @@ GM_addStyle([
 // 2025-03-18
 // language=CSS
 GM_addStyle([
+	`${dfJobTile}` // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
