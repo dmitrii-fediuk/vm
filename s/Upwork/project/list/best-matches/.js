@@ -104,10 +104,10 @@ GM_addStyle(`${df_Row_Header} {order: 1 !important;}`);
 GM_addStyle(`${df_Row_Country} {order: 2 !important;}`);
 // 2026-06-04
 // language=CSS
-GM_addStyle(`${df_Row_Header} {background: yellow; border: 1px solid red;}`);
+//GM_addStyle(`${df_Row_Header} {background: yellow; border: 1px solid red;}`);
 // 2026-06-04
 // language=CSS
-GM_addStyle(`${df_Row_Header_3} {background: pink; border: 1px solid green;}`);
+//GM_addStyle(`${df_Row_Header_3} {background: pink; border: 1px solid green;}`);
 // 2025-03-19
 // language=CSS
 GM_addStyle([
