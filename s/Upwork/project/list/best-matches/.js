@@ -25,6 +25,7 @@ setTimeout(() => {
 		,`:has(> [data-test='rating-minimal']) > :not(:last-child):not(#a)` // 2026-06-04
 		,`:has(> [data-test='rating-minimal']) [data-test='icon']` // 2026-06-04
 		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
+		,`:has(> div > h3[data-test='job-title']) > :last-child > :not(:first-child)` // 2026-06-04
 		,`[data-test='feed-best-match'] > :not(${df_Ev_BestMatch})` // 2026-06-04
 	]
 		 // language=Javascript
