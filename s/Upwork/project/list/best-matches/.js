@@ -27,6 +27,8 @@ const df_Row_Header = `${dfJobTile} > :has(> div > div > h3[data-test='job-title
 const df_Row_Header_3 = `${df_Row_Header} > div > div:last-of-type`; // 2026-06-04
 // language=CSS
 const dfText = `p.line-clamp`; // 2026-06-04
+// language=CSS
+const dfTitle = `[data-test='job-title']`; // 2026-06-04
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
@@ -103,6 +105,14 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
+	// language=Javascript
+	dfTitle // 2026-06-04
+].join(',') + `{${Object.entries({
+	'font-family': 'Segoie UI'
+}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
+// 2026-06-04
+// language=CSS
+GM_addStyle([
 	`${dfJobTile}:not(#a)` // 2026-06-04
 	,`${df_Ev_BestMatch}:not(#a)` // 2026-06-04
 	,`${df_Row_Header} > div` // 2026-06-04
@@ -142,7 +152,7 @@ GM_addStyle(`${df_Row_Header} {order: 1 !important;}`);
 GM_addStyle(`${df_Row_Country} {order: 2 !important;}`);
 // 2026-06-04
 // language=CSS
-GM_addStyle(`[data-test='job-title'] {font-size: 1.25rem !important;}`);
+GM_addStyle(`${dfTitle} {font-size: 1.25rem !important;}`);
 // 2026-06-04
 // language=CSS
 GM_addStyle([
