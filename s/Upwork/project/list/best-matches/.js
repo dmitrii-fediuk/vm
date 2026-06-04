@@ -54,6 +54,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`${df_Ev_BestMatch}:not(#a)` // 2026-06-04
+	, `.line-clamp` // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
