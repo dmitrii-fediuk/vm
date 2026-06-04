@@ -54,7 +54,8 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`${df_Ev_BestMatch}:not(#a)` // 2026-06-04
-	, `.line-clamp` // 2026-06-04
+	,`.line-clamp` // 2026-06-04
+	,`[data-test='job-tile-badges']` // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -64,6 +65,7 @@ GM_addStyle([
 GM_addStyle([
 	`${dfJobTile}:not(#a)` // 2026-06-04
 	,`${dfTabContent}` // 2026-06-04
+	,`[data-test='job-tile-badges']` // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
