@@ -43,7 +43,7 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	`${dfJobTile}` // 2026-06-04
+	`${dfJobTile}:not(#a)` // 2026-06-04
 	,`${dfTabContent}` // 2026-06-04
 ]
 	 // language=Javascript
