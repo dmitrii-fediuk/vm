@@ -181,12 +181,14 @@ modify(`${dfText}`, i => {// language=Javascript
 	// 2.2) https://chatgpt.com/c/67d9e839-2800-8003-9a50-5a9edd88c3a2
 	i.innerHTML = i.textContent.replace(/(?:\r\n|\r|\n)/g, '<br/>');
 });
-//GM_addStyle(`${dfText} br {display: block !important; content: ''; height: 1px !important;}`);
-// 2025-09-06 It still does not work for an unknown reason.
-// 2026-06-04
-// language=CSS
-GM_addStyle(`${dfText} br {
-	content: '' !important;
-	display: block !important;
-	height: 1px !important;
-}`);
+setTimeout(() => {
+	//GM_addStyle(`${dfText} br {display: block !important; content: ''; height: 1px !important;}`);
+	// 2025-09-06 It still does not work for an unknown reason.
+	// 2026-06-04
+	// language=CSS
+	GM_addStyle(`${dfText} br {
+		content: '' !important;
+		display: block !important;
+		height: 1px !important;
+	}`);
+}, 1000);
