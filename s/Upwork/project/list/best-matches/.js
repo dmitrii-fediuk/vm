@@ -20,9 +20,9 @@ const df_Ev_BestMatch = `[data-ev-label='best_match']`; // 2026-06-04
 // language=CSS
 const df_Row_Country = `${dfJobTile} > :has(> [data-test='rating-minimal'])`; // 2026-06-04
 // language=CSS
-const df_Row_Header = `(${dfJobTile} > :has(> div > div > h3[data-test='job-title']))`; // 2026-06-04
+const df_Row_Header = `${dfJobTile} > :has(> div > div > h3[data-test='job-title'])`; // 2026-06-04
 // language=CSS
-const df_Row_Header_3 = `${df_Row_Header} > div:last-of-type`; // 2026-06-04
+const df_Row_Header_3 = `${df_Row_Header} > div > div:last-of-type`; // 2026-06-04
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
@@ -107,7 +107,7 @@ GM_addStyle(`${df_Row_Country} {order: 2 !important;}`);
 GM_addStyle(`${df_Row_Header} {background: yellow; border: 1px solid red;}`);
 // 2026-06-04
 // language=CSS
-GM_addStyle(`${df_Row_Header_3} {background: pink;}`);
+GM_addStyle(`${df_Row_Header_3} {background: pink; border: 1px solid green;}`);
 // 2025-03-19
 // language=CSS
 GM_addStyle([
