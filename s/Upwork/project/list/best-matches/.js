@@ -21,6 +21,8 @@ const df_Ev_BestMatch = `[data-ev-label='best_match']`; // 2026-06-04
 const df_Row_Country = `${dfJobTile} > :has(> [data-test='rating-minimal'])`; // 2026-06-04
 // language=CSS
 const df_Row_Header = `${dfJobTile} > :has(> div > div > h3[data-test='job-title'])`; // 2026-06-04
+// language=CSS
+const df_Row_Header_3 = `${df_Row_Header} > :last-child`; // 2026-06-04
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
@@ -31,7 +33,7 @@ setTimeout(() => {
 		,`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
 		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
-		,`${df_Row_Header} > :last-child > :not(:first-child)` // 2026-06-04
+		,`${df_Row_Header_3} > :not(:first-child)` // 2026-06-04
 		,`.impression-tracker` // 2026-06-04
 		,`.job-tile-actions > :not([data-test='job-feedback'])` // 2026-06-04
 		,`:has(> ${dfJobsFeed}) > :not(${dfJobsFeed}):not(#a1):not(#a2)` // 2026-06-04
