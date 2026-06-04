@@ -241,7 +241,6 @@ modify(dfText, i => {// language=Javascript
 	// 2.2) https://chatgpt.com/c/67d9e839-2800-8003-9a50-5a9edd88c3a2
 	i.innerHTML = i.textContent.replace(/(?:\r\n|\r|\n)/g, '<br/>');
 });
-if (false) {
 (() => {
 	const stopEvent = e => {
 		e.preventDefault();
@@ -309,13 +308,8 @@ if (false) {
 					else {
 						//debugger;
 					}
-				// 2025-06-06
-				// Previously, I had `50` here.
-				// Now I need `500` for `hideArticle()` to work.
-				}, 500);
+				}, 100);
 			}
 		}
 	}, true);
 })();
-}
-
