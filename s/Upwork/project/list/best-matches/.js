@@ -94,6 +94,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`${dfJobTile}:not(#a)` // 2026-06-04
+	,`${df_Row_Header}` // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{gap: 0 !important;}')
