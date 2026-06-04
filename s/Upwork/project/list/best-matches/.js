@@ -113,6 +113,14 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
+	`.label-small` // 2026-06-04
+]
+	 // language=Javascript
+	.join(',') + '{font-weight: unset !important;}')
+;
+// 2026-06-04
+// language=CSS
+GM_addStyle([
 	`${dfJobTile}:not(#a)` // 2026-06-04
 	,`${df_Ev_BestMatch}:not(#a)` // 2026-06-04
 	,`${df_Row_Header} > div` // 2026-06-04
@@ -153,19 +161,6 @@ GM_addStyle(`${df_Row_Country} {order: 2 !important;}`);
 // 2026-06-04
 // language=CSS
 GM_addStyle(`${dfTitle} {font-size: 1.25rem !important;}`);
-// 2026-06-04
-// language=CSS
-GM_addStyle([
-	`.label-small` // 2026-06-04
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		['font-size', 'font-weight', 'line-height']
-			// language=Javascript
-			.map(k => `${k}: unset !important;`).join(' ') +
-	'}'
-);
 // 2026-06-04
 // language=CSS
 GM_addStyle([
