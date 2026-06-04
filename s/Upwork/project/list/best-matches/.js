@@ -14,6 +14,7 @@ const ᛡ = unsafeWindow.df.upwork.project.list; // 2025-10-26
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
+		`[data-test='freelancer-menu']` // 2026-06-04
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
