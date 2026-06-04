@@ -40,7 +40,6 @@ setTimeout(() => {
 	GM_addStyle([
 		`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
 		,`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
-		//,`${dfJobTileBadges}:has(> .job-tile-bonus-connects-tag-wrap)` // 2026-06-04
 		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
 		,`${df_Row_Header_3} > :not(:first-child)` // 2026-06-04
@@ -134,6 +133,7 @@ GM_addStyle([
 GM_addStyle([
 	`${dfJobTile}:not(#a)` // 2026-06-04
 	,`${df_Row_Header} > div` // 2026-06-04
+	,`:has(> ${dfJobTileBadges})` // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{gap: 0 !important;}')
