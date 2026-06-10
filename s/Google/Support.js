@@ -39,6 +39,7 @@ GM_addStyle([
 GM_addStyle([
 	`#page-width-container` // 2026-06-10
 	,`.pull-nextstep` // 2026-06-10
+	,`[role='navigation'] > *`
 	,`article`
 ]
 	 // language=Javascript
