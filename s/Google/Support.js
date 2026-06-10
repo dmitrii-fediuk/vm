@@ -51,4 +51,7 @@ GM_addStyle([
 ;
 // 2026-06-10
 // language=CSS
+GM_addStyle(`h2 {margin: .5rem 0 !important;}`);
+// 2026-06-10
+// language=CSS
 GM_addStyle(`h3 {margin: .25rem 0 !important;}`);
