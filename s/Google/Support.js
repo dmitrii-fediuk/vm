@@ -27,6 +27,7 @@ GM_addStyle([
 GM_addStyle([
 	`#article-breadcrumbs-container` // 2026-06-10
 	,`.primary-container` // 2026-06-10
+	,`.pull-nextstep` // 2026-06-10
 	,`article`
 	,`h1` // 2026-06-10
 ]
