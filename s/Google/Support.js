@@ -49,3 +49,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
 ;
+// 2026-06-10
+// language=CSS
+GM_addStyle(`h3 {margin: .25rem 0 !important;}`);
