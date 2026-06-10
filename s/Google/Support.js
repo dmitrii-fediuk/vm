@@ -56,6 +56,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.primary-container` // 2026-06-10
+	,`body` // 2026-06-10
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -63,19 +64,6 @@ GM_addStyle([
 		['max-width', 'width', 'min-width']
 			// language=Javascript
 			.map(k => `${k}: unset !important;`).join(' ') +
-	'}'
-);
-// 2026-06-10
-// language=CSS
-GM_addStyle([
-	//`.primary-container` // 2026-06-10
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		['max-width', 'width', 'min-width']
-			// language=Javascript
-			.map(k => `${k}: 100% !important;`).join(' ') +
 	'}'
 );
 // 2026-06-10
