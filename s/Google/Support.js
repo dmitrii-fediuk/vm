@@ -32,7 +32,8 @@ GM_addStyle([
 // 2025-02-04
 // language=CSS
 GM_addStyle([
-	'article'
+	`#page-width-container` // 2026-06-10
+	,`article`
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
