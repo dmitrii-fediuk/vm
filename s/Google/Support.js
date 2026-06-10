@@ -52,6 +52,19 @@ GM_addStyle([
 ;
 // 2026-06-10
 // language=CSS
+GM_addStyle([
+	`.primary-container` // 2026-06-10
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['max-width', 'width', 'min-width']
+			// language=Javascript
+			.map(k => `${k}: 100% !important;`).join(' ') +
+	'}'
+);
+// 2026-06-10
+// language=CSS
 GM_addStyle(`h2 {margin: .5rem 0 !important;}`);
 // 2026-06-10
 // language=CSS
