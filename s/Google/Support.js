@@ -9,13 +9,14 @@
 // 2025-02-04 "Improve `support.google.com`": https://github.com/dmitrii-fediuk/vm/issues/87
 // language=CSS
 GM_addStyle([
-	'.main-content > :not(article)'
-	,'.side-container'
-	,'.sub-article-container'
-	,'[id^=notification-overflow-]'
-	,'div:has(> sc-client-feedback-inline-feedback-link)'
-	,'footer'
-	,'header[role="none"]'
+	`#genie-container` // 2026-06-10
+	,`.main-content > :not(article)`
+	,`.side-container`
+	,`.sub-article-container`
+	,`[id^=notification-overflow-]`
+	,`div:has(> sc-client-feedback-inline-feedback-link)`
+	,`footer`
+	,`header[role='none']`
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
