@@ -11,6 +11,7 @@
 GM_addStyle([
 	`#ai-answers-container` // 2026-06-10
 	,`#genie-container` // 2026-06-10
+	,`.content-background` // 2026-06-10
 	,`.main-content > :not(article)`
 	,`.side-container`
 	,`.sub-article-container`
