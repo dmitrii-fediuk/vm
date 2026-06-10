@@ -9,7 +9,8 @@
 // 2025-02-04 "Improve `support.google.com`": https://github.com/dmitrii-fediuk/vm/issues/87
 // language=CSS
 GM_addStyle([
-	`#genie-container` // 2026-06-10
+	`#ai-answers-container` // 2026-06-10
+	,`#genie-container` // 2026-06-10
 	,`.main-content > :not(article)`
 	,`.side-container`
 	,`.sub-article-container`
