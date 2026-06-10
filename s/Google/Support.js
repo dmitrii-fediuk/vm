@@ -25,7 +25,8 @@ GM_addStyle([
 // 2025-02-04
 // language=CSS
 GM_addStyle([
-	`article`
+	`#article-breadcrumbs-container` // 2026-06-10
+	,`article`
 	,`h1` // 2026-06-10
 ]
 	 // language=Javascript
