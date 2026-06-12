@@ -134,7 +134,8 @@ GM_addStyle([
 // 2026-06-12
 // language=CSS
 GM_addStyle([
-	`:hover:not(#A)` // 2026-05-04
+	`.visited` // 2026-06-13
+	,`:hover:not(#A)` // 2026-05-04
 	,dfPostedOnContainer_Parent // 2026-06-12
 ]
 	 // language=Javascript
