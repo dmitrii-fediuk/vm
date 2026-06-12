@@ -353,10 +353,10 @@ modify(df_DT_Country, i => {// language=Javascript
 			e.dispatchEvent(new MouseEvent('click', {bubbles: true, cancelable: true}));
 		}
 	};
-	const openArticle = b => {
-		const article = b.closest(dfProject);
-		if (article) {
-			const i = article.querySelector('.impression-tracker');
+	const openProject = b => {
+		const project = b.closest(dfProject);
+		if (project) {
+			const i = project.querySelector('.impression-tracker');
 			if (i) {
 				const v = i.getAttribute('data-ev-opening_uid');
 				window.open(`https://www.upwork.com/jobs/~02${v}`, '_blank');
@@ -364,9 +364,9 @@ modify(df_DT_Country, i => {// language=Javascript
 		}
 	};
 	(() => {
-		let x = 0, y = 0, article;
+		let x = 0, y = 0, project;
 		const updateArticle = () => {
-			article = document.elementFromPoint(x, y)?.closest(dfProject);
+			project = document.elementFromPoint(x, y)?.closest(dfProject);
 		};
 		document.addEventListener('mousemove', e => {
 			x = e.clientX; y = e.clientY;
@@ -376,12 +376,12 @@ modify(df_DT_Country, i => {// language=Javascript
 		document.addEventListener('keydown', e => {
 			if ('Enter' === e.key) {
 				stopEvent(e);
-				openArticle(article);
+				openArticle(project);
 			}
 			// 2025-06-06
 			else if ('Escape' === e.key) {
 				stopEvent(e);
-				hideArticle(article);
+				hideArticle(project);
 			}
 		}, true);
 	})();
