@@ -261,6 +261,7 @@ GM_addStyle([
 				const br = '<br/>';
 				p.innerHTML = p.textContent
 					.replace(/(?:\r\n|\r|\n)/g, br) // 2025-03-19 https://stackoverflow.com/a/784547
+					.replace('<br>', br)
 					.replaceAll(`${br}${br}`, `<div class='${dfNL}'></div>`) // 2026-06-13
 				;
 			}
