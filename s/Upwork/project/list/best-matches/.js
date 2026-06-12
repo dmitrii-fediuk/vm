@@ -394,7 +394,7 @@ modify(df_DT_Country, i => {// language=Javascript
 	})();
 	document.addEventListener('click', e => {
 		const i = e.target;
-		const menuItemClass = 'ngm-menu-item';
+		const menuItemClass = 'air3-menu-item';
 		if (!i.classList.contains(menuItemClass) && e.target.closest(dfProject)) {
 			const downBtn = i.closest(dfButton);
 			if (!downBtn) {
