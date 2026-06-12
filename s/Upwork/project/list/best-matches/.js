@@ -31,7 +31,9 @@ const dfJobTile = `section[data-ev-sublocation='job_feed_tile']`; // 2026-06-04
 // language=CSS
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 // language=CSS
-const dfPostedOnParent = `span:has(> ${df_DT_PostedOn})`; // 2026-06-12
+const dfPostedOnContainer = `span:has(> ${df_DT_PostedOn})`; // 2026-06-12
+// language=CSS
+const dfPostedOnContainer_Parent = `:has(> span > ${df_DT_PostedOn})`; // 2026-06-12
 // language=CSS
 const dfTabContent = `[data-test='tab-content']`; // 2026-06-04
 // language=CSS
@@ -69,7 +71,7 @@ setTimeout(() => {
 		,`${df_DT_FeedBestMatch} > :not(:has(> ${df_DT_JobTileList}))` // 2026-06-12
 		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
-		,`${df_Row_Header_1} > .text-caption > span:not(${dfPostedOnParent})` // 2026-06-12
+		,`${df_Row_Header_1} > .text-caption > span:not(${dfPostedOnContainer})` // 2026-06-12
 		,`.featured-tag:not(#a)` // 2026-06-04
 		,`.impression-tracker` // 2026-06-04
 		,`.job-tile-actions > :not([data-test='job-feedback'])` // 2026-06-04
@@ -79,7 +81,7 @@ setTimeout(() => {
 		,`:has(> ${df_DT_JobType}) > :not(${df_DT_JobType})` // 2026-06-12
 		,`:has(> [data-test='menu-container'])` // 2026-06-04
 		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
-		,`:has(> span > ${df_DT_PostedOn}) > :not(${dfPostedOnParent})` // 2026-06-12
+		,`${dfPostedOnContainer_Parent} > :not(${dfPostedOnContainer})` // 2026-06-12
 		,`[data-test='page-content-section'] > :not(:has(${df_C_FeedsCard}))` // 2026-06-12
 		,df_Ev_BestMatch // 2026-06-12
 	]
