@@ -69,7 +69,7 @@ setTimeout(() => {
 		,`${dfProject__Body__Row_Country} .air3-icon` // 2026-06-12
 		,`${dfProject__Body__Row_Country} > :not(${df_DT_Country})` // 2026-06-12
 		,`${dfProject__Body__Row_Country} ~ *` // 2026-06-12
-		,`${dfProject__Body}:not:has(${dfText})` // 2026-06-13 The projects already hidden by me
+		,`${dfProject__Body}:not(:has(${dfText}))` // 2026-06-13 The projects already hidden by me
 		,`${dfProject__Header__Row_PostedOn} > .text-caption > span:not(${dfPostedOnContainer})` // 2026-06-12
 		,`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
 		,`${df_C_FeedsCard} > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
