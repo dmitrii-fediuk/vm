@@ -32,6 +32,7 @@ setTimeout(() => {
 		// I hide it because my JavaScript below automatically clicks the «Just not interested» option from this menu
 		// when the `JobActionFeedback` button is clicked, so there`s no need for the menu to appear.
 		,`[data-test='JobActionFeedback'] [data-test='UpCPopover']`
+		,`[data-test='job-feedback-label']` // 2026-06-13 I have already skipped this project
 		,`[data-test='jobs-buttons-component']` // 2025-03-18 «Save search», «Saved jobs»
 		,`[data-test='location'] [data-test='UpCIcon']` // 2025-03-18
 	]
