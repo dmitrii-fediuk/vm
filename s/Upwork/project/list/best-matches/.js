@@ -169,6 +169,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.label-small` // 2026-06-04
+	,dfPostedOnContainer_Parent // 2026-06-12
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: unset !important;}')
