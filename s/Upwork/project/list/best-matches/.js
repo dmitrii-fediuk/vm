@@ -125,7 +125,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
-// 2026-05-04
+// 2026-06-12
 // language=CSS
 GM_addStyle([
 	dfPostedOnContainer_Parent // 2026-06-12
