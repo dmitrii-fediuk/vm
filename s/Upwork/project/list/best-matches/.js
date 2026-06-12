@@ -271,7 +271,7 @@ GM_addStyle([
 GM_addStyle('body {padding: 0.5rem !important;}');
 // 2026-06-13
 // language=CSS
-GM_addStyle(`.${dfNL} {margin: 0.25rem 0 !important;}`);
+GM_addStyle(`.${dfNL} {margin: 0.5rem 0 !important;}`);
 // 2026-06-13
 // language=CSS
 GM_addStyle(`${df_DT_JobTileList} {display: flex; flex-direction: column; gap: 0.5rem;}`);
