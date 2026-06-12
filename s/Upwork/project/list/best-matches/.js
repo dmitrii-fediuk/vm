@@ -41,6 +41,8 @@ const df_Row_Country = `.badge-line`; // 2026-06-12
 // language=CSS
 const df_Row_Header = `${dfJobTile} > :has(> div > div > ${dfTitle})`; // 2026-06-04
 // language=CSS
+const df_Row_Header_1 = `${df_Row_Header} > div > div:first-of-type`; // 2026-06-12
+// language=CSS
 const df_Row_Header_3 = `${df_Row_Header} > div > div:last-of-type`; // 2026-06-04
 // 2026-06-04
 const dfButton = `button[data-ev-label='job_feedback_button']`; // 2026-06-04
