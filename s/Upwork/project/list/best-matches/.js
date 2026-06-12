@@ -250,7 +250,7 @@ GM_addStyle('body {padding: 0.5rem !important;}');
 // 2026-06-12
 // language=CSS
 GM_addStyle([
-	dfPost_Body // 2026-06-12
+	dfPost__Body // 2026-06-12
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'display': 'flex'
@@ -259,10 +259,10 @@ GM_addStyle([
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2026-06-12
 // language=CSS
-GM_addStyle(`${dfPost_Body} > :not(${dfPost__Body__Row_Country}) {order: 1 !important;}`);
+GM_addStyle(`${dfPost__Body} > :not(${dfPost__Body__Row_Country}) {order: 1 !important;}`);
 // 2026-06-12 https://gemini.google.com/share/63decfb2de6f
 // language=CSS
-GM_addStyle(`${dfPost_Body} > :not(${dfPost__Body__Row_Country, dfPost__Body__Row_Rate}) {
+GM_addStyle(`${dfPost__Body} > :not(${dfPost__Body__Row_Country, dfPost__Body__Row_Rate}) {
 	flex-basis: 100%; !important;
 }`);
 // 2026-06-12
