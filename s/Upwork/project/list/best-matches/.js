@@ -41,7 +41,7 @@ const df_Row_Country = `.badge-line`; // 2026-06-12
 // language=CSS
 const df_Row_Header = `${dfJobTile} > :has(${dfTitle})`; // 2026-06-04
 // language=CSS
-//const df_Row_Header_1 = `${df_Row_Header} > div > div:first-of-type`; // 2026-06-12
+const df_Row_Header_1 = `${df_Row_Header} > div:first-of-type`; // 2026-06-12
 // language=CSS
 //const df_Row_Header_3 = `${df_Row_Header} > div > div:last-of-type`; // 2026-06-04
 // 2026-06-04
@@ -60,6 +60,7 @@ setTimeout(() => {
 		,`${df_DT_FeedBestMatch} > :not(:has(> ${df_DT_JobTileList}))` // 2026-06-12
 		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
+		,`${df_Row_Header_1}} > .text-caption > span:not(:has(> ${df_DT_PostedOn}))` // 2026-06-12
 		//,`${df_Row_Header_3} > :not(:first-child)` // 2026-06-04
 		,`.featured-tag:not(#a)` // 2026-06-04
 		,`.impression-tracker` // 2026-06-04
