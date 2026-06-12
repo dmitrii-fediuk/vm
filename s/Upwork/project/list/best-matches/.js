@@ -155,6 +155,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.label-small` // 2026-06-04
+	,`.text-caption` // 2026-06-13
 ]
 	 // language=Javascript
 	.join(',') + '{color: rgba(36, 46, 66, 0.8) !important;}')
@@ -221,7 +222,6 @@ GM_addStyle([
 	`.job-tile-actions` // 2026-06-04
 	,`.job-tile-toggle` // 2026-06-04
 	,df_DT_JobTileBadges // 2026-06-04
-	,`.text-caption` // 2026-06-13
 ]
 	 // language=Javascript
 	.join(',') + '{opacity: .5 !important;}')
