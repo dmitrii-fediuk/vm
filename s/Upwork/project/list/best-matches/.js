@@ -21,6 +21,8 @@ const df_DT_Country = `[data-test='client-country']`; // 2026-06-12
 // language=CSS
 const df_DT_FeedBestMatch = `[data-test='feed-best-match']`; // 2026-06-12
 // language=CSS
+const df_DT_JobFeedback = `[data-test='job-feedback']`; // 2026-06-13
+// language=CSS
 const df_DT_JobTileBadges = `[data-test='job-tile-badges']`; // 2026-06-12
 // language=CSS
 const df_DT_JobTileList = `[data-test='job-tile-list']`; // 2026-06-12
@@ -29,7 +31,7 @@ const df_DT_JobType = `[data-test='job-type']`; // 2026-06-12
 // language=CSS
 const df_DT_PostedOn = `[data-test='posted-on']`; // 2026-06-12
 // language=CSS
-const dfButton = `${df_C_JobTileActions} > [data-test='job-feedback'] button`; // 2026-06-12
+const dfButton = `${df_C_JobTileActions} > ${df_DT_JobFeedback} button`; // 2026-06-12
 // language=CSS
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 // language=CSS
