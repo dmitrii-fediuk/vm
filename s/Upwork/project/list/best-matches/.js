@@ -19,6 +19,8 @@ const df_DT_JobTileBadges = `[data-test='job-tile-badges']`; // 2026-06-04
 // language=CSS
 const df_DT_JobTileList = `[data-test='job-tile-list']`; // 2026-06-12
 // language=CSS
+const df_DT_JobType = `[data-test='job-type']`; // 2026-06-12
+// language=CSS
 const df_DT_PostedOn = `[data-test='posted-on']`; // 2026-06-12
 // language=CSS
 //const dfJobTile = `[data-test='job-tile']`; // 2026-06-04
