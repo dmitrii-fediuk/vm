@@ -256,7 +256,7 @@ GM_addStyle('body {padding: 0.5rem !important;}');
 GM_addStyle(`${dfPost_Body} > * {order: 2 !important;}`);
 // 2026-06-12
 // language=CSS
-GM_addStyle(`${dfPost_Body} > ${df_Row_Country} {order: 1 !important;}`);
+GM_addStyle(`${df_Row_Country}:not(#a) {order: 1 !important;}`);
 // 2026-06-04
 // language=CSS
 GM_addStyle(`${dfTitle} {font-size: 1.25rem !important;}`);
