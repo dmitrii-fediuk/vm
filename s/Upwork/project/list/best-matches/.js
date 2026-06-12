@@ -78,9 +78,16 @@ setTimeout(() => {
 		.join(',') + '{display: none !important;}')
 	;
 }, 400);
+// 2026-06-12
 // language=CSS
 GM_addStyle([
 	df_DT_PostedOn // 2026-06-12
+]
+	 // language=Javascript
+	.join(',') + '{display: block !important;}')
+;
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{display: initial !important;}')
