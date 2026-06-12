@@ -250,15 +250,12 @@ GM_addStyle([
 // 2024-12-25, 2025-03-18
 // language=CSS
 GM_addStyle('body {padding: 0.5rem !important;}');
-// 2026-06-04
+// 2026-06-12
 // language=CSS
-GM_addStyle(`${dfPost} > * {order: 3 !important;}`);
-// 2026-06-04
+GM_addStyle(`${dfPost_Body} > * {order: 2 !important;}`);
+// 2026-06-12
 // language=CSS
-GM_addStyle(`${df_Row_Header} {order: 1 !important;}`);
-// 2026-06-04
-// language=CSS
-GM_addStyle(`${df_Row_Country} {order: 2 !important;}`);
+GM_addStyle(`${df_Row_Country} {order: 1 !important;}`);
 // 2026-06-04
 // language=CSS
 GM_addStyle(`${dfTitle} {font-size: 1.25rem !important;}`);
