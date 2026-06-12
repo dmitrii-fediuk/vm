@@ -43,7 +43,7 @@ const dfTitle = `[data-test='job-title']`; // 2026-06-04
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		,`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
+		`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
 		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
 		,`${df_Row_Header_3} > :not(:first-child)` // 2026-06-04
