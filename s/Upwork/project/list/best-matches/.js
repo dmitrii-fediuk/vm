@@ -17,7 +17,8 @@ const df_DT_FeedBestMatch = `[data-test='feed-best-match']`; // 2026-06-12
 // language=CSS
 const df_DT_JobTileList = `[data-test='job-tile-list']`; // 2026-06-12
 // language=CSS
-const dfJobTile = `[data-test='job-tile']`; // 2026-06-04
+//const dfJobTile = `[data-test='job-tile']`; // 2026-06-04
+const dfJobTile = `section[data-ev-sublocation='job_feed_tile']`; // 2026-06-04
 // language=CSS
 const dfJobTileBadges = `[data-test='job-tile-badges']`; // 2026-06-04
 // language=CSS
