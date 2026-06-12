@@ -267,6 +267,9 @@ GM_addStyle([
 // 2024-12-25, 2025-03-18
 // language=CSS
 GM_addStyle('body {padding: 0.5rem !important;}');
+// 2026-06-13
+// language=CSS
+GM_addStyle(`${dfProject} {margin: 0.5rem !important;}`);
 // 2026-06-12
 // language=CSS
 GM_addStyle([
