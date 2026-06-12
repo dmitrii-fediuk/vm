@@ -26,6 +26,8 @@ const df_DT_JobTileList = `[data-test='job-tile-list']`; // 2026-06-12
 const df_DT_JobType = `[data-test='job-type']`; // 2026-06-12
 // language=CSS
 const df_DT_PostedOn = `[data-test='posted-on']`; // 2026-06-12
+// 2026-06-04
+const dfButton = `button[data-ev-label='job_feedback_button']`; // 2026-06-04
 // language=CSS
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 // language=CSS
@@ -37,6 +39,8 @@ const dfPost__Body__Row_Country = `.badge-line`; // 2026-06-12
 // language=CSS
 const dfPost__Header = `${dfPost} > div:nth-of-type(1)`; // 2026-06-12
 // language=CSS
+const dfPost__Header__Row_PostedOn = `${dfPost__Header} > div:first-of-type`; // 2026-06-12
+// language=CSS
 const dfPostedOnContainer = `span:has(> ${df_DT_PostedOn})`; // 2026-06-12
 // language=CSS
 const dfPostedOnContainer_Parent = `:has(> span > ${df_DT_PostedOn})`; // 2026-06-12
@@ -45,17 +49,11 @@ const dfTabContent = `[data-test='tab-content']`; // 2026-06-04
 // language=CSS
 const dfTabs = `[data-test='tabs']`; // 2026-06-04
 // language=CSS
-// const dfTitle = `[data-test='job-title']`; // 2026-06-04
+const dfText = `[data-test='job-description-text']`; // 2026-06-12
 // language=CSS
 const dfTitle = `h3.job-tile-title`; // 2026-06-12
 // language=CSS
 const df_Ev_BestMatch = `[data-ev-label='best_match']`; // 2026-06-04
-// language=CSS
-const df_Row_Header_1 = `${dfPost__Header} > div:first-of-type`; // 2026-06-12
-// 2026-06-04
-const dfButton = `button[data-ev-label='job_feedback_button']`; // 2026-06-04
-// language=CSS
-const dfText = `[data-test='job-description-text']`; // 2026-06-12
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
@@ -71,7 +69,7 @@ setTimeout(() => {
 		,`${dfPost__Body__Row_Country} > :not(${df_DT_Country})` // 2026-06-12
 		,`${dfPost__Body__Row_Country} .air3-icon` // 2026-06-12
 		,`${dfPost__Body__Row_Country} ~ *` // 2026-06-12
-		,`${df_Row_Header_1} > .text-caption > span:not(${dfPostedOnContainer})` // 2026-06-12
+		,`${dfPost__Header__Row_PostedOn} > .text-caption > span:not(${dfPostedOnContainer})` // 2026-06-12
 		,`.featured-tag:not(#a)` // 2026-06-04
 		,`.impression-tracker` // 2026-06-04
 		,`.job-tile-actions > :not([data-test='job-feedback'])` // 2026-06-04
