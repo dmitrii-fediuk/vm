@@ -180,7 +180,8 @@ GM_addStyle([
 // 2026-06-13
 // language=CSS
 GM_addStyle([
-	`.text-caption` // 2026-06-13
+	`.air3-badge` // 2026-06-13
+	,`.text-caption` // 2026-06-13
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
