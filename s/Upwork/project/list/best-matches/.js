@@ -96,6 +96,7 @@ setTimeout(() => {
 // 2026-06-12
 // language=CSS
 GM_addStyle([
+	dfProject__Header // 2026-06-13
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
