@@ -259,7 +259,7 @@ GM_addStyle([
 			// `p` is `null` if the project is already hidden via the UI («Just not interested»).
 			if (p) {
 				const br = '<br/>';
-				p.innerHTML = i.textContent
+				p.innerHTML = p.textContent
 					.replace(/(?:\r\n|\r|\n)/g, br) // 2025-03-19 https://stackoverflow.com/a/784547
 					.replaceAll(`${br}${br}`, `<div class='${dfNL}'/>`) // 2026-06-13
 				;
