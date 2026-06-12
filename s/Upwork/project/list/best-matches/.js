@@ -11,6 +11,8 @@
 // ==/UserScript==
 // 2024-10-13, 2024-12-24 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 // language=CSS
+const df_C_FeedsCard = `.feeds-card`; // 2026-06-12
+// language=CSS
 const df_DT_FeedBestMatch = `[data-test='feed-best-match']`; // 2026-06-12
 // language=CSS
 const df_DT_JobTileList = `[data-test='job-tile-list']`; // 2026-06-12
@@ -61,8 +63,8 @@ setTimeout(() => {
 		,`:has(> ${df_DT_JobTileList}) > :not(${df_DT_JobTileList})` // 2026-06-12
 		,`:has(> [data-test='menu-container'])` // 2026-06-04
 		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
-		,`.feeds-card > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
-		,`[data-test='page-content-section'] > :not(:has(.feeds-card))` // 2026-06-12
+		,`${df_C_FeedsCard} > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
+		,`[data-test='page-content-section'] > :not(:has(${df_C_FeedsCard})` // 2026-06-12
 		,df_Ev_BestMatch // 2026-06-12
 		//,`${df_DT_FeedBestMatch} > :not(${df_Ev_BestMatch})` // 2026-06-04
 	]
