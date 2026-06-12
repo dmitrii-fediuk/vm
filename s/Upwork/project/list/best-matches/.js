@@ -51,13 +51,7 @@ const dfTitle = `h3.job-tile-title`; // 2026-06-12
 // language=CSS
 const df_Ev_BestMatch = `[data-ev-label='best_match']`; // 2026-06-04
 // language=CSS
-const df_Row_Header = `${dfPost} > :has(${dfTitle})`; // 2026-06-04
-// language=CSS
-const df_Row_Header_1 = `${df_Row_Header} > div:first-of-type`; // 2026-06-12
-// language=CSS
-//const df_Row_Header_3 = `${df_Row_Header} > div > div:last-of-type`; // 2026-06-04
-// language=CSS
-const df_Row_Header_3 = `${df_Row_Header} > div > div:nth-of-type(3)`; // 2026-06-12
+const df_Row_Header_1 = `${dfPost__Header} > div:first-of-type`; // 2026-06-12
 // 2026-06-04
 const dfButton = `button[data-ev-label='job_feedback_button']`; // 2026-06-04
 // language=CSS
@@ -199,7 +193,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`${dfPost}:not(#a)` // 2026-06-04
-	,`${df_Row_Header} > div` // 2026-06-04
+	,`${dfPost__Header} > div` // 2026-06-04
 	,`:has(> ${df_DT_JobTileBadges}):not(#a)` // 2026-06-04
 ]
 	 // language=Javascript
