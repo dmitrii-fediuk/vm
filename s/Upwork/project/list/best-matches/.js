@@ -31,13 +31,13 @@ const dfButton = `button[data-ev-label='job_feedback_button']`; // 2026-06-04
 // language=CSS
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 // language=CSS
-const dfPost = `section[data-ev-sublocation='job_feed_tile']`; // 2026-06-12
+const dfProject = `section[data-ev-sublocation='job_feed_tile']`; // 2026-06-12
 // language=CSS
-const dfProject__Body = `${dfPost} > div:nth-of-type(2)`; // 2026-06-12
+const dfProject__Body = `${dfProject} > div:nth-of-type(2)`; // 2026-06-12
 // language=CSS
 const dfProject__Body__Row_Country = `.badge-line`; // 2026-06-12
 // language=CSS
-const dfProject__Header = `${dfPost} > div:nth-of-type(1)`; // 2026-06-12
+const dfProject__Header = `${dfProject} > div:nth-of-type(1)`; // 2026-06-12
 // language=CSS
 const dfProject__Header__Row_PostedOn = `${dfProject__Header} > div:first-of-type`; // 2026-06-12
 // language=CSS
@@ -118,7 +118,7 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	`${dfPost}:not(#a)` // 2026-06-04
+	`${dfProject}:not(#a)` // 2026-06-04
 	,`${df_DT_JobTileBadges}` // 2026-06-04
 	,dfPostedOnContainer_Parent // 2026-06-12
 	,dfTabContent // 2026-06-04
@@ -138,7 +138,7 @@ GM_addStyle([
 // 2025-03-18
 // language=CSS
 GM_addStyle([
-	dfPost // 2026-06-04
+	dfProject // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
@@ -146,7 +146,7 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	dfPost // 2026-06-04
+	dfProject // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{border-radius: 0 !important;}')
@@ -201,7 +201,7 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	`${dfPost}:not(#a)` // 2026-06-04
+	`${dfProject}:not(#a)` // 2026-06-04
 	,`${dfProject__Header} > div` // 2026-06-04
 	,`:has(> ${df_DT_JobTileBadges}):not(#a)` // 2026-06-04
 ]
@@ -354,7 +354,7 @@ modify(df_DT_Country, i => {// language=Javascript
 		}
 	};
 	const openArticle = b => {
-		const article = b.closest(dfPost);
+		const article = b.closest(dfProject);
 		if (article) {
 			const i = article.querySelector('.impression-tracker');
 			if (i) {
@@ -366,7 +366,7 @@ modify(df_DT_Country, i => {// language=Javascript
 	(() => {
 		let x = 0, y = 0, article;
 		const updateArticle = () => {
-			article = document.elementFromPoint(x, y)?.closest(dfPost);
+			article = document.elementFromPoint(x, y)?.closest(dfProject);
 		};
 		document.addEventListener('mousemove', e => {
 			x = e.clientX; y = e.clientY;
