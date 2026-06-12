@@ -29,7 +29,7 @@ const df_DT_JobType = `[data-test='job-type']`; // 2026-06-12
 // language=CSS
 const df_DT_PostedOn = `[data-test='posted-on']`; // 2026-06-12
 // language=CSS
-const dfButton = `.job-tile-actions > [data-test='job-feedback'] button`; // 2026-06-12
+const dfButton = `${df_C_JobTileActions} > [data-test='job-feedback'] button`; // 2026-06-12
 // language=CSS
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 // language=CSS
@@ -64,17 +64,17 @@ setTimeout(() => {
 	GM_addStyle([
 		`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
 		,`${dfPostedOnContainer_Parent} > :not(${dfPostedOnContainer})` // 2026-06-12
-		,`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
-		,`${df_C_FeedsCard} > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
-		,`${df_C_JobTileBadges} > :not([data-test='applied-badge'])` // 2026-06-12
-		,`${df_DT_FeedBestMatch} > :not(:has(> ${df_DT_JobTileList}))` // 2026-06-12
-		,`${dfProject__Body__Row_Country} > :not(${df_DT_Country})` // 2026-06-12
 		,`${dfProject__Body__Row_Country} .air3-icon` // 2026-06-12
+		,`${dfProject__Body__Row_Country} > :not(${df_DT_Country})` // 2026-06-12
 		,`${dfProject__Body__Row_Country} ~ *` // 2026-06-12
 		,`${dfProject__Header__Row_PostedOn} > .text-caption > span:not(${dfPostedOnContainer})` // 2026-06-12
+		,`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
+		,`${df_C_FeedsCard} > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
+		,`${df_C_JobTileActions} > :not([data-test='job-feedback'])` // 2026-06-04
+		,`${df_C_JobTileBadges} > :not([data-test='applied-badge'])` // 2026-06-12
+		,`${df_DT_FeedBestMatch} > :not(:has(> ${df_DT_JobTileList}))` // 2026-06-12
 		,`.featured-tag:not(#a)` // 2026-06-04
 		,`.impression-tracker` // 2026-06-04
-		,`.job-tile-actions > :not([data-test='job-feedback'])` // 2026-06-04
 		,`.job-tile-bonus-connects-tag-wrap:not(#a)` // 2026-06-04
 		,`:has(> ${dfJobsFeed}) > :not(${dfJobsFeed}):not(#a1):not(#a2)` // 2026-06-04
 		,`:has(> ${df_DT_JobTileList}) > :not(${df_DT_JobTileList})` // 2026-06-12
