@@ -15,6 +15,8 @@ const df_C_FeedsCard = `.feeds-card`; // 2026-06-12
 // language=CSS
 const df_DT_FeedBestMatch = `[data-test='feed-best-match']`; // 2026-06-12
 // language=CSS
+const df_DT_JobTileBadges = `[data-test='job-tile-badges']`; // 2026-06-04
+// language=CSS
 const df_DT_JobTileList = `[data-test='job-tile-list']`; // 2026-06-12
 // language=CSS
 const df_DT_PostedOn = `[data-test='posted-on']`; // 2026-06-12
@@ -22,8 +24,6 @@ const df_DT_PostedOn = `[data-test='posted-on']`; // 2026-06-12
 //const dfJobTile = `[data-test='job-tile']`; // 2026-06-04
 // language=CSS
 const dfJobTile = `section[data-ev-sublocation='job_feed_tile']`; // 2026-06-04
-// language=CSS
-const df_DT_JobTileBadges = `[data-test='job-tile-badges']`; // 2026-06-04
 // language=CSS
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 // language=CSS
@@ -39,11 +39,11 @@ const df_Ev_BestMatch = `[data-ev-label='best_match']`; // 2026-06-04
 // language=CSS
 const df_Row_Country = `.badge-line`; // 2026-06-12
 // language=CSS
-const df_Row_Header = `${dfJobTile} > :has(> div > div > ${dfTitle})`; // 2026-06-04
+const df_Row_Header = `${dfJobTile} > :has(${dfTitle})`; // 2026-06-04
 // language=CSS
-const df_Row_Header_1 = `${df_Row_Header} > div > div:first-of-type`; // 2026-06-12
+//const df_Row_Header_1 = `${df_Row_Header} > div > div:first-of-type`; // 2026-06-12
 // language=CSS
-const df_Row_Header_3 = `${df_Row_Header} > div > div:last-of-type`; // 2026-06-04
+//const df_Row_Header_3 = `${df_Row_Header} > div > div:last-of-type`; // 2026-06-04
 // 2026-06-04
 const dfButton = `button[data-ev-label='job_feedback_button']`; // 2026-06-04
 // language=CSS
@@ -60,7 +60,7 @@ setTimeout(() => {
 		,`${df_DT_FeedBestMatch} > :not(:has(> ${df_DT_JobTileList}))` // 2026-06-12
 		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
-		,`${df_Row_Header_3} > :not(:first-child)` // 2026-06-04
+		//,`${df_Row_Header_3} > :not(:first-child)` // 2026-06-04
 		,`.featured-tag:not(#a)` // 2026-06-04
 		,`.impression-tracker` // 2026-06-04
 		,`.job-tile-actions > :not([data-test='job-feedback'])` // 2026-06-04
