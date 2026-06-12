@@ -58,21 +58,20 @@ const dfText = `p.line-clamp`; // 2026-06-04
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
-		,`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
+		`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
+		,`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
 		,`${df_C_FeedsCard} > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
 		,`${df_DT_FeedBestMatch} > :not(:has(> ${df_DT_JobTileList}))` // 2026-06-12
 		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
 		,`${df_Row_Header_1} > .text-caption > span:not(:has(> ${df_DT_PostedOn}))` // 2026-06-12
-		,`:has(> ${df_DT_JobType}) > :not(${df_DT_JobType})` // 2026-06-12
-		//,`${df_Row_Header_3} > :not(:first-child)` // 2026-06-04
 		,`.featured-tag:not(#a)` // 2026-06-04
 		,`.impression-tracker` // 2026-06-04
 		,`.job-tile-actions > :not([data-test='job-feedback'])` // 2026-06-04
 		,`.job-tile-bonus-connects-tag-wrap:not(#a)` // 2026-06-04
 		,`:has(> ${dfJobsFeed}) > :not(${dfJobsFeed}):not(#a1):not(#a2)` // 2026-06-04
 		,`:has(> ${df_DT_JobTileList}) > :not(${df_DT_JobTileList})` // 2026-06-12
+		,`:has(> ${df_DT_JobType}) > :not(${df_DT_JobType})` // 2026-06-12
 		,`:has(> [data-test='menu-container'])` // 2026-06-04
 		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
 		,`[data-test='page-content-section'] > :not(:has(${df_C_FeedsCard}))` // 2026-06-12
