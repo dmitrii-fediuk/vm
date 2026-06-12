@@ -30,6 +30,7 @@ const dfTabContent = `[data-test='tab-content']`; // 2026-06-04
 const dfTabs = `[data-test='tabs']`; // 2026-06-04
 // language=CSS
 // const dfTitle = `[data-test='job-title']`; // 2026-06-04
+// language=CSS
 const dfTitle = `h3.job-tile-title`; // 2026-06-12
 // language=CSS
 const df_Ev_BestMatch = `[data-ev-label='best_match']`; // 2026-06-04
