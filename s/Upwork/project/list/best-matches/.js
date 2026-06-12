@@ -395,11 +395,11 @@ modify(df_DT_Country, i => {// language=Javascript
 	document.addEventListener('click', e => {
 		const i = e.target;
 		const menuItemClass = 'air3-menu-item';
-		if (!i.classList.contains(menuItemClass) && e.target.closest(dfProject)) {
+		if (!i.classList.contains(menuItemClass) && i.closest(dfProject)) {
 			const downBtn = i.closest(dfButton);
 			if (!downBtn) {
 				stopEvent(e);
-				openProject(e.target);
+				openProject(i);
 			}
 			else {
 				setTimeout(() => {

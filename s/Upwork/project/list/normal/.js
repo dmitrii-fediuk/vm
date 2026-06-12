@@ -340,11 +340,11 @@ GM_addStyle([
 	document.addEventListener('click', e => {
 		const i = e.target;
 		const menuItemClass = 'air3-menu-item';
-		if (!i.classList.contains(menuItemClass) && e.target.closest('article')) {
+		if (!i.classList.contains(menuItemClass) && i.closest('article')) {
 			const downBtn = i.closest('button[data-ev-label="dropdown_secondary_toggle"]');
 			if (!downBtn) {
 				stopEvent(e);
-				openArticle(e.target);
+				openArticle(i);
 			}
 			else {
 				setTimeout(() => {
