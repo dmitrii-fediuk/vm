@@ -57,7 +57,7 @@ const df_Row_Header_3 = `${df_Row_Header} > div > div:nth-of-type(3)`; // 2026-0
 // 2026-06-04
 const dfButton = `button[data-ev-label='job_feedback_button']`; // 2026-06-04
 // language=CSS
-const dfText = `p.line-clamp`; // 2026-06-04
+const dfText = `[data-test='job-description-text']`; // 2026-06-12
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
