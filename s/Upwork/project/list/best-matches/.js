@@ -193,19 +193,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{font-weight: unset !important;}')
 ;
-// 2026-06-12
-// language=CSS
-GM_addStyle([
-	`.air3-line-clamp` // 2026-06-12
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		['max-height', 'height', 'min-height']
-			// language=Javascript
-			.map(k => `${k}: unset !important;`).join(' ') +
-	'}'
-);
 // 2026-06-04
 // language=CSS
 GM_addStyle([
@@ -223,6 +210,27 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{gap: .5rem !important;}')
+;
+// 2026-06-12
+// language=CSS
+GM_addStyle([
+	`.air3-line-clamp` // 2026-06-12
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['max-height', 'height', 'min-height']
+			// language=Javascript
+			.map(k => `${k}: unset !important;`).join(' ') +
+	'}'
+);
+// 2026-06-13
+// language=CSS
+GM_addStyle([
+	`.air3-badge` // 2026-06-13
+]
+	 // language=Javascript
+	.join(',') + '{line-height: unset !important;}')
 ;
 // 2026-06-04
 // language=CSS
