@@ -133,8 +133,9 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	`${df_DT_JobTileBadges}` // 2026-06-04
-	,`${dfPost}:not(#a)` // 2026-06-04
+	`${dfPost}:not(#a)` // 2026-06-04
+	,`${df_DT_JobTileBadges}` // 2026-06-04
+	,dfPostedOnContainer_Parent // 2026-06-12
 	,dfTabContent // 2026-06-04
 ]
 	 // language=Javascript
