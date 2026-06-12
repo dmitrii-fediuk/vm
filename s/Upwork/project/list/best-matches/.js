@@ -254,13 +254,13 @@ GM_addStyle([
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'display': 'flex'
-	,'flex-direction': 'row'
+	,'flex-direction': 'row' // 2026-06-12 https://gemini.google.com/share/63decfb2de6f
 	,'flex-wrap': 'wrap'
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2026-06-12
 // language=CSS
 GM_addStyle(`${dfPost_Body} > :not(${dfPost__Body__Row_Country}) {order: 1 !important;}`);
-// 2026-06-12
+// 2026-06-12 https://gemini.google.com/share/63decfb2de6f
 // language=CSS
 GM_addStyle(`${dfPost_Body} > :not(${dfPost__Body__Row_Country, dfPost__Body__Row_Rate}) {
 	flex-basis: 100%; !important;
