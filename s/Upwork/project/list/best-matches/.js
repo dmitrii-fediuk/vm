@@ -303,14 +303,6 @@ GM_addStyle([
 	,'line-height': 1.2
 	,'letter-spacing': '.03em' // 2026-05-04
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
-// 2025-09-06 It still does not work for an unknown reason.
-// 2026-06-04
-// language=CSS
-GM_addStyle(`${dfText} br {
-	content: '' !important;
-	display: block !important;
-	height: 1px !important;
-}`);
 // 2024-12-28
 // language=CSS
 GM_addStyle([
