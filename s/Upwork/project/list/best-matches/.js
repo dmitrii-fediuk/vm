@@ -411,7 +411,7 @@ modify(df_DT_Country, i => {// language=Javascript
 					else {
 						//debugger;
 					}
-				}, 100);
+				}, 500);
 			}
 		}
 	}, true);
