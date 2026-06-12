@@ -72,7 +72,7 @@ setTimeout(() => {
 		,`${dfProject__Header__Row_PostedOn} > .text-caption > span:not(${dfPostedOnContainer})` // 2026-06-12
 		,`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
 		,`${df_C_FeedsCard} > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
-		,`${df_C_JobTileActions} > :not([data-test='job-feedback'])` // 2026-06-04
+		,`${df_C_JobTileActions} > :not(${df_DT_JobFeedback})` // 2026-06-04
 		,`${df_C_JobTileBadges} > :not([data-test='applied-badge'])` // 2026-06-12
 		,`${df_DT_FeedBestMatch} > :not(:has(> ${df_DT_JobTileList}))` // 2026-06-12
 		,`.featured-tag:not(#a)` // 2026-06-04
