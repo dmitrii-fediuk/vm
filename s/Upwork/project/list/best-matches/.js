@@ -114,6 +114,7 @@ GM_addStyle([
 	,`${df_Ev_BestMatch}:not(#a)` // 2026-06-04
 	,`.air3-badge` // 2026-06-13
 	,`.app-frame` // 2026-06-12
+	,`:has(> .job-description)` // 2026-06-13
 	,dfProject__Body__Row_Country // 2026-06-12
 	,dfProject__Header // 2026-06-12
 	,dfProject__Header__Row_PostedOn // 2026-06-12
