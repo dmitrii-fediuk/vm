@@ -176,6 +176,19 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{font-weight: unset !important;}')
 ;
+// 2026-06-12
+// language=CSS
+GM_addStyle([
+	`.air3-line-clamp` // 2026-06-12
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['max-height', 'height', 'min-height']
+			// language=Javascript
+			.map(k => `${k}: unset !important;`).join(' ') +
+	'}'
+);
 // 2026-06-04
 // language=CSS
 GM_addStyle([
@@ -212,6 +225,18 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{-webkit-line-clamp: none !important;}')
 ;
+// 2026-06-12
+// language=CSS
+GM_addStyle([
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['max-width', 'width', 'min-width']
+			// language=Javascript
+			.map(k => `${k}: unset !important;`).join(' ') +
+	'}'
+);
 // 2024-12-25, 2025-03-18
 // language=CSS
 GM_addStyle('body {padding: 0.5rem !important;}');
