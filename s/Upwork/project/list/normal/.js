@@ -341,8 +341,7 @@ GM_addStyle([
 		const i = e.target;
 		const menuItemClass = 'air3-menu-item';
 		if (!i.classList.contains(menuItemClass) && i.closest('article')) {
-			const downBtn = i.closest('button[data-ev-label="dropdown_secondary_toggle"]');
-			if (!downBtn) {
+			if (!i.closest(`button[data-ev-label='dropdown_secondary_toggle']`)) {
 				stopEvent(e);
 				openArticle(i);
 			}

@@ -396,8 +396,7 @@ modify(df_DT_Country, i => {// language=Javascript
 		const i = e.target;
 		const menuItemClass = 'air3-menu-item';
 		if (!i.classList.contains(menuItemClass) && i.closest(dfProject)) {
-			const downBtn = i.closest(dfButton);
-			if (!downBtn) {
+			if (!i.closest(df_DT_JobFeedback)) {
 				stopEvent(e);
 				openProject(i);
 			}
