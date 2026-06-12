@@ -14,7 +14,8 @@ const ᛡ = unsafeWindow.df.upwork.project.list; // 2025-10-26
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		'.jobs-grid-container > :has([data-test="filter-active-item"])' // 2025-03-18 Filters at the header
+		`.job-tile-actions:has(button[data-test='job-toggle-collapsed'])` // 2026-06-13
+		,'.jobs-grid-container > :has([data-test="filter-active-item"])' // 2025-03-18 Filters at the header
 		,'.nav-parent-wrapper'
 		,':has(> .main-header)' // 2025-03-18 The header
 		,':has(> button[data-ev-label="save"])' // 2025-03-18 «Save job»
