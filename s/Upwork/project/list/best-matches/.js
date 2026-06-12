@@ -31,6 +31,8 @@ const df_DT_JobType = `[data-test='job-type']`; // 2026-06-12
 // language=CSS
 const df_DT_PostedOn = `[data-test='posted-on']`; // 2026-06-12
 // language=CSS
+const dfNL = `df-nl`; // 2026-06-13
+// language=CSS
 const dfButton = `${df_C_JobTileActions} > ${df_DT_JobFeedback} button`; // 2026-06-12
 // language=CSS
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
@@ -269,6 +271,9 @@ GM_addStyle([
 GM_addStyle('body {padding: 0.5rem !important;}');
 // 2026-06-13
 // language=CSS
+GM_addStyle(`.${dfNL} {margin: 0.25rem 0 !important;}`);
+// 2026-06-13
+// language=CSS
 GM_addStyle(`${df_DT_JobTileList} {display: flex; flex-direction: column; gap: 0.5rem;}`);
 // 2026-06-12 https://gemini.google.com/share/63decfb2de6f
 // language=CSS
@@ -345,7 +350,7 @@ modify(dfText, i => {// language=Javascript
 	// 2.1) https://claude.ai/chat/5d359891-1f1d-400f-bc3b-e8b30fa92867
 	// 2.2) https://chatgpt.com/c/67d9e839-2800-8003-9a50-5a9edd88c3a2
 	let v = i.textContent.replace(/(?:\r\n|\r|\n)/g, '<br/>');
-	v = v.replaceAll(`<br/><br/>`, `<div class='df-br'/>`) // 2026-06-13
+	v = v.replaceAll(`<br/><br/>`, `<div class=`.${dfNL}`/>`) // 2026-06-13
 	i.innerHTML = v;
 });
 // 2026-06-12
