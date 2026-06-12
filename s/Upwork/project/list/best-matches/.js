@@ -72,7 +72,6 @@ setTimeout(() => {
 		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
 		,`[data-test='page-content-section'] > :not(:has(${df_C_FeedsCard}))` // 2026-06-12
 		,df_Ev_BestMatch // 2026-06-12
-		,`span:has(> ${df_DT_PostedOn})` // 2026-06-12
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
@@ -81,7 +80,6 @@ setTimeout(() => {
 // 2026-06-12
 // language=CSS
 GM_addStyle([
-	df_DT_PostedOn // 2026-06-12
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
