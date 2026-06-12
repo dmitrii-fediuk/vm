@@ -31,9 +31,13 @@ const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 // language=CSS
 const dfPost = `section[data-ev-sublocation='job_feed_tile']`; // 2026-06-12
 // language=CSS
-const dfPost_Header = `${dfPost} > div:nth-of-type(1)`; // 2026-06-12
+const dfPost__Body = `${dfPost} > div:nth-of-type(2)`; // 2026-06-12
 // language=CSS
-const dfPost_Body = `${dfPost} > div:nth-of-type(2)`; // 2026-06-12
+const dfPost__Body__Row_Country = `.badge-line`; // 2026-06-12
+// language=CSS
+const dfPost__Body__Row_Rate = `${dfPost__Body} > :has(${df_DT_JobType})`; // 2026-06-12
+// language=CSS
+const dfPost__Header = `${dfPost} > div:nth-of-type(1)`; // 2026-06-12
 // language=CSS
 const dfPostedOnContainer = `span:has(> ${df_DT_PostedOn})`; // 2026-06-12
 // language=CSS
@@ -48,8 +52,6 @@ const dfTabs = `[data-test='tabs']`; // 2026-06-04
 const dfTitle = `h3.job-tile-title`; // 2026-06-12
 // language=CSS
 const df_Ev_BestMatch = `[data-ev-label='best_match']`; // 2026-06-04
-// language=CSS
-const df_Row_Country = `.badge-line`; // 2026-06-12
 // language=CSS
 const df_Row_Header = `${dfPost} > :has(${dfTitle})`; // 2026-06-04
 // language=CSS
@@ -74,9 +76,9 @@ setTimeout(() => {
 		,`${df_C_FeedsCard} > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
 		,`${df_C_JobTileBadges} > :not([data-test='applied-badge'])` // 2026-06-12
 		,`${df_DT_FeedBestMatch} > :not(:has(> ${df_DT_JobTileList}))` // 2026-06-12
-		,`${df_Row_Country} > :not(${df_DT_Country})` // 2026-06-12
-		,`${df_Row_Country} .air3-icon` // 2026-06-12
-		,`${df_Row_Country} ~ *` // 2026-06-12
+		,`${dfPost__Body__Row_Country} > :not(${df_DT_Country})` // 2026-06-12
+		,`${dfPost__Body__Row_Country} .air3-icon` // 2026-06-12
+		,`${dfPost__Body__Row_Country} ~ *` // 2026-06-12
 		,`${df_Row_Header_1} > .text-caption > span:not(${dfPostedOnContainer})` // 2026-06-12
 		,`.featured-tag:not(#a)` // 2026-06-04
 		,`.impression-tracker` // 2026-06-04
@@ -102,15 +104,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
 ;
-// 2026-06-12
-// language=CSS
-GM_addStyle([
-	dfPost_Body // 2026-06-12
-// language=Javascript
-].join(',') + `{${Object.entries({
-	'display': 'flex'
-	,'flex-direction': 'column'
-}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // language=CSS
 GM_addStyle([
 ]
@@ -124,7 +117,7 @@ GM_addStyle([
 	,`${df_Ev_BestMatch}:not(#a)` // 2026-06-04
 	,`.app-frame` // 2026-06-12
 	,df_C_FeedsCard // 2026-06-12
-	,df_Row_Country // 2026-06-12
+	,dfPost__Body__Row_Country // 2026-06-12
 	,dfText // 2026-06-04
 ]
 	 // language=Javascript
@@ -256,10 +249,25 @@ GM_addStyle([
 GM_addStyle('body {padding: 0.5rem !important;}');
 // 2026-06-12
 // language=CSS
-GM_addStyle(`${dfPost_Body} > * {order: 2 !important;}`);
+GM_addStyle([
+	dfPost_Body // 2026-06-12
+// language=Javascript
+].join(',') + `{${Object.entries({
+	'display': 'flex'
+	,'flex-direction': 'row'
+	,'flex-wrap': 'wrap'
+}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2026-06-12
 // language=CSS
-GM_addStyle(`${df_Row_Country}:not(#a) {order: 1 !important;}`);
+GM_addStyle(`${dfPost_Body} > :not(${dfPost__Body__Row_Country}) {order: 1 !important;}`);
+// 2026-06-12
+// language=CSS
+GM_addStyle(`${dfPost_Body} > :not(${dfPost__Body__Row_Country, dfPost__Body__Row_Rate}) {
+	flex-basis: 100%; !important;
+}`);
+// 2026-06-12
+// language=CSS
+//GM_addStyle(`${dfPost__Body__Row_Country}:not(#a) {order: 1 !important;}`);
 // 2026-06-04
 // language=CSS
 GM_addStyle(`${dfTitle} {font-size: 1.25rem !important;}`);
