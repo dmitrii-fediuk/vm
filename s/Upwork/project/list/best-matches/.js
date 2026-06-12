@@ -207,7 +207,7 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	`.is-clamped` // 2026-06-12
+	`.air3-line-clamp` // 2026-06-12
 ]
 	 // language=Javascript
 	.join(',') + '{-webkit-line-clamp: none !important;}')
