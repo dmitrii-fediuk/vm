@@ -295,7 +295,7 @@ GM_addStyle(`${dfText} br {
 // 2024-12-28
 // language=CSS
 GM_addStyle([
-	'.job-tile-actions'
+	`:has(> .job-tile-actions)` // 2026-06-13
 ]
 	// language=Javascript
 	.join(',') + '{' +
