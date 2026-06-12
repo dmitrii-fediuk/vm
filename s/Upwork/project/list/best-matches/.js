@@ -25,9 +25,7 @@ const df_DT_JobType = `[data-test='job-type']`; // 2026-06-12
 // language=CSS
 const df_DT_PostedOn = `[data-test='posted-on']`; // 2026-06-12
 // language=CSS
-//const dfJobTile = `[data-test='job-tile']`; // 2026-06-04
-// language=CSS
-const dfJobTile = `section[data-ev-sublocation='job_feed_tile']`; // 2026-06-04
+const dfPost = `section[data-ev-sublocation='job_feed_tile']`; // 2026-06-04
 // language=CSS
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 // language=CSS
@@ -47,7 +45,7 @@ const df_Ev_BestMatch = `[data-ev-label='best_match']`; // 2026-06-04
 // language=CSS
 const df_Row_Country = `.badge-line`; // 2026-06-12
 // language=CSS
-const df_Row_Header = `${dfJobTile} > :has(${dfTitle})`; // 2026-06-04
+const df_Row_Header = `${dfPost} > :has(${dfTitle})`; // 2026-06-04
 // language=CSS
 const df_Row_Header_1 = `${df_Row_Header} > div:first-of-type`; // 2026-06-12
 // language=CSS
@@ -101,7 +99,7 @@ GM_addStyle([
 // 2026-06-12
 // language=CSS
 GM_addStyle([
-	dfJobTile // 2026-06-12
+	dfPost // 2026-06-12
 ]
 	 // language=Javascript
 	.join(',') + '{display: flex !important;}')
@@ -129,7 +127,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`${df_DT_JobTileBadges}` // 2026-06-04
-	,`${dfJobTile}:not(#a)` // 2026-06-04
+	,`${dfPost}:not(#a)` // 2026-06-04
 	,dfTabContent // 2026-06-04
 ]
 	 // language=Javascript
@@ -146,7 +144,7 @@ GM_addStyle([
 // 2025-03-18
 // language=CSS
 GM_addStyle([
-	dfJobTile // 2026-06-04
+	dfPost // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
@@ -154,7 +152,7 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	dfJobTile // 2026-06-04
+	dfPost // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{border-radius: 0 !important;}')
@@ -200,7 +198,7 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	`${dfJobTile}:not(#a)` // 2026-06-04
+	`${dfPost}:not(#a)` // 2026-06-04
 	,`${df_Row_Header} > div` // 2026-06-04
 	,`:has(> ${df_DT_JobTileBadges}):not(#a)` // 2026-06-04
 ]
@@ -250,7 +248,7 @@ GM_addStyle([
 GM_addStyle('body {padding: 0.5rem !important;}');
 // 2026-06-04
 // language=CSS
-GM_addStyle(`${dfJobTile} > * {order: 3 !important;}`);
+GM_addStyle(`${dfPost} > * {order: 3 !important;}`);
 // 2026-06-04
 // language=CSS
 GM_addStyle(`${df_Row_Header} {order: 1 !important;}`);
@@ -336,7 +334,7 @@ modify(dfText, i => {// language=Javascript
 		}
 	};
 	const openArticle = b => {
-		const article = b.closest(dfJobTile);
+		const article = b.closest(dfPost);
 		if (article) {
 			const i = article.querySelector('.impression-tracker');
 			if (i) {
@@ -348,7 +346,7 @@ modify(dfText, i => {// language=Javascript
 	(() => {
 		let x = 0, y = 0, article;
 		const updateArticle = () => {
-			article = document.elementFromPoint(x, y)?.closest(dfJobTile);
+			article = document.elementFromPoint(x, y)?.closest(dfPost);
 		};
 		document.addEventListener('mousemove', e => {
 			x = e.clientX; y = e.clientY;
@@ -370,7 +368,7 @@ modify(dfText, i => {// language=Javascript
 	document.addEventListener('click', e => {
 		const i = e.target;
 		const menuItemClass = 'ngm-menu-item';
-		if (!i.classList.contains(menuItemClass) && e.target.closest(dfJobTile)) {
+		if (!i.classList.contains(menuItemClass) && e.target.closest(dfPost)) {
 			const downBtn = i.closest(dfButton);
 			if (!downBtn) {
 				stopEvent(e);
