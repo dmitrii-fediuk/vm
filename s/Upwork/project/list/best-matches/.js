@@ -74,7 +74,7 @@ setTimeout(() => {
 		,`${df_C_FeedsCard} > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
 		,`${df_C_JobTileBadges} > :not([data-test='applied-badge'])` // 2026-06-12
 		,`${df_DT_FeedBestMatch} > :not(:has(> ${df_DT_JobTileList}))` // 2026-06-12
-		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
+		,`${df_Row_Country} > :not(${df_DT_Country})` // 2026-06-12
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
 		,`${df_Row_Country} ~ *` // 2026-06-12
 		,`${df_Row_Header_1} > .text-caption > span:not(${dfPostedOnContainer})` // 2026-06-12
