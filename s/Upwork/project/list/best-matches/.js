@@ -65,6 +65,7 @@ setTimeout(() => {
 		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
 		,`${df_Row_Header_1} > .text-caption > span:not(:has(> ${df_DT_PostedOn}))` // 2026-06-12
+		,`:has(> ${df_DT_JobType}) > :not(${df_DT_JobType})` // 2026-06-12
 		//,`${df_Row_Header_3} > :not(:first-child)` // 2026-06-04
 		,`.featured-tag:not(#a)` // 2026-06-04
 		,`.impression-tracker` // 2026-06-04
