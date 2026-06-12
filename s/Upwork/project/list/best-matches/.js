@@ -51,6 +51,7 @@ setTimeout(() => {
 	GM_addStyle([
 		`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
 		,`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
+		,`${df_C_FeedsCard} > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
 		,`${df_DT_FeedBestMatch} > :not(:has(> ${df_DT_JobTileList}))` // 2026-06-12
 		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
@@ -63,7 +64,6 @@ setTimeout(() => {
 		,`:has(> ${df_DT_JobTileList}) > :not(${df_DT_JobTileList})` // 2026-06-12
 		,`:has(> [data-test='menu-container'])` // 2026-06-04
 		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
-		,`${df_C_FeedsCard} > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
 		,`[data-test='page-content-section'] > :not(:has(${df_C_FeedsCard}))` // 2026-06-12
 		,df_Ev_BestMatch // 2026-06-12
 	]
