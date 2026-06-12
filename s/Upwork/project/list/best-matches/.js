@@ -321,6 +321,11 @@ modify(dfText, i => {// language=Javascript
 	// 2.2) https://chatgpt.com/c/67d9e839-2800-8003-9a50-5a9edd88c3a2
 	i.innerHTML = i.textContent.replace(/(?:\r\n|\r|\n)/g, '<br/>');
 });
+// 2026-06-12
+// language=CSS
+modify(df_DT_Country, i => {// language=Javascript
+	i.innerHTML = i.textContent.trim().replace('&nbsp;', '');
+});
 (() => {
 	const stopEvent = e => {
 		e.preventDefault();
