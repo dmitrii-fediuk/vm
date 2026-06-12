@@ -356,10 +356,13 @@ modify(df_DT_Country, i => {// language=Javascript
 	const openProject = b => {
 		const project = b.closest(dfProject);
 		if (project) {
-			const i = project.querySelector('.impression-tracker');
+			const i = project.querySelector('h3.job-tile-title > a');
 			if (i) {
-				const v = i.getAttribute('data-ev-opening_uid');
-				window.open(`https://www.upwork.com/jobs/~02${v}`, '_blank');
+				// 2025-01-04
+				// «https://www.upwork.com/jobs/Assisted-Enhancements-for-Lightweight-App_~021875527601805661470/?referrer_url_path=%2Fnx%2Fsearch%2Fjobs» → «https://www.upwork.com/jobs/~021875527601805661470»
+				const u = new URL(l.href);
+				const m = u.pathname.match(/_~(\d+)(?=\/|$)/);
+				window.open(`${u.origin}/jobs/~${m[1]}`, '_blank');
 			}
 		}
 	};
