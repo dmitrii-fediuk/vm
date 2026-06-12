@@ -411,6 +411,9 @@ modify(df_DT_Country, i => {// language=Javascript
 					else {
 						//debugger;
 					}
+				// 2025-06-06
+				// Previously, I had `50` here.
+				// Now I need `500` for `hideArticle()` to work.
 				}, 500);
 			}
 		}
