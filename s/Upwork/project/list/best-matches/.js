@@ -31,6 +31,8 @@ const dfJobTile = `section[data-ev-sublocation='job_feed_tile']`; // 2026-06-04
 // language=CSS
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 // language=CSS
+const dfPostedOnParent = `span:has(> ${df_DT_PostedOn})`; // 2026-06-12
+// language=CSS
 const dfTabContent = `[data-test='tab-content']`; // 2026-06-04
 // language=CSS
 const dfTabs = `[data-test='tabs']`; // 2026-06-04
