@@ -13,9 +13,11 @@
 // language=CSS
 const df_C_FeedsCard = `.feeds-card`; // 2026-06-12
 // language=CSS
+const df_C_JobTileBadges = `.job-tile-badges`; // 2026-06-12
+// language=CSS
 const df_DT_FeedBestMatch = `[data-test='feed-best-match']`; // 2026-06-12
 // language=CSS
-const df_DT_JobTileBadges = `[data-test='job-tile-badges']`; // 2026-06-04
+const df_DT_JobTileBadges = `[data-test='job-tile-badges']`; // 2026-06-12
 // language=CSS
 const df_DT_JobTileList = `[data-test='job-tile-list']`; // 2026-06-12
 // language=CSS
@@ -62,7 +64,7 @@ setTimeout(() => {
 		,`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
 		,`${df_C_FeedsCard} > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
 		,`${df_DT_FeedBestMatch} > :not(:has(> ${df_DT_JobTileList}))` // 2026-06-12
-		,`${df_DT_JobTileBadges} > :not([data-test='applied-badge'])` // 2026-06-12
+		,`${df_C_JobTileBadges} > :not([data-test='applied-badge'])` // 2026-06-12
 		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
 		,`${df_Row_Header_1} > .text-caption > span:not(:has(> ${df_DT_PostedOn}))` // 2026-06-12
