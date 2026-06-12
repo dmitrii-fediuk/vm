@@ -270,16 +270,9 @@ GM_addStyle('body {padding: 0.5rem !important;}');
 // 2026-06-13
 // language=CSS
 GM_addStyle(`${df_DT_JobTileList} {display: flex; flex-direction: column; gap: 0.5rem;}`);
-// 2026-06-12
+// 2026-06-12 https://gemini.google.com/share/63decfb2de6f
 // language=CSS
-GM_addStyle([
-	dfProject__Body // 2026-06-12
-// language=Javascript
-].join(',') + `{${Object.entries({
-	'display': 'flex'
-	,'flex-direction': 'row' // 2026-06-12 https://gemini.google.com/share/63decfb2de6f
-	,'flex-wrap': 'wrap'
-}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
+GM_addStyle(`${dfProject__Body} {display: flex; flex-direction: row; flex-wrap: wrap;}`);
 // 2026-06-12
 // language=CSS
 GM_addStyle(`${dfProject__Body} > :not(${dfProject__Body__Row_Country}) {order: 1 !important;}`);
