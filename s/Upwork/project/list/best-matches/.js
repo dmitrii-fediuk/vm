@@ -104,10 +104,11 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	dfPost_Body // 2026-06-12
-]
-	 // language=Javascript
-	.join(',') + '{display: flex !important;}')
-;
+// language=Javascript
+].join(',') + `{${Object.entries({
+	'display': 'flex'
+	,'flex-direction': 'column'
+}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // language=CSS
 GM_addStyle([
 ]
