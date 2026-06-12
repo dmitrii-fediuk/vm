@@ -61,7 +61,7 @@ setTimeout(() => {
 		,`:has(> ${df_DT_JobTileList}) > :not(${df_DT_JobTileList})` // 2026-06-12
 		,`:has(> [data-test='menu-container'])` // 2026-06-04
 		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
-		,`[data-test='feeds-card'] > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
+		,`.feeds-card > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
 		,`[data-test='page-content-section'] > :not(:has(${df_DT_FeedBestMatch}))` // 2026-06-12
 		,df_Ev_BestMatch // 2026-06-12
 		//,`${df_DT_FeedBestMatch} > :not(${df_Ev_BestMatch})` // 2026-06-04
