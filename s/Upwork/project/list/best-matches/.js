@@ -66,7 +66,6 @@ setTimeout(() => {
 		,`${df_C_FeedsCard} > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
 		,`[data-test='page-content-section'] > :not(:has(${df_C_FeedsCard}))` // 2026-06-12
 		,df_Ev_BestMatch // 2026-06-12
-		//,`${df_DT_FeedBestMatch} > :not(${df_Ev_BestMatch})` // 2026-06-04
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
