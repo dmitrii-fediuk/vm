@@ -11,6 +11,8 @@
 // ==/UserScript==
 // 2024-10-13, 2024-12-24 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 // language=CSS
+const df_DT_FeedBestMatch = `[data-test='feed-best-match']`; // 2026-06-12
+// language=CSS
 const dfJobTile = `[data-test='job-tile']`; // 2026-06-04
 // language=CSS
 const dfJobTileBadges = `[data-test='job-tile-badges']`; // 2026-06-04
@@ -44,6 +46,7 @@ setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
 		`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
+		,`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
 		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
 		,`${df_Row_Header_3} > :not(:first-child)` // 2026-06-04
@@ -54,9 +57,8 @@ setTimeout(() => {
 		,`:has(> ${dfJobsFeed}) > :not(${dfJobsFeed}):not(#a1):not(#a2)` // 2026-06-04
 		,`:has(> [data-test='menu-container'])` // 2026-06-04
 		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
-		,`[data-test='feed-best-match'] > :not(${df_Ev_BestMatch})` // 2026-06-04
-		,`[data-test='page-content-section'] > :not(:has([data-test='feed-best-match']))` // 2026-06-12
-		,`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
+		,`[data-test='page-content-section'] > :not(:has(${df_DT_FeedBestMatch}))` // 2026-06-12
+		,`df_DT_FeedBestMatch > :not(${df_Ev_BestMatch}` // 2026-06-04
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
