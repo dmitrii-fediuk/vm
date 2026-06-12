@@ -27,7 +27,7 @@ const df_DT_JobType = `[data-test='job-type']`; // 2026-06-12
 // language=CSS
 const df_DT_PostedOn = `[data-test='posted-on']`; // 2026-06-12
 // 2026-06-04
-const dfButton = `button[data-ev-label='job_feedback_button']`; // 2026-06-04
+const dfButton = `.job-tile-actions > [data-test='job-feedback'] button`; // 2026-06-04
 // language=CSS
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 // language=CSS
