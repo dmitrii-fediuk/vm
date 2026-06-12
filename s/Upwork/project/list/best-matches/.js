@@ -31,7 +31,7 @@ const dfJobTile = `section[data-ev-sublocation='job_feed_tile']`; // 2026-06-04
 // language=CSS
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 // language=CSS
-const dfPostedOnParent = `(span:has(> ${df_DT_PostedOn}))`; // 2026-06-12
+const dfPostedOnParent = `span:has(> ${df_DT_PostedOn})`; // 2026-06-12
 // language=CSS
 const dfTabContent = `[data-test='tab-content']`; // 2026-06-04
 // language=CSS
@@ -70,7 +70,7 @@ setTimeout(() => {
 		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
 		,`${df_Row_Header_1} > .text-caption > span:not(${dfPostedOnParent})` // 2026-06-12
-		,`:has(> ${dfPostedOnParent}) > :not(${dfPostedOnParent})` // 2026-06-12
+		//,`:has(> ${dfPostedOnParent}) > :not(${dfPostedOnParent})` // 2026-06-12
 		,`.featured-tag:not(#a)` // 2026-06-04
 		,`.impression-tracker` // 2026-06-04
 		,`.job-tile-actions > :not([data-test='job-feedback'])` // 2026-06-04
