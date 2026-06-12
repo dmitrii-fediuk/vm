@@ -112,12 +112,13 @@ GM_addStyle([
 GM_addStyle([
 	`${df_DT_JobTileBadges}:not(#a)` // 2026-06-04
 	,`${df_Ev_BestMatch}:not(#a)` // 2026-06-04
+	,`.air3-badge` // 2026-06-13
 	,`.app-frame` // 2026-06-12
-	,df_C_FeedsCard // 2026-06-12
 	,dfProject__Body__Row_Country // 2026-06-12
 	,dfProject__Header // 2026-06-12
 	,dfProject__Header__Row_PostedOn // 2026-06-12
 	,dfText // 2026-06-04
+	,df_C_FeedsCard // 2026-06-12
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
