@@ -3,6 +3,9 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Upwork/project/list/best-matches/.js
 // @icon https://www.upwork.com/favicon.ico
+// 2026-06-12
+// @match *://www.upwork.com/nx/find-work/best-matches*
+// 2026-06-04
 // @match *://www.upwork.com/nx/s/find-work/best-matches*
 // @name Upwork / Project / List / Best Matches
 // ==/UserScript==
@@ -52,8 +55,8 @@ setTimeout(() => {
 		,`:has(> [data-test='menu-container'])` // 2026-06-04
 		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
 		,`[data-test='feed-best-match'] > :not(${df_Ev_BestMatch})` // 2026-06-04
-		,`[data-test='page-content-section'] > :not(:has([data-test='feed-best-match']))`  // 2026-06-12
-		`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
+		,`[data-test='page-content-section'] > :not(:has([data-test='feed-best-match']))` // 2026-06-12
+		,`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
