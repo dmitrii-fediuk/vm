@@ -167,6 +167,14 @@ GM_addStyle([
 ].join(',') + `{${Object.entries({
 	'font-family': 'Segoie UI'
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
+// 2026-06-13
+// language=CSS
+GM_addStyle([
+	`.text-caption` // 2026-06-13
+]
+	 // language=Javascript
+	.join(',') + '{font-size: unset !important;}')
+;
 // 2026-06-04
 // language=CSS
 GM_addStyle([
