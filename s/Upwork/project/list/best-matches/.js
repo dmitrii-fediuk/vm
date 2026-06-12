@@ -98,6 +98,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
 ;
+// 2026-06-12
+// language=CSS
+GM_addStyle([
+	dfJobTile // 2026-06-12
+]
+	 // language=Javascript
+	.join(',') + '{display: flex !important;}')
+;
 // language=CSS
 GM_addStyle([
 ]
