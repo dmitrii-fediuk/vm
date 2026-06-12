@@ -46,6 +46,8 @@ const df_Row_Header = `${dfJobTile} > :has(${dfTitle})`; // 2026-06-04
 const df_Row_Header_1 = `${df_Row_Header} > div:first-of-type`; // 2026-06-12
 // language=CSS
 //const df_Row_Header_3 = `${df_Row_Header} > div > div:last-of-type`; // 2026-06-04
+// language=CSS
+const df_Row_Header_3 = `${df_Row_Header} > div > div:nth-of-type(3)`; // 2026-06-12
 // 2026-06-04
 const dfButton = `button[data-ev-label='job_feedback_button']`; // 2026-06-04
 // language=CSS
