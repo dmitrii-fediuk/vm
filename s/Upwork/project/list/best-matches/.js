@@ -344,7 +344,10 @@ modify(dfText, i => {// language=Javascript
 	// 1) https://stackoverflow.com/a/784547
 	// 2.1) https://claude.ai/chat/5d359891-1f1d-400f-bc3b-e8b30fa92867
 	// 2.2) https://chatgpt.com/c/67d9e839-2800-8003-9a50-5a9edd88c3a2
-	i.innerHTML = i.textContent.replace(/(?:\r\n|\r|\n)/g, '<br/>');
+	i.innerHTML = i.textContent
+		.replace(/(?:\r\n|\r|\n)/g, '<br/>')
+		.replace(`<br><br>`, `<p class='df-br'></p>`) // 2026-06-13
+	;
 });
 // 2026-06-12
 // language=CSS
