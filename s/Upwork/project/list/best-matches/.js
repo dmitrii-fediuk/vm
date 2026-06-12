@@ -65,6 +65,7 @@ setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
 		`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
+		,`${dfPostedOnContainer_Parent} > :not(${dfPostedOnContainer})` // 2026-06-12
 		,`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
 		,`${df_C_FeedsCard} > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
 		,`${df_C_JobTileBadges} > :not([data-test='applied-badge'])` // 2026-06-12
@@ -81,7 +82,6 @@ setTimeout(() => {
 		,`:has(> ${df_DT_JobType}) > :not(${df_DT_JobType})` // 2026-06-12
 		,`:has(> [data-test='menu-container'])` // 2026-06-04
 		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
-		,`${dfPostedOnContainer_Parent} > :not(${dfPostedOnContainer})` // 2026-06-12
 		,`[data-test='page-content-section'] > :not(:has(${df_C_FeedsCard}))` // 2026-06-12
 		,df_Ev_BestMatch // 2026-06-12
 	]
@@ -128,6 +128,7 @@ GM_addStyle([
 // 2026-05-04
 // language=CSS
 GM_addStyle([
+	dfPostedOnContainer_Parent // 2026-06-12
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: unset !important;}')
