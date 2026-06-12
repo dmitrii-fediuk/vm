@@ -8,6 +8,8 @@
 // ==/UserScript==
 // 2024-10-13, 2024-12-24 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 const ᛡ = unsafeWindow.df.upwork.project.list; // 2025-10-26
+// language=CSS
+const dfNL = `df-nl`; // 2026-06-13
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
