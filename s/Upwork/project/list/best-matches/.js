@@ -260,7 +260,7 @@ GM_addStyle([
 GM_addStyle(`${dfPost__Body} > :not(${dfPost__Body__Row_Country}) {order: 1 !important;}`);
 // 2026-06-12 https://gemini.google.com/share/63decfb2de6f
 // language=CSS
-GM_addStyle(`${dfPost__Body} > :not(${dfPost__Body__Row_Country, >:has(${df_DT_JobType})) {
+GM_addStyle(`${dfPost__Body} > :not(${dfPost__Body__Row_Country):not(:has(${df_DT_JobType})) {
 	flex-basis: 100%; !important;
 }`);
 // 2026-06-12
