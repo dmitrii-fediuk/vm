@@ -85,6 +85,7 @@ setTimeout(() => {
 		,`:has(> [data-test='token-container'])` // 2026-06-12
 		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
 		,`[data-test='page-content-section'] > :not(:has(${df_C_FeedsCard}))` // 2026-06-12
+		,`button[data-ev-label='job_feed_feedback_expand']` // 2026-06-13
 		,df_Ev_BestMatch // 2026-06-12
 	]
 		 // language=Javascript
@@ -224,7 +225,6 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.job-tile-actions` // 2026-06-04
-	,`button[data-ev-label='job_feed_feedback_expand']` // 2026-06-04
 	,df_DT_JobTileBadges // 2026-06-04
 ]
 	 // language=Javascript
