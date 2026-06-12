@@ -35,8 +35,6 @@ const dfPost__Body = `${dfPost} > div:nth-of-type(2)`; // 2026-06-12
 // language=CSS
 const dfPost__Body__Row_Country = `.badge-line`; // 2026-06-12
 // language=CSS
-const dfPost__Body__Row_Rate = `${dfPost__Body} > :has(${df_DT_JobType})`; // 2026-06-12
-// language=CSS
 const dfPost__Header = `${dfPost} > div:nth-of-type(1)`; // 2026-06-12
 // language=CSS
 const dfPostedOnContainer = `span:has(> ${df_DT_PostedOn})`; // 2026-06-12
@@ -262,7 +260,7 @@ GM_addStyle([
 GM_addStyle(`${dfPost__Body} > :not(${dfPost__Body__Row_Country}) {order: 1 !important;}`);
 // 2026-06-12 https://gemini.google.com/share/63decfb2de6f
 // language=CSS
-GM_addStyle(`${dfPost__Body} > :not(${dfPost__Body__Row_Country, dfPost__Body__Row_Rate}) {
+GM_addStyle(`${dfPost__Body} > :not(${dfPost__Body__Row_Country, >:has(${df_DT_JobType})) {
 	flex-basis: 100%; !important;
 }`);
 // 2026-06-12
