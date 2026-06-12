@@ -109,6 +109,7 @@ GM_addStyle([
 	,df_C_FeedsCard // 2026-06-12
 	,dfPost__Body__Row_Country // 2026-06-12
 	,dfPost__Header // 2026-06-12
+	,dfPost__Header__Row_PostedOn // 2026-06-12
 	,dfText // 2026-06-04
 ]
 	 // language=Javascript
