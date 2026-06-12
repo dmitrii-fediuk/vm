@@ -269,14 +269,7 @@ GM_addStyle([
 GM_addStyle('body {padding: 0.5rem !important;}');
 // 2026-06-13
 // language=CSS
-GM_addStyle([
-	df_DT_JobTileList
-// language=Javascript
-].join(',') + `{${Object.entries({
-	'display': 'flex'
-	,'flex-direction': 'column'
-	,'gap': '0.5rem'
-}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
+GM_addStyle(`${df_DT_JobTileList} {display: flex; flex-direction: column; gap: 0.5rem;}`);
 // 2026-06-12
 // language=CSS
 GM_addStyle([
