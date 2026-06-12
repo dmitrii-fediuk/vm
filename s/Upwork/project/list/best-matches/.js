@@ -337,10 +337,9 @@ const modify = (s, action) => {
 // 2026-06-04
 // language=CSS
 modify(dfText, i => {// language=Javascript
-	// 2025-03-19 https://stackoverflow.com/a/784547
 	const br = '<br/>';
 	i.innerHTML = i.textContent
-		.replace(/(?:\r\n|\r|\n)/g, br)
+		.replace(/(?:\r\n|\r|\n)/g, br) // 2025-03-19 https://stackoverflow.com/a/784547
 		.replaceAll(`${br}${br}`, `<div class='${dfNL}'/>`) // 2026-06-13
 	;
 });

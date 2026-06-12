@@ -252,13 +252,14 @@ GM_addStyle([
 		// 2025-03-19
 		const format = a => {
 			const p = a.querySelector('p.text-body-sm');
-			// 2025-03-18 `p` is `null` if the project is already hidden via the UI («Just not interested»).
+			// 2025-03-18
+			// `p` is `null` if the project is already hidden via the UI («Just not interested»).
 			if (p) {
-				// 2025-03-19
-				// 1) https://stackoverflow.com/a/784547
-				// 2.1) https://claude.ai/chat/5d359891-1f1d-400f-bc3b-e8b30fa92867
-				// 2.2) https://chatgpt.com/c/67d9e839-2800-8003-9a50-5a9edd88c3a2
-				p.innerHTML = p.textContent.replace(/(?:\r\n|\r|\n)/g, '<br/>');
+				const br = '<br/>';
+				p.innerHTML = i.textContent
+					.replace(/(?:\r\n|\r|\n)/g, br) // 2025-03-19 https://stackoverflow.com/a/784547
+					.replaceAll(`${br}${br}`, `<div class='${dfNL}'/>`) // 2026-06-13
+				;
 			}
 		};
 		// 2025-03-18, 2025-10-02 https://g.co/gemini/share/60eb4bcb2b7f
