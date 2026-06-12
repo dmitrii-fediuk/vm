@@ -15,6 +15,8 @@ const df_C_FeedsCard = `.feeds-card`; // 2026-06-12
 // language=CSS
 const df_C_JobTileBadges = `.job-tile-badges`; // 2026-06-12
 // language=CSS
+const df_DT_Country = `[data-test='client-country']`; // 2026-06-12
+// language=CSS
 const df_DT_FeedBestMatch = `[data-test='feed-best-match']`; // 2026-06-12
 // language=CSS
 const df_DT_JobTileBadges = `[data-test='job-tile-badges']`; // 2026-06-12
