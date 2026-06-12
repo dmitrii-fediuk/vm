@@ -29,6 +29,10 @@ const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 // language=CSS
 const dfPost = `section[data-ev-sublocation='job_feed_tile']`; // 2026-06-12
 // language=CSS
+const dfPost_Header = `${dfPost} > div:nth-of-type(1)`; // 2026-06-12
+// language=CSS
+const dfPost_Body = `${dfPost} > div:nth-of-type(2)`; // 2026-06-12
+// language=CSS
 const dfPostedOnContainer = `span:has(> ${df_DT_PostedOn})`; // 2026-06-12
 // language=CSS
 const dfPostedOnContainer_Parent = `:has(> span > ${df_DT_PostedOn})`; // 2026-06-12
@@ -99,7 +103,7 @@ GM_addStyle([
 // 2026-06-12
 // language=CSS
 GM_addStyle([
-	dfPost // 2026-06-12
+	dfPost_Body // 2026-06-12
 ]
 	 // language=Javascript
 	.join(',') + '{display: flex !important;}')
