@@ -327,14 +327,19 @@ const modify = (s, action) => {
 };
 // 2026-06-13
 // language=CSS
-modify(`.multiline-text`, i => {// language=Javascript
-	i.innerHTML = i.textContent
+modify(`p.multiline-text:is([class*='data-v-'])`, i => {// language=Javascript
+	const p = i.parentNode;
+	i.remove();
+	const i2 = document.createElement('p');
+	i2.className = 'multiline-text';
+	i2.innerHTML = i.textContent
 		// 2025-03-19 https://stackoverflow.com/a/784547
 		// 2026-06-13 https://gemini.google.com/share/8660a99264ca
 		.replace(/\r?\n|\r|<br>/g, '<br/>')
 		// 2026-06-13 https://gemini.google.com/share/bceb5af402b2
 		.replace(/(?:<br\/>){2,}/g, `<div class='${dfNL}'></div>`)
 	;
+	p.appendChild(i2);
 });
 // 2025-09-05
 // language=CSS
