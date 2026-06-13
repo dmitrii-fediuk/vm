@@ -17,6 +17,8 @@ const df_C_JobTileActions = `.job-tile-actions`; // 2026-06-13
 // language=CSS
 const df_C_JobTileBadges = `.job-tile-badges`; // 2026-06-12
 // language=CSS
+const df_DT_Badge_Applied = `[data-test='applied-badge']`; // 2026-06-13
+// language=CSS
 const df_DT_Country = `[data-test='client-country']`; // 2026-06-12
 // language=CSS
 const df_DT_FeedBestMatch = `[data-test='feed-best-match']`; // 2026-06-12
@@ -75,7 +77,8 @@ setTimeout(() => {
 		,`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
 		,`${df_C_FeedsCard} > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
 		,`${df_C_JobTileActions} > :not(${df_DT_JobFeedback})` // 2026-06-04
-		,`${df_C_JobTileBadges} > :not([data-test='applied-badge'])` // 2026-06-12
+		,`${df_C_JobTileBadges} > :not(${df_DT_Badge_Applied})` // 2026-06-12
+		,`${df_C_JobTileBadges}:not(:has(> ${df_DT_Badge_Applied}))` // 2026-06-12
 		,`${df_DT_FeedBestMatch} > :not(:has(> ${df_DT_JobTileList}))` // 2026-06-12
 		,`.air3-popper-container` // 2026-06-13
 		,`.featured-tag:not(#a)` // 2026-06-04
