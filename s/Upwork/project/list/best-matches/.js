@@ -384,6 +384,9 @@ modify(dfText, i => {// language=Javascript
 		.replace(/(?:<br\/>){2,}/g, `<div class='${dfNL}'></div>`)
 	;
 });
+// 2026-06-13 https://gemini.google.com/share/e5b9bbe30694
+// language=CSS
+modify(dfPostedOnContainer, i => i.replaceChildren(...i.children));
 // 2026-06-12
 // language=CSS
 modify(df_DT_Country, i => {// language=Javascript
