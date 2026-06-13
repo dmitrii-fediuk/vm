@@ -267,16 +267,18 @@ GM_addStyle([
 );
 // 2024-12-25, 2025-03-18
 // language=CSS
-GM_addStyle('body {padding: 0.5rem !important;}');
+GM_addStyle('body {padding: .5rem !important;}');
 // 2026-06-13
 // language=CSS
-GM_addStyle(`.${dfNL} {margin: 0.5rem 0 !important;}`);
+GM_addStyle(`.${dfNL} {margin: .5rem 0 !important;}`);
 // 2026-06-13
 // language=CSS
-GM_addStyle(`${df_DT_JobTileList} {display: flex; flex-direction: column; gap: 0.5rem;}`);
+GM_addStyle(`${df_DT_JobTileList} {display: flex; flex-direction: column; gap: .5rem;}`);
 // 2026-06-12 https://gemini.google.com/share/63decfb2de6f
 // language=CSS
-GM_addStyle(`${dfProject__Body} {display: flex; flex-direction: row; flex-wrap: wrap;}`);
+GM_addStyle(`${dfProject__Body} {
+	column-gap: .5rem; display: flex; flex-direction: row; flex-wrap: wrap;
+}`);
 // 2026-06-12
 // language=CSS
 GM_addStyle(`${dfProject__Body} > :not(${dfProject__Body__Row_Country}) {order: 1 !important;}`);
