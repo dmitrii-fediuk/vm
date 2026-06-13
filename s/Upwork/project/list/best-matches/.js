@@ -240,7 +240,7 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	`.job-tile-actions` // 2026-06-04
+	`.job-tile-actions button` // 2026-06-13
 	,df_DT_JobTileBadges // 2026-06-04
 ]
 	 // language=Javascript
