@@ -191,6 +191,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
 ;
+// 2026-06-13
+// language=CSS
+GM_addStyle([
+	dfPostedOnContainer_Parent // 2026-06-13
+]
+	 // language=Javascript
+	.join(',') + '{font-size: 90% !important;}')
+;
 // 2026-06-04
 // language=CSS
 GM_addStyle([
