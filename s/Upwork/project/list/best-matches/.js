@@ -77,6 +77,7 @@ setTimeout(() => {
 		,`${df_C_JobTileActions} > :not(${df_DT_JobFeedback})` // 2026-06-04
 		,`${df_C_JobTileBadges} > :not([data-test='applied-badge'])` // 2026-06-12
 		,`${df_DT_FeedBestMatch} > :not(:has(> ${df_DT_JobTileList}))` // 2026-06-12
+		,`.air3-popper-container` // 2026-06-13
 		,`.featured-tag:not(#a)` // 2026-06-04
 		,`.impression-tracker` // 2026-06-04
 		,`.job-tile-bonus-connects-tag-wrap:not(#a)` // 2026-06-04
@@ -84,7 +85,6 @@ setTimeout(() => {
 		,`:has(> ${df_DT_JobTileList}) > :not(${df_DT_JobTileList})` // 2026-06-12
 		,`:has(> ${df_DT_JobType}) > :not(${df_DT_JobType})` // 2026-06-12
 		,`:has(> [data-test='menu-container'])` // 2026-06-04
-		,`:has(> [data-test='popper'])` // 2026-06-13
 		,`:has(> [data-test='token-container'])` // 2026-06-12
 		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
 		,`[data-test='page-content-section'] > :not(:has(${df_C_FeedsCard}))` // 2026-06-12
