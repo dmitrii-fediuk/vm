@@ -232,7 +232,7 @@ GM_addStyle([
 // 2026-06-13
 // language=CSS
 GM_addStyle([
-	`.air3-badge` // 2026-06-13
+	`.air3-badge:not(#a)` // 2026-06-13
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: unset !important;}')
