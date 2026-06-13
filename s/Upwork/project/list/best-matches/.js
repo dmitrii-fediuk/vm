@@ -382,9 +382,7 @@ modify(df_DT_Country, i => {// language=Javascript
 	};
 	(() => {
 		let x = 0, y = 0, p;
-		const updateProject = () => {
-			p = document.elementFromPoint(x, y)?.closest(dfProject);
-		};
+		const updateProject = () => {p = document.elementFromPoint(x, y)?.closest(dfProject);};
 		document.addEventListener('mousemove', e => {
 			x = e.clientX; y = e.clientY;
 			updateProject();
