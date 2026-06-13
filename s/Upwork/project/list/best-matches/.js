@@ -152,12 +152,11 @@ GM_addStyle([
 // 2026-06-13
 // language=CSS
 GM_addStyle([
-	dfProject__Header__Row_PostedOn // 2026-06-13
+	//dfProject__Header__Row_PostedOn // 2026-06-13
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: yellow !important;}')
 ;
-
 // 2025-03-18
 // language=CSS
 GM_addStyle([
@@ -182,6 +181,15 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{color: rgba(36, 46, 66, 0.8) !important;}')
+;
+// 2026-06-13
+// language=CSS
+GM_addStyle([
+	dfProject__Body
+	,dfProject__Header__Row_PostedOn // 2026-06-13
+]
+	 // language=Javascript
+	.join(',') + '{column-gap: .5rem !important;}')
 ;
 // 2026-06-04
 // language=CSS
@@ -294,14 +302,9 @@ GM_addStyle(`.${dfNL} {margin: .5rem 0 !important;}`);
 // 2026-06-13
 // language=CSS
 GM_addStyle(`${df_DT_JobTileList} {display: flex; flex-direction: column; gap: 1rem;}`);
-// 2026-06-13
-// language=CSS
-GM_addStyle(`${dfProject__Header__Row_PostedOn} {column-gap: .5rem;}`);
 // 2026-06-12 https://gemini.google.com/share/63decfb2de6f
 // language=CSS
-GM_addStyle(`${dfProject__Body} {
-	column-gap: .5rem; display: flex; flex-direction: row; flex-wrap: wrap;
-}`);
+GM_addStyle(`${dfProject__Body} {display: flex; flex-direction: row; flex-wrap: wrap;}`);
 // 2026-06-12
 // language=CSS
 GM_addStyle(`${dfProject__Body} > :not(${dfProject__Body__Row_Country}) {order: 1 !important;}`);
