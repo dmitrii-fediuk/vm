@@ -288,6 +288,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{opacity: .5 !important;}')
 ;
+// 2026-06-13
+// language=CSS
+GM_addStyle([
+	`:hover` // 2026-06-13
+]
+	 // language=Javascript
+	.join(',') + '{text-decoration: none !important;}')
+;
 // 2026-06-04
 // language=CSS
 GM_addStyle([
