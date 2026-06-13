@@ -319,6 +319,17 @@ GM_addStyle(`${dfProject__Body} > :not(${dfProject__Body__Row_Country}, :has(${d
 // 2026-06-04
 // language=CSS
 GM_addStyle(`${dfTitle} {font-size: 1.25rem !important;}`);
+// 2026-06-13
+// language=CSS
+GM_addStyle([
+	'body' // 2026-06-13
+// language=Javascript
+].join(',') + `{${Object.entries({
+	'font-family': 'Segoie UI'
+	,'font-size': '120%'
+	,'line-height': 1.2
+	,'letter-spacing': '.03em' // 2026-05-04
+}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2026-06-04
 // language=CSS
 GM_addStyle([
