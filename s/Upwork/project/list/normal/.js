@@ -61,13 +61,13 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	'#main article' // 2025-03-18
-	,'article [data-test*="JobDescription"]'
-	,'article [data-test="JobInfo"]'
-	,'article [data-test="JobInfoClient"]'
-	,'article [data-test="JobInfoClientMore"]'
-	,'article [data-test="JobTileHeader"]'
-	,df_DT_Date // 2025-03-18
+	`#main article` // 2025-03-18
+	,`${df_DT_Date}:not(#a)` // 2025-03-18
+	,`article [data-test*='JobDescription']`
+	,`article [data-test='JobInfo']`
+	,`article [data-test='JobInfoClient']`
+	,`article [data-test='JobInfoClientMore']`
+	,`article [data-test='JobTileHeader']`
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
