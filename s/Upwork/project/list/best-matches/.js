@@ -77,7 +77,7 @@ setTimeout(() => {
 		,`${df_C_JobTileActions} > :not(${df_DT_JobFeedback})` // 2026-06-04
 		,`${df_C_JobTileBadges} > :not([data-test='applied-badge'])` // 2026-06-12
 		,`${df_DT_FeedBestMatch} > :not(:has(> ${df_DT_JobTileList}))` // 2026-06-12
-		//,`.air3-popper-container` // 2026-06-13
+		,`.air3-popper-container` // 2026-06-13
 		,`.featured-tag:not(#a)` // 2026-06-04
 		,`.impression-tracker` // 2026-06-04
 		,`.job-tile-bonus-connects-tag-wrap:not(#a)` // 2026-06-04
