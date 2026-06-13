@@ -60,6 +60,8 @@ const dfText = `[data-test='job-description-text']`; // 2026-06-12
 // language=CSS
 const dfTitle = `h3.job-tile-title`; // 2026-06-12
 // language=CSS
+const dfTitle_A = `${dfTitle} > a`; // 2026-06-13
+// language=CSS
 const df_Ev_BestMatch = `[data-ev-label='best_match']`; // 2026-06-04
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
@@ -180,7 +182,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.text-light` // 2026-06-13
-	,dfTitle // 2026-06-13
+	,dfTitle_A // 2026-06-13
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
@@ -419,7 +421,7 @@ modify(df_DT_Country, i => {// language=Javascript
 		}
 	};
 	const openProject = b => {
-		const l = b.closest(dfProject)?.querySelector(`${dfTitle} > a`);
+		const l = b.closest(dfProject)?.querySelector(dfTitle_A);
 		if (l) {
 			// 2025-01-04
 			// «https://www.upwork.com/jobs/Assisted-Enhancements-for-Lightweight-App_~021875527601805661470/?referrer_url_path=%2Fnx%2Fsearch%2Fjobs» → «https://www.upwork.com/jobs/~021875527601805661470»
