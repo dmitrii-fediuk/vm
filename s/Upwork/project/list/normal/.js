@@ -99,6 +99,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
 ;
+// 2026-06-13
+// language=CSS
+GM_addStyle([
+	`:hover` // 2026-06-13
+]
+	 // language=Javascript
+	.join(',') + '{text-decoration: none !important;}')
+;
 // 2024-12-25, 2025-03-18
 // language=CSS
 GM_addStyle('body {padding: 0.5rem !important;}');
