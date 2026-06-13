@@ -313,9 +313,7 @@ GM_addStyle([
 		}
 	};
 	const openProject = b => {
-		const l = b.closest(`article[data-test='JobTile']`)
-			.querySelector(`a[data-test='job-tile-title-link UpLink']`)
-		;
+		const l = b.closest(dfProject).querySelector(`a[data-test='job-tile-title-link UpLink']`);
 		if (l) {
 			// 2025-01-04
 			// «https://www.upwork.com/jobs/Assisted-Enhancements-for-Lightweight-App_~021875527601805661470/?referrer_url_path=%2Fnx%2Fsearch%2Fjobs» → «https://www.upwork.com/jobs/~021875527601805661470»
