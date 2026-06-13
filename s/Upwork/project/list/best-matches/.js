@@ -383,7 +383,6 @@ modify(df_DT_Country, i => {// language=Javascript
 			}
 		}
 	};
-	const menuItemClass = 'air3-menu-item';
 	(() => {
 		let x = 0, y = 0, project;
 		const updateProject = () => {
@@ -396,7 +395,7 @@ modify(df_DT_Country, i => {// language=Javascript
 		document.addEventListener('scroll', updateProject, true);
 		document.addEventListener('keydown', e => {
 			const i = e.target;
-			if ('Enter' === e.key && !i.classList.contains(menuItemClass)) {
+			if ('Enter' === e.key) {
 				stopEvent(e);
 				openProject(project);
 			}
@@ -411,7 +410,7 @@ modify(df_DT_Country, i => {// language=Javascript
 		const i = e.target;
 		const p = i.closest(dfProject);
 		if (p) {
-			if (!i.classList.contains(menuItemClass)) {
+			if (!i.classList.contains('air3-menu-item')) {
 				if (!i.closest(df_DT_JobFeedback)) {
 					stopEvent(e);
 					openProject(p);
