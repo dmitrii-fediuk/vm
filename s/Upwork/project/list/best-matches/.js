@@ -77,7 +77,7 @@ setTimeout(() => {
 		,`${df_C_JobTileActions} > :not(${df_DT_JobFeedback})` // 2026-06-04
 		,`${df_C_JobTileBadges} > :not([data-test='applied-badge'])` // 2026-06-12
 		,`${df_DT_FeedBestMatch} > :not(:has(> ${df_DT_JobTileList}))` // 2026-06-12
-		,`.air3-popper-container` // 2026-06-13
+		//,`.air3-popper-container` // 2026-06-13
 		,`.featured-tag:not(#a)` // 2026-06-04
 		,`.impression-tracker` // 2026-06-04
 		,`.job-tile-bonus-connects-tag-wrap:not(#a)` // 2026-06-04
@@ -383,6 +383,7 @@ modify(df_DT_Country, i => {// language=Javascript
 			}
 		}
 	};
+	const menuItemClass = 'air3-menu-item';
 	(() => {
 		let x = 0, y = 0, project;
 		const updateProject = () => {
@@ -394,7 +395,8 @@ modify(df_DT_Country, i => {// language=Javascript
 		}, true);
 		document.addEventListener('scroll', updateProject, true);
 		document.addEventListener('keydown', e => {
-			if ('Enter' === e.key) {
+			const i = e.target;
+			if ('Enter' === e.key && !i.classList.contains(menuItemClass)) {
 				stopEvent(e);
 				openProject(project);
 			}
@@ -407,7 +409,6 @@ modify(df_DT_Country, i => {// language=Javascript
 	})();
 	document.addEventListener('click', e => {
 		const i = e.target;
-		const menuItemClass = 'air3-menu-item';
 		if (!i.classList.contains(menuItemClass) && i.closest(dfProject)) {
 			if (!i.closest(df_DT_JobFeedback)) {
 				stopEvent(e);
@@ -418,8 +419,7 @@ modify(df_DT_Country, i => {// language=Javascript
 					const allItems = document.querySelectorAll('.' + menuItemClass);
 					const i = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
 					if (i) {
-						//i.click();
-						i.dispatchEvent(new MouseEvent('click', {bubbles: true, cancelable: true}));
+						i.click();
 					}
 					else {
 						//debugger;
