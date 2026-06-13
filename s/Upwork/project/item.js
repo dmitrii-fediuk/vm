@@ -325,6 +325,17 @@ const modify = (s, action) => {
 	})).observe(document.documentElement, {childList: true, subtree: true});
 	p(document.documentElement);
 };
+// 2026-06-13
+// language=CSS
+modify(`[data-test='Description'] > .multiline-text`, i => {// language=Javascript
+	i.innerHTML = i.textContent
+		// 2025-03-19 https://stackoverflow.com/a/784547
+		// 2026-06-13 https://gemini.google.com/share/8660a99264ca
+		.replace(/\r?\n|\r|<br>/g, '<br/>')
+		// 2026-06-13 https://gemini.google.com/share/bceb5af402b2
+		.replace(/(?:<br\/>){2,}/g, `<div class='${dfNL}'></div>`)
+	;
+});
 // 2025-09-05
 // language=CSS
 modify(`${dfAboutClient} .text-caption`, i => {// language=Javascript
