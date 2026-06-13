@@ -327,7 +327,7 @@ const modify = (s, action) => {
 };
 // 2026-06-13
 // language=CSS
-modify(`[data-test='Description'] > .multiline-text`, i => {// language=Javascript
+modify(`.multiline-text`, i => {// language=Javascript
 	i.innerHTML = i.textContent
 		// 2025-03-19 https://stackoverflow.com/a/784547
 		// 2026-06-13 https://gemini.google.com/share/8660a99264ca
