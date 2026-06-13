@@ -409,25 +409,30 @@ modify(df_DT_Country, i => {// language=Javascript
 	})();
 	document.addEventListener('click', e => {
 		const i = e.target;
-		if (!i.classList.contains(menuItemClass) && i.closest(dfProject)) {
-			if (!i.closest(df_DT_JobFeedback)) {
-				stopEvent(e);
-				openProject(i);
-			}
-			else {
-				setTimeout(() => {
-					const allItems = document.querySelectorAll('.' + menuItemClass);
-					const i = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
-					if (i) {
-						i.click();
-					}
-					else {
-						//debugger;
-					}
-				// 2025-06-06
-				// Previously, I had `50` here.
-				// Now I need `500` for `hideProject()` to work.
-				}, 500);
+		const project = i.closest(dfProject);
+		if (project) {
+			if (!i.classList.contains(menuItemClass)) {
+				if (!i.closest(df_DT_JobFeedback)) {
+					stopEvent(e);
+					openProject(project);
+				}
+				else {
+					setTimeout(() => {
+						// 2026-06-13 https://gemini.google.com/share/a01aa50e5f98
+						const menu = project.querySelector(`.job-feedback ul.air3-menu-list`);
+						const allItems = menu.children; //querySelectorAll('.' + menuItemClass);
+						const i = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
+						if (i) {
+							i.click();
+						}
+						else {
+							//debugger;
+						}
+					// 2025-06-06
+					// Previously, I had `50` here.
+					// Now I need `500` for `hideProject()` to work.
+					}, 500);
+				}
 			}
 		}
 	}, true);
