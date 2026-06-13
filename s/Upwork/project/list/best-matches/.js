@@ -181,8 +181,8 @@ GM_addStyle([
 // 2026-06-13
 // language=CSS
 GM_addStyle([
-	`.text-light` // 2026-06-13
-	,`${dfTitle_A}:not(#a)` // 2026-06-13
+	`${dfTitle_A}:not(#a)` // 2026-06-13
+	,`.text-light` // 2026-06-13
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
