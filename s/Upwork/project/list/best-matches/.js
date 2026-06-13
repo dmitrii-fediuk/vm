@@ -146,7 +146,7 @@ GM_addStyle([
 	,dfPostedOnContainer_Parent // 2026-06-12
 ]
 	 // language=Javascript
-	.join(',') + '{background-color: revert !important;}')
+	.join(',') + '{background-color: initial !important;}')
 ;
 // 2025-03-18
 // language=CSS
