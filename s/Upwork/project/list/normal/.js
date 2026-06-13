@@ -258,11 +258,10 @@ GM_addStyle([
 			// 2025-03-18
 			// `p` is `null` if the project is already hidden via the UI («Just not interested»).
 			if (i) {
-				const br = '<br/>';
 				i.innerHTML = i.textContent
 					// 2025-03-19 https://stackoverflow.com/a/784547
 					// 2026-06-13 https://gemini.google.com/share/8660a99264ca
-					.replace(/\r?\n|\r|<br>/g, br)
+					.replace(/\r?\n|\r|<br>/g, '<br/>')
 					// 2026-06-13 https://gemini.google.com/share/bceb5af402b2
 					.replace(/(?:<br\/>){2,}/g, `<div class='${dfNL}'></div>`)
 				;
