@@ -418,7 +418,7 @@ modify(df_DT_Country, i => {// language=Javascript
 		}
 	};
 	const openProject = b => {
-		const l = b.closest(dfProject)?.querySelector('h3.job-tile-title > a');
+		const l = b.closest(dfProject)?.querySelector(`${dfTitle} > a`);
 		if (l) {
 			// 2025-01-04
 			// «https://www.upwork.com/jobs/Assisted-Enhancements-for-Lightweight-App_~021875527601805661470/?referrer_url_path=%2Fnx%2Fsearch%2Fjobs» → «https://www.upwork.com/jobs/~021875527601805661470»
