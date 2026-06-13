@@ -149,6 +149,15 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{background-color: initial !important;}')
 ;
+// 2026-06-13
+// language=CSS
+GM_addStyle([
+	dfProject__Header__Row_PostedOn // 2026-06-13
+]
+	 // language=Javascript
+	.join(',') + '{background-color: yellow !important;}')
+;
+
 // 2025-03-18
 // language=CSS
 GM_addStyle([
