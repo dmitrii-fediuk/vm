@@ -327,7 +327,7 @@ const modify = (s, action) => {
 };
 // 2026-06-13
 // language=CSS
-modify(`p.multiline-text:is([class*='data-v-'])`, i => {// language=Javascript
+modify(`p.multiline-text.text-body-sm`, i => {// language=Javascript
 	const p = i.parentNode;
 	i.remove();
 	const i2 = document.createElement('p');
