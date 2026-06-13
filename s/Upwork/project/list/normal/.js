@@ -301,7 +301,7 @@ GM_addStyle([
 		e.stopImmediatePropagation();
 	};
 	// 2025-06-06
-	const hideArticle = a => {
+	const hideProject = a => {
 		const e = a.querySelector('button[data-ev-label="dropdown_secondary_toggle"] svg');
 		if (e) {
 			// 2025-06-06
@@ -310,7 +310,7 @@ GM_addStyle([
 			e.dispatchEvent(new MouseEvent('click', {bubbles: true, cancelable: true}));
 		}
 	};
-	const openArticle = b => {
+	const openProject = b => {
 		const article = b.closest('article[data-test="JobTile"]');
 		if (article) {
 			const l = article.querySelector('a[data-test="job-tile-title-link UpLink"]');
@@ -325,23 +325,23 @@ GM_addStyle([
 	};
 	(() => {
 		let x = 0, y = 0, article;
-		const updateArticle = () => {
+		const updateProject = () => {
 			article = document.elementFromPoint(x, y)?.closest('article[data-test="JobTile"]');
 		};
 		document.addEventListener('mousemove', e => {
 			x = e.clientX; y = e.clientY;
-			updateArticle();
+			updateProject();
 		}, true);
-		document.addEventListener('scroll', updateArticle, true);
+		document.addEventListener('scroll', updateProject, true);
 		document.addEventListener('keydown', e => {
 			if ('Enter' === e.key) {
 				stopEvent(e);
-				openArticle(article);
+				openProject(article);
 			}
 			// 2025-06-06
 			else if ('Escape' === e.key) {
 				stopEvent(e);
-				hideArticle(article);
+				hideProject(article);
 			}
 		}, true);
 	})();
@@ -351,7 +351,7 @@ GM_addStyle([
 		if (!i.classList.contains(menuItemClass) && i.closest('article')) {
 			if (!i.closest(`button[data-ev-label='dropdown_secondary_toggle']`)) {
 				stopEvent(e);
-				openArticle(i);
+				openProject(i);
 			}
 			else {
 				setTimeout(() => {
@@ -365,7 +365,7 @@ GM_addStyle([
 					}
 				// 2025-06-06
 				// Previously, I had `50` here.
-				// Now I need `500` for `hideArticle()` to work.
+				// Now I need `500` for `hideProject()` to work.
 				}, 500);
 			}
 		}
