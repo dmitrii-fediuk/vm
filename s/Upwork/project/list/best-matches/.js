@@ -384,9 +384,9 @@ modify(df_DT_Country, i => {// language=Javascript
 		}
 	};
 	(() => {
-		let x = 0, y = 0, project;
+		let x = 0, y = 0, p;
 		const updateProject = () => {
-			project = document.elementFromPoint(x, y)?.closest(dfProject);
+			p = document.elementFromPoint(x, y)?.closest(dfProject);
 		};
 		document.addEventListener('mousemove', e => {
 			x = e.clientX; y = e.clientY;
@@ -397,12 +397,12 @@ modify(df_DT_Country, i => {// language=Javascript
 			const i = e.target;
 			if ('Enter' === e.key) {
 				stopEvent(e);
-				openProject(project);
+				openProject(p);
 			}
 			// 2025-06-06
 			else if ('Escape' === e.key) {
 				stopEvent(e);
-				hideProject(project);
+				hideProject(p);
 			}
 		}, true);
 	})();
