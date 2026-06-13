@@ -273,7 +273,7 @@ GM_addStyle('body {padding: .5rem !important;}');
 GM_addStyle(`.${dfNL} {margin: .5rem 0 !important;}`);
 // 2026-06-13
 // language=CSS
-GM_addStyle(`${df_DT_JobTileList} {display: flex; flex-direction: column; gap: .5rem;}`);
+GM_addStyle(`${df_DT_JobTileList} {display: flex; flex-direction: column; gap: 1rem;}`);
 // 2026-06-12 https://gemini.google.com/share/63decfb2de6f
 // language=CSS
 GM_addStyle(`${dfProject__Body} {
