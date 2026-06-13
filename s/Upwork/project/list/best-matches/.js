@@ -84,6 +84,7 @@ setTimeout(() => {
 		,`:has(> ${df_DT_JobTileList}) > :not(${df_DT_JobTileList})` // 2026-06-12
 		,`:has(> ${df_DT_JobType}) > :not(${df_DT_JobType})` // 2026-06-12
 		,`:has(> [data-test='menu-container'])` // 2026-06-04
+		,`:has(> [data-test='popper'])` // 2026-06-13
 		,`:has(> [data-test='token-container'])` // 2026-06-12
 		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
 		,`[data-test='page-content-section'] > :not(:has(${df_C_FeedsCard}))` // 2026-06-12
@@ -142,7 +143,7 @@ GM_addStyle([
 GM_addStyle([
 	`.air3-card-hover` // 2026-06-13
 	,`.air3-card-visited` // 2026-06-13
-	,`:hover:not(#A)` // 2026-05-04
+	//,`:hover:not(.air3-menu-item)` // 2026-05-04
 	,dfPostedOnContainer_Parent // 2026-06-12
 ]
 	 // language=Javascript
@@ -417,7 +418,8 @@ modify(df_DT_Country, i => {// language=Javascript
 					const allItems = document.querySelectorAll('.' + menuItemClass);
 					const i = [...allItems].find(i => 'Just not interested' === i.textContent.trim());
 					if (i) {
-						i.click();
+						//i.click();
+						i.dispatchEvent(new MouseEvent('click', {bubbles: true, cancelable: true}));
 					}
 					else {
 						//debugger;
