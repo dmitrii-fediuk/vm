@@ -124,9 +124,6 @@ GM_addStyle([
 	,'line-height': 1.2
 	,'letter-spacing': '.03em' // 2026-05-04
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
-// 2025-03-19
-// language=CSS
-GM_addStyle('p.text-body-sm br {display: block !important; content: ""; height: 1px !important;}');
 // 2024-12-28
 // language=CSS
 GM_addStyle([
