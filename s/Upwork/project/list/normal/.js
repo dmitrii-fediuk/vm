@@ -10,6 +10,8 @@
 const ᛡ = unsafeWindow.df.upwork.project.list; // 2025-10-26
 const dfNL = `df-nl`; // 2026-06-13
 // language=CSS
+const df_DT_Date = `[data-test='job-pubilshed-date']`; // 2026-06-13
+// language=CSS
 const dfProject = `article[data-test='JobTile']`; // 2026-06-13
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
