@@ -260,10 +260,11 @@ GM_addStyle([
 			if (p) {
 				const br = '<br/>';
 				p.innerHTML = p.textContent
-					.replace(/(?:\r\n|\r|\n)/g, br) // 2025-03-19 https://stackoverflow.com/a/784547
-					.replaceAll('<br>', br)
+					// 2025-03-19 https://stackoverflow.com/a/784547
+					// 2026-06-13 https://gemini.google.com/share/8660a99264ca
+					.replace(/\r?\n|\r|<br>/g, br)
 					// 2026-06-13 https://gemini.google.com/share/bceb5af402b2
-					.replace(new RegExp(`(?:${br}){2,}`, 'g'), `<div class='${dfNL}'></div>`)
+					.replace(/(?:<br\/>){2,}/g, `<div class='${dfNL}'></div>`)
 				;
 			}
 		};
