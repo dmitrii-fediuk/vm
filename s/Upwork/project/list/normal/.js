@@ -311,16 +311,15 @@ GM_addStyle([
 		}
 	};
 	const openProject = b => {
-		const p = b.closest('article[data-test="JobTile"]');
-		if (p) {
-			const l = p.querySelector('a[data-test="job-tile-title-link UpLink"]');
-			if (l) {
-				// 2025-01-04
-				// «https://www.upwork.com/jobs/Assisted-Enhancements-for-Lightweight-App_~021875527601805661470/?referrer_url_path=%2Fnx%2Fsearch%2Fjobs» → «https://www.upwork.com/jobs/~021875527601805661470»
-				const u = new URL(l.href);
-				const m = u.pathname.match(/_~(\d+)(?=\/|$)/);
-				window.open(`${u.origin}/jobs/~${m[1]}`, '_blank');
-			}
+		const l = b.closest(`article[data-test='JobTile']`)
+			.querySelector(`a[data-test='job-tile-title-link UpLink']`)
+		;
+		if (l) {
+			// 2025-01-04
+			// «https://www.upwork.com/jobs/Assisted-Enhancements-for-Lightweight-App_~021875527601805661470/?referrer_url_path=%2Fnx%2Fsearch%2Fjobs» → «https://www.upwork.com/jobs/~021875527601805661470»
+			const u = new URL(l.href);
+			const m = u.pathname.match(/_~(\d+)(?=\/|$)/);
+			window.open(`${u.origin}/jobs/~${m[1]}`, '_blank');
 		}
 	};
 	(() => {
