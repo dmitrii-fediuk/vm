@@ -34,7 +34,6 @@ const df_DT_PostedOn = `[data-test='posted-on']`; // 2026-06-12
 const dfButton = `${df_C_JobTileActions} > ${df_DT_JobFeedback} button`; // 2026-06-12
 // language=CSS
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
-// language=CSS
 const dfNL = `df-nl`; // 2026-06-13
 // language=CSS
 const dfProject = `section[data-ev-sublocation='job_feed_tile']`; // 2026-06-12
