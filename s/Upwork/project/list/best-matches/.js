@@ -327,9 +327,6 @@ GM_addStyle([
 ].join(',') + `{${Object.entries({
 	'color': 'black'
 	,'font-family': 'Segoie UI'
-	//,'font-size': '120%'
-	//,'line-height': 1.2
-	//,'letter-spacing': '.03em' // 2026-05-04
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2026-06-04
 // language=CSS
@@ -337,8 +334,8 @@ GM_addStyle([
 	dfText // 2026-06-04
 // language=Javascript
 ].join(',') + `{${Object.entries({
-	'font-family': 'Segoie UI'
-	,'font-size': '120%'
+	//'font-family': 'Segoie UI'
+	'font-size': '120%'
 	,'line-height': 1.2
 	,'letter-spacing': '.03em' // 2026-05-04
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
