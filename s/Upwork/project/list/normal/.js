@@ -254,12 +254,12 @@ GM_addStyle([
 		})();
 		// 2025-03-19
 		const format = a => {
-			const p = a.querySelector('p.text-body-sm');
+			const i = a.querySelector('p.text-body-sm');
 			// 2025-03-18
 			// `p` is `null` if the project is already hidden via the UI («Just not interested»).
-			if (p) {
+			if (i) {
 				const br = '<br/>';
-				p.innerHTML = p.textContent
+				i.innerHTML = i.textContent
 					// 2025-03-19 https://stackoverflow.com/a/784547
 					// 2026-06-13 https://gemini.google.com/share/8660a99264ca
 					.replace(/\r?\n|\r|<br>/g, br)
