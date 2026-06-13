@@ -148,6 +148,24 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2025-09-05
+// 1) https://g.co/gemini/share/9776258b5353
+// 2) https://g.co/gemini/share/fdb2b22cbe50
+const modify = (s, action) => {
+	const p = i => {
+		i.matches?.(s) && action(i);
+		i.querySelectorAll?.(s).forEach(action);
+	};
+	(new MutationObserver(mm => {
+		mm.forEach(m => m.addedNodes.forEach(p));
+	})).observe(document.documentElement, {childList: true, subtree: true});
+	p(document.documentElement);
+};
+// 2026-06-13
+// language=CSS
+modify(df_DT_Date, i => {// language=Javascript
+	i.innerHTML = i.textContent.trim().replace('Posted ', '');
+});
 // 2025-03-18
 (() => {
 	const process = (() => {
