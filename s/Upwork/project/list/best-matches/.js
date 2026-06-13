@@ -232,6 +232,7 @@ GM_addStyle([
 GM_addStyle([
 	`.label-small` // 2026-06-04
 	,dfPostedOnContainer_Parent // 2026-06-12
+	,df_DT_JobType // 2026-06-13
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: unset !important;}')
