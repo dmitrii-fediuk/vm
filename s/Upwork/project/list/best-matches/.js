@@ -180,6 +180,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.text-light` // 2026-06-13
+	,dfTitle // 2026-06-13
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
