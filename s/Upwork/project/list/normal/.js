@@ -311,9 +311,9 @@ GM_addStyle([
 		}
 	};
 	const openProject = b => {
-		const article = b.closest('article[data-test="JobTile"]');
-		if (article) {
-			const l = article.querySelector('a[data-test="job-tile-title-link UpLink"]');
+		const p = b.closest('article[data-test="JobTile"]');
+		if (p) {
+			const l = p.querySelector('a[data-test="job-tile-title-link UpLink"]');
 			if (l) {
 				// 2025-01-04
 				// «https://www.upwork.com/jobs/Assisted-Enhancements-for-Lightweight-App_~021875527601805661470/?referrer_url_path=%2Fnx%2Fsearch%2Fjobs» → «https://www.upwork.com/jobs/~021875527601805661470»
@@ -324,9 +324,9 @@ GM_addStyle([
 		}
 	};
 	(() => {
-		let x = 0, y = 0, article;
+		let x = 0, y = 0, p;
 		const updateProject = () => {
-			article = document.elementFromPoint(x, y)?.closest('article[data-test="JobTile"]');
+			p = document.elementFromPoint(x, y)?.closest('article[data-test="JobTile"]');
 		};
 		document.addEventListener('mousemove', e => {
 			x = e.clientX; y = e.clientY;
@@ -336,12 +336,12 @@ GM_addStyle([
 		document.addEventListener('keydown', e => {
 			if ('Enter' === e.key) {
 				stopEvent(e);
-				openProject(article);
+				openProject(p);
 			}
 			// 2025-06-06
 			else if ('Escape' === e.key) {
 				stopEvent(e);
-				hideProject(article);
+				hideProject(p);
 			}
 		}, true);
 	})();
