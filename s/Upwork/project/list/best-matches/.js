@@ -371,16 +371,13 @@ modify(df_DT_Country, i => {// language=Javascript
 		}
 	};
 	const openProject = b => {
-		const p = b.closest(dfProject);
-		if (p) {
-			const l = p.querySelector('h3.job-tile-title > a');
-			if (l) {
-				// 2025-01-04
-				// «https://www.upwork.com/jobs/Assisted-Enhancements-for-Lightweight-App_~021875527601805661470/?referrer_url_path=%2Fnx%2Fsearch%2Fjobs» → «https://www.upwork.com/jobs/~021875527601805661470»
-				const u = new URL(l.href);
-				const m = u.pathname.match(/_~(\d+)(?=\/|$)/);
-				window.open(`${u.origin}/jobs/~${m[1]}`, '_blank');
-			}
+		const l = b.closest(dfProject)?.querySelector('h3.job-tile-title > a');
+		if (l) {
+			// 2025-01-04
+			// «https://www.upwork.com/jobs/Assisted-Enhancements-for-Lightweight-App_~021875527601805661470/?referrer_url_path=%2Fnx%2Fsearch%2Fjobs» → «https://www.upwork.com/jobs/~021875527601805661470»
+			const u = new URL(l.href);
+			const m = u.pathname.match(/_~(\d+)(?=\/|$)/);
+			window.open(`${u.origin}/jobs/~${m[1]}`, '_blank');
 		}
 	};
 	(() => {
