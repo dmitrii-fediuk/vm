@@ -64,6 +64,7 @@ GM_addStyle([
 	,`.source-card-content` // 2025-11-04
 	,`.user-query-bubble-container`
 	,`.user-query-bubble-with-background > .horizontal-container`
+	,`message-content p[data-path-to-node] > span[data-path-to-node]` // 2026-06-14
 	,`sources-carousel > .container` // 2025-11-04
 	,`sources-carousel` // 2025-11-04
 	,`user-query-content`
@@ -174,3 +175,11 @@ GM_addStyle([
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
+// 2026-06-14
+// language=CSS
+GM_addStyle([
+	`message-content p[data-path-to-node] > span[data-path-to-node]` // 2026-06-14
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0.25rem 0 !important;}')
+;
