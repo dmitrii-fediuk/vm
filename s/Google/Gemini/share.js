@@ -34,6 +34,7 @@ GM_addStyle([
 	,`.title-container` // 2025-11-04
 	,`:has(> .immersive-artifact-container) > message-content` // 2025-11-04
 	,`[data-mat-icon-name='travel_explore']` // 2025-11-04
+	,`[data-test-id='chat-app']` // 2026-06-14
 	,`button[mattooltip='Report']` // 2025-04-21
 	,`chat-loading-animation` // 2026-06-01
 	,`share-turn-viewer:has(${dfResearchW}) response-container` // 2025-11-04
