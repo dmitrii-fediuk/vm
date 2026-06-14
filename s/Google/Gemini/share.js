@@ -41,6 +41,7 @@ GM_addStyle([
 	,`share-turn-viewer:has(${dfResearchW}) response-container` // 2025-11-04
 	,`share-viewer ~ *`
 	,`share-viewer:has(${dfResearchW}) share-turn-viewer:not(:has(${dfResearchW})) user-query` // 2025-11-04
+	,`structured-content-container` // 2026-06-14
 	,`top-bar-actions` // 2025-04-21
 	,`user-notice` // 2025-11-04
 	,dfResearchW // 2025-11-04
