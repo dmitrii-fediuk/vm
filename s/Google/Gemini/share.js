@@ -27,7 +27,7 @@ GM_addStyle([
 	`.avatar-gutter`
 	,`.boqOnegoogleliteOgbOneGoogleBar`
 	,`.desktop-ogb-buffer`
-	`.link-action-buttons` // 2026-06-14
+	,`.link-action-buttons` // 2026-06-14
 	,`.publish-time-text:before` // 2025-08-05
 	,`.response-container-footer` // 2025-11-04
 	,`.response-container-header` // 2025-11-04
