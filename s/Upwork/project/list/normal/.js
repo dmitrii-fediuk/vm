@@ -31,6 +31,7 @@ setTimeout(() => {
 		,`[data-test='JobActionSave']`
 		,`[data-test='JobInfo'] > [data-test='experience-level']` // 2026-06-15
 		,`[data-test='JobInfo'] > [data-test='is-fixed-price'] > .mr-1` // 2026-06-15
+		,`[data-test='JobInfo'] > [data-test='is-fixed-price']::before` // 2026-06-15
 		,`[data-test='JobInfoClient'] > :not([data-test='location'])` // 2025-03-18
 		,`[data-test='JobInfoClientMore']` // 2025-03-18
 		,`[data-test='JobsPage'] > [data-test='FiltersActive']`
