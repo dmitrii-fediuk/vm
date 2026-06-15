@@ -193,7 +193,7 @@ GM_addStyle([
 		 */
 		const fRate = (() => {
 			// 2025-10-02 https://g.co/gemini/share/6984ff9b61f7
-			const minRate = +new URL(location).searchParams.get('df-rate-min');
+			const minRate = +new URL(location).searchParams.get('df-rate-low-bound-ge');
 			return a => {
 				const m = qTerms(a)?.textContent?.trim()?.match(/^Hourly:.*?\$(\d+)\.00/);
 				return !minRate || !m || minRate <= +m[1];
