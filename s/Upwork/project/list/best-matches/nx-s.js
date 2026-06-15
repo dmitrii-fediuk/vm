@@ -248,7 +248,7 @@ modify(dfText, i => {// language=Javascript
 		e.stopImmediatePropagation();
 	};
 	// 2025-06-06
-	const hideArticle = a => {
+	const hideProject = a => {
 		const e = a.querySelector(`${dfButton} svg`);
 		if (e) {
 			// 2025-06-06
@@ -257,7 +257,7 @@ modify(dfText, i => {// language=Javascript
 			e.dispatchEvent(new MouseEvent('click', {bubbles: true, cancelable: true}));
 		}
 	};
-	const openArticle = b => {
+	const openProject = b => {
 		const article = b.closest(dfJobTile);
 		if (article) {
 			const i = article.querySelector('.impression-tracker');
@@ -269,23 +269,23 @@ modify(dfText, i => {// language=Javascript
 	};
 	(() => {
 		let x = 0, y = 0, article;
-		const updateArticle = () => {
+		const updateProject = () => {
 			article = document.elementFromPoint(x, y)?.closest(dfJobTile);
 		};
 		document.addEventListener('mousemove', e => {
 			x = e.clientX; y = e.clientY;
-			updateArticle();
+			updateProject();
 		}, true);
-		document.addEventListener('scroll', updateArticle, true);
+		document.addEventListener('scroll', updateProject, true);
 		document.addEventListener('keydown', e => {
 			if ('Enter' === e.key) {
 				stopEvent(e);
-				openArticle(article);
+				openProject(article);
 			}
 			// 2025-06-06
 			else if ('Escape' === e.key) {
 				stopEvent(e);
-				hideArticle(article);
+				hideProject(article);
 			}
 		}, true);
 	})();
@@ -296,7 +296,7 @@ modify(dfText, i => {// language=Javascript
 			const downBtn = i.closest(dfButton);
 			if (!downBtn) {
 				stopEvent(e);
-				openArticle(e.target);
+				openProject(e.target);
 			}
 			else {
 				setTimeout(() => {
