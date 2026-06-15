@@ -51,6 +51,7 @@ setTimeout(() => {
 		,`[data-test='job-feedback-label']` // 2026-06-13 I have already skipped this project
 		,`[data-test='jobs-buttons-component']` // 2025-03-18 «Save search», «Saved jobs»
 		,`[data-test='location'] [data-test='UpCIcon']` // 2025-03-18
+		,df_DT_Featured // 2026-06-15
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
