@@ -23,8 +23,8 @@ setTimeout(() => {
 	GM_addStyle([
 		`${df_DT_JobInfo} > [data-test='duration-label']` // 2026-06-15
 		,`${df_DT_JobInfo} > [data-test='experience-level']` // 2026-06-15
-		,`${df_DT_JobInfo} > [data-test='is-fixed-price']::before` // 2026-06-15
 		,`${df_DT_JobInfo} > [data-test='is-fixed-price'] > .mr-1` // 2026-06-15
+		,`${df_DT_JobInfo} > [data-test='is-fixed-price']::before` // 2026-06-15
 		,`.job-tile-actions:has(button[data-test='job-toggle-collapsed'])` // 2026-06-13
 		,`.jobs-grid-container > :has([data-test='filter-active-item'])` // 2025-03-18 Filters at the header
 		,`.nav-parent-wrapper`
@@ -212,8 +212,8 @@ GM_addStyle([
 				let r = true;
 				if (vLB || vI) {
 					let terms = qTerms(a)?.textContent?.trim();
-					const h = 'Hourly:';
-					if (terms && terms.startsWith('Hourly: ')) {
+					const h = 'Hourly: ';
+					if (terms && terms.startsWith(h)) {
 						terms = terms.trimStart(h);
 						const bb = terms.split(' - ').map(b => parseFloat(b.trimStart('$')));
 						if (bb.length) {
