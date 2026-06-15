@@ -21,7 +21,8 @@ const dfProject = `article[data-test='JobTile']`; // 2026-06-13
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`${df_DT_JobInfo} > [data-test='experience-level']` // 2026-06-15
+		`${df_DT_JobInfo} > [data-test='duration-label']` // 2026-06-15
+		,`${df_DT_JobInfo} > [data-test='experience-level']` // 2026-06-15
 		,`${df_DT_JobInfo} > [data-test='is-fixed-price']::before` // 2026-06-15
 		,`${df_DT_JobInfo}> [data-test='is-fixed-price'] > .mr-1` // 2026-06-15
 		,`.job-tile-actions:has(button[data-test='job-toggle-collapsed'])` // 2026-06-13
