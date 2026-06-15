@@ -206,7 +206,6 @@ GM_addStyle([
 						if (bb.length) {
 							r = (!vLB || vLB > bb[0]) && (!vI || 2 > bb.length || vI <= bb[1]);
 						}
-						return r;
 					}
 				}
 				return r;
