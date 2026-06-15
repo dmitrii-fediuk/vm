@@ -414,10 +414,13 @@ else {
 	(() => {
 		let x = 0, y = 0, p;
 		const updateProject = () => {p = document.elementFromPoint(x, y)?.closest(dfProject);};
-		document.addEventListener('mousemove', e => {
-			x = e.clientX; y = e.clientY;
-			updateProject();
-		}, true);
+		// 2026-06-16 https://gemini.google.com/share/720476d8112b
+		['mousemove', 'mouseenter'].forEach(t => {
+			document.addEventListener(t, e => {
+				x = e.clientX; y = e.clientY;
+				updateProject();
+			}, true);
+		});
 		document.addEventListener('scroll', updateProject, true);
 		document.addEventListener('keydown', e => {
 			if ('Enter' === e.key) {
