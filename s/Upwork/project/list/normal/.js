@@ -241,8 +241,8 @@ GM_addStyle([
 		const fLength = (() => {
 			const v = +new URL(location).searchParams.get('df-length');
 			return a => {
-				let r = !!v;
-				if (r) {
+				let r = !v;
+				if (!r) {
 					const e = a.querySelector('p.text-body-sm');
 					r = !e || v < e.textContent.trim().length;
 				}
