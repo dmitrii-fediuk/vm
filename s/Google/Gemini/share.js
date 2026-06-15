@@ -39,10 +39,10 @@ GM_addStyle([
 	,`[data-test-id='chat-app']` // 2026-06-14
 	,`button[mattooltip='Report']` // 2025-04-21
 	,`chat-loading-animation` // 2026-06-01
+	,`response-container:has(${df_T_SCC}${df_C_DRC}) ${df_T_SCC}:not(${df_C_DRC})` // 2026-06-14
 	,`share-turn-viewer:has(${dfResearchW}) response-container` // 2025-11-04
 	,`share-viewer ~ *`
 	,`share-viewer:has(${dfResearchW}) share-turn-viewer:not(:has(${dfResearchW})) user-query` // 2025-11-04
-	,`response-container:has(${df_T_SCC}${df_C_DRC}) ${df_T_SCC}:not(${df_C_DRC})` // 2026-06-14
 	,`top-bar-actions` // 2025-04-21
 	,`user-notice` // 2025-11-04
 	,dfResearchW // 2025-11-04
