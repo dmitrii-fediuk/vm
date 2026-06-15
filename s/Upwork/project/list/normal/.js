@@ -196,12 +196,18 @@ GM_addStyle([
 			const vI = +new URL(location).searchParams.get('df-rate-ge');
 			const vLB = +new URL(location).searchParams.get('df-rate-lb-ge');
 			return a => {
-				const v = qTerms(a)?.textContent?.trim();
-				const isSpecified = v && ('Hourly' !== v);
 				let r = true;
-				if (isSpecified && (vLB || vI)) {
-					const m = v?.match(/^Hourly:.*?\$(\d+)\.00/);
-					return !vLB || !m || vLB <= +m[1];
+				if (vLB || vI) {
+					let terms = qTerms(a)?.textContent?.trim();
+					const h = 'Hourly:';
+					if (terms && terms.startsWith('Hourly: ')) {
+						terms = terms.trimStart(h);
+						const bb = terms.split(' - ').map(b => parseFloat(b.trimStart('$')));
+						if (bb.length) {
+							r = (!vLB || vLB > bb[0]) && (!vI || 2 > bb.length || vI <= bb[1]);
+						}
+						return r;
+					}
 				}
 				return r;
 			};
