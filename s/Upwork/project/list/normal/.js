@@ -12,6 +12,8 @@ const dfNL = `df-nl`; // 2026-06-13
 // language=CSS
 const df_DT_Date = `[data-test='job-pubilshed-date']`; // 2026-06-13
 // language=CSS
+const df_DT_JobInfo = `[data-test='JobInfo']`; // 2026-06-15
+// language=CSS
 const dfProject = `article[data-test='JobTile']`; // 2026-06-13
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
@@ -19,7 +21,10 @@ const dfProject = `article[data-test='JobTile']`; // 2026-06-13
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`.job-tile-actions:has(button[data-test='job-toggle-collapsed'])` // 2026-06-13
+		`${df_DT_JobInfo} > [data-test='experience-level']` // 2026-06-15
+		,`${df_DT_JobInfo} > [data-test='is-fixed-price']::before` // 2026-06-15
+		,`${df_DT_JobInfo}> [data-test='is-fixed-price'] > .mr-1` // 2026-06-15
+		,`.job-tile-actions:has(button[data-test='job-toggle-collapsed'])` // 2026-06-13
 		,`.jobs-grid-container > :has([data-test='filter-active-item'])` // 2025-03-18 Filters at the header
 		,`.nav-parent-wrapper`
 		,`:has(> .main-header)` // 2025-03-18 The header
@@ -29,9 +34,6 @@ setTimeout(() => {
 		,`[data-test*='TokenClamp']` // 2026-06-13
 		,`[data-test='Header']`
 		,`[data-test='JobActionSave']`
-		,`[data-test='JobInfo'] > [data-test='experience-level']` // 2026-06-15
-		,`[data-test='JobInfo'] > [data-test='is-fixed-price'] > .mr-1` // 2026-06-15
-		,`[data-test='JobInfo'] > [data-test='is-fixed-price']::before` // 2026-06-15
 		,`[data-test='JobInfoClient'] > :not([data-test='location'])` // 2025-03-18
 		,`[data-test='JobInfoClientMore']` // 2025-03-18
 		,`[data-test='JobsPage'] > [data-test='FiltersActive']`
@@ -65,8 +67,8 @@ GM_addStyle([
 GM_addStyle([
 	`#main article` // 2025-03-18
 	,`${df_DT_Date}:not(#a)` // 2025-03-18
+	,`article ${df_DT_JobInfo}`
 	,`article [data-test*='JobDescription']`
-	,`article [data-test='JobInfo']`
 	,`article [data-test='JobInfoClient']`
 	,`article [data-test='JobInfoClientMore']`
 	,`article [data-test='JobTileHeader']`
