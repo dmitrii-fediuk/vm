@@ -19,6 +19,8 @@ const df_DT_Featured = `[data-test*='JobBadgePremium']`; // 2026-06-15
 const df_DT_JobInfo = `[data-test='JobInfo']`; // 2026-06-15
 // language=CSS
 const dfProject = `article[data-test='JobTile']`; // 2026-06-13
+// language=CSS
+const dfText = `p.text-body-sm`; // 2026-06-16
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
@@ -157,7 +159,7 @@ GM_addStyle('[data-test="JobTileDetails"] {display: flex; flex-direction: row; f
 // 2025-03-19
 // language=CSS
 GM_addStyle([
-	`#main p.text-body-sm` // 2025-03-19
+	dfText // 2025-03-19
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'font-family': 'Segoie UI'
