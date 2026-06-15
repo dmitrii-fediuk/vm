@@ -239,7 +239,7 @@ GM_addStyle([
 		 * @return {boolean}
 		 */
 		const fLength = (() => {
-			const v = new URL(location).searchParams.has('df-length');
+			const v = +new URL(location).searchParams.get('df-length');
 			return a => {
 				let r = !!v;
 				if (r) {
