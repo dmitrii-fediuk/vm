@@ -261,7 +261,7 @@ else {
 			return a => {
 				let r = true;
 				if (v) {
-					const e = a.querySelector('p.text-body-sm');
+					const e = a.querySelector(dfText);
 					// 2026-06-15 Do not hide skipped projects: just show them as skipped.
 					if (e) {
 						r = v < e.textContent.trim().length;
@@ -299,7 +299,7 @@ else {
 		const fPhrases = (() => {
 			const enable = new URL(location).searchParams.has('df-phrases');
 			const banned = ᛡ.phrases.map(s => ({m: s.includes(' '), s: s.toUpperCase()}));
-			return a => !enable || !(['h2', 'p.text-body-sm'].some(s => {
+			return a => !enable || !(['h2', dfText].some(s => {
 				const e = a.querySelector(s);
 				// 2025-03-18
 				// `e` is `null` if the project is already hidden via the UI («Just not interested»).
@@ -341,7 +341,7 @@ else {
 			};
 			// 2025-03-19
 			// language=CSS
-			modify('p.text-body-sm', i => {// language=Javascript
+			modify(dfText, i => {// language=Javascript
 				i.innerHTML = i.textContent
 					// 2025-03-19 https://stackoverflow.com/a/784547
 					// 2026-06-13 https://gemini.google.com/share/8660a99264ca
