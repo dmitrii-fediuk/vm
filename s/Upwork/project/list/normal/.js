@@ -14,6 +14,8 @@ const df_DT_Badges = `[data-test*='JobTileBadges']`; // 2026-06-15
 // language=CSS
 const df_DT_Date = `[data-test='job-pubilshed-date']`; // 2026-06-13
 // language=CSS
+const df_DT_Featured = `[data-test*='JobBadgePremium']`; // 2026-06-15
+// language=CSS
 const df_DT_JobInfo = `[data-test='JobInfo']`; // 2026-06-15
 // language=CSS
 const dfProject = `article[data-test='JobTile']`; // 2026-06-13
@@ -23,7 +25,8 @@ const dfProject = `article[data-test='JobTile']`; // 2026-06-13
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`${df_DT_JobInfo} > [data-test='duration-label']` // 2026-06-15
+		`${df_DT_Badges}:has(${df_DT_Featured}:only-child)` // 2026-06-15
+		,`${df_DT_JobInfo} > [data-test='duration-label']` // 2026-06-15
 		,`${df_DT_JobInfo} > [data-test='experience-level']` // 2026-06-15
 		,`${df_DT_JobInfo} > [data-test='is-fixed-price'] > .mr-1` // 2026-06-15
 		,`${df_DT_JobInfo} > [data-test='is-fixed-price']::before` // 2026-06-15
