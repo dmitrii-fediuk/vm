@@ -7,7 +7,7 @@
 // @match *://www.upwork.com/nx/find-work/best-matches*
 // 2026-06-04
 // @match *://www.upwork.com/nx/s/find-work/best-matches*
-// @name Upwork / Project / List / Best Matches
+// @name Upwork / Project / List / Best Matches / nx
 // ==/UserScript==
 // 2024-10-13, 2024-12-24 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 // language=CSS
