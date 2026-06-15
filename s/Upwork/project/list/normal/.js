@@ -206,8 +206,8 @@ GM_addStyle([
 		 */
 		const fRate = (() => {
 			// 2025-10-02 https://g.co/gemini/share/6984ff9b61f7
-			const vI = +new URL(location).searchParams.get('df-rate-ge');
-			const vLB = +new URL(location).searchParams.get('df-rate-lb-ge');
+			const v0 = +new URL(location).searchParams.get('df-rate-min-ge');
+			const v1 = +new URL(location).searchParams.get('df-rate-max-ge');
 			return a => {
 				let r = true;
 				if (vLB || vI) {
@@ -217,7 +217,7 @@ GM_addStyle([
 						terms = terms.replace(h, '');
 						const bb = terms.split(' - ').map(b => parseFloat(b.replace('$', '')));
 						if (bb.length) {
-							r = (!vLB || vLB > bb[0]) && (!vI || 2 > bb.length || vI <= bb[1]);
+							r = (!v0 || v0 <= bb[0]) && (!v1 || 2 > bb.length || v1 <= bb[1]);
 						}
 					}
 				}
