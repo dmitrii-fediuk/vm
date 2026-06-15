@@ -241,10 +241,13 @@ GM_addStyle([
 		const fLength = (() => {
 			const v = +new URL(location).searchParams.get('df-length');
 			return a => {
-				let r = !v;
-				if (!r) {
+				let r = true;
+				if (v) {
 					const e = a.querySelector('p.text-body-sm');
-					r = !e || v < e.textContent.trim().length;
+					// 2026-06-15 Do not hide skipped projects: just show them as skipped.
+					if (e) {
+						r = v < e.textContent.trim().length;
+					}
 				}
 				return r;
 			};
