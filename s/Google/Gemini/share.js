@@ -8,8 +8,9 @@
 // @name Google / Gemini / Share
 // ==/UserScript==
 // 2025-04-20 "Improve `gemini.google.com`": https://github.com/dmitrii-fediuk/vm/issues/60
-// 2025-11-04
-const dfResearchW = 'deep-research-confirmation-widget'; // 2025-11-04
+const dfResearchW = `deep-research-confirmation-widget`; // 2025-11-04
+const df_C_DRC = `.deep-research-content`; // 2026-06-15
+const df_T_SCC = `structured-content-container`; // 2026-06-15
 // 2025-08-05
 // language=CSS
 GM_addStyle([
@@ -41,7 +42,7 @@ GM_addStyle([
 	,`share-turn-viewer:has(${dfResearchW}) response-container` // 2025-11-04
 	,`share-viewer ~ *`
 	,`share-viewer:has(${dfResearchW}) share-turn-viewer:not(:has(${dfResearchW})) user-query` // 2025-11-04
-	,`structured-content-container:not([data-test-id='immersive-artifact-content'])` // 2026-06-14
+	,`response-container:has(${df_T_SCC}${df_C_DRC}) ${df_T_SCC}:not(${df_C_DRC})` // 2026-06-14
 	,`top-bar-actions` // 2025-04-21
 	,`user-notice` // 2025-11-04
 	,dfResearchW // 2025-11-04
