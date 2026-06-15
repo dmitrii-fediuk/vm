@@ -74,6 +74,7 @@ GM_addStyle([
 GM_addStyle([
 	`#main article` // 2025-03-18
 	,`${df_DT_Date}:not(#a)` // 2025-03-18
+	,`[class*='mb-']` // 2026-06-15
 	,`article ${df_DT_JobInfo}`
 	,`article [data-test*='JobDescription']`
 	,`article [data-test='JobInfoClient']`
