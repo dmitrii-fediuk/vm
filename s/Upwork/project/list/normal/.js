@@ -111,6 +111,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
 ;
+// 2026-06-15
+// language=CSS
+GM_addStyle([
+	df_DT_JobInfo // 2026-06-15
+]
+	 // language=Javascript
+	.join(',') + '{column-gap: .5rem !important;}')
+;
 // 2026-06-13
 // language=CSS
 GM_addStyle([
