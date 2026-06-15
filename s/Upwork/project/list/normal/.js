@@ -165,26 +165,34 @@ GM_addStyle([
 	,'line-height': 1.2
 	,'letter-spacing': '.03em' // 2026-05-04
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
-// 2024-12-28
-// language=CSS
-GM_addStyle([
-	'.job-tile-actions'
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
-			'display': 'block'
-			// language=Javascript
-			,'left': '60%'
-			,'margin-top': '0.5rem'
+// 2026-06-15
+if (true) {
+	// language=CSS
+	GM_addStyle(`.job-tile-actions {display: none !important;}`);
+}
+// 2026-06-15 For testing
+else {
+	// 2024-12-28
+	// language=CSS
+	GM_addStyle([
+		'.job-tile-actions'
+	]
+		// language=Javascript
+		.join(',') + '{' +
 			// language=CSS
-			,'opacity': 0.5 // 2025-03-18
-			,'position': 'absolute'
-			,'z-index': 1
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
+			Object.entries({
+				'display': 'block'
+				// language=Javascript
+				,'left': '60%'
+				,'margin-top': '0.5rem'
+				// language=CSS
+				,'opacity': 0.5 // 2025-03-18
+				,'position': 'absolute'
+				,'z-index': 1
+			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+		'}'
+	);
+}
 // 2025-03-18
 (() => {
 	const process = (() => {
