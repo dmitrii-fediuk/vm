@@ -258,9 +258,9 @@ modify(dfText, i => {// language=Javascript
 		}
 	};
 	const openProject = b => {
-		const article = b.closest(dfJobTile);
-		if (article) {
-			const i = article.querySelector('.impression-tracker');
+		const p = b.closest(dfJobTile);
+		if (p) {
+			const i = p.querySelector('.impression-tracker');
 			if (i) {
 				const v = i.getAttribute('data-ev-opening_uid');
 				window.open(`https://www.upwork.com/jobs/~02${v}`, '_blank');
@@ -268,24 +268,27 @@ modify(dfText, i => {// language=Javascript
 		}
 	};
 	(() => {
-		let x = 0, y = 0, article;
+		let x = 0, y = 0, p;
 		const updateProject = () => {
-			article = document.elementFromPoint(x, y)?.closest(dfJobTile);
+			p = document.elementFromPoint(x, y)?.closest(dfJobTile);
 		};
-		document.addEventListener('mousemove', e => {
-			x = e.clientX; y = e.clientY;
-			updateProject();
-		}, true);
+		// 2026-06-16 https://gemini.google.com/share/720476d8112b
+		['mousemove', 'mouseenter'].forEach(i => {
+			document.addEventListener(i, e => {
+				x = e.clientX; y = e.clientY;
+				updateProject();
+			}, true);
+		});
 		document.addEventListener('scroll', updateProject, true);
 		document.addEventListener('keydown', e => {
 			if ('Enter' === e.key) {
 				stopEvent(e);
-				openProject(article);
+				openProject(p);
 			}
 			// 2025-06-06
 			else if ('Escape' === e.key) {
 				stopEvent(e);
-				hideProject(article);
+				hideProject(p);
 			}
 		}, true);
 	})();
