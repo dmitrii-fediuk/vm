@@ -4,7 +4,7 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Upwork/project/list/normal/.js
 // @icon https://www.upwork.com/favicon.ico
 // @match *://www.upwork.com/nx/search/jobs*
-// @name Upwork / Project / List / Normal / Main
+// @name Upwork / Project / List / Normal
 // ==/UserScript==
 // 2024-10-13, 2024-12-24 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 const ᛡ = unsafeWindow.df.upwork.project.list; // 2025-10-26
@@ -235,6 +235,21 @@ GM_addStyle([
 			return a => !enable || h === (qTerms(a)?.textContent.trim() ?? h);
 		})();
 		/**
+		 * 2026-06-15
+		 * @return {boolean}
+		 */
+		const fLength = (() => {
+			const v = new URL(location).searchParams.has('df-length');
+			return a => {
+				let r = !!v;
+				if (r) {
+					const e = a.querySelector('p.text-body-sm');
+					r = !e || v < e.textContent.trim().length;
+				}
+				return r;
+			};
+		})();
+		/**
 		 * 2025-10-02 https://g.co/gemini/share/cf6a1129ba3d
 		 * @return {boolean}
 		 */
@@ -320,7 +335,7 @@ GM_addStyle([
 			});
 		};
 		// 2025-03-18, 2025-10-02 https://g.co/gemini/share/60eb4bcb2b7f
-		const filters = [fCountries, fRate, fRateNotSpecified, fPhrases, fTags];
+		const filters = [fCountries, fRate, fRateNotSpecified, fLength, fPhrases, fTags];
 		return c => c.querySelectorAll('article').forEach(a =>
 			filters.every(f => f(a)) ? format(a) : a.style.display = 'none'
 		);
