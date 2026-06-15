@@ -210,7 +210,7 @@ GM_addStyle([
 			const v1 = +new URL(location).searchParams.get('df-rate-max-ge');
 			return a => {
 				let r = true;
-				if (vLB || vI) {
+				if (v0 || v1) {
 					let terms = qTerms(a)?.textContent?.trim();
 					const h = 'Hourly: ';
 					if (terms && terms.startsWith(h)) {
