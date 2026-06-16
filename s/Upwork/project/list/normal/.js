@@ -10,6 +10,8 @@
 const ᛡ = unsafeWindow.df.upwork.project.list; // 2025-10-26
 const dfNL = `df-nl`; // 2026-06-13
 // language=CSS
+const df_C_JobTileActions = `.job-tile-actions`; // 2026-06-17
+// language=CSS
 const df_DT_Badges = `[data-test*='JobTileBadges']`; // 2026-06-15
 // language=CSS
 const df_DT_Date = `[data-test='job-pubilshed-date']`; // 2026-06-13

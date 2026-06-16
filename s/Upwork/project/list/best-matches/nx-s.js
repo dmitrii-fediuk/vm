@@ -8,6 +8,8 @@
 // ==/UserScript==
 // 2024-10-13, 2024-12-24 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
 // language=CSS
+const df_C_JobTileActions = `.job-tile-actions`; // 2026-06-17
+// language=CSS
 const dfJobTile = `[data-test='job-tile']`; // 2026-06-04
 // language=CSS
 const dfJobTileBadges = `[data-test='job-tile-badges']`; // 2026-06-04
