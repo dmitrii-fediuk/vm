@@ -54,6 +54,7 @@ setTimeout(() => {
 		,`:has(> [data-test='menu-container'])` // 2026-06-04
 		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
 		,`[data-test='feed-best-match'] > :not(${df_Ev_BestMatch})` // 2026-06-04
+		,`[data-test='feedback-label']` // 2026-06-16
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
