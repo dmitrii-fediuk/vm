@@ -363,7 +363,7 @@ GM_addStyle([
 // 2024-12-28
 // language=CSS
 GM_addStyle([
-	`:has(> .job-tile-actions)` // 2026-06-13
+	`:has(> ${df_C_JobTileActions})` // 2026-06-13
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -372,7 +372,7 @@ GM_addStyle([
 			'display': 'block'
 			// language=Javascript
 			,'left': '60%'
-			,'margin-top': '0.5rem'
+			,'margin-top': '.5rem'
 			,'position': 'absolute'
 			,'z-index': 1
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
