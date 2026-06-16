@@ -204,24 +204,32 @@ GM_addStyle(`${dfText} br {
 	display: block !important;
 	height: 1px !important;
 }`);
-// 2024-12-28
-// language=CSS
-GM_addStyle([
-	'.job-tile-actions'
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		Object.entries({
-			'display': 'block'
-			// language=Javascript
-			,'left': '60%'
-			,'margin-top': '0.5rem'
-			,'position': 'absolute'
-			,'z-index': 1
-		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
-	'}'
-);
+// 2026-06-17
+if (true) {
+	// language=CSS
+	GM_addStyle(`${df_C_JobTileActions} {display: none !important;}`);
+}
+// 2026-06-17 For testing
+else {
+	// 2024-12-28
+	// language=CSS
+	GM_addStyle([
+		df_C_JobTileActions
+	]
+		// language=Javascript
+		.join(',') + '{' +
+			// language=CSS
+			Object.entries({
+				'display': 'block'
+				// language=Javascript
+				,'left': '60%'
+				,'margin-top': '0.5rem'
+				,'position': 'absolute'
+				,'z-index': 1
+			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+		'}'
+	);
+}
 // 2025-09-05
 // 1) https://g.co/gemini/share/9776258b5353
 // 2) https://g.co/gemini/share/fdb2b22cbe50
