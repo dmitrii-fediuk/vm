@@ -29,12 +29,12 @@ const dfText = `p.text-body-sm`; // 2026-06-16
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`${df_DT_Badges}:has(${df_DT_Featured}:only-child)` // 2026-06-15
+		`${df_C_JobTileActions}:has(button[data-test='job-toggle-collapsed'])` // 2026-06-13
+		,`${df_DT_Badges}:has(${df_DT_Featured}:only-child)` // 2026-06-15
 		,`${df_DT_JobInfo} > [data-test='duration-label']` // 2026-06-15
 		,`${df_DT_JobInfo} > [data-test='experience-level']` // 2026-06-15
 		,`${df_DT_JobInfo} > [data-test='is-fixed-price'] > .mr-1` // 2026-06-15
 		,`${df_DT_JobInfo} > [data-test='is-fixed-price']::before` // 2026-06-15
-		,`${df_C_JobTileActions}:has(button[data-test='job-toggle-collapsed'])` // 2026-06-13
 		,`.jobs-grid-container > :has([data-test='filter-active-item'])` // 2025-03-18 Filters at the header
 		,`.nav-parent-wrapper`
 		,`:has(> .main-header)` // 2025-03-18 The header
