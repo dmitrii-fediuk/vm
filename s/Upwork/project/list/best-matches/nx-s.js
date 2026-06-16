@@ -223,7 +223,7 @@ else {
 				'display': 'block'
 				// language=Javascript
 				,'left': '60%'
-				,'margin-top': '0.5rem'
+				,'margin-top': '.5rem'
 				,'position': 'absolute'
 				,'z-index': 1
 			}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
