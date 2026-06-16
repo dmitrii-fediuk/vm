@@ -172,14 +172,14 @@ GM_addStyle([
 // 2026-06-15
 if (true) {
 	// language=CSS
-	GM_addStyle(`.job-tile-actions {display: none !important;}`);
+	GM_addStyle(`${df_C_JobTileActions} {display: none !important;}`);
 }
 // 2026-06-15 For testing
 else {
 	// 2024-12-28
 	// language=CSS
 	GM_addStyle([
-		'.job-tile-actions'
+		df_C_JobTileActions
 	]
 		// language=Javascript
 		.join(',') + '{' +
