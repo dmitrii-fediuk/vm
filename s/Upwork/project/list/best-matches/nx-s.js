@@ -49,6 +49,7 @@ setTimeout(() => {
 		,`.impression-tracker` // 2026-06-04
 		,`.job-tile-actions > :not([data-test='job-feedback'])` // 2026-06-04
 		,`.job-tile-bonus-connects-tag-wrap:not(#a)` // 2026-06-04
+		,`.job-tile-toggle` // 2026-06-16
 		,`:has(> ${dfJobsFeed}) > :not(${dfJobsFeed}):not(#a1):not(#a2)` // 2026-06-04
 		,`:has(> [data-test='menu-container'])` // 2026-06-04
 		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
@@ -153,7 +154,6 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.job-tile-actions` // 2026-06-04
-	,`.job-tile-toggle` // 2026-06-04
 	,dfJobTileBadges // 2026-06-04
 ]
 	 // language=Javascript
