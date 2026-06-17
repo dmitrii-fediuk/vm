@@ -207,7 +207,7 @@ GM_addStyle(`${dfText} br {
 // 2026-06-17
 if (true) {
 	// language=CSS
-	GM_addStyle(`${df_C_JobTileActions} {display: none !important;}`);
+	GM_addStyle(`${df_C_JobTileActions}:not(#a) {display: none !important;}`);
 }
 // 2026-06-17 For testing
 else {
