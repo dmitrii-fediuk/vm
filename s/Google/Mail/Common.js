@@ -38,6 +38,7 @@ GM_addStyle([
 	,`div:has(> div > #itamenu)` // 2024-12-02 The screen keyboard button on the mail screen
 	,`td [aria-label='Add reaction']`
 	,`td [aria-label='Not starred']`
+	,`td[role='gridcell'] [role='link'] + span:has(> [role='button'])` // 2026-06-23
 	// 2024-12-02 Gemini, Chat, Status, etc.
 	,`header[role='banner'] :has(> [data-tooltip='Settings']) > :not([data-tooltip='Settings'])`
 ]
