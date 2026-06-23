@@ -41,6 +41,8 @@ GM_addStyle([
 	,`td[role='gridcell'] [role='link'] + span:has(> [role='button'])` // 2026-06-23
 	// 2024-12-02 Gemini, Chat, Status, etc.
 	,`header[role='banner'] :has(> [data-tooltip='Settings']) > :not([data-tooltip='Settings'])`
+	 // 2026-06-23
+	,`:has(> [data-tooltip='Spam']) span:has(a[href^='https://mail.google.com/mail/']) + div`
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
