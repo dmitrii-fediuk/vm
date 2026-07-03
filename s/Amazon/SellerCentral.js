@@ -42,6 +42,7 @@ GM_addStyle([
 // 2026-07-04
 // language=CSS
 GM_addStyle([
+	`.lego-header` // 2026-07-04
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
