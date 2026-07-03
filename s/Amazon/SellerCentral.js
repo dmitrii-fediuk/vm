@@ -98,6 +98,7 @@ GM_addStyle([
 // 2026-07-04
 // language=CSS
 GM_addStyle([
+	`.hh-help-page` // 2026-07-04
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
