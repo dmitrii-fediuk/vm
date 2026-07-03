@@ -42,8 +42,9 @@ GM_addStyle([
 // 2026-07-04
 // language=CSS
 GM_addStyle([
-	`.hh-article-country-box` // 2026-07-04
-	, `.lego-header` // 2026-07-04
+	`#sc-footer-container`  // 2026-07-04
+	,`.hh-article-country-box` // 2026-07-04
+	,`.lego-header` // 2026-07-04
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
