@@ -47,6 +47,7 @@ GM_addStyle([
 	,`.hh-article-country-box` // 2026-07-04
 	,`.hh-scroll-to-top-box` // 2026-07-04
 	,`.lego-header` // 2026-07-04
+	,`iframe` // 2026-07-04
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
