@@ -1,8 +1,8 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/mariadb.com.js
-// @icon https://360929122-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/organizations%2FdiTpXxF5WsbHqTReoBsS%2Fsites%2Fsite_0SXwk%2Ficon%2FQ3m9jytowcs8OgGJCEew%2Fmariadb-logo-docs-bitmap.png?alt=media&token=721f3364-39ef-41a2-bf1b-e683a838d2ba
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Amazon/SellerCentral.js
+// @icon https://upload.wikimedia.org/wikipedia/commons/d/de/Amazon_icon.png
 // @match https://mariadb.com/*
 // @name Amazon / Seller Central
 // ==/UserScript==
