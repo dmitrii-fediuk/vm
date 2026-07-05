@@ -88,6 +88,7 @@ GM_addStyle([
 // 2026-07-06
 // language=CSS
 GM_addStyle([
+	`#content` // 2026-07-06
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0.25rem 0 !important;}')
@@ -289,13 +290,14 @@ GM_addStyle([
 // 2026-07-06
 // language=CSS
 GM_addStyle([
+	`#content` // 2026-07-06
 ]
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
 		['max-width', 'width', 'min-width']
 			// language=Javascript
-			.map(k => `${k}: 100% !important;`).join(' ') +
+			.map(k => `${k}: unset !important;`).join(' ') +
 	'}'
 );
 // 2026-07-06
