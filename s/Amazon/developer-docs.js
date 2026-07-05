@@ -160,7 +160,7 @@ GM_addStyle([
 	`main.rm-Guides > .rm-Container` // 2026-07-06
 ]
 	 // language=Javascript
-	.join(',') + '{flex-direction: row !important;}')
+	.join(',') + '{flex-direction: column-reverse !important;}')
 ;
 // 2026-07-06
 // language=CSS
