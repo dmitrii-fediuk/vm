@@ -155,7 +155,7 @@ GM_addStyle([
 // 2026-07-06
 // language=CSS
 GM_addStyle([
-	`nav.rm-Sidebar_guides` // 2026-07-06
+	`main.rm-Guides > .rm-Container` // 2026-07-06
 ]
 	 // language=Javascript
 	.join(',') + '{flex-direction: row !important;}')
