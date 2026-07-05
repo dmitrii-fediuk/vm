@@ -4,7 +4,7 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Amazon/developer-docs.js
 // @icon https://developer-docs.amazon/favicon.ico
 // @match https://developer-docs.amazon/*
-// @name Amazon / Seller Central
+// @name Amazon / developer-docs
 // ==/UserScript==
 // 2026-07-06 "Improve `developer-docs.amazon`": https://github.com/dmitrii-fediuk/vm/issues/130
 // language=CSS
@@ -151,6 +151,14 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{flex-basis: 100%; !important;}')
+;
+// 2026-07-06
+// language=CSS
+GM_addStyle([
+	`nav.rm-Sidebar_guides` // 2026-07-06
+]
+	 // language=Javascript
+	.join(',') + '{flex-direction: row !important;}')
 ;
 // 2026-07-06
 // language=CSS
