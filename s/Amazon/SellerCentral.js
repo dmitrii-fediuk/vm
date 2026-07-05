@@ -160,14 +160,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{flex-basis: 100%; !important;}')
 ;
-// 2026-07-06
-// language=CSS
-GM_addStyle([
-	`nav.rm-Sidebar_guides` // 2026-07-06
-]
-	 // language=Javascript
-	.join(',') + '{flex-direction: row !important;}')
-;
 // 2026-07-04
 // language=CSS
 GM_addStyle([
