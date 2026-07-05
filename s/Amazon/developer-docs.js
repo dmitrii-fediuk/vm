@@ -213,6 +213,19 @@ GM_addStyle([
 // 2026-07-06
 // language=CSS
 GM_addStyle([
+	`#hub-sidebar` // 2026-07-06
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['max-height', 'height', 'min-height']
+			// language=Javascript
+			.map(k => `${k}: unset !important;`).join(' ') +
+	'}'
+);
+// 2026-07-06
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: unset !important;}')
