@@ -44,6 +44,7 @@ GM_addStyle([
 GM_addStyle([
 	`footer` // 2026-07-06
 	,`header.rm-Header` // 2026-07-06
+	,`section.content-toc` // 2026-07-06
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
