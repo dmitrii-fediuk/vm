@@ -95,7 +95,8 @@ GM_addStyle([
 // 2026-07-06
 // language=CSS
 GM_addStyle([
-	`#content` // 2026-07-06
+	`#content-head` // 2026-07-06
+	,`#content` // 2026-07-06
 	,`section.content-body` // 2026-07-06
 ]
 	 // language=Javascript
