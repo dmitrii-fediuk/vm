@@ -42,7 +42,8 @@ GM_addStyle([
 // 2026-07-06
 // language=CSS
 GM_addStyle([
-	`header.rm-Header` // 2026-07-06
+	`footer` // 2026-07-06
+	,`header.rm-Header` // 2026-07-06
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
