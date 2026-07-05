@@ -297,7 +297,7 @@ GM_addStyle([
 		// language=CSS
 		['max-width', 'width', 'min-width']
 			// language=Javascript
-			.map(k => `${k}: unset !important;`).join(' ') +
+			.map(k => `${k}: 100% !important;`).join(' ') +
 	'}'
 );
 // 2026-07-06
