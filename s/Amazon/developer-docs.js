@@ -293,6 +293,7 @@ GM_addStyle([
 GM_addStyle([
 	`#content` // 2026-07-06
 	,`.rm-Container` // 2026-07-06
+	,`section.content-body` // 2026-07-06
 ]
 	// language=Javascript
 	.join(',') + '{' +
