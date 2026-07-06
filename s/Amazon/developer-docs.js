@@ -45,6 +45,7 @@ GM_addStyle([
 	`#Explorer #content ~ *` // 2026-07-06
 	,`footer` // 2026-07-06
 	,`header.rm-Header` // 2026-07-06
+	,`nav.rm-Sidebar::before` // 2026-07-0
 	,`section.content-body > .UpdatedAt ~ *` // 2026-07-06
 	,`section.content-toc` // 2026-07-06
 ]
