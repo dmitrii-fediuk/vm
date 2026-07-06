@@ -164,7 +164,8 @@ GM_addStyle([
 // 2026-07-06
 // language=CSS
 GM_addStyle([
-	`main.rm-Guides > .rm-Container` // 2026-07-06
+	`#Explorer`
+	,`main.rm-Guides > .rm-Container` // 2026-07-06
 ]
 	 // language=Javascript
 	.join(',') + '{flex-direction: column-reverse !important;}')
