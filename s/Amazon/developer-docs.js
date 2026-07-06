@@ -214,7 +214,7 @@ GM_addStyle([
 // 2026-07-06
 // language=CSS
 GM_addStyle([
-	`#hub-sidebar` // 2026-07-06
+	`nav.rm-Sidebar` // 2026-07-06
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -262,7 +262,7 @@ GM_addStyle([
 // 2026-07-06
 // language=CSS
 GM_addStyle([
-	`#hub-sidebar` // 2026-07-06
+	`nav.rm-Sidebar` // 2026-07-06
 ]
 	 // language=Javascript
 	.join(',') + '{overflow: unset !important;}')
@@ -277,7 +277,7 @@ GM_addStyle([
 // 2026-07-06
 // language=CSS
 GM_addStyle([
-	`#hub-sidebar` // 2026-07-06
+	`nav.rm-Sidebar` // 2026-07-06
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
