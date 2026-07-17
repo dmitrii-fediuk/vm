@@ -6,7 +6,7 @@
 // @match https://help.shopify.com/*
 // @name Shopify / Help
 // ==/UserScript==
-// 2026-07-17 "Improve `developer-docs.amazon`": https://github.com/dmitrii-fediuk/vm/issues/132
+// 2026-07-17 "Improve `shopify.com`": https://github.com/dmitrii-fediuk/vm/issues/132
 // language=CSS
 GM_addStyle([
 ]
