@@ -79,7 +79,6 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
-	`#content` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -87,7 +86,6 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
-	`#content` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0.25rem 0 !important;}')
@@ -95,9 +93,6 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
-	`#content-head` // 2026-07-17
-	,`#content` // 2026-07-17
-	,`section.content-body` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -161,8 +156,6 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
-	`#Explorer`
-	,`main.rm-Guides > .rm-Container` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{flex-direction: column-reverse !important;}')
@@ -212,7 +205,6 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
-	`nav.rm-Sidebar` // 2026-07-17
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -275,7 +267,6 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
-	`nav.rm-Sidebar` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
@@ -311,7 +302,6 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
-	`aside` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{z-index: unset !important;}')
@@ -319,9 +309,6 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
-	`#content` // 2026-07-17
-	,`.rm-Container` // 2026-07-17
-	,`section.content-body` // 2026-07-17
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -417,4 +404,4 @@ GM_addStyle([
 );
 // 2026-07-17
 // language=CSS
-GM_addStyle(`body {margin: .5rem !important;}`);
+//GM_addStyle(`body {margin: .5rem !important;}`);
