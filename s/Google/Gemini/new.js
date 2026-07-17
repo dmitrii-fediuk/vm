@@ -16,10 +16,11 @@
 // 2025-08-02
 // language=CSS
 GM_addStyle([
-	`auto-suggest` // 2025-08-15
-	,`chat-app-banners` // 2025-08-30
-	,`.announcement-banner-container` // 2025-08-30
+	`.announcement-banner-container` // 2025-08-30
 	,`.contextual-actions-container` // 2025-08-15
+	,`auto-suggest` // 2025-08-15
+	,`chat-app-banners` // 2025-08-30
+	,`.chat-container > :not(input-container)` // 2026-07-07
 	// 2025-08-02
 	// Hiding `chat-window-content` is a mistake
 	// because it prevents us from knowing when Gemini has finished thinking.
