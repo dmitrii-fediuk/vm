@@ -446,3 +446,6 @@ GM_addStyle(`h2 {margin: .5rem 0 !important;}`);
 // 2026-07-17
 // language=CSS
 GM_addStyle(`h4 {margin: .15rem 0 !important;}`);
+// 2026-07-17
+// language=CSS
+GM_addStyle(`.note {padding: .25rem !important;}`);
