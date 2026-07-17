@@ -44,6 +44,7 @@ GM_addStyle([
 GM_addStyle([
 	`.sticky` // 2026-07-17
 	,`:has(> button > svg[data-testid='edit-post-icon'])` // 2026-07-17
+	,`a svg.aspect-square` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
