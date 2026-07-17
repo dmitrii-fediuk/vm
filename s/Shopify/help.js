@@ -42,12 +42,6 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
-	`#Explorer #content ~ *` // 2026-07-17
-	,`footer` // 2026-07-17
-	,`header.rm-Header` // 2026-07-17
-	,`nav.rm-Sidebar::before` // 2026-07-0
-	,`section.content-body > .UpdatedAt ~ *` // 2026-07-17
-	,`section.content-toc` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
