@@ -6,7 +6,7 @@
 // @match https://developer-docs.amazon/*
 // @name Amazon / developer-docs
 // ==/UserScript==
-// 2026-07-17 "Improve `developer-docs.amazon`": https://github.com/dmitrii-fediuk/vm/issues/130
+// 2026-07-17 "Improve `developer-docs.amazon`": https://github.com/dmitrii-fediuk/vm/issues/132
 // language=CSS
 GM_addStyle([
 ]
