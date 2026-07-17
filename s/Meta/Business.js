@@ -1,7 +1,7 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Amazon/developer-docs.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Meta/Business.js
 // @icon https://developer-docs.amazon/favicon.ico
 // @match https://business.facebook.com/*
 // @name Meta / Business
