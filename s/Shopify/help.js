@@ -216,6 +216,7 @@ GM_addStyle([
 GM_addStyle([
 	`[class*=h-]` // 2026-07-17
 	,`[class*=height]` // 2026-07-17
+	,`[class*=size-]` // 2026-07-17
 ]
 	// language=Javascript
 	.join(',') + '{' +
