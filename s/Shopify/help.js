@@ -51,6 +51,8 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`#custom-scroll-frame` // 2026-07-17
+	,`[class*=h-]` // 2026-07-17
+	,`[class*=height]` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
