@@ -67,3 +67,15 @@ GM_addStyle([
 //GM_addStyle(`chat-window-content {
 //	background: yellow; display: block !important; height: 25% !important;
 //}`);
+
+// 2026-07-17
+// language=CSS
+GM_addStyle(`chat-window-content {
+	background: yellow;
+}`);
+
+// 2026-07-17
+// language=CSS
+GM_addStyle(`input-container {
+	background: pink;
+}`);
