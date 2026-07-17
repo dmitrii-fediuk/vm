@@ -31,7 +31,7 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
-	`chat-window` // 2026-078-17
+	`chat-window` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{background: unset !important;}')
@@ -39,7 +39,7 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
-	`*` // 2026-078-17
+	`*` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{transition: unset !important;}')
