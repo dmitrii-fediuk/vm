@@ -10,12 +10,13 @@
 // 2025-03-28
 // language=CSS
 GM_addStyle([
-	'.bard-logo-container'
-	,'.buttons-container.referral' // 2025-05-17
-	,'[data-placeholder="Ask Gemini"]::after'
-	,'[data-placeholder="Ask Gemini"]::before'
-	,'g1-dynamic-upsell-button' // 2026-03-14
-	,'speech-dictation-mic-button'
+	`.bard-logo-container`
+	,`.buttons-container.referral` // 2025-05-17
+	,`[data-placeholder='Ask Gemini']::after`
+	,`[data-placeholder='Ask Gemini']::before`
+	,`g1-dynamic-upsell-button` // 2026-03-14
+	,`hallucination-disclaimer` // 2026-07-17
+	,`speech-dictation-mic-button`
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
