@@ -18,7 +18,7 @@
 GM_addStyle([
 	`.announcement-banner-container` // 2025-08-30
 	,`.contextual-actions-container` // 2025-08-15
-	,`.chat-container > :not(input-container)` // 2026-07-07
+	//,`.chat-container > :not(input-container)` // 2026-07-07
 	,`[data-test-id='temp-chat-button-container']` // 2026-07-07
 	,`auto-suggest` // 2025-08-15
 	,`chat-app-banners` // 2025-08-30
@@ -54,3 +54,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
+// 2026-07-17
+// language=CSS
+GM_addStyle(`chat-window-content {max-height: 25% !important;}`);
