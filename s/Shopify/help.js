@@ -88,6 +88,7 @@ GM_addStyle([
 	,`[class*=mb-]` // 2026-07-17
 	,`[class*=mt-]` // 2026-07-17
 	,`[class*=mx-]` // 2026-07-17
+	,`[class*=my-]` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -106,6 +107,7 @@ GM_addStyle([
 	`[class*=pb-]` // 2026-07-17
 	,`[class*=pt-]` // 2026-07-17
 	,`[class*=px-]` // 2026-07-17
+	,`[class*=py-]` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
