@@ -72,7 +72,9 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle(`infinite-scroller {
-	padding-bottom: 0; padding-left: 0; padding-right: 0;
+	padding-bottom: 0 !important; 
+	padding-left: 0 !important; 
+	padding-right: 0 !important;
 }`);
 
 // 2026-07-17
