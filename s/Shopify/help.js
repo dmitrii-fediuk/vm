@@ -1,7 +1,7 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Shopify/Help.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Shopify/help.js
 // @icon https://developer-docs.amazon/favicon.ico
 // @match https://developer-docs.amazon/*
 // @name Shopify / Help
