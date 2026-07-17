@@ -78,12 +78,12 @@ GM_addStyle([
 
 // 2026-07-17
 // language=CSS
-GM_addStyle(`chat-window-content {
-	background: yellow;
-}`);
+//GM_addStyle(`chat-window-content {
+//	background: yellow;
+//}`);
 
 // 2026-07-17
 // language=CSS
-GM_addStyle(`input-container {
-	background: pink;
-}`);
+//GM_addStyle(`input-container {
+//	background: pink;
+//}`);
