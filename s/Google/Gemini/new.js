@@ -45,3 +45,11 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}'
 );
+// 2026-07-17
+// language=CSS
+GM_addStyle([
+	`input-container` // 2026-07-17
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
