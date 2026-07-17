@@ -56,4 +56,4 @@ GM_addStyle([
 ;
 // 2026-07-17
 // language=CSS
-GM_addStyle(`chat-window-content {max-height: 25% !important;}`);
+GM_addStyle(`chat-window-content {background: yellow; display: block; height: 25% !important;}`);
