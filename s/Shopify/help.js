@@ -206,6 +206,7 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
+	`[class*=height]` // 2026-07-17
 ]
 	// language=Javascript
 	.join(',') + '{' +
