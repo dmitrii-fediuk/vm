@@ -3,8 +3,8 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Amazon/developer-docs.js
 // @icon https://developer-docs.amazon/favicon.ico
-// @match https://developer-docs.amazon/*
-// @name Amazon / developer-docs
+// @match https://business.facebook.com/*
+// @name Meta / Business
 // ==/UserScript==
 // 2026-07-17 "Improve `business.facebook.com`": https://github.com/dmitrii-fediuk/vm/issues/131
 // language=CSS
