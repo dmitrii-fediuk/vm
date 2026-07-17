@@ -71,6 +71,19 @@ GM_addStyle([
 ;
 // 2026-07-17
 // language=CSS
+GM_addStyle([
+	`.conversation-container` // 2026-07-17
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['max-width', 'width', 'min-width']
+			// language=Javascript
+			.map(k => `${k}: unset !important;`).join(' ') +
+	'}'
+);
+// 2026-07-17
+// language=CSS
 GM_addStyle(`infinite-scroller {
 	padding-bottom: 0 !important; 
 	padding-left: 0 !important; 
