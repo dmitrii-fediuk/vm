@@ -84,7 +84,8 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
-	`[class*=mb-]` // 2026-07-17
+	`.note` // 2026-07-17
+	,`[class*=mb-]` // 2026-07-17
 	,`[class*=mt-]` // 2026-07-17
 	,`[class*=mx-]` // 2026-07-17
 ]
