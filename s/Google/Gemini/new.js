@@ -18,8 +18,7 @@
 GM_addStyle([
 	`.announcement-banner-container` // 2025-08-30
 	,`.contextual-actions-container` // 2025-08-15
-	//,`.chat-container > :not(input-container)` // 2026-07-07
-	,`[data-test-id='temp-chat-button-container']` // 2026-07-07
+	,`[data-test-id='temp-chat-button-container']` // 2026-07-17
 	,`auto-suggest` // 2025-08-15
 	,`chat-app-banners` // 2025-08-30
 	// 2025-08-02
@@ -57,7 +56,7 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
-	`infinite-scroller` // 2026-07-17
+	//`infinite-scroller` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -72,16 +71,20 @@ GM_addStyle([
 ;
 // 2026-07-17
 // language=CSS
+GM_addStyle(`infinite-scroller {
+	padding-bottom: 0; padding-left: 0; padding-right: 0;
+}`);
+
+// 2026-07-17
+// language=CSS
 //GM_addStyle(`chat-window-content {
 //	background: yellow; display: block !important; height: 25% !important;
 //}`);
-
 // 2026-07-17
 // language=CSS
 //GM_addStyle(`chat-window-content {
 //	background: yellow;
 //}`);
-
 // 2026-07-17
 // language=CSS
 //GM_addStyle(`input-container {
