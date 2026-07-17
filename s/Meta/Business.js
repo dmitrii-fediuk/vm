@@ -2,7 +2,7 @@
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Meta/Business.js
-// @icon https://static.xx.fbcdn.net/rsrc.php/yr/r/VCi49svjqpA.webp
+// @icon https://business.facebook.com/images/bizkit/mbs_favicon.png
 // @match https://business.facebook.com/*
 // @name Meta / Business
 // ==/UserScript==
