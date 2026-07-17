@@ -42,6 +42,7 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
+	`.bottom-0` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
