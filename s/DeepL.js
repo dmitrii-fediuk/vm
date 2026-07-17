@@ -10,13 +10,13 @@
 // 2024-12-30
 // language=CSS
 GM_addStyle([
-	'#textareasContainer .sticky'
-	//,'.relative:has(> div > main) > :not(:has(> main))' // 2025-12-10
-	,'[data-testid="product-navigation-sidebar-container"]'
-	,'div:has(> button[data-testid="floating-button-ui"])'
-	,'div:has(> main) ~ *'
-	,'footer'
-	,'span:has(> [data-testid="downloadButtonHeader"])'
+	`#textareasContainer .sticky`
+	,`[data-testid='product-navigation-sidebar-container']`
+	,`div:has(> [data-testid='write-banner'])` // 2026-07-17
+	,`div:has(> button[data-testid='floating-button-ui'])`
+	,`div:has(> main) ~ *`
+	,`footer`
+	,`span:has(> [data-testid='downloadButtonHeader'])`
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
