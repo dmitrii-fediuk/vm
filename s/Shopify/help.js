@@ -263,6 +263,7 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
+	`[class*=overflow]` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{overflow: unset !important;}')
@@ -277,7 +278,7 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
-	`.overflow-y-scroll` // 2026-07-17
+	//`.overflow-y-scroll` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{overflow-y: unset !important;}')
