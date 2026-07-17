@@ -50,6 +50,7 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
+	`#custom-scroll-frame` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
