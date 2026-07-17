@@ -436,3 +436,12 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle(`body {margin: .5rem !important;}`);
+// 2026-07-17
+// language=CSS
+GM_addStyle(`h2 {margin: .5rem 0 !important;}`);
+// 2026-07-17
+// language=CSS
+GM_addStyle(`h3 {margin: .25rem 0 !important;}`);
+// 2026-07-17
+// language=CSS
+GM_addStyle(`p {margin: .25rem 0 !important;}`);
