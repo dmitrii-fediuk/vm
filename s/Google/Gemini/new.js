@@ -56,6 +56,14 @@ GM_addStyle([
 ;
 // 2026-07-17
 // language=CSS
-GM_addStyle(`chat-window-content {
-	background: yellow; display: block !important; height: 25% !important;
-}`);
+GM_addStyle([
+	`infinite-scroller` // 2026-07-17
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
+// 2026-07-17
+// language=CSS
+//GM_addStyle(`chat-window-content {
+//	background: yellow; display: block !important; height: 25% !important;
+//}`);
