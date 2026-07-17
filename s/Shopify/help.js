@@ -286,6 +286,14 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
+	`*` // 2026-07-17
+]
+	 // language=Javascript
+	.join(',') + '{scrollbar-width: unset !important;}')
+;
+// 2026-07-17
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{table-layout: unset !important;}')
