@@ -1,10 +1,10 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Amazon/developer-docs.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Shopify/Help.js
 // @icon https://developer-docs.amazon/favicon.ico
 // @match https://developer-docs.amazon/*
-// @name Amazon / developer-docs
+// @name Shopify / Help
 // ==/UserScript==
 // 2026-07-17 "Improve `developer-docs.amazon`": https://github.com/dmitrii-fediuk/vm/issues/132
 // language=CSS
