@@ -28,6 +28,22 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// 2026-07-17
+// language=CSS
+GM_addStyle([
+	`chat-window` // 2026-078-17
+]
+	 // language=Javascript
+	.join(',') + '{background: unset !important;}')
+;
+// 2026-07-17
+// language=CSS
+GM_addStyle([
+	`*` // 2026-078-17
+]
+	 // language=Javascript
+	.join(',') + '{transition: unset !important;}')
+;
 // 2025-03-28
 // language=CSS
 GM_addStyle([
