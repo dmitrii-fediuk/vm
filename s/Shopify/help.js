@@ -3,7 +3,7 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Shopify/help.js
 // @icon https://cdn.shopify.com/b/shopify-brochure2-assets/c97c60ca19c64a8b5378d9f9e971f7bd.png
-// @match https://developer-docs.amazon/*
+// @match https://help.shopify.com/*
 // @name Shopify / Help
 // ==/UserScript==
 // 2026-07-17 "Improve `developer-docs.amazon`": https://github.com/dmitrii-fediuk/vm/issues/132
