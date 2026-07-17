@@ -439,6 +439,9 @@ GM_addStyle([
 GM_addStyle(`body {margin: .5rem !important;}`);
 // 2026-07-17
 // language=CSS
+GM_addStyle(`h1 {margin: .75rem 0 !important;}`);
+// 2026-07-17
+// language=CSS
 GM_addStyle(`h2 {margin: .5rem 0 !important;}`);
 // 2026-07-17
 // language=CSS
