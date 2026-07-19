@@ -143,6 +143,7 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
+	`h1` // 2026-07-19
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
@@ -428,4 +429,13 @@ GM_addStyle([
 );
 // 2026-07-19
 // language=CSS
-//GM_addStyle(`body {margin: .5rem !important;}`);
+GM_addStyle(`body {margin: .5rem !important;}`);
+// 2026-07-19
+// language=CSS
+GM_addStyle(`h2 {margin: .5rem 0 !important;}`);
+// 2026-07-19
+// language=CSS
+GM_addStyle(`h4 {margin: .15rem 0 !important;}`);
+// 2026-07-19
+// language=CSS
+GM_addStyle(`.note {padding: .25rem !important;}`);
