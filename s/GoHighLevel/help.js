@@ -43,6 +43,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`[class*=feedback]` // 2026-07-19
+	,`[class*=icon]` // 2026-07-19
 	,`[class*=sidebar]` // 2026-07-19
 	,`[class*=sticky]` // 2026-07-19
 	,`[class*=video]` // 2026-07-19
