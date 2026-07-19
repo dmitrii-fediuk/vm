@@ -105,7 +105,7 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
-	h3`, `ol`, `p`, `ul` // 2026-07-19
+	`h3`, `ol`, `p`, `ul` // 2026-07-19
 ]
 	 // language=Javascript
 	.join(',') + '{margin: .25rem 0 !important;}')
