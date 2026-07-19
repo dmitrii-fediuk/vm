@@ -431,9 +431,9 @@ GM_addStyle([
 		Object.entries({
 			'font-family': 'Segoie UI'
 			// language=Javascript
-			,'font-size': '175%'
+			//,'font-size': '175%'
 			// language=CSS
-			,'line-height': 1.25
+			//,'line-height': 1.25
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
