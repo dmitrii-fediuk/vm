@@ -96,6 +96,7 @@ GM_addStyle([
 	,`[class*=my-]` // 2026-07-19
 	,`[class*=wrapper]` // 2026-07-19
 	,`[style*=margin]` // 2026-07-19
+	,`h1` // 2026-07-19
 	,`main` // 2026-07-19
 ]
 	 // language=Javascript
@@ -104,7 +105,7 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
-		`h1`, `h3`, `ol`, `p`, `ul` // 2026-07-19
+	h3`, `ol`, `p`, `ul` // 2026-07-19
 ]
 	 // language=Javascript
 	.join(',') + '{margin: .25rem 0 !important;}')
