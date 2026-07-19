@@ -3,7 +3,7 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Shopify/help.js
 // @icon https://cdn.shopify.com/b/shopify-brochure2-assets/c97c60ca19c64a8b5378d9f9e971f7bd.png
-// @match https://help.shopify.com/*
+// @match https://help.gohighlevel.com/*
 // @name GoHighLevel / Help
 // ==/UserScript==
 // 2026-07-19 "Improve `gohighlevel.com`": https://github.com/dmitrii-fediuk/vm/issues/133
