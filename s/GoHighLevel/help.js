@@ -43,15 +43,16 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
-	`[class*=feedback]` // 2026-07-19
+	`:is(h2, h3, h4, h5, h6) br` // 2026-07-19
+	,`[class*=feedback]` // 2026-07-19
 	,`[class*=icon]` // 2026-07-19
 	,`[class*=sidebar]` // 2026-07-19
 	,`[class*=sticky]` // 2026-07-19
 	,`[class*=video]` // 2026-07-19
 	,`header` // 2026-07-19
 	,`iframe` // 2026-07-19
-	,`p:has(> br:only-child)` // 2026-07-19
 	,`p:has(> [class*=video])` // 2026-07-19
+	,`p:has(> br:only-child)` // 2026-07-19
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
