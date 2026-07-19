@@ -47,6 +47,7 @@ GM_addStyle([
 	,`[class*=sidebar]` // 2026-07-19
 	,`[class*=sticky]` // 2026-07-19
 	,`[class*=video]` // 2026-07-19
+	,`br` // 2026-07-19
 	,`header` // 2026-07-19
 	,`iframe` // 2026-07-19
 ]
@@ -86,6 +87,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.container` // 2026-07-19
+	,`.fw-content` // 2026-07-19
 	,`[class*=mb-]` // 2026-07-19
 	,`[class*=mt-]` // 2026-07-19
 	,`[class*=mx-]` // 2026-07-19
