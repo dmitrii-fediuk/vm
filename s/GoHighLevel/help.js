@@ -90,6 +90,7 @@ GM_addStyle([
 	,`[class*=mt-]` // 2026-07-19
 	,`[class*=mx-]` // 2026-07-19
 	,`[class*=my-]` // 2026-07-19
+	,`[class*=wrapper]` // 2026-07-19
 	,`[style*=margin]` // 2026-07-19
 	,`main` // 2026-07-19
 ]
@@ -112,6 +113,7 @@ GM_addStyle([
 	,`[class*=pt-]` // 2026-07-19
 	,`[class*=px-]` // 2026-07-19
 	,`[class*=py-]` // 2026-07-19
+	,`[class*=wrapper]` // 2026-07-19
 	,`[style*=padding]` // 2026-07-19
 ]
 	 // language=Javascript
