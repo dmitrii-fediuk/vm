@@ -85,6 +85,10 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.container` // 2026-07-19
+	,`[class*=mb-]` // 2026-07-19
+	,`[class*=mt-]` // 2026-07-19
+	,`[class*=mx-]` // 2026-07-19
+	,`[class*=my-]` // 2026-07-19
 	,`main` // 2026-07-19
 ]
 	 // language=Javascript
@@ -93,6 +97,7 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
+		`h1`, `h3`, `ol`, `p`, `ul` // 2026-07-19
 ]
 	 // language=Javascript
 	.join(',') + '{margin: .25rem 0 !important;}')
@@ -101,6 +106,10 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.container` // 2026-07-19
+	,`[class*=pb-]` // 2026-07-19
+	,`[class*=pt-]` // 2026-07-19
+	,`[class*=px-]` // 2026-07-19
+	,`[class*=py-]` // 2026-07-19
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
