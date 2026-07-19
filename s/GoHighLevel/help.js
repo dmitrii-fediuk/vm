@@ -60,6 +60,7 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
+	`.row:has(> .fw-content-wrapper)` // 2026-07-19
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
