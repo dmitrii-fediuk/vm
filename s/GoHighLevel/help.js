@@ -24,6 +24,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`:is(h2, h3, h4, h5, h6)` // 2026-07-19
+	,`[style*=font-]` // 2026-07-19
 ]
 	// language=Javascript
 	.join(',') + '{' +
