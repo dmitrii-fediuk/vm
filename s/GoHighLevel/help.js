@@ -23,7 +23,7 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
-	`:is(h1, h2, h3, h4, h5, h6)` // 2026-07-19
+	`:is(h1, h2, h3, h4, h5, h6, li, ol, p, ul)` // 2026-07-19
 	,`[class*=fw-]` // 2026-07-19
 	,`[style*=font-]` // 2026-07-19
 ]
