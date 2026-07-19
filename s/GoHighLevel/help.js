@@ -56,6 +56,7 @@ GM_addStyle([
 	,`iframe` // 2026-07-19
 	,`p:has(> [class*=video])` // 2026-07-19
 	,`p:has(> br:only-child)` // 2026-07-19
+	,`p:has(> br + br:last-child)` // 2026-07-19
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
