@@ -23,8 +23,8 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
-	`:is(h2, h3, h4, h5, h6)` // 2026-07-19
-	//,`[style*=font-]` // 2026-07-19
+	`:is(h1, h2, h3, h4, h5, h6)` // 2026-07-19
+	,`[style*=font-]` // 2026-07-19
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -431,9 +431,9 @@ GM_addStyle([
 		Object.entries({
 			'font-family': 'Segoie UI'
 			// language=Javascript
-			//,'font-size': '175%'
+			,'font-size': '175%'
 			// language=CSS
-			//,'line-height': 1.25
+			,'line-height': 1.25
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
