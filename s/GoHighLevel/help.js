@@ -47,7 +47,6 @@ GM_addStyle([
 	,`[class*=sidebar]` // 2026-07-19
 	,`[class*=sticky]` // 2026-07-19
 	,`[class*=video]` // 2026-07-19
-	,`br` // 2026-07-19
 	,`header` // 2026-07-19
 	,`iframe` // 2026-07-19
 ]
@@ -451,6 +450,9 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle(`body {margin: .5rem !important;}`);
+// 2026-07-19
+// language=CSS
+GM_addStyle(`br {content: ''; display: block !important; height: 1px;}`);
 // 2026-07-19
 // language=CSS
 GM_addStyle(`h2 {margin: .5rem 0 !important;}`);
