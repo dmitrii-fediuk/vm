@@ -84,6 +84,8 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
+	`.container` // 2026-07-19
+	,`main` // 2026-07-19
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -98,6 +100,7 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
+	`.container` // 2026-07-19
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -329,6 +332,7 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
+	`.container` // 2026-07-19
 ]
 	// language=Javascript
 	.join(',') + '{' +
