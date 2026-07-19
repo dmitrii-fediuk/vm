@@ -2,7 +2,7 @@
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/GoHighLevel/help.js
-// @icon https://cdn.shopify.com/b/shopify-brochure2-assets/c97c60ca19c64a8b5378d9f9e971f7bd.png
+// @icon https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48024308691/fav_icon/rPaMzT7JRUoQCAa706jOEyfYw7eSe5m9gg.png
 // @match https://help.gohighlevel.com/*
 // @name GoHighLevel / Help
 // ==/UserScript==
