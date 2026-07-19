@@ -42,9 +42,6 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
-	`.sticky` // 2026-07-19
-	,`:has(> button > svg[data-testid='edit-post-icon'])` // 2026-07-19
-	,`a svg.aspect-square` // 2026-07-19
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -52,9 +49,6 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
-	`#custom-scroll-frame` // 2026-07-19
-	,`[class*=h-]` // 2026-07-19
-	,`[class*=height]` // 2026-07-19
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
@@ -84,11 +78,6 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
-	`.note` // 2026-07-19
-	,`[class*=mb-]` // 2026-07-19
-	,`[class*=mt-]` // 2026-07-19
-	,`[class*=mx-]` // 2026-07-19
-	,`[class*=my-]` // 2026-07-19
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -96,7 +85,6 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
-	`h1`, `h3`, `ol`, `p`, `ul`
 ]
 	 // language=Javascript
 	.join(',') + '{margin: .25rem 0 !important;}')
@@ -104,10 +92,6 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
-	`[class*=pb-]` // 2026-07-19
-	,`[class*=pt-]` // 2026-07-19
-	,`[class*=px-]` // 2026-07-19
-	,`[class*=py-]` // 2026-07-19
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -220,9 +204,6 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
-	`[class*=h-]` // 2026-07-19
-	,`[class*=height]` // 2026-07-19
-	,`[class*=size-]` // 2026-07-19
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -270,7 +251,6 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
-	`[class*=overflow]` // 2026-07-19
 ]
 	 // language=Javascript
 	.join(',') + '{overflow: unset !important;}')
@@ -343,7 +323,6 @@ GM_addStyle([
 // 2026-07-19
 // language=CSS
 GM_addStyle([
-	`[class*=w-]` // 2026-07-19
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -439,13 +418,4 @@ GM_addStyle([
 );
 // 2026-07-19
 // language=CSS
-GM_addStyle(`body {margin: .5rem !important;}`);
-// 2026-07-19
-// language=CSS
-GM_addStyle(`h2 {margin: .5rem 0 !important;}`);
-// 2026-07-19
-// language=CSS
-GM_addStyle(`h4 {margin: .15rem 0 !important;}`);
-// 2026-07-19
-// language=CSS
-GM_addStyle(`.note {padding: .25rem !important;}`);
+//GM_addStyle(`body {margin: .5rem !important;}`);
