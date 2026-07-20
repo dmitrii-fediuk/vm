@@ -413,6 +413,10 @@ else {
 			window.open(`${u.origin}/jobs/~${m[1]}`, '_blank');
 		}
 	};
+	// 2026-07-21 https://share.gemini.google/Xp5pcoArZ4SM
+	const navigatePage = d => {
+		document.querySelector(`a[data-test='${d}-page']:not(.is-disabled)`)?.click();
+	};
 	(() => {
 		let x = 0, y = 0, p;
 		const updateProject = () => {p = document.elementFromPoint(x, y)?.closest(dfProject);};
