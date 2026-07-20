@@ -434,6 +434,11 @@ else {
 				stopEvent(e);
 				hideProject(p);
 			}
+			// 2026-07-21 https://share.gemini.google/Xp5pcoArZ4SM
+			else if ('ArrowLeft' === e.key || 'ArrowRight' === e.key) {
+				stopEvent(e);
+				navigatePage('ArrowLeft' === e.key ? 'prev' : 'next');
+			}
 		}, true);
 	})();
 	document.addEventListener('click', e => {
