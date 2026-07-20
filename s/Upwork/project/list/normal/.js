@@ -372,7 +372,7 @@ else {
 			if (
 				m.target.parentNode.classList.contains('jobs-grid-container')
 				&& 1 === m.addedNodes.length
-				&& (n = m.addedNodes[0]).classList.contains('card-list-container')
+				&& (n = m.addedNodes[0]).classList?.contains('card-list-container')
 				&& n.children.length
 				&& 'ARTICLE' === n.firstChild.tagName
 			) {
