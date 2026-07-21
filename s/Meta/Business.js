@@ -42,7 +42,8 @@ GM_addStyle([
 // 2026-07-17
 // language=CSS
 GM_addStyle([
-	`[style*=zIndex]:has([aria-label='Meta AI business assistant'])` // 2026-07-17
+	`:has(> [data-surface*=ask_meta_ai])` // 2026-07-17
+	,`[style*=zIndex]:has([aria-label='Meta AI business assistant'])` // 2026-07-17
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
