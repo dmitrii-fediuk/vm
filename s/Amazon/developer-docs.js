@@ -42,7 +42,8 @@ GM_addStyle([
 // 2026-07-06
 // language=CSS
 GM_addStyle([
-	`#Explorer #content ~ *` // 2026-07-06
+	`#content > [class^=Footer-]` // 2026-07-27
+	,`#Explorer #content ~ *` // 2026-07-06
 	,`#reference-sidebar` // 2026-07-27
 	,`footer` // 2026-07-06
 	,`header.rm-Header` // 2026-07-06
