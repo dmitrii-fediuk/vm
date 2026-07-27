@@ -42,11 +42,11 @@ GM_addStyle([
 // 2026-07-06
 // language=CSS
 GM_addStyle([
-	`#content > [class^=Footer-]` // 2026-07-27
-	,`#Explorer #content ~ *` // 2026-07-06
-	,`#reference-sidebar` // 2026-07-27
+	`#Explorer #content ~ *` // 2026-07-06
+	,`#content > [class^=Footer-]` // 2026-07-27
 	,`footer` // 2026-07-06
 	,`header.rm-Header` // 2026-07-06
+	,`main:has(#content > form.param-type) #reference-sidebar` // 2026-07-27
 	,`nav.rm-Sidebar::before` // 2026-07-0
 	,`section.content-body > .UpdatedAt ~ *` // 2026-07-06
 	,`section.content-toc` // 2026-07-06
