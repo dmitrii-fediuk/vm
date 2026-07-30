@@ -5,7 +5,7 @@
 // @icon https://upload.wikimedia.org/wikipedia/commons/d/de/Amazon_icon.png
 // @match https://sellercentral.amazon.com/*
 // @match https://sellercentral-europe.amazon.com/*
-// @name Amazon / Seller Central
+// @name Amazon / Seller Central / Main
 // ==/UserScript==
 // 2026-07-04 "Improve `sellercentral.amazon.com`": https://github.com/dmitrii-fediuk/vm/issues/129
 // language=CSS
