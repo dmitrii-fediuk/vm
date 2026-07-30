@@ -49,6 +49,7 @@ GM_addStyle([
 	,`.sticky` // 2026-07-31
 	,`:has(> [data-testid='marketing-banner'])` // 2026-07-31
 	,`:has(> [data-testid='op-follow'])` // 2026-07-31
+	,`[data-testid='footer']` // 2026-07-31
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
