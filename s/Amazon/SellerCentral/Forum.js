@@ -43,12 +43,6 @@ GM_addStyle([
 // 2026-07-31
 // language=CSS
 GM_addStyle([
-	`#full-help-page ~ *` // 2026-07-31
-	,`#sc-footer-container` // 2026-07-31
-	,`.hh-article-country-box` // 2026-07-31
-	,`.hh-scroll-to-top-box` // 2026-07-31
-	,`.lego-header` // 2026-07-31
-	,`iframe` // 2026-07-31
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -99,7 +93,6 @@ GM_addStyle([
 // 2026-07-31
 // language=CSS
 GM_addStyle([
-	`.hh-help-page` // 2026-07-31
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -378,4 +371,4 @@ GM_addStyle([
 );
 // 2026-07-31
 // language=CSS
-GM_addStyle(`body {margin: .5rem !important;}`);
+//GM_addStyle(`body {margin: .5rem !important;}`);
