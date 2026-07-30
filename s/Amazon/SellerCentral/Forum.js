@@ -43,6 +43,8 @@ GM_addStyle([
 // 2026-07-31
 // language=CSS
 GM_addStyle([
+	`.fixed` // 2026-07-31
+	,`.sticky` // 2026-07-31
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
