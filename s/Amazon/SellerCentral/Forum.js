@@ -50,6 +50,7 @@ GM_addStyle([
 	,`:has(> [data-testid='marketing-banner'])` // 2026-07-31
 	,`:has(> [data-testid='op-follow'])` // 2026-07-31
 	,`[data-testid='footer']` // 2026-07-31
+	,`[data-testid^='original-post'] > :has([data-testid='discussion-tag'])`
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
