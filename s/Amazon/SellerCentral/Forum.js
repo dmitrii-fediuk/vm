@@ -45,7 +45,7 @@ GM_addStyle([
 GM_addStyle([
 	`#sc-navbar-container` // 2026-07-31
 	,`.fixed` // 2026-07-31
-	,`.fresnel-container`  // 2026-07-31
+	,`.fresnel-container:has(> [data-testid^='navigation-container'])`  // 2026-07-31
 	,`.sticky` // 2026-07-31
 	,`:has(> [data-testid='marketing-banner'])` // 2026-07-31
 ]
