@@ -48,6 +48,7 @@ GM_addStyle([
 	,`.fresnel-container:has(> [data-testid^='navigation-container'])`  // 2026-07-31
 	,`.sticky` // 2026-07-31
 	,`:has(> [data-testid='marketing-banner'])` // 2026-07-31
+	,`:has(> [data-testid='op-follow'])` // 2026-07-31
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
