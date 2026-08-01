@@ -45,6 +45,7 @@ GM_addStyle([
 GM_addStyle([
 	`#full-help-page ~ *` // 2026-07-04
 	,`#sc-footer-container` // 2026-07-04
+	,`.help-hmd` // 2026-08-01
 	,`.hh-article-country-box` // 2026-07-04
 	,`.hh-scroll-to-top-box` // 2026-07-04
 	,`.lego-header` // 2026-07-04
