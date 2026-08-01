@@ -43,7 +43,7 @@ GM_addStyle([
 // 2026-07-04
 // language=CSS
 GM_addStyle([
-	,`#full-help-page ~ *` // 2026-07-04
+	`#full-help-page ~ *` // 2026-07-04
 	,`#sc-footer-container` // 2026-07-04
 	,`.hh-article-country-box` // 2026-07-04
 	,`.hh-scroll-to-top-box` // 2026-07-04
