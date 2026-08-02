@@ -1,10 +1,10 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Meta/Business.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Meta/Developers.js
 // @icon https://business.facebook.com/images/bizkit/mbs_favicon.png
 // @match https://developers.facebook.com/*
-// @name Meta / Business
+// @name Meta / Developers
 // ==/UserScript==
 // 2026-08-02 "Improve `developers.facebook.com`": https://github.com/dmitrii-fediuk/vm/issues/134
 // language=CSS
