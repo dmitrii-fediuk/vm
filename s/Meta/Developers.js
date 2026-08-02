@@ -56,6 +56,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`:has(> main)` // 2026-08-02
+	,`main` // 2026-08-02
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
