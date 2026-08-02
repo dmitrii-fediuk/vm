@@ -85,6 +85,7 @@ GM_addStyle([
 // 2026-08-02
 // language=CSS
 GM_addStyle([
+	`:has(> div > nav[aria-label='Main']) ~ *` // 2026-08-02
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
