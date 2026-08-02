@@ -47,6 +47,7 @@ GM_addStyle([
 	,`:has(> footer)` // 2026-08-02
 	,`article > div:has([aria-label='Thumbs up'])` // 2026-08-02
 	,`article ~ *` // 2026-08-02
+	,`aside` // 2026-08-02
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
