@@ -45,6 +45,7 @@ GM_addStyle([
 	`:has(> [aria-label='Expand Mobile Sidenav'])` // 2026-08-02
 	,`:has(> div > nav[aria-label='Main'])` // 2026-08-02
 	,`:has(> footer)` // 2026-08-02
+	,`article ~ *` // 2026-08-02
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
