@@ -69,3 +69,6 @@ GM_addStyle([
 			.map(k => `${k}: unset !important;`).join(' ') +
 	'}'
 );
+// 2026-08-06
+// language=CSS
+GM_addStyle(`h1 {font-size: 1rem !important;}`);
