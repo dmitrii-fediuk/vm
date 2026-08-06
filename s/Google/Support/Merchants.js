@@ -37,7 +37,7 @@ GM_addStyle([
 	`:has(> br:only-child)` // 2026-08-06
 ]
 	 // language=Javascript
-	.join(',') + '{margin: .25rem !important;}')
+	.join(',') + '{margin: .25rem 0 !important;}')
 ;
 // 2026-08-06
 // language=CSS
