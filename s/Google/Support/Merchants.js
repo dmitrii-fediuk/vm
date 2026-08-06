@@ -40,6 +40,7 @@ GM_addStyle([
 // 2026-06-10
 // language=CSS
 GM_addStyle([
+	`.scTailwindThreadThreadcontentwrapper` // 2026-08-06
 ]
 	// language=Javascript
 	.join(',') + '{' +
