@@ -13,6 +13,7 @@ GM_addStyle([
 	,`#genie-container` // 2026-06-10
 	,`.content-background` // 2026-06-10
 	,`.main-content > :not(article)`
+	,`.scTailwindThreadThreadcontenttitle-back` // 2026-08-06
 	,`.side-container`
 	,`.sub-article-container`
 	,`[id^=notification-overflow-]`
