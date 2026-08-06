@@ -34,6 +34,14 @@ GM_addStyle([
 // 2026-08-06
 // language=CSS
 GM_addStyle([
+	`:has(> br:only-child)` // 2026-08-06
+]
+	 // language=Javascript
+	.join(',') + '{margin: .25rem !important;}')
+;
+// 2026-08-06
+// language=CSS
+GM_addStyle([
 	`.scTailwindThreadMessageMessagecardcontent` // 2026-08-06
 	,`.scTailwindThreadQuestionQuestioncardcontent` // 2026-08-06
 	,`.scTailwindThreadThreadcontentreplies-section` // 2026-08-06
