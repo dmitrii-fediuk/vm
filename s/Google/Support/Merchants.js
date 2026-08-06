@@ -9,7 +9,8 @@
 // 2025-02-04 "Improve `support.google.com`": https://github.com/dmitrii-fediuk/vm/issues/87
 // language=CSS
 GM_addStyle([
-	`.scTailwindThreadThreadcontenttitle-back` // 2026-08-06
+	`.scTailwindThreadMessageMessagelistheading` // 2026-08-06
+	,`.scTailwindThreadThreadcontenttitle-back` // 2026-08-06
 	,`:has(> .scTailwindThreadQuestionQuestioncarddisclaimer)` // 2026-08-06
 	,`aside` // 2026-08-06
 	,`sc-tailwind-thread-question-question-actions` // 2026-08-06
