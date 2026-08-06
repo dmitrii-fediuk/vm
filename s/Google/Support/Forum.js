@@ -1,10 +1,10 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Google/Support/Merchants.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Google/Support/Forum.js
 // @icon https://lh3.googleusercontent.com/COxitqgJr1sJnIDe8-jiKhxDx1FrYbtRHKJ9z_hELisAlapwE9LUPh6fcXIfb5vwpbMl4xl9H9TRFPc5NOO8Sb3VSgIBrfRYvW6cUA
-// @match *://support.google.com/merchants/*
-// @name Google / Support / Merchants
+// @match *://support.google.com/*/thread/*
+// @name Google / Support / Forum
 // ==/UserScript==
 // 2026-08-06 "Improve `support.google.com`": https://github.com/dmitrii-fediuk/vm/issues/87
 // 2026-08-06
