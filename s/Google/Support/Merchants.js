@@ -10,6 +10,22 @@
 // 2026-08-06
 // language=CSS
 GM_addStyle([
+	`*`  // 2026-08-06
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		[
+			'border-radius'
+			,'box-shadow'
+		]
+			// language=Javascript
+			.map(k => `${k}: unset !important;`).join(' ') +
+	'}'
+);
+// 2026-08-06
+// language=CSS
+GM_addStyle([
 	`.scTailwindThreadMessageMessagecardtargeted::before` // 2026-08-06
 	,`.scTailwindThreadMessageMessagelistheading` // 2026-08-06
 	,`.scTailwindThreadQuestionQuestioncardtargeted::before` // 2026-08-06
@@ -50,14 +66,6 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
-;
-// 2026-08-06
-// language=CSS
-GM_addStyle([
-	`*` // 2026-08-06
-]
-	 // language=Javascript
-	.join(',') + '{box-shadow: unset !important;}')
 ;
 // 2026-06-10
 // language=CSS
