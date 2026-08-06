@@ -26,6 +26,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.scTailwindThreadQuestionQuestioncardtitle-container` // 2026-08-06
+	,`sc-tailwind-thread-post-header` // 2026-08-06
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
