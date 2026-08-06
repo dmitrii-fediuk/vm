@@ -9,20 +9,12 @@
 // 2026-08-06 "Improve `support.google.com`": https://github.com/dmitrii-fediuk/vm/issues/87
 // 2026-08-06
 // language=CSS
-GM_addStyle([
-	`*`  // 2026-08-06
-]
-	// language=Javascript
-	.join(',') + '{' +
-		// language=CSS
-		[
-			'border-radius'
-			,'box-shadow'
-		]
-			// language=Javascript
-			.map(k => `${k}: unset !important;`).join(' ') +
-	'}'
-);
+GM_addStyle(`* {` +
+	// language=CSS
+	['border-radius', 'box-shadow']
+		// language=Javascript
+		.map(k => `${k}: unset !important;`).join(' ') +
+'}');
 // 2026-08-06
 // language=CSS
 GM_addStyle([
