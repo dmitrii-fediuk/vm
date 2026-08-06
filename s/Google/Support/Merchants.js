@@ -16,7 +16,8 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		[
-			'border-radius'
+			`border`
+			,'border-radius'
 			,'box-shadow'
 		]
 			// language=Javascript
