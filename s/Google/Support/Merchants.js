@@ -34,14 +34,6 @@ GM_addStyle([
 // 2026-08-06
 // language=CSS
 GM_addStyle([
-	`:has(> br:only-child)` // 2026-08-06
-]
-	 // language=Javascript
-	.join(',') + '{margin: .25rem 0 !important;}')
-;
-// 2026-08-06
-// language=CSS
-GM_addStyle([
 	`.scTailwindThreadMessageMessagecardcontent` // 2026-08-06
 	,`.scTailwindThreadQuestionQuestioncardcontent` // 2026-08-06
 	,`.scTailwindThreadThreadcontentreplies-section` // 2026-08-06
@@ -77,6 +69,9 @@ GM_addStyle([
 			.map(k => `${k}: unset !important;`).join(' ') +
 	'}'
 );
+// 2026-08-06
+// language=CSS
+GM_addStyle(`:has(> br:only-child) {height: .1rem !important;}`);
 // 2026-08-06
 // language=CSS
 GM_addStyle(`h1 {font-size: 1.5rem !important; line-height: 1.2 !important;}`);
