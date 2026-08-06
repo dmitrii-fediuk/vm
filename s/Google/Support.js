@@ -16,6 +16,7 @@ GM_addStyle([
 	,`.side-container`
 	,`.sub-article-container`
 	,`[id^=notification-overflow-]`
+	,`aside` // 2026-08-06
 	,`div:has(> sc-client-feedback-inline-feedback-link)`
 	,`footer`
 	,`header[role='none']`
