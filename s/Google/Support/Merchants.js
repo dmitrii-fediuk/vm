@@ -6,7 +6,15 @@
 // @match *://support.google.com/merchants/*
 // @name Google / Support / Merchants
 // ==/UserScript==
-// 2025-02-04 "Improve `support.google.com`": https://github.com/dmitrii-fediuk/vm/issues/87
+// 2026-08-06 "Improve `support.google.com`": https://github.com/dmitrii-fediuk/vm/issues/87
+// 2026-08-06
+// language=CSS
+GM_addStyle([
+]
+	 // language=Javascript
+	.join(',') + '{all: unset !important;}')
+;
+// 2026-08-06
 // language=CSS
 GM_addStyle([
 	`.scTailwindThreadMessageMessagelistheading` // 2026-08-06
@@ -21,14 +29,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
-// 2025-02-04
+// 2026-08-06
 // language=CSS
 GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
 ;
-// 2025-02-04
+// 2026-08-06
 // language=CSS
 GM_addStyle([
 	`.scTailwindThreadMessageMessagecardcontent` // 2026-08-06
@@ -37,7 +45,7 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
-// 2025-02-04
+// 2026-08-06
 // language=CSS
 GM_addStyle([
 ]
