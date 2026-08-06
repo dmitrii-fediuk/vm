@@ -1,7 +1,7 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Google/Support.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Google/Support/.js
 // @icon https://lh3.googleusercontent.com/COxitqgJr1sJnIDe8-jiKhxDx1FrYbtRHKJ9z_hELisAlapwE9LUPh6fcXIfb5vwpbMl4xl9H9TRFPc5NOO8Sb3VSgIBrfRYvW6cUA
 // @match *://support.google.com/*
 // @name Google / Support
@@ -13,11 +13,9 @@ GM_addStyle([
 	,`#genie-container` // 2026-06-10
 	,`.content-background` // 2026-06-10
 	,`.main-content > :not(article)`
-	,`.scTailwindThreadThreadcontenttitle-back` // 2026-08-06
 	,`.side-container`
 	,`.sub-article-container`
 	,`[id^=notification-overflow-]`
-	,`aside` // 2026-08-06
 	,`div:has(> sc-client-feedback-inline-feedback-link)`
 	,`footer`
 	,`header[role='none']`
