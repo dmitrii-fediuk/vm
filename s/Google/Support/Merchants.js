@@ -12,6 +12,7 @@
 GM_addStyle([
 	`.scTailwindThreadMessageMessagecardtargeted::before` // 2026-08-06
 	,`.scTailwindThreadMessageMessagelistheading` // 2026-08-06
+	,`.scTailwindThreadQuestionQuestioncardtargeted::before` // 2026-08-06
 	,`.scTailwindThreadThreadcontenttitle-back` // 2026-08-06
 	,`:has(> .scTailwindThreadQuestionQuestioncarddisclaimer)` // 2026-08-06
 	,`aside` // 2026-08-06
