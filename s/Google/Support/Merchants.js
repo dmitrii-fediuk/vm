@@ -13,6 +13,7 @@ GM_addStyle([
 	,`.scTailwindThreadThreadcontenttitle-back` // 2026-08-06
 	,`:has(> .scTailwindThreadQuestionQuestioncarddisclaimer)` // 2026-08-06
 	,`aside` // 2026-08-06
+	,`sc-tailwind-thread-thread-alert` // 2026-08-06
 	,`sc-tailwind-thread-question-question-actions` // 2026-08-06
 ]
 	 // language=Javascript
