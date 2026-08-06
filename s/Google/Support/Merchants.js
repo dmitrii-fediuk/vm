@@ -9,8 +9,7 @@
 // 2025-02-04 "Improve `support.google.com`": https://github.com/dmitrii-fediuk/vm/issues/87
 // language=CSS
 GM_addStyle([
-	`.scTailwindThreadMessageMessagecardcontent` // 2026-08-06
-	,`.scTailwindThreadMessageMessagelistheading` // 2026-08-06
+	`.scTailwindThreadMessageMessagelistheading` // 2026-08-06
 	,`.scTailwindThreadThreadcontenttitle-back` // 2026-08-06
 	,`:has(> .scTailwindThreadQuestionQuestioncarddisclaimer)` // 2026-08-06
 	,`aside` // 2026-08-06
@@ -30,7 +29,8 @@ GM_addStyle([
 // 2025-02-04
 // language=CSS
 GM_addStyle([
-	`.scTailwindThreadQuestionQuestioncardcontent` // 2026-08-06
+	`.scTailwindThreadMessageMessagecardcontent` // 2026-08-06
+	,`.scTailwindThreadQuestionQuestioncardcontent` // 2026-08-06
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
