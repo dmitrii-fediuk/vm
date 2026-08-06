@@ -71,4 +71,4 @@ GM_addStyle([
 );
 // 2026-08-06
 // language=CSS
-GM_addStyle(`h1 {font-size: 1rem !important;}`);
+GM_addStyle(`h1 {font-size: 1.5rem !important; line-height: 1.2 !important;}`);
