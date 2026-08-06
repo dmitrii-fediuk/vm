@@ -25,6 +25,7 @@ GM_addStyle([
 // 2026-08-06
 // language=CSS
 GM_addStyle([
+	`.scTailwindThreadQuestionQuestioncardtitle-container` // 2026-08-06
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
