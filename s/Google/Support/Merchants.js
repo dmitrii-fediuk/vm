@@ -10,6 +10,7 @@
 // language=CSS
 GM_addStyle([
 	`.scTailwindThreadThreadcontenttitle-back` // 2026-08-06
+	,`:has(> .scTailwindThreadQuestionQuestioncarddisclaimer)` // 2026-08-06
 	,`aside` // 2026-08-06
 ]
 	 // language=Javascript
