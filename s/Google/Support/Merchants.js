@@ -15,6 +15,7 @@ GM_addStyle([
 	,`aside` // 2026-08-06
 	,`sc-tailwind-thread-question-question-actions` // 2026-08-06
 	,`sc-tailwind-thread-question-question-details` // 2026-08-06
+	,`sc-tailwind-thread-question-state-chips` // 2026-08-06
 	,`sc-tailwind-thread-thread-alert` // 2026-08-06
 ]
 	 // language=Javascript
