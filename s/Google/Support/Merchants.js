@@ -34,7 +34,8 @@ GM_addStyle([
 // 2026-08-06
 // language=CSS
 GM_addStyle([
-	`.scTailwindThreadMessageMessagecardcontent` // 2026-08-06
+	`.scTailwindThreadMessageMessagecardbody` // 2026-08-06
+	,`.scTailwindThreadMessageMessagecardcontent` // 2026-08-06
 	,`.scTailwindThreadQuestionQuestioncardcontent` // 2026-08-06
 	,`.scTailwindThreadThreadcontentreplies-section` // 2026-08-06
 ]
