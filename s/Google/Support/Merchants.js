@@ -10,7 +10,8 @@
 // 2026-08-06
 // language=CSS
 GM_addStyle([
-	`.scTailwindThreadMessageMessagelistheading` // 2026-08-06
+	`.scTailwindThreadMessageMessagecardtargeted::before` // 2026-08-06
+	,`.scTailwindThreadMessageMessagelistheading` // 2026-08-06
 	,`.scTailwindThreadThreadcontenttitle-back` // 2026-08-06
 	,`:has(> .scTailwindThreadQuestionQuestioncarddisclaimer)` // 2026-08-06
 	,`aside` // 2026-08-06
