@@ -49,16 +49,6 @@ GM_addStyle([
 	.join(',') + '{display: none !important;}')
 ;
 // 2026-08-09
-setTimeout(() => {
-	// language=CSS
-	GM_addStyle([
-		//`#above-dp-container` // 2026-08-09
-	]
-		 // language=Javascript
-		.join(',') + '{display: none !important;}')
-	;
-}, 2000);
-// 2026-08-09
 // language=CSS
 GM_addStyle([
 ]
