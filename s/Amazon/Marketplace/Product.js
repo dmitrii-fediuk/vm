@@ -3,8 +3,8 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Amazon/Marketplace/Product.js
 // @icon https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://amazon.com&size=128
-// @include /^https://www\.amazon\.[^/]*?/dp/.*?$/
-// @include /^https://www\.amazon\.[^/]*?/.*?/dp/.*?$/
+// 2026-08-09 https://share.gemini.google/tmihP6EMtJKP
+// @include /^https:\/\/(?:www\.)?amazon\.[^\/]+\/(?:[^\?#]*\/)?dp\/.*$/
 // @name Amazon / Marketplace / Product
 // ==/UserScript==
 // 2026-08-09 "Improve Improve Amazon Marketplace": https://github.com/dmitrii-fediuk/vm/issues/135
