@@ -43,6 +43,7 @@ GM_addStyle([
 // 2026-08-09
 // language=CSS
 GM_addStyle([
+	`#ad` // 2026-08-09
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
