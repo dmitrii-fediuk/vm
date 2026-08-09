@@ -430,10 +430,10 @@ const modify = (s, action) => {
 const remove = s => modify(s, i => i.remove());
 // language=CSS
 remove([
-	//`#above-dp-container` // 2026-08-09
-	`#primeDPUpsellStaticContainerNPA` // 2026-08-09
-	,`#rhf` // 2026-08-09
+	`#nav-main` // 2026-08-09
+	,`#primeDPUpsellStaticContainerNPA` // 2026-08-09
 	,`#rhf ~ *` // 2026-08-09
+	,`#rhf` // 2026-08-09
 	,`:has(> iframe)` // 2026-08-09
 	,`[data-feature-name='nile-inline']` // 2026-08-09
 	,`[data-feature-name='nile-inline-btf']` // 2026-08-09
