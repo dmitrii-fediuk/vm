@@ -438,6 +438,7 @@ remove([
 	,`#rhf` // 2026-08-09
 	,`#shortcut-menu` // 2026-08-09
 	,`:has(> iframe)` // 2026-08-09
+	,`[data-feature-name='desktop-dp-ilm']` // 2026-08-09
 	,`[data-feature-name='nile-inline']` // 2026-08-09
 	,`[data-feature-name='nile-inline-btf']` // 2026-08-09
 	,`[data-feature-name='sims-discoveryAndInspiration']` // 2026-08-09
