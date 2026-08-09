@@ -51,7 +51,6 @@ GM_addStyle([
 // 2026-08-09
 // language=CSS
 GM_addStyle([
-	`.row:has(> .fw-content-wrapper)` // 2026-08-09
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
@@ -88,7 +87,6 @@ GM_addStyle([
 // 2026-08-09
 // language=CSS
 GM_addStyle([
-	`:is(h3, ol, p, ul):not(#a)` // 2026-08-09
 ]
 	 // language=Javascript
 	.join(',') + '{margin: .25rem 0 !important;}')
@@ -125,7 +123,6 @@ GM_addStyle([
 // 2026-08-09
 // language=CSS
 GM_addStyle([
-	`*` // 2026-08-09
 ]
 	 // language=Javascript
 	.join(',') + '{border-radius: 0 !important;}')
@@ -390,7 +387,6 @@ GM_addStyle([
 // 2026-08-09
 // language=CSS
 GM_addStyle([
-	`body` // 2026-08-09
 ]
 	// language=Javascript
 	.join(',') + '{' +
