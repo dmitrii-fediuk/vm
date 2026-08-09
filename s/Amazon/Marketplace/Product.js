@@ -47,10 +47,22 @@ GM_addStyle([
 GM_addStyle([
 	`#above-dp-container` // 2026-08-09
 	,`#sp_detail_right_shared` // 2026-08-09
+	,`:has(> iframe)` // 2026-08-09
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
 ;
+// 2026-08-09
+setTimeout(() => {
+	// language=CSS
+	GM_addStyle([
+		`#sp_detail_right_shared` // 2026-08-09
+	]
+		 // language=Javascript
+		.join(',') + '{display: none !important;}')
+	;
+// 2026-06-15 The previous value: 400.
+}, 2000);
 // 2026-08-09
 // language=CSS
 GM_addStyle([
