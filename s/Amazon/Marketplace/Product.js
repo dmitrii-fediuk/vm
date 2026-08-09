@@ -3,7 +3,8 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Amazon/Marketplace/Product.js
 // @icon https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://amazon.com&size=128
-// @match https://help.gohighlevel.com/*
+// @match https://www.amazon.*/dp/*
+// @match https://www.amazon.*/*/dp/*
 // @name Amazon / Marketplace / Product
 // ==/UserScript==
 // 2026-08-09 "Improve Improve Amazon Marketplace": https://github.com/dmitrii-fediuk/vm/issues/135
@@ -23,9 +24,6 @@ GM_addStyle([
 // 2026-08-09
 // language=CSS
 GM_addStyle([
-	`:is(h1, h2, h3, h4, h5, h6, li, ol, p, pre, ul):not(#a)` // 2026-08-09
-	,`[class*=fw-]` // 2026-08-09
-	,`[style*=font-]` // 2026-08-09
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -45,18 +43,6 @@ GM_addStyle([
 // 2026-08-09
 // language=CSS
 GM_addStyle([
-	`:is(h2, h3, h4, h5, h6) br` // 2026-08-09
-	,`[class*=feedback]` // 2026-08-09
-	,`[class*=icon]` // 2026-08-09
-	,`[class*=sidebar]` // 2026-08-09
-	,`[class*=sticky]` // 2026-08-09
-	,`[class*=video]` // 2026-08-09
-	,`footer` // 2026-08-09
-	,`header` // 2026-08-09
-	,`iframe` // 2026-08-09
-	,`p:has(> [class*=video])` // 2026-08-09
-	,`p:has(> br:only-child)` // 2026-08-09
-	,`p:has(> br + br:last-child)` // 2026-08-09
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -94,16 +80,6 @@ GM_addStyle([
 // 2026-08-09
 // language=CSS
 GM_addStyle([
-	`.container` // 2026-08-09
-	,`.fw-content` // 2026-08-09
-	,`[class*=mb-]` // 2026-08-09
-	,`[class*=mt-]` // 2026-08-09
-	,`[class*=mx-]` // 2026-08-09
-	,`[class*=my-]` // 2026-08-09
-	,`[class*=wrapper]` // 2026-08-09
-	,`[style*=margin]` // 2026-08-09
-	,`h1` // 2026-08-09
-	,`main` // 2026-08-09
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -119,13 +95,6 @@ GM_addStyle([
 // 2026-08-09
 // language=CSS
 GM_addStyle([
-	`.container` // 2026-08-09
-	,`[class*=pb-]` // 2026-08-09
-	,`[class*=pt-]` // 2026-08-09
-	,`[class*=px-]` // 2026-08-09
-	,`[class*=py-]` // 2026-08-09
-	,`[class*=wrapper]` // 2026-08-09
-	,`[style*=padding]` // 2026-08-09
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -148,7 +117,6 @@ GM_addStyle([
 // 2026-08-09
 // language=CSS
 GM_addStyle([
-	`.fw-content-wrapper` // 2026-08-09
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
@@ -164,7 +132,6 @@ GM_addStyle([
 // 2026-08-09
 // language=CSS
 GM_addStyle([
-	`*` // 2026-08-09
 ]
 	 // language=Javascript
 	.join(',') + '{box-shadow: unset !important;}')
@@ -172,7 +139,6 @@ GM_addStyle([
 // 2026-08-09
 // language=CSS
 GM_addStyle([
-	`*` // 2026-08-09
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
@@ -362,8 +328,6 @@ GM_addStyle([
 // 2026-08-09
 // language=CSS
 GM_addStyle([
-	`.container` // 2026-08-09
-	,`.fw-content-wrapper` // 2026-08-09
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -458,18 +422,3 @@ GM_addStyle([
 			.map(k => `${k}: unset !important;`).join(' ') +
 	'}'
 );
-// 2026-08-09
-// language=CSS
-GM_addStyle(`body {margin: .5rem !important;}`);
-// 2026-08-09
-// language=CSS
-GM_addStyle(`br {content: ''; display: block !important; height: 1px;}`);
-// 2026-08-09
-// language=CSS
-GM_addStyle(`h2 {margin: .5rem 0 !important;}`);
-// 2026-08-09
-// language=CSS
-GM_addStyle(`h4 {margin: .15rem 0 !important;}`);
-// 2026-08-09
-// language=CSS
-GM_addStyle(`.note {padding: .25rem !important;}`);
