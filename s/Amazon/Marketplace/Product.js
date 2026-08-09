@@ -48,6 +48,7 @@ GM_addStyle([
 	`#above-dp-container` // 2026-08-09
 	,`:has(> iframe)` // 2026-08-09
 	,`[data-feature-name='sims-productBundle']` // 2026-08-09
+	,`[data-feature-name='sims-simsContainer']` // 2026-08-09
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
