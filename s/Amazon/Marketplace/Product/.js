@@ -431,6 +431,7 @@ const remove = s => modify(s, i => i.remove());
 // language=CSS
 remove([
 	`#nav-main` // 2026-08-09
+	,`#pqv-ingress` // 2026-08-09
 	,`#primeDPUpsellStaticContainerNPA` // 2026-08-09
 	,`#rhf ~ *` // 2026-08-09
 	,`#rhf` // 2026-08-09
