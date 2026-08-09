@@ -46,6 +46,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`#above-dp-container` // 2026-08-09
+	,`#rhf` // 2026-08-09
 	,`:has(> iframe)` // 2026-08-09
 	,`[data-feature-name='nile-inline-btf']` // 2026-08-09
 	,`[data-feature-name='sims-discoveryAndInspiration']` // 2026-08-09
