@@ -4,7 +4,7 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/GoHighLevel/help.js
 // @icon https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://amazon.com&size=128
 // @match https://help.gohighlevel.com/*
-// @name GoHighLevel / Help
+// @name Amazon / Marketplace / Product
 // ==/UserScript==
 // 2026-08-09 "Improve Improve Amazon Marketplace": https://github.com/dmitrii-fediuk/vm/issues/135
 // language=CSS
