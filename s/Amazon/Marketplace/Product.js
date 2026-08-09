@@ -44,6 +44,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`#above-dp-container` // 2026-08-09
+	,`#sp_detail_right_shared` // 2026-08-09
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
