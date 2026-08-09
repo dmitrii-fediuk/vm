@@ -43,7 +43,7 @@ GM_addStyle([
 // 2026-08-09
 // language=CSS
 GM_addStyle([
-	`#ad` // 2026-08-09
+	`#above-dp-container` // 2026-08-09
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -52,12 +52,12 @@ GM_addStyle([
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`#ad` // 2026-08-09
+		//`#above-dp-container` // 2026-08-09
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
 	;
-}, 600);
+}, 2000);
 // 2026-08-09
 // language=CSS
 GM_addStyle([
