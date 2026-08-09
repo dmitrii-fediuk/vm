@@ -45,8 +45,8 @@ GM_addStyle([
 // 2026-08-09
 // language=CSS
 GM_addStyle([
-	`#above-dp-container` // 2026-08-09
-	,`#primeDPUpsellStaticContainerNPA` // 2026-08-09
+	//`#above-dp-container` // 2026-08-09
+	`#primeDPUpsellStaticContainerNPA` // 2026-08-09
 	,`#rhf` // 2026-08-09
 	,`#rhf ~ *` // 2026-08-09
 	,`:has(> iframe)` // 2026-08-09
@@ -431,3 +431,20 @@ GM_addStyle([
 			.map(k => `${k}: unset !important;`).join(' ') +
 	'}'
 );
+// 2025-09-05
+// 1) https://g.co/gemini/share/9776258b5353
+// 2) https://g.co/gemini/share/fdb2b22cbe50
+const modify = (s, action) => {
+	s = !Array.isArray(s) ? s : s.join(','); // 2026-08-09 https://share.gemini.google/tOXOcu2TdlcM
+	const p = i => {
+		i.matches?.(s) && action(i);
+		i.querySelectorAll?.(s).forEach(action);
+	};
+	(new MutationObserver(mm => {
+		mm.forEach(m => m.addedNodes.forEach(p));
+	})).observe(document.documentElement, {childList: true, subtree: true});
+	p(document.documentElement);
+};
+// 2026-08-09
+const remove = s => modify(s, i => i.remove());
+remove(`#above-dp-container`);
