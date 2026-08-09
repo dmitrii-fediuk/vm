@@ -45,25 +45,6 @@ GM_addStyle([
 // 2026-08-09
 // language=CSS
 GM_addStyle([
-	//`#above-dp-container` // 2026-08-09
-	`#primeDPUpsellStaticContainerNPA` // 2026-08-09
-	,`#rhf` // 2026-08-09
-	,`#rhf ~ *` // 2026-08-09
-	,`:has(> iframe)` // 2026-08-09
-	,`[data-feature-name='nile-inline']` // 2026-08-09
-	,`[data-feature-name='nile-inline-btf']` // 2026-08-09
-	,`[data-feature-name='sims-discoveryAndInspiration']` // 2026-08-09
-	,`[data-feature-name='sims-productBundle']` // 2026-08-09
-	,`[data-feature-name='sims-simsContainer']` // 2026-08-09
-	,`[data-feature-name='sims-sponsoredProducts2']` // 2026-08-09
-	,`[data-feature-name^='dp-ads-']` // 2026-08-09
-]
-	 // language=Javascript
-	.join(',') + '{display: none !important;}')
-;
-// 2026-08-09
-// language=CSS
-GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
@@ -447,4 +428,18 @@ const modify = (s, action) => {
 };
 // 2026-08-09
 const remove = s => modify(s, i => i.remove());
-remove(`#above-dp-container`);
+// language=CSS
+remove([
+	`#above-dp-container` // 2026-08-09
+	,`#primeDPUpsellStaticContainerNPA` // 2026-08-09
+	,`#rhf` // 2026-08-09
+	,`#rhf ~ *` // 2026-08-09
+	,`:has(> iframe)` // 2026-08-09
+	,`[data-feature-name='nile-inline']` // 2026-08-09
+	,`[data-feature-name='nile-inline-btf']` // 2026-08-09
+	,`[data-feature-name='sims-discoveryAndInspiration']` // 2026-08-09
+	,`[data-feature-name='sims-productBundle']` // 2026-08-09
+	,`[data-feature-name='sims-simsContainer']` // 2026-08-09
+	,`[data-feature-name='sims-sponsoredProducts2']` // 2026-08-09
+	,`[data-feature-name^='dp-ads-']` // 2026-08-09
+]);
