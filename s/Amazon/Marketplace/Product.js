@@ -48,6 +48,7 @@ GM_addStyle([
 	`#above-dp-container` // 2026-08-09
 	,`:has(> iframe)` // 2026-08-09
 	,`[data-feature-name='nile-inline-btf']` // 2026-08-09
+	,`[data-feature-name='sims-discoveryAndInspiration']` // 2026-08-09
 	,`[data-feature-name='sims-productBundle']` // 2026-08-09
 	,`[data-feature-name='sims-simsContainer']` // 2026-08-09
 	,`[data-feature-name='sims-sponsoredProducts2']` // 2026-08-09
