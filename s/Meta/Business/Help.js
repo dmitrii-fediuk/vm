@@ -94,6 +94,7 @@ GM_addStyle([
 // 2026-08-10
 // language=CSS
 GM_addStyle([
+	`#GBMBizEdArticleRoot` // 2026-08-10
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
