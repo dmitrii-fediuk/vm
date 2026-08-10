@@ -23,7 +23,7 @@ GM_addStyle([
 // 2026-08-10
 // language=CSS
 GM_addStyle([
-	`body *`
+	`body *` // 2026-08-10
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -45,6 +45,7 @@ GM_addStyle([
 GM_addStyle([
 	`#FB4BResponsiveMainContent ~ *` // 2026-08-10
 	,`#FB4BResponsiveMainWrapper ~ *` // 2026-08-10
+	,`#GBMBizEdArticleRoot > :has(#GBMRelatedLinkContent)` // 2026-08-10
 	,`#faq-page ~ *` // 2026-08-10
 	,`:has(> div > button[title='Feedback'])` // 2026-08-10
 	,`[data-surface='/bhc_top_root'] 
