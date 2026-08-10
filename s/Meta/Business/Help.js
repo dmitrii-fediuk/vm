@@ -86,6 +86,7 @@ GM_addStyle([
 // 2026-08-10
 // language=CSS
 GM_addStyle([
+	`#faq-page div` // 2026-08-10
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
