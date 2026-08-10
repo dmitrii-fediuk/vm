@@ -90,6 +90,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`div` // 2026-08-10
+	,`h1` // 2026-08-10
 	,`li` // 2026-08-10
 ]
 	 // language=Javascript
@@ -98,7 +99,7 @@ GM_addStyle([
 // 2026-08-10
 // language=CSS
 GM_addStyle([
-	`:is(h1, h3, ol, p, ul):not(#a)`// 2026-08-10
+	`:is(h3, ol, p, ul):not(#a)`// 2026-08-10
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0.25rem 0 !important;}')
