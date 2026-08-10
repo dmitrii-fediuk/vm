@@ -102,6 +102,7 @@ GM_addStyle([
 GM_addStyle([
 	`#FB4BResponsiveMainContent > *` // 2026-08-10
 	,`#GBMBizEdArticleRoot` // 2026-08-10
+	,`#faq-page div` // 2026-08-10
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
