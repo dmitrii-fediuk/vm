@@ -42,8 +42,8 @@ GM_addStyle([
 // 2026-08-10
 // language=CSS
 GM_addStyle([
-	`:has(> div > button[title='Feedback'])` // 2026-08-10
-	//,`[data-surface='/bhc_top_root/bhc_side_tray']` // 2026-08-10
+	`#FB4BResponsiveMainContent ~ *` // 2026-08-10
+	,`:has(> div > button[title='Feedback'])` // 2026-08-10
 	,`[data-surface='/bhc_top_root'] 
 		> :not(:has([data-surface='/bhc_top_root/bhc_content']))` // 2026-08-10
 	,`div:has(> [data-surface='/bhc_top_root/bhc_content']) 
