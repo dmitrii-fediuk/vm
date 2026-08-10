@@ -43,7 +43,9 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`:has(> div > button[title='Feedback'])` // 2026-08-10
-	,`[data-surface='/bhc_top_root/bhc_side_tray']` // 2026-08-10
+	//,`[data-surface='/bhc_top_root/bhc_side_tray']` // 2026-08-10
+	,`[data-surface='/bhc_top_root'] 
+		> :not(:has([data-surface='/bhc_top_root/bhc_content']))` // 2026-08-10
 	,`div:has(> [data-surface='/bhc_top_root/bhc_content']) 
 		> :not([data-surface='/bhc_top_root/bhc_content'])` // 2026-08-10
 ]
