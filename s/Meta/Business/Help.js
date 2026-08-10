@@ -86,7 +86,7 @@ GM_addStyle([
 // 2026-08-10
 // language=CSS
 GM_addStyle([
-	`#faq-page div` // 2026-08-10
+	`div` // 2026-08-10
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -105,7 +105,7 @@ GM_addStyle([
 	//,`#GBMBizEdArticleRoot` // 2026-08-10
 	//,`#faq-page div` // 2026-08-10
 	//,`#redesign-headers div` // 2026-08-10
-	`div`
+	`div` // 2026-08-10
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
