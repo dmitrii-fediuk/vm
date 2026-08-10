@@ -248,7 +248,7 @@ GM_addStyle([
 // 2026-08-10
 // language=CSS
 GM_addStyle([
-	`p:not(#a)` // 2026-08-10
+	//`p:not(#a)` // 2026-08-10
 ]
 	 // language=Javascript
 	.join(',') + '{line-height: 1.25 !important;}')
@@ -398,7 +398,7 @@ GM_addStyle([
 			// language=Javascript
 			,'font-size': '175%'
 			// language=CSS
-			,'line-height': 1.25
+			,'line-height': 1.15
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
