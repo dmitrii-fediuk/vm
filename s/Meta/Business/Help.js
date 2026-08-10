@@ -42,7 +42,8 @@ GM_addStyle([
 // 2026-08-10
 // language=CSS
 GM_addStyle([
-	`div:has(> [data-surface='/bhc_top_root/bhc_content']) 
+	`:has(> div > buttton[title='Feedback'])` // 2026-08-10
+	,`div:has(> [data-surface='/bhc_top_root/bhc_content']) 
 		> :not([data-surface='/bhc_top_root/bhc_content'])` // 2026-08-10
 ]
 	 // language=Javascript
