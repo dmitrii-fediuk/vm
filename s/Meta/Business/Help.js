@@ -23,6 +23,7 @@ GM_addStyle([
 // 2026-08-10
 // language=CSS
 GM_addStyle([
+	`body *`
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -384,6 +385,7 @@ GM_addStyle([
 // 2026-08-10
 // language=CSS
 GM_addStyle([
+	'body' // 2026-08-10
 ]
 	// language=Javascript
 	.join(',') + '{' +
