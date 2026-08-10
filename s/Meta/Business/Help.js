@@ -87,6 +87,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`div` // 2026-08-10
+	,`li` // 2026-08-10
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
