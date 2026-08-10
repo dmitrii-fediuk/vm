@@ -325,6 +325,7 @@ GM_addStyle([
 // 2026-08-10
 // language=CSS
 GM_addStyle([
+	`div` // 2026-08-10
 ]
 	// language=Javascript
 	.join(',') + '{' +
