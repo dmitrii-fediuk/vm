@@ -16,7 +16,7 @@ const df_DT_JobTile = `[data-test='job-tile']`; // 2026-06-04
 // language=CSS
 const df_DT_JobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 // language=CSS
-const dfTabContent = `[data-test='tab-content']`; // 2026-06-04
+const df_DT_TabContent = `[data-test='tab-content']`; // 2026-06-04
 // language=CSS
 const dfTabs = `[data-test='tabs']`; // 2026-06-04
 // language=CSS
@@ -44,7 +44,7 @@ setTimeout(() => {
 	GM_addStyle([
 		`#user-footer-microapp-app-container` // 2026-08-17
 		,`${df_DT_JobsFeed} > :not(${dfTabs})` // 2026-06-04
-		,`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
+		,`${dfTabs} > :not(${df_DT_TabContent}):not(#a)` // 2026-06-04
 		,`${df_C_JobTileActions} > :not([data-test='job-feedback'])` // 2026-06-04
 		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
@@ -93,7 +93,7 @@ GM_addStyle([
 	,`[class*=pt-]:not(#a)` // 2026-08-17
 	,`[class*=px-]:not(#a)` // 2026-08-17
 	,`[class*=py-]:not(#a)` // 2026-08-17
-	,dfTabContent // 2026-06-04
+	,df_DT_TabContent // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
