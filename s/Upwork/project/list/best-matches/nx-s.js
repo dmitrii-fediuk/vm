@@ -12,7 +12,7 @@ const df_C_JobTileActions = `.job-tile-actions`; // 2026-06-17
 // language=CSS
 const df_DT_Badges = `[data-test='job-tile-badges']`; // 2026-06-04
 // language=CSS
-const df_DT_Badge = `${df_DT_Badges} > [data-test^='badge-']`; // 2026-08-17
+const df_DT_Badge = `[data-test^='badge-']`; // 2026-08-17
 // language=CSS
 const df_DT_JobTile = `[data-test='job-tile']`; // 2026-06-04
 // language=CSS
@@ -35,7 +35,7 @@ const df_Row_Header = `${df_DT_JobTile} > :has(> div > div > h3[data-test='job-t
 // language=CSS
 const df_Row_Header_3 = `${df_Row_Header} > div:nth-of-type(2) > div:last-of-type`; // 2026-06-04
 // language=CSS
-const df_Stats = `div:has(> div > ${df_DT_ProposalsTier})`; // 2026-08-17
+const df_Stats = `div:has(> :is(div, span) > ${df_DT_ProposalsTier})`; // 2026-08-17
 // language=CSS
 const df_Stats_Proposals = df_DT_ProposalsTier; // 2026-08-17
 // language=CSS
