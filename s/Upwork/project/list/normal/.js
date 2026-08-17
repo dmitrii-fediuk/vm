@@ -388,6 +388,7 @@ else {
 		const format = a => {
 			// 2026-06-13
 			const modify = (s, action) => {
+				// 2026-08-17
 				s = Array.isArray(s) ? s : [s];
 				s.forEach(si => {
 					const i = a.querySelector(si);
