@@ -291,6 +291,18 @@ modify(dfText, i => {// language=Javascript
 	// 2.2) https://chatgpt.com/c/67d9e839-2800-8003-9a50-5a9edd88c3a2
 	i.innerHTML = i.textContent.replace(/(?:\r\n|\r|\n)/g, '<br/>');
 });
+// 2026-08-18
+modify(df_Stats_Time, i => {
+	i.innerHTML = i.textContent.trim()
+		.replace('Posted ', '')
+		.replace(' ago', '')
+		.replace('days', 'd')
+		.replace('hours', 'h')
+		.replace('minutes', 'm')
+		.replace('weeks', 'w')
+		.replace('yesterday', '1 d')
+	;
+});
 (() => {
 	const stopEvent = e => {
 		e.preventDefault();
