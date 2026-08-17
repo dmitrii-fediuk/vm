@@ -357,7 +357,7 @@ else {
 				i.innerHTML = i.textContent.trim()
 					.replace('Posted ', '')
 					// 2026-08-17
-					.replace(' · ', '      ')
+					.replace(' · ', '      ')
 					.replace('Proposals: ', '')
 				;
 			});
