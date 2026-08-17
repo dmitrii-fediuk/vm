@@ -39,6 +39,8 @@ const df_Stats = `div:has(> :is(div, span) > ${df_DT_ProposalsTier})`; // 2026-0
 // language=CSS
 const df_Stats_Proposals = df_DT_ProposalsTier; // 2026-08-17
 // language=CSS
+const df_Stats_Delimiter = `${df_Stats} > span:nth-child(2)`; // 2026-08-17
+// language=CSS
 const df_Stats_Time = `${df_Stats} > span:first-of-type`; // 2026-08-17
 // 2026-06-04
 const dfButton = `button[data-ev-label='job_feedback_button']`; // 2026-06-04
@@ -59,7 +61,6 @@ setTimeout(() => {
 		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
 		,`${df_Row_Header_3} > :not(:first-child)` // 2026-06-04
-		,`${df_Stats} > :nth-child(2)` // 2026-08-17
 		,`.featured-tag:not(#a)` // 2026-06-04
 		,`.fluid-chip-group-scroll` // 2026-08-17
 		,`.impression-tracker` // 2026-06-04
