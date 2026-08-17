@@ -312,6 +312,7 @@ modify(df_Stats_Proposals, i => {
 		.replace(' to ', '-')
 		.replace('5-10', '5')
 		.replace('10-15', '10')
+		.replace('15-20', '15')
 		.replace('20-50', '20')
 		.replace('+', '')
 		.replace('Fewer than', '<')
