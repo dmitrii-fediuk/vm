@@ -354,7 +354,12 @@ else {
 			});
 			// 2026-06-13
 			modify(df_DT_Date, i => {
-				i.innerHTML = i.textContent.trim().replace('Posted ', '');
+				i.innerHTML = i.textContent.trim()
+					.replace('Posted ', '')
+					// 2026-08-17
+					.replace(' · ', ' ')
+					.replace('Proposals: ', '')
+				;
 			});
 		};
 		// 2025-03-18, 2025-10-02 https://g.co/gemini/share/60eb4bcb2b7f
