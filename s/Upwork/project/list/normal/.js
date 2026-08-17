@@ -149,6 +149,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	df_DT_Date // 2026-08-17
+	,df_DT_Terms
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: bold !important;}')
