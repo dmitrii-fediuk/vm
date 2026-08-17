@@ -75,10 +75,10 @@ GM_addStyle([
 GM_addStyle([
 	`${dfJobTileBadges}:not(#a)` // 2026-06-04
 	,`${df_Ev_BestMatch}:not(#a)` // 2026-06-04
-	,`[class*=mb-]` // 2026-08-17
-	,`[class*=mt-]` // 2026-08-17
-	,`[class*=mx-]` // 2026-08-17
-	,`[class*=my-]` // 2026-08-17
+	,`[class*=mb-]:not(#a)` // 2026-08-17
+	,`[class*=mt-]:not(#a)` // 2026-08-17
+	,`[class*=mx-]:not(#a)` // 2026-08-17
+	,`[class*=my-]:not(#a)` // 2026-08-17
 	,dfText // 2026-06-04
 ]
 	 // language=Javascript
@@ -89,10 +89,10 @@ GM_addStyle([
 GM_addStyle([
 	`${dfJobTileBadges}` // 2026-06-04
 	,`${dfJobTile}:not(#a)` // 2026-06-04
-	,`[class*=pb-]` // 2026-08-17
-	,`[class*=pt-]` // 2026-08-17
-	,`[class*=px-]` // 2026-08-17
-	,`[class*=py-]` // 2026-08-17
+	,`[class*=pb-]:not(#a)` // 2026-08-17
+	,`[class*=pt-]:not(#a)` // 2026-08-17
+	,`[class*=px-]:not(#a)` // 2026-08-17
+	,`[class*=py-]:not(#a)` // 2026-08-17
 	,dfTabContent // 2026-06-04
 ]
 	 // language=Javascript
