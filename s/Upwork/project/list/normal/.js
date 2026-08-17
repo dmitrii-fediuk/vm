@@ -429,7 +429,7 @@ else {
 				;
 			});
 			// 2026-08-17
-			modify(df_DT_Terms, i => {
+			modify([df_DT_Terms, df_DT_Terms_Fixed_V], i => {
 				i.innerHTML = i.textContent.trim()
 					.replace('Hourly:', 'H')
 					.replace('Hourly', 'H')
