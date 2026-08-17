@@ -12,6 +12,8 @@ const df_C_JobTileActions = `.job-tile-actions`; // 2026-06-17
 // language=CSS
 const df_DT_Badges = `[data-test='job-tile-badges']`; // 2026-06-04
 // language=CSS
+const df_DT_Badge = `${df_DT_Badges} > [data-test^='badge-']`; // 2026-08-17
+// language=CSS
 const df_DT_JobTile = `[data-test='job-tile']`; // 2026-06-04
 // language=CSS
 const df_DT_JobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
@@ -101,6 +103,7 @@ GM_addStyle([
 // 2026-05-04
 // language=CSS
 GM_addStyle([
+	df_DT_Badge // 2026-08-17
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: unset !important;}')
