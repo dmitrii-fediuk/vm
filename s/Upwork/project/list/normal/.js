@@ -110,14 +110,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{background-color: unset !important;}')
 ;
-// 2026-08-17
-// language=CSS
-GM_addStyle([
-	df_DT_Date // 2026-08-17
-]
-	 // language=Javascript
-	.join(',') + '{font-weight: unset !important;}')
-;
 // 2025-03-18
 // language=CSS
 GM_addStyle([
@@ -141,6 +133,22 @@ GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{column-gap: .5rem !important;}')
+;
+// 2026-08-17
+// language=CSS
+GM_addStyle([
+	df_DT_Date // 2026-08-17
+]
+	 // language=Javascript
+	.join(',') + '{font-weight: unset !important;}')
+;
+// 2026-08-17
+// language=CSS
+GM_addStyle([
+	df_DT_Date // 2026-08-17
+]
+	 // language=Javascript
+	.join(',') + '{line-height: unset !important;}')
 ;
 // 2026-06-13
 // language=CSS
