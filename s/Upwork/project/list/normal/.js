@@ -397,6 +397,7 @@ else {
 					.replace('days', 'd')
 					.replace('weeks', 'w')
 					.replace('months', 'm')
+					.replace('yesterday', '1 d')
 				;
 			});
 		};
