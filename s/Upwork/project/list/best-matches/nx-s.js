@@ -49,6 +49,7 @@ setTimeout(() => {
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
 		,`${df_Row_Header_3} > :not(:first-child)` // 2026-06-04
 		,`.featured-tag:not(#a)` // 2026-06-04
+		,`.fluid-chip-group-scroll` // 2026-08-17
 		,`.impression-tracker` // 2026-06-04
 		,`.job-tile-bonus-connects-tag-wrap:not(#a)` // 2026-06-04
 		,`.job-tile-toggle` // 2026-06-16
