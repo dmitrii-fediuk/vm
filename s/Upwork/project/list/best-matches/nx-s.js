@@ -58,7 +58,7 @@ setTimeout(() => {
 		,`.job-tile-toggle` // 2026-06-16
 		,`:has(> ${df_DT_JobsFeed}) > :not(${df_DT_JobsFeed}):not(#a1):not(#a2)` // 2026-06-04
 		,`:has(> [data-test='menu-container'])` // 2026-06-04
-		,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
+		//,`:has(> div > [data-test='proposals-tier']) > :not(span:first-of-type)` // 2026-06-04
 		,`[data-test='feed-best-match'] > :not(${df_Ev_BestMatch})` // 2026-06-04
 		,`[data-test='feedback-label']` // 2026-06-16
 	]
