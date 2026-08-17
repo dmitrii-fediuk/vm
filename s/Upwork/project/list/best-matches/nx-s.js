@@ -337,6 +337,7 @@ modify(df_Terms, i => {
 		.replace('Fixed-price:', 'F')
 		.replaceAll('$', '')
 		.replaceAll('.00', '')
+		.replaceAll(',000', '000')
 		.replaceAll(' - ', '-')
 	;
 });
