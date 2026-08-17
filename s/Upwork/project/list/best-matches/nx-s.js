@@ -33,7 +33,7 @@ const df_Row_Country = `${df_DT_JobTile} > :has(
 // language=CSS
 const df_Row_Header = `${df_DT_JobTile} > :has(> div > div > h3[data-test='job-title'])`; // 2026-06-04
 // language=CSS
-const df_Row_Terms = `div:has(> .meta-divider)`; // 2026-06-04
+const df_Row_Terms = `div:has(> .meta-divider)`; // 2026-08-18
 // language=CSS
 const df_Stats = `div:has(> :is(div, span) > ${df_DT_ProposalsTier})`; // 2026-08-17
 // language=CSS
@@ -42,6 +42,8 @@ const df_Stats_Proposals = df_DT_ProposalsTier; // 2026-08-17
 const df_Stats_Delimiter = `${df_Stats} > span:nth-child(2)`; // 2026-08-17
 // language=CSS
 const df_Stats_Time = `${df_Stats} > span:first-of-type`; // 2026-08-17
+// language=CSS
+const df_Terms = `${df_Row_Terms} > span:first-of-type`; // 2026-08-18
 // 2026-06-04
 const dfButton = `button[data-ev-label='job_feedback_button']`; // 2026-06-04
 // language=CSS
@@ -138,6 +140,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	df_DT_Badge // 2026-08-17
+	,df_Terms // 2026-08-18
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
@@ -170,6 +173,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	df_Stats // 2026-08-18
+	,df_Terms // 2026-08-18
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: bold !important;}')
