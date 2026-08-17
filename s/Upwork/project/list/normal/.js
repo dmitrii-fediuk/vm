@@ -425,7 +425,7 @@ else {
 					.replace('Hourly', 'H')
 					.replace('Fixed price', 'F')
 					.replace('$', '')
-					.replace('.00', '')
+					.replaceAll('.00', '')
 				;
 			});
 		};
