@@ -18,6 +18,8 @@ const df_DT_JobTile = `[data-test='job-tile']`; // 2026-06-04
 // language=CSS
 const df_DT_JobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 // language=CSS
+const df_DT_ProposalsTier = `[data-test='proposals-tier']`; // 2026-08-17
+// language=CSS
 const df_DT_TabContent = `[data-test='tab-content']`; // 2026-06-04
 // language=CSS
 const df_DT_Tabs = `[data-test='tabs']`; // 2026-06-04
@@ -32,6 +34,12 @@ const df_Row_Country = `${df_DT_JobTile} > :has(
 const df_Row_Header = `${df_DT_JobTile} > :has(> div > div > h3[data-test='job-title'])`; // 2026-06-04
 // language=CSS
 const df_Row_Header_3 = `${df_Row_Header} > div > div:last-of-type`; // 2026-06-04
+// language=CSS
+const df_Stats = `div:has(> div > ${df_DT_ProposalsTier})`; // 2026-08-17
+// language=CSS
+const df_Stats_Proposals = df_DT_ProposalsTier; // 2026-08-17
+// language=CSS
+const df_Stats_Time = `${df_Stats} > span:first-of-type`; // 2026-08-17
 // 2026-06-04
 const dfButton = `button[data-ev-label='job_feedback_button']`; // 2026-06-04
 // language=CSS
@@ -51,6 +59,7 @@ setTimeout(() => {
 		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
 		,`${df_Row_Country} [data-test='icon']` // 2026-06-04
 		,`${df_Row_Header_3} > :not(:first-child)` // 2026-06-04
+		,`${df_Stats} > :nth-child(2)` // 2026-08-17
 		,`.featured-tag:not(#a)` // 2026-06-04
 		,`.fluid-chip-group-scroll` // 2026-08-17
 		,`.impression-tracker` // 2026-06-04
