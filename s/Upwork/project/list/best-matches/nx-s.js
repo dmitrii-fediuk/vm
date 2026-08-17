@@ -135,7 +135,7 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	`.label-small` // 2026-06-04
+	//`.label-small` // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{color: rgba(36, 46, 66, 0.8) !important;}')
