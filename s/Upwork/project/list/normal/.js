@@ -122,6 +122,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`:hover` // 2026-06-13
+	,df_DT_Date // 2026-08-17
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
@@ -137,10 +138,18 @@ GM_addStyle([
 // 2026-08-17
 // language=CSS
 GM_addStyle([
-	df_DT_Date // 2026-08-17
+	//df_DT_Date // 2026-08-17
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: unset !important;}')
+;
+// 2026-08-17
+// language=CSS
+GM_addStyle([
+	df_DT_Date // 2026-08-17
+]
+	 // language=Javascript
+	.join(',') + '{font-weight: bold !important;}')
 ;
 // 2026-08-17
 // language=CSS
