@@ -22,6 +22,8 @@ const df_DT_JobInfo = `[data-test='JobInfo']`; // 2026-06-15
 // language=CSS
 const df_DT_Terms = `li[data-test='job-type-label'] > strong`; // 2026-08-17
 // language=CSS
+const df_DT_Terms_Fixed = `[data-test='is-fixed-price']`; // 2026-08-17
+// language=CSS
 const dfProject = `article[data-test='JobTile']`; // 2026-06-13
 // language=CSS
 const dfText = `p.text-body-sm`; // 2026-06-16
@@ -35,8 +37,8 @@ setTimeout(() => {
 		,`${df_DT_Badges}:has(${df_DT_Featured}:only-child)` // 2026-06-15
 		,`${df_DT_JobInfo} > [data-test='duration-label']` // 2026-06-15
 		,`${df_DT_JobInfo} > [data-test='experience-level']` // 2026-06-15
-		,`${df_DT_JobInfo} > [data-test='is-fixed-price'] > .mr-1` // 2026-06-15
-		,`${df_DT_JobInfo} > [data-test='is-fixed-price']::before` // 2026-06-15
+		,`${df_DT_JobInfo} > ${df_DT_Terms_Fixed} > .mr-1` // 2026-06-15
+		,`${df_DT_JobInfo} > ${df_DT_Terms_Fixed}::before` // 2026-06-15
 		,`.jobs-grid-container > :has([data-test='filter-active-item'])` // 2025-03-18 Filters at the header
 		,`.nav-parent-wrapper`
 		,`:has(> .main-header)` // 2025-03-18 The header
@@ -126,6 +128,7 @@ GM_addStyle([
 	`:hover` // 2026-06-13
 	,df_DT_Date // 2026-08-17
 	,df_DT_Terms // 2026-08-17
+	,df_DT_Terms_Fixed // 2026-08-17
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
@@ -151,6 +154,7 @@ GM_addStyle([
 GM_addStyle([
 	df_DT_Date // 2026-08-17
 	,df_DT_Terms // 2026-08-17
+	,df_DT_Terms_Fixed // 2026-08-17
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: bold !important;}')
