@@ -359,6 +359,7 @@ else {
 					// 2026-08-17
 					.replace(' · ', '      ')
 					.replace('Proposals: ', '')
+					.replace(' to ', '-')
 				;
 			});
 		};
