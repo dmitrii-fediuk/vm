@@ -169,7 +169,8 @@ GM_addStyle([
 // 2026-08-17
 // language=CSS
 GM_addStyle([
-	`${df_DT_Badge}:not(#a)` // 2026-08-17
+	df_Stats // 2026-08-17
+	//`${df_DT_Badge}:not(#a)` // 2026-08-17
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: bold !important;}')
