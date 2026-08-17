@@ -95,6 +95,7 @@ GM_addStyle([
 	'#main > .container'
 	,'[data-test="LazyHydrate"]'
 	,'[data-test="proposals-tier"]'
+	,df_DT_Date // 2026-08-17
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
