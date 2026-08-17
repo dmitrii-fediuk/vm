@@ -391,6 +391,7 @@ else {
 					.replace(' · ', '      ')
 					.replace('Proposals: ', '')
 					.replace(' to ', '-')
+					.replace('Fewer than ', '<')
 				;
 			});
 		};
