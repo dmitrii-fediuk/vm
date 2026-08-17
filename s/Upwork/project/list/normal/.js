@@ -393,6 +393,10 @@ else {
 					.replace(' to ', '-')
 					.replace('Fewer than ', '<')
 					.replace(' ago', '')
+					.replace('hours', 'h')
+					.replace('days', 'd')
+					.replace('weeks', 'w')
+					.replace('months', 'm')
 				;
 			});
 		};
