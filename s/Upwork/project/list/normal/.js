@@ -392,6 +392,7 @@ else {
 					.replace('Proposals: ', '')
 					.replace(' to ', '-')
 					.replace('Fewer than ', '<')
+					.replace(' ago', '')
 				;
 			});
 		};
