@@ -329,6 +329,17 @@ modify(df_Stats_Time, i => {
 		.replace('yesterday', '1 d')
 	;
 });
+// 2026-08-18
+modify(df_Terms, i => {
+	i.innerHTML = i.textContent.trim()
+		.replace('Hourly:', 'H')
+		.replace('Hourly', 'H')
+		.replace('Fixed price', 'F')
+		.replaceAll('$', '')
+		.replaceAll('.00', '')
+		.replaceAll(' - ', '-')
+	;
+});
 (() => {
 	const stopEvent = e => {
 		e.preventDefault();
