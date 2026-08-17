@@ -20,6 +20,8 @@ const df_DT_Featured = `[data-test*='JobBadgePremium']`; // 2026-06-15
 // language=CSS
 const df_DT_JobInfo = `[data-test='JobInfo']`; // 2026-06-15
 // language=CSS
+const df_DT_Terms = `li[data-test='job-type-label'] > strong`; // 2026-08-17
+// language=CSS
 const dfProject = `article[data-test='JobTile']`; // 2026-06-13
 // language=CSS
 const dfText = `p.text-body-sm`; // 2026-06-16
@@ -259,7 +261,7 @@ else {
 			};
 		})();
 		// 2025-10-02
-		const qTerms = a => a.querySelector('li[data-test="job-type-label"] > strong');
+		const qTerms = a => a.querySelector(df_DT_Terms);
 		/**
 		 * 2025-03-18
 		 * @return {boolean}
