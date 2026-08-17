@@ -33,7 +33,7 @@ const df_Row_Country = `${df_DT_JobTile} > :has(
 // language=CSS
 const df_Row_Header = `${df_DT_JobTile} > :has(> div > div > h3[data-test='job-title'])`; // 2026-06-04
 // language=CSS
-const df_Row_Header_3 = `${df_Row_Header} > div:nth-of-type(2) > div:last-of-type`; // 2026-06-04
+const df_Row_Header_3 = `div:has(> .meta-divider)`; // 2026-06-04
 // language=CSS
 const df_Stats = `div:has(> :is(div, span) > ${df_DT_ProposalsTier})`; // 2026-08-17
 // language=CSS
