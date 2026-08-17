@@ -124,6 +124,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{border-radius: 0 !important;}')
 ;
+// 2026-08-17
+// language=CSS
+GM_addStyle([
+	df_DT_Badge // 2026-08-17
+]
+	 // language=Javascript
+	.join(',') + '{color: initial !important;}')
+;
 // 2026-06-04
 // language=CSS
 GM_addStyle([
