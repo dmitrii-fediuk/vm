@@ -426,6 +426,7 @@ else {
 					.replace('Fixed price', 'F')
 					.replaceAll('$', '')
 					.replaceAll('.00', '')
+					.replaceAll(' - ', '-')
 				;
 			});
 		};
