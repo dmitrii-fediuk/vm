@@ -112,6 +112,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// 2026-08-18
+// language=CSS
+GM_addStyle([
+	`${df_DT_Badge}:first-of-type` // 2026-08-18
+]
+	 // language=Javascript
+	.join(',') + '{padding-left: 0 !important;}')
+;
 // 2026-05-04
 // language=CSS
 GM_addStyle([
