@@ -42,7 +42,8 @@ const dfTitle = `[data-test='job-title']`; // 2026-06-04
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
+		`#user-footer-microapp-app-container` // 2026-08-17
+		,`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
 		,`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
 		,`${df_C_JobTileActions} > :not([data-test='job-feedback'])` // 2026-06-04
 		,`${df_Row_Country} > :not(:last-child):not(#a)` // 2026-06-04
