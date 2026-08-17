@@ -24,6 +24,8 @@ const df_DT_Terms = `li[data-test='job-type-label'] > strong`; // 2026-08-17
 // language=CSS
 const df_DT_Terms_Fixed = `[data-test='is-fixed-price']`; // 2026-08-17
 // language=CSS
+const df_DT_Terms_Fixed_V = `${df_DT_Terms_Fixed} > .rr-mask`; // 2026-08-17
+// language=CSS
 const dfProject = `article[data-test='JobTile']`; // 2026-06-13
 // language=CSS
 const dfText = `p.text-body-sm`; // 2026-06-16
@@ -129,6 +131,7 @@ GM_addStyle([
 	,df_DT_Date // 2026-08-17
 	,df_DT_Terms // 2026-08-17
 	,df_DT_Terms_Fixed // 2026-08-17
+	,df_DT_Terms_Fixed_V // 2026-08-17
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
@@ -155,6 +158,7 @@ GM_addStyle([
 	df_DT_Date // 2026-08-17
 	,df_DT_Terms // 2026-08-17
 	,df_DT_Terms_Fixed // 2026-08-17
+	,df_DT_Terms_Fixed_V // 2026-08-17
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: bold !important;}')
