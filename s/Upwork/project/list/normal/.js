@@ -388,10 +388,12 @@ else {
 		const format = a => {
 			// 2026-06-13
 			const modify = (s, action) => {
-				const i = a.querySelector(s);
-				if (i) {
-					action(i);
-				}
+				// 2026-08-09 https://share.gemini.google/tOXOcu2TdlcM
+				s = !Array.isArray(s) ? s : s.join(',');
+				const p = i => {
+					i.matches?.(s) && action(i);
+					i.querySelectorAll?.(s).forEach(action);
+				};
 			};
 			// 2025-03-19
 			// language=CSS
