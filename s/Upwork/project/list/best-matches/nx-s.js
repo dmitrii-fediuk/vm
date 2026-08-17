@@ -127,7 +127,7 @@ GM_addStyle([
 // 2026-08-17
 // language=CSS
 GM_addStyle([
-	`${df_DT_Badge}:not(#a)` // 2026-08-17
+	df_DT_Badge // 2026-08-17
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
@@ -185,8 +185,8 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	df_DT_Badges // 2026-06-04
-	,df_C_JobTileActions // 2026-06-04
+	//df_DT_Badges // 2026-06-04
+	//,df_C_JobTileActions // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{opacity: .5 !important;}')
