@@ -424,7 +424,7 @@ else {
 					.replace('Hourly:', 'H')
 					.replace('Hourly', 'H')
 					.replace('Fixed price', 'F')
-					.replace('$', '')
+					.replaceAll('$', '')
 					.replaceAll('.00', '')
 				;
 			});
