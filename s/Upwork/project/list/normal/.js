@@ -416,6 +416,16 @@ else {
 					.replace('yesterday', '1 d')
 				;
 			});
+			// 2026-08-17
+			modify(df_DT_Terms, i => {
+				i.innerHTML = i.textContent.trim()
+					.replace('Hourly:', 'H')
+					.replace('Hourly', 'H')
+					.replace('Fixed price', 'F')
+					.replace('$', '')
+					.replace('.00', '')
+				;
+			});
 		};
 		// 2025-03-18, 2025-10-02 https://g.co/gemini/share/60eb4bcb2b7f
 		const filters = [fCountries, fRate, fRateNotSpecified, fLength, fPhrases, fTags];
