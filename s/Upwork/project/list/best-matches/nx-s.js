@@ -295,6 +295,17 @@ modify(dfText, i => {// language=Javascript
 // 2026-08-18
 modify(df_Stats_Delimiter, i => {i.innerHTML = '      ';});
 // 2026-08-18
+modify(df_Stats_Proposals, i => {
+	i.innerHTML = i.textContent.trim()
+		.replace(' to ', '-')
+		.replace('5-10', '5')
+		.replace('10-15', '10')
+		.replace('20-50', '20')
+		.replace('+', '')
+		.replace('Fewer than', '<')
+	;
+});
+// 2026-08-18
 modify(df_Stats_Time, i => {
 	i.innerHTML = i.textContent.trim()
 		.replace('Posted ', '')
