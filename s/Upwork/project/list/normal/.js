@@ -145,7 +145,7 @@ GM_addStyle([
 // 2026-08-17
 // language=CSS
 GM_addStyle([
-	df_DT_Date // 2026-08-17
+	`${df_DT_Date}:not(#a)` // 2026-08-17
 ]
 	// language=Javascript
 	.join(',') + '{' +
