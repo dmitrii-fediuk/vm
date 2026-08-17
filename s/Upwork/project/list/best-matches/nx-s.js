@@ -75,6 +75,10 @@ GM_addStyle([
 GM_addStyle([
 	`${dfJobTileBadges}:not(#a)` // 2026-06-04
 	,`${df_Ev_BestMatch}:not(#a)` // 2026-06-04
+	,`[class*=mb-]` // 2026-08-17
+	,`[class*=mt-]` // 2026-08-17
+	,`[class*=mx-]` // 2026-08-17
+	,`[class*=my-]` // 2026-08-17
 	,dfText // 2026-06-04
 ]
 	 // language=Javascript
