@@ -109,7 +109,8 @@ GM_addStyle([
 // 2026-05-04
 // language=CSS
 GM_addStyle([
-	`.visited` // 2026-06-13
+	`.highlight`// 2026-08-17
+	,`.visited` // 2026-06-13
 	,`:hover:not(#A)` // 2026-05-04
 	,df_DT_Date // 2026-08-17
 ]
