@@ -272,6 +272,7 @@ else {
 // 1) https://g.co/gemini/share/9776258b5353
 // 2) https://g.co/gemini/share/fdb2b22cbe50
 const modify = (s, action) => {
+	s = !Array.isArray(s) ? s : s.join(','); // 2026-08-09 https://share.gemini.google/tOXOcu2TdlcM
 	const p = i => {
 		i.matches?.(s) && action(i);
 		i.querySelectorAll?.(s).forEach(action);
