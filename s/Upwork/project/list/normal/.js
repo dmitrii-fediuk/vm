@@ -391,7 +391,7 @@ else {
 					.replace(' · ', '      ')
 					.replace('Proposals: ', '')
 					.replace(' to ', '-')
-					.replace('Fewer than ', '<')
+					.replace('Fewer than', '<')
 					.replace(' ago', '')
 					.replace('hours', 'h')
 					.replace('days', 'd')
