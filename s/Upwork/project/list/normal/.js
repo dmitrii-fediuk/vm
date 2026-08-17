@@ -397,10 +397,11 @@ else {
 					.replace('+', '')
 					.replace('Fewer than', '<')
 					.replace(' ago', '')
-					.replace('hours', 'h')
 					.replace('days', 'd')
+					.replace('hours', 'h')
+					.replace('minutes', 'm')
+					//.replace('months', 'm')
 					.replace('weeks', 'w')
-					.replace('months', 'm')
 					.replace('yesterday', '1 d')
 				;
 			});
