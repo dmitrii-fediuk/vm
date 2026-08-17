@@ -10,9 +10,9 @@
 // language=CSS
 const df_C_JobTileActions = `.job-tile-actions`; // 2026-06-17
 // language=CSS
-const dfJobTile = `[data-test='job-tile']`; // 2026-06-04
+const df_DT_JobTile = `[data-test='job-tile']`; // 2026-06-04
 // language=CSS
-const dfJobTileBadges = `[data-test='job-tile-badges']`; // 2026-06-04
+const df_DT_JobTileBadges = `[data-test='job-tile-badges']`; // 2026-06-04
 // language=CSS
 const dfJobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
 // language=CSS
@@ -23,11 +23,11 @@ const dfTabs = `[data-test='tabs']`; // 2026-06-04
 const df_Ev_BestMatch = `[data-ev-label='best_match']`; // 2026-06-04
 // 2026-06-04
 // language=CSS
-const df_Row_Country = `${dfJobTile} > :has(
+const df_Row_Country = `${df_DT_JobTile} > :has(
 	> div > [data-test='icon'] > svg > path[d^='M20 10c0 4.99']
 )`;
 // language=CSS
-const df_Row_Header = `${dfJobTile} > :has(> div > div > h3[data-test='job-title'])`; // 2026-06-04
+const df_Row_Header = `${df_DT_JobTile} > :has(> div > div > h3[data-test='job-title'])`; // 2026-06-04
 // language=CSS
 const df_Row_Header_3 = `${df_Row_Header} > div > div:last-of-type`; // 2026-06-04
 // 2026-06-04
@@ -73,7 +73,7 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	`${dfJobTileBadges}:not(#a)` // 2026-06-04
+	`${df_DT_JobTileBadges}:not(#a)` // 2026-06-04
 	,`${df_Ev_BestMatch}:not(#a)` // 2026-06-04
 	,`[class*=mb-]:not(#a)` // 2026-08-17
 	,`[class*=mt-]:not(#a)` // 2026-08-17
@@ -87,8 +87,8 @@ GM_addStyle([
 // 2024-12-25
 // language=CSS
 GM_addStyle([
-	`${dfJobTileBadges}` // 2026-06-04
-	,`${dfJobTile}:not(#a)` // 2026-06-04
+	`${df_DT_JobTileBadges}` // 2026-06-04
+	,`${df_DT_JobTile}:not(#a)` // 2026-06-04
 	,`[class*=pb-]:not(#a)` // 2026-08-17
 	,`[class*=pt-]:not(#a)` // 2026-08-17
 	,`[class*=px-]:not(#a)` // 2026-08-17
@@ -108,7 +108,7 @@ GM_addStyle([
 // 2025-03-18
 // language=CSS
 GM_addStyle([
-	dfJobTile // 2026-06-04
+	df_DT_JobTile // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
@@ -116,7 +116,7 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	dfJobTile // 2026-06-04
+	df_DT_JobTile // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{border-radius: 0 !important;}')
@@ -148,9 +148,9 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	`${dfJobTile}:not(#a)` // 2026-06-04
+	`${df_DT_JobTile}:not(#a)` // 2026-06-04
 	,`${df_Row_Header} > div` // 2026-06-04
-	,`:has(> ${dfJobTileBadges}):not(#a)` // 2026-06-04
+	,`:has(> ${df_DT_JobTileBadges}):not(#a)` // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{gap: 0 !important;}')
@@ -166,7 +166,7 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	dfJobTileBadges // 2026-06-04
+	df_DT_JobTileBadges // 2026-06-04
 	,df_C_JobTileActions // 2026-06-04
 ]
 	 // language=Javascript
@@ -185,7 +185,7 @@ GM_addStyle([
 GM_addStyle('body {padding: 0.5rem !important;}');
 // 2026-06-04
 // language=CSS
-GM_addStyle(`${dfJobTile} > * {order: 3 !important;}`);
+GM_addStyle(`${df_DT_JobTile} > * {order: 3 !important;}`);
 // 2026-06-04
 // language=CSS
 GM_addStyle(`${df_Row_Header} {order: 1 !important;}`);
@@ -279,7 +279,7 @@ modify(dfText, i => {// language=Javascript
 		}
 	};
 	const openProject = b => {
-		const p = b.closest(dfJobTile);
+		const p = b.closest(df_DT_JobTile);
 		if (p) {
 			const i = p.querySelector('.impression-tracker');
 			if (i) {
@@ -291,7 +291,7 @@ modify(dfText, i => {// language=Javascript
 	(() => {
 		let x = 0, y = 0, p;
 		const updateProject = () => {
-			p = document.elementFromPoint(x, y)?.closest(dfJobTile);
+			p = document.elementFromPoint(x, y)?.closest(df_DT_JobTile);
 		};
 		// 2026-06-16 https://gemini.google.com/share/720476d8112b
 		['mousemove', 'mouseenter'].forEach(i => {
@@ -316,7 +316,7 @@ modify(dfText, i => {// language=Javascript
 	document.addEventListener('click', e => {
 		const i = e.target;
 		const menuItemClass = 'ngm-menu-item';
-		if (!i.classList.contains(menuItemClass) && e.target.closest(dfJobTile)) {
+		if (!i.classList.contains(menuItemClass) && e.target.closest(df_DT_JobTile)) {
 			const downBtn = i.closest(dfButton);
 			if (!downBtn) {
 				stopEvent(e);
