@@ -293,9 +293,7 @@ modify(dfText, i => {// language=Javascript
 	i.innerHTML = i.textContent.replace(/(?:\r\n|\r|\n)/g, '<br/>');
 });
 // 2026-08-18
-modify(df_Stats_Delimiter, i => {
-	i.innerHTML = '      ';
-});
+modify(df_Stats_Delimiter, i => {i.innerHTML = '      ';});
 // 2026-08-18
 modify(df_Stats_Time, i => {
 	i.innerHTML = i.textContent.trim()
