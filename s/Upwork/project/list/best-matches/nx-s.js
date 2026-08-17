@@ -334,7 +334,7 @@ modify(df_Terms, i => {
 	i.innerHTML = i.textContent.trim()
 		.replace('Hourly:', 'H')
 		.replace('Hourly', 'H')
-		.replace('Fixed price', 'F')
+		.replace('Fixed-price:', 'F')
 		.replaceAll('$', '')
 		.replaceAll('.00', '')
 		.replaceAll(' - ', '-')
