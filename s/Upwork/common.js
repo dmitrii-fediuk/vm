@@ -13,7 +13,8 @@
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`#user-top-navigation-container .nav-container > [data-cy='header']`
+		`#user-footer-microapp-app-container` // 2026-08-23
+		,`#user-top-navigation-container .nav-container > [data-cy='header']`
 		,`.air3-banner` // 2025-04-15
 		,`.air3-search`
 		,`.microapp-slot-innova`
