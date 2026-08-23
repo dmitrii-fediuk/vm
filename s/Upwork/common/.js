@@ -92,7 +92,8 @@ GM_addStyle([
 // 2026-08-23
 // language=CSS
 GM_addStyle([
-	`.main-content-container` // 2026-08-23
+	`*` // 2026-08-23
+	,`.main-content-container` // 2026-08-23
 ]
 	 // language=Javascript
 	.join(',') + '{border-radius: unset !important;}')
