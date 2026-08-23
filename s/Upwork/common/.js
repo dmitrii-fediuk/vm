@@ -71,6 +71,14 @@ GM_addStyle([
 GM_addStyle([
 	`.main-content-container` // 2026-08-23
 ]
+	 // language=Javascript
+	.join(',') + '{border-radius: unset !important;}')
+;
+// 2026-08-23
+// language=CSS
+GM_addStyle([
+	`.main-content-container` // 2026-08-23
+]
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
@@ -92,6 +100,22 @@ GM_addStyle([
 	,`p.text-body-sm` // 2026-05-04
 // language=Javascript
 ].join(',') + '{letter-spacing: revert !important;}');
+// 2026-08-23
+// language=CSS
+GM_addStyle([
+	`.main-content-container` // 2026-08-23
+]
+	 // language=Javascript
+	.join(',') + '{transition: unset !important;}')
+;
+// 2026-08-23
+// language=CSS
+GM_addStyle([
+	`.main-content-container` // 2026-08-23
+]
+	 // language=Javascript
+	.join(',') + '{transform: unset !important;}')
+;
 // 2026-08-23
 // language=CSS
 GM_addStyle([
