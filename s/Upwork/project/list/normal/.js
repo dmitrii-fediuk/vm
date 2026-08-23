@@ -128,7 +128,8 @@ GM_addStyle([
 // 2026-06-13
 // language=CSS
 GM_addStyle([
-	`:hover` // 2026-06-13
+	`.text-light` // 2026-08-23
+	,`:hover` // 2026-06-13
 	,`body` // 2026-08-23
 	,df_DT_Date // 2026-08-17
 	,df_DT_Terms // 2026-08-17
