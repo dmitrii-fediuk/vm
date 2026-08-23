@@ -16,8 +16,6 @@ if (!['/freelancers/mage2pro'].includes(location.pathname)) {
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`#user-footer-microapp-app-container` // 2026-08-23
-		,`.ng-sidebar-layout-wrapper` // 2026-08-23
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
