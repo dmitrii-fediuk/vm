@@ -19,6 +19,7 @@ setTimeout(() => {
 		,`.microapp-slot-innova`
 		,`.nav-notifications .nav-dot`
 		,`.nav-uma`
+		,`.ng-sidebar-layout-wrapper` // 2026-08-23
 		,`.up-skip-nav`
 		,`[data-cy='help-menu']`
 		,`[data-test='SaveJob']`
