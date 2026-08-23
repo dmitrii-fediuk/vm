@@ -90,14 +90,15 @@ GM_addStyle([
 // 2025-12-30
 // language=CSS
 GM_addStyle([
-	//'*' // 2025-12-30
+	'*' // 2025-12-30
 // language=Javascript
 ].join(',') + '{letter-spacing: initial !important;}');
 // 2026-05-04
 // language=CSS
 GM_addStyle([
-	`:is(h1, h2, h3, h4, h5, h6)` // 2026-08-23
-	,`p.text-base-sm` // 2026-05-04
+	//`:is(h1, h2, h3, h4, h5, h6)` // 2026-08-23
+	//`*` // 2026-08-23
+	`p.text-base-sm` // 2026-05-04
 	,`p.text-body-sm` // 2026-05-04
 // language=Javascript
 ].join(',') + '{letter-spacing: revert !important;}');
