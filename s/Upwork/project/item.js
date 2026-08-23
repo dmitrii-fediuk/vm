@@ -136,7 +136,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.${df_c_hired}`
-	,`.${df_c_hired} .air3-card-sections`
+	//,`.${df_c_hired} .air3-card-sections`
 	,`.${df_c_hired} .main-content` // 2026-08-23
 // language=Javascript
 ].join(`,`) + `{background: #ffe6e6 !important;}`);
@@ -144,7 +144,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.${df_c_hired_and_closed}`
-	,`.${df_c_hired_and_closed} .air3-card-sections`
+	//,`.${df_c_hired_and_closed} .air3-card-sections`
 	,`.${df_c_hired_and_closed} .main-content` // 2026-08-23
 // language=Javascript
 ].join(`,`) + `{background: #f5e9e9 !important;}`);
