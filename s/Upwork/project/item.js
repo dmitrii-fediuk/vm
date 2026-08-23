@@ -218,6 +218,15 @@ GM_addStyle([
 	dfDeliverables
 // language=Javascript
 ].join(`,`) + `{list-style: none !important;}`);
+// 2026-08-23
+// language=CSS
+GM_addStyle([
+	`body` // 2026-08-23
+// language=Javascript
+].join(',') + `{${Object.entries({
+	'font-family': 'Segoe UI'
+	,'letter-spacing': '.03em' 
+}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2025-10-02
 // language=CSS
 GM_addStyle([
@@ -226,9 +235,9 @@ GM_addStyle([
 	,dfDeliverables // 2025-10-02
 // language=Javascript
 ].join(',') + `{${Object.entries({
-	'font-family': 'Segoe UI'
-	,'font-size': '120%'
-	,'letter-spacing': '.03em' // 2026-08-23
+	//'font-family': 'Segoe UI'
+	'font-size': '120%'
+	//,'letter-spacing': '.03em' // 2026-08-23
 	,'line-height': 1.2
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2025-09-05
