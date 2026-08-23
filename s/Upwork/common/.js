@@ -61,6 +61,14 @@ GM_addStyle([
 // 2026-08-23
 // language=CSS
 GM_addStyle([
+	`.main-content` // 2026-08-23
+]
+	 // language=Javascript
+	.join(',') + '{border: 0 !important;}')
+;
+// 2026-08-23
+// language=CSS
+GM_addStyle([
 	`.main-content-container` // 2026-08-23
 ]
 	// language=Javascript
