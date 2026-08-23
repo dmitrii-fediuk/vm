@@ -13,17 +13,6 @@
 // 2025-09-06 The previous value: «about-client-container»
 // 2025-10-02 The previous value: «AboutClientUser»
 const df_v_about_client = 'about-client-container';
-// language=CSS
-const dfAboutClient = `[data-test='${df_v_about_client}']`;
-//2025-10-02 The previous value: `[data-test='Features']`
-// language=CSS
-const dfFeatures = 'section:has(> ul.features)';
-const dfNL = `df-nl`; // 2026-06-13
-const dfNotVerified = 'df-not-verified'; // 2025-09-05
-//2025-10-02 The previous value: `[data-test='Qualifications']`
-// language=CSS
-const dfQualifications = 'section:has(> ul.qualification-items)';
-const dfTitle = `h4:has(> div[job-uid])`; // 2026-08-23
 const df_c_activity = 'df-activity'; // 2025-10-02
 const df_c_bid_range = 'df-bid-range'; // 2025-10-02
 const df_c_hired = 'df-hired'; // 2025-10-03
@@ -31,18 +20,32 @@ const df_c_hired_and_closed = 'df-hired-closed'; // 2025-11-23
 const df_c_important_list = 'df-important-list'; // 2025-10-02
 const df_c_questions = 'df-questions'; //2025-09-05
 const df_c_tags = 'df-tags'; // 2025-10-02
-const dfWarning = 'df-warning'; // 2025-09-06
-//2025-10-02 The previous value: `[data-test='Bids']`
+// language=CSS
+const dfAboutClient = `[data-test='${df_v_about_client}']`;
+// 2025-10-02 The previous value: `[data-test='Bids']`
 const dfBids = `.${df_c_bid_range}`;
 // 2025-10-02 The previous value: `[data-test='ClientActivity']`
 // language=CSS
 const dfClientActivity = `.${df_c_activity}`;
 const dfDeliverables = `ul[data-test='deliverables']`; // 2025-10-02
+// 2025-10-02 The previous value: `[data-test='Features']`
+// language=CSS
+const dfFeatures = 'section:has(> ul.features)';
 const dfImportantList = `.${df_c_important_list}`; // 2025-10-02
+const dfNL = `df-nl`; // 2026-06-13
+const dfNotVerified = 'df-not-verified'; // 2025-09-05
+// 2025-10-02 The previous value: `[data-test='Qualifications']`
+// language=CSS
+const dfQualifications = 'section:has(> ul.qualification-items)';
 const dfQuestions = `.${df_c_questions}`; // 2025-10-02
 // 2025-10-02 The previous value: `[data-test='Expertise']`
 // language=CSS
 const dfTags = `.${df_c_tags}`;
+// language=CSS
+const dfTime = `.posted-on-line`; // 2026-08-23
+// language=CSS
+const dfTitle = `h4:has(> div[job-uid])`; // 2026-08-23
+const dfWarning = 'df-warning'; // 2025-09-06
 // 2025-06-10
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
@@ -59,12 +62,12 @@ setTimeout(() => {
 		,`${dfQualifications} [data-cy='english']`
 		// 2024-12-25 Titles like: «Full Stack Development Deliverables»
 		,`${dfTags} > [class*='grid-container'] > div:has(> .skills-list) > strong`
+		,`${dfTime} ~ :not(#A)` // 2025-09-04
 		,`.client-activity-items .help-icon`
 		,`.extra-jobs-cards > [class*='card']:has([data-test='SimilarJobs'])`
 		,`.job-details-content > :has(> button polygon)` // 2025-09-04
 		,`.nav-parent-wrapper`
 		,`.popover` // 2025-09-04
-		,`.posted-on-line ~ :not(#A)` // 2025-09-04
 		,`:has(> .skills-list) > strong` // 2025-09-04
 		,`[data-test='Description'] > strong:first-child` // 2025-09-04
 		,`[data-test='FlagButton']`
