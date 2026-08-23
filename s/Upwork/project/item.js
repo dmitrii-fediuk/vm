@@ -129,7 +129,7 @@ GM_addStyle([
 // 2026-08-23
 // language=CSS
 GM_addStyle([
-	`.main-content` // 2026-08-23
+	//`.main-content:not(#a)` // 2026-08-23
 // language=Javascript
 ].join(`,`) + `{background: revert !important;}`);
 // 2025-10-03
@@ -137,6 +137,7 @@ GM_addStyle([
 GM_addStyle([
 	`.${df_c_hired}`
 	,`.${df_c_hired} .air3-card-sections`
+	,`.${df_c_hired} .main-content` // 2026-08-23
 // language=Javascript
 ].join(`,`) + `{background: #ffe6e6 !important;}`);
 // 2025-11-23 https://share.google/TUp89J1Q0llPHWhkI
@@ -144,6 +145,7 @@ GM_addStyle([
 GM_addStyle([
 	`.${df_c_hired_and_closed}`
 	,`.${df_c_hired_and_closed} .air3-card-sections`
+	,`.${df_c_hired_and_closed} .main-content` // 2026-08-23
 // language=Javascript
 ].join(`,`) + `{background: #f5e9e9 !important;}`);
 // 2025-09-05
