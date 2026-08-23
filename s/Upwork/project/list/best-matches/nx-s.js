@@ -150,6 +150,7 @@ GM_addStyle([
 	dfText // 2026-08-23
 	,dfTitle // 2026-08-23
 	,df_DT_Badge // 2026-08-17
+	,df_Row_Country // 2026-08-23
 	,df_Terms // 2026-08-18
 ]
 	 // language=Javascript
