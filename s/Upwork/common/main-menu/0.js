@@ -23,11 +23,3 @@ setTimeout(() => {
 		.join(',') + '{display: none !important;}')
 	;
 }, 200);
-// 2026-08-23
-// language=CSS
-GM_addStyle([
-	`.layout:has(> .main-content-container)` // 2026-08-23
-]
-	 // language=Javascript
-	.join(',') + '{display: block !important;}')
-;
