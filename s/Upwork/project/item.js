@@ -126,6 +126,12 @@ GM_addStyle([
 	,dfDeliverables // 2025-10-02
 // language=Javascript
 ].join(',') + '{padding: 0 !important;}');
+// 2026-08-23
+// language=CSS
+GM_addStyle([
+	`body *` // 2026-08-23
+// language=Javascript
+].join(`,`) + `{background: revert !important;}`);
 // 2025-10-03
 // language=CSS
 GM_addStyle([
