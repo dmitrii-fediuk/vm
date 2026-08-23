@@ -63,7 +63,7 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			'color': 'black'
-			,'font-family': 'Segoie UI'
+			,'font-family': 'Segoe UI'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );

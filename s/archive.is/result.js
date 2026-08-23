@@ -122,7 +122,7 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
-			'font-family': 'Segoie UI'
+			'font-family': 'Segoe UI'
 			// language=Javascript
 			,'font-size': '150%'
 			// language=CSS

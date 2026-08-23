@@ -115,7 +115,7 @@ if ((new URL(location.href).pathname.split('/')[2])?.startsWith('p_')) {
 		.join(',') + '{' +
 			// language=CSS
 			Object.entries({
-				'font-family': 'Segoie UI'
+				'font-family': 'Segoe UI'
 				// language=Javascript
 				,'font-size': '1.7rem'
 				,'line-height': 1.2
