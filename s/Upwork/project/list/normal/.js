@@ -217,7 +217,7 @@ GM_addStyle([
 	dfText // 2025-03-19
 // language=Javascript
 ].join(',') + `{${Object.entries({
-	'font-family': 'Segoie UI'
+	'font-family': 'Segoe UI'
 	,'font-size': '120%'
 	,'line-height': 1.2
 	,'letter-spacing': '.03em' // 2026-05-04
