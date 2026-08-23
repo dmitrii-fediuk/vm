@@ -36,7 +36,7 @@ setTimeout(() => {
 // 2026-08-23
 // language=CSS
 GM_addStyle([
-	`.layout:has(> .main-content-container)` // 2026-08-23
+	`.layout:has(> .ng-sidebar-layout-wrapper)` // 2026-08-23
 	,`.main-content-container` // 2026-08-23
 ]
 	 // language=Javascript
