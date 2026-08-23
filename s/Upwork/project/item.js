@@ -23,6 +23,7 @@ const dfNotVerified = 'df-not-verified'; // 2025-09-05
 //2025-10-02 The previous value: `[data-test='Qualifications']`
 // language=CSS
 const dfQualifications = 'section:has(> ul.qualification-items)';
+const dfTitle = `h4:has(> div[job-uid])`; // 2026-08-23
 const df_c_activity = 'df-activity'; // 2025-10-02
 const df_c_bid_range = 'df-bid-range'; // 2025-10-02
 const df_c_hired = 'df-hired'; // 2025-10-03
@@ -202,6 +203,7 @@ GM_addStyle([
 	`${dfImportantList}:not(#A)` // 2024-12-25, 2025-10-02
 	,`.${dfWarning}` // 2025-09-05
 	,`.posted-on-line` // 2025-09-05
+	,dfTitle // 2026-08-23
 // language=Javascript
 ].join(`,`) + `{font-weight: bold !important;}`);
 // 2024-12-25
