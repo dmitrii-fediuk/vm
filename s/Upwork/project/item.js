@@ -145,7 +145,8 @@ GM_addStyle([
 // 2026-08-23
 // language=CSS
 GM_addStyle([
-	`body` // 2026-08-23
+	`.text-light-on-muted` // 2026-08-23
+	,`body` // 2026-08-23
 ]
 	 // language=Javascript
 	.join(',') + '{color: initial !important;}')
