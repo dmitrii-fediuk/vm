@@ -200,7 +200,7 @@ GM_addStyle([
 // 2026-08-23
 // language=CSS
 GM_addStyle([
-	`.text-base`
+	`.text-base:not(#a)` // 2026-08-23
 // language=Javascript
 ].join(`,`) + `{font-weight: revert !important;}`);
 // 2025-09-05
