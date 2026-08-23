@@ -205,11 +205,11 @@ GM_addStyle([
 // 2026-05-05
 // language=CSS
 GM_addStyle([
-	`${dfDeliverables} *` // 2026-05-05
-	,`${dfQuestions} ol *` // 2026-05-05
-	,`${dfQuestions} ol` // 2026-05-04
-	,`[data-test='Description'] p` // 2026-05-04
-	,dfDeliverables // 2026-05-04
+	//`${dfDeliverables} *` // 2026-05-05
+	//,`${dfQuestions} ol *` // 2026-05-05
+	//,`${dfQuestions} ol` // 2026-05-04
+	//,`[data-test='Description'] p` // 2026-05-04
+	//,dfDeliverables // 2026-05-04
 // language=Javascript
 ].join(',') + '{letter-spacing: .02em !important;}');
 // 2025-10-02
