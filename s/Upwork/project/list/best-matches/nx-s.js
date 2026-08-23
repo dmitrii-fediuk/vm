@@ -148,7 +148,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	dfText // 2026-08-23
-	,dfTitle // 2026-06-04
+	,dfTitle // 2026-08-23
 	,df_DT_Badge // 2026-08-17
 	,df_Terms // 2026-08-18
 ]
@@ -243,6 +243,8 @@ GM_addStyle(`${dfTitle} {font-size: 1.25rem !important;}`);
 GM_addStyle([
 	dfText // 2026-06-04
 	,dfTitle // 2026-06-04
+	,df_DT_Badge // 2026-08-23
+	,df_Terms // 2026-08-23
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'font-family': 'Segoe UI'
