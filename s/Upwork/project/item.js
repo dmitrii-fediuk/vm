@@ -226,7 +226,7 @@ GM_addStyle([
 	,dfDeliverables // 2025-10-02
 // language=Javascript
 ].join(',') + `{${Object.entries({
-	'font-family': 'Segoie UI'
+	'font-family': 'Segoe UI'
 	,'font-size': '140%'
 	,'line-height': 1.2
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
