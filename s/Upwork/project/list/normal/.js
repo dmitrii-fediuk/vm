@@ -216,7 +216,7 @@ GM_addStyle('[data-test="JobTileDetails"] {display: flex; flex-direction: row; f
 // 2025-03-19
 // language=CSS
 GM_addStyle([
-	`body:not(#a)"` // 2026-08-23
+	`body:not(#a)` // 2026-08-23
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'font-family': 'Segoe UI'
