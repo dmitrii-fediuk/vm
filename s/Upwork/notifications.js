@@ -22,7 +22,16 @@ setTimeout(() => {
 // 2026-08-23
 // language=CSS
 GM_addStyle([
+	`.notification-row` // 2026-08-23
+]
+	 // language=Javascript
+	.join(',') + '{margin: 0 !important;}')
+;
+// 2026-08-23
+// language=CSS
+GM_addStyle([
 	`.air3-tab-content` // 2026-08-23
+	,`.notification-row` // 2026-08-23
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
