@@ -19,3 +19,11 @@ setTimeout(() => {
 		.join(',') + '{display: none !important;}')
 	;
 }, 200);
+// 2026-08-23
+// language=CSS
+GM_addStyle([
+	`.air3-tab-content` // 2026-08-23
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
