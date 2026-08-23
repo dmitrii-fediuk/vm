@@ -13,14 +13,12 @@
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`#user-footer-microapp-app-container` // 2026-08-23
-		,`#user-top-navigation-container .nav-container > [data-cy='header']`
+		`#user-top-navigation-container .nav-container > [data-cy='header']`
 		,`.air3-banner` // 2025-04-15
 		,`.air3-search`
 		,`.microapp-slot-innova`
 		,`.nav-notifications .nav-dot`
 		,`.nav-uma`
-		//,`.ng-sidebar-layout-wrapper` // 2026-08-23
 		,`.up-skip-nav`
 		,`[data-cy='help-menu']`
 		,`[data-test='SaveJob']`
@@ -35,14 +33,6 @@ setTimeout(() => {
 		.join(',') + '{display: none !important;}')
 	;
 }, 200);
-// 2026-08-23
-// language=CSS
-GM_addStyle([
-	`.layout:has(> .main-content-container)` // 2026-08-23
-]
-	 // language=Javascript
-	.join(',') + '{display: block !important;}')
-;
 // language=CSS
 GM_addStyle([
 	'[role="alert"]'
