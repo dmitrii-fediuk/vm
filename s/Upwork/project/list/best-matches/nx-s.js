@@ -244,6 +244,7 @@ GM_addStyle([
 	dfText // 2026-06-04
 	,dfTitle // 2026-06-04
 	,df_DT_Badge // 2026-08-23
+	,df_Row_Country // 2026-08-23
 	,df_Terms // 2026-08-23
 // language=Javascript
 ].join(',') + `{${Object.entries({
