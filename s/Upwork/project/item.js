@@ -179,7 +179,7 @@ GM_addStyle([
 	,`${dfTags} > [class*='grid-container']`
 	,`.air3-card-section:has(> ${dfClientActivity})` // 2025-09-06
 	,`.air3-card-section:has(> [data-test='ConnectsAuction'])`
-	,`section:has(.posted-on-line)` // 2025-09-05
+	,`section:has(${dfTime})` // 2025-09-05
 	,dfAboutClient
 // language=Javascript
 ].join(',') + '{display: flex !important; gap: 0.5rem !important;}');
@@ -190,7 +190,7 @@ GM_addStyle(`[data-test='ConnectsAuction'] {display: flex !important; gap: 1rem 
 // language=CSS
 GM_addStyle([
 	`${dfAboutClient} .features` // 2024-12-25
-	,`section:has(.posted-on-line)` // 2025-09-05
+	,`section:has(${dfTime})` // 2025-09-05
 // language=Javascript
 ].join(',') + '{flex-direction: row !important;}');
 // 2025-09-06
@@ -211,7 +211,7 @@ GM_addStyle([
 GM_addStyle([
 	`${dfImportantList}:not(#A)` // 2024-12-25, 2025-10-02
 	,`.${dfWarning}` // 2025-09-05
-	,`.posted-on-line` // 2025-09-05
+	,dfTime // 2025-09-05
 // language=Javascript
 ].join(`,`) + `{font-weight: bold !important;}`);
 // 2024-12-25
@@ -393,9 +393,9 @@ modify(`${dfAboutClient} .text-caption`, i => {// language=Javascript
 });
 // 2025-09-05
 // language=CSS
-modify(`.posted-on-line span`, i => {// language=Javascript
+modify(`${dfTime} span`, i => {// language=Javascript
 	const c = i.textContent.trim();
-	const p = i.closest(`.posted-on-line`);
+	const p = i.closest(dfTime);
 	p.innerHTML = c;
 	// 2025-09-06 https://g.co/gemini/share/0e23a0a889b2
 	p.classList.toggle(dfWarning,
