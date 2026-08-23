@@ -42,6 +42,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
 ;
+// 2026-08-23
+// language=CSS
+GM_addStyle([
+	`.main-content-container` // 2026-08-23
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
 // language=CSS
 GM_addStyle([
 	'[role="alert"]'
