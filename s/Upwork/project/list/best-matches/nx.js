@@ -209,7 +209,7 @@ GM_addStyle([
 	// language=Javascript
 	dfTitle // 2026-06-04
 ].join(',') + `{${Object.entries({
-	'font-family': 'Segoie UI'
+	'font-family': 'Segoe UI'
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2026-06-13
 // language=CSS
@@ -347,7 +347,7 @@ GM_addStyle([
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'color': 'black'
-	,'font-family': 'Segoie UI'
+	,'font-family': 'Segoe UI'
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2026-06-04
 // language=CSS
