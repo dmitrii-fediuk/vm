@@ -129,13 +129,14 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`:hover` // 2026-06-13
+	,`body` // 2026-08-23
 	,df_DT_Date // 2026-08-17
 	,df_DT_Terms // 2026-08-17
 	,df_DT_Terms_Fixed // 2026-08-17
 	,df_DT_Terms_Fixed_V // 2026-08-17
 ]
 	 // language=Javascript
-	.join(',') + '{color: black !important;}')
+	.join(',') + '{color: initial !important;}')
 ;
 // 2026-06-15
 // language=CSS
