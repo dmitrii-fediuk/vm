@@ -38,7 +38,7 @@ GM_addStyle([
 	`ul.notifications-list > li` // 2026-08-23
 ]
 	 // language=Javascript
-	.join(',') + '{margin: .25rem 0 !important;}')
+	.join(',') + '{margin: .5rem 0 !important;}')
 ;
 // 2026-08-23
 // language=CSS
