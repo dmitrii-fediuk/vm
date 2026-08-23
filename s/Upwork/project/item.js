@@ -142,6 +142,14 @@ GM_addStyle([
 	,`.air3-card-section`
 // language=Javascript
 ].join(',') + '{border: 0 !important;}');
+// 2026-08-23
+// language=CSS
+GM_addStyle([
+	,`body` // 2026-08-23
+]
+	 // language=Javascript
+	.join(',') + '{color: initial !important;}')
+;
 // 2025-09-05
 // language=CSS
 GM_addStyle([
