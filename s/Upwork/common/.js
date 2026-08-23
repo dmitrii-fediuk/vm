@@ -58,6 +58,19 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
 ;
+// 2026-08-23
+// language=CSS
+GM_addStyle([
+	`.main-content-container` // 2026-08-23
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['max-height', 'height', 'min-height']
+			// language=Javascript
+			.map(k => `${k}: unset !important;`).join(' ') +
+	'}'
+);
 // 2025-12-30
 // language=CSS
 GM_addStyle([
@@ -71,6 +84,19 @@ GM_addStyle([
 	,`p.text-body-sm` // 2026-05-04
 // language=Javascript
 ].join(',') + '{letter-spacing: revert !important;}');
+// 2026-08-23
+// language=CSS
+GM_addStyle([
+	`.main-content-container` // 2026-08-23
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		['max-width', 'width', 'min-width']
+			// language=Javascript
+			.map(k => `${k}: unset !important;`).join(' ') +
+	'}'
+);
 // 2024-12-25
 // language=CSS
 GM_addStyle([
