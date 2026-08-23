@@ -22,7 +22,11 @@ setTimeout(() => {
 // 2026-08-23
 // language=CSS
 GM_addStyle([
-	`.notification-row` // 2026-08-23
+	`[class*=mb-]` // 2026-08-23
+	,`[class*=mt-]` // 2026-08-23
+	,`[class*=mx-]` // 2026-08-23
+	,`[class*=my-]` // 2026-08-23
+	,`.notification-row` // 2026-08-23
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -32,6 +36,10 @@ GM_addStyle([
 GM_addStyle([
 	`.air3-tab-content` // 2026-08-23
 	,`.notification-row` // 2026-08-23
+	,`[class*=pb-]` // 2026-08-23
+	,`[class*=pt-]` // 2026-08-23
+	,`[class*=px-]` // 2026-08-23
+	,`[class*=py-]` // 2026-08-23
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
