@@ -14,6 +14,7 @@ setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
 		`.air3-tabs-header` // 2026-08-23
+		,`hr` // 2026-08-23
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
@@ -27,7 +28,6 @@ GM_addStyle([
 	,`[class*=mt-]` // 2026-08-23
 	,`[class*=mx-]` // 2026-08-23
 	,`[class*=my-]` // 2026-08-23
-	,`hr` // 2026-08-23
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
