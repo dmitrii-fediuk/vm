@@ -98,8 +98,8 @@ GM_addStyle([
 GM_addStyle([
 	//`*` // 2026-08-23
 	`:is(h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6)` // 2026-08-23
-	,`.text-base-sm:not(#a)` // 2026-05-04
-	,`.text-body-sm:not(#a)` // 2026-05-04
+	,`.text-base-sm:not(#a)` // 2026-05-04, 2026-08-23
+	,`.text-body-sm:not(#a)` // 2026-05-04, 2026-08-23
 // language=Javascript
 ].join(',') + '{letter-spacing: revert !important;}');
 // 2026-08-23
