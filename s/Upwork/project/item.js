@@ -209,7 +209,6 @@ GM_addStyle([
 	`${dfImportantList}:not(#A)` // 2024-12-25, 2025-10-02
 	,`.${dfWarning}` // 2025-09-05
 	,`.posted-on-line` // 2025-09-05
-	,dfTitle // 2026-08-23
 // language=Javascript
 ].join(`,`) + `{font-weight: bold !important;}`);
 // 2024-12-25
@@ -311,7 +310,7 @@ GM_addStyle(`[data-test='ConnectsAuction'] > div {margin-top: 0 !important;}`);
 GM_addStyle(`${dfTags} {margin-bottom: 0.5rem !important;}`);
 // 2026-08-23
 // language=CSS
-GM_addStyle(`${dfTitle} {font-size: 2rem !important;}`);
+GM_addStyle(`${dfTitle} {font-size: 1.2rem !important;}`);
 // 2024-12-25
 // language=CSS
 GM_addStyle(`${dfQuestions} {margin-bottom: 0.5rem !important;}`);
