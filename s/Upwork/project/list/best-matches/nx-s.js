@@ -147,7 +147,8 @@ GM_addStyle([
 // 2026-08-17
 // language=CSS
 GM_addStyle([
-	dfText // 2026-08-23
+	`.secondary-text-color` // 2026-08-23
+	,dfText // 2026-08-23
 	,dfTitle // 2026-08-23
 	,df_DT_Badge // 2026-08-17
 	,df_Row_Country // 2026-08-23
