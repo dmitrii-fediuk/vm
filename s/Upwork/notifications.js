@@ -35,6 +35,14 @@ GM_addStyle([
 // 2026-08-23
 // language=CSS
 GM_addStyle([
+	`ul.notifications-list > li` // 2026-08-23
+]
+	 // language=Javascript
+	.join(',') + '{margin: .25rem 0 !important;}')
+;
+// 2026-08-23
+// language=CSS
+GM_addStyle([
 	`.air3-tab-content` // 2026-08-23
 	,`.notification-row` // 2026-08-23
 	,`[class*=pb-]` // 2026-08-23
