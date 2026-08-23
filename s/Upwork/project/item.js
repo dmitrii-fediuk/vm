@@ -105,12 +105,13 @@ GM_addStyle([
 	// 1.2) https://archive.is/5HYgv#selection-10675.63-10675.172
 	// 2025-09-04
 	`.${dfNotVerified}:not(#A)` // 2025-09-04
+	,`${dfAboutClient} div:has(> [data-test='UpCPopover'])`
+	,`${dfAboutClient} ul.features`
 	,`${dfImportantList} li` // 2025-10-02
 	,`.air3-card-section h4`
 	,`.extra-jobs-cards > :not(#A)` // 2025-09-05
 	,`.skills-list:not(#A)` // 2025-09-05
-	,`${dfAboutClient} div:has(> [data-test='UpCPopover'])`
-	,`${dfAboutClient} ul.features`
+	,`.up-smf` // 2026-08-23
 	,`[data-test='ConnectsAuction']`
 	,`button[data-cy='jobs-in-progress-button']` // 2025-09-05
 	,dfDeliverables // 2025-10-02
