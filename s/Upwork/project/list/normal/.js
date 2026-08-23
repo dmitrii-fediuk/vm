@@ -135,7 +135,7 @@ GM_addStyle([
 	,df_DT_Terms_Fixed_V // 2026-08-17
 ]
 	 // language=Javascript
-	.join(',') + '{color: initial !important;}')
+	.join(',') + '{color: black !important;}')
 ;
 // 2026-06-15
 // language=CSS
