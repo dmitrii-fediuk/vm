@@ -1,7 +1,7 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Upwork/common.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Upwork/common/.js
 // @icon https://www.upwork.com/favicon.ico
 // @match *://www.upwork.com/*
 // @name Upwork / Common
@@ -20,7 +20,7 @@ setTimeout(() => {
 		,`.microapp-slot-innova`
 		,`.nav-notifications .nav-dot`
 		,`.nav-uma`
-		,`.ng-sidebar-layout-wrapper` // 2026-08-23
+		//,`.ng-sidebar-layout-wrapper` // 2026-08-23
 		,`.up-skip-nav`
 		,`[data-cy='help-menu']`
 		,`[data-test='SaveJob']`
