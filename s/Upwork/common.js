@@ -17,6 +17,7 @@ setTimeout(() => {
 		,`#user-top-navigation-container .nav-container > [data-cy='header']`
 		,`.air3-banner` // 2025-04-15
 		,`.air3-search`
+		,`.air3-tabs-header` // 2026-08-23
 		,`.microapp-slot-innova`
 		,`.nav-notifications .nav-dot`
 		,`.nav-uma`
