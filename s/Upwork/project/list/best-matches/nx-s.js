@@ -148,6 +148,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	dfText // 2026-08-23
+	,dfTitle // 2026-06-04
 	,df_DT_Badge // 2026-08-17
 	,df_Terms // 2026-08-18
 ]
@@ -166,7 +167,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	// language=Javascript
-	dfTitle // 2026-06-04
+	//dfTitle // 2026-06-04
 ].join(',') + `{${Object.entries({
 	'font-family': 'Segoe UI'
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
@@ -241,12 +242,20 @@ GM_addStyle(`${dfTitle} {font-size: 1.25rem !important;}`);
 // language=CSS
 GM_addStyle([
 	dfText // 2026-06-04
+	,dfTitle // 2026-06-04
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'font-family': 'Segoe UI'
-	,'font-size': '120%'
-	,'line-height': 1.2
 	,'letter-spacing': '.03em' // 2026-05-04
+}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
+// 2026-06-04
+// language=CSS
+GM_addStyle([
+	dfText // 2026-06-04
+// language=Javascript
+].join(',') + `{${Object.entries({
+	'font-size': '120%'
+	,'line-height': 1.2
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2025-09-06 It still does not work for an unknown reason.
 // 2026-06-04
