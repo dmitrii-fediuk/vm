@@ -7,6 +7,29 @@
 // @name Upwork / Common
 // ==/UserScript==
 // 2024-10-13 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
+// 2026-08-23
+// language=CSS
+GM_addStyle([
+	`.text-base-sm:not(#a)` // 2026-08-23
+	,`.text-base:not(#a)` // 2026-08-23
+	,`.text-body-sm:not(#a)` // 2026-08-23
+	,`.text-body:not(#a)` // 2026-08-23
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		[
+			'font-family'
+			,'font-size'
+			,'font-weight'
+			,'letter-spacing'
+			,'line-height'
+			,'text-transform'
+		]
+			// language=Javascript
+			.map(k => `${k}: revert !important;`).join(' ') +
+	'}'
+);
 // 2025-06-10
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
@@ -87,19 +110,11 @@ GM_addStyle([
 			.map(k => `${k}: unset !important;`).join(' ') +
 	'}'
 );
-// 2025-12-30
-// language=CSS
-GM_addStyle([
-	//`*` // 2025-12-30
-// language=Javascript
-].join(',') + '{letter-spacing: initial !important;}');
 // 2026-05-04
 // language=CSS
 GM_addStyle([
 	//`*` // 2026-08-23
 	`:is(h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6)` // 2026-08-23
-	,`.text-base-sm:not(#a)` // 2026-05-04, 2026-08-23
-	,`.text-body-sm:not(#a)` // 2026-05-04, 2026-08-23
 // language=Javascript
 ].join(',') + '{letter-spacing: revert !important;}');
 // 2026-08-23
