@@ -348,6 +348,7 @@ GM_addStyle(`.job-details-content > footer {margin: 0.5rem 0 !important;}`);
 // 1) https://g.co/gemini/share/9776258b5353
 // 2) https://g.co/gemini/share/fdb2b22cbe50
 const modify = (s, action) => {
+	s = !Array.isArray(s) ? s : s.join(','); // 2026-08-09 https://share.gemini.google/tOXOcu2TdlcM
 	const p = i => {
 		i.matches?.(s) && action(i);
 		i.querySelectorAll?.(s).forEach(action);
@@ -396,13 +397,21 @@ modify(`${dfAboutClient} .text-caption`, i => {// language=Javascript
 modify(`${dfTime} span`, i => {// language=Javascript
 	const c = i.textContent.trim();
 	const p = i.closest(dfTime);
-	p.innerHTML = c;
 	// 2025-09-06 https://g.co/gemini/share/0e23a0a889b2
 	p.classList.toggle(dfWarning,
 		/^last (week|month|quarter|year)/.test(c)
 		|| /(week|month|quarter|year)s? ago$/.test(c)
 		|| (c.match(/^(\d+) days? ago$/)?.[1] > 2)
 	);
+	p.innerHTML = c
+		// 2026-08-23
+		.replace(' ago', '')
+		.replace('days', 'd')
+		.replace('hours', 'h')
+		.replace('minutes', 'm')
+		.replace('weeks', 'w')
+		.replace('yesterday', '1 d')
+	;
 });
 // 2025-09-06
 // language=CSS
