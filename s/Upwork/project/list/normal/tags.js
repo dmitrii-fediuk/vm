@@ -138,7 +138,6 @@
 		,'Logotype'
 		,'MT5'
 		,'Magazine Layout'
-		,'Make.com'
 		,'Management Skills'
 		,'ManyChat'
 		,'Materials Knowledge'
@@ -219,10 +218,8 @@
 		,'Wix'
 		,'Xamarin'
 		,'Young Adult'
-		,'Zapier'
 		,'Zoho Creator'
 		,'eBay Listing'
-		,'n8n'
 	]
 	,partial: [
 		'2D'
