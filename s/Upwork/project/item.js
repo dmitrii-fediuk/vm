@@ -197,6 +197,12 @@ GM_addStyle([
 	`.air3-card-section:has(> ${dfClientActivity})`
 // language=Javascript
 ].join(',') + '{flex-wrap: wrap !important;}');
+// 2026-08-23
+// language=CSS
+GM_addStyle([
+	`.text-base`
+// language=Javascript
+].join(`,`) + `{font-weight: revert !important;}`);
 // 2025-09-05
 // language=CSS
 GM_addStyle([
