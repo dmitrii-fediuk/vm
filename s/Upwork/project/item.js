@@ -263,8 +263,6 @@ GM_addStyle([
 ].join(',') + `{${Object.entries({
 	'font-size': '120%'
 	,'line-height': 1.2
-	//,'list-style-position': 'inside' // 2026-08-25
-	//,'padding': 0 // 2026-08-25
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2026-08-25
 // language=CSS
@@ -272,7 +270,6 @@ GM_addStyle([
 	`${dfQuestions} ol`
 // language=Javascript
 ].join(',') + `{${Object.entries({
-	//,'list-style-position': 'inside' // 2026-08-25
 	'padding-left': '1.75rem' // 2026-08-25
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2025-09-05
