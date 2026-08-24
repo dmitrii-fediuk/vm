@@ -273,7 +273,7 @@ GM_addStyle([
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	//,'list-style-position': 'inside' // 2026-08-25
-	'padding-left': 1rem // 2026-08-25
+	'padding-left': '1rem' // 2026-08-25
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2025-09-05
 // language=CSS
