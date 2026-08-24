@@ -225,7 +225,7 @@ GM_addStyle([
 // 2025-03-19
 // language=CSS
 GM_addStyle([
-	dfText // 2025-03-19
+	`${dfText}:not(#a)` // 2025-03-19, 2026-08-25
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'font-size': '120%'
