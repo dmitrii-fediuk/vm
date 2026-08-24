@@ -324,6 +324,9 @@ GM_addStyle(`[data-test='ConnectsAuction'] > div {margin-top: 0 !important;}`);
 // 2025-09-06
 // language=CSS
 GM_addStyle(`${dfTags} {margin-bottom: 0.5rem !important;}`);
+// 2026-08-26
+// language=CSS
+GM_addStyle(`${dfTime} {min-width: 2rem;}`);
 // 2026-08-23
 // language=CSS
 GM_addStyle(`${dfTitle} {font-size: 1.2rem !important;}`);
