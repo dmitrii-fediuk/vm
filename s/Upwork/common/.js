@@ -14,7 +14,6 @@ GM_addStyle([
 	,`.text-base:not(#a)` // 2026-08-23
 	,`.text-body-sm:not(#a)` // 2026-08-23
 	,`.text-body:not(#a)` // 2026-08-23
-	,`body` // 2026-08-25
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -22,6 +21,25 @@ GM_addStyle([
 		[
 			'font-family'
 			,'font-size'
+			,'font-weight'
+			,'letter-spacing'
+			,'line-height'
+			,'text-transform'
+		]
+			// language=Javascript
+			.map(k => `${k}: revert !important;`).join(' ') +
+	'}'
+);
+// 2026-08-25
+// language=CSS
+GM_addStyle([
+	`body` // 2026-08-25
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		[
+			'font-size'
 			,'font-weight'
 			,'letter-spacing'
 			,'line-height'
