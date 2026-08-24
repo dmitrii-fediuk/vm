@@ -264,14 +264,6 @@ GM_addStyle([
 	'font-size': '120%'
 	,'line-height': 1.2
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
-// 2026-08-25
-// language=CSS
-GM_addStyle([
-	`${dfQuestions} ol`
-// language=Javascript
-].join(',') + `{${Object.entries({
-	'padding-left': '1.75rem' // 2026-08-25
-}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2025-09-05
 // language=CSS
 GM_addStyle('body {margin: 0.5rem 0.5rem 0 0.5rem !important;}');
@@ -298,6 +290,14 @@ GM_addStyle(`.air3-card-section:has(> [data-test='Description']) {order: 4 !impo
 // 2024-12-25
 // language=CSS
 GM_addStyle(`${dfQuestions} {order: 5 !important;}`);
+// 2026-08-25
+// language=CSS
+GM_addStyle([
+	`${dfQuestions} ol`
+// language=Javascript
+].join(',') + `{${Object.entries({
+	'padding-left': '1.75rem' // 2026-08-25
+}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2025-09-04
 // language=CSS
 GM_addStyle(`section.air3-card-section:has(.client-activity-items) {order: 6 !important;}`);
