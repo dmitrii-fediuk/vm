@@ -259,7 +259,7 @@ GM_addStyle([
 	dfText // 2026-06-04
 // language=Javascript
 ].join(',') + `{${Object.entries({
-	'font-size': '120%'
+	'font-size': '1.05rem' // 2026-08-25
 	,'line-height': 1.2
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2025-09-06 It still does not work for an unknown reason.
