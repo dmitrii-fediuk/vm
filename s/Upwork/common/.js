@@ -14,6 +14,7 @@ GM_addStyle([
 	,`.text-base:not(#a)` // 2026-08-23
 	,`.text-body-sm:not(#a)` // 2026-08-23
 	,`.text-body:not(#a)` // 2026-08-23
+	,`body` // 2026-08-26
 ]
 	// language=Javascript
 	.join(',') + '{' +
