@@ -36,16 +36,10 @@ GM_addStyle([
 	//`*` // 2026-08-23
 	`:is(h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6)` // 2026-08-23
 // language=Javascript
-].join(',') + '{' +
-		// language=CSS
-		[
-			'line-height' // 2026-08-26
-			,'letter-spacing'
-		]
-			// language=Javascript
-			.map(k => `${k}: revert !important;`).join(' ') +
-	'}'
-);
+].join(',') + `{${Object.entries({
+	'line-height': 1 // 2026-08-26
+	,'letter-spacing': 'revert' // 2026-08-23
+}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2025-06-10
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
