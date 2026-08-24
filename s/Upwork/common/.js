@@ -108,6 +108,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{border-radius: unset !important;}')
 ;
+// 2026-08-26
+// language=CSS
+GM_addStyle([
+	`[class*=line-height]` // 2026-08-26
+]
+	 // language=Javascript
+	.join(',') + '{line-height: revert !important;}')
+;
 // 2026-08-23
 // language=CSS
 GM_addStyle([
