@@ -37,7 +37,7 @@ GM_addStyle([
 	`:is(h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6)` // 2026-08-23
 // language=Javascript
 ].join(',') + `{${Object.entries({
-	'line-height': 1 // 2026-08-26
+	'line-height': 1.2 // 2026-08-26
 	,'letter-spacing': 'revert' // 2026-08-23
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2025-06-10
