@@ -31,6 +31,25 @@ GM_addStyle([
 			.map(k => `${k}: revert !important;`).join(' ') +
 	'}'
 );
+// 2026-08-26
+// language=CSS
+GM_addStyle([
+	`body` // 2026-08-26
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		[
+			'font-family'
+			,'font-weight'
+			,'letter-spacing'
+			,'line-height'
+			,'text-transform'
+		]
+			// language=Javascript
+			.map(k => `${k}: revert !important;`).join(' ') +
+	'}'
+);
 // 2026-08-23
 // language=CSS
 GM_addStyle([
