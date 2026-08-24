@@ -228,7 +228,7 @@ GM_addStyle([
 	`${dfText}:not(#a)` // 2025-03-19, 2026-08-25
 // language=Javascript
 ].join(',') + `{${Object.entries({
-	'font-size': '120%'
+	'font-size': '1.05rem' // 2026-08-25
 	,'line-height': 1.2
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2026-06-15
