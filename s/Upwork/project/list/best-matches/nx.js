@@ -355,7 +355,7 @@ GM_addStyle([
 	dfText // 2026-06-04
 // language=Javascript
 ].join(',') + `{${Object.entries({
-	'font-size': '1rem' // 2026-08-25
+	'font-size': '1.05rem' // 2026-08-25
 	,'line-height': 1.2
 	,'letter-spacing': '.03em' // 2026-05-04
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);

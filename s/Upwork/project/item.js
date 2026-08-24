@@ -261,7 +261,7 @@ GM_addStyle([
 	,dfDeliverables // 2025-10-02
 // language=Javascript
 ].join(',') + `{${Object.entries({
-	'font-size': '1rem' // 2026-08-25
+	'font-size': '1.05rem' // 2026-08-25
 	,'line-height': 1.2
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2025-09-05
