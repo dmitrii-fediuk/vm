@@ -261,10 +261,10 @@ GM_addStyle([
 	,dfDeliverables // 2025-10-02
 // language=Javascript
 ].join(',') + `{${Object.entries({
-	//'font-family': 'Segoe UI'
 	'font-size': '120%'
-	//,'letter-spacing': '.03em' // 2026-08-23
 	,'line-height': 1.2
+	,'list-style-position': 'inside' // 2026-08-25
+	,'padding': 0 // 2026-08-25
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2025-09-05
 // language=CSS
