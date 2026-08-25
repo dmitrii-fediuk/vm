@@ -40,13 +40,6 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`#main-content > :not(.lt-article-container__article)` // 2026-08-25
-	,`.lt-layout > :not(.lt-layout__main)` // 2026-08-25
-	,`.lt-layout ~ *` // 2026-08-25
-	,`.lt-toc-mobile` // 2026-08-25
-	,`article ~ :not(#a)` // 2026-08-25
-	,`header > :not(h1):not(#a)` // 2026-08-25
-	,`main > :has(form.search)` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -83,9 +76,6 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`[class*=container]` // 2026-08-25
-	,`article:not(#a)` // 2026-08-25
-	,`article div:not(#a)` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -93,7 +83,6 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`:is(h3, ol, p, ul):not(#a)`// 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0.25rem 0 !important;}')
@@ -101,8 +90,6 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`[class*=container]` // 2026-08-25
-	,`article div:not(#a)` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -414,10 +401,4 @@ GM_addStyle([
 );
 // 2026-08-25
 // language=CSS
-GM_addStyle(`body {margin: .5rem !important;}`);
-// 2026-08-25
-// language=CSS
-GM_addStyle(`h2 {margin: .5rem 0 !important;}`);
-// 2026-08-25
-// language=CSS
-GM_addStyle(`h4 {margin: .15rem 0 !important;}`);
+//GM_addStyle(`body {margin: .5rem !important;}`);
