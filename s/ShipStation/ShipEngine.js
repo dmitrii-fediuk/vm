@@ -33,7 +33,7 @@ GM_addStyle([
 			'font-size'
 			,'font-weight'
 			,'letter-spacing'
-			,'line-height'
+			//,'line-height'
 			,'text-transform'
 		]
 			// language=Javascript
