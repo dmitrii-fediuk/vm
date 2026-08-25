@@ -49,6 +49,7 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
+	`.lt-layout > :not(.lt-layout__main)` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
