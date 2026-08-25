@@ -42,6 +42,7 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
+	`[data-component-name='Navbar/Navbar']` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
