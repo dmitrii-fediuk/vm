@@ -84,7 +84,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`[class*=container]` // 2026-08-25
-	,`article` // 2026-08-25
+	,`article:not(#a)` // 2026-08-25
 	,`article div:not(#a)` // 2026-08-25
 ]
 	 // language=Javascript
