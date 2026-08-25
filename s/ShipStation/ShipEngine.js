@@ -454,7 +454,7 @@ GM_addStyle(`body {margin: .5rem !important;}`);
 GM_addStyle(`h1 {font-size: 2rem !important;}`);
 // 2026-08-25
 // language=CSS
-GM_addStyle(`h2 {line-height: 1 !important; margin: .25rem !important;}`);
+GM_addStyle(`h2 {line-height: 1 !important; margin: 0 !important;}`);
 // 2026-08-25
 // language=CSS
 GM_addStyle(`h4 {margin: .15rem 0 !important;}`);
