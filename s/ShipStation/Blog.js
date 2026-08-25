@@ -40,7 +40,8 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`[class*=sticky]` // 2026-08-25
+	`.author-box` // 2026-08-25
+	,`[class*=sticky]` // 2026-08-25
 	,`body > :not(main)` // 2026-08-25
 ]
 	 // language=Javascript
