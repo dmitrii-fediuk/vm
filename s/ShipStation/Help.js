@@ -44,6 +44,7 @@ GM_addStyle([
 GM_addStyle([
 	`.lt-layout > :not(.lt-layout__main)` // 2026-08-25
 	,`.lt-toc-mobile` // 2026-08-25
+	,`article ~ *` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
