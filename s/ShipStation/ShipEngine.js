@@ -23,8 +23,7 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`*`
-	,`[class*=text]:not(#a)` // 2026-08-25
+	`[class*=text]:not(#a)` // 2026-08-25
 	,`html` // 2026-08-25
 ]
 	// language=Javascript
@@ -435,7 +434,7 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	//`body` // 2026-08-23
+	`html` // 2026-08-23
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'font-family': 'Segoe UI' // 2026-08-25
