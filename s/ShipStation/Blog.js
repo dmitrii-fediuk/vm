@@ -47,6 +47,7 @@ GM_addStyle([
 	,`.post-content ~ *` // 2026-08-25
 	,`[class*=sticky]` // 2026-08-25
 	,`body > :not(#main-content)` // 2026-08-25
+	,`figure:has(iframe)` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
