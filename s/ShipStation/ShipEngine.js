@@ -123,7 +123,7 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	//`body` // 2026-08-25
+	`pre > code` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{background-color: unset !important;}')
