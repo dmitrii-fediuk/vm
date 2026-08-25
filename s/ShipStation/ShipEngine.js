@@ -46,6 +46,7 @@ GM_addStyle([
 	,`#leftGroup` // 2026-08-25
 	,`.fixed` // 2026-08-25
 	,`[class*=base_contentBody] > :has([aria-label='Party popper emoji'])` // 2026-08-25
+	,`[class*=base_contentBody] ~ :not(#a)` // 2026-08-25
 	,`main ~ :not(#a)` // 2026-08-25
 ]
 	 // language=Javascript
