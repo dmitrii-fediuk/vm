@@ -99,6 +99,7 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
+	`:is(h3, ol, p, ul):not(#a)`// 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0.25rem 0 !important;}')
@@ -445,3 +446,15 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle(`body {margin: .5rem !important;}`);
+// 2026-08-25
+// language=CSS
+GM_addStyle(`body {margin: .5rem !important;}`);
+// 2026-08-25
+// language=CSS
+GM_addStyle(`h1 {font-size: 2rem !important;}`);
+// 2026-08-25
+// language=CSS
+GM_addStyle(`h2 {margin: .5rem 0 !important;}`);
+// 2026-08-25
+// language=CSS
+GM_addStyle(`h4 {margin: .15rem 0 !important;}`);
