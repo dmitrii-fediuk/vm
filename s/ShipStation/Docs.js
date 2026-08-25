@@ -81,7 +81,8 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`section` // 2026-08-25
+	`[data-component-name='Layout/DocumentationLayoutTop'] *` // 2026-08-25
+	, `section` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -96,7 +97,8 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`section` // 2026-08-25
+	`[data-component-name='Layout/DocumentationLayoutTop'] *` // 2026-08-25
+	,`section` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
