@@ -44,7 +44,7 @@ GM_addStyle([
 GM_addStyle([
 	`[data-component-name='Layout/PageLayout'] ~ *` // 2026-08-25
 	,`[data-component-name='Navbar/Navbar']` // 2026-08-25
-	,`main > article ~ *` // 2026-08-25
+	,`article ~ *` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
