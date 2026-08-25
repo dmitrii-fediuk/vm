@@ -40,10 +40,11 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`.author-box` // 2026-08-25
+	`#main-content > :not(:has(.post-container))` // 2026-08-25
+	,`.author-box` // 2026-08-25
 	,`.post-content ~ *` // 2026-08-25
 	,`[class*=sticky]` // 2026-08-25
-	,`body > :not(main)` // 2026-08-25
+	,`body > :not(#main-content)` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
