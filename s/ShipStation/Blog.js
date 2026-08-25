@@ -40,6 +40,7 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
+	`body > :not(main)` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
