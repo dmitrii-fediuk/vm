@@ -42,9 +42,10 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`.lt-layout > :not(.lt-layout__main)` // 2026-08-25
+	`#main-content > :not(.lt-article-container__article)` // 2026-08-25
+	,`.lt-layout > :not(.lt-layout__main)` // 2026-08-25
 	,`.lt-toc-mobile` // 2026-08-25
-	,`article ~ *` // 2026-08-25
+	//,`article ~ *` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
