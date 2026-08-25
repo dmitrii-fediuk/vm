@@ -444,4 +444,4 @@ GM_addStyle([
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2026-08-25
 // language=CSS
-//GM_addStyle(`body {margin: .5rem !important;}`);
+GM_addStyle(`body {margin: .5rem !important;}`);
