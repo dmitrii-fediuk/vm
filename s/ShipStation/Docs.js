@@ -409,4 +409,4 @@ GM_addStyle([
 );
 // 2026-08-25
 // language=CSS
-//GM_addStyle(`body {margin: .5rem !important;}`);
+GM_addStyle(`body {margin: .5rem !important;}`);
