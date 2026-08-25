@@ -3,10 +3,10 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Meta/Developers.js
 // @icon https://business.facebook.com/images/bizkit/mbs_favicon.png
-// @match https://developers.facebook.com/*
-// @name Meta / Developers
+// @match https://docs.shipstation.com/*
+// @name ShipStation / Docs
 // ==/UserScript==
-// 2026-08-25 "Improve `developers.facebook.com`": https://github.com/dmitrii-fediuk/vm/issues/134
+// 2026-08-25 "Improve `shipstation.com`": https://github.com/dmitrii-fediuk/vm/issues/137
 // language=CSS
 GM_addStyle([
 ]
