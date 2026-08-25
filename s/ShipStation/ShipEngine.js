@@ -23,6 +23,7 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
+	`*`
 ]
 	// language=Javascript
 	.join(',') + '{' +
