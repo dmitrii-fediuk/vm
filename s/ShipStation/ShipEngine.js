@@ -23,7 +23,6 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`*` // 2026-08-25
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -43,14 +42,6 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`#main-content > :not(:has(.post-container))` // 2026-08-25
-	,`.author-box` // 2026-08-25
-	,`.entry-content > :not(.entry-meta)` // 2026-08-25
-	,`.entry-meta > .lead` // 2026-08-25
-	,`.post-content ~ *` // 2026-08-25
-	,`[class*=sticky]` // 2026-08-25
-	,`body > :not(#main-content)` // 2026-08-25
-	,`figure:has(iframe)` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -58,9 +49,6 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`.post-container` // 2026-08-25
-	,`.post-header` // 2026-08-25
-	,`.prose` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
@@ -90,7 +78,6 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`div:not(#a)` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -98,7 +85,6 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`:is(h3, ol, p, ul):not(#a)`// 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0.25rem 0 !important;}')
@@ -106,7 +92,6 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`div:not(#a)` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -128,7 +113,6 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`div:not(#a)` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
@@ -420,7 +404,7 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`body` // 2026-08-23
+	//`body` // 2026-08-23
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'font-family': 'Segoe UI' // 2026-08-25
@@ -430,16 +414,4 @@ GM_addStyle([
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2026-08-25
 // language=CSS
-GM_addStyle(`body {margin: .5rem !important;}`);
-// 2026-08-25
-// language=CSS
-GM_addStyle(`body {margin: .5rem !important;}`);
-// 2026-08-25
-// language=CSS
-GM_addStyle(`h1 {font-size: 2rem !important;}`);
-// 2026-08-25
-// language=CSS
-GM_addStyle(`h2 {margin: .5rem 0 !important;}`);
-// 2026-08-25
-// language=CSS
-GM_addStyle(`h4 {margin: .15rem 0 !important;}`);
+//GM_addStyle(`body {margin: .5rem !important;}`);
