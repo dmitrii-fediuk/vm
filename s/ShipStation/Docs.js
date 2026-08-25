@@ -42,9 +42,9 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	//`[data-component-name='Buttons/AIAssistantButton']` // 2026-08-25
 	`[data-component-name='Layout/PageLayout'] ~ *` // 2026-08-25
 	,`[data-component-name='Navbar/Navbar']` // 2026-08-25
+	,`main > article ~ *` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
