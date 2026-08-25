@@ -41,6 +41,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.author-box` // 2026-08-25
+	,`.post-content ~ *` // 2026-08-25
 	,`[class*=sticky]` // 2026-08-25
 	,`body > :not(main)` // 2026-08-25
 ]
