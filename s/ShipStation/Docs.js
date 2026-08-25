@@ -2,7 +2,7 @@
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/ShipStation/Docs.js
-// @icon https://business.facebook.com/images/bizkit/mbs_favicon.png
+// @icon https://docs.shipstation.com/assets/cropped-favicon-32x32.3620cf913bd1e1e621a84eace75bf7decd9bf2be9d5abfaff75e74836210e5b4.79421782.png
 // @match https://docs.shipstation.com/*
 // @name ShipStation / Docs
 // ==/UserScript==
