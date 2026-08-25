@@ -324,6 +324,7 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
+	`main:not(#a)` // 2026-08-25
 ]
 	// language=Javascript
 	.join(',') + '{' +
