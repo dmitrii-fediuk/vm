@@ -43,7 +43,8 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.fixed` // 2026-08-25
-	,`:has(> iframe#launcher)` // 2026-08-25
+	,`iframe` // 2026-08-25
+	//,`:has(> iframe#launcher)` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
