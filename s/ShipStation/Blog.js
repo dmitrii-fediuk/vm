@@ -56,6 +56,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.post-container` // 2026-08-25
+	,`.prose` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
