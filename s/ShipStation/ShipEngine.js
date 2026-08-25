@@ -44,8 +44,7 @@ GM_addStyle([
 GM_addStyle([
 	`#__next ~ *` // 2026-08-25
 	,`.fixed` // 2026-08-25
-	//,`iframe` // 2026-08-25
-	//,`:has(> iframe#launcher)` // 2026-08-25
+	,`main ~ *` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
