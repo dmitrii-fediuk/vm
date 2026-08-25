@@ -50,6 +50,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`.lt-layout > :not(.lt-layout__main)` // 2026-08-25
+	,`.lt-toc-mobile` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
