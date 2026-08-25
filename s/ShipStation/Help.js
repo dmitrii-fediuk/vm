@@ -45,6 +45,7 @@ GM_addStyle([
 	`#main-content > :not(.lt-article-container__article)` // 2026-08-25
 	,`.lt-layout > :not(.lt-layout__main)` // 2026-08-25
 	,`.lt-toc-mobile` // 2026-08-25
+	,`main > :has(form.search)` // 2026-08-25
 	//,`article ~ *` // 2026-08-25
 ]
 	 // language=Javascript
