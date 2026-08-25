@@ -43,6 +43,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`#__next ~ *` // 2026-08-25
+	,`#leftGroup` // 2026-08-25
 	,`.fixed` // 2026-08-25
 	,`main ~ *` // 2026-08-25
 ]
