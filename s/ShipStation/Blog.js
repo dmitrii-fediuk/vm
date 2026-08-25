@@ -416,6 +416,16 @@ GM_addStyle([
 );
 // 2026-08-25
 // language=CSS
+GM_addStyle([
+	`body` // 2026-08-23
+// language=Javascript
+].join(',') + `{${Object.entries({
+	'font-family': 'Segoe UI' // 2026-08-25
+	,'letter-spacing': '.03em' // 2026-08-25 
+	,'line-height': 1.2 // 2026-08-25 
+}).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
+// 2026-08-25
+// language=CSS
 GM_addStyle(`body {margin: .5rem !important;}`);
 // 2026-08-25
 // language=CSS
