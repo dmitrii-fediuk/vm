@@ -422,6 +422,7 @@ GM_addStyle([
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'font-family': 'Segoe UI' // 2026-08-25
+	,'font-size': '150%' // 2026-08-25
 	,'letter-spacing': '.03em' // 2026-08-25 
 	,'line-height': 1.2 // 2026-08-25 
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
