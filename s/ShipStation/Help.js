@@ -414,7 +414,7 @@ GM_addStyle([
 );
 // 2026-08-25
 // language=CSS
-//GM_addStyle(`body {margin: .5rem !important;}`);
+GM_addStyle(`body {margin: .5rem !important;}`);
 // 2026-08-25
 // language=CSS
 GM_addStyle(`h2 {margin: .5rem 0 !important;}`);
