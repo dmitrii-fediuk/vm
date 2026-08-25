@@ -42,6 +42,7 @@ GM_addStyle([
 GM_addStyle([
 	`#main-content > :not(:has(.post-container))` // 2026-08-25
 	,`.author-box` // 2026-08-25
+	,`.entry-content > :not(.entry-meta)` // 2026-08-25
 	,`.post-content ~ *` // 2026-08-25
 	,`[class*=sticky]` // 2026-08-25
 	,`body > :not(#main-content)` // 2026-08-25
