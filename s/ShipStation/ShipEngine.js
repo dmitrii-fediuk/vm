@@ -28,8 +28,7 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		[
-			'color'
-			,'font-size'
+			'font-size'
 			,'font-weight'
 			,'letter-spacing'
 			,'line-height'
