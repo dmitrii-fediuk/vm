@@ -23,7 +23,8 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`[class*=text]:not(#a)` // 2026-08-25
+	`*`
+	,`[class*=text]:not(#a)` // 2026-08-25
 	,`html` // 2026-08-25
 ]
 	// language=Javascript
