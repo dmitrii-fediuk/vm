@@ -42,6 +42,7 @@ GM_addStyle([
 GM_addStyle([
 	`#main-content > :not(.lt-article-container__article)` // 2026-08-25
 	,`.lt-layout > :not(.lt-layout__main)` // 2026-08-25
+	,`.lt-layout ~ *` // 2026-08-25
 	,`.lt-toc-mobile` // 2026-08-25
 	,`article ~ :not(#a)` // 2026-08-25
 	,`header > :not(h1):not(#a)` // 2026-08-25
