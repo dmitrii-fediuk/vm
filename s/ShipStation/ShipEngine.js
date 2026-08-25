@@ -3,7 +3,7 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/ShipStation/ShipEngine.js
 // @icon https://www.shipengine.com/docs/img/favicons/apple-touch-icon.png
-// @match https://www.shipstation.com/blog/*
+// @match https://www.shipengine.com/docs/*
 // @name ShipStation / ShipEngine
 // ==/UserScript==
 // 2026-08-25 "Improve `shipengine.com`": https://github.com/dmitrii-fediuk/vm/issues/138
