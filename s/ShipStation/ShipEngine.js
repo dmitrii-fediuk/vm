@@ -57,7 +57,7 @@ GM_addStyle([
 GM_addStyle([
 	`:has(> #leftGroup)` // 2026-08-25
 	,`:has(> main):not(#a)` // 2026-08-25
-	,`pre > .flex` // 2026-08-25
+	//,`pre > .flex` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
