@@ -42,12 +42,6 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`:has(> [aria-label='Expand Mobile Sidenav'])` // 2026-08-25
-	,`:has(> div > nav[aria-label='Main'])` // 2026-08-25
-	,`:has(> footer)` // 2026-08-25
-	,`article > div:has([aria-label='Thumbs up'])` // 2026-08-25
-	,`article ~ *` // 2026-08-25
-	,`aside` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -55,7 +49,6 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`:has(> main)` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
@@ -85,7 +78,6 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`:has(> div > nav[aria-label='Main']) ~ *` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -316,7 +308,6 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`main` // 2026-08-25
 ]
 	// language=Javascript
 	.join(',') + '{' +
