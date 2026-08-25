@@ -1,7 +1,7 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Meta/Developers.js
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/ShipStation/Docs.js
 // @icon https://business.facebook.com/images/bizkit/mbs_favicon.png
 // @match https://docs.shipstation.com/*
 // @name ShipStation / Docs
