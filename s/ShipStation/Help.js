@@ -83,7 +83,7 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`article div` // 2026-08-25
+	`article div:not(#a)` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -98,7 +98,7 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`article div` // 2026-08-25
+	`article div:not(#a)` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
