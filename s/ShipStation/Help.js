@@ -3,7 +3,7 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/ShipStation/Help.js
 // @icon https://docs.shipstation.com/assets/cropped-favicon-32x32.3620cf913bd1e1e621a84eace75bf7decd9bf2be9d5abfaff75e74836210e5b4.79421782.png
-// @match https://docs.shipstation.com/*
+// @match https://help.shipstation.com/*
 // @name ShipStation / Help
 // ==/UserScript==
 // 2026-08-25 "Improve `shipstation.com`": https://github.com/dmitrii-fediuk/vm/issues/137
