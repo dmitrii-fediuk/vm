@@ -130,7 +130,8 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`body` // 2026-08-25
+	`.code-bg` // 2026-08-25
+	,`body` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{background-image: unset !important;}')
