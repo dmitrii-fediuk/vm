@@ -56,6 +56,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`:has(> #leftGroup)` // 2026-08-25
+	,`:has(> main)` // 2026-08-25
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
