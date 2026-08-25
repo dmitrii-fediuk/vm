@@ -44,7 +44,7 @@ GM_addStyle([
 	,`.lt-layout > :not(.lt-layout__main)` // 2026-08-25
 	,`.lt-toc-mobile` // 2026-08-25
 	,`article ~ :not(#a)` // 2026-08-25
-	,`header > :not(h1)` // 2026-08-25
+	,`header > :not(h1):not(#a)` // 2026-08-25
 	,`main > :has(form.search)` // 2026-08-25
 ]
 	 // language=Javascript
