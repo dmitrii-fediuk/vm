@@ -390,9 +390,9 @@ modify(`p.multiline-text.text-body-sm`, i => {// language=Javascript
 	;
 	p.appendChild(i2);
 });
-// 2025-09-05
+// 2025-09-05, 2026-08-29
 // language=CSS
-modify(`${dfAboutClient} .text-caption`, i => {// language=Javascript
+modify(`${dfAboutClient} .client-signals-treatment [data-ev-label^='payment_']`, i => {// language=Javascript
 	const c = i.textContent.trim();
 	const p = i.parentElement;
 	const t1 = 'verified';
