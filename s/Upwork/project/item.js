@@ -29,6 +29,9 @@ const dfBids = `.${df_c_bid_range}`;
 const dfClientActivity = `.${df_c_activity}`;
 // 2026-08-29
 // language=CSS
+const dfClientRating = `${dfAboutClient} > div:has(> .rating)`;
+// 2026-08-29
+// language=CSS
 const dfClientVerification = `${dfAboutClient} .client-signals-treatment`;
 const dfDeliverables = `ul[data-test='deliverables']`; // 2025-10-02
 // 2025-10-02 The previous value: `[data-test='Features']`
@@ -57,6 +60,7 @@ setTimeout(() => {
 	GM_addStyle([
 		`${dfAboutClient} div:has([data-testid='head-title'])` // 2025-09-04
 		,`${dfClientActivity} ~ section:not(${dfBids})` // 2025-09-05
+		,`${dfClientRating} .air3-icon` // 2026-08-29
 		,`${dfFeatures} .air3-icon:not([data-cy='clock-hourly'], [data-cy='fixed-price'])` // 2025-09-06
 		,`${dfFeatures} .description` // 2025-09-04
 		,`${dfFeatures} li::after` // 2025-09-04
