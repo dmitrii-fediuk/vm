@@ -27,6 +27,9 @@ const dfBids = `.${df_c_bid_range}`;
 // 2025-10-02 The previous value: `[data-test='ClientActivity']`
 // language=CSS
 const dfClientActivity = `.${df_c_activity}`;
+// 2026-08-29
+// language=CSS
+const dfClientVerification = `${dfAboutClient} .client-signals-treatment`;
 const dfDeliverables = `ul[data-test='deliverables']`; // 2025-10-02
 // 2025-10-02 The previous value: `[data-test='Features']`
 // language=CSS
@@ -392,7 +395,7 @@ modify(`p.multiline-text.text-body-sm`, i => {// language=Javascript
 });
 // 2025-09-05, 2026-08-29
 // language=CSS
-modify(`${dfAboutClient} .client-signals-treatment [data-ev-label^='payment_']`, i => {// language=Javascript
+modify(`${dfClientVerification} [data-ev-label^='payment_']`, i => {// language=Javascript
 	const c = i.textContent.trim();
 	const p = i.parentElement;
 	const t1 = 'verified';
