@@ -396,7 +396,7 @@ modify(`${dfAboutClient} .text-caption`, i => {// language=Javascript
 	const c = i.textContent.trim();
 	const p = i.parentElement;
 	const t1 = 'verified';
-	const t2 = `unverified`;
+	const t2 = `unverified`; // 2026-08-29
 	if (c.endsWith(t1)) {
 		if (!c.endsWith(t2)) {
 			p.remove();
