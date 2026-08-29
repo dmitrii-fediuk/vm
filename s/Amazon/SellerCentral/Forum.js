@@ -3,8 +3,8 @@
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Amazon/SellerCentral/Forum.js
 // @icon https://upload.wikimedia.org/wikipedia/commons/d/de/Amazon_icon.png
-// @match https://sellercentral.amazon.com/seller-forums/*
-// @match https://sellercentral-europe.amazon.com/seller-forums/*
+// 2026-08-28 https://share.gemini.google/zfmtnQvsljA0
+// @include /^https:\/\/sellercentral[^.]*\.amazon\.[^\/]+\/seller-forums\/.*$/
 // @name Amazon / Seller Central / Forum
 // ==/UserScript==
 // 2026-07-31 "Improve `sellercentral.amazon.com`": https://github.com/dmitrii-fediuk/vm/issues/129
