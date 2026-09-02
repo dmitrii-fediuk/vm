@@ -26,6 +26,7 @@ GM_addStyle([
 	,`search-dynamic-id-cache-controller`
 	// 2024-08-21 'Hide the page`s header from Reddit articles': https://github.com/dmitrii-fediuk/vm/issues/39
 	,`shreddit-app[routename='post_page'] reddit-header-large`
+	,`shreddit-comment-tree-ad` // 2026-09-02
 	// 2024-08-21
 	// 'Hide the `AutoModerator``s comments from Reddit articles': https://github.com/dmitrii-fediuk/vm/issues/40
 	,`shreddit-comment[author='AutoModerator']`
