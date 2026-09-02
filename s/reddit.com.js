@@ -30,6 +30,7 @@ GM_addStyle([
 	// 2024-08-21
 	// 'Hide the `AutoModerator``s comments from Reddit articles': https://github.com/dmitrii-fediuk/vm/issues/40
 	,`shreddit-comment[author='AutoModerator']`
+	,`shreddit-comments-page-ad` // 2026-09-02
 	,`shreddit-status-icons`
 ]
 	 // language=Javascript
