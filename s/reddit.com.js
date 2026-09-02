@@ -11,28 +11,28 @@
 // 2025-01-04 "Improve Reddit": https://github.com/dmitrii-fediuk/vm/issues/83
 // language=CSS
 GM_addStyle([
-	'#next-comment'
-	,'.\\@container:has(> .community-banner)'
+	`#next-comment`
+	,`.\\@container:has(> .community-banner)`
 	// 2024-08-21
-	// "Hide the «Archived post» warning from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/41
-	,'[slot="post-archived-banner"]'
-	,'community-highlight-carousel'
-	// 2024-06-24 "Hide the search form from Reddit": https://github.com/dmitrii-fediuk/vm/issues/7
-	,'div.justify-stretch:has(> div > div > search-dynamic-id-cache-controller)'
-	// 2024-05-17, 2024-08-21 "Hide the logo from Reddit": https://github.com/dmitrii-fediuk/vm/issues/38
-	,'faceplate-tracker[noun="reddit_logo"]'
+	// 'Hide the «Archived post» warning from Reddit articles': https://github.com/dmitrii-fediuk/vm/issues/41
+	,`[slot='post-archived-banner']`
+	,`community-highlight-carousel`
+	// 2024-06-24 'Hide the search form from Reddit': https://github.com/dmitrii-fediuk/vm/issues/7
+	,`div.justify-stretch:has(> div > div > search-dynamic-id-cache-controller)`
+	// 2024-05-17, 2024-08-21 'Hide the logo from Reddit': https://github.com/dmitrii-fediuk/vm/issues/38
+	,`faceplate-tracker[noun='reddit_logo']`
 	// 2024-08-21
-	// "Hide the «Search Comments» block from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/42
-	,'search-dynamic-id-cache-controller'
-	// 2024-08-21 "Hide the page's header from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/39
-	,'shreddit-app[routename="post_page"] reddit-header-large'
+	// 'Hide the «Search Comments» block from Reddit articles': https://github.com/dmitrii-fediuk/vm/issues/42
+	,`search-dynamic-id-cache-controller`
+	// 2024-08-21 'Hide the page`s header from Reddit articles': https://github.com/dmitrii-fediuk/vm/issues/39
+	,`shreddit-app[routename='post_page'] reddit-header-large`
 	// 2024-08-21
-	// "Hide the `AutoModerator`'s comments from Reddit articles": https://github.com/dmitrii-fediuk/vm/issues/40
-	,'shreddit-comment[author="AutoModerator"]'
-	,'shreddit-status-icons'
+	// 'Hide the `AutoModerator``s comments from Reddit articles': https://github.com/dmitrii-fediuk/vm/issues/40
+	,`shreddit-comment[author='AutoModerator']`
+	,`shreddit-status-icons`
 ]
 	 // language=Javascript
-	.join(',') + '{display: none !important;}')
+	.join(`,`) + `{display: none !important;}`)
 ;
 // language=CSS
 GM_addStyle([
