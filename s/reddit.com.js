@@ -25,6 +25,7 @@ GM_addStyle([
 	// 'Hide the «Search Comments» block from Reddit articles': https://github.com/dmitrii-fediuk/vm/issues/42
 	,`search-dynamic-id-cache-controller`
 	// 2024-08-21 'Hide the page`s header from Reddit articles': https://github.com/dmitrii-fediuk/vm/issues/39
+	,`shreddit-ad-post` // 2026-09-02
 	,`shreddit-app[routename='post_page'] reddit-header-large`
 	,`shreddit-comment-tree-ad` // 2026-09-02
 	// 2024-08-21
