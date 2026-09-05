@@ -4,7 +4,6 @@
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Upwork/project/list/best-matches/.js
 // @icon https://www.upwork.com/favicon.ico
 // @match *://www.upwork.com/nx/s/find-work/best-matches*
-// @match *://www.upwork.com/nx/find-work/best-matches*
 // @name Upwork / Project / List / Best Matches / nx-s
 // ==/UserScript==
 // 2024-10-13, 2024-12-24 "Improve the Upwork appearance": https://github.com/dmitrii-fediuk/vm/issues/52
