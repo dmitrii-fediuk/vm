@@ -67,7 +67,7 @@ const df_Ev_BestMatch = `[data-ev-label='best_match']`; // 2026-06-04
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
+		,`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
 		,`${dfPostedOnContainer_Parent} > :not(${dfPostedOnContainer})` // 2026-06-12
 		,`${dfProject__Body__Row_Country} .air3-icon` // 2026-06-12
 		,`${dfProject__Body__Row_Country} > :not(${df_DT_Country})` // 2026-06-12
@@ -76,7 +76,6 @@ setTimeout(() => {
 		,`${dfProject__Header__Row_PostedOn} > .text-caption > span:not(${dfPostedOnContainer})` // 2026-06-12
 		,`${dfTabs} > :not(${dfTabContent}):not(#a)` // 2026-06-04
 		,`${df_C_FeedsCard} > :not(:has(> ${df_DT_FeedBestMatch}))` // 2026-06-12
-		,`${df_C_JobTileActions} > :not(${df_DT_JobFeedback})` // 2026-06-04
 		,`${df_C_JobTileBadges} > :not(${df_DT_Badge_Applied})` // 2026-06-12
 		,`${df_C_JobTileBadges}:not(:has(> ${df_DT_Badge_Applied}))` // 2026-06-12
 		,`${df_DT_FeedBestMatch} > :not(:has(> ${df_DT_JobTileList}))` // 2026-06-12
@@ -85,6 +84,7 @@ setTimeout(() => {
 		,`.impression-tracker` // 2026-06-04
 		,`.job-tile-bonus-connects-tag-wrap:not(#a)` // 2026-06-04
 		,`:has(> ${dfJobsFeed}) > :not(${dfJobsFeed}):not(#a1):not(#a2)` // 2026-06-04
+		,`:has(> ${df_C_JobTileActions})`// 2026-06-04, 2026-09-05
 		,`:has(> ${df_DT_JobTileList}) > :not(${df_DT_JobTileList})` // 2026-06-12
 		,`:has(> ${df_DT_JobType}) > :not(${df_DT_JobType})` // 2026-06-12
 		,`:has(> [data-test='menu-container'])` // 2026-06-04
@@ -280,8 +280,7 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	`${df_C_JobTileActions} button` // 2026-06-13
-	,df_DT_JobTileBadges // 2026-06-04
+	df_DT_JobTileBadges // 2026-06-04
 ]
 	 // language=Javascript
 	.join(',') + '{opacity: .5 !important;}')
