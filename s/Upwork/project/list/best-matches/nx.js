@@ -67,7 +67,7 @@ const df_Ev_BestMatch = `[data-ev-label='best_match']`; // 2026-06-04
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		,`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
+		`${dfJobsFeed} > :not(${dfTabs})` // 2026-06-04
 		,`${dfPostedOnContainer_Parent} > :not(${dfPostedOnContainer})` // 2026-06-12
 		,`${dfProject__Body__Row_Country} .air3-icon` // 2026-06-12
 		,`${dfProject__Body__Row_Country} > :not(${df_DT_Country})` // 2026-06-12
