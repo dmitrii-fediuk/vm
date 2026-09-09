@@ -591,8 +591,9 @@ else {
 			return r;
 		};
 		if (!p()) {
-			const o = new MutationObserver((mm, obs) => p() ? obs.disconnect() : null);
-			o.observe(document.body, {childList: true, subtree: true});
+			(new MutationObserver((mm, o) => p() ? o.disconnect() : null)).observe(
+				document.body, {childList: true, subtree: true}
+			);
 		}
 	}
 })();
