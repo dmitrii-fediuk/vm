@@ -568,3 +568,35 @@ else {
 		}
 	}, true);
 })();
+// 2026-09-09
+(() => {
+	const v = +new URL(location).searchParams.get('df-proposals-lt');
+	const keys = {
+		5: ['0-4']
+		,10: ['0-4', '5-9']
+		,15: ['0-4', '5-9', '10-14']
+		,20: ['0-4', '5-9', '10-14', '15-19']
+		,50: ['0-4', '5-9', '10-14', '15-19', '20-49']
+	}[v];
+	if (!keys) {
+		return;
+	}
+	const p = () => {
+		const b = document.querySelector(`[data-test='filter-sidebar-component_proposals FilterCollapsible']`);
+		const ii = b ? keys.map(k => b.querySelector(`input[name='${k}']`)) : [];
+		const r = !!b && ii.every(i => i);
+		if (r) {
+			ii.forEach(i => !i.checked ? i.click() : null);
+		}
+		return r;
+	};
+	if (p()) {
+		return;
+	}
+	const c = document.querySelector(`[data-test='FiltersList']`);
+	if (!c) {
+		return;
+	}
+	const o = new MutationObserver((mm, obs) => p() ? obs.disconnect() : null);
+	o.observe(c, {childList: true, subtree: true});
+})();
