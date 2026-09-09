@@ -591,9 +591,13 @@ else {
 			return r;
 		};
 		if (!p()) {
-			(new MutationObserver((mm, o) => p() ? o.disconnect() : null)).observe(
-				document.body, {childList: true, subtree: true}
-			);
+			(new MutationObserver((mm, o) => p() ? o.disconnect() : null)).observe(document.body, {
+				// 2025-03-18 https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe#attributes
+				attributes: false
+				// 2025-03-18 https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe#childlist
+				,childList: true
+				,subtree: true
+			});
 		}
 	}
 })();
