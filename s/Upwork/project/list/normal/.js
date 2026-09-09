@@ -591,13 +591,8 @@ else {
 			return r;
 		};
 		if (!p()) {
-			//const c = document.querySelector(`[data-test='FiltersList']`);
-			const c = document.body;
-			if (!c) {
-				debugger;
-			}
 			const o = new MutationObserver((mm, obs) => p() ? obs.disconnect() : null);
-			o.observe(c, {childList: true, subtree: true});
+			o.observe(document.body, {childList: true, subtree: true});
 		}
 	}
 })();
