@@ -591,9 +591,9 @@ else {
 			return r;
 		};
 		if (!p()) {
-			const c = document.querySelector(`[data-test='FiltersList']`);
+			//const c = document.querySelector(`[data-test='FiltersList']`);
+			const c = document.body;
 			if (!c) {
-				console.log("No `[data-test='FiltersList']`");
 				debugger;
 			}
 			const o = new MutationObserver((mm, obs) => p() ? obs.disconnect() : null);
