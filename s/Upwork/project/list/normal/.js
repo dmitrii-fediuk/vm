@@ -578,25 +578,26 @@ else {
 		,20: ['0-4', '5-9', '10-14', '15-19']
 		,50: ['0-4', '5-9', '10-14', '15-19', '20-49']
 	}[v];
-	if (!keys) {
-		return;
-	}
-	const p = () => {
-		const b = document.querySelector(`[data-test='filter-sidebar-component_proposals FilterCollapsible']`);
-		const ii = b ? keys.map(k => b.querySelector(`input[name='${k}']`)) : [];
-		const r = !!b && ii.every(i => i);
-		if (r) {
-			ii.forEach(i => !i.checked ? i.click() : null);
+	if (keys) {
+		const p = () => {
+			const b = document.querySelector(
+				`[data-test='filter-sidebar-component_proposals FilterCollapsible']`
+			);
+			const ii = b ? keys.map(k => b.querySelector(`input[name='${k}']`)) : [];
+			const r = !!b && ii.every(i => i);
+			if (r) {
+				ii.forEach(i => !i.checked ? i.click() : null);
+			}
+			return r;
+		};
+		if (!p()) {
+			const c = document.querySelector(`[data-test='FiltersList']`);
+			if (!c) {
+				console.log("No `[data-test='FiltersList']`");
+				debugger;
+			}
+			const o = new MutationObserver((mm, obs) => p() ? obs.disconnect() : null);
+			o.observe(c, {childList: true, subtree: true});
 		}
-		return r;
-	};
-	if (p()) {
-		return;
 	}
-	const c = document.querySelector(`[data-test='FiltersList']`);
-	if (!c) {
-		return;
-	}
-	const o = new MutationObserver((mm, obs) => p() ? obs.disconnect() : null);
-	o.observe(c, {childList: true, subtree: true});
 })();
