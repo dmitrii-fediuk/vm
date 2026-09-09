@@ -97,6 +97,7 @@
 		,'Executive Support'
 		,'Exterior Rendering'
 		,'Female'
+		,'Fiction'
 		,'Figma'
 		,'Film Editing'
 		,'Final Cut Pro'
