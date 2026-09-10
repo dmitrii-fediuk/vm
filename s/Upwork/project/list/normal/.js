@@ -38,7 +38,6 @@ const dfAddStyle = c => {
 		document.body.appendChild(r);
 	}
 	dfStyles.push(r);
-	return r;
 };
 GM_addStyle = dfAddStyle;
 (() => {
