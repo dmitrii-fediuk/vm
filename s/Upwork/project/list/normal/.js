@@ -64,7 +64,7 @@ setTimeout(() => {
 		,df_DT_Featured // 2026-06-15
 	]
 		 // language=Javascript
-		.join(',') + '{display: none !important;}')
+		.join(`:not(#a),`) + '{display: none !important;}')
 	;
 // 2026-06-15 The previous value: 400.
 }, 600);
