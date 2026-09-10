@@ -29,12 +29,34 @@ const df_DT_Terms_Fixed_V = `${df_DT_Terms_Fixed} > .rr-mask`; // 2026-08-17
 const dfProject = `article[data-test='JobTile']`; // 2026-06-13
 // language=CSS
 const dfText = `p.text-body-sm`; // 2026-06-16
+// 2026-09-10 https://gemini.google.com/share/b0365889fb1a
+const _addStyle = GM_addStyle;
+const dfStyles = [];
+const dfAddStyle = c => {
+	const r = _addStyle(c);
+	if (document.body) {
+		document.body.appendChild(r);
+	}
+	dfStyles.push(r);
+	return r;
+};
+GM_addStyle = dfAddStyle;
+(() => {
+	const o = new MutationObserver(mm => {
+		const r = mm.some(m => Array.from(m.addedNodes).some(n => 'LINK' === n.tagName));
+		if (r && document.body) {
+			dfStyles.forEach(s => document.body.appendChild(s));
+		}
+	});
+	o.observe(document.documentElement, {childList: true, subtree: true});
+})();
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
 setTimeout(() => {
+	// 2026-09-10 https://gemini.google.com/share/b0365889fb1a
 	// language=CSS
-	GM_addStyle([
+	dfAddStyle([
 		`${df_C_JobTileActions}:has(button[data-test='job-toggle-collapsed'])` // 2026-06-13
 		,`${df_DT_Badges}:has(${df_DT_Featured}:only-child)` // 2026-06-15
 		,`${df_DT_JobInfo} > [data-test='duration-label']` // 2026-06-15
@@ -63,8 +85,8 @@ setTimeout(() => {
 		,`[data-test='location'] [data-test='UpCIcon']` // 2025-03-18
 		,df_DT_Featured // 2026-06-15
 	]
-		 // language=Javascript
-		.join(`:not(#a),`) + '{display: none !important;}')
+		// language=Javascript
+		.join(',')	+ `{display: none !important;}`)
 	;
 // 2026-06-15 The previous value: 400.
 }, 600);
@@ -612,3 +634,5 @@ else {
 		}
 	}
 })();
+// 2026-09-10 https://gemini.google.com/share/b0365889fb1a
+GM_addStyle = _addStyle;
