@@ -282,6 +282,8 @@ else {
 }
 // 2025-03-18
 (() => {
+	// 2026-09-11 https://gemini.google.com/share/be4135ba43a2
+	const processed = new WeakSet();
 	const process = (() => {
 		/**
 		 * 2025-10-02 https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)_per_capita#Table
@@ -431,6 +433,10 @@ else {
 			// 2025-03-19
 			// language=CSS
 			modify(dfText, i => {// language=Javascript
+				if (i.textContent.includes('Easy Furniture')) {
+					console.log('Easy Furniture');
+					//debugger;
+				}
 				i.innerHTML = i.textContent
 					// 2025-03-19 https://stackoverflow.com/a/784547
 					// 2026-06-13 https://gemini.google.com/share/8660a99264ca
@@ -477,43 +483,61 @@ else {
 		};
 		// 2025-03-18, 2025-10-02 https://g.co/gemini/share/60eb4bcb2b7f
 		const filters = [fCountries, fRate, fRateNotSpecified, fLength, fPhrases, fTags];
-		return c => c.querySelectorAll('article').forEach(a =>
-			filters.every(f => f(a)) ? format(a) : a.style.display = 'none'
-		);
+		return c => c.querySelectorAll('article').forEach(a => {
+			// 2026-09-11 https://gemini.google.com/share/be4135ba43a2
+			if (!processed.has(a)) {
+				processed.add(a);
+				filters.every(f => f(a)) ? format(a) : (a.style.display = 'none');
+			}
+		});
 	})();
+	// 2026-09-11 https://gemini.google.com/share/be4135ba43a2
 	(() => {
-		// 2026-09-10
-		const i = setInterval(() => {
-			const c = document.querySelector('.card-list-container');
+		let t, o;
+		const schedule = () => {
+			t ? cancelIdleCallback(t) : null;
+			t = requestIdleCallback(() => {
+				t = null;
+				const c = document.querySelector('.jobs-grid-container');
+				if (c) {
+					o ? o.disconnect() : null;
+					const n = c.querySelector('.card-list-container');
+					n ? process(n) : null;
+					o ? o.observe(c, {
+						// 2025-03-18 https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe#attributes
+						attributes: false
+						,characterData: true
+						// 2025-03-18 https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe#childlist
+						,childList: true
+						,subtree: true
+					}) : null;
+				}
+			});
+		};
+		const p = () => {
+			const c = document.querySelector('.jobs-grid-container');
 			if (c) {
-				clearInterval(i);
-				// 2026-09-10 In this case, `process()` is called on the initial page load.
-				process(c);
-				// 2025-03-18 https://chatgpt.com/c/67d98719-3eec-8003-9df4-844aa046c43b
-				// 2026-09-10 In this case, `process()` is called on the page navigation control usage.
-				(new MutationObserver(mm => {
+				o = new MutationObserver(mm => {
+					let mutated = false;
 					// 2025-03-18 https://grok.com/chat/293ac71e-03ab-475a-ab7e-0030d1035357
 					mm.forEach(m => {
-						let n;
-						if (
-							m.target.parentNode.classList.contains('jobs-grid-container')
-							&& 1 === m.addedNodes.length
-							&& (n = m.addedNodes[0]).classList?.contains('card-list-container')
-							&& n.children.length
-							&& 'ARTICLE' === n.firstChild.tagName
-						) {
-							process(n);
+						const n = 1 === m.target.nodeType ? m.target : m.target.parentNode;
+						const a = n?.closest ? n.closest('article') : null;
+						if (a) {
+							processed.delete(a);
+							mutated = true;
+						}
+						else if (m.addedNodes.length || m.removedNodes.length) {
+							mutated = true;
 						}
 					});
-				})).observe(document.querySelector('.jobs-grid-container'), {
-					// 2025-03-18 https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe#attributes
-					attributes: false
-					// 2025-03-18 https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe#childlist
-					,childList: true
-					,subtree: true
+					mutated ? schedule() : null;
 				});
+				schedule();
 			}
-		}, 500);
+			return !!c;
+		};
+		const i = setInterval(() => p() ? clearInterval(i) : null, 50);
 	})();
 })();
 (() => {
