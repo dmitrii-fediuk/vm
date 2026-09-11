@@ -14,7 +14,7 @@ const df_C_JobTileActions = `.job-tile-actions`; // 2026-06-17
 // language=CSS
 const df_DT_Badges = `[data-test*='JobTileBadges']`; // 2026-06-15
 // language=CSS
-const df_DT_Date = `[data-test*='job-pubilshed-date']`; // 2026-06-13
+const df_DT_Date = `[data-test^='job-pubilshed-date']`; // 2026-06-13
 // language=CSS
 const df_DT_Featured = `[data-test*='JobBadgePremium']`; // 2026-06-15
 // language=CSS
