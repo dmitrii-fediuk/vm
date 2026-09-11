@@ -537,7 +537,7 @@ else {
 			}
 			return !!c;
 		};
-		const i = setInterval(() => p() ? clearInterval(i) : null, 50);
+		const i = setInterval(() => p() ? clearInterval(i) : null, 500);
 	})();
 })();
 (() => {
