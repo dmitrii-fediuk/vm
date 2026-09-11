@@ -450,7 +450,7 @@ else {
 				i.innerHTML = i.textContent.trim()
 					.replace('Posted ', '')
 					// 2026-08-17
-					.replace(' · ', '      ')
+					.replace('·', '      ') // 2026-09-11
 					.replace('Proposals: ', '')
 					.replace(' to ', '-')
 					.replace('5-10', '5')
