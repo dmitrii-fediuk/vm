@@ -12,6 +12,7 @@ GM_addStyle([
 	`#ai-answers-container` // 2026-06-10
 	,`#genie-container` // 2026-06-10
 	,`.content-background` // 2026-06-10
+	,`.helpPanelContainerRoot` // 2026-09-12
 	,`.main-content > :not(article)`
 	,`.side-container`
 	,`.sub-article-container`
