@@ -10,15 +10,16 @@
 // 2024-12-13 "Improve `experienceleague.adobe.com`": https://github.com/dmitrii-fediuk/vm/issues/76
 // language=CSS
 GM_addStyle([
-	'.article-metadata-createdby-wrapper'
-	,'.article-metadata-topics-wrapper'
-	,'.doc-actions-mobile'
-	,'.doc-pagination'
-	,'.docs > header'
-	,'.docs main > .rail.rail-left'
-	,'.docs main > .rail.rail-right'
-	,'.feedback-ui'
-	,'footer'
+	`.article-metadata-createdby-wrapper`
+	,`.article-metadata-topics-wrapper`
+	,`.doc-actions-mobile`
+	,`.doc-pagination`
+	,`.docs > header`
+	,`.docs main > .rail.rail-left`
+	,`.docs main > .rail.rail-right`
+	,`.feedback-ui`
+	,`footer`
+	,`main ~ *` // 2026-09-23
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
