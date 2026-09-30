@@ -408,7 +408,9 @@ modify([
 	const t1 = 'verified';
 	const t2 = `unverified`; // 2026-08-29
 	if (c.endsWith(t1)) {
-		if (!c.endsWith(t2)) {
+		if (!c.endsWith(t2)
+			&& !c.includes('not') // 2025-09-05, 2026-09-30
+		) {
 			p.remove();
 		}
 		else {
