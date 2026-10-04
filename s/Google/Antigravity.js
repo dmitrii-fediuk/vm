@@ -95,6 +95,14 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
+	`.main-frame` // 2026-10-04
+]
+	 // language=Javascript
+	.join(',') + '{padding-top: 0 !important;}')
+;
+// 2026-10-04
+// language=CSS
+GM_addStyle([
 ]
 	 // language=Javascript
 	.join(',') + '{align-items: unset !important;}')
