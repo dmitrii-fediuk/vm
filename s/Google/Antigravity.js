@@ -1,10 +1,10 @@
 // ==UserScript==
 // @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
 // @grant GM_addStyle
-// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/ShipStation/ShipEngine.js
-// @icon https://www.shipengine.com/docs/img/favicons/apple-touch-icon.png
-// @match https://www.shipengine.com/docs/*
-// @name ShipStation / ShipEngine
+// @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Google/Antigravity.js
+// @icon https://antigravity.google/apple-touch-icon.png
+// @match https://antigravity.google/docs/*
+// @name Google / Antigravity
 // ==/UserScript==
 // 2026-10-04 "Improve `antigravity.google`": https://github.com/dmitrii-fediuk/vm/issues/139
 // language=CSS
