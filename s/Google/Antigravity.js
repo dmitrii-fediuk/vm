@@ -36,7 +36,13 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`mobile-starlight-toc` // 2026-10-04
+	`.download-button` // 2026-10-04
+	,`footer` // 2026-10-04
+	,`mobile-starlight-toc` // 2026-10-04
+	,`.search-wrapper` // 2026-10-04
+	,`.social-icons` // 2026-10-04
+	,`starlight-theme-select` // 2026-10-04
+	,`.title-wrapper` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -67,6 +73,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`header` // 2026-10-04
+	,`.sidebar-pane` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{position: unset !important;}')
@@ -74,6 +81,7 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
+	`.header-cta-group` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -88,6 +96,7 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
+	`.main-frame` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -95,7 +104,6 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`.main-frame` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{padding-top: 0 !important;}')
@@ -125,6 +133,10 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
+	`header` // 2026-10-04
+	,`.header-main` // 2026-10-04
+	,`.sidebar-pane` // 2026-10-04
+	,`.subnav-bar` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{border: 0 !important;}')
@@ -249,6 +261,7 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
+	`.sl-container` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{max-width: unset !important;}')
@@ -256,6 +269,7 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
+	`.header-main` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{min-height: unset !important;}')
@@ -263,6 +277,7 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
+	`.sidebar-pane` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{overflow: unset !important;}')
@@ -331,6 +346,7 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
+	`.sidebar-pane` // 2026-10-04
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -422,6 +438,64 @@ GM_addStyle([
 	,'letter-spacing': '.03em' // 2026-10-04 
 	,'line-height': 1.2 // 2026-10-04 
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
+// 2026-10-04
+// language=CSS
+GM_addStyle(`.main-frame {order: 1 !important;}`);
+// 2026-10-04
+// language=CSS
+GM_addStyle([
+	`header` // 2026-10-04
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'height': 'auto'
+			,'order': 2
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2026-10-04
+// language=CSS
+GM_addStyle(`nav.sidebar {order: 3 !important;}`);
+// 2026-10-04
+// language=CSS
+GM_addStyle([
+	`.header-stack` // 2026-10-04
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'align-items': 'center'
+			,'border-bottom': '1px solid var(--theme-outline-variant, #dadce0)'
+			,'border-top': '1px solid var(--theme-outline-variant, #dadce0)'
+			,'display': 'flex'
+			,'flex-direction': 'row-reverse'
+			,'height': 'auto'
+			,'justify-content': 'space-between'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
+// 2026-10-04
+// language=CSS
+GM_addStyle(`.subnav-bar {flex: 1 1 auto !important;}`);
+// 2026-10-04
+// language=CSS
+GM_addStyle([
+	`.header-main` // 2026-10-04
+]
+	// language=Javascript
+	.join(',') + '{' +
+		// language=CSS
+		Object.entries({
+			'flex': '0 0 auto'
+			,'height': 'auto'
+			,'padding': '0 1rem'
+			,'width': 'auto'
+		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
+	'}'
+);
 // 2026-10-04
 // language=CSS
 //GM_addStyle(`body {margin: .5rem !important;}`);
