@@ -206,6 +206,8 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
+	`:is(button, input, select, textarea):not(#a)` // 2026-10-04
+	,`.rn-wrapper :not(#a)` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{font-family: unset !important;}')
@@ -429,8 +431,13 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`nav.sidebar :not(#a)` // 2026-10-04
+	`[class*=breadcrumb] :not(#a)` // 2026-10-04
+	,`:is(button, summary):not(#a)` // 2026-10-04
+	,`nav.sidebar :not(#a)` // 2026-10-04
+	,`.rn-wrapper :not(#a)` // 2026-10-04
 	,`.starlight-aside :not(#a)` // 2026-10-04
+	,`starlight-code-title:not(#a)` // 2026-10-04
+	,`starlight-tabs :not(#a)` // 2026-10-04
 	,`.subnav-bar :not(#a)` // 2026-10-04
 	,`:is(table, th, td):not(#a)` // 2026-10-04
 ]
@@ -473,6 +480,7 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			'height': 'auto'
+			// language=Javascript
 			,'order': 2
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
@@ -490,8 +498,10 @@ GM_addStyle([
 		// language=CSS
 		Object.entries({
 			'align-items': 'center'
+			// language=Javascript
 			,'border-bottom': '1px solid var(--theme-outline-variant, #dadce0)'
 			,'border-top': '1px solid var(--theme-outline-variant, #dadce0)'
+			// language=CSS
 			,'display': 'flex'
 			,'flex-direction': 'row-reverse'
 			,'height': 'auto'
@@ -511,16 +521,20 @@ GM_addStyle([
 	.join(',') + '{' +
 		// language=CSS
 		Object.entries({
+			// language=Javascript
 			'flex': '0 0 auto'
+			// language=CSS
 			,'height': 'auto'
+			// language=Javascript
 			,'padding': '0 1rem'
+			// language=CSS
 			,'width': 'auto'
 		}).map(([k, v]) => `${k}: ${v} !important;`).join(' ') +
 	'}'
 );
 // 2026-10-04
 // language=CSS
-GM_addStyle(`.main-pane {width: 100% !important;}`);
+GM_addStyle(`:is(.main-pane):not(#a):not(#a):not(#a):not(#a):not(#a):not(#a) {width: 100% !important;}`);
 // 2026-10-04
 // language=CSS
 GM_addStyle(`main {display: flex !important; flex-direction: column !important;}`);
