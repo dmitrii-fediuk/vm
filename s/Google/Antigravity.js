@@ -23,11 +23,19 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
+	`*` // 2026-10-04
 ]
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
 		[
+			'color'
+			,'font-family'
+			,'font-size'
+			,'font-weight'
+			,'letter-spacing'
+			,'line-height'
+			,'text-transform'
 		]
 			// language=Javascript
 			.map(k => `${k}: revert !important;`).join(' ') +
@@ -383,6 +391,7 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
+	`:not(pre) > code` // 2026-10-04
 ]
 	// language=Javascript
 	.join(',') + '{' +
