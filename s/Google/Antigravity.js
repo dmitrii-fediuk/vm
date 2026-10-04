@@ -206,7 +206,6 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`[class*=max-h]:not(#a)` // 2026-10-04
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -406,7 +405,6 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`html` // 2026-08-23
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'font-family': 'Segoe UI' // 2026-10-04
@@ -416,4 +414,4 @@ GM_addStyle([
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2026-10-04
 // language=CSS
-..GM_addStyle(`body {margin: .5rem !important;}`);
+//GM_addStyle(`body {margin: .5rem !important;}`);
