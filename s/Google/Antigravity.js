@@ -36,12 +36,14 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`.download-button` // 2026-10-04
+	`aside.right-sidebar-container` // 2026-10-04
+	,`.download-button` // 2026-10-04
 	,`footer` // 2026-10-04
 	,`mobile-starlight-toc` // 2026-10-04
 	,`.search-wrapper` // 2026-10-04
 	,`.social-icons` // 2026-10-04
 	,`starlight-theme-select` // 2026-10-04
+	,`starlight-toc` // 2026-10-04
 	,`.title-wrapper` // 2026-10-04
 ]
 	 // language=Javascript
@@ -89,6 +91,7 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
+	`:is(h3, ol, p, ul, .starlight-aside):not(#a)` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0.25rem 0 !important;}')
@@ -96,7 +99,8 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`.main-frame` // 2026-10-04
+	`.content-panel` // 2026-10-04
+	,`.main-frame` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -277,7 +281,8 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`.sidebar-pane` // 2026-10-04
+	`body` // 2026-10-04
+	,`.sidebar-pane` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{overflow: unset !important;}')
@@ -431,6 +436,7 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
+	`body` // 2026-10-04
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'font-family': 'Segoe UI' // 2026-10-04
@@ -498,4 +504,25 @@ GM_addStyle([
 );
 // 2026-10-04
 // language=CSS
-//GM_addStyle(`body {margin: .5rem !important;}`);
+GM_addStyle(`.main-pane {width: 100% !important;}`);
+// 2026-10-04
+// language=CSS
+GM_addStyle(`main {display: flex !important; flex-direction: column !important;}`);
+// 2026-10-04
+// language=CSS
+GM_addStyle(`main > .content-panel:nth-of-type(2) {order: 1 !important;}`);
+// 2026-10-04
+// language=CSS
+GM_addStyle(`main > .content-panel:nth-of-type(1) {order: 2 !important;}`);
+// 2026-08-25, 2026-10-04
+// language=CSS
+GM_addStyle(`body {margin: .5rem !important;}`);
+// 2026-08-25, 2026-10-04
+// language=CSS
+GM_addStyle(`h1:not(#a):not(#a) {font-size: 2rem !important;}`);
+// 2026-08-25, 2026-10-04
+// language=CSS
+GM_addStyle(`h2:not(#a):not(#a) {line-height: 1 !important; margin: .25rem 0 0 0 !important;}`);
+// 2026-08-25, 2026-10-04
+// language=CSS
+GM_addStyle(`h4 {margin: .15rem 0 !important;}`);
