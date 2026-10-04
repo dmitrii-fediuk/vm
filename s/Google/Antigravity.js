@@ -39,6 +39,7 @@ GM_addStyle([
 	`aside.right-sidebar-container` // 2026-10-04
 	,`.download-button` // 2026-10-04
 	,`footer` // 2026-10-04
+	,`hr` // 2026-10-04
 	,`mobile-starlight-toc` // 2026-10-04
 	,`.search-wrapper` // 2026-10-04
 	,`.social-icons` // 2026-10-04
@@ -91,7 +92,7 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`:is(h3, ol, p, ul, .starlight-aside):not(#a)` // 2026-10-04
+	`:is(h3, ol, p, pre, table, ul, .starlight-aside, starlight-tabs):not(#a)` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0.25rem 0 !important;}')
@@ -325,6 +326,7 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
+	`body` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{width: unset !important;}')
@@ -366,6 +368,7 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
+	`:is(code, kbd, pre, samp):not(#a)` // 2026-10-04
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -417,6 +420,10 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
+	`nav.sidebar :not(#a)` // 2026-10-04
+	,`.starlight-aside :not(#a)` // 2026-10-04
+	,`.subnav-bar :not(#a)` // 2026-10-04
+	,`:is(table, th, td):not(#a)` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{font-size: unset !important;}')
@@ -522,7 +529,10 @@ GM_addStyle(`body {margin: .5rem !important;}`);
 GM_addStyle(`h1:not(#a):not(#a) {font-size: 2rem !important;}`);
 // 2026-08-25, 2026-10-04
 // language=CSS
-GM_addStyle(`h2:not(#a):not(#a) {line-height: 1 !important; margin: .25rem 0 0 0 !important;}`);
+GM_addStyle(`:is(h2, .sl-heading-wrapper):not(#a):not(#a) {line-height: 1 !important; margin: .25rem 0 0 0 !important;}`);
 // 2026-08-25, 2026-10-04
 // language=CSS
 GM_addStyle(`h4 {margin: .15rem 0 !important;}`);
+// 2026-10-04
+// language=CSS
+GM_addStyle(`.starlight-aside {padding: .25rem .5rem !important;}`);
