@@ -36,6 +36,7 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
+	`mobile-starlight-toc` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
