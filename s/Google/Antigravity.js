@@ -23,18 +23,11 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`[class*=text]:not(#a)` // 2026-10-04
-	,`html` // 2026-10-04
 ]
 	// language=Javascript
 	.join(',') + '{' +
 		// language=CSS
 		[
-			'font-size'
-			,'font-weight'
-			,'letter-spacing'
-			,'line-height'
-			,'text-transform'
 		]
 			// language=Javascript
 			.map(k => `${k}: revert !important;`).join(' ') +
@@ -43,12 +36,6 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`#__next ~ :not(#a)` // 2026-10-04
-	,`#leftGroup` // 2026-10-04
-	,`.fixed` // 2026-10-04
-	,`[class*=base_contentBody] > :has([aria-label='Party popper emoji'])` // 2026-10-04
-	,`[class*=base_contentBody] ~ :not(#a)` // 2026-10-04
-	,`main ~ :not(#a)` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
@@ -56,9 +43,6 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`:has(> #leftGroup)` // 2026-10-04
-	,`:has(> main):not(#a)` // 2026-10-04
-	//,`pre > .flex` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
@@ -88,10 +72,6 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`[class*=mb-]` // 2026-10-04
-	,`[class*=mt-]` // 2026-10-04
-	,`[class*=mx-]` // 2026-10-04
-	,`[class*=my-]` // 2026-10-04	
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0 !important;}')
@@ -99,7 +79,6 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`:is(h3, ol, p, ul):not(#a)`// 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{margin: 0.25rem 0 !important;}')
@@ -107,10 +86,6 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`[class*=pb-]` // 2026-10-04
-	,`[class*=pt-]` // 2026-10-04
-	,`[class*=px-]` // 2026-10-04
-	,`[class*=py-]` // 2026-10-04	
 ]
 	 // language=Javascript
 	.join(',') + '{padding: 0 !important;}')
@@ -133,8 +108,6 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`.code-bg` // 2026-10-04
-	,`body` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{background-image: unset !important;}')
@@ -281,7 +254,6 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`nav.rm-Sidebar` // 2026-10-04
 ]
 	 // language=Javascript
 	.join(',') + '{overflow: unset !important;}')
@@ -338,7 +310,6 @@ GM_addStyle([
 // 2026-10-04
 // language=CSS
 GM_addStyle([
-	`[class*=max-w]:not(#a)` // 2026-10-04
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -445,16 +416,4 @@ GM_addStyle([
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2026-10-04
 // language=CSS
-GM_addStyle(`body {margin: .5rem !important;}`);
-// 2026-10-04
-// language=CSS
-GM_addStyle(`body {margin: .5rem !important;}`);
-// 2026-10-04
-// language=CSS
-GM_addStyle(`h1:not(#a):not(#a) {font-size: 2rem !important;}`);
-// 2026-10-04
-// language=CSS
-GM_addStyle(`h2:not(#a):not(#a) {line-height: 1 !important; margin: .25rem 0 0 0 !important;}`);
-// 2026-10-04
-// language=CSS
-GM_addStyle(`h4 {margin: .15rem 0 !important;}`);
+..GM_addStyle(`body {margin: .5rem !important;}`);
