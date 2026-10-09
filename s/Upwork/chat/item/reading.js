@@ -14,12 +14,12 @@
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		`.composer-container`
-		,`.desktop-layout-index`
-		,`.sidebar-layout`
-		,`.story-menu-section`
-		,`.top-room-content`
-		,`#user-top-navigation-container`
+		`.composer-container` // 2024-10-13
+		,`.desktop-layout-index` // 2024-10-13
+		,`.sidebar-layout` // 2024-10-13
+		,`.story-menu-section` // 2024-10-13
+		,`.top-room-content` // 2024-10-13
+		,`#user-top-navigation-container` // 2024-10-13
 	]
 		 // language=Javascript
 		.join(`,`) + `{display: none !important;}`)
