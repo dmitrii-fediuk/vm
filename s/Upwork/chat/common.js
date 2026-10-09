@@ -12,6 +12,7 @@ setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
 		`.desktop-layout-header` // 2026-01-14
+		,`.main-content-sticky-area` // 2026-10-09
 	]
 		 // language=Javascript
 		.join(',') + '{display: none !important;}')
