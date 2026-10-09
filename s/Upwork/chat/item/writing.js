@@ -87,7 +87,7 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	`#story-viewport` // 2026-01-14
-	,`.composer-container` // 2026-01-14
+	,`.composer-container:not(#a)` // 2026-01-14, 2026-10-09
 	,`.desktop-container` // 2026-01-14
 	,`.desktop-room` // 2026-01-14
 	,`.room-body` // 2026-01-14
