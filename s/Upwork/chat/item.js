@@ -16,18 +16,8 @@ GM_addStyle([
 ;
 GM_addStyle('.story-timestamp {cursor: pointer !important;}');
 (() => {
-	const init = () => {
-		const root = document.querySelector('#__nuxt')?._vnode;
-		if (!root) {
-			if (!window.__dfTimestampPatchInjected) {
-				window.__dfTimestampPatchInjected = true;
-				const s = document.createElement('script');
-				s.textContent = '(' + init.toString() + ')();';
-				(document.head || document.documentElement).appendChild(s);
-				s.remove();
-			}
-		}
-		else if (!window.__dfTimestampPatchInstalled) {
+	const f = () => {
+		if (!window.__dfTimestampPatchInstalled) {
 			window.__dfTimestampPatchInstalled = true;
 			let cachedUpdRoom = null;
 			const findStory = storyId => {
@@ -117,5 +107,8 @@ GM_addStyle('.story-timestamp {cursor: pointer !important;}');
 			document.addEventListener('click', onClick, true);
 		}
 	};
-	init();
+	const s = document.createElement('script');
+	s.textContent = '(' + f.toString() + ')();';
+	(document.head || document.documentElement).appendChild(s);
+	s.remove();
 })();
