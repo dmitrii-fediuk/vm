@@ -14,24 +14,30 @@
 setTimeout(() => {
 	// language=CSS
 	GM_addStyle([
-		'.composer-container'
-		,'.desktop-layout-index'
-		,'.sidebar-layout'
-		,'.story-menu-section'
-		,'.top-room-content'
-		,'#user-top-navigation-container'
+		`.composer-container`
+		,`.desktop-layout-index`
+		,`.sidebar-layout`
+		,`.story-menu-section`
+		,`.top-room-content`
+		,`#user-top-navigation-container`
 	]
 		 // language=Javascript
-		.join(',') + '{display: none !important;}')
+		.join(`,`) + `{display: none !important;}`)
 	;
 }, 200);
+// 2026-10-09
+GM_addStyle([
+	`.separator` // 2026-10-09
+]
+	.join(`,`) + `{margin: 0 !important;}`)
+;
+// 2026-10-09
+GM_addStyle([
+	`.header-timestamp` // 2026-10-09
+	,`.story-inner` // 2026-10-09
+]
+	.join(`,`) + `{padding: 0 !important;}`)
+;
 // 2024-10-13
 // language=CSS
-GM_addStyle('#story-viewport {height: initial !important;}');
-GM_addStyle([
-	'.header-timestamp'
-	,'.story-inner'
-]
-	.join(',') + '{padding: 0 !important;}')
-;
-GM_addStyle('.separator {margin: 0 !important;}');
+GM_addStyle(`#story-viewport {height: initial !important;}`);
