@@ -28,3 +28,10 @@ setTimeout(() => {
 // 2024-10-13
 // language=CSS
 GM_addStyle('#story-viewport {height: initial !important;}');
+GM_addStyle([
+	'.header-timestamp'
+	,'.story-inner'
+]
+	.join(',') + '{padding: 0 !important;}')
+;
+GM_addStyle('.separator {margin: 0 !important;}');
