@@ -14,6 +14,7 @@ GM_addStyle([
 	,`.buttons-container.referral` // 2025-05-17
 	,`[data-placeholder='Ask Gemini']::after`
 	,`[data-placeholder='Ask Gemini']::before`
+	,`desktop-get-app-button` // 2026-10-13
 	,`g1-dynamic-upsell-button` // 2026-03-14
 	,`hallucination-disclaimer` // 2026-07-17
 	,`speech-dictation-mic-button`
