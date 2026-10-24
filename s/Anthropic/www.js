@@ -18,7 +18,7 @@ GM_addStyle([
 // 2026-10-24
 // language=CSS
 GM_addStyle([
-	`[class^='Body-module']` // 2026-10-24
+	`[class^='Body-module'][class$='__body']` // 2026-10-24
 ]
 	 // language=Javascript
 	.join(',') + '{display: block !important;}')
