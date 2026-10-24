@@ -31,6 +31,14 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{position: initial !important;}')
 ;
+// 2026-10-24
+// language=CSS
+GM_addStyle([
+	`[class^='ArticlePage-module'][class$='__ContentWrapper']` // 2026-10-24
+]
+	 // language=Javascript
+	.join(',') + '{padding: 0 !important;}')
+;
 // language=CSS
 GM_addStyle([
 	'.post-text'
