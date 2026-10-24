@@ -9,11 +9,19 @@
 // 2024-11-15 "Improve `www.anthropic.com`": https://github.com/dmitrii-fediuk/vm/issues/65
 // language=CSS
 GM_addStyle([
-	`[class*='Sticky']`  // 2026-10-24
+	`[class*='Sticky']` // 2026-10-24
 	,`a[class^='SiteHeader_core-logo-link']` // 2024-11-15
 ]
 	 // language=Javascript
 	.join(',') + '{display: none !important;}')
+;
+// 2026-10-24
+// language=CSS
+GM_addStyle([
+	`[class^='Body-module']` // 2026-10-24
+]
+	 // language=Javascript
+	.join(',') + '{display: block !important;}')
 ;
 // language=CSS
 GM_addStyle([
