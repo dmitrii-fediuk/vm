@@ -9,7 +9,8 @@
 // 2024-11-15 "Improve `www.anthropic.com`": https://github.com/dmitrii-fediuk/vm/issues/65
 // language=CSS
 GM_addStyle([
-	`[class*='Sticky']` // 2026-10-24
+	`:has(> main) > :not(main)` // 2026-10-24
+	,`[class*='Sticky']` // 2026-10-24
 	,`a[class^='SiteHeader_core-logo-link']` // 2024-11-15
 ]
 	 // language=Javascript
@@ -46,3 +47,6 @@ GM_addStyle([
 	 // language=Javascript
 	.join(',') + '{max-width: initial !important;}')
 ;
+// 2026-10-24
+// language=CSS
+GM_addStyle(`body {margin: 0 .5rem !important;}`);
