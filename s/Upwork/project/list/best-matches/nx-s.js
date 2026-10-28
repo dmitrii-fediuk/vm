@@ -152,6 +152,7 @@ GM_addStyle([
 	,dfTitle // 2026-08-23
 	,df_DT_Badge // 2026-08-17
 	,df_Row_Country // 2026-08-23
+	,df_Stats
 	,df_Terms // 2026-08-18
 ]
 	 // language=Javascript
@@ -184,7 +185,7 @@ GM_addStyle([
 // 2026-08-17
 // language=CSS
 GM_addStyle([
-	df_Stats // 2026-08-18
+	`${df_Stats}:not(#a)` // 2026-08-18
 	,df_Terms // 2026-08-18
 ]
 	 // language=Javascript
@@ -239,14 +240,16 @@ GM_addStyle(`${df_Row_Header} {order: 1 !important;}`);
 GM_addStyle(`${df_Row_Country} {order: 2 !important;}`);
 // 2026-06-04
 // language=CSS
-GM_addStyle(`${dfTitle} {font-size: 1.25rem !important;}`);
+GM_addStyle(`${dfTitle}:not(#a) {font-size: 1.25rem !important;}`);
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	dfText // 2026-06-04
+	`body`
+	,dfText // 2026-06-04
 	,dfTitle // 2026-06-04
 	,df_DT_Badge // 2026-08-23
 	,df_Row_Country // 2026-08-23
+	,df_Stats
 	,df_Terms // 2026-08-23
 // language=Javascript
 ].join(',') + `{${Object.entries({
@@ -256,7 +259,7 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	dfText // 2026-06-04
+	`${dfText}:not(#a)` // 2026-06-04
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'font-size': '1.05rem' // 2026-08-25
