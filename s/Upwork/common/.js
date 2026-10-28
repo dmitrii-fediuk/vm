@@ -10,16 +10,10 @@
 // 2026-08-23
 // language=CSS
 GM_addStyle([
-	`.body-large:not(#a)`
-	,`.body-medium:not(#a)`
-	,`.body-small:not(#a)`
-	,`.label-large:not(#a)`
-	,`.label-medium:not(#a)`
-	,`.label-small:not(#a)`
-	,`.text-base-lg:not(#a)`
+	`.body-medium:not(#a)` // 2026-10-28
+	,`.label-medium:not(#a)` // 2026-10-28
 	,`.text-base-sm:not(#a)` // 2026-08-23
 	,`.text-base:not(#a)` // 2026-08-23
-	,`.text-body-lg:not(#a)`
 	,`.text-body-sm:not(#a)` // 2026-08-23
 	,`.text-body:not(#a)` // 2026-08-23
 ]
@@ -41,10 +35,7 @@ GM_addStyle([
 // 2026-08-25
 // language=CSS
 GM_addStyle([
-	`a`
-	,`body` // 2026-08-25
-	,`p`
-	,`strong`
+	`body` // 2026-08-25
 ]
 	// language=Javascript
 	.join(',') + '{' +
@@ -64,11 +55,10 @@ GM_addStyle([
 // language=CSS
 GM_addStyle([
 	//`*` // 2026-08-23
-	`:is(h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading-large, .heading-medium, .heading-small):not(#a)` // 2026-08-23
+	`:is(h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading-small):not(#a)` // 2026-08-23, 2026-10-28
 // language=Javascript
 ].join(',') + `{${Object.entries({
-	'font-weight': 'revert'
-	,'line-height': 1.2 // 2026-08-25
+	'line-height': 1.2 // 2026-08-25
 	,'letter-spacing': 'revert' // 2026-08-23
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
 // 2025-06-10

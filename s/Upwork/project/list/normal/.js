@@ -28,7 +28,7 @@ const df_DT_Terms_Fixed_V = `${df_DT_Terms_Fixed} > .rr-mask`; // 2026-08-17
 // language=CSS
 const dfProject = `article[data-test='JobTile']`; // 2026-06-13
 // language=CSS
-const dfText = `p.body-medium`; // 2026-06-16
+const dfText = `p.body-medium`; // 2026-10-28
 // 2026-09-10 https://gemini.google.com/share/b0365889fb1a
 const _addStyle = GM_addStyle;
 const dfStyles = [];
@@ -149,8 +149,8 @@ GM_addStyle([
 // 2026-06-13
 // language=CSS
 GM_addStyle([
-	`.job-tile-title a`
-	,`.secondary-text-color:not(#a)`
+	`.job-tile-title a` // 2026-10-28
+	,`.secondary-text-color:not(#a)` // 2026-10-28
 	,`.text-light` // 2026-08-23
 	,`:hover` // 2026-06-13
 	,`body` // 2026-08-23
@@ -236,6 +236,7 @@ GM_addStyle('[data-test="proposals-tier"] {padding: 0.5rem 0 0 0 !important;}');
 // 2025-03-18
 // language=CSS
 GM_addStyle('[data-test="JobTileDetails"] {display: flex; flex-direction: row; flex-wrap: wrap;}');
+// 2026-10-28
 // language=CSS
 GM_addStyle(`h2:not(#a) {font-size: 1.25rem !important;}`);
 // 2025-03-19

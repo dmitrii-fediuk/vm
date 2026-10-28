@@ -12,7 +12,7 @@ const df_C_JobTileActions = `.job-tile-actions`; // 2026-06-17
 // language=CSS
 const df_DT_Badges = `[data-test='job-tile-badges']`; // 2026-06-04
 // language=CSS
-const df_DT_Badge = `[data-test^='badge-']`; // 2026-08-17
+const df_DT_Badge = `[data-test^='badge-']:not(#a)`; // 2026-08-17, 2026-10-28
 // language=CSS
 const df_DT_JobTile = `[data-test='job-tile']`; // 2026-06-04
 // language=CSS
@@ -35,7 +35,7 @@ const df_Row_Header = `${df_DT_JobTile} > :has(> div > div > h3[data-test='job-t
 // language=CSS
 const df_Row_Terms = `div:has(> .meta-divider)`; // 2026-08-18
 // language=CSS
-const df_Stats = `div:has(> :is(div, span) > ${df_DT_ProposalsTier})`; // 2026-08-17
+const df_Stats = `div:has(> :is(div, span) > ${df_DT_ProposalsTier}):not(#a)`; // 2026-08-17, 2026-10-28
 // language=CSS
 const df_Stats_Proposals = df_DT_ProposalsTier; // 2026-08-17
 // language=CSS
@@ -43,13 +43,13 @@ const df_Stats_Delimiter = `${df_Stats} > span:nth-child(2)`; // 2026-08-17
 // language=CSS
 const df_Stats_Time = `${df_Stats} > span:first-of-type`; // 2026-08-17
 // language=CSS
-const df_Terms = `${df_Row_Terms} > span:first-of-type`; // 2026-08-18
+const df_Terms = `${df_Row_Terms} > span:first-of-type:not(#a)`; // 2026-08-18, 2026-10-28
 // 2026-06-04
 const dfButton = `button[data-ev-label='job_feedback_button']`; // 2026-06-04
 // language=CSS
-const dfText = `p.line-clamp`; // 2026-06-04
+const dfText = `p.line-clamp:not(#a)`; // 2026-06-04, 2026-10-28
 // language=CSS
-const dfTitle = `[data-test='job-title']`; // 2026-06-04
+const dfTitle = `[data-test='job-title']:not(#a)`; // 2026-06-04, 2026-10-28
 // 2025-06-06
 // 1) «Failed to execute 'appendChild' on 'Node': This node type does not support this method».
 // 2) https://g.co/gemini/share/647370d4f366
@@ -152,7 +152,7 @@ GM_addStyle([
 	,dfTitle // 2026-08-23
 	,df_DT_Badge // 2026-08-17
 	,df_Row_Country // 2026-08-23
-	,df_Stats
+	,df_Stats // 2026-10-28
 	,df_Terms // 2026-08-18
 ]
 	 // language=Javascript
@@ -177,7 +177,8 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	`.label-small` // 2026-06-04
+	`.job-title-link` // 2026-10-28
+	,`.label-small:not(#a)` // 2026-06-04, 2026-10-28
 ]
 	 // language=Javascript
 	.join(',') + '{font-weight: unset !important;}')
@@ -185,7 +186,7 @@ GM_addStyle([
 // 2026-08-17
 // language=CSS
 GM_addStyle([
-	`${df_Stats}:not(#a)` // 2026-08-18
+	df_Stats // 2026-08-18
 	,df_Terms // 2026-08-18
 ]
 	 // language=Javascript
@@ -240,16 +241,16 @@ GM_addStyle(`${df_Row_Header} {order: 1 !important;}`);
 GM_addStyle(`${df_Row_Country} {order: 2 !important;}`);
 // 2026-06-04
 // language=CSS
-GM_addStyle(`${dfTitle}:not(#a) {font-size: 1.25rem !important;}`);
+GM_addStyle(`${dfTitle} {font-size: 1.25rem !important;}`);
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	`body`
+	`${df_Row_Country} span:not(#a)` // 2026-08-23, 2026-10-28
+	,`body` // 2026-10-28
 	,dfText // 2026-06-04
 	,dfTitle // 2026-06-04
 	,df_DT_Badge // 2026-08-23
-	,df_Row_Country // 2026-08-23
-	,df_Stats
+	,df_Stats // 2026-10-28
 	,df_Terms // 2026-08-23
 // language=Javascript
 ].join(',') + `{${Object.entries({
@@ -259,7 +260,7 @@ GM_addStyle([
 // 2026-06-04
 // language=CSS
 GM_addStyle([
-	`${dfText}:not(#a)` // 2026-06-04
+	dfText // 2026-06-04
 // language=Javascript
 ].join(',') + `{${Object.entries({
 	'font-size': '1.05rem' // 2026-08-25
