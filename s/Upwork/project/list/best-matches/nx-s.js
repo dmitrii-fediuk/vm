@@ -17,6 +17,7 @@ const df_DT_Badge = `[data-test^='badge-']:not(#a)`; // 2026-08-17, 2026-10-28
 const df_DT_JobTile = `[data-test='job-tile']`; // 2026-06-04
 // language=CSS
 const df_DT_JobsFeed = `[data-test='jobs-feed']`; // 2026-06-04
+const dfNL = `df-nl`; // 2026-06-13
 // language=CSS
 const df_DT_ProposalsTier = `[data-test='proposals-tier']`; // 2026-08-17
 // language=CSS
@@ -230,6 +231,9 @@ GM_addStyle([
 // 2024-12-25, 2025-03-18
 // language=CSS
 GM_addStyle('body {padding: 0.5rem !important;}');
+// 2026-06-13
+// language=CSS
+GM_addStyle(`.${dfNL} {margin: .5rem 0 !important;}`);
 // 2026-06-04
 // language=CSS
 GM_addStyle(`${df_DT_JobTile} > * {order: 3 !important;}`);
@@ -266,14 +270,6 @@ GM_addStyle([
 	'font-size': '1.05rem' // 2026-08-25
 	,'line-height': 1.2
 }).map(v => `${v[0]}: ${v[1]} !important;`).join(' ')}}`);
-// 2025-09-06 It still does not work for an unknown reason.
-// 2026-06-04
-// language=CSS
-GM_addStyle(`${dfText} br {
-	content: '' !important;
-	display: block !important;
-	height: 1px !important;
-}`);
 // 2026-06-17
 if (true) {
 	// language=CSS
@@ -317,11 +313,13 @@ const modify = (s, action) => {
 // 2026-06-04
 // language=CSS
 modify(dfText, i => {// language=Javascript
-	// 2025-03-19
-	// 1) https://stackoverflow.com/a/784547
-	// 2.1) https://claude.ai/chat/5d359891-1f1d-400f-bc3b-e8b30fa92867
-	// 2.2) https://chatgpt.com/c/67d9e839-2800-8003-9a50-5a9edd88c3a2
-	i.innerHTML = i.textContent.replace(/(?:\r\n|\r|\n)/g, '<br/>');
+	i.innerHTML = i.textContent
+		// 2025-03-19 https://stackoverflow.com/a/784547
+		// 2026-06-13 https://gemini.google.com/share/8660a99264ca
+		.replace(/\r?\n|\r|<br>/g, '<br/>')
+		// 2026-06-13 https://gemini.google.com/share/bceb5af402b2
+		.replace(/(?:<br\/>){2,}/g, `<div class='${dfNL}'></div>`)
+	;
 });
 // 2026-08-18
 modify(df_Stats_Delimiter, i => {i.innerHTML = '      ';});
