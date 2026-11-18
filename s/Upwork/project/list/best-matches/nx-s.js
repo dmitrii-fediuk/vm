@@ -233,7 +233,7 @@ GM_addStyle([
 GM_addStyle('body {padding: 0.5rem !important;}');
 // 2026-06-13
 // language=CSS
-GM_addStyle(`.${dfNL} {margin: .5rem 0 !important;}`);
+GM_addStyle(`.${dfNL} {margin: .25rem 0 !important;}`);
 // 2026-06-04
 // language=CSS
 GM_addStyle(`${df_DT_JobTile} > * {order: 3 !important;}`);
