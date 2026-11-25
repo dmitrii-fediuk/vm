@@ -1,5 +1,5 @@
 // ==UserScript==
-// @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
+// @author Dmitrii Fediuk (https://github.com/dmitrii-fediuk)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/archive.is/common.js
 // @icon https://archive.is/apple-touch-icon-144x144.png

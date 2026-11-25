@@ -1,5 +1,5 @@
 // ==UserScript==
-// @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
+// @author Dmitrii Fediuk (https://github.com/dmitrii-fediuk)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Grammarly.js
 // @icon https://denali-static.grammarly.com/files/f1d4cabc38892f860a29/apple-touch-icon-v2.png

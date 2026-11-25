@@ -1,5 +1,5 @@
 // ==UserScript==
-// @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
+// @author Dmitrii Fediuk (https://github.com/dmitrii-fediuk)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/lexpera.com.tr.js
 // @icon https://www.lexpera.com.tr/Content/Images/logo-lexpera-icon_launcher_192.jpg

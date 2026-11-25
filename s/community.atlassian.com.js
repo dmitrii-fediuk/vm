@@ -1,6 +1,6 @@
 // 2024-05-29 "Hide the right sidebar from community.atlassian.com": https://github.com/dmitrii-fediuk/adblock/issues/30
 // ==UserScript==
-// @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
+// @author Dmitrii Fediuk (https://github.com/dmitrii-fediuk)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/community.atlassian.com.js
 // @icon https://community.atlassian.com/html/@0601DBABBD46E593B9DCC88D6227A033/assets/apple-touch-icon.svg

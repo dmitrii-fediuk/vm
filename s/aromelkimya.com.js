@@ -1,5 +1,5 @@
 // ==UserScript==
-// @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
+// @author Dmitrii Fediuk (https://github.com/dmitrii-fediuk)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/aromelkimya.com.js
 // @icon https://ideacdn.net/idea/ec/24/themes/selftpl_6249783aec61a/assets/uploads/logo.jpeg

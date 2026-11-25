@@ -1,5 +1,5 @@
 // ==UserScript==
-// @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
+// @author Dmitrii Fediuk (https://github.com/dmitrii-fediuk)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/roi-consulting.com.js
 // @icon https://roi-consulting.com/content/uploads/2020/07/cropped-Favicon512-180x180.png

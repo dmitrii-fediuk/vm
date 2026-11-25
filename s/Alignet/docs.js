@@ -1,5 +1,5 @@
 // ==UserScript==
-// @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
+// @author Dmitrii Fediuk (https://github.com/dmitrii-fediuk)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/Alignet/docs.js
 // @icon https://docs.alignet.com/__assets-5ae8127f-cd07-4738-b1e9-d974e1d377dc/image/Recurso%201@4x.png

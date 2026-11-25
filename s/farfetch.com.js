@@ -1,5 +1,5 @@
 // ==UserScript==
-// @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
+// @author Dmitrii Fediuk (https://github.com/dmitrii-fediuk)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/farfetch.com.js
 // @icon https://cdn-static.farfetch-contents.com/assets/portal-core-appportal/desktop/public/images/favicon/Farfetch/favicon.svg

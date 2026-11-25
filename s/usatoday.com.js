@@ -1,5 +1,5 @@
 // ==UserScript==
-// @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
+// @author Dmitrii Fediuk (https://github.com/dmitrii-fediuk)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/usatoday.com.js
 // @icon https://cdn.brandfetch.io/idJUh3ruU8/w/304/h/304/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B

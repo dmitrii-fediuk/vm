@@ -1,5 +1,5 @@
 // ==UserScript==
-// @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
+// @author Dmitrii Fediuk (https://github.com/dmitrii-fediuk)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/joinembla.com.js
 // @icon https://cdn.prod.website-files.com/624df511f4060c8ee19a17c1/66fcfcab8e17c9868b430fcf_Embla-icon-for-app-store_800x800px%20(2).png

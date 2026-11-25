@@ -1,5 +1,5 @@
 // ==UserScript==
-// @author Dmitrii Fediuk (https://upwork.com/fl/mage2pro)
+// @author Dmitrii Fediuk (https://github.com/dmitrii-fediuk)
 // @grant GM_addStyle
 // @homepageURL https://github.com/dmitrii-fediuk/vm/blob/main/s/GoHighLevel/help.js
 // @icon https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48024308691/fav_icon/rPaMzT7JRUoQCAa706jOEyfYw7eSe5m9gg.png
